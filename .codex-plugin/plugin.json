@@ -1,0 +1,34 @@
+{
+    "name": "partnerships-skills",
+    "version": "0.1.0",
+    "description": "Skills for partner ecosystem operations — affiliate programs, influencer partnerships, channel alliances, joint GTM, partner enablement, and ecosystem measurement.",
+    "author": {
+        "name": "Maya-Beth Finotti",
+        "email": "mbfinotti@gmail.com"
+    },
+    "homepage": "https://github.com/mbfinotti/partnerships-skills",
+    "repository": "https://github.com/mbfinotti/partnerships-skills",
+    "license": "MIT",
+    "keywords": [
+        "partnerships",
+        "affiliate",
+        "influencer",
+        "channel",
+        "alliances",
+        "joint-gtm",
+        "partner-program",
+        "ecosystem",
+        "ai-agent-skills",
+        "agentic",
+        "skills"
+    ],
+    "skills": "./skills/",
+    "interface": {
+        "displayName": "Partnerships Skills",
+        "shortDescription": "AI agent skills for partner ecosystem operations",
+        "developerName": "Maya-Beth Finotti",
+        "category": "Marketing",
+        "capabilities": ["Read"],
+        "websiteURL": "https://github.com/mbfinotti/partnerships-skills"
+    }
+}
