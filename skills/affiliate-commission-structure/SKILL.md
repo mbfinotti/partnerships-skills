@@ -21,7 +21,7 @@ What exists instead is a convergent craft, taught in near-identical form across 
 - Protect with validation and clawback.
 - Reward top performers with tiers.
 
-That derivation is this skill's spine - the rate is computed from margin, never copied from a benchmark.
+That derivation is this skill's spine - compute the rate from margin, never copy it from a benchmark.
 
 ## Interview
 
