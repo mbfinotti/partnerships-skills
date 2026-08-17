@@ -191,7 +191,7 @@ Pass gates come in two parts, because the sequence ships before any activation n
 **Post-launch**, scheduled as the first review gate: do not report a verdict you cannot compute.
 
 - 30-day activation at or above ~18% for B2C, the TrackRev _median_, not its ~31% top quartile; 90-day at or above ~20% for B2B.
-- Track360's "below 30% signals onboarding problems" is a diagnostic trigger for investigating, not a ship gate; used as one it demands top-quartile performance on day one, above the entire 5-20% range this skill opens by citing.
+- Track360's "below 30% signals onboarding problems" is a diagnostic trigger for investigating, not a ship gate; used as one, it demands top-quartile performance on day one, above the entire 5-20% range this skill opens by citing.
 - These are vendor and practitioner numbers, not audited studies: thresholds for iteration, never facts to quote.
 - Below the gate, diagnose the sequence (provisioning, first touch, nudge), not recruitment.
 - If the program has no data yet, say so in the deliverable and set the measurement date; the user may also document why their economics justify a different gate.
