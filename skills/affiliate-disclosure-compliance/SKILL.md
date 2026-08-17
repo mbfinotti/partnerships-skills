@@ -68,7 +68,7 @@ No layer has a discounted version that partially passes, and no cheaper check an
 2. **Wording**: is the label unambiguous? Check against [references/disclosure-wording.md](references/disclosure-wording.md). "#ad", "advertising", "paid partnership with [brand]" pass; "#sp", "#collab", "ambassador", "thanks to [brand]" fail.
 3. **Placement and prominence**: apply the 16 CFR 255.0(f) factors, judged separately for visual, audible, and interactive media, and always uncontradicted by anything else in the content. See [references/us-ftc-standard.md](references/us-ftc-standard.md) for the factor breakdown per media type.
 4. **Per-format requirements**: check the format's row in [references/format-placement-rules.md](references/format-placement-rules.md): in-video and spoken for video, periodic repeats for livestreams, overlays for stories, link-adjacent disclosure for roundups.
-5. **Truncation and portability**: does the disclosure survive the caption "more" cut, embeds, screenshots, and cross-posts? A platform-native paid-partnership label alone is never sufficient: FTC and CMA both say so, and may not travel off-platform.
+5. **Truncation and portability**: does the disclosure survive the caption "more" cut, embeds, screenshots, and cross-posts? A platform-native paid-partnership label alone is never sufficient: FTC and CMA both say so, and the label itself may not travel off-platform.
 6. **Jurisdiction overlays**: Germany's rebuttable payment presumption, France's mandatory "publicité"/"collaboration commerciale" mention, Italy's Digital Chart format rules, the CMA's accepted-label list. See [references/uk-and-eu-rules.md](references/uk-and-eu-rules.md).
 
 ## Ranked Choices: Monitoring, Guidance, Remediation
