@@ -143,7 +143,7 @@ The spec passes only when a program owner can answer at a glance: _is this progr
 
 ## B2B SaaS vs B2C Ecommerce
 
-These apply identically to both, without modification:
+These apply identically to both:
 
 - The comparability contract
 - Metric tiering
