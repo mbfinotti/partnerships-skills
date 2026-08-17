@@ -10,7 +10,7 @@ Every skill produces a **decision-ready artifact**: a scorecard, a policy, a rat
 
 ## Related Collections
 
-Other skills repositories I built for my colleague at Nativa Labs:
+Other skills repositories I built for my colleagues at Nativa Labs:
 
 - [`advertising-skills`](https://github.com/mbfinotti/advertising-skills): Ad platform mastery: _for performance marketers, paid media managers, growth leads_
 - [`revops-skills`](https://github.com/mbfinotti/revops-skills): Revenue operations: _for RevOps managers, sales ops, marketing ops, CRM admins_
@@ -26,7 +26,12 @@ Install every skill in this repo, not just one. Skills here are atomic by design
 npx skills add mbfinotti/partnerships-skills
 ```
 
-**Claude.ai**: add as a plugin marketplace: open **Settings -> Capabilities -> Plugins**, click **Add -> Add marketplace -> Add from a repository**, enter `mbfinotti/partnerships-skills`, then **Sync**.
+**Claude.ai**:
+
+1. add as a plugin marketplace: open **Settings -> Capabilities -> Plugins**
+2. click **Add -> Add marketplace -> Add from a repository**
+3. enter `mbfinotti/partnerships-skills`
+4. then **Sync**
 
 **Claude Code**: install the plugin:
 
