@@ -10,7 +10,7 @@ Every skill produces a **decision-ready artifact**: a scorecard, a policy, a rat
 
 ## Related Collections
 
-Other skills repositories I built for my colleagues at Nativa Labs:
+Other skills repositories I built for my colleagues at **Nativa Labs**:
 
 - [`advertising-skills`](https://github.com/mbfinotti/advertising-skills): Ad platform mastery: _for performance marketers, paid media managers, growth leads_
 - [`revops-skills`](https://github.com/mbfinotti/revops-skills): Revenue operations: _for RevOps managers, sales ops, marketing ops, CRM admins_
