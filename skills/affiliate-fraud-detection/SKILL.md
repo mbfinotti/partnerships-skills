@@ -38,7 +38,7 @@ Four controls compete for the hours before the next payout cycle. Rank them befo
 
 Set the hold window first, then build the rule set; a program missing both has no working control however good its detection gets.
 
-The efficiency order starves the clawback clause set - top of the value axis, bottom of the ratio, so it loses every round. Promote it above everything else when the program sells subscriptions, high-ticket, or delayed-delivery goods, or has already paid out on a chargeback: there the only control that touches money already gone is the one the ratio ranks last.
+The efficiency order starves the clawback clause set - top of the value axis, bottom of the ratio, so it loses every round. Promote it above everything else when the program sells subscriptions, high-ticket, or delayed-delivery goods, or has already paid out on a chargeback: there, the only control that touches money already gone is the one the ratio ranks last.
 
 ## Re-Rank Before Delivering
 
