@@ -180,7 +180,7 @@ Full sourced contrast: [references/b2b-vs-b2c-contrast.md](references/b2b-vs-b2c
 
 ## Failure Modes
 
-Work the table in row order - it is ranked by verdict distortion removed per hour spent, not by how often the failure occurs. The first five rows are re-runs of arithmetic and labelling you already hold, each able to reverse a verdict on its own within a working day. The rest are term-design and program-hygiene fixes measured in quarters: they change the next contract, not the number in this week's memo.
+Work the table in row order - it is ranked by verdict distortion removed per hour spent, not by how often the failure occurs. The first five rows are re-runs of arithmetic and labeling you already hold, each able to reverse a verdict on its own within a working day. The rest are term-design and program-hygiene fixes measured in quarters: they change the next contract, not the number in this week's memo.
 
 | Failure                                          | Fix                                                                                                                                 |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
