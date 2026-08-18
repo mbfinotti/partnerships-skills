@@ -68,7 +68,7 @@ Ask before drafting. One question per message; offer multiple-choice answers whe
 ## Non-negotiables vs preferences - the central mechanism
 
 - Sort every brief item into exactly two buckets: **non-negotiable** (locked, verbatim where required) or **preference** (inspiration; the creator's call). Corroborated across four unrelated publishers under four different names - the single most corroborated idea in creator briefing.
-- Lock the facts, leave the voice (single-vendor phrasing, clearest articulation found). Never lock voice.
+- Lock the facts, leave the voice (single-vendor phrasing, clearest articulation found). Never lock the voice.
   - Facts: claims, prices, dates, specs, regulated statements, disclosure.
   - Voice: framing, hook, pacing, setting, delivery.
 
