@@ -11,7 +11,7 @@ metadata:
 
 Design the overall architecture of a B2B partner/channel program from scratch. This skill is the architect: it decides whether a program should exist at all, which structural components it needs - motions, tiers, economics envelope, governance, horizon - and how they fit together, then hands the detailed design of each component to a specialist skill (see Reference).
 
-The field's best-documented failure cause is structural, not tactical: launching a program to fix a direct motion that is not working. Partners amplify a working motion, they do not fix a broken one. The sequence below runs strategy before structure, and its gate is allowed to answer "not yet."
+The field's best-documented failure cause is structural, not tactical: launching a program to fix a direct motion that is not working. Partners amplify a working motion; they do not fix a broken one. The sequence below runs strategy before structure, and its gate is allowed to answer "not yet."
 
 ## Interview
 
