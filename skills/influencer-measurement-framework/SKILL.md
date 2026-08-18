@@ -74,7 +74,7 @@ Ask before designing anything. One question per message; multiple-choice where p
    efficiency:      promo codes == UTM links > survey > affiliate network > vanity URLs > pixel
    ```
 
-   Codes and links tie because they cover different slices: a code survives being screenshotted or read aloud, a tagged link does not. This order is a default, not a law; it shifts with the brand's existing stack and with who has to build each rung.
+   Codes and links tie because they cover different slices: a code survives being screenshotted or read aloud; a tagged link does not. This order is a default, not a law; it shifts with the brand's existing stack and with who has to build each rung.
 
    Re-rank against the Interview answers, and write in the plan which answer moved which rung:
 
