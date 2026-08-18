@@ -38,7 +38,7 @@ Ask before drafting anything. One question per message; offer multiple-choice an
 The last three questions decide every ranking downstream - sourcing categories, discovery methods, tier attention split, cadence, CTA - so ask them before drafting, never at the moment of choosing.
 
 - A hard near date promotes the fast rungs: competitor-affiliate and SERP sourcing, the 5-touch cadence, the reply-for-info CTA. It demotes complementary vendors and agency/integration partners, which pay a quarter later.
-- A compounding mandate reverses that: complementary vendors, agencies and podcast partners move up, and the long tier-1 pursuit becomes affordable.
+- A compounding mandate reverses that: complementary vendors, agencies, and podcast partners move up, and the long tier-1 pursuit becomes affordable.
 - A low effort ceiling deletes the rungs needing coordination or procurement rather than demoting them - name which ones you dropped and why.
 - Anything already owned re-ranks on top of all of this: a licensed backlink tool promotes link-intersect sourcing, a retained agency promotes the 12-attempt cadence, an existing roster of dormant partners beats a fresh tier-1 build.
 
