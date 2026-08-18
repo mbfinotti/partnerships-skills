@@ -73,7 +73,7 @@ Re-rank against what you already know about this manager before recommending any
 
    **Add next, in this order:**
 
-   - The discovery-platform export third; move it to first whenever the licence already exists - the same query then costs an hour and also supplies the scoring data.
+   - The discovery-platform exports third; move it to first whenever the licence already exists - the same query then costs an hour and also supplies the scoring data.
    - Competitor collaborations, when the pool is still thin after three passes.
    - Social listening, the moment the answers said a repeating program and someone will own the standing job.
 
