@@ -42,7 +42,7 @@ Ask before proposing anything: one question per message, multiple-choice when po
 - Who must sign off: channel chief, CRO, deal desk, legal?
 - Geography - any EU presence? EU rules constrain territory, termination, and pricing clauses (flag for counsel).
 - By what date must the rules be in force - is a live dispute or a deadline driving this, or is it open-ended? (A hard date promotes the fast-acting rungs - a deal-size threshold, double comp, a QBR agenda item - and demotes named-account lists and a Partner Advisory Council, which only pay off over quarters.)
-- A one-off fix for the disputes on the table now, or a compounding governance asset? (Compounding promotes the alignment workshop, the Partner Advisory Council and named accounts. One-off promotes a threshold, published rules and a neutral adjudicator, and nothing beyond them.)
+- A one-off fix for the disputes on the table now, or a compounding governance asset? (Compounding promotes the alignment workshop, the Partner Advisory Council, and named accounts. One-off promotes a threshold, published rules and a neutral adjudicator, and nothing beyond them.)
 - Effort ceiling: who maintains this after publication, for how many hours a quarter, and how much political capital do you hold in the direct sales line? (No list owner rules out the named-account axis. No capital in the sales line means comp neutrality will not clear, so the structural axes carry the whole load.)
 
 ## Workflow
