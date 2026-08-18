@@ -66,7 +66,7 @@ Every method choice - criteria set, weight distribution, gate strictness, where 
 Enter brainstorming mode before scoring anything - never open with a finished table. Run it the way alliance teams actually run candidate selection: a gated debate, not a single answer.
 
 - Ask one question per message throughout; never batch questions.
-- Widen the longlist before narrowing it. Source candidates from customer data, overlap reports, marketplace neighbors and competitor partner directories - inbound requests enter the list but never rank on enthusiasm alone.
+- Widen the longlist before narrowing it. Source candidates from customer data, overlap reports, marketplace neighbors, and competitor partner directories - inbound requests enter the list but never rank on enthusiasm alone.
 
 ### Method choices, ranked
 
