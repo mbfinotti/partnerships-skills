@@ -52,7 +52,7 @@ Ask the first three before anything else - they re-rank every policy position be
   - UK adds ASA/CAP and CMA exposure.
 - Which commission mechanics are already decided elsewhere - rate, recurring vs one-time, validation window, payout threshold? This document references them; it never designs them.
 - Any known abuse concerns?
-- Which brand-keyword-bidding position? Offer the four standard ones in this order, ranked by what each buys per unit of drafting, adjudication and renegotiation:
+- Which brand-keyword-bidding position? Offer the four standard ones in this order, ranked by what each buys per unit of drafting, adjudication, and renegotiation:
 
   - efficiency: strict prohibition > trademark-only ban with a modifier allowance > per-partner tiering > keyword whitelist
   - effort: keyword whitelist (a standing job - per-keyword requests, adjudication, an audit of live ads) > per-partner tiering (a week to define the tiers, then a negotiation with every partner promoted or refused) > trademark-only ban with a modifier allowance (an hour more than the strict ban, since the permitted modifiers have to be enumerated too) > strict prohibition (near-zero - one enumerated clause plus the brand as a negative keyword)
