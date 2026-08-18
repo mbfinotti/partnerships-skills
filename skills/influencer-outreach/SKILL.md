@@ -109,7 +109,7 @@ Scoring a follow-up against the first-touch list would make the gate unpassable 
 6. None of the documented negative signals: generic salutation, emoji-bait subject, fabricated familiarity, feature dump, rate-card dump, aggressive negotiation language, long campaign proposal.
 7. B2B pitches state the business need; B2C pitches state the audience-purchase fit.
 8. No disclosure language, contract terms, or exclusivity demands - documented practitioner workflows place all of these after agreement, never in the cold pitch.
-9. Passed the humanizer and reads human when spoken aloud.
+9. Passes the humanizer and reads human when spoken aloud.
 
 **Every follow-up - items 4, 6, 8 and 9 above, plus these three, 7/7.**
 
