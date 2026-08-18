@@ -86,7 +86,7 @@ Say which of their answers moved which option, so the reordering is auditable ra
    - value: customer interviews > workshop > internal data pull > public sweep
    - efficiency: internal data pull > customer interviews > public sweep > workshop
 
-   The internal data pull and the public sweep tie on effort: each is an hour or two of one person working alone, with nobody's permission to obtain and no calendar to negotiate. They are nowhere near equal on value: the pull wins that axis because only its output is evidence about _your_ customers.
+   The internal data pull and the public sweep tie on effort: each is an hour or two of one person working alone, with no permission to obtain and no calendar to negotiate. They are nowhere near equal on value: the pull wins that axis because only its output is evidence about _your_ customers.
 
    Where you cannot browse the web, the sweep is not cheap but impossible: delete it and say so, rather than listing a source nobody can reach.
 
