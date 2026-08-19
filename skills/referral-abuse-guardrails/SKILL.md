@@ -79,7 +79,7 @@ The last three set the control ordering in Workflow step 4, so ask them before d
 
    Re-rank on the Interview answers and name in the spec which answer moved which control:
 
-   - A hard live-by date promotes caps, hold and eligibility (config, one sprint) and schedules event redesign for the next cycle - never drops it.
+   - A hard live-by date promotes caps, hold, and eligibility (config, one sprint) and schedules event redesign for the next cycle - never drops it.
    - A compounding mandate promotes event design and eligibility memory, which keep working at no ongoing cost.
    - A low effort ceiling deletes manual review and the upper verification rungs from the spec outright rather than parking them at the bottom; record which you deleted and why.
 
