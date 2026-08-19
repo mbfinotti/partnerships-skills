@@ -41,7 +41,7 @@ On a cold start:
 6. "Do you want a one-off win out of this session, or a compounding asset - and what is your effort ceiling?" - (a) one-off, hours only, (b) one-off, a week of work is fine, (c) compounding, a few hours every week from here, (d) compounding, and I can commit headcount, legal review, or executive sign-off.
 7. "What is already decided, and what is still open?" - one line each; decided items are off the table for re-litigation.
 
-Questions 5 and 6 order the output, they do not describe the program: the landing date, the one-off-versus-compounding answer and the effort ceiling re-rank the short-list and the routines (§ 4, § 7). Ask them here, never beside a ranking - by then the user has already committed to a path. Record all three in the artifact.
+Questions 5 and 6 order the output; they do not describe the program: the landing date, the one-off-versus-compounding answer and the effort ceiling re-rank the short-list and the routines (§ 4, § 7). Ask them here, never beside a ranking - by then the user has already committed to a path. Record all three in the artifact.
 
 On a warm start, ask only the session-goal question. Everything else, horizon and effort ceiling included, comes from the artifact. Never re-ask them.
 
