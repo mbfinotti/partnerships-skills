@@ -38,7 +38,7 @@ Ask before sequencing anything. One question per message; offer multiple-choice 
 - B2B, B2C, or hybrid? What do you sell, to whom, at what price band, through which motion?
 - Current ecosystem shape: which partner categories are live today, how many partners per category, and what share are actually active? (An ecosystem map from the mapping sibling is the ideal input.)
 - Which existing category is proven - repeatable joint wins, not just signings? Any category still a half-built stub?
-- Product readiness: API maturity and multi-tenancy, certification/training content, deal registration, margin structure, support model, contracting - which exist today, which are roadmap?
+- Product readiness: API maturity and multi-tenancy, certification/training content, deal registration, margin structure, support model, contracting - which exist today, which are still on the roadmap?
 - Internal capacity: partner managers and their current load, enablement content bandwidth, tooling, program budget?
 - How does your buyer actually buy - self-serve, sales-led, through implementers, through retail or marketplaces?
 - Goal of the expansion: coverage of a segment/geography/journey stage, a whole-product gap, new-logo pipeline, retention/expansion, margin capture?
