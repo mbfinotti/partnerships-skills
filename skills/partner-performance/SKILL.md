@@ -138,7 +138,7 @@ Ship nothing until all five hold; iterate the design until they do:
 
 1. **Every KPI is fully specified**: target, red-flag floor, measurement window, named data source, named owner.
 2. **Nothing is self-reported or gameable** - every scorecard input comes from data the program records and can defend in a dispute.
-3. **Every non-transacting partner type is scoreable** without resold revenue - an ISV, referral, or advisory partner gets a real score, not a blank.
+3. **Every non-transacting partner type is scorable** without resold revenue - an ISV, referral, or advisory partner gets a real score, not a blank.
 4. **Every review ends with owned, dated actions** - and the next review opens by checking them.
 5. **A PAM can prepare a scorecard in the time they actually have** - test the prep workload against the coverage ratio from the Interview.
 
