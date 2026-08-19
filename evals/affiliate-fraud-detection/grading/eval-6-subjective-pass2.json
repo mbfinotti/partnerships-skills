@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Reports results to leadership in commission-loss dollars saved and recovered rather than in vague risk language",
+        "evidence": "The VP-reporting section ('Give your VP the pair, and the honest baseline') does include an explicit dollar metric: 'Reversed-commission share and recovered spend, in dollars' \u2014 the right idea in the right place, and the answer avoids vague risk language throughout ('protecting Northgate's money', 'eliminated over 70% of fraud without hurting profit'). But it is a single unelaborated bullet sitting beneath three rate-based metrics (flagged rate, confirmed-fraud rate, false-positive rate), and the whole answer frames 'what good looks like' as 'a defensible catch rate paired with a low false-pos",
+        "score": 3,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Reports results to leadership in commission-loss dollars saved and recovered rather than in vague risk language",
+        "evidence": "The recommended VP message is framed entirely in non-financial metrics: 'coverage against N known fraud typologies', 'a synthetic test suite', 'a false-positive rate', 'precision on live flags', 'X of Y known typologies covered', '92% of flags upheld on manual review'. The only monetary-adjacent mention is a single unexplained item in a list of leading indicators \u2014 'flagged GMV' \u2014 with no translation into commission dollars at risk, saved, or recovered, no mention of payout holds/clawbacks, and no guidance to quantify the program's value in money. Industry base rates are cited as percentages o",
+        "score": 1,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

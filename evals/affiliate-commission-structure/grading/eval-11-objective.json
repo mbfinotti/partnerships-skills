@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Recomputes cost per acquired customer with the denominator discounted by incrementality rather than using raw attributed orders",
+        "evidence": "\"True cost per incremental order = $86,000 \u00f7 (1,608 to 1,738) = $49.49 \u2013 $53.47\" using the formula \"cost per incremental customer = total spend \u00f7 (orders \u00d7 incrementality share)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies a low incrementality share to the coupon and cashback volume, on the order of one-third",
+        "evidence": "\"Cashback \u00d72 + coupon aggregator | 1,334 | 29\u201334% | 387 \u2013 454\" \u2014 range centers close to one-third (29-34%)",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies a high incrementality share to the content and creator volume, on the order of 80%",
+        "evidence": "\"Content + creators | 1,566 | 78\u201382% | 1,222 \u2013 1,284\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Produces an incrementality-adjusted cost per customer materially above the raw $29.66 figure, in the neighbourhood of $50",
+        "evidence": "\"True cost per incremental order = $86,000 \u00f7 (1,608 to 1,738) = $49.49 \u2013 $53.47\" and \"The midpoint (~$52)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Concludes the program fails the below-CAC leg of the pass threshold once incrementality is applied",
+        "evidence": "\"Compared to your $41 blended CAC, that's not 28% cheaper \u2014 it's roughly 21% to 30% more expensive.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the failure mode: a program can appear to beat CAC on paper while buying demand it already had",
+        "evidence": "\"including orders from shoppers who were already going to buy and just clicked a cashback/coupon link on the way to checkout to collect a rebate. That's last-click credit on demand you already created, not demand the affiliate created.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the second leg of the pass threshold as well, checking total commission against the derived margin ceiling",
+        "evidence": "The transcript never discusses total commission against a margin ceiling or any margin-based threshold \u2014 it only addresses the CAC comparison leg.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that both legs must hold for the structure to pass",
+        "evidence": "No mention of a two-legged pass threshold anywhere in the transcript; only the CAC-vs-cost comparison is discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names rebalancing the partner-type split as the highest-value fix here, because the overpayment is concentrated in coupon and cashback volume",
+        "evidence": "\"Then take the board ask specifically to content and creator partners \u2014 that 54% of volume, at 78-82% incremental, is the part of the program actually beating your other channels, and a budget increase concentrated there is a defensible ask\" combined with \"Cap or gate the two cashback partners and the coupon aggregator now\" as the top-ordered fix, framed around shifting the mix rather than cutting rates.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places cutting the headline rate last among the fixes",
+        "evidence": "The fix list (\"Cap or gate...\", \"Run the holdout...\", \"Then take the board ask...\", \"If the holdout confirms...\") never mentions cutting the headline commission rate at all, let alone placing it last; the closest item is a \"straight rate cap below content/creator rates\" for cashback partners, which is listed first, not last.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not offer a recurring-duration or taper lever, since this is a one-shot per-order ecommerce program",
+        "evidence": "No mention of recurring commission duration, cookie duration taper, or any subscription-style recurring-cap lever appears anywhere in the fixes section (section 5) or elsewhere.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Prescribes a 30-day holdout on the top coupon and cashback partners to confirm the incrementality assumption rather than leaving it as an estimate",
+        "evidence": "\"Run a 30-day holdout on the two cashback partners and the coupon aggregator before the board date: pause them, watch whether total site conversion volume holds flat...or drops\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Recomputes cost per acquired customer with the denominator discounted by incrementality rather than using raw attributed orders",
+        "evidence": "The transcript never recomputes a numeric CPO adjusted for incrementality; it only states 'You cannot know the true CPO of \"affiliate as a channel\" without an incrementality estimate' and asks for the check to be run before presenting, without itself producing an adjusted figure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies a low incrementality share to the coupon and cashback volume, on the order of one-third",
+        "evidence": "No specific incrementality percentage (like ~33%) is applied to cashback/coupon volume anywhere; the transcript only qualitatively describes it as having 'the weakest incrementality of any affiliate sub-channel' without quantifying it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies a high incrementality share to the content and creator volume, on the order of 80%",
+        "evidence": "The transcript describes content/creator orders as 'plausibly incremental, closer to genuine discovery/acquisition' but assigns no numeric incrementality percentage such as ~80%.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Produces an incrementality-adjusted cost per customer materially above the raw $29.66 figure, in the neighbourhood of $50",
+        "evidence": "No adjusted CPO dollar figure is computed anywhere in the transcript; the $29.66 figure is only qualitatively challenged, not replaced by a recalculated number.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Concludes the program fails the below-CAC leg of the pass threshold once incrementality is applied",
+        "evidence": "There is no 'pass/fail threshold' framework invoked at all; the transcript instead says the 28%-cheaper number 'may still turn out to be directionally true for the content/creator half' and never declares a formal fail verdict on a CAC threshold.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the failure mode: a program can appear to beat CAC on paper while buying demand it already had",
+        "evidence": "The transcript states cashback/coupon clicks mean 'the sale gets attributed \u2014 and paid a commission \u2014 as if the affiliate created the purchase' and 'a meaningful share of these would have converted anyway through another channel that you already paid for once. You may be double-paying for the same order.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the second leg of the pass threshold as well, checking total commission against the derived margin ceiling",
+        "evidence": "The transcript contains no discussion of total commission spend versus a margin ceiling; it only discusses spend-share by partner type as a missing data point (item 2), not a margin-based threshold check.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that both legs must hold for the structure to pass",
+        "evidence": "No dual-leg pass criteria (CAC leg + margin leg) are articulated anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names rebalancing the partner-type split as the highest-value fix here, because the overpayment is concentrated in coupon and cashback volume",
+        "evidence": "The recommended reframe is: 'Reframe the board ask as \"double the budget for content/creator, which is showing $X CPO and Y% new-customer rate\" rather than \"double affiliate\"' \u2014 i.e., shifting the mix toward content/creator away from cashback/coupon, which the transcript identifies as the concentrated overpayment source.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places cutting the headline rate last among the fixes",
+        "evidence": "The transcript's 'What I'd do before presenting' list (items 1-4: get spend-by-partner-type, compute CPO by segment, run incrementality check, reframe the ask) never mentions cutting the headline commission rate at all, so no such ordering exists.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not offer a recurring-duration or taper lever, since this is a one-shot per-order ecommerce program",
+        "evidence": "The transcript's fixes list contains no mention of recurring commission duration, tapering, or subscription-style commission levers \u2014 all recommendations concern spend attribution, segment CPO, incrementality testing, and reframing the ask.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Prescribes a 30-day holdout on the top coupon and cashback partners to confirm the incrementality assumption rather than leaving it as an estimate",
+        "evidence": "Item 3 states: 'Run even a rough incrementality check on the top 2-3 cashback/coupon partners (a 2-4 week holdout in a subset of geos/segments is the standard approach)' \u2014 this specifies a holdout test (2-4 weeks, close to but not exactly stated as '30-day') targeted at the top cashback/coupon partners.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

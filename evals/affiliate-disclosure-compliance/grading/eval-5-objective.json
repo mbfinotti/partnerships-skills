@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Does not accept that the FTC endorsement framework is inapplicable simply because the audience is B2B",
+        "evidence": "\"**No \u2014 do not assume B2B exempts either program.**\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the FTC Guides never say \"B2B\" or \"consumer-only\", treats their application to a business audience as by-analogy rather than settled, and attaches a [COUNSEL] marker",
+        "evidence": "\"the Guides (16 CFR Part 255) never say 'consumer-only.' ... Applying Part 255 to B2B is by-analogy, not textually certain \u2014 `[COUNSEL: definitive B2B-scope opinion for Part 255 application to Ledgerwise's programs]`\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the FTC's deception theory reaches business audiences through FTC Act Section 5 rather than through Part 255",
+        "evidence": "\"B2B changes *how* the case gets argued (Section 5 / by-analogy for the softer Guides provisions), not *whether* either program is in scope\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that employees must disclose the employment relationship inside the post itself and that naming the employer on the profile or headline is not enough, citing 16 CFR 255.5",
+        "evidence": "\"16 CFR 255.5: listing the employer on a profile page is not enough \u2014 disclosure belongs in the post itself\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the $50 gift card as an incentive requiring clear and conspicuous disclosure on each review under 16 CFR 255.2",
+        "evidence": "\"Per-review incentive disclosure PASS ... 16 CFR 255.2\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Raises the aggregate-rating trap: per-review disclosure does not cure a displayed average materially inflated by incentivized reviews, and the aggregate rating then needs its own clear-and-conspicuous disclosure",
+        "evidence": "\"16 CFR 255.2 aggregate-rating trap: 'even when every incentivized review discloses, the practice can still deceive if those reviews materially raise the displayed average'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Connects the 4.1 to 4.6 movement in the displayed average directly to that aggregate-rating exposure",
+        "evidence": "\"Displayed average moved 4.1 \u2192 4.6 over 8 months while ~180 incentivized reviews were collected \u2014 a material, on-its-face inflation\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags insider-review exposure under 16 CFR 465.5 for reviews by officers, managers, employees, or their immediate family without disclosure of the relationship",
+        "evidence": "Only 16 CFR 465.7 (suppression) is cited for the review program; 465.5 insider-review exposure is never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that Part 465 is a Rule carrying direct civil-penalty exposure without a prior Notice of Penalty Offenses, and weights those findings as higher severity than Part 255 Guides findings",
+        "evidence": "\"it converts into Part-465 territory (direct penalties, no Notice needed) the moment suppression or selective collection is added to the picture\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the monthly leaderboard and vouchers make this active encouragement, so the company owes monitoring of the resulting posts rather than only a written policy",
+        "evidence": "\"A monthly leaderboard with a cash-value prize is active encouragement, not a passive policy | \u00a7255.5: 'an employer that actively encourages reviews becomes responsible for monitoring them'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes Germany's UWG expressly protects other market participants, so the German portion of the audience is not excused by the buyers being businesses",
+        "evidence": "\"Germany is not ambiguous at all. UWG \u00a75a(4) protects consumers *and* 'other market participants' \u2014 Germany's rule reaches B2B audiences on its own terms.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Supplies ready-to-use B2B disclosure lines, including an employee post opener naming the employment relationship and a reviewer line naming the gift card",
+        "evidence": "\"'I work at Ledgerwise. [rest of post]'\" and \"'X of our reviews were submitted by customers who received a $50 gift card, which may affect this average.'\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Does not accept that the FTC endorsement framework is inapplicable simply because the audience is B2B",
+        "evidence": "\"No \u2014 don't file that assumption away as settled. B2B status doesn't exempt you from either the FTC Endorsement Guides or the FTC's Trade Regulation Rule...\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the FTC Guides never say \"B2B\" or \"consumer-only\", treats their application to a business audience as by-analogy rather than settled, and attaches a [COUNSEL] marker",
+        "evidence": "No '[COUNSEL]' marker is used anywhere, and the transcript never states that the Guides omit the terms 'B2B' or 'consumer-only'.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the FTC's deception theory reaches business audiences through FTC Act Section 5 rather than through Part 255",
+        "evidence": "\"Section 5 of the FTC Act reaches 'unfair or deceptive acts or practices in or affecting commerce' generally \u2014 it isn't restricted to consumer transactions.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that employees must disclose the employment relationship inside the post itself and that naming the employer on the profile or headline is not enough, citing 16 CFR 255.5",
+        "evidence": "The substantive point is made ('A headline that already says Ledgerwise... is not treated as a substitute for an in-post disclosure') but only '16 CFR Part 255' generally is cited, not the specific section 255.5.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the $50 gift card as an incentive requiring clear and conspicuous disclosure on each review under 16 CFR 255.2",
+        "evidence": "The $50 card is discussed as an incentive needing disclosure, but 16 CFR 255.2 is never cited; only Part 465 (reviews rule) and Part 255 generally are referenced.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Raises the aggregate-rating trap: per-review disclosure does not cure a displayed average materially inflated by incentivized reviews, and the aggregate rating then needs its own clear-and-conspicuous disclosure",
+        "evidence": "The rating jump is discussed only in terms of 'review gating' solicitation bias, not as a distinct aggregate-rating-disclosure requirement separate from per-review disclosure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Connects the 4.1 to 4.6 movement in the displayed average directly to that aggregate-rating exposure",
+        "evidence": "The 4.1\u21924.6 jump is connected to the review-gating theory ('exactly the pattern that invites that question'), not to an aggregate-rating-disclosure theory.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags insider-review exposure under 16 CFR 465.5 for reviews by officers, managers, employees, or their immediate family without disclosure of the relationship",
+        "evidence": "No mention of insider/employee reviews or 16 CFR 465.5 anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that Part 465 is a Rule carrying direct civil-penalty exposure without a prior Notice of Penalty Offenses, and weights those findings as higher severity than Part 255 Guides findings",
+        "evidence": "Part 465 is called 'the bigger exposure' but the civil-penalty/Notice-of-Penalty-Offenses distinction is never stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the monthly leaderboard and vouchers make this active encouragement, so the company owes monitoring of the resulting posts rather than only a written policy",
+        "evidence": "The leaderboard/voucher is treated as needing its own disclosure ('That needs its own disclosure too'), not framed as triggering a monitoring obligation.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes Germany's UWG expressly protects other market participants, so the German portion of the audience is not excused by the buyers being businesses",
+        "evidence": "\"Germany's UWG... explicitly protects competitors and other market participants, not just consumers \u2014 it has no B2B exemption.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Supplies ready-to-use B2B disclosure lines, including an employee post opener naming the employment relationship and a reviewer line naming the gift card",
+        "evidence": "An employee line is given ('I work at Ledgerwise' / '#LedgerwiseEmployee') but no ready reviewer line naming the gift card is supplied.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

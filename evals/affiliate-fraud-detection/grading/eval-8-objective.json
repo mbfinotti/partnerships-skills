@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that a client-side pixel cannot distinguish a stuffed cookie from an organic one, and that server-side signal capture is required",
+        "evidence": "\"per the taxonomy, 'a client-side pixel cannot distinguish a stuffed cookie from an organic one.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the tell of commissions landing on customers with no meaningful referral touchpoint",
+        "evidence": "\"'Tell: commissions on customers with no meaningful referral touchpoint.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the tell of near-zero time between the recorded click and the cookie being set",
+        "evidence": "'Near-zero time between click and cookie-set... corroborates stuffing'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies the cookie-drop reproduction test: clean browser, visit the suspect property, record whether an affiliate cookie is set without any click",
+        "evidence": "'Clean/incognito browser, visit DealBurrow's site... check whether your affiliate cookie sets without a genuine click'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires a timestamped redirect-chain capture along with the tracking URLs",
+        "evidence": "'redirect-chain capture w/ timestamps (once run)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires server-log review for hidden iframe loads and referrer patterns",
+        "evidence": "'Pull whatever server-side logs exist... referrer headers, redirect chains' and 'hidden iframes, invisible pixels, injected redirects'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Compares the traffic source DealBurrow declared at application against the referrers actually observed",
+        "evidence": "'Cross-check declared vs. observed. What traffic source did DealBurrow declare at application... vs. what your logs actually show'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks for typosquatted or misspelled lookalike brand domains and unknown intermediate domains in the redirect chain",
+        "evidence": "'redirect chain through unfamiliar intermediate domains' and citation of '84% of stuffed cookies... arrived via typosquat/intermediate domains'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites Chachra, Savage & Voelker (IMC 2015): 84% of stuffed cookies in their crawl arrived via typosquatted or intermediate domains and over 91% via redirects",
+        "evidence": "'Chachra, Savage & Voelker, IMC 2015: 84% of stuffed cookies in their sample arrived via typosquat/intermediate domains, 91%+ via redirects'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the under-2-second time-on-site-after-cookie-set threshold and tags it as an academic result rather than a vendor heuristic",
+        "evidence": "The transcript does not state the specific <2 second time-on-site threshold or an [ACADEMIC] tag anywhere in this section.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that cookie stuffing is prosecutable as US federal wire fraud and that the eBay cases are the only adjudicated dollar figures, including roughly $28M in commissions drawing five months of federal prison and a $25,000 fine, and a second defendant sentenced to fifteen months within about $5.2M paid",
+        "evidence": "'the eBay cases are the only adjudicated numbers in this space: $28M/5 months+$25K fine, and $5.2M/15 months for a second operator'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Warns against alleging a crime without both a clear contract violation and technical evidence, and says to enforce the contract instead",
+        "evidence": "The transcript cautions against premature bans and the word 'fraud' but never frames this as 'enforce the contract instead' or requires a 'clear contract violation' specifically.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Assigns the case to Hold & Investigate with commissions throttled to zero and a dossier opened, rather than immediate suspension",
+        "evidence": "'Throttle DealBurrow's pending commissions to zero. Don't ban yet' and 'Right now: Hold & Investigate'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that a client-side pixel cannot distinguish a stuffed cookie from an organic one, and that server-side signal capture is required",
+        "evidence": "'The root cause is that a client-side pixel with pure \"last cookie wins\" logic trusts any cookie present at conversion... Server-side conversion validation: fire the conversion event from your backend... this closes the door on pixel-only manipulation.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the tell of commissions landing on customers with no meaningful referral touchpoint",
+        "evidence": "'\"We've never seen them send traffic\" \u2014 because they don't send traffic... ask the network or DealBurrow directly which page on your site the click landed on. If they can't produce one, that's your answer.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the tell of near-zero time between the recorded click and the cookie being set",
+        "evidence": "'Click timestamp vs. order timestamp \u2014 genuine referral clicks happen minutes to days before purchase; stuffed cookies often land seconds before checkout, or exactly at checkout page load.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies the cookie-drop reproduction test: clean browser, visit the suspect property, record whether an affiliate cookie is set without any click",
+        "evidence": "The described test instead installs extensions and visits the merchant's own site via organic search ('search your brand name on Google, click the organic result, go through checkout') \u2014 not visiting DealBurrow's own property directly.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires a timestamped redirect-chain capture along with the tracking URLs",
+        "evidence": "Not mentioned in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires server-log review for hidden iframe loads and referrer patterns",
+        "evidence": "Only client-side DevTools network inspection is proposed, not server-log review.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Compares the traffic source DealBurrow declared at application against the referrers actually observed",
+        "evidence": "The transcript checks 'approved promotional methods in your program terms' for disclosure violations, not a declared-vs-observed referrer comparison.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Checks for typosquatted or misspelled lookalike brand domains and unknown intermediate domains in the redirect chain",
+        "evidence": "Not mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites Chachra, Savage & Voelker (IMC 2015): 84% of stuffed cookies in their crawl arrived via typosquatted or intermediate domains and over 91% via redirects",
+        "evidence": "No such citation appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies the under-2-second time-on-site-after-cookie-set threshold and tags it as an academic result rather than a vendor heuristic",
+        "evidence": "No such specific threshold or academic tagging appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that cookie stuffing is prosecutable as US federal wire fraud and that the eBay cases are the only adjudicated dollar figures, including roughly $28M in commissions drawing five months of federal prison and a $25,000 fine, and a second defendant sentenced to fifteen months within about $5.2M paid",
+        "evidence": "Not mentioned in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Warns against alleging a crime without both a clear contract violation and technical evidence, and says to enforce the contract instead",
+        "evidence": "'Terminate for terms violation (undisclosed traffic source / no bona fide referral) rather than needing to \"prove\" malicious intent \u2014 absence of a real click is enough on its own.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Assigns the case to Hold & Investigate with commissions throttled to zero and a dossier opened, rather than immediate suspension",
+        "evidence": "'Hold, don't pay, DealBurrow's pending commissions while you investigate' precedes any suspension recommendation, which only comes 'Once you have even 5\u201310 confirmed cases.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

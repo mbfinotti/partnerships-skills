@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Does not present the cost-of-sale drop as a genuine improvement or trend.",
+        "evidence": "The response opens by declaring two of three numbers \"artifacts of the window change, not genuine improvement.\" It labels Q1 (15.1%) vs Q2 (11.4%) an \"invalid comparison, don't headline as 'improvement,'\" explaining Q1 is a blended 30/60-day methodology and that \"some \u2014 possibly most \u2014 of the 15.1% \u2192 11.4% drop could simply be the window doing its job, not the program getting cheaper.\" It separately kills the August \"best month\" claim as an immaturity artifact (zero August orders have completed the 60-day window as of Sep 12). Concrete action item: \"Kill the Q1\u2192Q2 improvement headline,\" replac",
+        "score": 5,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Does not present the cost-of-sale drop as a genuine improvement or trend.",
+        "evidence": "The response opens by refusing the framing outright \u2014 \"the pattern you're describing is close to a textbook case of a metric artifact, not a real efficiency gain\" \u2014 and sustains it throughout: Q2's 11.4% is called \"very likely a right-censored, incomplete number\"; August's 9.2% is \"not your best month; it's your least complete month\" and is expected to climb. The closing restates the window change as \"a strong, specific alternative explanation for the whole trend,\" and it explicitly blocks acting on the number (\"Don't lock in a target derived from a number that's partly a measurement artifact\"",
+        "score": 5,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

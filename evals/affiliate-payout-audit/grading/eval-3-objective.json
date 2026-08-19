@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that locked means the record cannot be reversed on-platform, not that the amount is no longer owed",
+        "evidence": "\"'The platform won't let me touch the record' is expected behavior at that state, not a bug to route around \u2014 locked/paid means no on-platform reversal, not 'no longer owed.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Books the post-lock refund as a forward-period negative adjustment carried against future earnings rather than dropping the line",
+        "evidence": "The transcript instead absorbs it: \"Action: absorb $148.80, documented against this affiliate,\" explicitly deleting offset as an option rather than booking a forward-period adjustment.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Establishes whether the platform carries negative partner balances at all before recommending an offset",
+        "evidence": "Offset is deleted outright due to terms rather than assessed via balance-carrying capability; negative balances are only mentioned conditionally for a future reserve/holdback (\"if your platform supports negative balances at all going forward\").",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Checks whether the published terms authorize reclaiming a paid commission",
+        "evidence": "\"Your platform's terms ('once paid, cannot be taken back under any circumstances') are the PartnerStack-style clause the skill treats as a hard stop\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks whether the partner is still earning enough for an offset to actually land",
+        "evidence": "\"she's churned out with zero balance, so offset has no future earnings to land against\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes the offset rung for PineRidge Deals because she has churned out with no future earnings, rather than ranking it lower on the menu",
+        "evidence": "\"Same rung, reinforced two ways at once: she's churned out with zero balance, so offset has no future earnings to land against even if terms allowed it\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes direct recovery outright, citing both the terms forbidding reclaim and the absence of a finance co-signer this cycle",
+        "evidence": "\"No finance co-signer this cycle independently deletes direct recovery on its own, terms aside.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Reports the $3,110 as absorbed and quantified, never as recovered",
+        "evidence": "\"Action: absorb $3,110, documented.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Presents absorb-and-document and fix-it-forward as the remaining menu, naming concrete forward controls such as a longer validation window, a reserve or holdback, a shared idempotency key, or a repriced rate card",
+        "evidence": "\"Lengthen the validation/locking window...\" and \"Add a reserve/holdback (retain a small % of each payout against late reversals)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Promotes fix-it-forward to the top when post-lock refunds are routine rather than exceptional, or when the same finding class appears in two consecutive runs",
+        "evidence": "The transcript promotes fix-it-forward because \"Both errors are the same error class\" within the same run, not because of routineness across runs or two consecutive runs of the same finding.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Computes the order 88412 commission at risk as $148.80 from the stated $1,240 order and 12% rate",
+        "evidence": "\"Order 88412 \u2014 $148.80 (12% of $1,240)\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that locked means the record cannot be reversed on-platform, not that the amount is no longer owed",
+        "evidence": "\"The platform refusing to let you edit that record isn't a bug you need to route around... The correct fix for a paid-in-error commission is always a separate reversing/adjusting entry, not a rewrite of history. So 'I can't touch the record' is not actually a blocker.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Books the post-lock refund as a forward-period negative adjustment carried against future earnings rather than dropping the line",
+        "evidence": "The transcript only asks 'does this affiliate have other active orders/future payouts you could net against?' conditionally, then ultimately recommends \"Log it as a return-driven commission write-off, not a silent loss\" \u2014 a write-off, not a forward negative adjustment.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Establishes whether the platform carries negative partner balances at all before recommending an offset",
+        "evidence": "No check of whether the platform even supports negative balances is mentioned; only whether the affiliate has 'other active orders/future payouts' is raised.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Checks whether the published terms authorize reclaiming a paid commission",
+        "evidence": "\"Your own terms bar it. You wrote 'once paid, never taken back, no exceptions.'\" and for order 88412: \"'paid commissions cannot be taken back under any circumstances' plausibly also blocks offsetting\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks whether the partner is still earning enough for an offset to actually land",
+        "evidence": "\"There's nothing to net. Zero balance, no future commissions, no relationship left to leverage.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes the offset rung for PineRidge Deals because she has churned out with no future earnings, rather than ranking it lower on the menu",
+        "evidence": "\"There's nothing to net. Zero balance, no future commissions... This isn't a collections problem with a soft option \u2014 it's already a bad debt.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes direct recovery outright, citing both the terms forbidding reclaim and the absence of a finance co-signer this cycle",
+        "evidence": "Direct recovery is ruled out citing terms, zero balance, and economics \u2014 the absence of a finance co-signer is discussed separately, only regarding documentation/paper-trail timing, not as a reason to delete recovery.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Reports the $3,110 as absorbed and quantified, never as recovered",
+        "evidence": "\"Eat it, and don't attempt collection.\" ... \"Combined exposure this cycle: $3,258.80.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Presents absorb-and-document and fix-it-forward as the remaining menu, naming concrete forward controls such as a longer validation window, a reserve or holdback, a shared idempotency key, or a repriced rate card",
+        "evidence": "\"the fix isn't recovering this $148.80, it's inserting a hold/validation step between 'commission locked' and 'payout released' long enough to catch refunds\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Promotes fix-it-forward to the top when post-lock refunds are routine rather than exceptional, or when the same finding class appears in two consecutive runs",
+        "evidence": "No discussion of run-over-run recurrence or promoting fix-it-forward based on frequency across audits.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Computes the order 88412 commission at risk as $148.80 from the stated $1,240 order and 12% rate",
+        "evidence": "\"Order 88412 ($148.80 commission on a $1,240 order, 12% flat)\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

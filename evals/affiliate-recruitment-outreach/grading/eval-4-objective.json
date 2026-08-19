@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Recommends the 5-touch cadence over roughly 4 weeks as the default for this list, not the 12-attempt cadence",
+        "evidence": "'Short answer: No \u2014 run 5 touches over ~4 weeks, not the 12-attempt cadence'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Justifies the choice on manager hours rather than on which approach sounds more thorough",
+        "evidence": "'You have one scarce resource: hours, not prospects... Efficiency is the only axis that matters when hours are the ceiling.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the 12-attempt cadence costs roughly two and a half times the sends",
+        "evidence": "'it multiplies total sends by roughly 2.5x'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the per-attempt channel hunt (finding a DM handle or contact form for each attempt) as an additional cost of the 12-attempt cadence",
+        "evidence": "'every attempt that switches channel also costs a lookup (find the LinkedIn profile, find the contact form) before you can even send.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Characterizes the 12-attempt cadence as a standing job rather than a campaign",
+        "evidence": "'That turns a campaign into a standing job \u2014 which is exactly what you don't have capacity for.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Acknowledges the 12-attempt cadence wins on value (share of the list eventually reached) while also topping the effort line, and explains that is why it loses every efficiency round",
+        "evidence": "Table shows '12 attempts' winning 'Value' and costing more on 'Effort,' with text concluding 'the article isn't wrong that 12 attempts reaches more of the list eventually. It's answering a different question.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the condition that would promote the 12-attempt cadence anyway: tier-1 prospects the manager specifically names and has standing weekly hours for, or a retained agency absorbing the per-attempt hours",
+        "evidence": "'Only for a small, named tier-1 subset \u2014 and only if you carve out hours for it separately from your 4-hour weekly budget.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies the 5-touch spacing as approximately day 0, 3, 7, 14 and 21-28",
+        "evidence": "Table: touches at Day 0, 3-7, 7-14, 14-21, 21-28.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the fifth touch is a mandatory breakup message, and that it is what pushes the window past three weeks",
+        "evidence": "The table labels touch 5 'breakup' but the transcript never states this is what pushes the window past three weeks.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States a single unanswered touch means the prospect is busy, not uninterested",
+        "evidence": "No such statement appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "For any prospect with no documented consent basis, states no touch count is lawful and passive recruitment is the route, rather than prescribing a shortened version of either cadence",
+        "evidence": "The transcript only says such prospects 'get treated like Canada/Germany (consent required, no cold email) rather than blanket \"UK is fine\"' without stating that no touch count is lawful or routing them to passive recruitment explicitly.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Recommends the 5-touch cadence over roughly 4 weeks as the default for this list, not the 12-attempt cadence",
+        "evidence": "The proposed default only reaches 'Day 14: email 3 (breakup/last call)' plus a conditional contact-form fallback \u2014 four dated touches over two weeks, not clearly '5-touch over ~4 weeks' as specified.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Justifies the choice on manager hours rather than on which approach sounds more thorough",
+        "evidence": "'180 prospects \u00d7 12 touches = 2,160 touches over ~13 weeks \u2248 166/week \u2248 1.4 min/touch at 4h/week. That only works if every touch is a one-click template.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the 12-attempt cadence costs roughly two and a half times the sends",
+        "evidence": "The transcript gives the raw total (2,160 touches) but never computes or states a ratio comparing it to the alternative cadence's touch count.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the per-attempt channel hunt (finding a DM handle or contact form for each attempt) as an additional cost of the 12-attempt cadence",
+        "evidence": "No mention of the cost of finding a DM handle or contact form per attempt; the cited costs are LinkedIn caps and contact-form spam optics instead.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Characterizes the 12-attempt cadence as a standing job rather than a campaign",
+        "evidence": "No such framing appears; the critique is phrased in terms of time budget and channel limits only.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Acknowledges the 12-attempt cadence wins on value (share of the list eventually reached) while also topping the effort line, and explains that is why it loses every efficiency round",
+        "evidence": "The transcript never frames the trade-off as 'wins on value, loses on efficiency'; it simply states the full rotation 'doesn't fit your time budget or the actual response curve.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the condition that would promote the 12-attempt cadence anyway: tier-1 prospects the manager specifically names and has standing weekly hours for, or a retained agency absorbing the per-attempt hours",
+        "evidence": "'Reserve the long 8\u201312 touch, multi-month treatment for a small top tier (~20\u201330 highest-value sites) or anyone who shows a signal' names a top-tier condition but never ties it to standing weekly hours or a retained agency.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Specifies the 5-touch spacing as approximately day 0, 3, 7, 14 and 21-28",
+        "evidence": "The actual spacing given is 'Day 0 / Day 4 / Day 7 / Day 14', not day 3 or day 21-28.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the fifth touch is a mandatory breakup message, and that it is what pushes the window past three weeks",
+        "evidence": "The breakup ('email 3 breakup/last call') is placed at Day 14, the fourth listed touch, and the sequence never extends past 2 weeks in the given schedule.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States a single unanswered touch means the prospect is busy, not uninterested",
+        "evidence": "No such statement appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "For any prospect with no documented consent basis, states no touch count is lawful and passive recruitment is the route, rather than prescribing a shortened version of either cadence",
+        "evidence": "The transcript contains no discussion of consent basis or lawful outreach at all \u2014 it is purely about touch-count/time budgeting.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

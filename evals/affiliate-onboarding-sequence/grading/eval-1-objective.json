@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Fixes the activation event and its measurement window (for example first tracked sale within 30 days of approval) before designing any touch",
+        "evidence": "'Activation : first tracked sale within 30 days of approval' appears as the first line of the SEQUENCE PLAN, before Routing/Touches.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the 2-3 business day manual link and code delivery as a day-0 provisioning failure that must be fixed before the sequence launches, not as a touch inside the sequence",
+        "evidence": "'Your VA hand-building links and codes with a 2-3 day turnaround is the single biggest leak in this program... Do this before launching the sequence below'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Contrasts auto-provisioning at approval (affiliate ready to promote in under an hour) with manual provisioning taking 1-3 business days",
+        "evidence": "T1 trigger is 'approval, within minutes' via auto-provisioned link, contrasted with the VA's '2-3 day turnaround' that is 'blocked until provisioning fix ships'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines the requested personal call with every new affiliate",
+        "evidence": "'That's ~38 hours/week \u2014 a full-time job... A tier nobody can staff isn't a slower version of the plan; it's a promise you'll quietly stop keeping'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes the high-touch tier from the menu entirely rather than listing it as a lower-priority or later option",
+        "evidence": "'high-touch (live calls) deleted from the default menu, reserved as an opt-in for the hybrid segment only'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Justifies that removal by the absence of a named affiliate manager and the roughly 400 approvals per month volume",
+        "evidence": "'400/mo, no named AM -> high-touch (live calls) deleted from the default menu'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes the whole intake to a self-serve tier (portal plus automated drip) as the floor",
+        "evidence": "'coupon-deal -> self-serve | social creator -> self-serve, hybrid above your reach threshold | newsletter owner -> self-serve, hybrid above your reach threshold'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the tier efficiency ordering explicitly, with self-serve ahead of hybrid ahead of high-touch on activation bought per manager hour",
+        "evidence": "No sentence states this ordering explicitly in terms of activation bought per manager hour; only volume math and staffing arguments are given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that self-serve leads on that ratio despite converting worst per affiliate, not because it converts best",
+        "evidence": "Not stated anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places the tracking link and coupon code in the first lines of touch 1",
+        "evidence": "T1 draft opens with 'Your code: **LUMAFLOR-[CODE]**' and 'Your link: **[tracking link]**' before the greeting.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps touch 1 to one action and roughly 300 words or fewer",
+        "evidence": "T1 draft asks multiple things: 'drop them into your... post', plus 'add your payout details here so nothing gets held up later [link]', plus disclosure \u2014 more than a single action despite being under 300 words.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives coupon-deal, social creator, and email-list owner archetypes different first actions and leading assets, without ranking those archetypes against each other",
+        "evidence": "'coupon sites -> code-page template; creators -> caption pack + disclosure line + product shots; newsletter owners -> one ready-cut email' \u2014 no ranking implied.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Delivers a SEQUENCE PLAN artifact carrying at least Activation, Routing, Touches, Activation nudge, Never-activated, Exits, and KPIs lines",
+        "evidence": "The plan has Activation, Routing, Touches, Activation nudge, Never-activated, and KPIs lines, but no labeled 'Exits' line anywhere in the SEQUENCE PLAN block.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Fixes the activation event and its measurement window (for example first tracked sale within 30 days of approval) before designing any touch",
+        "evidence": "The transcript opens with capacity math ('19 new affiliates a day') and segmentation, never defining an activation event or measurement window before designing the email sequence.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags the 2-3 business day manual link and code delivery as a day-0 provisioning failure that must be fixed before the sequence launches, not as a touch inside the sequence",
+        "evidence": "'Kill the 2\u20133 day delay first ... This matters more than the email copy ... it's what makes Email 1 below possible at all.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Contrasts auto-provisioning at approval (affiliate ready to promote in under an hour) with manual provisioning taking 1-3 business days",
+        "evidence": "'it turns \"2-3 business days\" into \"instant,\" and it's what makes Email 1 below possible at all.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines the requested personal call with every new affiliate",
+        "evidence": "'A genuine personal call with every one of them ... That's not white-glove, that's a call center, and it'll die in three weeks. Fix: ... make the \"personal call\" tiered and opt-in instead of mandatory-for-all.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes the high-touch tier from the menu entirely rather than listing it as a lower-priority or later option",
+        "evidence": "Tier A explicitly keeps 1:1 calls: 'Tier A \u2014 book a call ... Realistically 10\u201315% of 400 ... That's sustainable.' The tier is kept, not removed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Justifies that removal by the absence of a named affiliate manager and the roughly 400 approvals per month volume",
+        "evidence": "No affiliate manager is discussed; calls are assigned to 'You' and the VA, and the tier is kept rather than removed, so no such justification for removal exists.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Routes the whole intake to a self-serve tier (portal plus automated drip) as the floor",
+        "evidence": "'Sent to all approved affiliates (Tier A and B both get this \u2014 the call is additive, not a replacement).'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the tier efficiency ordering explicitly, with self-serve ahead of hybrid ahead of high-touch on activation bought per manager hour",
+        "evidence": "No such ratio-based ordering is stated anywhere in the transcript; tiers are justified by follower/DA thresholds, not an activation-per-hour ranking.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that self-serve leads on that ratio despite converting worst per affiliate, not because it converts best",
+        "evidence": "Not discussed; the transcript never compares per-affiliate conversion quality across tiers.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places the tracking link and coupon code in the first lines of touch 1",
+        "evidence": "Email 1 outline: '- Congrats, welcome to the Lumaflor affiliate program - Your tracking link: [auto-generated] - Your coupon code: [auto-generated]'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps touch 1 to one action and roughly 300 words or fewer",
+        "evidence": "Email 1 includes multiple asks: 'Link to a brand asset folder ... One clear next action: \"Post your first link this week\"' plus commission/payout info \u2014 more than a single action.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives coupon-deal, social creator, and email-list owner archetypes different first actions and leading assets, without ranking those archetypes against each other",
+        "evidence": "Segmentation is by Tier A/B (follower count, DA, pitch quality), not by coupon/creator/email-list archetype with distinct first actions.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Delivers a SEQUENCE PLAN artifact carrying at least Activation, Routing, Touches, Activation nudge, Never-activated, Exits, and KPIs lines",
+        "evidence": "The deliverable uses headers like 'Segmentation', 'Kill the 2\u20133 day delay', 'The Email Sequence', 'Week-1 Call Script', 'Who does what', 'Build order' \u2014 not the specified SEQUENCE PLAN line structure.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Names platform envelopment as the specific risk Helixon carries",
+        "evidence": "\"Helixon \u2014 platform envelopment risk (Eisenmann/Parker/Van Alstyne), and it's not hypothetical\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites the warning signs present: adjacent first-party features shipped, marketplace terms permitting self-preferencing, and value sitting in a thin replicable layer",
+        "evidence": "Only two warning signs are explicitly cited (\"ships adjacent first-party features\" and \"marketplace terms allow self-preferencing\"); 'value sitting in a thin replicable layer' is never stated as a third warning sign.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that high envelopment risk does not forbid the alliance",
+        "evidence": "\"Below the line: Helixon \u2014 hold, not kill (real capability gap, real reach)\" with explicit re-entry triggers rather than an outright kill.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires staged commitment, contractual safeguards, and a stated dependency ceiling in the memo if Helixon proceeds",
+        "evidence": "Re-entry conditions list contractual safeguards and a dependency ceiling (\"reduce reliance on their SDK below roughly 40\u201350%\"), but no 'staged commitment' element is specified for Helixon.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scores relational risk and performance risk separately rather than collapsing them into one risk number",
+        "evidence": "Tunstall's risk is presented as one combined label: \"Tunstall \u2014 relational/performance risk (Das & Teng)\" with a single 'Medium-high' composite, not split scores.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies Tunstall Metrics as high relational risk, citing the competing roadmap, the absence of prior ties, and the publicly stated posture against partnerships",
+        "evidence": "\"No prior ties + a CEO publicly dismissive of partnerships... Forward-looking substitution: their roadmap converging on your target segment is a real future channel-conflict risk\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that relational risk is mitigated by governance and staged commitment, not by enthusiasm or tech fit",
+        "evidence": "\"This risk is governance-shaped, not structural \u2014 a staged pilot and a named counterparty owner can test and mitigate it cheaply\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that performance risk is mitigated by pilots and milestone gates",
+        "evidence": "Performance risk is never separated from relational risk, so no distinct statement ties performance risk specifically to pilots/milestones.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a candidate high on both relational and performance risk is a kill or a small staged pilot, never a flagship bet",
+        "evidence": "This statement does not appear anywhere in section 4's text.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Shows the risk composite beside the value and effort columns rather than in an annex read after the decision",
+        "evidence": "Table header: \"| | Helixon | Tunstall | ... Value \u00f7 effort | ... Risk composite |\" placing risk alongside value/effort.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names which risk drives the gap between the two candidates rather than presenting them as tied",
+        "evidence": "\"These two scores are a tie... The composite does not decide this. Effort and risk do... Value \u00f7 effort and risk-type are what actually decide this.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States what mitigation would close that gap",
+        "evidence": "Helixon: \"contractual removal or capping of self-preferencing... a renegotiated dependency ceiling\"; Tunstall: \"a convened joint value proposition workshop... with a named counterpart owner\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Refuses to rank the two on tech fit and integration ease alone",
+        "evidence": "\"That is not a soft signal to override on tech-fit enthusiasm alone.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Names platform envelopment as the specific risk Helixon carries",
+        "evidence": "The term 'envelopment' never appears; the risk is described only as 'dependency,' overlap, and self-preferencing terms.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites the warning signs present: adjacent first-party features shipped, marketplace terms permitting self-preferencing, and value sitting in a thin replicable layer",
+        "evidence": "'They already shipped a feature overlapping 60% of what you do,' 'Marketplace terms that let them rank their own modules above yours,' and '70% of joint value sitting on their SDK is not a partnership, it's dependency.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that high envelopment risk does not forbid the alliance",
+        "evidence": "The memo instead disqualifies Helixon outright: 'the numbers disqualify it, not just the vibe' and 'it's baked in before you sign' \u2014 implying it cannot be mitigated, not that it's still permissible.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires staged commitment, contractual safeguards, and a stated dependency ceiling in the memo if Helixon proceeds",
+        "evidence": "No mitigation plan is offered for Helixon since it is rejected outright.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scores relational risk and performance risk separately rather than collapsing them into one risk number",
+        "evidence": "No such risk-scoring framework appears in the memo.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies Tunstall Metrics as high relational risk, citing the competing roadmap, the absence of prior ties, and the publicly stated posture against partnerships",
+        "evidence": "Roadmap overlap and the CEO comment are cited, but 'absence of prior ties' is never mentioned, and the risk is not labeled 'relational risk.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that relational risk is mitigated by governance and staged commitment, not by enthusiasm or tech fit",
+        "evidence": "The memo actually cites 'excellent tech fit and easy integration' as a favorable reason for Tunstall rather than distinguishing risk mitigation from tech fit.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that performance risk is mitigated by pilots and milestone gates",
+        "evidence": "A '2-quarter checkpoint tied to concrete deliverables' is proposed, but it is not framed as mitigating a distinct 'performance risk' category.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a candidate high on both relational and performance risk is a kill or a small staged pilot, never a flagship bet",
+        "evidence": "No such general principle is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Shows the risk composite beside the value and effort columns rather than in an annex read after the decision",
+        "evidence": "No risk composite or table is shown at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names which risk drives the gap between the two candidates rather than presenting them as tied",
+        "evidence": "'Helixon's structural conflict (dependency + overlap + self-preferencing terms) is a risk you can't negotiate away after signing. Tunstall's risk (a skeptical CEO) is one you can test and gate.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States what mitigation would close that gap",
+        "evidence": "'Get specific, written commitments... Set a 2-quarter checkpoint... Keep integration scope narrow initially' \u2014 concrete steps to de-risk Tunstall are given, while Helixon's risk is explicitly framed as unmitigable.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Refuses to rank the two on tech fit and integration ease alone",
+        "evidence": "The decision is driven primarily by structural risk ('the numbers disqualify it, not just the vibe'), not by 'Good SDK' tech quality, which is explicitly said not to offset the structural problem.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

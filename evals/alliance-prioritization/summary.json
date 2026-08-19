@@ -1,0 +1,519 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "alliance-prioritization",
+  "scenarios": 10,
+  "expectations_total": 127,
+  "expectations_subjective": 1,
+  "expectations_objective": 126,
+  "pass_rate_with_skill_pct": 71.7,
+  "pass_rate_without_skill_pct": 34.6,
+  "delta_pp": 37.1,
+  "uplift_multiplier": 2.07,
+  "trigger_accuracy_pct": 79.8,
+  "trigger_queries": 114,
+  "subjective_ac2": 1.0,
+  "subjective_pass_disagreements": [],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.270 (Claude Code)",
+  "conditions": {
+    "mcp_servers": "disabled",
+    "project_claude_md": "not loaded (trials and grading)",
+    "user_claude_md": "loaded",
+    "dynamic_prompt_sections": "excluded"
+  },
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Points out that neither complementarity nor compatibility appears anywhere in the user's five existing criteria"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States the ranking order explicitly as value divided by effort, then value composite, then logo attractiveness"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Runs a sensitivity check shifting each weight plus or minus 20% and reports which positions hold and which flip"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Applies a tie band of roughly 5% and refuses to treat a sub-5% composite gap as decisive"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Asks for the missing interview inputs (existing alliance portfolio, data available per candidate, sign-off owner) before finalizing the table"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States that an undated dependency would earn a recycle rather than a reserved capacity slot"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States that adding points to the composite would be the false precision the sensitivity analysis exists to undo"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Scores adoption-chain risk, asking which intermediaries must act before the end customer sees the value"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Cites the warning signs present: adjacent first-party features shipped, marketplace terms permitting self-preferencing, and value sitting in a thin replicable layer"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Requires staged commitment, contractual safeguards, and a stated dependency ceiling in the memo if Helixon proceeds"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Scores relational risk and performance risk separately rather than collapsing them into one risk number"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that performance risk is mitigated by pilots and milestone gates"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that a candidate high on both relational and performance risk is a kill or a small staged pilot, never a flagship bet"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names brand fit or attitude congruence as the core fit construct on the B2C side"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Warns that as the high-esteem brand Solane is the more exposed party in the Halvern co-brand, rather than the automatic beneficiary"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Models at least one negative-spillover scenario per shortlisted candidate and what it would cost Solane"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that the method spine, including staged gates, justified weights, sensitivity analysis, the capacity line, and the memo shape, is identical to the B2B version rather than inventing a separate B2C method"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Scores effort per candidate and ranks on value against effort rather than on reach"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Issues a verdict per candidate drawn from go, conditional-go, recycle, hold, and kill"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Draws a capacity line and leaves below-the-line candidates with explicit re-entry triggers"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Cites the credible re-analysis putting failure nearer 25-30%"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes the lower 18-20% figure for firms that have an alliance-management function"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Traces the widely repeated 60-70% phrasing to the 2007 Harvard Business Review piece by Hughes and Weiss"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States that this source cites no study, sample, or definition behind the figure"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes the McKinsey survey's small base of roughly 30 companies"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Identifies the 53% close-rate figure as a self-reported vendor survey of roughly 500 professionals"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Contrasts it against the same vendor's own network data showing roughly an 11.7% win-rate lift"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Recommends quoting the smaller, harder 11.7% figure if either is used at all"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Issues a verdict per candidate drawn from go, conditional-go, recycle, hold, and kill"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the conditions that promote it: the weights themselves being what the room argues about, a sign-off owner who distrusts the sheet, a committee that has already reopened a ranking, and a scorecard that will be re-run at every portfolio review"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States that it costs roughly half a day of structured elicitation per stakeholder plus the coordination to convene them"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States that it buys agreement on the weights, never precision in them"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Keeps individually justified weights as the written record regardless of which elicitation method is used"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Rejects equal weights outright as the documented practitioner failure mode rather than ranking them as a cheap option"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States that a reversed top three signals weak criteria rather than a changed world unless a named trigger fired"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Measures the share of shortlisted alliances that hit their first-value milestone by the gate date"
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Rejects the equal 20% weight distribution outright rather than tuning the numbers inside it"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States that every weight must carry a written one-line justification"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Names resource complementarity and organizational compatibility as the two criteria that should carry the highest weight"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Points out that neither complementarity nor compatibility appears anywhere in the user's five existing criteria"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Flags brand strength and exec relationship, together 40% of the sheet, as logo halo and relationship criteria that crowd out fit"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Caps account overlap as one input rather than leaving it as an equal share of the ranking spine"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Introduces an effort column and ranks candidates on value divided by effort"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States the ranking order explicitly as value divided by effort, then value composite, then logo attractiveness"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Runs a sensitivity check shifting each weight plus or minus 20% and reports which positions hold and which flip"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Applies a tie band of roughly 5% and refuses to treat a sub-5% composite gap as decisive"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Scores the CEO-connected Northwind Cloud on the same sheet as every other candidate rather than protecting or excluding it"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Ends with at least one candidate not making the shortlist, each non-shortlisted candidate carrying an explicit verdict"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Asks for the missing interview inputs (existing alliance portfolio, data available per candidate, sign-off owner) before finalizing the table"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Identifies the failed gate as the security and compliance posture gate within a defined must-pass gate set"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Lists the other must-pass gates the remaining candidates must clear, including financial viability, legal or antitrust exposure, exit path, and the three-laws screen"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Redraws the shortlist and the capacity line after the removal rather than promoting the next-highest value score by default"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Identifies Orrin Labs as the deep co-innovation candidate in this list"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Checks whether the unshipped dependency sits on the two parties' own dated roadmaps rather than a third party's"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Confirms both the Orrin endpoint and the Vantiq pipeline carry dates, and treats that as the condition making the candidate promotable"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States that an undated dependency would earn a recycle rather than a reserved capacity slot"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States that adding points to the composite would be the false precision the sensitivity analysis exists to undo"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Spends the reserved co-innovation slot inside the 14 manager-month budget rather than on top of it"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Scores co-innovation risk for Orrin as a named risk category, measuring how much of the value depends on an unshipped roadmap"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Scores adoption-chain risk, asking which intermediaries must act before the end customer sees the value"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States how much capacity is left for the five integration candidates after Orrin's reserved slot"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Names platform envelopment as the specific risk Helixon carries"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that high envelopment risk does not forbid the alliance"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Requires staged commitment, contractual safeguards, and a stated dependency ceiling in the memo if Helixon proceeds"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Scores relational risk and performance risk separately rather than collapsing them into one risk number"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Identifies Tunstall Metrics as high relational risk, citing the competing roadmap, the absence of prior ties, and the publicly stated posture against partnerships"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that relational risk is mitigated by governance and staged commitment, not by enthusiasm or tech fit"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that performance risk is mitigated by pilots and milestone gates"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that a candidate high on both relational and performance risk is a kill or a small staged pilot, never a flagship bet"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Shows the risk composite beside the value and effort columns rather than in an annex read after the decision"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names brand safety as a second pass/fail gate for this candidate list"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names brand fit or attitude congruence as the core fit construct on the B2C side"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that attitude spillover between paired brands runs in both directions and not symmetrically"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Warns that as the high-esteem brand Solane is the more exposed party in the Halvern co-brand, rather than the automatic beneficiary"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Models at least one negative-spillover scenario per shortlisted candidate and what it would cost Solane"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that the method spine, including staged gates, justified weights, sensitivity analysis, the capacity line, and the memo shape, is identical to the B2B version rather than inventing a separate B2C method"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Demands incrementality-tested metrics rather than vanity reach figures"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Scores effort per candidate and ranks on value against effort rather than on reach"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Issues a verdict per candidate drawn from go, conditional-go, recycle, hold, and kill"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Draws a capacity line and leaves below-the-line candidates with explicit re-entry triggers"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Refuses to state a single settled alliance failure rate"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Presents the published spread of roughly 20% to 80% depending on how failure is defined"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Cites the credible re-analysis putting failure nearer 25-30%"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes the lower 18-20% figure for firms that have an alliance-management function"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Traces the widely repeated 60-70% phrasing to the 2007 Harvard Business Review piece by Hughes and Weiss"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States that this source cites no study, sample, or definition behind the figure"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes the McKinsey survey's small base of roughly 30 companies"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Identifies the 53% close-rate figure as a self-reported vendor survey of roughly 500 professionals"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Contrasts it against the same vendor's own network data showing roughly an 11.7% win-rate lift"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Recommends quoting the smaller, harder 11.7% figure if either is used at all"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Attaches a provenance flag to every number kept in the memo, distinguishing peer-reviewed, analyst, vendor first-party, and vendor survey"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Offers the Kale, Dyer and Singh finding of 63% versus 50% alliance success with a dedicated alliance function, across 1,572 alliances, as the defensible basis for the headcount ask"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Removes the weighted scorecard entirely rather than producing one under the four-hour ceiling"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Ranks instead on the must-pass gates plus effort to first value"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States explicitly in the output that the scorecard was dropped and why"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Runs the full gate set on all three candidates rather than staging desk checks ahead of expensive reviews"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Explains that staging saves nothing on a longlist of three"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Deletes reach-led criteria outright given no overlap dataset and no audience-audit budget"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States the deletion reasoning: stripped of the dataset, reach-led leaves only market size and brand"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Names each deleted option and its reason rather than demoting it to the bottom of a menu"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Fixes a capacity line from the single alliance manager before recommending anything"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Issues a verdict per candidate drawn from go, conditional-go, recycle, hold, and kill"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the best-worst method as the elicitation technique to use"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Prefers best-worst method over AHP, citing fewer pairwise comparisons and less rank-reversal exposure"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States that it costs roughly half a day of structured elicitation per stakeholder plus the coordination to convene them"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States that it buys agreement on the weights, never precision in them"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Keeps individually justified weights as the written record regardless of which elicitation method is used"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Rejects equal weights outright as the documented practitioner failure mode rather than ranking them as a cheap option"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names rank reversal as a documented weighted-scorecard defect, attributed to Belton and Gear"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the arbitrary-weights critique of weighted scorecards, attributed to Dyer"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States plainly that no elicitation method substitutes for good criteria"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Removes wrong-mode candidates at that pre-filter step rather than carrying them into the scorecard"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Runs both evaluation logics on the hybrid candidates: pipeline math and brand-fit or contagion screening"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names security and compliance plus financial viability as the B2B side's signature gates alongside brand safety on the consumer side"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States that a reversed top three signals weak criteria rather than a changed world unless a named trigger fired"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Requires every held candidate to carry an explicit re-entry trigger and flags any hold that lacked one as a slow kill nobody admitted to"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Measures the share of shortlisted alliances that hit their first-value milestone by the gate date"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Issues fresh verdicts drawn from go, conditional-go, recycle, hold, and kill for every candidate"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Sets the next portfolio review date and the triggers that would force an earlier one"
+      }
+    ]
+  }
+}

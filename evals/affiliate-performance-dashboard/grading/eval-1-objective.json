@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Delivers a dashboard specification document rather than instructions for building the dashboard inside a BI tool.",
+        "evidence": "The transcript delivers a full '```DASHBOARD SPEC \u2014 Thrivelane Affiliate Program```' block with Header, Metrics table, Views, Dimensions, Cadence, Alerts, and Open items sections \u2014 a specification, not BI-tool build steps.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the affiliate platform's own export as the source of truth on the grounds that those are the claimant's numbers.",
+        "evidence": "\"Clicks, signups, EPC, and gross commissions all come from the network's own claimant numbers \u2014 none of them touch your billing system, none of them net out fees, and 'gross commission' is definitionally the most expensive-looking, most favorable number your program can report.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps the affiliate platform as the source for clicks and traffic only, reconciled to the money spine.",
+        "evidence": "\"Source of truth: Billing system (Stripe/subscription ledger), network platform reconciled to it \u2014 NOT the network dashboard alone\"; EPC/click-to-conversion row lists Source as \"Network\" and is kept diagnostic-only.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the billing/orders spine as the default data foundation and gives its cost as roughly a week of reconciliation followed by near-zero standing cost.",
+        "evidence": "Text gives \"it's ~a week of reconciliation work vs. a quarter for a full CRM join\" but never states a near-zero standing cost afterward; Open Items even flags \"Standing analyst/data ownership: not stated who would own the billing reconciliation going forward,\" undercutting a near-zero-standing-cost claim.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes all four floor metrics: net program contribution, cost of sale, top-N partner concentration, and partner-sourced MRR/ARR.",
+        "evidence": "Table rows: \"Net program contribution\", \"Cost of sale\", \"Top-5 / top-10% partner concentration\", \"Partner-sourced MRR\" all tagged \"Business (floor)\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines cost of sale with network fees, agency fees, and placement/tenancy fees inside the numerator, not commission alone.",
+        "evidence": "Cost of sale is defined as \"(validated commission + network fee + agency fee + bonuses) / attributed net revenue\" \u2014 no placement/tenancy fee term is included anywhere in the definition.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Headlines validated or approved commission and shows pending separately, rather than headlining gross commission.",
+        "evidence": "The spec says \"Never headline gross commission... again\" and uses \"validated commission\" throughout, but nowhere shows pending commission as a separate line item (no \"pending\" tile or mention anywhere in the spec).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Excludes EPC from the metric set and gives recurring commission accruing over a conversion lag as the reason.",
+        "evidence": "EPC is kept in the metric table as \"Click-to-conversion by stage, EPC | Diagnostic only \u2014 kept off the headline view, in the operator leaderboard\" \u2014 it is retained, not excluded, and no conversion-lag rationale is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines net program contribution as attributed net revenue minus validated commission plus network, agency and placement fees.",
+        "evidence": "Defined as \"Attributed net billing revenue from partner-sourced accounts \u2212 (validated commission + network platform fee + agency fee, if any)\" \u2014 placement fees are never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Normalizes partner-sourced MRR/ARR by billing interval, dividing annual by 12 and quarterly by 3.",
+        "evidence": "Only states \"MRR from partner-sourced accounts, billing-interval normalized, monthly\" without specifying the annual/12 or quarterly/3 division mechanism.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives every metric a one-sentence definition naming numerator, denominator, window, timezone, and counting method.",
+        "evidence": "Header explicitly defers timezone: \"Period conventions: timezone, currency, validation window length, and clawback policy \u2014 TBD, see Open Items.\" \u2014 timezone is not stated per metric.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Records in the spec header which data foundation was chosen and what moved it there.",
+        "evidence": "\"Data foundation: Billing/orders spine, chosen because (a) the live decision... is unanswerable without net revenue and fees... (b) it's ~a week of reconciliation work vs. a quarter... (c) all four floor metrics compute off it.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Delivers a dashboard specification document rather than instructions for building the dashboard inside a BI tool.",
+        "evidence": "The response is organized as a metrics spec ('# What your affiliate dashboard should actually measure', numbered sections 1-7, ending in 'What to put on one slide for the CFO') with no BI-tool build steps.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the affiliate platform's own export as the source of truth on the grounds that those are the claimant's numbers.",
+        "evidence": "The only critique of network data is 'Your affiliate network shows top-of-funnel... because that's all it can see' \u2014 no framing about affiliate self-reported bias.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps the affiliate platform as the source for clicks and traffic only, reconciled to the money spine.",
+        "evidence": "Text says the network shows 'clicks, signups, EPC' as its scope, not clicks/traffic only, before requiring the billing join.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the billing/orders spine as the default data foundation and gives its cost as roughly a week of reconciliation followed by near-zero standing cost.",
+        "evidence": "Only says 'that pipeline is the actual first deliverable \u2014 a better dashboard is a data-modeling problem, not a reporting-layout problem,' with no time/cost estimate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes all four floor metrics: net program contribution, cost of sale, top-N partner concentration, and partner-sourced MRR/ARR.",
+        "evidence": "Only concentration is present ('% of total commission paid to top 10 / top 20 partners'); no cost-of-sale, net program contribution, or MRR/ARR metric appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines cost of sale with network fees, agency fees, and placement/tenancy fees inside the numerator, not commission alone.",
+        "evidence": "No 'cost of sale' metric or fee breakdown is defined anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Headlines validated or approved commission and shows pending separately, rather than headlining gross commission.",
+        "evidence": "No validated/pending distinction for commission is discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Excludes EPC from the metric set and gives recurring commission accruing over a conversion lag as the reason.",
+        "evidence": "EPC is only mentioned as something the network shows; it is never explicitly excluded with a conversion-lag rationale.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines net program contribution as attributed net revenue minus validated commission plus network, agency and placement fees.",
+        "evidence": "No such definition exists; the closest concept, 'Program ROI', is defined as '(Gross margin from affiliate-sourced customers \u2212 Total commissions paid) / Total commissions paid'.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Normalizes partner-sourced MRR/ARR by billing interval, dividing annual by 12 and quarterly by 3.",
+        "evidence": "No MRR/ARR metric or normalization is discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives every metric a one-sentence definition naming numerator, denominator, window, timezone, and counting method.",
+        "evidence": "Metrics are described in multi-sentence prose bullets (e.g. section 2's cohort description) without timezone or counting-method specifics.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Records in the spec header which data foundation was chosen and what moved it there.",
+        "evidence": "There is no header of this kind; the data-foundation point appears only as a closing paragraph.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

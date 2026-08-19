@@ -1,0 +1,415 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "affiliate-disclosure-compliance",
+  "scenarios": 10,
+  "expectations_total": 112,
+  "expectations_subjective": 0,
+  "expectations_objective": 112,
+  "pass_rate_with_skill_pct": 80.4,
+  "pass_rate_without_skill_pct": 36.6,
+  "delta_pp": 43.8,
+  "uplift_multiplier": 2.2,
+  "trigger_accuracy_pct": 74.0,
+  "trigger_queries": 104,
+  "subjective_ac2": null,
+  "subjective_pass_disagreements": [],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.269 (Claude Code)",
+  "conditions": {
+    "mcp_servers": "disabled",
+    "project_claude_md": "not loaded (trials and grading)",
+    "user_claude_md": "loaded",
+    "dynamic_prompt_sections": "excluded"
+  },
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Supplies a ready-to-paste livestream verbal repeat line and a ready-to-paste Story overlay line rather than only describing what is wrong"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Notes the 2022 UWG amendment codified that paid/unpaid distinction"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Does not assert that the FTC Endorsement Guides themselves settle B2B coverage; treats any Guides application to a business audience as by-analogy and attaches a [COUNSEL] marker"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Supplies a ready-to-use German-language disclosure line rather than an English-only \"#ad\", noting a label in a language the audience does not read fails"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Explains that re-publishing a corrected version and taking the asset down remove the non-compliant version equally, and that re-publishing wins on efficiency because it keeps the campaign's earned reach"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes that re-recording or re-publishing long-form video is high value and high effort and normally loses to a caption edit, and is promoted here because the failing layer is per-format placement rather than wording"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Supplies a ready-to-use spoken disclosure line and an on-screen overlay line for the corrected videos"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Frames the expectation to remediate known non-compliance as the FTC's stated position under 16 CFR 255.1(d) rather than a standalone statutory obligation, and attaches [COUNSEL] if the user intends to assert that obligation to the creator"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Flags insider-review exposure under 16 CFR 465.5 for reviews by officers, managers, employees, or their immediate family without disclosure of the relationship"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Defines the spot-check sample as newest partners, highest earners, regulated claims, and formats that have failed before"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Names the condition that would promote the full-roster review anyway: regulator contact, a regulated vertical, or the same partner failing twice"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Gives effort in orders of magnitude rather than precise figures: self-attestation and spot-checks near-zero per asset, an automated scan about a week to set up and tune, a pre-publication gate or full-roster review a standing job"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes that an automated scan needs a platform-terms review before it crawls and an attestation clause needs a program-terms amendment and partner notice, while reading published content needs neither"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Attaches a [COUNSEL] marker before any recommendation involving withholding commission or terminating the partner"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Declines to draft the program-terms withholding clause inside this review and routes that work to the program-terms sibling skill as out of scope"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Notes that termination and payment holds spend relationship capital and are hard to walk back, while an edit reverses freely"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Delivers the not-legal-advice statement and repeats it with the report, instructing the user to keep every [COUNSEL] marker until counsel resolves it"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Recommends a \"paid link\" or equivalent commission line adjacent to each product link block, noting FTC staff treat an adjacent \"paid link\" as adequate"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Requires a corrected, ready-to-paste line to ship with every failing finding, feeding the wording bank"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Names what the efficiency order starves - live training, the only rung that catches a partner's misunderstanding before it reaches an asset - and states the condition that would normally promote it"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Gives the correct fix for each of the three recurring failures: disclosure moved into the first visible caption line, \"#ad\" or \"paid partnership with [brand]\" replacing \"#collab\", and in-post disclosure replacing bio-only"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Routes drafting of the campaign brief's disclosure requirements and of any program-terms clause to the sibling skills rather than producing them here"
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Refuses to rank, prioritize, or reduce the disclosure checks to a two-item subset, stating they are gates where every applicable one must pass rather than a ranked menu"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Runs all six layers - presence, wording, placement and prominence, per-format requirements, truncation and portability, jurisdiction overlays - rather than a selected two"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Opens with an explicit statement that this is a compliance review against published regulator rules and not legal advice, before reviewing any content"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States that the platform's paid-partnership label alone is not sufficient, noting the FTC treats platform disclosure tools as no guarantee and the CMA accepts them only if clearly visible"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Notes the platform label may not travel off-platform and can vanish in embeds, screenshots, or cross-posts"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Requires the livestream disclosure to be repeated periodically at intervals and at segment changes, not stated once at the start, because mid-stream joiners never hear an opening-only disclosure"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Recommends a pre-publication gate for the ephemeral and video content, identifying it as the FTC's own fallback where after-the-fact monitoring is impractical"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States that the effort ceiling can re-rank the monitoring, guidance, and remediation choices around the review, but never the disclosure obligations themselves"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States that Germany presumes consideration from a third party and puts the burden on the poster to credibly show none was received or promised"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Does not assert that the FTC Endorsement Guides themselves settle B2B coverage; treats any Guides application to a business audience as by-analogy and attaches a [COUNSEL] marker"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Requires the disclosure inside the video itself, on screen and spoken at the start, not only in the video description"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Supplies a ready-to-use German-language disclosure line rather than an English-only \"#ad\", noting a label in a language the audience does not read fails"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Attaches each counsel-grade ambiguity inline with the finding that raised it using a [COUNSEL: ...] marker, rather than pooling them in a closing section"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Instructs working from the current consolidated French text as amended by ordonnance 2024-978 of 6 November 2024, not the original June 2023 version"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Flags the Netherlands portion with a [COUNSEL] marker for local-market disclosure rules instead of assuming the French, UK, or US rules transfer there"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "If it cites 16 CFR 255.1(d) remediation, frames it as the FTC's stated expectation rather than a standalone statutory duty, noting enforceable exposure runs through FTC Act Section 5"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Labels any French penalty figure, such as the reported \u20ac300,000 maximum, as requiring re-verification rather than asserting it flatly"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Marks any check the pasted text cannot settle as \"not assessable from the artefact provided\" and lists what to verify on the rendered page"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Escalates the remediation rung above edit-in-place, recommending re-publishing a corrected version and removing the original"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Explains that re-publishing a corrected version and taking the asset down remove the non-compliant version equally, and that re-publishing wins on efficiency because it keeps the campaign's earned reach"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Pairs any termination with a takedown or corrected re-publish of each live asset"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Orders the four-asset plan by exposure: assets still earning impressions first, then the highest-reach asset, then the rest"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Names a time-to-remediation target of requesting the fix within 24 hours of the finding"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes that re-recording or re-publishing long-form video is high value and high effort and normally loses to a caption edit, and is promoted here because the failing layer is per-format placement rather than wording"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Supplies a ready-to-use spoken disclosure line and an on-screen overlay line for the corrected videos"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Frames the expectation to remediate known non-compliance as the FTC's stated position under 16 CFR 255.1(d) rather than a standalone statutory obligation, and attaches [COUNSEL] if the user intends to assert that obligation to the creator"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the FTC Guides never say \"B2B\" or \"consumer-only\", treats their application to a business audience as by-analogy rather than settled, and attaches a [COUNSEL] marker"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that employees must disclose the employment relationship inside the post itself and that naming the employer on the profile or headline is not enough, citing 16 CFR 255.5"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Identifies the $50 gift card as an incentive requiring clear and conspicuous disclosure on each review under 16 CFR 255.2"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Raises the aggregate-rating trap: per-review disclosure does not cure a displayed average materially inflated by incentivized reviews, and the aggregate rating then needs its own clear-and-conspicuous disclosure"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Connects the 4.1 to 4.6 movement in the displayed average directly to that aggregate-rating exposure"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Flags insider-review exposure under 16 CFR 465.5 for reviews by officers, managers, employees, or their immediate family without disclosure of the relationship"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that Part 465 is a Rule carrying direct civil-penalty exposure without a prior Notice of Penalty Offenses, and weights those findings as higher severity than Part 255 Guides findings"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that the monthly leaderboard and vouchers make this active encouragement, so the company owes monitoring of the resulting posts rather than only a written policy"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Supplies ready-to-use B2B disclosure lines, including an employee post opener naming the employment relationship and a reviewer line naming the gift card"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Recommends a risk-weighted spot-check as the default monitoring approach"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Defines the spot-check sample as newest partners, highest earners, regulated claims, and formats that have failed before"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Names the condition that would promote the full-roster review anyway: regulator contact, a regulated vertical, or the same partner failing twice"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Re-ranks because the affiliate network enforces disclosure centrally, noting the network's own scan and terms already cover rungs the program would otherwise build"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States that monitoring itself is not optional, citing 16 CFR 255.1(d) and the brand-side duty, and that no single rung discharges that duty alone"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Gives effort in orders of magnitude rather than precise figures: self-attestation and spot-checks near-zero per asset, an automated scan about a week to set up and tune, a pre-publication gate or full-roster review a standing job"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes that an automated scan needs a platform-terms review before it crawls and an attestation clause needs a program-terms amendment and partner notice, while reading published content needs neither"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Attaches a [COUNSEL] marker before any recommendation involving withholding commission or terminating the partner"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that terminating the affiliate does not remediate, because the undisclosed asset stays live, and pairs termination with a takedown or corrected re-publish"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Requires the corrected short-form video disclosure to be on screen and spoken at the start, before the endorsement, not in the caption only"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Notes that personal finance is a regulated vertical, so the highest-value rung wins regardless of effort, and re-ranks on that basis"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Declines to draft the program-terms withholding clause inside this review and routes that work to the program-terms sibling skill as out of scope"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Notes that termination and payment holds spend relationship capital and are hard to walk back, while an edit reverses freely"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that the asset still earning impressions takes priority in the remediation order"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Delivers the not-legal-advice statement and repeats it with the report, instructing the user to keep every [COUNSEL] marker until counsel resolves it"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Recommends a \"paid link\" or equivalent commission line adjacent to each product link block, noting FTC staff treat an adjacent \"paid link\" as adequate"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Applies the UK layer, including the CMA's rule that the audience should not have to scroll or select a link for more information"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Supplies a ready-to-paste inline affiliate-link label and a ready-to-paste sponsored-block opener naming the brand that paid"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Marks whatever the pasted text cannot settle, such as the rendered page's visual prominence or contrast, as \"not assessable from the artefact provided\" and lists what to verify on the rendered asset"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States the creator's own disclosure duty comes from national law transposing the UCPD and from platform terms, and that the DSA supplies the declaration functionality rather than the obligation"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States that a used platform declaration never completes the check on its own, while an unused one is a red flag"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Rejects the follower-count argument, stating trader status under EU law is fact-specific - organisation, remuneration, scale - with no bright-line follower threshold, and flags it [COUNSEL]"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Fails the feed-post placement under Italy's Digital Chart, which requires the disclosure to be the first piece of information or within the first three hashtags, not the seventh"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Fails the Reel because Italy requires the disclosure both in the description and as an on-screen overlay at the video's opening"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Requires the brand to be named alongside \"adv\", since the Italian accepted form is \"adv\" plus the brand"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Cites UCPD Article 7(2) as the misleading-omission hook for failing to identify commercial intent"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Notes the Commission's UCPD guidance can attribute the breach to the influencer, the engaging brand, or both, and that the brand's editorial control is a liability factor rather than a precondition"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Recommends an approved wording bank as the default route for getting the rules to partners, adapted into the program's own approved lines, one per format the campaign runs"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Puts the wording bank's effort at roughly an hour to adapt, as an order of magnitude rather than a precise figure"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Deletes the live-training rung for this self-serve roster that never meets the program team, rather than ranking it low, because a session nobody attends is not distribution"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Requires a corrected, ready-to-paste line to ship with every failing finding, feeding the wording bank"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Names what the efficiency order starves - live training, the only rung that catches a partner's misunderstanding before it reaches an asset - and states the condition that would normally promote it"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Gives the correct fix for each of the three recurring failures: disclosure moved into the first visible caption line, \"#ad\" or \"paid partnership with [brand]\" replacing \"#collab\", and in-post disclosure replacing bio-only"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Treats those three fixes as mandatory corrections of specific failures rather than rungs to be traded off against each other"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Names roster coverage as a program KPI: the share of active partners with at least one asset reviewed per period, measured against the chosen monitoring approach"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Routes drafting of the campaign brief's disclosure requirements and of any program-terms clause to the sibling skills rather than producing them here"
+      }
+    ]
+  }
+}

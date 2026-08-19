@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Promotes formal weight elicitation above the default of individually justified weights for this situation",
+        "evidence": "\"Individually-justified weights... fixes this for most teams. It won't fix it for yours, because three separate conditions are all true at once here\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the best-worst method as the elicitation technique to use",
+        "evidence": "\"The fix: elicit weights with the Best-Worst Method (BWM), with the CRO inside the room\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Prefers best-worst method over AHP, citing fewer pairwise comparisons and less rank-reversal exposure",
+        "evidence": "\"Prefer BWM over AHP: fewer pairwise comparisons, less rank-reversal exposure.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the conditions that promote it: the weights themselves being what the room argues about, a sign-off owner who distrusts the sheet, a committee that has already reopened a ranking, and a scorecard that will be re-run at every portfolio review",
+        "evidence": "Only three conditions are explicitly listed (weights being the fight, committee reopened a ranking, scorecard runs every review) \u2014 no separate condition naming a 'sign-off owner who distrusts the sheet.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that it costs roughly half a day of structured elicitation per stakeholder plus the coordination to convene them",
+        "evidence": "The memo states \"at the cost of a half-day of structured elicitation\" for one shared session, not per-stakeholder cost plus separate coordination overhead.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that it buys agreement on the weights, never precision in them",
+        "evidence": "The memo frames BWM as buying 'defensibility' (\"BWM beats individually-justified weights on exactly the dimension you're stuck on \u2014 defensibility\"), never explicitly contrasting agreement vs. precision.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps individually justified weights as the written record regardless of which elicitation method is used",
+        "evidence": "The record kept is described as \"the approved weight set, the BWM elicitation results\" \u2014 not individually-justified one-line rationales as the record format.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects equal weights outright as the documented practitioner failure mode rather than ranking them as a cheap option",
+        "evidence": "Equal weights are not discussed anywhere in this section; the focus is entirely on BWM vs. individually-justified weights.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names rank reversal as a documented weighted-scorecard defect, attributed to Belton and Gear",
+        "evidence": "\"Belton & Gear (1983) show these rankings can flip just from adding or dropping one near-duplicate candidate.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the arbitrary-weights critique of weighted scorecards, attributed to Dyer",
+        "evidence": "\"Dyer (1990) calls exactly this kind of unstructured weight-setting 'arbitrary'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Runs the plus or minus 20% sensitivity re-rank and reports stable versus flipping positions as the artifact that survives the argument",
+        "evidence": "\"shift every weight \u00b120%, one at a time, re-rank, and state which positions are stable and which flip... This is the artifact that lets the CRO push on a specific weight and see, in the memo, exactly what it would take to change the outcome\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States plainly that no elicitation method substitutes for good criteria",
+        "evidence": "\"If the elicited weights put these below overlap or brand/logo criteria, that's a flag to re-run the session, not a result to ship.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Promotes formal weight elicitation above the default of individually justified weights for this situation",
+        "evidence": "\"Weights must come from the committee's own stated judgments, not from you \u2014 collected before anyone sees candidate data\" replacing the prior ad hoc weight-setting.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the best-worst method as the elicitation technique to use",
+        "evidence": "The memo uses pairwise comparison / AHP ('standard AHP eigenvector step'), never mentioning best-worst method.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Prefers best-worst method over AHP, citing fewer pairwise comparisons and less rank-reversal exposure",
+        "evidence": "No such comparison is made; AHP is chosen without discussing BWM as an alternative.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the conditions that promote it: the weights themselves being what the room argues about, a sign-off owner who distrusts the sheet, a committee that has already reopened a ranking, and a scorecard that will be re-run at every portfolio review",
+        "evidence": "\"The CRO couldn't tell whether 'integration depth' outweighed 'account overlap' because you believed it or because the room had agreed to it\"; '90 minutes of argument'; and 'this quarter (candidate 8), then every quarter after' / 'Every future portfolio review starts from this doc.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that it costs roughly half a day of structured elicitation per stakeholder plus the coordination to convene them",
+        "evidence": "Actual time estimates given are minutes ('a 10-minute form'), not half a day.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that it buys agreement on the weights, never precision in them",
+        "evidence": "No such statement appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps individually justified weights as the written record regardless of which elicitation method is used",
+        "evidence": "The written record described is the pairwise/AHP aggregation data, not individually justified weights.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects equal weights outright as the documented practitioner failure mode rather than ranking them as a cheap option",
+        "evidence": "Equal weighting is never discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names rank reversal as a documented weighted-scorecard defect, attributed to Belton and Gear",
+        "evidence": "Not mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the arbitrary-weights critique of weighted scorecards, attributed to Dyer",
+        "evidence": "Not mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Runs the plus or minus 20% sensitivity re-rank and reports stable versus flipping positions as the artifact that survives the argument",
+        "evidence": "\"\u00b120% perturbation on each weight, one at a time... Report: which candidates are in the top 4 under every one of these scenarios (stable), and which are only in/out near the cutline (contested).\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States plainly that no elicitation method substitutes for good criteria",
+        "evidence": "The memo stresses criteria definitions matter ('If a criterion can't be given an observable indicator, it's an opinion wearing a criterion's clothes') but never states this as a limit on elicitation methods generally.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

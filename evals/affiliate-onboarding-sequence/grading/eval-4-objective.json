@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the 30-day activation window for this program and recommends roughly 90 days instead",
+        "evidence": "'Keep your 30-day window for that (it's a fast, low-friction ask, so 30 days is fine) \u2014 but add a second metric' \u2014 the 30-day window is explicitly kept as primary, with 90 days only as a secondary tracked metric.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ties that window to the stated five-month sales cycle rather than to a generic default",
+        "evidence": "The 30-day primary window is not replaced or justified against the 5-month cycle; the cycle is used only to argue for adding post-activation nurture, not for changing the primary window.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the activation event to be pinned to one deep-funnel milestone (lead, trial, accepted demo, qualified opportunity, or closed-won) rather than left as 'first referral'",
+        "evidence": "'define \"referral\" as a deal registered in your portal/CRM with prospect name + estimated deal size' \u2014 pins it to a concrete lead-like milestone rather than an undefined referral.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the chosen conversion event to be recorded and associated to the partner in the CRM",
+        "evidence": "'a deal registered in your portal/CRM with prospect name + estimated deal size'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps a 4-6 touch, 10-14 day calendar skeleton but stretches the behavior-trigger layer across the full 90-day window",
+        "evidence": "The behavior-trigger layer (T5/T6) is scoped to the 30-day window ('T6 Trigger : no referral by day 21 (behavior, half the window)'), not stretched to 90 days.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names at least two B2B-appropriate behavior triggers, such as training or certification completed, or no deal registered by a given day",
+        "evidence": "'T3 Trigger : kickoff call booked (SIs, behavior)' and 'T6 Trigger : no referral by day 21 (behavior, half the window)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires sandbox, demo, or NFR access to be provisioned at approval rather than granted on request",
+        "evidence": "'Day-0 provisioning: sandbox/demo access... Verify each has an owner and fires at approval, not on request.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the deal-registration link to be available at day 0",
+        "evidence": "T1 Asset: 'portal credentials, deal-registration link, sandbox/demo access'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a hybrid or high-touch tier as viable given roughly 18 approvals a month and a named partner manager with call capacity",
+        "evidence": "'boutique consultancies (~16) -> hybrid / systems integrators (2) -> high-touch'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Includes a kickoff-call agenda covering the concrete activation plan, a first-deal date, and next-step owners",
+        "evidence": "T3 Content for SIs: 'targets, activation plan, promo-calendar slot, next-step owners.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Adds B2B-specific kit items such as competitor-comparison or buyer-question material, beyond logos, banners and swipe copy",
+        "evidence": "'comparison/buyer-FAQ material' and 'Asset : one-sheet, comparison sheet, sandbox walkthrough'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that recurring commission carries clawback or reversal risk on every invoice, so payout holds run longer than in B2C",
+        "evidence": "Not mentioned anywhere; commission/payout mechanics are flagged as pending, but no clawback/reversal-on-every-invoice reasoning is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places the time-boxed activation nudge inside the 90-day window rather than at day 30",
+        "evidence": "T6 nudge fires at 'day 21, only if not yet activated' against the kept 30-day window, not a 90-day window.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the 30-day activation window for this program and recommends roughly 90 days instead",
+        "evidence": "The table keeps 'Activated | Day 0\u201330 | \u22651 referral submitted' for the program generally, only extending SIs to '60\u201390 day activation window' \u2014 not a blanket rejection of 30 days.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ties that window to the stated five-month sales cycle rather than to a generic default",
+        "evidence": "'Revenue-proven | Day 0\u2013150 (~5mo cycle) | Closed-won' explicitly ties a window to the five-month cycle.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the activation event to be pinned to one deep-funnel milestone (lead, trial, accepted demo, qualified opportunity, or closed-won) rather than left as 'first referral'",
+        "evidence": "'Report activation, but manage to qualified-rate ... Add \"qualified within 60 days\" as your real leading indicator toward revenue.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the chosen conversion event to be recorded and associated to the partner in the CRM",
+        "evidence": "'A submission mechanism tied to CRM, not verbal/Slack intros ... Instrument referral submission through your CRM/PRM before next month's cohort.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps a 4-6 touch, 10-14 day calendar skeleton but stretches the behavior-trigger layer across the full 90-day window",
+        "evidence": "No touch-count or day-interval email calendar is described anywhere in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names at least two B2B-appropriate behavior triggers, such as training or certification completed, or no deal registered by a given day",
+        "evidence": "Only one loosely-implied trigger appears ('if no referral by day 20ish, is there a trigger for the partner manager to check in?'); no certification-completed or deal-registration-based trigger is named.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires sandbox, demo, or NFR access to be provisioned at approval rather than granted on request",
+        "evidence": "Not mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the deal-registration link to be available at day 0",
+        "evidence": "Deal registration is discussed only as a policy gap ('Deal registration / conflict rules ... need a first-to-register ... rule now'), not as a day-0 provisioning requirement.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a hybrid or high-touch tier as viable given roughly 18 approvals a month and a named partner manager with call capacity",
+        "evidence": "'Reserve 1:1 time only for SIs and any partner showing high potential' alongside cohort calls for others \u2014 a hybrid tier justified by manager capacity.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Includes a kickoff-call agenda covering the concrete activation plan, a first-deal date, and next-step owners",
+        "evidence": "No kickoff-call agenda is described in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Adds B2B-specific kit items such as competitor-comparison or buyer-question material, beyond logos, banners and swipe copy",
+        "evidence": "No enablement kit contents are discussed at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that recurring commission carries clawback or reversal risk on every invoice, so payout holds run longer than in B2C",
+        "evidence": "Payout is mentioned only generically: 'confirm partners know when they get paid (on qualified opp? on close?)' \u2014 no clawback/reversal discussion.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places the time-boxed activation nudge inside the 90-day window rather than at day 30",
+        "evidence": "The only timing nudge mentioned is 'if no referral by day 20ish' \u2014 inside 30 days, not the 90-day window.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

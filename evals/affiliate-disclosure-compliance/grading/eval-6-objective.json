@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Deletes the automated label scan from the recommendation rather than ranking it low, because a text scan cannot see spoken or on-screen disclosures, which is this campaign's dominant format",
+        "evidence": "\"this skill's own default is to delete the automated label scan precisely when disclosures are spoken or on-screen, which is your stated case\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Refuses to let partner self-attestation stand as the monitoring itself, noting a partner who misunderstood the rule attests in good faith and still fails",
+        "evidence": "\"'Never let self-attestation stand as the monitoring itself. A partner who misunderstood the rule attests in good faith and still fails...'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the FTC asks for a periodic search of what partners are actually saying, not a collection of their promises",
+        "evidence": "\"the FTC asks for a search of what partners are saying, not a collection of their promises\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps self-attestation only as the paper trail underneath a real monitoring approach",
+        "evidence": "\"Self-attestation kept, but demoted to paper trail underneath the spot check\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a risk-weighted spot-check as the default monitoring approach",
+        "evidence": "\"Risk-weighted spot check as the actual monitoring (the thing the crawler and attestation together were supposed to be but aren't)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines the spot-check sample as newest partners, highest earners, regulated claims, and formats that have failed before",
+        "evidence": "The sample criteria given are \"newest partners, top earners by commission, anyone previously flagged, and any gifted-only relationships\" \u2014 not \"regulated claims\" or \"formats that have failed before.\"",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Removes the full-roster review given the stated effort ceiling, and names the answer that moved it",
+        "evidence": "\"a roster too large to review asset-by-asset moves sampling/automation up and full-roster down\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the condition that would promote the full-roster review anyway: regulator contact, a regulated vertical, or the same partner failing twice",
+        "evidence": "No such promotion condition for full-roster review appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Re-ranks because the affiliate network enforces disclosure centrally, noting the network's own scan and terms already cover rungs the program would otherwise build",
+        "evidence": "\"a centrally-enforcing network moves rungs up\" listed among the applicable re-ranking rules, reflected in \"Network compliance reports pulled on a fixed cadence\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that monitoring itself is not optional, citing 16 CFR 255.1(d) and the brand-side duty, and that no single rung discharges that duty alone",
+        "evidence": "\"an unreviewed partner is unmonitored risk under 255.1(d)\" and \"16 CFR 255.1(d) frames monitoring and remediation as duties, not alternatives to each other\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives effort in orders of magnitude rather than precise figures: self-attestation and spot-checks near-zero per asset, an automated scan about a week to set up and tune, a pre-publication gate or full-roster review a standing job",
+        "evidence": "Spot-check effort is given as a precise \"~15\u201320 assets/month at ~20 min each,\" not \"near-zero,\" and no \"standing job\" framing for full-roster/pre-pub gate appears; only the scan's \"about a week, one-time\" matches.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that an automated scan needs a platform-terms review before it crawls and an attestation clause needs a program-terms amendment and partner notice, while reading published content needs neither",
+        "evidence": "No mention of platform-terms review being required before running a crawler appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Deletes the automated label scan from the recommendation rather than ranking it low, because a text scan cannot see spoken or on-screen disclosures, which is this campaign's dominant format",
+        "evidence": "\"Replace 'does #ad appear' with a monthly random-sample manual review... At ~2\u20133 min per sample, 15 samples is well under an hour,\" replacing the crawler entirely rather than ranking it.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Refuses to let partner self-attestation stand as the monitoring itself, noting a partner who misunderstood the rule attests in good faith and still fails",
+        "evidence": "\"Attestations don't create disclosure, they create a paper trail... A signed quarterly attestation... that is never checked against actual output is close to the textbook example of what doesn't satisfy that standard.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the FTC asks for a periodic search of what partners are actually saying, not a collection of their promises",
+        "evidence": "\"the FTC's actual test in enforcement... is not 'did the advertiser have a policy' \u2014 it's whether the advertiser took reasonable steps to monitor and enforce compliance.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps self-attestation only as the paper trail underneath a real monitoring approach",
+        "evidence": "\"Keep the attestation, but make it a checklist, not a promise... cross-reference a subset of attestors against your sample review each quarter.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a risk-weighted spot-check as the default monitoring approach",
+        "evidence": "The recommended sample is purely random: 'pull a random 10\u201315 videos/episodes across your 400 affiliates each month (not the same people every time)' \u2014 no risk-weighting criteria given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines the spot-check sample as newest partners, highest earners, regulated claims, and formats that have failed before",
+        "evidence": "The sample is defined only as a random draw, not by newest/highest-earner/regulated/repeat-failure criteria.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Removes the full-roster review given the stated effort ceiling, and names the answer that moved it",
+        "evidence": "\"This is still doable in roughly the time budget you have\" and the sample approach is explicitly 'sized to your 6 hours/month, not a rebuild' instead of full-roster review.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the condition that would promote the full-roster review anyway: regulator contact, a regulated vertical, or the same partner failing twice",
+        "evidence": "No condition for escalating to full-roster review is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Re-ranks because the affiliate network enforces disclosure centrally, noting the network's own scan and terms already cover rungs the program would otherwise build",
+        "evidence": "The transcript instead treats the network's scan with suspicion: 'the network's disclosure terms are a contract between you and the network, not a shield against FTC liability... If the network's scan misses something, that's still your exposure.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that monitoring itself is not optional, citing 16 CFR 255.1(d) and the brand-side duty, and that no single rung discharges that duty alone",
+        "evidence": "The transcript cites case law (CSGO lotto, Machinima, Teami, Sunday Riley) for the monitoring duty but never cites 16 CFR 255.1(d) specifically.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives effort in orders of magnitude rather than precise figures: self-attestation and spot-checks near-zero per asset, an automated scan about a week to set up and tune, a pre-publication gate or full-roster review a standing job",
+        "evidence": "The transcript gives precise minute-level figures ('At ~2\u20133 min per sample, 15 samples is well under an hour') rather than order-of-magnitude framing, and never estimates automated-scan setup time.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that an automated scan needs a platform-terms review before it crawls and an attestation clause needs a program-terms amendment and partner notice, while reading published content needs neither",
+        "evidence": "No discussion of platform-terms review requirements or program-terms amendment needs appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

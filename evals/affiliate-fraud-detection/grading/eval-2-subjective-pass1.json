@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Keeps any partner-facing communication neutral and avoids the word 'fraud' with the partner",
+        "evidence": "Step 1 states explicitly: \"**Do not** terminate, and never use the word 'fraud' externally yet\" and supplies neutral partner-facing wording: \"Tell SaveSnap only that commissions are 'under routine quality review, update by [date].'\" The rationale is given (premature fraud allegation against a legitimate partner is 'the single most expensive failure mode in affiliate enforcement, and its own liability'). The dossier template reinforces neutral contact with 'Appeal: neutral notice sent [date]; 14-day window open until [date]', and the CFO section extends the discipline internally ('Don't pre-com",
+        "score": 5,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Keeps any partner-facing communication neutral and avoids the word 'fraud' with the partner",
+        "evidence": "The answer gestures at the concern but never states the principle. It warns that \"Calling it 'fraud' and clawing back 90 days without evidence exposes Kestrel to a breach-of-contract counterclaim from SaveSnap and reputational risk\" and advises \"don't let the CFO send a fraud accusation before the evidence package exists\" plus \"before sending anything to SaveSnap in writing.\" But this is framed entirely as sequencing (gather evidence first), not as keeping outbound communication with the partner neutral in language. There is no guidance on tone, wording, or channel for partner-facing notices, ",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

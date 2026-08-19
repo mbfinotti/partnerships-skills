@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to adopt the 12:1 network-average ROAS as the program's target and labels it calibration only.",
+        "evidence": "\"the skill this is built on... explicitly says never to adopt a published benchmark as the baseline \u2014 it's calibration only, not the number you aim at.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that trade-body and network ROAS figures come from parties with an incentive to inflate the channel.",
+        "evidence": "No statement in the transcript attributes an inflation incentive to the trade-body/network ROAS figures (12:1 [TRADE, 2018]).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Derives every target from the program's own history rather than from any published figure.",
+        "evidence": "\"I don't have your trailing history (last 4\u20138 quarters), so I can't fully DERIVE these the way the spec wants... every target above is a stretch-on-current-value placeholder\" \u2014 targets are explicitly not derived from own history.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Tags each published figure with its provenance: vendor, trade body, synthesis, or the program's own derived baseline.",
+        "evidence": "Table tags: \"12:1 network avg [TRADE, 2018]\", \"10\u201330% typical... [VENDOR survey]\", \"~71% [**SYNTH** \u2014 2026 aggregator...]\", \"[VENDOR]\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to read the 22% active-affiliate rate as healthy purely because it sits inside the published 10-30% range.",
+        "evidence": "\"Confirm 'active' = a conversion or live placement in a fixed window (not a signup or lone click) and state the window... this number isn't comparable to itself next year\" \u2014 undercuts the bare \u2705 range-based reading.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the active-affiliate rate as uninterpretable until the program declares what counts as active and over what window.",
+        "evidence": "\"this number isn't comparable to itself next year\" tied to the undefined active window.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the active definition to be a meaningful action such as a validated conversion or live placement inside a fixed window, not a signup or a lone click.",
+        "evidence": "\"Confirm 'active' = a conversion or live placement in a fixed window (not a signup or lone click)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the top-10%-drives-71% figure has no published raw data behind it and declines to set it as a target.",
+        "evidence": "\"~71% [**SYNTH** \u2014 2026 aggregator, no raw data behind it; weakest provenance of the four]\" and \"Not a KPI to grow \u2014 set as a ceiling\" / \"Don't target 'beat 71%.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Bands the 6% reversal rate against the program's own derived history rather than only against the published quality-problem line near 10%.",
+        "evidence": "\"Ceiling, not a growth target \u2014 hold \u2264 historical band\" rather than targeting toward the vendor's \"above ~10%\" line.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the 14:1 figure is unreproducible without its attribution basis and its denominator stated.",
+        "evidence": "\"State attribution basis + cookie window on the tile or the number isn't reproducible.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Distinguishes attributed ROAS from attributed ROI and asks whether COGS sits in the denominator before treating 14:1 as either.",
+        "evidence": "\"confirm this is ROAS (revenue/media cost) and not ROI (which nets COGS) \u2014 same numerator, different denominator, and the most common tile error per the spec.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to adopt the 12:1 network-average ROAS as the program's target and labels it calibration only.",
+        "evidence": "'the targets above are set off your own trend, using the quoted figures only as sanity checks, not anchors' and 'not a re-anchor to the \"12:1\" figure'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that trade-body and network ROAS figures come from parties with an incentive to inflate the channel.",
+        "evidence": "The only critique given is that figures 'smell like numbers repeated across blog posts without a traceable source or shared methodology,' not an incentive-to-inflate argument.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Derives every target from the program's own history rather than from any published figure.",
+        "evidence": "The active-affiliate target is explicitly anchored to the published range: 'Target the top of the published range, not the midpoint' (28%), contradicting a pure own-history derivation.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Tags each published figure with its provenance: vendor, trade body, synthesis, or the program's own derived baseline.",
+        "evidence": "Figures are referred to generically as 'network avg' and 'widely quoted' with no provenance categorization.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to read the 22% active-affiliate rate as healthy purely because it sits inside the published 10-30% range.",
+        "evidence": "'The \"10\u201330% typical\" range is too wide to be a useful benchmark (3x spread) \u2014 it's not telling you where you stand, just that you're not an outlier.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the active-affiliate rate as uninterpretable until the program declares what counts as active and over what window.",
+        "evidence": "No discussion of defining 'active' or its window appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the active definition to be a meaningful action such as a validated conversion or live placement inside a fixed window, not a signup or a lone click.",
+        "evidence": "No such requirement is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the top-10%-drives-71% figure has no published raw data behind it and declines to set it as a target.",
+        "evidence": "'the \"71% figure that gets quoted everywhere\"... smell like numbers repeated across blog posts without a traceable source' and 'Don't treat \"71%\" as something to chase.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Bands the 6% reversal rate against the program's own derived history rather than only against the published quality-problem line near 10%.",
+        "evidence": "Text only says 'No comparison figure was given... treat it as an internal-only target' with no historical trend analysis shown.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the 14:1 figure is unreproducible without its attribution basis and its denominator stated.",
+        "evidence": "No mention of attribution basis or denominator requirements for the 14:1 figure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Distinguishes attributed ROAS from attributed ROI and asks whether COGS sits in the denominator before treating 14:1 as either.",
+        "evidence": "ROI and COGS are never mentioned; only ROAS is discussed.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,639 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "affiliate-performance-dashboard",
+  "scenarios": 11,
+  "expectations_total": 132,
+  "expectations_subjective": 2,
+  "expectations_objective": 130,
+  "pass_rate_with_skill_pct": 68.2,
+  "pass_rate_without_skill_pct": 18.9,
+  "delta_pp": 49.3,
+  "uplift_multiplier": 3.61,
+  "trigger_accuracy_pct": 86.4,
+  "trigger_queries": 132,
+  "subjective_ac2": 1.0,
+  "subjective_pass_disagreements": [],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.270 (Claude Code)",
+  "conditions": {
+    "mcp_servers": "disabled",
+    "project_claude_md": "not loaded (trials and grading)",
+    "user_claude_md": "loaded",
+    "dynamic_prompt_sections": "excluded"
+  },
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Names the billing/orders spine as the default data foundation and gives its cost as roughly a week of reconciliation followed by near-zero standing cost."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Defines cost of sale with network fees, agency fees, and placement/tenancy fees inside the numerator, not commission alone."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Headlines validated or approved commission and shows pending separately, rather than headlining gross commission."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Excludes EPC from the metric set and gives recurring commission accruing over a conversion lag as the reason."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Defines net program contribution as attributed net revenue minus validated commission plus network, agency and placement fees."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Normalizes partner-sourced MRR/ARR by billing interval, dividing annual by 12 and quarterly by 3."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Gives every metric a one-sentence definition naming numerator, denominator, window, timezone, and counting method."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Labels the ROI tile with its attribution basis, naming last-click and the 30-day cookie window."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Notes that trade-body and network ROAS figures come from parties with an incentive to inflate the channel."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Derives every target from the program's own history rather than from any published figure."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes the influenced number costs roughly a quarter because a CRM influence model must exist and the precedence rule has to survive a political argument."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Ranks the influenced-revenue split low on efficiency because it changes how partner contribution is argued to an executive and nothing operational."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Gives every executive tile a value plus a delta against a stated prior period rather than a bare absolute number."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that a threshold with no owner is decoration."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Ships the alerts in the order reversal-rate spike, single-partner share spike, click-to-conversion anomaly, EPC drop, brand-bidding flag, and states that ordering out loud."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Explains reversal-rate spike leads because it fires on money already at risk and reads off a state the platform already maintains."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Notes that the click-to-conversion anomaly and the EPC drop are one rolling-baseline rule over two numerators, so building either makes the second a copy."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends keeping an alert log recording fired, acknowledged by, and resolved in."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States the four cadence bands carry no efficiency ranking and that all four get built."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Puts net program contribution, cost of sale, new-to-file and top-partner share on the executive view."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Rejects average commission per active partner as a metric because the mean hides the skew that matters."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Offers top-decile share plus the median in place of the average."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires program-term changes to be annotated on charts as well."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Keeps pending and approved conversions as separate states rather than mixing them into one total."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the comparability contract, covering event definition, date basis, timezone, currency and counting method, as what fixes the state per metric."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States the comparability contract must be fixed before any metric is specified, because changing it later invalidates all history."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Asks the three re-ranking questions, covering the date the first version must land, one-off win versus compounding asset, and the effort ceiling, before proposing metrics."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Asks clarifying questions one per message rather than delivering the whole questionnaire in a single block."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Pins the spec to the billing or orders spine because of the near date."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Deletes the modeled warehouse outright rather than listing it lower in the spec."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Deletes new-to-file share from the spec because the partner ID does not reach billing or CRM."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Lists every deleted metric, dimension and alert under Open items."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names stamping the partner ID at order or account creation as the prerequisite for new-to-file and for sourced-versus-influenced."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names partner-sourced MRR/ARR as blocked by the missing partner ID in billing and records it under Open items rather than silently dropping it."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Names clicks, impressions and signups as vanity metrics that inform no decision."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Requires every metric on the dashboard to carry a named decision it informs, and to be dropped otherwise."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Organizes the metric set into a business or headline tier, an input or driver tier, and a health or guardrail tier."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Labels any partner lifecycle chain such as recruit, activate, produce, grow as informal shorthand rather than a branded framework."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Gives ROAS as attributed revenue divided by media cost."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Specifies AOV net of returns and excluding tax and shipping, and states that convention in the definition."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Warns that a blended network EPC predicts no individual affiliate's EPC and must not be used to set a partner target."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Keeps every definition to one sentence naming numerator, denominator, window, timezone, and counting method."
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Rejects the affiliate platform's own export as the source of truth on the grounds that those are the claimant's numbers."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Keeps the affiliate platform as the source for clicks and traffic only, reconciled to the money spine."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Names the billing/orders spine as the default data foundation and gives its cost as roughly a week of reconciliation followed by near-zero standing cost."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Includes all four floor metrics: net program contribution, cost of sale, top-N partner concentration, and partner-sourced MRR/ARR."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Defines cost of sale with network fees, agency fees, and placement/tenancy fees inside the numerator, not commission alone."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Headlines validated or approved commission and shows pending separately, rather than headlining gross commission."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Excludes EPC from the metric set and gives recurring commission accruing over a conversion lag as the reason."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Defines net program contribution as attributed net revenue minus validated commission plus network, agency and placement fees."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Normalizes partner-sourced MRR/ARR by billing interval, dividing annual by 12 and quarterly by 3."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Gives every metric a one-sentence definition naming numerator, denominator, window, timezone, and counting method."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Records in the spec header which data foundation was chosen and what moved it there."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Names new-to-file share sliced by partner type as the first instrument to run, because it is the cheapest rung of the incrementality instruments."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States explicitly that new-to-file proves the customer was not already a customer, never that the partner caused the purchase."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Ranks the incrementality instruments as new-to-file screen, then commission-reduction test, then geo-lift test, then holdout test, and states the ranking out loud."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Notes value and effort run in the same order across those four instruments, so the right pick is the weakest instrument that still settles the live question."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Flags the commission-reduction test as carrying the highest compliance cost because it unilaterally changes a partner's economics."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Directs the user to the notice and rate-change clauses in the program terms before running a commission-reduction test."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Names the holdout test as the option the efficiency order starves and states the condition that promotes it anyway."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Adds a checkout-adjacent revenue share metric covering coupon, cashback and browser-extension revenue as a share of program revenue."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Routes low incrementality to a repricing decision and attribution manipulation to the fraud rule set, stating the dashboard surfaces the signal but decides neither."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Labels the ROI tile with its attribution basis, naming last-click and the 30-day cookie window."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Notes that trade-body and network ROAS figures come from parties with an incentive to inflate the channel."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Derives every target from the program's own history rather than from any published figure."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Tags each published figure with its provenance: vendor, trade body, synthesis, or the program's own derived baseline."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Flags the active-affiliate rate as uninterpretable until the program declares what counts as active and over what window."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Requires the active definition to be a meaningful action such as a validated conversion or live placement inside a fixed window, not a signup or a lone click."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Bands the 6% reversal rate against the program's own derived history rather than only against the published quality-problem line near 10%."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States the 14:1 figure is unreproducible without its attribution basis and its denominator stated."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Distinguishes attributed ROAS from attributed ROI and asks whether COGS sits in the denominator before treating 14:1 as either."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Refuses to produce the combined $5.5M partner-attributed ARR tile."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Reports partner-sourced and partner-influenced ARR as two separate, capped numbers."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that a deal qualifying as both sourced and influenced counts as sourced only."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Describes influenced revenue as a directional advocacy metric rather than bookable channel revenue."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Keeps influenced revenue in its own tile and outside any revenue total."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Places net program contribution on the executive view."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes the influenced number costs roughly a quarter because a CRM influence model must exist and the precedence rule has to survive a political argument."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Ranks the influenced-revenue split low on efficiency because it changes how partner contribution is argued to an executive and nothing operational."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Gives every executive tile a value plus a delta against a stated prior period rather than a bare absolute number."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Attaches four fields to every alert: threshold, owner, delivery channel, and expected response time."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that a threshold with no owner is decoration."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Ships the alerts in the order reversal-rate spike, single-partner share spike, click-to-conversion anomaly, EPC drop, brand-bidding flag, and states that ordering out loud."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Explains reversal-rate spike leads because it fires on money already at risk and reads off a state the platform already maintains."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names the brand-bidding or trademark flag as the alert the efficiency order starves."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Promotes the brand-bidding flag anyway because this program pays PPC partners."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Advises stopping when the team's attention runs out rather than filling the alert strip."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Notes that the click-to-conversion anomaly and the EPC drop are one rolling-baseline rule over two numerators, so building either makes the second a copy."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that fraud rule definitions and enforcement belong to the fraud rule set while the dashboard only surfaces the signals."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends keeping an alert log recording fired, acknowledged by, and resolved in."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Specifies four cadence bands: continuous or daily operational, weekly acquisition, monthly performance, and quarterly portfolio."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Assigns each band its own metrics and its own named review ritual stating who looks, in which meeting, deciding what."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States the four cadence bands carry no efficiency ranking and that all four get built."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Splits the dashboard into an executive view and an operator view."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States the two views differ in which metrics they carry, not only in level of detail."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Places fraud and compliance signals on the operator view rather than in a separate tool."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Gives the reason that daily decision-makers need performance and compliance signals at once."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Uses the layout convention KPI tiles, then trend or composition charts, then leaderboard or detail table, then alert strip."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Requires every tile to carry a value plus a delta against a stated prior period."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Puts net program contribution, cost of sale, new-to-file and top-partner share on the executive view."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Puts reversal rate, pending versus approved, single-partner share and conversion rate on the operator view."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Advises against capping or throttling the top partner's commission."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Confirms that top five partners above 50% of revenue is a concentration problem."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Computes the shares over active partners, using the spec's own active definition for the denominator population."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Places top-partner share on the executive view and reviews it quarterly."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States the concentration figures must be recomputed on the same definitions each quarter for the trend to be real."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Rejects splitting the sub-networks into their member publishers."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Counts each sub-network as one credited entity per conversion, with its own mix breakdown."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that counting a sub-network's members as many partners distorts both partner counts and concentration."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Rejects average commission per active partner as a metric because the mean hides the skew that matters."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Offers top-decile share plus the median in place of the average."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Explains that reversal lag makes the more recent period look artificially good."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires validation-window changes to be annotated on every chart."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires program-term changes to be annotated on charts as well."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Keeps pending and approved conversions as separate states rather than mixing them into one total."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the comparability contract, covering event definition, date basis, timezone, currency and counting method, as what fixes the state per metric."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States the comparability contract must be fixed before any metric is specified, because changing it later invalidates all history."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Confirms the cost-of-sale numerator includes network, agency and placement fees before any figure is trusted."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Asks the three re-ranking questions, covering the date the first version must land, one-off win versus compounding asset, and the effort ceiling, before proposing metrics."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Asks clarifying questions one per message rather than delivering the whole questionnaire in a single block."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Pins the spec to the billing or orders spine because of the near date."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Deletes the modeled warehouse outright rather than listing it lower in the spec."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Deletes the brand-bidding alert and the creative slice outright given the thin effort ceiling."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Deletes new-to-file share from the spec because the partner ID does not reach billing or CRM."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Deletes churn-adjusted partner LTV, noting the program is not old enough for a 24-month horizon."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Lists every deleted metric, dimension and alert under Open items."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States for each deleted item what would make it computable."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names stamping the partner ID at order or account creation as the prerequisite for new-to-file and for sourced-versus-influenced."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States the customer-file join costs roughly a quarter of work."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names partner-sourced MRR/ARR as blocked by the missing partner ID in billing and records it under Open items rather than silently dropping it."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States plainly that no canonical affiliate-dashboard framework exists."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States that affiliate metric definitions are not standardized and that no standards body enforces them."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Declines to invent, name, or present a branded framework."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Names the borrowed pieces instead: incrementality measurement, the attributed ROAS versus attributed ROI split, the sourced-versus-influenced separation rule, and a tiered metric hierarchy with good-metric criteria."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Attributes the tiered hierarchy and the good-metric criteria to Croll and Yoskovitz's Lean Analytics."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Lists the four good-metric criteria: comparative, a ratio or rate, understandable, and behavior-changing."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Demotes clicks and signups from headline KPIs to diagnostics."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Names clicks, impressions and signups as vanity metrics that inform no decision."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Replaces gross commissions earned with validated commission in the headline."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Requires every metric on the dashboard to carry a named decision it informs, and to be dropped otherwise."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Organizes the metric set into a business or headline tier, an input or driver tier, and a health or guardrail tier."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Labels any partner lifecycle chain such as recruit, activate, produce, grow as informal shorthand rather than a branded framework."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Gives ROI with COGS added to the denominator, distinct from ROAS."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States explicitly whether COGS sits in the denominator and warns against using ROAS and ROI interchangeably."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States AOV decides nothing unless it is sliced by partner type."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Defines the conversion rate with unique clicks in the denominator and declares the click convention."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Notes that what counts as a click, whether raw, unique, deduplicated or bot-filtered, varies by source, which is why the convention must be stated."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Warns that a blended network EPC predicts no individual affiliate's EPC and must not be used to set a partner target."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Keeps every definition to one sentence naming numerator, denominator, window, timezone, and counting method."
+      }
+    ]
+  }
+}

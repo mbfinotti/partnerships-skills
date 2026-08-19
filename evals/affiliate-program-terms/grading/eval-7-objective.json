@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States the ordering for browser extensions: an outright ban ahead of permission with a stand-down obligation, on value per unit of effort.",
+        "evidence": "6.x(f) 'Residual ban. Anything not satisfying (a)\u2013(e) remains prohibited... any extension... is banned regardless of who operates it' establishes ban as the default baseline, with permission under (a)-(e) (including stand-down) as the carved-out exception, consistent with the scope note reasoning 'permit, don't ban'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the named material revenue share plus available clickstream evidence as the condition that promotes permission, and drafts the permitted-extension clause rather than the ban.",
+        "evidence": "Scope note: 'Slipstream already drives measurable tracked revenue with vendor-side clickstream evidence available (\u2192 permit, don't ban)', followed by the drafted 6.x permitted-extension clause rather than an outright ban.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Drafts a stand-down obligation requiring a permitted extension to stand down, not fire, when another affiliate is earlier in the clickstream.",
+        "evidence": "6.x(c): 'The extension must stand down \u2014 not fire, attach, or overwrite \u2014 whenever another affiliate, marketing channel, or the Company's own direct traffic is earlier in the click stream for that session or transaction.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the evidentiary basis: whose clickstream data settles a stand-down dispute.",
+        "evidence": "6.x(d): 'The Company's third-party tracking vendor's server-side clickstream and attribution logs are the sole and controlling evidence for resolving any dispute over (i) whether a stand-down violation occurred, and (ii) which affiliate is entitled to credit for a transaction.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires disclosure, a related user action, and a direct transparent user benefit before the extension may attach an affiliate link, code, or cookie, attributing the standard to the Performance Marketing Association's toolbar and software standard.",
+        "evidence": "6.x(a) requires disclosure 'at install and before any purchase-flow interaction'; 6.x(b) requires the attachment to follow 'an affirmative, related user action' and 'a real, disclosed benefit to the user', 'consistent with the Performance Marketing Association's Toolbar and Software Industry Standard.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Makes the disclosure and genuine-user-benefit conditions warranties the affiliate gives on each release.",
+        "evidence": "The explicit warranty language in 6.x(c) is scoped only to stand-down compliance: '[Affiliate legal name...] and any other extension-based affiliate expressly warrants stand-down compliance on every software release, not just at approval.' Disclosure (a) and related-action/benefit (b) are stated as conditions for permission, not framed as affiliate warranties given on each release.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Selects the restricted coupon position rather than a full ban or full permission, and states the ordering that puts restriction ahead of both.",
+        "evidence": "Scope note: 'the coupon problem is specifically *unauthorized* codes on legitimate sites (\u2192 restrict, don't ban outright \u2014 you'd lose the other ~15 clean sites' discovery traffic for no reason)', and the drafted 6.y clause permits only Company-issued valid codes rather than banning coupon sites or permitting any code unconditionally.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Drafts that only discount codes issued to that affiliate may be published.",
+        "evidence": "6.y(a): 'Only codes and offers the Company has affirmatively issued to that specific affiliate, and that are currently valid, may be published \u2014 whether on-page, in metadata/page titles, or in any \"code locker\" or expired-code archive.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Drafts that expired and internal codes void the commission.",
+        "evidence": "6.y(b): 'Publishing, or displaying as active, any code that (i) was not issued to that affiliate by the Company, (ii) has expired, (iii) is an internal, employee, press, or influencer-only code... is prohibited. This voids commission on any resulting transaction...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes trademark-plus-coupon search terms to the brand-bidding clause rather than duplicating the rule.",
+        "evidence": "6.y(c): 'Any combination of the Company's trademarks with \"coupon,\" \"code,\" \"discount,\" \"deal,\" or similar terms \u2014 in domains, page titles, ad copy, or paid-search keywords \u2014 is governed by the Brand Assets / Trademark-Bidding clause (Section [X]), not by this clause.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly whether a last-click on a code-page visit earns commission.",
+        "evidence": "6.y(d): 'a code-page visit showing no valid code, an expired code, or another affiliate's code creates no attribution, regardless of that affiliate's position in the click stream' \u2014 explicitly stating a last-click position does not earn commission absent a valid displayed code.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States the ordering for browser extensions: an outright ban ahead of permission with a stand-down obligation, on value per unit of effort.",
+        "evidence": "The transcript opens directly with the Section A framework ('Written to let the relationship continue, not to end it') without presenting or ordering alternative positions.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the named material revenue share plus available clickstream evidence as the condition that promotes permission, and drafts the permitted-extension clause rather than the ban.",
+        "evidence": "The permitted-extension clause is drafted, but the transcript never explicitly frames revenue share or clickstream evidence as the justifying condition for choosing permission over a ban.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Drafts a stand-down obligation requiring a permitted extension to stand down, not fire, when another affiliate is earlier in the clickstream.",
+        "evidence": "A.3: 'that channel's click takes attribution priority over a cashback-extension activation that occurs later in the same session, unless the extension activation is the only qualifying click present.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the evidentiary basis: whose clickstream data settles a stand-down dispute.",
+        "evidence": "A.2 only allows Company to 'audit event logs against session recordings or server-side event data' for compliance checks generally; no clause ties this evidentiary basis specifically to resolving attribution stand-down disputes under A.3.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires disclosure, a related user action, and a direct transparent user benefit before the extension may attach an affiliate link, code, or cookie, attributing the standard to the Performance Marketing Association's toolbar and software standard.",
+        "evidence": "A.2 and A.4 require user-initiated activation and disclosure, but no 'direct transparent user benefit' requirement or reference to the Performance Marketing Association's standard appears anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Makes the disclosure and genuine-user-benefit conditions warranties the affiliate gives on each release.",
+        "evidence": "A.4 states disclosure obligations as ongoing duties, not as warranties given 'on each release'; no such warranty framing exists.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Selects the restricted coupon position rather than a full ban or full permission, and states the ordering that puts restriction ahead of both.",
+        "evidence": "Section B drafts restrictions (authorized codes, live feed) but never states an explicit ordering rationale placing restriction ahead of a full ban or full permission.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Drafts that only discount codes issued to that affiliate may be published.",
+        "evidence": "B.1: 'Affiliate may publish only codes Company has explicitly issued to that affiliate, or codes distributed through Company's official live-code feed.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Drafts that expired and internal codes void the commission.",
+        "evidence": "B.6: 'Commission is void, and subject to clawback, on any order where the shopper landed via a page showing a code that violated B.1\u2013B.3,' and B.4 requires removal of expired codes.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes trademark-plus-coupon search terms to the brand-bidding clause rather than duplicating the rule.",
+        "evidence": "B.7: 'Affiliate may not bid on Company's brand or product trademarks in paid search to promote a coupon page ... except where separately licensed under a distinct trademark-bidding agreement.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly whether a last-click on a code-page visit earns commission.",
+        "evidence": "The document discusses clawback for violating pages (B.6) but never states the general rule for whether a legitimate last-click on a code-page visit earns commission.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Warns that deleting the account destroys the evidence a network report or legal escalation would need",
+        "evidence": "'Deleting the account destroys the evidence that any enforcement action \u2014 clawback, network report, chargeback dispute \u2014 has to stand on.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that evidence must be collected before the affiliate is contacted",
+        "evidence": "'Telling a partner \"we caught you committing fraud\" before you've built the evidence file does two things against you'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Corrects the outbound message: never use the word 'fraud' with the flagged partner, and keep external wording neutral and factual, such as commissions under review pending a routine quality check with a date for the next update",
+        "evidence": "'never use the word \"fraud\" with a flagged partner. Neutral language only \u2014 \"your account is under review pending a routine quality check.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the network will not police the program, because networks earn a share of commission volume and their compliance is reactive, acting only on evidence-backed complaints",
+        "evidence": "'Networks earn a cut of commission volume. Their compliance teams are reactive: they act on evidence-backed complaints from you'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes networks run cross-client blacklists rather than per-brand surveillance, so nothing happens unprompted",
+        "evidence": "'any cross-program blacklist only exists if you file it'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires an investigation dossier and lists its fields, including affiliate and platform ID, rules triggered with timestamps, baseline versus observed values, evidence artifacts, financial exposure, declared traffic source versus observed referrers, prior warnings, recommended action with reviewer name, and appeal status with deadline",
+        "evidence": "Only lists 'affiliate/publisher ID, the specific rule triggered with timestamps, baseline vs. observed values, evidence artifacts... and financial exposure' \u2014 omits declared-vs-observed source, prior history, recommended action+reviewer, and appeal deadline as dossier fields.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Runs the tier-3 enforcement ladder in order: suspend, reverse or void violation-period commissions, claw back paid amounts, terminate, network report, then legal referral",
+        "evidence": "The transcript discusses clawback, network report, and legal referral as separate topics but never lays out the ordered ladder suspend\u2192reverse/void\u2192clawback\u2192terminate\u2192network report\u2192legal referral.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places a 7% chargeback rate above the starting threshold of 3% in a rolling 30 days and assigns Suspend & Escalate",
+        "evidence": "'7% chargebacks in a month clears the common suspend-tier threshold (>3% rolling 30 days), so escalating is defensible'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Tags the 3% chargeback threshold as a vendor rule of thumb rather than an industry constant",
+        "evidence": "The 3% figure is stated as 'the common suspend-tier threshold' with no [VENDOR] tag or caveat about it being non-standard.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the case to be reviewed or signed off by someone other than the analyst who detected it",
+        "evidence": "'reviewed by someone other than whoever flagged it'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Opens a published appeal window of roughly 14 days with evidence submitted in writing before termination is final",
+        "evidence": "'Give them a written appeal path (~14 days, evidence in writing, reviewed by someone other than whoever flagged it)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags that stolen-card chargebacks can land 60 to 180 days after the sale, so the hold window alone never recovers commission already paid",
+        "evidence": "Transcript cites '120 days (standard) to 540 days' filing windows, not the specific 60-180 day framing required by the rubric.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Warns that an unfounded fraud allegation carries its own liability and that suspension can breach the published program terms",
+        "evidence": "'that email is exposure (breach of contract / defamation risk), not a clean paper trail'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Warns that deleting the account destroys the evidence a network report or legal escalation would need",
+        "evidence": "'Deleting the account this afternoon destroys the evidence you'd need \u2014 order history, click/session logs, IP and device data, timestamps, cookie attribution \u2014 both for the network's investigation and for clawing back commissions already paid.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that evidence must be collected before the affiliate is contacted",
+        "evidence": "The checklist orders export of evidence (step 2) and filing the fraud case (step 3) before 'Have legal review the tone of anything further you send him' (step 5), and says 'Don't send anything further like that without legal sign-off.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Corrects the outbound message: never use the word 'fraud' with the flagged partner, and keep external wording neutral and factual, such as commissions under review pending a routine quality check with a date for the next update",
+        "evidence": "The transcript only suggests 'keep future comms factual (\"suspending pending investigation of anomalous chargeback activity\")' \u2014 different wording, no explicit 'never use the word fraud' rule, and no next-update date is specified.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the network will not police the program, because networks earn a share of commission volume and their compliance is reactive, acting only on evidence-backed complaints",
+        "evidence": "The transcript says networks 'act on formal fraud reports the merchant files... If you don't open a case, nothing happens on their end' but never gives the economic-incentive reasoning (networks earning a share of commission volume).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes networks run cross-client blacklists rather than per-brand surveillance, so nothing happens unprompted",
+        "evidence": "'most networks share fraud blacklists, but again, only if reported.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires an investigation dossier and lists its fields, including affiliate and platform ID, rules triggered with timestamps, baseline versus observed values, evidence artifacts, financial exposure, declared traffic source versus observed referrers, prior warnings, recommended action with reviewer name, and appeal status with deadline",
+        "evidence": "No dossier or field list of that kind appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Runs the tier-3 enforcement ladder in order: suspend, reverse or void violation-period commissions, claw back paid amounts, terminate, network report, then legal referral",
+        "evidence": "The checklist order is pause/freeze, export, file network case, flag processor, legal review, then decide termination \u2014 network report precedes the termination decision, not following clawback/termination as the rubric ladder specifies.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places a 7% chargeback rate above the starting threshold of 3% in a rolling 30 days and assigns Suspend & Escalate",
+        "evidence": "No chargeback-rate percentages or thresholds are given anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Tags the 3% chargeback threshold as a vendor rule of thumb rather than an industry constant",
+        "evidence": "No such threshold exists in the transcript to tag.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the case to be reviewed or signed off by someone other than the analyst who detected it",
+        "evidence": "Not mentioned in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Opens a published appeal window of roughly 14 days with evidence submitted in writing before termination is final",
+        "evidence": "No appeal window is mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags that stolen-card chargebacks can land 60 to 180 days after the sale, so the hold window alone never recovers commission already paid",
+        "evidence": "The transcript mentions a hold of '30\u201360 days, depending on your processor' but never states the 60-180 day stolen-card chargeback lag or that holds alone can't recover already-paid commission.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Warns that an unfounded fraud allegation carries its own liability and that suspension can breach the published program terms",
+        "evidence": "The transcript warns the email itself is a 'defamation/breach-of-contract exposure' but never states that suspension itself can breach published program terms.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

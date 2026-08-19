@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Does not declare the program healthy or unhealthy on the strength of the benchmark comparisons alone.",
+        "evidence": "No health verdict is issued on benchmark strength. Each \u2705/\u26a0\ufe0f is explicitly framed as a comparison against a named, qualified source rather than a state of health: '~17% above a stale 2018 average', 'mid-band, above the weak-program cutoff', and for concentration '\u26a0\ufe0f less concentrated than the quoted figure, but don't read that as reassurance'. The closing paragraph makes the refusal explicit: 'you're inside safe bands \u2014 but \"safe\" here is defined against genuinely thin published evidence (one SYNTH aggregator with no raw data, one bare VENDOR threshold), not against your own program's actual v",
+        "score": 5,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Does not declare the program healthy or unhealthy on the strength of the benchmark comparisons alone.",
+        "evidence": "No overall health verdict is issued, and the closing section explicitly refuses to use the quoted figures as calibration: the 'network average' and '71% figure' 'smell like numbers repeated across blog posts without a traceable source or shared methodology (attribution window, last-click vs. multi-touch, self-reported by whom)', to be treated as 'directional color, not as calibration points', with targets 'set off your own trend, using the quoted figures only as sanity checks, not anchors.' Per-metric notes further deflate the benchmarks ('too wide to be a useful benchmark (3x spread)'; the 12",
+        "score": 4,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

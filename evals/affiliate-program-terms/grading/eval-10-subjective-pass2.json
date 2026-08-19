@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Treats already-published terms with a live affiliate base as pricing each tightening at one amendment cycle plus the affiliates who leave, making reversibility rather than drafting hours the binding constraint.",
+        "evidence": "The answer shows partial awareness of the amendment-cycle cost: it builds a two-track effective date (15 days for ~300 EU/UK affiliates), notes the mandatory 'right to terminate instead of accepting', and explicitly routes the two active offenders around the cycle ('don't wait for the amendment cycle to deal with them... existing language plus ordinary trademark law likely already gives you grounds to suspend... independent of, and faster than, this amendment'). It also nods at ongoing maintenance ('Version the document... you're 14 months into a maintained program, not issuing a one-off'). Bu",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Treats already-published terms with a live affiliate base as pricing each tightening at one amendment cycle plus the affiliates who leave, making reversibility rather than drafting hours the binding constraint.",
+        "evidence": "The answer does surface the amendment-cycle machinery \u2014 the 15-day P2B notice, the drafted clause giving affiliates the right to 'terminate their participation in the Program at no cost ... before the amendment's effective date', and prospective-only application ('No amendment applies retroactively to conduct that occurred, or commissions that accrued, before its effective date'). It also nudges toward one unsegmented notice ('satisfies P2B for everyone, not just EU/UK \u2014 simpler than segmenting'). But the termination window is framed purely as a compliance requirement, never as a business cost",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

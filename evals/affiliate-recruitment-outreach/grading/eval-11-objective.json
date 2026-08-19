@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Does not deliver a finished recruitment email with the commission left blank, hedged, or invented",
+        "evidence": "Two fully specified variants are given, each stating a real candidate number (20% recurring or $200 flat) rather than a blank, hedge, or invented figure.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the email may carry only confirmed terms, and gates the draft on the commission being decided",
+        "evidence": "'it communicates the commission, it never designs or fills in one... The moment they decide, you send the matching one, unchanged, same day.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes the commission decision itself out of scope, pointing at commission-structure design rather than choosing between 20% recurring and a $200 flat bounty",
+        "evidence": "The assistant presents both variants without recommending or picking one, leaving 'once finance locks the number, tell me which variant won.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names 'terms surfacing after the pitch that contradict the email' as a documented failure mode driving that gate",
+        "evidence": "'\"terms surfacing post-pitch that contradict the email\" is listed as a named failure mode.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks the remaining interview questions one at a time rather than as a single block",
+        "evidence": "The 'What's still open on my end' section lists four questions together as one bulleted block, not one at a time.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks by what date recruited affiliates must be producing",
+        "evidence": "No question about a production deadline appears in the 'still open' list or anywhere else in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks whether this is a one-off launch push or a compounding channel that will still run next year",
+        "evidence": "This question does not appear anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks the effort ceiling: manager hours per week, and what is already owned",
+        "evidence": "No question about hours per week or existing resources appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains those three answers re-rank sourcing categories, cadence and CTA, so they must be answered before drafting rather than at the moment of choosing",
+        "evidence": "No such explanation appears; the transcript instead proceeds directly to fully-written variant emails.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Proposes 2-3 candidate pitch angles with trade-offs and a recommendation, and writes no message until the user picks one",
+        "evidence": "No alternative angles are proposed \u2014 the transcript writes two complete ready-to-send email variants directly, using a single fixed structure (audience-fit + economics) rather than withholding drafting pending an angle choice.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Does not deliver a finished recruitment email with the commission left blank, hedged, or invented",
+        "evidence": "The draft is delivered in full with '[Commission details to be finalized \u2014 e.g., recurring revenue share or a flat bounty per qualified referral]' left as a bracket inside an otherwise complete, ready-to-send email.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the email may carry only confirmed terms, and gates the draft on the commission being decided",
+        "evidence": "No such gating statement is made; the email is presented as ready to use with the commission bracket in place.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Routes the commission decision itself out of scope, pointing at commission-structure design rather than choosing between 20% recurring and a $200 flat bounty",
+        "evidence": "The transcript just inserts a placeholder bracket without declining to decide or redirecting the decision process.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names 'terms surfacing after the pitch that contradict the email' as a documented failure mode driving that gate",
+        "evidence": "No such failure mode is discussed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks the remaining interview questions one at a time rather than as a single block",
+        "evidence": "No interview questions are asked at all in this section; the response ends with a note about the placeholder bracket.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks by what date recruited affiliates must be producing",
+        "evidence": "Not asked anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks whether this is a one-off launch push or a compounding channel that will still run next year",
+        "evidence": "Not asked anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks the effort ceiling: manager hours per week, and what is already owned",
+        "evidence": "Not asked anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains those three answers re-rank sourcing categories, cadence and CTA, so they must be answered before drafting rather than at the moment of choosing",
+        "evidence": "No such explanation is given; drafting proceeds immediately without any prerequisite questions.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Proposes 2-3 candidate pitch angles with trade-offs and a recommendation, and writes no message until the user picks one",
+        "evidence": "Only subject-line options are offered ('Subject line options: 1... 2... 3...'), and a full email body is written immediately rather than withheld pending an angle choice.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Exits an affiliate from the calendar sequence the moment the activation event tracks",
+        "evidence": "'before sending any T-n calendar touch: if activation_event.fired == true: cancel remaining calendar touches'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fires a distinct celebration touch on first sale and hands over to ongoing program communications",
+        "evidence": "'fire T6 \"celebration\" touch once (if not already sent); hand off to standard program comms'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that continuing the onboarding drip past activation reads as unattended automation",
+        "evidence": "No such statement appears; the closest text discusses acknowledgment failure ('Don't let the drip go silent... that's how you get \"do you people not see my orders?\"') but not the 'reads as unattended automation' framing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Has the first-sale celebration state when the commission approves and when it pays",
+        "evidence": "'fire a distinct T6 email: no ask, just confirm the sale tracked and state when commission approves/pays.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Re-enters reactivated archived affiliates at the tools touch (T2), not at the welcome touch (T1)",
+        "evidence": "'Rule: re-entry is T2, never T1... Drop them at T2 (tools)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason that reactivated affiliates need a working asset and one action, not re-approval",
+        "evidence": "'They're already approved and already attested to terms \u2014 sending T1 again re-asks them to accept terms they already accepted' and 'Drop them at T2 (tools): one asset, one action'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Suppresses calendar touches while a reply thread with the affiliate manager is open",
+        "evidence": "'Rule: suppress calendar touches while an AM reply thread is open.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies that entry into the never-activated branch ends the main sequence",
+        "evidence": "'on never-activated entry -> ends main sequence, branch's own final-notice/archive rules take over'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Adds a trigger-overrides-calendar rule: when a behavior trigger fires within a day of a scheduled calendar touch, send the trigger touch and skip or delay the calendar one",
+        "evidence": "No general 'trigger overrides calendar within a day' rule appears in this transcript; only the activation-specific exit guard is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason that two emails in one day from the same program trains the skim reflex",
+        "evidence": "Not stated anywhere in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Honors unsubscribes program-wide",
+        "evidence": "Not mentioned anywhere in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags whether transactional notices (commission approved, payout sent) may still send after a marketing unsubscribe as a question for the program's terms and local law, rather than assuming they may",
+        "evidence": "'those can survive suppression only if Bellfort's affiliate terms and applicable law say so \u2014 check the terms, don't assume either way.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Exits an affiliate from the calendar sequence the moment the activation event tracks",
+        "evidence": "'On the sale event, don't just skip the day-21 email \u2014 exit the whole welcome drip and move the affiliate to a distinct \"activated\" track.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fires a distinct celebration touch on first sale and hands over to ongoing program communications",
+        "evidence": "'move the affiliate to a distinct \"activated\" track (congrats/next-tier/upsell content).'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that continuing the onboarding drip past activation reads as unattended automation",
+        "evidence": "The reasoning given is technical ('step/time-driven instead of state-driven'), not framed as a customer-perception 'reads as unattended automation' argument.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Has the first-sale celebration state when the commission approves and when it pays",
+        "evidence": "No distinction between sale, commission approval, and payout stages is discussed for the celebration touch.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Re-enters reactivated archived affiliates at the tools touch (T2), not at the welcome touch (T1)",
+        "evidence": "Never-converted affiliates 'restart the welcome drip, but swap in \"still with us?\" framing for step 1' \u2014 this restarts at step 1 (T1), not T2.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason that reactivated affiliates need a working asset and one action, not re-approval",
+        "evidence": "No such reasoning is stated; segmentation logic is based on prior sale history, not asset/action framing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Suppresses calendar touches while a reply thread with the affiliate manager is open",
+        "evidence": "'Treat \"a human is actively engaged\" as a suppression signal exactly like \"has converted.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies that entry into the never-activated branch ends the main sequence",
+        "evidence": "No 'never-activated' branch concept is discussed in this transcript at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Adds a trigger-overrides-calendar rule: when a behavior trigger fires within a day of a scheduled calendar touch, send the trigger touch and skip or delay the calendar one",
+        "evidence": "No specific same-day/near-day override rule is described; only a general 're-check status before every send' principle is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason that two emails in one day from the same program trains the skim reflex",
+        "evidence": "Not mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Honors unsubscribes program-wide",
+        "evidence": "'Maintain one status field per affiliate (new / activated / dormant / reactivated / human_handling / unsubscribed) as the system of record' with all flows reading from that field.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags whether transactional notices (commission approved, payout sent) may still send after a marketing unsubscribe as a question for the program's terms and local law, rather than assuming they may",
+        "evidence": "Not addressed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Answers that one skeleton serves both models, with each economic clause set scoped to its product line, rather than producing two separate agreements.",
+        "evidence": "'**No \u2014 one agreement, one skeleton, two scoped clause sets.**'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly which parts are drafted identically for both: definitions, eligibility, licence, tracking, prohibited tactics, disclosure, IP and confidentiality, data protection, reps and warranties, indemnity, liability, termination, amendment, assignment, governing law, and tax.",
+        "evidence": "'The canonical structure (definitions, eligibility, licence, tracking, prohibited tactics, disclosure, IP, data protection, reps, indemnity, liability, termination, amendment, assignment, governing law, tax) is identical for B2B SaaS and B2C ecommerce.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines earned revenue for the SaaS line across upgrade, downgrade, failed charge, refund, and churn.",
+        "evidence": "'Paid on Net Collected Revenue, not bookings \u2014 a subscription that churns or fails to collect generates no payable commission'; 'Upgrades/downgrades: commission recalculates to the new subscription tier's Net Collected Revenue...'; 'Failed charges/dunning: no commission accrues...'; 'Net Collected Revenue' defined as 'subscription fees actually collected net of refunds and failed charges'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the SaaS commission pays on net collected revenue, not bookings.",
+        "evidence": "'Paid on Net Collected Revenue, not bookings \u2014 a subscription that churns or fails to collect generates no payable commission for that period.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Carries the 24-month recurring cap for the SaaS line and states that a recurring cap does not apply to the one-time ecommerce line.",
+        "evidence": "'Recurring, capped at 24 months from the first paid month of the referred subscription.' for Software, versus Store: '8% of Net Collected Revenue ... on the referred Store Order, one-time.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines the ecommerce earned amount as order value net of returns, cancellations, taxes, and shipping.",
+        "evidence": "'8% of Net Collected Revenue (order value net of returns, cancellations, taxes, shipping) on the referred Store Order, one-time.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Ties ecommerce reversals to the store's actual return and cancellation window, with the validation period at least as long.",
+        "evidence": "'Store line: Validation window must be **at least as long as** Kirnwood's own hardware return/cancellation window [TBD \u2014 confirm current return policy length].'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Adds ecommerce-only clauses: coupon and deal-site last-click policy, product-feed accuracy rules, and restriction of third-party marketplace listings.",
+        "evidence": "Coupon/deal-site restriction and 'Unauthorized marketplace listings (Store line only)' are both present, but no clause anywhere in the document addresses product-feed accuracy rules.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Splits self-referral treatment: customer self-referral barred on the SaaS side, and self, friends and family purchases excluded on the ecommerce side.",
+        "evidence": "'Self-referral / incentivized traffic: No commission on Affiliate's own purchases, or (Store line) friends'/family's purchases; no undisclosed incentives manufacturing referrals...' \u2014 friends/family exclusion is scoped specifically to the Store line.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites the 20%/24-month and 8% figures as given and invents no additional rate or threshold.",
+        "evidence": "'Rates below are as decided by Kirnwood; this document does not invent them.' with thresholds left as '[$X \u2014 TBD]', '[TBD]' for payment method/schedule, cookie windows, etc.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Delivers the document in the canonical section order, keeping \"Effect of Termination on Pending Commissions\", \"Clawback & Reversal\", and \"Chargeback Reserve & Negative Balances\" as three distinct sections.",
+        "evidence": "Sections '14. Effect of Termination on Pending Commissions', '15. Clawback & Reversal', and '16. Chargeback Reserve & Negative Balances' appear sequentially as distinct headed sections.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Answers that one skeleton serves both models, with each economic clause set scoped to its product line, rather than producing two separate agreements.",
+        "evidence": "'No \u2014 one master agreement with two program-specific schedules. Not two fully separate agreements.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly which parts are drafted identically for both: definitions, eligibility, licence, tracking, prohibited tactics, disclosure, IP and confidentiality, data protection, reps and warranties, indemnity, liability, termination, amendment, assignment, governing law, and tax.",
+        "evidence": "Only 'independent contractor status, conduct rules, IP/trademark use, confidentiality, indemnification, termination for cause, dispute resolution, FTC compliance' are named as identical \u2014 data protection, reps/warranties, liability, amendment, assignment, governing law, and tax are never listed as shared boilerplate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines earned revenue for the SaaS line across upgrade, downgrade, failed charge, refund, and churn.",
+        "evidence": "Schedule A \u00a73 only says 'Gross recurring subscription fee actually paid and not refunded, excluding taxes, one-time setup/onboarding fees, and any discounts applied' \u2014 upgrade/downgrade proration and failed-charge handling are not addressed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the SaaS commission pays on net collected revenue, not bookings.",
+        "evidence": "Schedule A \u00a72: '20% of Net Subscription Revenue actually collected from a referred customer, per billing cycle.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Carries the 24-month recurring cap for the SaaS line and states that a recurring cap does not apply to the one-time ecommerce line.",
+        "evidence": "Schedule A \u00a72 sets 'up to 24 consecutive paid months'; Schedule B \u00a72 states '8% of Net Sale Price per unit, one-time, no recurring component' and \u00a79 confirms 'No trailing commission \u2014 Schedule B has no recurring component.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines the ecommerce earned amount as order value net of returns, cancellations, taxes, and shipping.",
+        "evidence": "Schedule B \u00a73 defines Net Sale Price as 'excluding taxes, shipping, and any discount applied' \u2014 returns and cancellations are handled separately via the \u00a76 clawback, not built into the earned-amount definition.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ties ecommerce reversals to the store's actual return and cancellation window, with the validation period at least as long.",
+        "evidence": "Schedule B \u00a75: 'Commission accrues once the applicable return/RMA window ([30] days from delivery) closes without a return, refund, or warranty replacement.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Adds ecommerce-only clauses: coupon and deal-site last-click policy, product-feed accuracy rules, and restriction of third-party marketplace listings.",
+        "evidence": "Schedule B contains no coupon/deal-site policy, no product-feed accuracy clause, and no marketplace-listing restriction.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Splits self-referral treatment: customer self-referral barred on the SaaS side, and self, friends and family purchases excluded on the ecommerce side.",
+        "evidence": "Section 4 bans 'self-referrals' identically for both programs in the shared Master Agreement, with no differentiated friends-and-family exclusion drafted for the ecommerce line.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites the 20%/24-month and 8% figures as given and invents no additional rate or threshold.",
+        "evidence": "Schedule A \u00a77 states 'A churned customer who resubscribes more than 180 days after cancellation is treated as a new referral' \u2014 an invented 180-day reactivation threshold presented as a firm rule, not flagged as an assumption like the bracketed attribution/return-window figures.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Delivers the document in the canonical section order, keeping \"Effect of Termination on Pending Commissions\", \"Clawback & Reversal\", and \"Chargeback Reserve & Negative Balances\" as three distinct sections.",
+        "evidence": "Each Schedule has 'Clawback' and 'Effect of Termination' sections, but no 'Chargeback Reserve & Negative Balances' section exists anywhere in the Master Agreement or either Schedule.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

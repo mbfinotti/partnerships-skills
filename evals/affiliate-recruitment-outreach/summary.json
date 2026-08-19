@@ -1,0 +1,487 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "affiliate-recruitment-outreach",
+  "scenarios": 11,
+  "expectations_total": 125,
+  "expectations_subjective": 0,
+  "expectations_objective": 125,
+  "pass_rate_with_skill_pct": 74.4,
+  "pass_rate_without_skill_pct": 36.8,
+  "delta_pp": 37.6,
+  "uplift_multiplier": 2.02,
+  "trigger_accuracy_pct": 79.5,
+  "trigger_queries": 112,
+  "subjective_ac2": null,
+  "subjective_pass_disagreements": [],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.270 (Claude Code)",
+  "conditions": {
+    "mcp_servers": "disabled",
+    "project_claude_md": "not loaded (trials and grading)",
+    "user_claude_md": "loaded",
+    "dynamic_prompt_sections": "excluded"
+  },
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Segments the list by recipient jurisdiction before drafting any message, and states the regime attaches to where the prospect is, not where the program is"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Instructs checking each UK prospect's legal form, identifying limited companies, LLPs, Scottish partnerships and public bodies as corporate subscribers that may be cold-emailed"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States a personal or freemail address counts as an individual subscriber regardless of the employer behind it"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Gives a cheap concrete check for UK legal form (Companies House lookup, or an explicit 'Ltd'/'Limited'/'LLP' in the trading name) and defaults to individual-subscriber treatment when the form is unknown"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States US prospects are cold-emailable under CAN-SPAM without prior consent, and that there is no B2B exemption"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Lists the CAN-SPAM must-carry items for the US segment: accurate from/reply-to and routing, non-deceptive subject, physical postal address, and a working opt-out"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Orders qualification with audience fit checked first, ahead of traffic/authority and ahead of monetization evidence"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States a high-authority site with the wrong audience is a worse prospect than a smaller site with the right one"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Leads with one audience-fit sentence before the economics, rather than with the product or the company"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States the fifth touch is a mandatory breakup message, and that it is what pushes the window past three weeks"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States a single unanswered touch means the prospect is busy, not uninterested"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "For any prospect with no documented consent basis, states no touch count is lawful and passive recruitment is the route, rather than prescribing a shortened version of either cadence"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the commission facts must match the decided terms exactly - never rounded, never embellished"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Carries all four stated terms into the draft: 30% recurring, 12 months, 90-day cookie, net-45"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Does not invent a conversion rate, customer count, or review score as that proof point - asks the user for one or flags it as missing"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States this skill communicates the already-decided commission and does not redesign or adjust it"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Keeps the first touch under 120 words"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes the unverifiable earnings claim also creates income-representation regulatory exposure"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Rejects adding the calendar link as a second ask, holding the message to exactly one CTA"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Notes a booked-call CTA is wrong for a cold first touch of this type, belonging to B2B tier 1 from touch 3 onward if used at all"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States pre-approved accounts require real per-prospect setup work before sending, and scopes them to B2C tier 1 if used at all"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Removes coupon/cashback/loyalty from the plan for this B2B SaaS program rather than ranking it last"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Warns that one large blast underperforms small batches, and recommends batches of 50 or fewer"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Recommends a competitor-affiliate search or link-intersect/backlink analysis as the discovery method to rebuild the list, and notes the ranking shifts with what the manager already owns (licensed backlink tool, existing roster, retained agency)"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Makes touch 2 a short resurface on the same email thread, 1-2 sentences, restating no part of the pitch"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States sending stops immediately on reply, opt-out or hard bounce, and that continuing past an opt-out is a per-message violation rather than persistence"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Asks the remaining interview questions one at a time rather than as a single block"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Asks by what date recruited affiliates must be producing"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Asks whether this is a one-off launch push or a compounding channel that will still run next year"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Asks the effort ceiling: manager hours per week, and what is already owned"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Explains those three answers re-rank sourcing categories, cadence and CTA, so they must be answered before drafting rather than at the moment of choosing"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Proposes 2-3 candidate pitch angles with trade-offs and a recommendation, and writes no message until the user picks one"
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Segments the list by recipient jurisdiction before drafting any message, and states the regime attaches to where the prospect is, not where the program is"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States that German prospects require prior opt-in and must be handled like the Canadian prospects, not under a general EU legitimate-interest basis"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Instructs checking each UK prospect's legal form, identifying limited companies, LLPs, Scottish partnerships and public bodies as corporate subscribers that may be cold-emailed"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States a personal or freemail address counts as an individual subscriber regardless of the employer behind it"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Notes that one-person newsletter and review operations will mostly land on the individual-subscriber side, so a country-level 'UK is fine' rule misclassifies most of this segment"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Gives a cheap concrete check for UK legal form (Companies House lookup, or an explicit 'Ltd'/'Limited'/'LLP' in the trading name) and defaults to individual-subscriber treatment when the form is unknown"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States the 27 Canadian prospects need express or implied consent under CASL, gives an implied-consent example such as an existing business relationship or a conspicuously published role-relevant address, and requires the basis be documented per contact"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Places competitors' current affiliates at or near the top of the sourcing efficiency order for a B2B SaaS program"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Names at least three screen failure patterns drawn from: trademark bidding on brand terms, coupon injection or adware/parasiteware, cookie stuffing or forced clicks, thin AI-generated or scraped content with no real audience"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Flags that a prospect may sit under an exclusivity clause, or that approaching a network-managed roster can breach that network's non-solicitation terms, and says to check before the first send"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States never to ask a prospect to break an existing agreement"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Orders qualification with audience fit checked first, ahead of traffic/authority and ahead of monetization evidence"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States a high-authority site with the wrong audience is a worse prospect than a smaller site with the right one"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Recommends checking outbound links for affiliate-network redirect parameters as monetization evidence"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Replaces the subject line and states that 'Partnership Proposal from [Company]' style subjects are a documented delete-on-sight pattern"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Notes the earnings claim also creates regulatory exposure for income representations"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Adds a physical postal address and a working opt-out, citing CAN-SPAM"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Rewritten first touch is under 120 words"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Recommends the 5-touch cadence over roughly 4 weeks as the default for this list, not the 12-attempt cadence"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States the 12-attempt cadence costs roughly two and a half times the sends"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Names the per-attempt channel hunt (finding a DM handle or contact form for each attempt) as an additional cost of the 12-attempt cadence"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Characterizes the 12-attempt cadence as a standing job rather than a campaign"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Acknowledges the 12-attempt cadence wins on value (share of the list eventually reached) while also topping the effort line, and explains that is why it loses every efficiency round"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Names the condition that would promote the 12-attempt cadence anyway: tier-1 prospects the manager specifically names and has standing weekly hours for, or a retained agency absorbing the per-attempt hours"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Specifies the 5-touch spacing as approximately day 0, 3, 7, 14 and 21-28"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States the fifth touch is a mandatory breakup message, and that it is what pushes the window past three weeks"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States a single unanswered touch means the prospect is busy, not uninterested"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "For any prospect with no documented consent basis, states no touch count is lawful and passive recruitment is the route, rather than prescribing a shortened version of either cadence"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the commission facts must match the decided terms exactly - never rounded, never embellished"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "For this B2B SaaS program, names the recurring rate and duration plus the cookie/attribution window as the economics to state, and adds one proof the product converts"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States this skill communicates the already-decided commission and does not redesign or adjust it"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Keeps the first touch under 120 words"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Uses exactly one CTA, defaulting to reply-for-info on this cold first touch rather than a booked call or apply link"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Identifies hypothetical earnings math as a documented pitch failure ('calculations of unearned riches') that kills replies"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Declines to quote 'top 10% drive 90%' as fact, flagging it as untraceable"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Declines to quote '15-25 recruits per month' as fact, flagging it as untraceable"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Declines to quote '42% faster activation' as fact, flagging it as untraceable"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Gives a first-touch reply-rate expectation in roughly the 3-9% range"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Attributes that range to general cold-outreach measurement rather than to affiliate-specific data"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Attaches a reliability flag to every figure it does quote, distinguishing verified study measurement from practitioner self-report"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Gives the roughly 20% of affiliates producing at least one click per week benchmark for a mature program"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Flags that benchmark as practitioner self-reported rather than independently measured"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Names reply rate and application rate broken out per tier and per angle as the outreach-side KPIs"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Names the pipeline stages contacted, replied, applied, activated"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Sets a weekly review cadence during an active campaign"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States a pre-approved-account claim with no pre-approval behind it burns the prospect permanently"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Rejects adding the calendar link as a second ask, holding the message to exactly one CTA"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Notes a booked-call CTA is wrong for a cold first touch of this type, belonging to B2B tier 1 from touch 3 onward if used at all"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Recommends reply-for-info or the apply link as the honorable CTA for this cold first touch"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Flags the two-week application review as a documented failure mode that sours the pitch"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Commits to a 24-48 hour application review turnaround before outreach launches"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States pre-approved accounts require real per-prospect setup work before sending, and scopes them to B2C tier 1 if used at all"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Removes coupon/cashback/loyalty from the plan for this B2B SaaS program rather than ranking it last"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Removes cold-pitching in Slack and Discord communities rather than ranking it, because anti-solicitation rules make the pitch itself the violation"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Recommends keeping community presence as passive recruitment - participate and be findable - and treating any recruit from one as inbound"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names competitors' current affiliates and content/review/comparison sites as the default opening rungs for a B2B SaaS program"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States the sourcing efficiency ordering explicitly rather than leaving it implied by row order"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Gives the condition that promotes those two categories anyway: an existing base of affiliates already producing clicks, or a compounding mandate rather than a dated launch"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Recommends a competitor-affiliate search or link-intersect/backlink analysis as the discovery method to rebuild the list, and notes the ranking shifts with what the manager already owns (licensed backlink tool, existing roster, retained agency)"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Refuses to plan any touch through automated connection or DM tooling"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States platform terms prohibit scraping and automation, and that the breach is enforceable as a contract claim and account ban even where it is not computer fraud"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Identifies the '25 a day safe limit' as community anecdote rather than platform policy"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Replaces the automation with manual, personalized DMs at low volume"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Rejects the 'check-in bump' for touch 4, stating no touch may be a 'just checking in' message"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Assigns each touch a distinct rotating angle, following fit then proof then ease then close across the sequence"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Makes touch 2 a short resurface on the same email thread, 1-2 sentences, restating no part of the pitch"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Keeps every follow-up under 50 words"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Refuses the monthly continuation after touch 5, stating a sent breakup is honored and there is no touch 6"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States sending stops immediately on reply, opt-out or hard bounce, and that continuing past an opt-out is a per-message violation rather than persistence"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Does not deliver a finished recruitment email with the commission left blank, hedged, or invented"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States the email may carry only confirmed terms, and gates the draft on the commission being decided"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Routes the commission decision itself out of scope, pointing at commission-structure design rather than choosing between 20% recurring and a $200 flat bounty"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Names 'terms surfacing after the pitch that contradict the email' as a documented failure mode driving that gate"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Asks the remaining interview questions one at a time rather than as a single block"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Asks by what date recruited affiliates must be producing"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Asks whether this is a one-off launch push or a compounding channel that will still run next year"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Asks the effort ceiling: manager hours per week, and what is already owned"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Explains those three answers re-rank sourcing categories, cadence and CTA, so they must be answered before drafting rather than at the moment of choosing"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Proposes 2-3 candidate pitch angles with trade-offs and a recommendation, and writes no message until the user picks one"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Ranks the remediation options by value recovered per unit of effort and relationship capital spent, not by the nominal dollar amount at stake",
+        "evidence": "The answer works a fixed ladder (correct before release \u2192 offset \u2192 absorb \u2192 fix-it-forward \u2192 direct recovery) and eliminates rungs on structural/eligibility grounds \u2014 platform terms barring clawback, no finance co-signer, churned partner with zero balance \u2014 not on any cost/benefit weighing. There is no assessment of effort expended per dollar recovered (e.g. chasing $148.80 vs $3,110 is never compared on collection cost) and no mention of relationship capital at all: no discussion of affiliate goodwill, the reputational cost of pursuing a partner, or when pursuit is not worth the friction. Par",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Ranks the remediation options by value recovered per unit of effort and relationship capital spent, not by the nominal dollar amount at stake",
+        "evidence": "The answer reasons along the right axis in places, and notably does not order by nominal size: the larger $3,110 PineRidge item is dismissed outright ('nothing to net... no relationship left to leverage', 'legal exposure and a bad story in affiliate circles... for a sum that's a rounding error next to that risk'), while the smaller $148.80 item gets more exploration because a lever might exist ('does this affiliate have other active orders/future payouts you could net against?... If there's no live balance to net against, don't chase it'). It also reprioritizes toward the highest-leverage acti",
+        "score": 3,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

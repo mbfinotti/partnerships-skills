@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Recommends fixing the recurring duration rule before touching the headline percentage",
+        "evidence": "\"Your CFO is right that 25% lifetime is out of line, but your CEO's fix solves the wrong variable. Capping the duration removes more cost than cutting the rate does\" and the final recommendation is \"Migrate to 25% for 12 months, uncapped headline unchanged\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly that the duration rule moves effective cost far more than the headline percentage does",
+        "evidence": "\"Capping the duration removes more cost than cutting the rate does\" and \"Duration, not the percentage, is what was actually driving the overpay: at your churn/margin, lifetime pays out 2.5x the 12-month-cap cost for the same headline.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Computes the current lifetime cost at roughly $667 per customer (25% of $89 over about 30 months)",
+        "evidence": "Table row: \"Current: 25% lifetime | $674 | 25.0% | 29.8%\", derived from \"Revenue LTV = $89 \u00d7 30.3 \u2248 $2,697\" \u2014 $674 is roughly the expected $667 figure.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Computes a 12-month cap at the unchanged 25% headline at about $267 per customer",
+        "evidence": "Table row: \"25% capped at 12 months (headline unchanged) | $267 | 9.9% | 11.8%\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Shows the 12-month cap at 25% costs less than the proposed 12% lifetime (about $320 per customer)",
+        "evidence": "\"A 12-month cap at your current 25% headline already costs less ($267 vs. $324) than dropping to 12% lifetime, with nothing about the recruiting-facing number changing at all.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends against the 12% lifetime proposal",
+        "evidence": "Heading: \"Verdict: No \u2014 don't go to 12% lifetime. Fix the duration, not the headline.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Expresses total commission per customer as a share of the roughly $2,670 revenue LTV and checks it against the 5-15% band",
+        "evidence": "\"Revenue LTV = $89 \u00d7 30.3 \u2248 $2,697\" with table column \"% of LTV\" and ceiling check \"Passes ceiling? (5\u201315% LTV, \u226430\u201340% GP, both must hold)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks total commission per customer against the 30-40%-of-gross-margin ceiling as a separate condition",
+        "evidence": "Table includes a distinct \"% of gross profit\" column, e.g. \"Current: 25% lifetime | ... | 29.8%\", checked against \"\u226430\u201340% GP\" as part of the combined ceiling test.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that keeping the 25% headline protects recruiting pull, because partners weigh headline and duration together",
+        "evidence": "The transcript argues the opposite mechanism \u2014 that affiliates primarily notice the headline number, not a combined headline+duration evaluation: \"the number affiliates see goes up (30% vs. 12%) instead of collapsing to less than half\" and \"nothing about the recruiting-facing number changing at all.\" It never states partners weigh headline and duration together.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers a taper (25% for months 1-6, a lower rate for months 7-12) as the lower-cost alternative and states its cost",
+        "evidence": "Table row: \"Taper: 25%\u219212.5% at month 6 | $200 | 7.4% | 8.8% | \u2705 cheapest, but needs a second rate step\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the taper needs a second rate step the affiliate platform may not express, and names the plain 12-month cap or a renewal bonus as the fallback when it cannot",
+        "evidence": "The transcript only notes \"cheapest, but needs a second rate step\" without stating the affiliate platform may be unable to express it, and the recommendation of the 12-month cap is justified instead by being \"the smallest, easiest-to-announce change\" \u2014 not framed as a fallback for a platform limitation; no renewal bonus is mentioned anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Proposes a renewal bonus in the 5-10% range as the way to keep partners engaged past the cap rather than extending the rate",
+        "evidence": "No mention of a \"renewal bonus\" appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Recommends fixing the recurring duration rule before touching the headline percentage",
+        "evidence": "The transcript recommends the opposite: 'Go to 12%, keep it lifetime' \u2014 it changes the headline percentage and explicitly keeps the duration rule (lifetime) unchanged.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States explicitly that the duration rule moves effective cost far more than the headline percentage does",
+        "evidence": "The transcript states the opposite: 'duration doesn't change the cost math (cost is always rate \u00d7 revenue collected, regardless of how long it runs), so keeping \"lifetime\" instead of capping to 12/24 months costs the company nothing extra' \u2014 it argues duration has no cost effect, not that it dominates.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Computes the current lifetime cost at roughly $667 per customer (25% of $89 over about 30 months)",
+        "evidence": "The transcript computes 'Total commission paid' at 25% as $674, not ~$667, and frames it as 25% of lifetime revenue $2,697 rather than the specific $89\u00d730-month framing; close but the exact requested figure/derivation isn't shown.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Computes a 12-month cap at the unchanged 25% headline at about $267 per customer",
+        "evidence": "\"a typical competitor offering, say, 30% capped at 12 months, pays out an *expected* ~$268 per referred customer\" \u2014 this uses 30% capped at 12 months, not 25%, so it does not compute the 25%-headline/12-month-cap scenario the rubric asks for.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Shows the 12-month cap at 25% costs less than the proposed 12% lifetime (about $320 per customer)",
+        "evidence": "No comparison of a 25%-at-12-months cap to the 12%-lifetime option is shown; the only capped comparison uses 30% (a competitor's rate), not 25%: \"a typical competitor offering, say, 30% capped at 12 months, pays out an *expected* ~$268... less than the $324 expected under 12%-for-life.\"",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends against the 12% lifetime proposal",
+        "evidence": "\"Recommendation ... **Go to 12%, keep it lifetime.**\" \u2014 the transcript recommends adopting the proposal, not rejecting it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Expresses total commission per customer as a share of the roughly $2,670 revenue LTV and checks it against the 5-15% band",
+        "evidence": "The transcript expresses commission as a share of gross profit ('Commission as % of lifetime gross profit') at 29.7%/14.3%, not as a share of the ~$2,697 revenue LTV, and checks against a 30-40%-of-gross-profit-type range, not a 5-15% revenue-LTV band.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Checks total commission per customer against the 30-40%-of-gross-margin ceiling as a separate condition",
+        "evidence": "The transcript uses a different benchmark: \"healthy SaaS targets keep *total* blended CAC around 30\u201335% of gross-profit LTV\" \u2014 this cites 30-35% CAC-of-gross-profit-LTV, not a 30-40% commission-of-gross-margin ceiling, and doesn't present it as a separate check alongside a revenue-based one.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that keeping the 25% headline protects recruiting pull, because partners weigh headline and duration together",
+        "evidence": "The transcript instead argues affiliates should focus on lifetime EV over headline rate, and flags the opposite risk: \"affiliates anchor on the headline number, not lifetime EV. Pair the cut with an 'average customer stays 30 months' earnings illustration...\" It does not recommend keeping the 25% headline for recruiting.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers a taper (25% for months 1-6, a lower rate for months 7-12) as the lower-cost alternative and states its cost",
+        "evidence": "No taper structure is mentioned anywhere in the transcript; only flat-rate lifetime vs. capped-duration options are discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the taper needs a second rate step the affiliate platform may not express, and names the plain 12-month cap or a renewal bonus as the fallback when it cannot",
+        "evidence": "No mention of a taper, platform rate-step limitations, or a fallback mechanism appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Proposes a renewal bonus in the 5-10% range as the way to keep partners engaged past the cap rather than extending the rate",
+        "evidence": "No renewal bonus concept appears; the transcript's only two open items are grandfathering existing affiliates and framing/perception risk, not a renewal bonus.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

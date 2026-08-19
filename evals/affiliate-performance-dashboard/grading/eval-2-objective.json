@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Names new-to-file share sliced by partner type as the first instrument to run, because it is the cheapest rung of the incrementality instruments.",
+        "evidence": "\"Ranked by value-for-effort, four instruments exist (new-to-file screen \u2192 commission-reduction test \u2192 geo-lift \u2192 holdout). You've already got the screen from Step 1.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly that new-to-file proves the customer was not already a customer, never that the partner caused the purchase.",
+        "evidence": "\"It's also only a proxy \u2014 it proves the customer wasn't already yours, never that the partner *caused* the purchase.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Ranks the incrementality instruments as new-to-file screen, then commission-reduction test, then geo-lift test, then holdout test, and states the ranking out loud.",
+        "evidence": "\"four instruments exist (new-to-file screen \u2192 commission-reduction test \u2192 geo-lift \u2192 holdout)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes value and effort run in the same order across those four instruments, so the right pick is the weakest instrument that still settles the live question.",
+        "evidence": "\"The next cheapest instrument that still answers *your* live question \u2014 reprice or not \u2014 is: Commission-reduction test.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the commission-reduction test as carrying the highest compliance cost because it unilaterally changes a partner's economics.",
+        "evidence": "\"This is the **highest-compliance-cost** instrument on the list, because it unilaterally changes a partner's economics\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Directs the user to the notice and rate-change clauses in the program terms before running a commission-reduction test.",
+        "evidence": "\"check the notice and rate-change clauses in your affiliate terms before running it, and expect relationship friction with the partners you test on\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the holdout test as the option the efficiency order starves and states the condition that promotes it anyway.",
+        "evidence": "\"If the result comes back ambiguous, or the budget at stake is large enough to justify it, climb to a geo-lift... or a holdout (randomize 5\u201310% of traffic out of exposure) \u2014 both cost more but produce a defensible causal number.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Adds a checkout-adjacent revenue share metric covering coupon, cashback and browser-extension revenue as a share of program revenue.",
+        "evidence": "\"Checkout-adjacent revenue share | validated commission from coupon+cashback+extension partners / total validated program commission, monthly\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to endorse shifting budget from content partners to coupon and cashback partners on last-click numbers alone.",
+        "evidence": "\"Your leaderboard isn't wrong \u2014 it's answering 'who touched the sale last,' not 'who caused the sale.' Those are different questions, and leadership is currently deciding budget on the first one.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that last-click-only program ROI systematically inflates checkout-adjacent partners and starves content partners.",
+        "evidence": "\"a coupon site catches the same buyer at checkout and takes 100% of the credit under last-click rules\"; \"lift-test evidence suggests that when a checkout-adjacent partner is cut, the revenue usually redistributes to top-of-funnel content partners rather than disappearing.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes low incrementality to a repricing decision and attribution manipulation to the fraud rule set, stating the dashboard surfaces the signal but decides neither.",
+        "evidence": "\"Low incrementality on coupon/cashback \u2192 a repricing decision.\" and \"If you find evidence of cookie-stuffing or checkout-injection... that's a separate fraud-rule conversation, not this one.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Labels the ROI tile with its attribution basis, naming last-click and the 30-day cookie window.",
+        "evidence": "No ROI/ROAS tile appears anywhere in the metric table; only \"Last-click, 30-day-cookie attribution\" is mentioned in the general diagnosis, not attached to an ROI tile.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Names new-to-file share sliced by partner type as the first instrument to run, because it is the cheapest rung of the incrementality instruments.",
+        "evidence": "The first instrument listed is '1. Run a coupon-site holdout / suppression test... The single most decisive thing you can do,' not a new-to-file screen.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States explicitly that new-to-file proves the customer was not already a customer, never that the partner caused the purchase.",
+        "evidence": "New/repeat mix is only discussed as '5. New-customer vs. repeat-customer mix' with no such causal caveat stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ranks the incrementality instruments as new-to-file screen, then commission-reduction test, then geo-lift test, then holdout test, and states the ranking out loud.",
+        "evidence": "No such ranking exists; the holdout test is presented first and called 'the single most decisive thing you can do.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes value and effort run in the same order across those four instruments, so the right pick is the weakest instrument that still settles the live question.",
+        "evidence": "No discussion of value/effort ordering across instruments appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags the commission-reduction test as carrying the highest compliance cost because it unilaterally changes a partner's economics.",
+        "evidence": "No commission-reduction test is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Directs the user to the notice and rate-change clauses in the program terms before running a commission-reduction test.",
+        "evidence": "No commission-reduction test or program-terms clause is mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the holdout test as the option the efficiency order starves and states the condition that promotes it anyway.",
+        "evidence": "The holdout test is presented as the top priority from the start ('the single most decisive thing you can do'), not as something starved by an efficiency ranking.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Adds a checkout-adjacent revenue share metric covering coupon, cashback and browser-extension revenue as a share of program revenue.",
+        "evidence": "No such aggregate 'checkout-adjacent revenue share' metric is proposed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to endorse shifting budget from content partners to coupon and cashback partners on last-click numbers alone.",
+        "evidence": "'don't defend content's spot on the leaderboard \u2014 replace the leaderboard's metric. Last-click is measuring who touched the sale last, not who created it.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that last-click-only program ROI systematically inflates checkout-adjacent partners and starves content partners.",
+        "evidence": "'Last-click on a 30-day cookie systematically overpays whoever touches the customer last, and coupon/cashback sites are structurally built to be that last touch,' plus 'content affiliates are 5-10x more valuable than the leaderboard shows.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes low incrementality to a repricing decision and attribution manipulation to the fraud rule set, stating the dashboard surfaces the signal but decides neither.",
+        "evidence": "No such routing distinction between repricing decisions and a fraud rule set is made.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Labels the ROI tile with its attribution basis, naming last-click and the 30-day cookie window.",
+        "evidence": "There is no dashboard tile design in this transcript; attribution basis is discussed narratively, not as a labeled tile.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

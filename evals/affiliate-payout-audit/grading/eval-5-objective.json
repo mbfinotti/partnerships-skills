@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects hand-moving the 22 lines and requires re-pulling the export on the declared date basis instead of adjusting numbers manually",
+        "evidence": "\"Action: discard the edited export. Re-pull the untouched network export and let checks 3-6 sort those 22 lines into matched / exception-queue / dedup-quarantine on their own.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the date basis to be declared in run scope and held for the entire run, never mixed inside one run",
+        "evidence": "\"Date basis is validation date by default, not a deliberate choice, while the internal source of truth is the order database... Action: re-pull the network export on transaction date specifically\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends transaction date for reconciling to the order database, reserving validation date for what became payable this period",
+        "evidence": "\"The skill default for reconciling to orders/billing is transaction date; validation date answers 'what became payable this period,' a different question.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires one timezone fixed in run scope with every timestamp normalized to it before the cutoff is applied",
+        "evidence": "\"pick one timezone for this run's scope (UTC is the natural choice)... convert both exports' timestamps into it, then re-apply the cutoff.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the three-clock disagreement between network, order database, and program calendar as a cutoff risk to resolve rather than a rounding detail",
+        "evidence": "\"Three clocks are in play - network reports UTC, the order database stamps Europe/Berlin, your program calendar runs America/Chicago\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces the closed window with a half-open window of the form period_start <= t < period_end, running 1 March 00:00 to 1 April 00:00",
+        "evidence": "\"Action: redefine the window as 2026-03-01T00:00:00 <= t < 2026-04-01T00:00:00 in the single normalized timezone from F-3.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that a closed window double-counts the boundary instant",
+        "evidence": "\"the last second of March is genuinely ambiguous and could double-count or drop a transaction sitting on that boundary\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the 14 order IDs also present in February's run as an imminent double payment and removes them before totaling",
+        "evidence": "\"these are conversions about to be paid twice... remove them from March before totaling\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires diffing this run's key set against the prior run's key set as a standing check rather than a one-off fix",
+        "evidence": "The diff is framed only as a fix for this run's F-5 finding; there is no statement making it a recurring/standing check for future runs.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags late-submitted conversions re-dated by the platform to their submission date, and any line whose event date differs from its order date, as cutoff-risk lines",
+        "evidence": "No such scenario or category is discussed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires test-mode and sandbox transactions to be excluded explicitly and verified not to have leaked into the live export",
+        "evidence": "No mention of test-mode or sandbox transactions anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Refuses to clear the run for release until run scope - period boundaries, timezone, and date basis - is frozen and unambiguous",
+        "evidence": "\"RELEASE: no. HOLD the entire run.\" alongside \"scope frozen: FAIL\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects hand-moving the 22 lines and requires re-pulling the export on the declared date basis instead of adjusting numbers manually",
+        "evidence": "\"Forcing the network export to match your order database's row count is not reconciliation, it's making the two numbers agree by construction... Revert this before anything else. Re-derive any date mismatch from the actual transaction data\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the date basis to be declared in run scope and held for the entire run, never mixed inside one run",
+        "evidence": "\"Fix: re-export on transaction date (or whatever field matches your order DB's semantics), then re-run the comparison from scratch.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends transaction date for reconciling to the order database, reserving validation date for what became payable this period",
+        "evidence": "Transaction date is recommended for the export, but no distinct role is reserved for validation date (e.g., determining what became payable this period) anywhere in the text.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires one timezone fixed in run scope with every timestamp normalized to it before the cutoff is applied",
+        "evidence": "\"pick one authoritative calendar (Berlin, since that's what the order DB uses) and convert the network's UTC window and the program calendar's Chicago window to match it explicitly, offset-by-offset\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the three-clock disagreement between network, order database, and program calendar as a cutoff risk to resolve rather than a rounding detail",
+        "evidence": "\"Three clocks, three offsets, and DST doesn't move on the same day in the US and EU\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces the closed window with a half-open window of the form period_start <= t < period_end, running 1 March 00:00 to 1 April 00:00",
+        "evidence": "The transcript keeps the closed-window phrasing throughout: \"'1 March 00:00 through 31 March 23:59:59'\" \u2014 no half-open convention is proposed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that a closed window double-counts the boundary instant",
+        "evidence": "No such explanation appears; the closed-window phrasing is critiqued only for lacking a timezone reference, not for double-counting a boundary instant.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the 14 order IDs also present in February's run as an imminent double payment and removes them before totaling",
+        "evidence": "\"including them again in March's $27,880 double-pays them... If yes: exclude them from March entirely.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires diffing this run's key set against the prior run's key set as a standing check rather than a one-off fix",
+        "evidence": "The transcript only recommends documenting the decision ('document why, so the next audit doesn't flag them as new duplicates'), not establishing a standing diff check.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags late-submitted conversions re-dated by the platform to their submission date, and any line whose event date differs from its order date, as cutoff-risk lines",
+        "evidence": "The 14-ID issue is attributed to 'a late batch' but the transcript never generalizes this into a standing category of event-date-vs-order-date cutoff risk.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires test-mode and sandbox transactions to be excluded explicitly and verified not to have leaked into the live export",
+        "evidence": "Not mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Refuses to clear the run for release until run scope - period boundaries, timezone, and date basis - is frozen and unambiguous",
+        "evidence": "\"$27,880 has no evidentiary value until steps 1\u20134 are done \u2014 treat it as provisional, not approvable.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

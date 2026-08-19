@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Names the value-per-effort ratio as structurally underweighting a candidate that is both expensive and strong",
+        "evidence": "\"Value/effort ratio is the wrong lens for this specific candidate\" and \"Orrin gets penalized twice by construction\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies Orrin Labs as the deep co-innovation candidate in this list",
+        "evidence": "\"That is a precise description of Orrin: your CPO named product-gap fill... as the goal\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Ties the promotion decision to the stated goal being product-gap fill rather than pipeline",
+        "evidence": "\"your CPO named product-gap fill (predictive maintenance / ML capability) as the goal, not pipeline\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks whether the unshipped dependency sits on the two parties' own dated roadmaps rather than a third party's",
+        "evidence": "\"the unshipped piece \u2014 Orrin's streaming endpoint, your event pipeline \u2014 sits on both companies' own dated roadmaps, not a third party's\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Confirms both the Orrin endpoint and the Vantiq pipeline carry dates, and treats that as the condition making the candidate promotable",
+        "evidence": "\"sits on both companies' own dated roadmaps... That's the specific condition the method says to promote a candidate on\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that an undated dependency would earn a recycle rather than a reserved capacity slot",
+        "evidence": "No mention of 'recycle' or an undated-dependency alternative outcome anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Promotes Orrin by reserving a slice of capacity before scoring starts, not by adding points to its composite score",
+        "evidence": "\"reserve a capacity slice for the co-innovation candidate before scoring the rest, never add points to its composite to compensate\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that adding points to the composite would be the false precision the sensitivity analysis exists to undo",
+        "evidence": "The memo only says the carve-out is \"more robust... than trusting a ratio that a \u00b120% weight shift could reorder anyway\" \u2014 it never frames composite point-padding as false precision the sensitivity analysis exists to undo.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Spends the reserved co-innovation slot inside the 14 manager-month budget rather than on top of it",
+        "evidence": "\"You have 14 manager-months... Reserve Orrin's 9 MM first: 14 \u2212 9 = 5 MM left.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Scores co-innovation risk for Orrin as a named risk category, measuring how much of the value depends on an unshipped roadmap",
+        "evidence": "\"Co-innovation risk (Adner) \u2014 explicitly score how much of the value depends on Orrin's unshipped roadmap. Right now: all of it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Scores adoption-chain risk, asking which intermediaries must act before the end customer sees the value",
+        "evidence": "No adoption-chain risk category or intermediary question appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps Orrin's raw value-per-effort position visible rather than rewriting the ratio to justify the promotion",
+        "evidence": "\"9 of your 14 manager-months, next to 3\u20134 for each integration partner. Any ratio math makes it look like the worst deal almost regardless of its value score.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States how much capacity is left for the five integration candidates after Orrin's reserved slot",
+        "evidence": "\"14 \u2212 9 = 5 MM left. That funds roughly one integration partner (two only if both land at the low end of the 3\u20134 MM range).\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Names the value-per-effort ratio as structurally underweighting a candidate that is both expensive and strong",
+        "evidence": "\"Value-per-effort implicitly assumes effort is the only thing standing between you and the value. That's false here... Scoring it 'dead last' makes a capability the CPO called your biggest gap look like a bad bet.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies Orrin Labs as the deep co-innovation candidate in this list",
+        "evidence": "The transcript never uses 'co-innovation' terminology; it only describes Orrin as the candidate closing the ML/product gap.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ties the promotion decision to the stated goal being product-gap fill rather than pipeline",
+        "evidence": "\"Orrin is the only candidate that closes the stated gap... closing the ML gap is structurally deferred to next year.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks whether the unshipped dependency sits on the two parties' own dated roadmaps rather than a third party's",
+        "evidence": "No such check is described.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Confirms both the Orrin endpoint and the Vantiq pipeline carry dates, and treats that as the condition making the candidate promotable",
+        "evidence": "No entity named 'Vantiq' appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that an undated dependency would earn a recycle rather than a reserved capacity slot",
+        "evidence": "No 'recycle' concept or undated-dependency scenario is discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Promotes Orrin by reserving a slice of capacity before scoring starts, not by adding points to its composite score",
+        "evidence": "\"Carve out a small discovery slice now (well under 1 manager-month) to lock the pipeline contract/schema with Orrin jointly, so your 9 manager-months can start the moment their endpoint ships.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that adding points to the composite would be the false precision the sensitivity analysis exists to undo",
+        "evidence": "No sensitivity analysis or 'false precision' language appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Spends the reserved co-innovation slot inside the 14 manager-month budget rather than on top of it",
+        "evidence": "The discovery slice is described separately from 'Fund the partner subset that fits in 14 manager-months this quarter' without stating it comes out of that same budget.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scores co-innovation risk for Orrin as a named risk category, measuring how much of the value depends on an unshipped roadmap",
+        "evidence": "No named risk-scoring category is used.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scores adoption-chain risk, asking which intermediaries must act before the end customer sees the value",
+        "evidence": "Not discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps Orrin's raw value-per-effort position visible rather than rewriting the ratio to justify the promotion",
+        "evidence": "\"keep Orrin out of this quarter's budget \u2014 that part of your instinct is correct. But don't call it 'dead last on value.' Call it 'highest strategic value, gated to Q3...'\" \u2014 the underlying decision (not funded this quarter) is preserved, only the label is corrected.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States how much capacity is left for the five integration candidates after Orrin's reserved slot",
+        "evidence": "No specific leftover capacity figure is given after the discovery slice.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

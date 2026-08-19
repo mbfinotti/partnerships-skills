@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to price a lifetime commission option for this program",
+        "evidence": "The transcript explicitly prices lifetime: 'I priced it anyway below, since you asked for a side-by-side to decide' and gives a full row for 'Lifetime (uncapped)' with '15%' headline rate, $258.00 expected cost, etc.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the three conditions lifetime requires: gross margin above roughly 80%, monthly churn below roughly 5%, and competing programs already paying lifetime",
+        "evidence": "'Lifetime commission is only supposed to be on the table when gross margin is above ~80%, churn is under ~5%, and competitors already pay it.' with the table listing 'Gross margin > ~80%', 'Monthly churn < ~5%', 'Competitors pay lifetime'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the 61% gross margin as failing the margin condition",
+        "evidence": "Table row: 'Gross margin | > ~80% | 61% | \u2717'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the 7.5% monthly churn as failing the churn condition",
+        "evidence": "Table row: 'Monthly churn | < ~5% | 7.5% | \u2717'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that competitors paying lifetime is not on its own sufficient to qualify the option",
+        "evidence": "'Two of three fail. That's the honest headline: on this cost structure, lifetime is the wrong tool even though two competitors are using it to poach your affiliates.' \u2014 explicitly treats the competitor condition as passing but insufficient since two of three must fail overall for lifetime to be disqualified.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not present lifetime anywhere in the answer as the more generous alternative to compare against the capped option",
+        "evidence": "The side-by-side table frames lifetime as a real alternative with its own optimized headline rate (15%) and metrics, and the recommendation section says 'you're not \"underpaying\" to avoid lifetime, you're paying the same expected dollar for a bounded, modelable liability instead of an open-ended one' \u2014 implicitly treating lifetime as an equally generous alternative being compared against, not dismissed outright.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a 12-month cap as the default duration rule",
+        "evidence": "'Publish 24% capped at 12 months, not lifetime' under the Recommendation heading.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Offers a renewal bonus of roughly 5-10% of renewal value as the way to compete on perceived generosity without open-ended liability",
+        "evidence": "'add a renewal bonus: 5-10% of month-13+ renewal revenue, paid in arrears on confirmed billing. It keeps top affiliates earning past month 12 ... without an unbounded per-customer tail.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains the liability: on a sticky product, a long-tenured customer can earn an affiliate more than that customer's margin",
+        "evidence": "The transcript discusses tail exposure ('about 1 in 108 acquired customers is still active ... five years after signup') and standing liability, but never states that a long-tenured customer's cumulative commission can exceed that customer's margin/profit contribution to the company.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that published lifetime terms are expensive to retract later because of network decrease rules and grandfathering obligations",
+        "evidence": "The transcript mentions grandfathering only in the context of the proposed 24%/renewal-bonus change ('grandfather current top performers at their existing terms for one cycle before rolling it out broadly'), not in the context of retracting a published lifetime program, and does not mention 'network decrease rules' at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends paying recurring commission in arrears on confirmed billing events so churned customers stop costing automatically",
+        "evidence": "'add a renewal bonus: 5-10% of month-13+ renewal revenue, paid in arrears on confirmed billing.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to price a lifetime commission option for this program",
+        "evidence": "The transcript fully prices a lifetime option (15%, EV $258, and alternative equal-EV rate pairs including 18-20% recommendations) rather than refusing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the three conditions lifetime requires: gross margin above roughly 80%, monthly churn below roughly 5%, and competing programs already paying lifetime",
+        "evidence": "No such conditions are stated anywhere; the transcript only discusses margin (61%) and churn (7.5%) as inputs to EV math, never as thresholds/conditions for qualifying a lifetime option.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the 61% gross margin as failing the margin condition",
+        "evidence": "61% margin is used as a multiplier in EV calculations ('1,720 \u00d7 0.61 = $1,049') but never evaluated against any margin threshold or flagged as failing a condition.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the 7.5% monthly churn as failing the churn condition",
+        "evidence": "7.5% churn is used to compute lifetime ('1/0.075 = 13.3 months') but never flagged as failing any churn threshold; instead it's framed positively as making the 'tail... thin' and lifetime cheap ('costs you almost nothing extra given the churn profile').",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that competitors paying lifetime is not on its own sufficient to qualify the option",
+        "evidence": "Competitors paying lifetime is instead treated as a reason TO adopt lifetime: 'matches what the two competitors already advertise' and 'lifetime is the word that was actually costing you affiliates' \u2014 used as justification, not flagged as insufficient.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not present lifetime anywhere in the answer as the more generous alternative to compare against the capped option",
+        "evidence": "The final recommendation explicitly favors lifetime as superior: 'if you're picking one to publish, lifetime wins on every axis except a slightly lower headline percentage.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a 12-month cap as the default duration rule",
+        "evidence": "The recommendation section explicitly states: 'Publish the lifetime option at 15%... Keep 25%/12mo in your back pocket only if you want to run both simultaneously,' making lifetime the recommended default, not the 12-month cap.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers a renewal bonus of roughly 5-10% of renewal value as the way to compete on perceived generosity without open-ended liability",
+        "evidence": "No renewal bonus concept appears anywhere in the transcript; the only alternative to lifetime discussed is the 12-month capped percentage rate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains the liability: on a sticky product, a long-tenured customer can earn an affiliate more than that customer's margin",
+        "evidence": "The transcript instead frames long-tenured customers as still profitable: 'Max exposure on a customer who never churns... ~$1,161 for a rare 5-year customer (still 46% margin)' \u2014 explicitly denying this liability rather than explaining it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that published lifetime terms are expensive to retract later because of network decrease rules and grandfathering obligations",
+        "evidence": "No mention anywhere of retraction difficulty, network decrease rules, or grandfathering obligations for lifetime terms.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends paying recurring commission in arrears on confirmed billing events so churned customers stop costing automatically",
+        "evidence": "The transcript does not discuss payout timing/arrears mechanics or billing-event triggers at all; it only compares rate structures (25%/12mo vs 15%/lifetime).",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

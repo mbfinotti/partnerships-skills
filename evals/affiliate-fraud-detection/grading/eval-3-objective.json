@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Builds the rule set around downstream outcome rates (lead-to-qualified, lead-to-demo-show, closed-won) rather than click-timing or session-duration signals",
+        "evidence": "R1-R3, R10 use lead-to-contacted, lead-to-qualified, lead-to-demo-show, closed-won rates",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly that B2C click-timing rules applied to a B2B lead-gen program produce false positives",
+        "evidence": "'Do not build: B2C click-timing/cookie-stuffing rules (sub-2-second CTIT, session duration)... produce false positives if applied to a B2B CPL motion'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that B2B lead-gen fraud surfaces weeks later in downstream rates, unlike B2C attribution theft which shows up in click-timing and chargeback signals within hours to days",
+        "evidence": "No statement comparing B2B lead-gen fraud timing (weeks) against B2C attribution theft timing (hours to days) appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes a form-fill speed rule (under roughly 3 seconds, no pointer movement, identical field-skip patterns) tagged as a vendor rule of thumb",
+        "evidence": "'R6 | Form-fill completion time | <3s, no pointer movement, identical field-skip pattern [VENDOR]'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Includes a conversion-velocity rule such as 3 or more leads in the same minute, or metronomic spacing around 30 seconds",
+        "evidence": "'R7 | Conversion velocity | 3+ leads/minute, or metronomic ~30s spacing, repeated'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Includes disposable-email and role-account domain share among the partner's leads as a signal",
+        "evidence": "'R4 | Disposable/role-account email domains | >10% of partner's leads'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Includes duplicate contact data (same phone, email, address, or device fingerprint across supposedly unrelated leads or companies)",
+        "evidence": "'R5 | Duplicate contact data (phone/email/device fingerprint) across a partner's \"different\" leads'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the legitimate trip risk for the velocity rule as a webinar or conference-scan batch upload, checked against the event calendar",
+        "evidence": "R7 legitimate trip risk: 'Legitimate webinar/conference lead-list upload \u2014 check event calendar first'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names autofill power users as the legitimate trip risk for the form-fill-speed rule and pairs it with a second signal before acting",
+        "evidence": "R6 legitimate trip risk: 'Autofill power users \u2014 never act on this signal alone'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends manual review plus IP/email validation over automated per-event scoring at 44 partners, and names roughly 50 affiliates or $50K/month commission spend as the point where that order flips",
+        "evidence": "'Below the ~50-partner / $50K-month threshold... manual review + IP/email validation is the right primary method today'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Derives the lead-to-qualified and lead-to-demo-show thresholds from SignalCrate's own 90-day per-partner baseline rather than quoting a published rate",
+        "evidence": "R2 'Sustained <50%... [DERIVE from your 90-day baseline]'; R3 '[DERIVE]'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places any duplicate-contact-data or device-fingerprint rule behind a legal review gate that names the lawful basis, the retention period, and who can access the matched records",
+        "evidence": "R5: '[LEGAL REVIEW]: state lawful basis, retention period, who can see matched records before this rule ships'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that AI-generated synthetic traffic erodes behavioral heuristics, so server-side postbacks and downstream outcomes should carry more weight than session behavior",
+        "evidence": "Only a narrow mention that R5 duplicate identity 'is the one signal AI-generated synthetic lead-gen can't easily fake' \u2014 no general statement that behavioral heuristics are eroded or that postbacks/downstream should carry more weight generally.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Builds the rule set around downstream outcome rates (lead-to-qualified, lead-to-demo-show, closed-won) rather than click-timing or session-duration signals",
+        "evidence": "The rule set is built around no-answer/connect rate and includes explicit timing/session signals like R8 'time_to_submit under ~3-5 seconds' and R9 'click-to-conversion latency anomaly', not lead-to-qualified/demo-show/closed-won.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States explicitly that B2C click-timing rules applied to a B2B lead-gen program produce false positives",
+        "evidence": "No B2C-vs-B2B distinction is discussed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that B2B lead-gen fraud surfaces weeks later in downstream rates, unlike B2C attribution theft which shows up in click-timing and chargeback signals within hours to days",
+        "evidence": "Not present in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes a form-fill speed rule (under roughly 3 seconds, no pointer movement, identical field-skip patterns) tagged as a vendor rule of thumb",
+        "evidence": "R8 gives 'time_to_submit... under ~3-5 seconds' but does not mention pointer movement or field-skip patterns, nor tag it as a vendor rule of thumb.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes a conversion-velocity rule such as 3 or more leads in the same minute, or metronomic spacing around 30 seconds",
+        "evidence": "R9 discusses click-to-postback latency being 'unnaturally constant (e.g. always 12-15s)', which is a different metric than lead-volume velocity per minute.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes disposable-email and role-account domain share among the partner's leads as a signal",
+        "evidence": "R4 covers disposable email domains but role-account domain share is never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes duplicate contact data (same phone, email, address, or device fingerprint across supposedly unrelated leads or companies)",
+        "evidence": "R5 'Cross-partner duplicate PII... Same phone, email, or name+address appearing under a different partner_id' and R7 'Address reuse'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the legitimate trip risk for the velocity rule as a webinar or conference-scan batch upload, checked against the event calendar",
+        "evidence": "Not mentioned in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names autofill power users as the legitimate trip risk for the form-fill-speed rule and pairs it with a second signal before acting",
+        "evidence": "R8 gives no legitimate-cause carve-out or pairing requirement.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends manual review plus IP/email validation over automated per-event scoring at 44 partners, and names roughly 50 affiliates or $50K/month commission spend as the point where that order flips",
+        "evidence": "The transcript instead builds an automated SQL-based scanning/rule system with no such manual-vs-automated threshold discussion.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Derives the lead-to-qualified and lead-to-demo-show thresholds from SignalCrate's own 90-day per-partner baseline rather than quoting a published rate",
+        "evidence": "Rule 0 baselines no-answer rate over 90 days, but lead-to-qualified/demo-show metrics are never used or baselined.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places any duplicate-contact-data or device-fingerprint rule behind a legal review gate that names the lawful basis, the retention period, and who can access the matched records",
+        "evidence": "No legal-review gate is attached to R5-R7; only R13 discusses consent/TCPA in a different context.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that AI-generated synthetic traffic erodes behavioral heuristics, so server-side postbacks and downstream outcomes should carry more weight than session behavior",
+        "evidence": "Not discussed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

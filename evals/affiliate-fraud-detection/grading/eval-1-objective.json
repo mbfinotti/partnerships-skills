@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Identifies the 14-day payout timing as the primary problem and recommends extending the commission validation/hold window to the 30-90 day range before any detection rule is written",
+        "evidence": "'Your 14-day hold window is shorter than the chargeback windows...' appears under 'The bigger problem than any rule below', before Step 1's rule set; recommends '30 days minimum, 45-60 days is safer' and references the '90-day subscription-vertical end'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the hold/validation window is a higher-leverage control than the detection rule set itself",
+        "evidence": "'This is the single highest-leverage fix available to you, and it costs about an hour... versus a week to build the rule set below.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites the finding that delaying affiliate payments by two to four months could eliminate more than 70% of fraud without decreasing profit, attributed to Edelman (Edelman & Brandi, Journal of Marketing Research, 2015)",
+        "evidence": "'Edelman & Brandi, JMR 2015: delaying payment 2-4 months eliminated 70%+ of fraud with no profit loss'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the '17% of affiliate traffic is fake / $3.4B' figure as single-vendor marketing with circular citation and refuses to use it as a baseline or planning assumption",
+        "evidence": "'Park the 17% / $3.4B number. It's a single anti-fraud vendor's marketing study, circularly cited across the industry \u2014 nobody has independently reproduced it'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that a 14-day window is far shorter than the 120-day standard Visa/Mastercard chargeback filing limit",
+        "evidence": "'Standard Visa/Mastercard chargebacks have a 120-day filing window from the transaction.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends clawback authority, negative-balance carry-forward, and a chargeback reserve as the only controls that recover commission already paid out",
+        "evidence": "'Clawback clause + reserve | Only control that recovers money already paid'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags that the contract work takes roughly a quarter (legal drafting plus partner re-assent) and cannot land before Thursday, while the hold window is a one-hour, reversible platform setting that can",
+        "evidence": "'A quarter \u2014 legal drafting, partner re-assent' vs 'Hold window extension | ... | ~1 hour, notice required | Do first'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Says thresholds must be derived from at least 90 days of Vellum & Thread's own per-affiliate data rather than adopted from a published number",
+        "evidence": "'Pull 90 days of per-affiliate data: conversion rate, click-to-conversion time...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Tags every numeric threshold it proposes with its provenance: vendor or agency rule of thumb, academic result, or derived from the program's own data",
+        "evidence": "Table uses [VENDOR], [ACADEMIC], [DERIVE] tags throughout Step 2 rule table",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Assigns new rules to a Hold & Investigate band by default rather than to immediate suspension",
+        "evidence": "'default new rules to Hold & Investigate; move down to Watch if a legitimate cause is plausible; move up to Suspend & Escalate only on confirmed technical evidence'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that throttling new commissions to zero pending review preserves evidence that an immediate ban destroys",
+        "evidence": "No statement in the transcript ties throttling/Hold & Investigate to preserving evidence against an immediate ban destroying it; only 'Reversible \u2014 pay it and the partner is made whole' is given as rationale.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names, for each rule, the legitimate behavior that could trip it and the check that separates it from fraud",
+        "evidence": "Table column 'Legitimate trip risk' populated for V1-V10, e.g. 'Deep-linked flash-sale/email traffic \u2014 check landing page'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not present any vendor heuristic as an industry constant",
+        "evidence": "'[VENDOR] agency workflow \u2014 a sane starting definition, not a standard'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Identifies the 14-day payout timing as the primary problem and recommends extending the commission validation/hold window to the 30-90 day range before any detection rule is written",
+        "evidence": "The transcript never proposes extending the hold window; it treats the 14-day timing only as a reconciliation checkpoint ('You approve+pay at day 14 \u2014 pull refund/chargeback status at time of batch run') and jumps straight into detection rules.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the hold/validation window is a higher-leverage control than the detection rule set itself",
+        "evidence": "No such comparison is made anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites the finding that delaying affiliate payments by two to four months could eliminate more than 70% of fraud without decreasing profit, attributed to Edelman (Edelman & Brandi, Journal of Marketing Research, 2015)",
+        "evidence": "No Edelman citation or such statistic appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects the '17% of affiliate traffic is fake / $3.4B' figure as single-vendor marketing with circular citation and refuses to use it as a baseline or planning assumption",
+        "evidence": "The transcript only contextualizes the stat as being 'cross-industry reports... heavily weighted by mobile in-app and incentivized-install traffic' \u2014 it does not call it single-vendor marketing with circular citation, nor explicitly refuse to use it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that a 14-day window is far shorter than the 120-day standard Visa/Mastercard chargeback filing limit",
+        "evidence": "No mention of the 120-day Visa/Mastercard chargeback filing limit.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends clawback authority, negative-balance carry-forward, and a chargeback reserve as the only controls that recover commission already paid out",
+        "evidence": "The transcript only says 'hold from this run, don't claw back later \u2014 pay next cycle once cleared'; it never discusses negative-balance carry-forward or a chargeback reserve.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags that the contract work takes roughly a quarter (legal drafting plus partner re-assent) and cannot land before Thursday, while the hold window is a one-hour, reversible platform setting that can",
+        "evidence": "No such timing/effort comparison exists in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Says thresholds must be derived from at least 90 days of Vellum & Thread's own per-affiliate data rather than adopted from a published number",
+        "evidence": "Rule 3 says 'Baseline your network's median CTR\u2192CVR' but never specifies a 90-day derivation requirement as a stated principle.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Tags every numeric threshold it proposes with its provenance: vendor or agency rule of thumb, academic result, or derived from the program's own data",
+        "evidence": "Thresholds like '>3x the network median', '2 std dev', '>2x network average' are given with no provenance tagging.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Assigns new rules to a Hold & Investigate band by default rather than to immediate suspension",
+        "evidence": "'\u2192 hold for manual review, don't auto-pay' (#2) and 'Anything flagged: hold from this run, don't claw back later \u2014 pay next cycle once cleared' show flagged items default to hold, not suspension/termination.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that throttling new commissions to zero pending review preserves evidence that an immediate ban destroys",
+        "evidence": "No discussion of evidence preservation via throttling exists in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names, for each rule, the legitimate behavior that could trip it and the check that separates it from fraud",
+        "evidence": "None of rules 1-8 include a paired legitimate-explanation and distinguishing check (e.g. geo mismatch rule 6 gives no VPN/gift-purchase carve-out).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not present any vendor heuristic as an industry constant",
+        "evidence": "All thresholds (e.g. '>3x the network median', '>2x network average') are tied to the program's own network baseline rather than asserted as external industry constants.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

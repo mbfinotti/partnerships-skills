@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Offers multiple-choice answer options where the question allows it",
+        "evidence": "All four asks are open-ended free-form numeric prompts ('Cheapest paid plan price... a number or range', 'Gross margin %', 'Monthly churn %', 'Current or target CAC'), with no lettered/numbered option sets the user could simply tap. Several of these would readily support banded choices (e.g. price tiers <$50 / $50-200 / $200+, margin 60-70% / 70-80% / 80%+, churn 1% / 3% / 5%+). The only quasi-options offered are a parenthetical example format ('e.g. ~75-80%'), an either/or on metric type ('or annual retention if that's what you track'), a fallback ('or at minimum LTV'), and an escape hatch ('",
+        "score": 1,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Offers multiple-choice answer options where the question allows it",
+        "evidence": "The response commits to a single recommendation ('30% recurring commission, capped at the first 12 months') and presents it as 'the right number', explicitly rejecting alternatives ('Skip tiers, loyalty bumps, or CPA-vs-revshare menus'). No enumerated options are offered for the user to pick from, and no tappable choice set is presented despite the question (commission rate/structure) clearly admitting several candidate answers (20% / 25% / 30%, 12-month cap vs lifetime, revshare vs CPA). The only gesture toward alternatives is a conditional fallback buried in the closing paragraph ('If your g",
+        "score": 1,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

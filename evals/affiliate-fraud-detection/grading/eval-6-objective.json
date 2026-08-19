@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses the 100% catch target and explains it guarantees over-blocking when no false-positive ceiling is set alongside it",
+        "evidence": "'A rule set can trivially hit 100% catch by flagging everyone; the cost shows up entirely in the false-positive number.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that detection rate and false-positive rate are only meaningful as a pair, never catch rate alone",
+        "evidence": "'A catch rate only means something paired with its false-positive rate... none reports catch rate alone.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the pass pair: at least 80% of known incidents fire at Hold & Investigate or above, and at most 5% of sampled flags are false positives",
+        "evidence": "The transcript only offers 'published fraud-ops checklists converge around an 80%+ catch rate paired with a false-positive rate in the low single digits' as an external anchor, not as the program's own pass/fail backtest threshold (\u226580%/\u22645%) stated elsewhere in the set.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Labels that pair as a calibration anchor rather than an industry constant",
+        "evidence": "'Calibration anchors, if she wants a number to compare against \u2014 labeled as anchors, not targets... Neither is an industry constant'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites Snyder & Kanich's two-feature timing classifier at roughly 2-second thresholds (Journal of Cybersecurity, 2016): 93.3% accuracy, 1.5% false positive, 5.2% false negative",
+        "evidence": "Only 'a two-feature timing classifier... hit 93.3% accuracy with a 1.5% false-positive rate' is given \u2014 no author names, journal citation, or 5.2% false-negative figure appear.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Handles the absent incident history by saying so in the deliverable and scheduling the threshold as a first-quarterly-review gate on sampled flags, rather than inventing a backtest",
+        "evidence": "'Schedule the catch-rate / false-positive-rate check as a standing gate at your first quarterly review'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Describes the backtest design as historical confirmed incidents plus a random sample of both flagged and unflagged partners reviewed manually",
+        "evidence": "'Pull a random sample of both flagged and unflagged partners... This sample *is* your denominator.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Lists the KPI set: flagged rate, confirmed-fraud rate, false-positive rate from sampled review, reversed-commission share, and recovered spend",
+        "evidence": "'Flagged rate / Confirmed-fraud rate... / False-positive rate from that same sample / Reversed-commission share and recovered spend'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Says the false-positive rate must come from sampled manual review rather than from partner complaints alone",
+        "evidence": "'False-positive rate from that same sample' tied explicitly to the manual review sample",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that if both halves of the threshold cannot be met, the deliverable names the missing data or history instead of shipping an untested rule set",
+        "evidence": "'Faking a backtest against zero incidents... would be worse than saying \"we don't know yet, here's how we'll know.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Triggers a program-level escalation (revisit hold windows, partner vetting, tooling) when confirmed-fraud rate or reversed-commission share climbs materially quarter over quarter",
+        "evidence": "No such escalation trigger appears anywhere in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends retiring rules that only ever produce false positives",
+        "evidence": "No mention of retiring underperforming/false-positive-only rules in this transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses the 100% catch target and explains it guarantees over-blocking when no false-positive ceiling is set alongside it",
+        "evidence": "'100% detection is also not a real goal for a rules-based system. Push false-positive tolerance to zero and you can trivially \"catch everything\" by flagging every affiliate \u2014 that's not a working control, it's a broken one.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that detection rate and false-positive rate are only meaningful as a pair, never catch rate alone",
+        "evidence": "The final proposed message pairs 'a false-positive rate measured against real legitimate traffic, and precision on live flags reviewed by hand' with coverage, refusing to give a detection number alone.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the pass pair: at least 80% of known incidents fire at Hold & Investigate or above, and at most 5% of sampled flags are false positives",
+        "evidence": "No such numeric pair appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Labels that pair as a calibration anchor rather than an industry constant",
+        "evidence": "N/A \u2014 the pair itself is never given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites Snyder & Kanich's two-feature timing classifier at roughly 2-second thresholds (Journal of Cybersecurity, 2016): 93.3% accuracy, 1.5% false positive, 5.2% false negative",
+        "evidence": "No such citation appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Handles the absent incident history by saying so in the deliverable and scheduling the threshold as a first-quarterly-review gate on sampled flags, rather than inventing a backtest",
+        "evidence": "The transcript instead proposes inventing tests: 'manufacture test cases: Write synthetic fraud scenarios per typology' and 'Backtest against your legitimate historical traffic' rather than deferring to a data-gap statement.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Describes the backtest design as historical confirmed incidents plus a random sample of both flagged and unflagged partners reviewed manually",
+        "evidence": "The precision method described is 'For every rule that fires, have a human review a sample' \u2014 only flagged cases, not a random sample of both flagged and unflagged partners.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Lists the KPI set: flagged rate, confirmed-fraud rate, false-positive rate from sampled review, reversed-commission share, and recovered spend",
+        "evidence": "The KPIs given are 'rule fire rates, flagged GMV, review turnaround, appeal/override rate' \u2014 a different set, missing confirmed-fraud rate, reversed-commission share, and recovered spend.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Says the false-positive rate must come from sampled manual review rather than from partner complaints alone",
+        "evidence": "Manual review is proposed for precision, but partner complaints as an alternative/insufficient source are never discussed or ruled out.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that if both halves of the threshold cannot be met, the deliverable names the missing data or history instead of shipping an untested rule set",
+        "evidence": "No such conditional gating logic appears; the message proceeds with a testing plan rather than a go/no-go rule.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Triggers a program-level escalation (revisit hold windows, partner vetting, tooling) when confirmed-fraud rate or reversed-commission share climbs materially quarter over quarter",
+        "evidence": "Not mentioned in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends retiring rules that only ever produce false positives",
+        "evidence": "Not mentioned in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

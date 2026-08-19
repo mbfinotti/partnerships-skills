@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the 20% rate and states it sits above the ceiling derived from this store's own unit economics",
+        "evidence": "\"Don't set it at 20%. At Cablewright's margins, 20% of order value isn't a competitive commission \u2014 it's a loss on every single affiliate-referred sale. The number your economics actually support is 6% of order value...\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Computes gross margin per order as about $43.20 from the $180 AOV at 24%",
+        "evidence": "\"AOV $180.00 / Gross margin (24%) $43.20\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Subtracts the $16 variable cost to reach a contribution margin of about $27.20",
+        "evidence": "\"Variable costs (ship/pick-pack/fees) -$16.00 \u2192 contribution margin $27.20\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Nets out the 7% return rate to reach a post-return contribution margin of about $25.30",
+        "evidence": "\"Expected returns (7%) \u00d70.93 \u2192 post-return contribution margin $25.30\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the one-third-to-one-half-of-post-return-contribution-margin rule to set the payable band",
+        "evidence": "\"Pay 1/3 to 1/2 of that \u2192 $8.43 to $12.65 per order\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States a maximum payable per order of roughly $12.65, i.e. a ceiling around 7% of AOV",
+        "evidence": "\"As commission rate \u2192 4.7% to 7.0% of AOV\" combined with the \"$8.43 to $12.65 per order\" figure and \"ceiling caps at ~7.0%\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Quantifies the loss at 20%: about $36 paid against about $25.30 of post-return contribution, roughly $11 lost per order",
+        "evidence": "The transcript states both figures adjacently (\"that's $36.00 per order. Your post-return contribution margin is $25.30\") but never subtracts them to get ~$11; instead it computes a different figure via a separate method: \"Commission alone ($36) plus variable costs ($16) is $52 against $43.20 of gross margin \u2014 you'd be $8.80 underwater on gross margin alone\" \u2014 the stated loss is $8.80, not ~$11.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cross-checks the derived figure against the 20-30%-of-gross-margin sanity band",
+        "evidence": "\"Sanity check: 20-30% of gross margin ($43.20) \u2192 $8.64 to $12.96 (overlaps \u2713)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a headline rate in the single digits (roughly 4-7%), or an equivalent flat CPA, rather than a double-digit rate",
+        "evidence": "\"Headline rate : 6% of order value (~$10.80 on $180 AOV), flat across partner types at launch\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags that a flat percentage across a $12-to-$420 catalog lets one large order wipe out unit economics, and offers flat CPA or a percentage banded by product as the fix",
+        "evidence": "The catalog caveat only discusses margin variation causing overpay/underpay (\"a flat 6% could overpay on the low end and underpay on the high end\") and suggests banding by category (\"band the rate if it diverges meaningfully\"), but never frames the risk as one large order wiping out unit economics, nor proposes flat CPA as an alternative.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the loss would be invisible at launch and surface only after returns net out",
+        "evidence": "The transcript describes the loss as immediate and guaranteed (\"This isn't a thin margin \u2014 it's a guaranteed loss on every affiliate-driven sale\") rather than something invisible at launch that only surfaces once returns net out.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names narrowing the program to high-margin SKUs as the fallback if partners will not work at the derived rate, and does not justify any rate by pointing at the skincare vertical's benchmark",
+        "evidence": "No mention of narrowing the program to high-margin SKUs as a fallback appears anywhere in the transcript; the closest content is the unrelated suggestion to \"band the rate\" across SKU categories, not to restrict the program's scope.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the 20% rate and states it sits above the ceiling derived from this store's own unit economics",
+        "evidence": "\"A 20% commission is $36 per order. You'd be paying out $12 more than exists, on every single referred sale, before touching overhead. This isn't a thin-margin situation, it's a guaranteed-loss one.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Computes gross margin per order as about $43.20 from the $180 AOV at 24%",
+        "evidence": "\"Gross profit (24% margin) | $43.20\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Subtracts the $16 variable cost to reach a contribution margin of about $27.20",
+        "evidence": "\"Variable cost (shipping/pick-pack/fees) | \u2212$16.00 | **Contribution before returns** | **$27.20** (15.1% of AOV)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Nets out the 7% return rate to reach a post-return contribution margin of about $25.30",
+        "evidence": "The transcript instead computes \"Net contribution: $2,417.60 / 100 orders = ~$24.18 per order shipped, or ~13.4% of AOV\" \u2014 a different figure ($24.18, not $25.30) derived via a different method (full variable cost on all 100 orders rather than simply multiplying $27.20 by 0.93).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies the one-third-to-one-half-of-post-return-contribution-margin rule to set the payable band",
+        "evidence": "No such rule or band appears anywhere; the transcript instead recommends \"Base rate: 8% of order value\" with volume tiers to 10%/12%, with no one-third-to-one-half calculation shown.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States a maximum payable per order of roughly $12.65, i.e. a ceiling around 7% of AOV",
+        "evidence": "The transcript's recommended base rate is 8% ($14.40/order), and no figure of $12.65 or a 7%-of-AOV ceiling appears anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Quantifies the loss at 20%: about $36 paid against about $25.30 of post-return contribution, roughly $11 lost per order",
+        "evidence": "The transcript quantifies the loss as \"A 20% commission is $36 per order. You'd be paying out $12 more than exists\" against a stated ceiling of \"~$24.18 per order\" (i.e. $24, not $25.30, and \"$12 more\" not \"$11\").",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cross-checks the derived figure against the 20-30%-of-gross-margin sanity band",
+        "evidence": "No mention of a 20-30% of gross margin sanity check anywhere in the transcript; the only gross-margin comparison made is against skincare's 60-80% margin, not a sanity band for this store's own rate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a headline rate in the single digits (roughly 4-7%), or an equivalent flat CPA, rather than a double-digit rate",
+        "evidence": "\"Base rate: 8% of order value.\" \u2014 8% falls outside the roughly 4-7% band specified, and no flat CPA equivalent is offered as the headline recommendation.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags that a flat percentage across a $12-to-$420 catalog lets one large order wipe out unit economics, and offers flat CPA or a percentage banded by product as the fix",
+        "evidence": "\"A $420 docking station is almost certainly lower-margin-% than a $12 cable... At 20%, that one order pays out $84 in commission\u2014likely more than the entire gross profit on the item.\" Fix offered: \"Per-order commission cap (e.g., cap payout at $30\u201335/order)\" and \"pull margin % by category (cables vs. chargers vs. docks) and consider a lower rate on your thinnest-margin SKUs.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the loss would be invisible at launch and surface only after returns net out",
+        "evidence": "No statement in the transcript describes the loss as invisible at launch or only surfacing after returns are netted out; returns are discussed only as a component of the upfront contribution-margin calculation and the recommendation to \"Pay net of returns.\"",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names narrowing the program to high-margin SKUs as the fallback if partners will not work at the derived rate, and does not justify any rate by pointing at the skincare vertical's benchmark",
+        "evidence": "The transcript explicitly rejects the skincare benchmark (\"Skincare's 20% isn't a benchmark you can copy\"), satisfying the second clause, but it never proposes narrowing the affiliate program to only high-margin SKUs as a fallback if partners refuse the rate \u2014 the closest statement is applying \"a lower rate on your thinnest-margin SKUs,\" which is a different remedy.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

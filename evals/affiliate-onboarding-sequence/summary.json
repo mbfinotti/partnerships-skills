@@ -1,0 +1,503 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "affiliate-onboarding-sequence",
+  "scenarios": 11,
+  "expectations_total": 129,
+  "expectations_subjective": 0,
+  "expectations_objective": 129,
+  "pass_rate_with_skill_pct": 74.4,
+  "pass_rate_without_skill_pct": 36.4,
+  "delta_pp": 38.0,
+  "uplift_multiplier": 2.04,
+  "trigger_accuracy_pct": 79.5,
+  "trigger_queries": 122,
+  "subjective_ac2": null,
+  "subjective_pass_disagreements": [],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.270 (Claude Code)",
+  "conditions": {
+    "mcp_servers": "disabled",
+    "project_claude_md": "not loaded (trials and grading)",
+    "user_claude_md": "loaded",
+    "dynamic_prompt_sections": "excluded"
+  },
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "States the tier efficiency ordering explicitly, with self-serve ahead of hybrid ahead of high-touch on activation bought per manager hour"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Notes that self-serve leads on that ratio despite converting worst per affiliate, not because it converts best"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Keeps touch 1 to one action and roughly 300 words or fewer"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Delivers a SEQUENCE PLAN artifact carrying at least Activation, Routing, Touches, Activation nudge, Never-activated, Exits, and KPIs lines"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Starts with an end-to-end trace of one conversion: click, recorded conversion, pending commission, reversal state"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States the diagnosis ordering as information bought per unit of effort rather than cheapest check first"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Includes opening the approval email as a newly approved affiliate to confirm a working link or code is present, described as near-zero effort"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Includes reading the per-touch open and click rates the platform already records, and notes this localizes where the sequence loses people without naming the cause"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Includes splitting activation by archetype and by tier as a separate check"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Includes auditing whether a deadline-bound nudge inside the window and a designed never-activated branch exist"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Flags cookie-only attribution as undercounting because of browser tracking prevention, and recommends server-side postback carrying a click ID and an order or transaction ID"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Places the final-notice email far later than the proposed 60 days, at roughly six months of zero clicks and zero replies"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Rejects the 30-day activation window for this program and recommends roughly 90 days instead"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Ties that window to the stated five-month sales cycle rather than to a generic default"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Keeps a 4-6 touch, 10-14 day calendar skeleton but stretches the behavior-trigger layer across the full 90-day window"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes that recurring commission carries clawback or reversal risk on every invoice, so payout holds run longer than in B2C"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Places the time-boxed activation nudge inside the 90-day window rather than at day 30"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names time-to-first-conversion, tracked as a cohort median, as a KPI alongside activation rate"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names never-activated share of the cohort at the cutoff as a KPI"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes that high-touch requires almost no upfront build but becomes a standing recurring job"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Keeps terms and disclosure attestation, plus tax and payout collection gating payout eligibility, at onboarding"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Keeps the one-action, one-CTA rule for the rewritten touch 3"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States the skeleton as roughly 4-6 touches over 10-14 days, each asking one action"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Presents that skeleton as a defensible starting point rather than a fixed industry calendar"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States that continuing the onboarding drip past activation reads as unattended automation"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Adds a trigger-overrides-calendar rule: when a behavior trigger fires within a day of a scheduled calendar touch, send the trigger touch and skip or delay the calendar one"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Gives the reason that two emails in one day from the same program trains the skim reflex"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Honors unsubscribes program-wide"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Notes that commissions already earned against uncollected tax forms become a negotiation with the affiliate rather than a build task"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Notes that a reply-seeking email sent from a no-reply or automated address undercuts its own ask"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Surfaces the disclosure obligation and terms acceptance in this first touch"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States that the draft must go through a humanizer pass before it is treated as final copy, rather than handing over raw first-draft output as paste-ready"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Specifies that the humanizer pass rewrites tone and phrasing only, leaving the one-action structure and the money mechanics unchanged"
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Fixes the activation event and its measurement window (for example first tracked sale within 30 days of approval) before designing any touch"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Removes the high-touch tier from the menu entirely rather than listing it as a lower-priority or later option"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Justifies that removal by the absence of a named affiliate manager and the roughly 400 approvals per month volume"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States the tier efficiency ordering explicitly, with self-serve ahead of hybrid ahead of high-touch on activation bought per manager hour"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Notes that self-serve leads on that ratio despite converting worst per affiliate, not because it converts best"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Keeps touch 1 to one action and roughly 300 words or fewer"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Gives coupon-deal, social creator, and email-list owner archetypes different first actions and leading assets, without ranking those archetypes against each other"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Delivers a SEQUENCE PLAN artifact carrying at least Activation, Routing, Touches, Activation nudge, Never-activated, Exits, and KPIs lines"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Refuses to rewrite the welcome email as the first action and says so explicitly"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Gives the reason that a rewrite is a change rather than a check, and that it destroys the baseline that would have shown whether it worked"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Starts with an end-to-end trace of one conversion: click, recorded conversion, pending commission, reversal state"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Ties that first step to the stated symptom of clicks visible in the dashboard while activation reports low, as a sign the reported number may be fiction"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States the diagnosis ordering as information bought per unit of effort rather than cheapest check first"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Includes opening the approval email as a newly approved affiliate to confirm a working link or code is present, described as near-zero effort"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Includes reading the per-touch open and click rates the platform already records, and notes this localizes where the sequence loses people without naming the cause"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Includes splitting activation by archetype and by tier as a separate check"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Includes auditing whether a deadline-bound nudge inside the window and a designed never-activated branch exist"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Flags cookie-only attribution as undercounting because of browser tracking prevention, and recommends server-side postback carrying a click ID and an order or transaction ID"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Places the rewrite of touch 1 or the asset kit last, only after the preceding checks have run"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Does not conclude that recruitment or affiliate quality is the cause"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Rejects the proposed removal-threat wording and does not produce a version of it"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Gives the reason as motivation research finding threats counterproductive, rather than as a tone or brand preference"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Reframes the message as an opportunity with a finish line, for example an incentive that expires on a stated date"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Recommends archiving or suppressing never-activated accounts rather than deleting them"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States that suppression keeps the active-rate metric honest and leaves the door open"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Places the final-notice email far later than the proposed 60 days, at roughly six months of zero clicks and zero replies"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Frames that final notice as housekeeping rather than punishment"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Separates never-activated affiliates (never clicked) from dormant ones (were active, then stopped) and states they get different messages"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Puts a diagnostic checkpoint at the end of the activation window, before any re-engagement message is sent"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Equips the re-engagement touch with one concrete incentive and one ready-to-use asset, not encouragement alone"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Rejects the 30-day activation window for this program and recommends roughly 90 days instead"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Keeps a 4-6 touch, 10-14 day calendar skeleton but stretches the behavior-trigger layer across the full 90-day window"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Names at least two B2B-appropriate behavior triggers, such as training or certification completed, or no deal registered by a given day"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Requires sandbox, demo, or NFR access to be provisioned at approval rather than granted on request"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Requires the deal-registration link to be available at day 0"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Includes a kickoff-call agenda covering the concrete activation plan, a first-deal date, and next-step owners"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Adds B2B-specific kit items such as competitor-comparison or buyer-question material, beyond logos, banners and swipe copy"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes that recurring commission carries clawback or reversal risk on every invoice, so payout holds run longer than in B2C"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Places the time-boxed activation nudge inside the 90-day window rather than at day 30"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that 19% sits at or above the roughly 18% median 30-day B2C activation figure, so the cohort is not failing"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Notes that holding the program to roughly 30% on day one demands top-quartile performance"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Gives the wider context that only roughly 5-20% of approved affiliates ever produce a tracked conversion"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that a cohort is judged only once its activation window has closed"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names time-to-first-conversion, tracked as a cohort median, as a KPI alongside activation rate"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names never-activated share of the cohort at the cutoff as a KPI"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States explicitly that the default efficiency ordering (self-serve ahead of hybrid ahead of high-touch) is a default to re-rank against the program, not a rule"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes that high-touch requires almost no upfront build but becomes a standing recurring job"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Includes a kickoff-call agenda covering terms and commission recap, targets with a concrete activation plan and next-step owners, a product walkthrough with sandbox access, and a first-deal date"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Keeps day-0 provisioning as a pre-condition: portal credentials, deal-registration link, and sandbox or NFR access at approval"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Keeps terms and disclosure attestation, plus tax and payout collection gating payout eligibility, at onboarding"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Keeps the one-action-per-touch rule even inside the high-touch plan"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Defines the activation event and its window before laying out the touch plan"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Delivers the plan in the SEQUENCE PLAN artifact format rather than as an undifferentiated list of emails"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Sizes the hub as roughly a quarter of build plus a standing job to keep current, against roughly an hour to trim"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Notes that reverting a hub means rebuilding the drip that was deleted, so the swap is far less reversible"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "If a hub is adopted at all, keeps touch 1 and the behavior-trigger layer and collapses only the middle touches"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Declines to structure the sequence on AIDA and states that general marketing funnels are not built for affiliate activation"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Declines to apply the '60/40 principle' and states it is unverified, with no named originator or citation behind it"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Does not invent content or a definition for the 60/40 principle"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Offers a day-offset skeleton plus a behavior-trigger layer as the structure instead"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Presents that skeleton as a defensible starting point rather than a fixed industry calendar"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States that a behavior trigger overrides the calendar touch it collides with"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "If a named framework is used for the re-engagement branch, labels it as one practitioner's coinage rather than an industry-standard method"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Does not present RACE, AARRR or AIDA as an accepted affiliate-onboarding framework"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States that continuing the onboarding drip past activation reads as unattended automation"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Has the first-sale celebration state when the commission approves and when it pays"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Re-enters reactivated archived affiliates at the tools touch (T2), not at the welcome touch (T1)"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Gives the reason that reactivated affiliates need a working asset and one action, not re-approval"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Specifies that entry into the never-activated branch ends the main sequence"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Adds a trigger-overrides-calendar rule: when a behavior trigger fires within a day of a scheduled calendar touch, send the trigger touch and skip or delay the calendar one"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Gives the reason that two emails in one day from the same program trains the skim reflex"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Flags whether transactional notices (commission approved, payout sent) may still send after a marketing unsubscribe as a question for the program's terms and local law, rather than assuming they may"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Notes that commissions already earned against uncollected tax forms become a negotiation with the affiliate rather than a build task"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Treats archetype routing and the never-activated branch as roughly equal on ratio, each about a week of work"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Breaks that tie on timing: routing pays inside the window the user is already in, while the never-activated branch only pays on the next cohort"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Deletes the banner and design work from the list outright given the stated no-design-budget constraint, rather than ranking it last"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Places the tracking link and coupon code in the first lines of the email"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Sets the subject line on the concrete thing inside the email (the link or code) rather than on program excitement such as 'Welcome aboard'"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Notes that a reply-seeking email sent from a no-reply or automated address undercuts its own ask"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Surfaces the disclosure obligation and terms acceptance in this first touch"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States that the draft must go through a humanizer pass before it is treated as final copy, rather than handing over raw first-draft output as paste-ready"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Specifies that the humanizer pass rewrites tone and phrasing only, leaving the one-action structure and the money mechanics unchanged"
+      }
+    ]
+  }
+}

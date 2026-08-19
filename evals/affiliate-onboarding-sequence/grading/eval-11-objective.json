@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Places the tracking link and coupon code in the first lines of the email",
+        "evidence": "'Link: {{affiliate_link}}\\nCode: {{affiliate_code}}' appear immediately after the greeting.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks exactly one action, with one call to action",
+        "evidence": "'One ask: hit reply and tell me how you're thinking about using it'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps the email under roughly 300 words",
+        "evidence": "'~250 words, link and code sit in line two'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Writes the call to action as action plus outcome rather than 'learn more' or equivalent",
+        "evidence": "'hit reply and tell me how you're thinking about using it, or what would make it easier to write about us'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the money mechanics plainly: the 15% commission, the 45-day cookie, the $75 payout threshold, approval after the 30-day return window, and net-30 payment",
+        "evidence": "'you get 15% of the order total... tracked for 45 days... Once an order clears our 30-day return window... pays out net-30... crosses $75.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sets the subject line on the concrete thing inside the email (the link or code) rather than on program excitement such as 'Welcome aboard'",
+        "evidence": "'Subject: Your Norrsken Supply link + code are live'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sends the email from Tomas by name rather than from an automated or no-reply program address",
+        "evidence": "'I'm Tomas \u2014 I run this program myself, so replies land with me, not a support queue.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that a reply-seeking email sent from a no-reply or automated address undercuts its own ask",
+        "evidence": "The transcript only says the skill 'explicitly allows' a named sender when the ask is a reply; it never states the undercutting reasoning.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Uses the affiliate's own archetype context, for example their subscribers or their newsletter, rather than the program's framing",
+        "evidence": "'I've read your newsletter for a while, and camping gear feels like a genuinely good fit for your subscribers'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Surfaces the disclosure obligation and terms acceptance in this first touch",
+        "evidence": "Only disclosure is mentioned ('needs a standard FTC affiliate disclosure'); no terms-acceptance element appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the draft must go through a humanizer pass before it is treated as final copy, rather than handing over raw first-draft output as paste-ready",
+        "evidence": "The email is instead presented as 'ready to paste into your ESP' with no humanizer-pass caveat anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Specifies that the humanizer pass rewrites tone and phrasing only, leaving the one-action structure and the money mechanics unchanged",
+        "evidence": "No humanizer pass is mentioned at all in this transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Places the tracking link and coupon code in the first lines of the email",
+        "evidence": "This is a pre-approval outreach email; no actual link or code appears \u2014 only 'your link and code will be ready in the dashboard within minutes' after the affiliate replies.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks exactly one action, with one call to action",
+        "evidence": "'If you want in, just reply to this email and I'll get you approved right away.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps the email under roughly 300 words",
+        "evidence": "The full email body (greeting through sign-off) is a short, single-screen message consistent with well under 300 words.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Writes the call to action as action plus outcome rather than 'learn more' or equivalent",
+        "evidence": "'just reply to this email and I'll get you approved right away' \u2014 action (reply) plus outcome (approval).",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the money mechanics plainly: the 15% commission, the 45-day cookie, the $75 payout threshold, approval after the 30-day return window, and net-30 payment",
+        "evidence": "'15% commission ... 45-day cookie window ... $75 payout threshold, paid net-30 ... approved once our 30-day return window closes.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sets the subject line on the concrete thing inside the email (the link or code) rather than on program excitement such as 'Welcome aboard'",
+        "evidence": "Subject is 'Quick question about featuring Norrsken Supply' \u2014 curiosity-based, not tied to a link/code (none is present in the email) nor to excitement framing either.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Sends the email from Tomas by name rather than from an automated or no-reply program address",
+        "evidence": "'I'm Tomas \u2014 I run the affiliate program at Norrsken Supply' ... signed 'Tomas'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that a reply-seeking email sent from a no-reply or automated address undercuts its own ask",
+        "evidence": "No such observation appears; the closing note only discusses filling in personalization placeholders.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Uses the affiliate's own archetype context, for example their subscribers or their newsletter, rather than the program's framing",
+        "evidence": "'I've been reading your newsletter for a while now ... your [specific recent piece/trip writeup] ... your readers buy through your link.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Surfaces the disclosure obligation and terms acceptance in this first touch",
+        "evidence": "No FTC disclosure or terms-acceptance language appears anywhere in the email.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the draft must go through a humanizer pass before it is treated as final copy, rather than handing over raw first-draft output as paste-ready",
+        "evidence": "The closing note only asks for name/detail to be filled in ('If you give me the newsletter name or a recent post topic, I'll drop it in for you'), with no mention of a humanizer pass.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Specifies that the humanizer pass rewrites tone and phrasing only, leaving the one-action structure and the money mechanics unchanged",
+        "evidence": "Not applicable/absent, since no humanizer pass is mentioned at all.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

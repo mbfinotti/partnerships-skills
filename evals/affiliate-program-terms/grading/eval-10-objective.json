@@ -1,0 +1,118 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that an amendment clause permitting change at any time without notice is null and void toward EU/UK business users wherever P2B applies.",
+        "evidence": "'a clause that doesn't provide this is **null and void toward that group**, regardless of what it says.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires at least 15 days' notice on a durable medium for EU/UK business users, which rules out the requested Monday effective date.",
+        "evidence": "'amendments toward EU/UK *business users* require **at least 15 days' notice on a durable medium**...' and 'EU/UK affiliates (~300): earliest defensible effective date is **15 days from the notice going out**, on a durable medium'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the amendment must not be retroactive.",
+        "evidence": "'must be prospective (never retroactive)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives affected affiliates an explicit right to terminate instead of accepting the change, before the change takes effect.",
+        "evidence": "'must give the affiliate a right to terminate instead of accepting' and notice draft: 'You may terminate your participation in the program at any time before that date without penalty by [mechanism].'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Pairs electronic notice with continued participation after the notice period as acceptance.",
+        "evidence": "'Continued participation after that date constitutes acceptance.' appears for both the EU/UK track and the non-EU/UK track in the drafted notice.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks the unilateral-amendment clause with [LEGAL REVIEW], including the unsettled question of whether P2B reaches an in-house merchant program.",
+        "evidence": "'[LEGAL REVIEW: confirm whether this in-house affiliate program falls within P2B Art. 2(2) scope]' and '[LEGAL REVIEW: unilateral amendment mechanism \u2014 confirm the two-track effective date correctly segments EU/UK business users and that the notice channel qualifies as a \"durable medium.\"]'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires dated versions and a change record rather than a silent in-place edit of the published document.",
+        "evidence": "'Version the document (e.g. \"v[X], effective [date], supersedes v[X-1] dated [original publish date]\") and log the change \u2014 you're 14 months into a maintained program, not issuing a one-off.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Drafts the trademark-plus-coupon ban inside the brand-bidding clause and the fake-review ban inside the enumerated prohibited-tactics list.",
+        "evidence": "The Trademark/Brand-Keyword Bidding clause includes 'combinations with \"coupon,\" \"code,\" \"discount\"...(\"Trademark-Plus\" terms)', and the separate 'Misleading Claims & Fake Reviews' clause is explicitly marked '*(Insert into Prohibited Tactics & Enforcement)*'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not treat the existing \"change at any time\" language as sufficient authority to proceed as asked.",
+        "evidence": "'## Answer to \"that's fine, right?\" \u2014 No, not for all 1,100 / Your existing \"we can change these terms at any time without notice\" clause does not actually deliver what its text promises for ~300 EU/UK affiliates.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that an amendment clause permitting change at any time without notice is null and void toward EU/UK business users wherever P2B applies.",
+        "evidence": "'A boilerplate \"we may change at any time\" clause does not itself qualify as an exception \u2014 it's the thing the regulation constrains, not a way around it,' and 'an affiliate you terminate under a non-compliant amendment has a real argument that the amendment never validly bound them.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires at least 15 days' notice on a durable medium for EU/UK business users, which rules out the requested Monday effective date.",
+        "evidence": "'Minimum 15 days' notice before a T&C change takes effect for EU/UK business users' and the drafted clause requires notice 'published on the Program's terms page and sent to the affiliate's registered email address.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the amendment must not be retroactive.",
+        "evidence": "'No amendment applies retroactively to conduct that occurred, or commissions that accrued, before its effective date, except as required by applicable law.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives affected affiliates an explicit right to terminate instead of accepting the change, before the change takes effect.",
+        "evidence": "'An affiliate who does not accept an amendment may terminate their participation in the Program at no cost, by written notice to Company, at any time before the amendment's effective date.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Pairs electronic notice with continued participation after the notice period as acceptance.",
+        "evidence": "The drafted amendment clause never states that continued participation after the notice period constitutes acceptance.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks the unilateral-amendment clause with [LEGAL REVIEW], including the unsettled question of whether P2B reaches an in-house merchant program.",
+        "evidence": "The closing note raises the P2B-applicability question ('confirm with counsel whether your affiliate base is actually \"business users\" under P2B') but no [LEGAL REVIEW] tag is used anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires dated versions and a change record rather than a silent in-place edit of the published document.",
+        "evidence": "No versioning or change-log requirement appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Drafts the trademark-plus-coupon ban inside the brand-bidding clause and the fake-review ban inside the enumerated prohibited-tactics list.",
+        "evidence": "The trademark+coupon ban is correctly placed inside the brand-bidding clause ('\"coupon,\" \"discount,\" \"promo,\" \"deal,\" or similar'), but the fake-review ban is presented as its own standalone new clause rather than inserted into an existing enumerated prohibited-tactics list.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not treat the existing \"change at any time\" language as sufficient authority to proceed as asked.",
+        "evidence": "'Not for your EU/UK affiliates. For the rest, probably, but I'd still notice everyone' \u2014 the assistant refuses to treat the existing clause as sufficient to launch Monday with no notice.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

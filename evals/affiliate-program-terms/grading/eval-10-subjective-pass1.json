@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Treats already-published terms with a live affiliate base as pricing each tightening at one amendment cycle plus the affiliates who leave, making reversibility rather than drafting hours the binding constraint.",
+        "evidence": "Partial. The answer does treat the amendment cycle as a real cost: it establishes a 15-day notice track for ~300 EU/UK affiliates, bundles both new clauses (brand bidding + fake reviews) into a single notice, versions the document ('supersedes v[X-1]') and notes 'you're 14 months into a maintained program, not issuing a one-off.' It also routes around the cycle's latency for the urgent case \u2014 'don't wait for the amendment cycle to deal with them... existing language plus ordinary trademark law likely already gives you grounds to suspend... today.' Attrition appears only as a legal requirement ",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Treats already-published terms with a live affiliate base as pricing each tightening at one amendment cycle plus the affiliates who leave, making reversibility rather than drafting hours the binding constraint.",
+        "evidence": "The answer surfaces the two raw ingredients of the cost but never prices them or draws the conclusion. It notes the 15-day notice window and that 'An affiliate who does not accept an amendment may terminate their participation in the Program at no cost' \u2014 but purely as a P2B legal requirement, not as a business cost attached to every future tightening. There is no advice to bundle anticipated future changes into this single amendment cycle, no mention of churn risk across the 1,100-affiliate base as a reason to get the scope right now, and no framing of reversibility as the binding constraint.",
+        "score": 1,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

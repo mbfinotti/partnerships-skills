@@ -1,0 +1,190 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the equal 20% weight distribution outright rather than tuning the numbers inside it",
+        "evidence": "\"Equal weights, no justification. Nobody decided this ranking; the spreadsheet format did.\" The entire criteria set is replaced, not re-tuned.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that every weight must carry a written one-line justification",
+        "evidence": "\"Weights: individually justified, not equal, not best-worst\" and the corrected scorecard table has a 'Justification' column for each weight.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names resource complementarity and organizational compatibility as the two criteria that should carry the highest weight",
+        "evidence": "Table lists 'Resource complementarity | 25%' and 'Organizational compatibility | 20%' as the top two weights.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Points out that neither complementarity nor compatibility appears anywhere in the user's five existing criteria",
+        "evidence": "The memo critiques Brand, Market size, Account overlap, Exec relationship, Revenue potential individually but never explicitly states that complementarity/compatibility were absent from that original five.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags brand strength and exec relationship, together 40% of the sheet, as logo halo and relationship criteria that crowd out fit",
+        "evidence": "\"Brand + exec relationship = 40% of the score. Logo halo and a personal CEO relationship are the two documented ways this exercise fools itself.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Caps account overlap as one input rather than leaving it as an equal share of the ranking spine",
+        "evidence": "\"Verified account overlap | 10%, capped | Flags warm accounts, doesn't predict success on its own; capped deliberately\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Introduces an effort column and ranks candidates on value divided by effort",
+        "evidence": "Ranked table includes 'Effort (mgr-months)' and 'Value \u00f7 effort' columns driving the 'Rank' column.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the ranking order explicitly as value divided by effort, then value composite, then logo attractiveness",
+        "evidence": "No such tie-break sequence (value\u00f7effort, then composite, then logo attractiveness) is stated anywhere; brand/logo is dropped as a criterion entirely.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Shows that Northwind Cloud's 7 manager-months move its position once effort divides value, rather than leaving it first",
+        "evidence": "\"Once effort is divided in, the order the halo scorecard produced (Northwind > Piedmont > Solvexa) inverts almost completely... the hyperscaler looks best raw and worst per manager-month.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Draws the capacity line on summed effort estimates rather than on the headcount number of three",
+        "evidence": "\"Capacity line: effort-sum, cross-checked against your headcount statement\" and \"Effort-sum against 2 managers: Solvexa (4) + Piedmont (6) + a staged, capped Northwind phase-one... = roughly 13 manager-months\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Runs a sensitivity check shifting each weight plus or minus 20% and reports which positions hold and which flip",
+        "evidence": "The Sensitivity section is explicitly qualitative and defers the numeric test: \"run the numeric \u00b120% pass once real scores exist\" \u2014 it was not actually run.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies a tie band of roughly 5% and refuses to treat a sub-5% composite gap as decisive",
+        "evidence": "Only a vague 'tie-band call' is mentioned (\"0.63 vs 0.51 is a real gap, not a tie\") with no explicit ~5% threshold stated anywhere in this section.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scores the CEO-connected Northwind Cloud on the same sheet as every other candidate rather than protecting or excluding it",
+        "evidence": "Northwind Cloud is scored in the same 'Ranked table' alongside Solvexa and Piedmont on identical columns.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Ends with at least one candidate not making the shortlist, each non-shortlisted candidate carrying an explicit verdict",
+        "evidence": "\"Below the line: the six unnamed candidates \u2014 hold, pending scoring on the corrected criteria. Re-entry trigger: scorecard complete for each.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks for the missing interview inputs (existing alliance portfolio, data available per candidate, sign-off owner) before finalizing the table",
+        "evidence": "Open questions ask about overlap dataset and manager-months capacity, but never explicitly ask about the existing alliance portfolio load or who the sign-off owner is.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the equal 20% weight distribution outright rather than tuning the numbers inside it",
+        "evidence": "The memo only asks to question the exec-relationship dimension ('Worth saying to the VP directly: strip that one dimension out and ask whether Northwind still leads') rather than rejecting the equal 20% split outright.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that every weight must carry a written one-line justification",
+        "evidence": "No such requirement is stated anywhere in the memo.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names resource complementarity and organizational compatibility as the two criteria that should carry the highest weight",
+        "evidence": "These terms/criteria never appear.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Points out that neither complementarity nor compatibility appears anywhere in the user's five existing criteria",
+        "evidence": "Not addressed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags brand strength and exec relationship, together 40% of the sheet, as logo halo and relationship criteria that crowd out fit",
+        "evidence": "Only says overlap is 'diluted 1-for-5 against brand strength and exec relationship' \u2014 no 40% combined figure or 'logo halo' framing is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Caps account overlap as one input rather than leaving it as an equal share of the ranking spine",
+        "evidence": "No capping mechanism is proposed; overlap is only discussed qualitatively.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Introduces an effort column and ranks candidates on value divided by effort",
+        "evidence": "Manager-months are discussed as a capacity constraint, but no explicit value/effort ratio or column is introduced.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the ranking order explicitly as value divided by effort, then value composite, then logo attractiveness",
+        "evidence": "No such ordering rule is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Shows that Northwind Cloud's 7 manager-months move its position once effort divides value, rather than leaving it first",
+        "evidence": "'Northwind (7) + Piedmont (6) alone = 13 manager-months' drives the recommendation to 'downgrade to a lightweight referral/co-marketing motion this year, not a full technical integration' \u2014 moving it off the #1 spot its score implied.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Draws the capacity line on summed effort estimates rather than on the headcount number of three",
+        "evidence": "'Picking the top 3 by score commits the team to 17 manager-months against a ~12-14 month budget' \u2014 the capacity line is drawn on summed manager-months, not simply 'take the top 3.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Runs a sensitivity check shifting each weight plus or minus 20% and reports which positions hold and which flip",
+        "evidence": "No sensitivity analysis is performed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies a tie band of roughly 5% and refuses to treat a sub-5% composite gap as decisive",
+        "evidence": "No tie-band concept appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scores the CEO-connected Northwind Cloud on the same sheet as every other candidate rather than protecting or excluding it",
+        "evidence": "The memo works from an existing scoresheet and does not construct or defend a unified scoring sheet including Northwind.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ends with at least one candidate not making the shortlist, each non-shortlisted candidate carrying an explicit verdict",
+        "evidence": "All three named candidates remain on the 'Recommended shortlist'; the six unnamed others are left as an open question without individual verdicts.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks for the missing interview inputs (existing alliance portfolio, data available per candidate, sign-off owner) before finalizing the table",
+        "evidence": "Only asks about the other six candidates' scores, not about portfolio, data availability, or sign-off owner.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

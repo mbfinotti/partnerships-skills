@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects estimating the 17 blank-key lines at an average line value",
+        "evidence": "\"On 'estimate the 17 blank ones at the average and move on' No.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Quarantines the empty or malformed dedup keys and requires manual resolution before any total is computed",
+        "evidence": "\"QUARANTINE - do not release, do not estimate. Pull raw conversion logs (order ID, timestamp, SKU) predating the dedup step to reconstruct 17 discrete keys\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that deduping on a blank key collapses many conversions into one record, or splits one conversion into many payable lines",
+        "evidence": "\"Blank transaction IDs collapsed by your analytics tool into a single record.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires one deterministic dedup key per conversion, paid at most once per commission event",
+        "evidence": "\"rebuild 17 discrete keys, price each one against the real rate card, and release those 17 in a later run once resolved\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Splits the one-sided records into an exception queue carrying a direction and a default action per record",
+        "evidence": "\"12 in-orders-not-in-network (untracked, dispute-risk, policy TBD) | 9 in-network-not-in-orders (over-credit, held)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Classifies the 9 network-only records as possible over-credit: hold the lines and investigate before approving",
+        "evidence": "\"In network export, no matching order in the order database. Exception-queue default: possible over-credit. HOLD and investigate before approving.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Classifies the 12 order-database-only records as untracked sales, anticipates an inbound partner dispute, and requires the credit policy be decided and documented explicitly",
+        "evidence": "\"In order database, no matching network record. Exception-queue default: untracked sale, expect an inbound dispute. Decide and document a credit policy explicitly - do not let this resolve by default.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Matches records on stable identifiers only - order ID, transaction ID, customer ID, subscription ID - never on partner or customer display names",
+        "evidence": "The transcript mentions matching/reconstructing via \"order ID, timestamp, SKU\" but never states a rule against matching on partner or customer display names.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies the zero/one/many rule: zero matches go to the exception queue, exactly one resolves, more than one stops for explicit human disambiguation rather than an auto-pick",
+        "evidence": "No zero/one/many matching rule is articulated anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Escalates the DealVault burst pattern to fraud review without ruling on its legitimacy inside this audit",
+        "evidence": "\"This is a fraud pattern... it's out of scope for this audit and gets escalated, not ruled on here.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Continues to verify the arithmetic of the DealVault lines and holds them, treating fraud escalation as running in parallel to a remediation action rather than replacing one",
+        "evidence": "The transcript only states \"Do not pay, offset, or absorb until that review rules\" \u2014 it defers all action to the fraud review rather than continuing arithmetic verification in parallel.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects estimating the 17 blank-key lines at an average line value",
+        "evidence": "\"Averaging doesn't work here, for a reason specific to how they broke\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Quarantines the empty or malformed dedup keys and requires manual resolution before any total is computed",
+        "evidence": "\"exclude these 17 from this payout rather than estimate them into it \u2014 underpay-and-true-up next cycle is reversible, overpay-on-a-guess isn't.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that deduping on a blank key collapses many conversions into one record, or splits one conversion into many payable lines",
+        "evidence": "\"the pipeline didn't just fail to identify these rows individually; it collapsed 17 distinct events into one row\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires one deterministic dedup key per conversion, paid at most once per commission event",
+        "evidence": "\"patch the dedup key itself: generate a surrogate key from affiliate_id + click_id + timestamp + order_amount (or similar) when transaction ID is blank, so future runs stop silently merging distinct conversions.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Splits the one-sided records into an exception queue carrying a direction and a default action per record",
+        "evidence": "12 orders-only: \"log separately, do not add any dollar amount to this payout\"; 9 network-only: \"Exclude these from payment entirely.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Classifies the 9 network-only records as possible over-credit: hold the lines and investigate before approving",
+        "evidence": "\"Exclude these from payment entirely... ask the network for order-level proof before it's reconsidered.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Classifies the 12 order-database-only records as untracked sales, anticipates an inbound partner dispute, and requires the credit policy be decided and documented explicitly",
+        "evidence": "The transcript calls it 'a tracking-gap risk' and says to 'flag to the network' and 'log separately' but never anticipates a partner dispute or calls for an explicit documented credit policy decision.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Matches records on stable identifiers only - order ID, transaction ID, customer ID, subscription ID - never on partner or customer display names",
+        "evidence": "\"generate a surrogate key from affiliate_id + click_id + timestamp + order_amount\" \u2014 only stable identifiers are used, no display names.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the zero/one/many rule: zero matches go to the exception queue, exactly one resolves, more than one stops for explicit human disambiguation rather than an auto-pick",
+        "evidence": "Only zero-match cases (12 order-only, 9 network-only) are addressed; the transcript never discusses a many-matches scenario requiring human disambiguation.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Escalates the DealVault burst pattern to fraud review without ruling on its legitimacy inside this audit",
+        "evidence": "\"freeze DealVault's payout for this cycle... Route to fraud review before any commission on this batch is approved.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Continues to verify the arithmetic of the DealVault lines and holds them, treating fraud escalation as running in parallel to a remediation action rather than replacing one",
+        "evidence": "The transcript only says to freeze the payout and route to fraud review; it does not mention continuing to verify the arithmetic of the DealVault lines in parallel.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to sign off on suspending all eleven partners",
+        "evidence": "'Sign-off decision: No \u2014 not as one blanket action.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Excludes the six Black Friday preview flags by annotating the campaign calendar into the anomaly rules rather than lowering the global threshold",
+        "evidence": "'Re-run the rule with the promo calendar annotated in.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that coordinated legitimate spikes during launch or promo windows mechanically resemble bot bursts",
+        "evidence": "'coordinated legitimate spikes look like bot bursts'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that 2-standard-deviation outlier math is unstable on the small samples new partners produce",
+        "evidence": "'2-SD outlier math is unstable on small samples \u2014 hold them to first-week watchpoints'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces the outlier rule for the three new partners with first-week watchpoints and longer payout terms such as net-60 or net-90",
+        "evidence": "'Move these three to Watch with first-week watchpoints, and... put new-partner cohorts on net-60/90 terms'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a handful of partners driving most sales is the normal affiliate power law, not a fraud signal",
+        "evidence": "'a handful of partners driving most sales is the normal affiliate power law \u2014 audit it, never auto-enforce on it'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sends the two concentrated partners to an audit and explicitly not to enforcement",
+        "evidence": "'Take these two off the suspend list. Audit them... never auto-enforce on it.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the vendor's 99% bot-detection claim as an unverified detection-efficacy claim rather than a specification to rely on",
+        "evidence": "'treat recent vendor detection-efficacy claims as unverified... it needs your own backtest... before it informs any enforcement decision'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that AI-generated synthetic traffic engineers realistic scroll depth, dwell time, and session lifecycle, defeating first-generation behavioral filters",
+        "evidence": "'behavioral heuristics (session duration, scroll depth) are being eroded by AI-generated synthetic traffic'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends weighting server-side signals and downstream outcomes such as revenue per visitor, lead quality, and retention, because synthetic traffic looks normal behaviorally while downstream outcomes stay at zero",
+        "evidence": "No such recommendation (revenue per visitor, lead quality, retention weighting) appears in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Warns that over-blocking on untuned vendor thresholds churns real partners and drops program revenue",
+        "evidence": "No general statement about over-blocking churning real partners or dropping program revenue appears; only a specific warning about suspending the two concentrated partners.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names Suspend & Escalate as the band the efficiency ranking starves, and gives the conditions that promote it: confirmed-fraud rate or reversed-commission share climbing quarter over quarter, or a case that has to survive network compliance",
+        "evidence": "The transcript instead gives different conditions: 'confirmed technical evidence, stolen-card chargebacks, or reoffense after a warning' \u2014 not the QoQ-climbing or network-compliance-survival conditions specified by the rubric.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to sign off on suspending all eleven partners",
+        "evidence": "'No \u2014 don't sign off on suspending all eleven as a single batch action.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Excludes the six Black Friday preview flags by annotating the campaign calendar into the anomaly rules rather than lowering the global threshold",
+        "evidence": "'recalibrate the anomaly threshold against last year's Black Friday week (or peer-partner lift during the same week), not the standing baseline.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that coordinated legitimate spikes during launch or promo windows mechanically resemble bot bursts",
+        "evidence": "The transcript explains the miscalibration issue ('measuring the promotion, not the fraud') but never frames it as resembling bot-burst signatures.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that 2-standard-deviation outlier math is unstable on the small samples new partners produce",
+        "evidence": "'A 2-SD outlier test assumes a stable, well-estimated distribution. Ten days of data from a brand-new partner gives you a tiny, noisy sample... a 2-SD band is far narrower than it should be and will misfire on legitimate partners routinely.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces the outlier rule for the three new partners with first-week watchpoints and longer payout terms such as net-60 or net-90",
+        "evidence": "The transcript recommends extending the observation window and qualitative checks, but never mentions net-60/net-90 payout terms.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a handful of partners driving most sales is the normal affiliate power law, not a fraud signal",
+        "evidence": "The transcript only explains a statistical-power artifact in flagging rates, not that concentration itself is a normal 'power law' pattern.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Sends the two concentrated partners to an audit and explicitly not to enforcement",
+        "evidence": "'Required before any action: manual fraud-analyst review, independent evidence... and if warranted, a graduated response (payment hold or commission clawback pending investigation) rather than full suspension.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the vendor's 99% bot-detection claim as an unverified detection-efficacy claim rather than a specification to rely on",
+        "evidence": "'That's a recall/sensitivity number... Ask the vendor for precision at the operating threshold... before treating any flag from their model as corroborating evidence.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that AI-generated synthetic traffic engineers realistic scroll depth, dwell time, and session lifecycle, defeating first-generation behavioral filters",
+        "evidence": "Not mentioned in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends weighting server-side signals and downstream outcomes such as revenue per visitor, lead quality, and retention, because synthetic traffic looks normal behaviorally while downstream outcomes stay at zero",
+        "evidence": "Not discussed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Warns that over-blocking on untuned vendor thresholds churns real partners and drops program revenue",
+        "evidence": "'Suspending your two largest partners on the strength of an automated rule, with no independent corroboration, risks a self-inflicted revenue and relationship catastrophe if either flag is wrong.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names Suspend & Escalate as the band the efficiency ranking starves, and gives the conditions that promote it: confirmed-fraud rate or reversed-commission share climbing quarter over quarter, or a case that has to survive network compliance",
+        "evidence": "No 'Suspend & Escalate' band or such framework is named in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

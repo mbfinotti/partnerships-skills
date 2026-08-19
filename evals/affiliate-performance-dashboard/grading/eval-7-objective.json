@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Advises against capping or throttling the top partner's commission.",
+        "evidence": "\"don't cap it as a blunt lever.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Prescribes partner development in the next tier down plus top-partner retention work as the response to a concentration breach.",
+        "evidence": "\"The prescribed response to a concentration breach is partner development in the next tier down plus top-partner retention work \u2014 not throttling the top partner.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Confirms that top five partners above 50% of revenue is a concentration problem.",
+        "evidence": "\"You're already past the working threshold that defines a breach (**top-5 partners over 50% of revenue** \u2014 you're at 61%)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies top-1%, top-5% and top-10% shares plus the absolute top-5-partner share.",
+        "evidence": "Table rows: \"Top-1 partner share\", \"Top-1% share\", \"Top-5% share\", \"Top-10% share\", \"Absolute top-5-partner share\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Computes the shares over active partners, using the spec's own active definition for the denominator population.",
+        "evidence": "\"Top-1% share | validated revenue from top 1% of *active* affiliates / total program revenue, quarterly\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places top-partner share on the executive view and reviews it quarterly.",
+        "evidence": "\"Executive view \u2014 quarterly recompute, portfolio review\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the concentration figures must be recomputed on the same definitions each quarter for the trend to be real.",
+        "evidence": "\"All four percentile tiles recompute quarterly, same 'active' definition every time, or the trend is fake.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects splitting the sub-networks into their member publishers.",
+        "evidence": "\"Direct answer: **no.** Splitting a sub-network into its underlying publishers to make the concentration numbers look better is exactly the failure mode this method calls out\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Counts each sub-network as one credited entity per conversion, with its own mix breakdown.",
+        "evidence": "\"Keep each sub-network as **one row**... build a **separate internal breakdown view** for that sub-network alone (its own mix, its own top publishers)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that counting a sub-network's members as many partners distorts both partner counts and concentration.",
+        "evidence": "\"Sub-network counted as many partners \u2192 partner counts and concentration both distorted\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects average commission per active partner as a metric because the mean hides the skew that matters.",
+        "evidence": "No mention of an \"average commission per active partner\" metric anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers top-decile share plus the median in place of the average.",
+        "evidence": "No mention of a median metric anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Advises against capping or throttling the top partner's commission.",
+        "evidence": "The document's central recommendation is to cap: 'Cap hard' for coupon/cashback types and a full list of 'Mechanisms' for capping commission.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Prescribes partner development in the next tier down plus top-partner retention work as the response to a concentration breach.",
+        "evidence": "'Redeploy the freed margin deliberately: incentive tiers for rank 6-30, recruitment push into underrepresented affiliate types' and 'Have the retention conversation (segmented deal) before the blunt cap.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Confirms that top five partners above 50% of revenue is a concentration problem.",
+        "evidence": "The 61% top-5 figure is mentioned only as 'the seed values for the first two' tiles, without an explicit statement that top-5 above 50% constitutes a concentration problem.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Specifies top-1%, top-5% and top-10% shares plus the absolute top-5-partner share.",
+        "evidence": "'Top-N share tiles \u2014 Top-1, Top-5, Top-10, Top-20 share of validated revenue... Your 38% / 61% are the seed values for the first two.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Computes the shares over active partners, using the spec's own active definition for the denominator population.",
+        "evidence": "No 'active partner' denominator definition is used for the concentration shares.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places top-partner share on the executive view and reviews it quarterly.",
+        "evidence": "No executive view or quarterly review cadence is mentioned; only 'Concentration trend over time... monthly' appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the concentration figures must be recomputed on the same definitions each quarter for the trend to be real.",
+        "evidence": "No such consistency-of-definition requirement is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects splitting the sub-networks into their member publishers.",
+        "evidence": "'does the network row conflate two different kinds of risk that need different responses? It does, so split.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Counts each sub-network as one credited entity per conversion, with its own mix breakdown.",
+        "evidence": "The recommended concentration/risk view is 'always disaggregated to true publisher level,' not counted as one entity.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that counting a sub-network's members as many partners distorts both partner counts and concentration.",
+        "evidence": "The document argues the opposite: keeping the network as one row 'overstate[s] single-point-of-failure risk,' favoring disaggregation.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects average commission per active partner as a metric because the mean hides the skew that matters.",
+        "evidence": "No 'average commission per active partner' metric is discussed or rejected.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers top-decile share plus the median in place of the average.",
+        "evidence": "No median or top-decile-in-place-of-average proposal appears.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

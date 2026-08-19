@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States before drafting any clause that the output will be a draft for review by qualified counsel and not legal advice.",
+        "evidence": "The document opens, before any clause: \"This will be a draft for review by qualified counsel, not legal advice. Program terms are legally binding on Trellisway and on every affiliate who clicks \"I agree.\"\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks by what date the terms must be live before asking about brand-bidding policy or coupon policy.",
+        "evidence": "The transcript contains no visible interview turns or question sequence at all \u2014 it opens directly with the disclaimer and an assumptions table noting 'a signup date is fixed 19 days out,' giving no evidence that a launch-date question was asked before brand-bidding or coupon questions.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the 19-day launch date as removing the keyword-whitelist and per-partner-tiering brand-bidding positions from the options offered, rather than presenting all four as available.",
+        "evidence": "The assumptions table states the default is 'Strict prohibition' because 'Fixed date deletes whitelist/tiering (can't be adjudicated partner-by-partner pre-launch)'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites 25% recurring, the 18-month recurring cap, the $75 threshold and the 45-day validation window as already decided elsewhere.",
+        "evidence": "Section 4 states: \"This section cites, and does not alter, the commission structure already decided by Trellisway: 1. Rate: 25%... 2. Recurring window: ...18 months... 4. Payout floor: Commission balances below $75...\"; the 45-day figure is likewise used consistently (Definitions and Section 15.1) without being flagged as a drafting blank, unlike the bracketed '[X] days' items.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Invents no additional commission rate, tier, or payout threshold figure anywhere in the draft.",
+        "evidence": "Section 16.2 introduces a new figure not present among the given facts: \"add a withheld-percentage reserve (10\u201315% released quarterly is the common band) via the amendment process in Section 17.\"",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks the EU Platform-to-Business applicability question with [LEGAL REVIEW] instead of asserting that P2B does or does not reach an in-house merchant program.",
+        "evidence": "The document flags this with \"[LEGAL REVIEW: EU Platform-to-Business Regulation (EU) 2019/1150 in-scope question...This is not certain \u2014 if any Customer segment turns out to include consumers, or if a regulator reads the affiliate relationship differently, P2B's ... rules would bind\" rather than asserting a definitive answer.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places each [LEGAL REVIEW: <reason>] marker inline next to the clause it concerns, not pooled in a footer or closing list.",
+        "evidence": "Markers appear directly inside their clauses, e.g. Section 6.1's \"[LEGAL REVIEW: contractual only \u2014 search engines will not enforce this...]\" and Section 9.2's \"[LEGAL REVIEW: GDPR role allocation]\" sit immediately next to the relevant text rather than being deferred solely to the end.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks the governing-law/arbitration clause, the unilateral-amendment clause, and the trademark-bidding ban with [LEGAL REVIEW].",
+        "evidence": "Section 19 and Section 6.1 each carry a [LEGAL REVIEW] marker, but Section 17 (Amendment) \u2014 \"Trellisway may amend these Terms by posting an updated version...At least 15 days' notice...\" \u2014 has no [LEGAL REVIEW] marker anywhere in its text.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes a clause stating what happens to earned-but-unpaid commissions at termination.",
+        "evidence": "Section 14 'Effect of Termination on Pending Commissions' states: \"Non-fraud termination...Trellisway pays all Commissions validly earned up to the termination date...\" and \"Fraud or for-cause termination: Commissions attributable to the violating conduct are forfeited. Commissions earned through unrelated, legitimate activity are still paid.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Includes automatic revocation of the brand-asset licence on any termination, with a fixed asset-destruction window.",
+        "evidence": "Section 3.3: \"This licence terminates automatically and immediately on termination of this Agreement for any reason \u2014 no separate notice required. The former Affiliate must remove and destroy all brand assets and cease all use of Trellisway's marks within 5 business days.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States before drafting any clause that the output will be a draft for review by qualified counsel and not legal advice.",
+        "evidence": "The intro only says 'Given 19 days to launch, I'd get a lawyer to skim this once (30\u201360 min), not rewrite it' \u2014 no explicit 'this is a draft, not legal advice' statement appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks by what date the terms must be live before asking about brand-bidding policy or coupon policy.",
+        "evidence": "The transcript presents a finished draft with prefatory notes; there is no visible question sequence asking about launch date before brand-bidding/coupon policy \u2014 the 19-day figure is simply asserted as already known.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the 19-day launch date as removing the keyword-whitelist and per-partner-tiering brand-bidding positions from the options offered, rather than presenting all four as available.",
+        "evidence": "The document's only brand-bidding language is clause 2.2, 'Paid search bidding on ... branded terms is prohibited unless we approve it in writing' \u2014 no discussion of four positions or removal of any due to the timeline exists.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites 25% recurring, the 18-month recurring cap, the $75 threshold and the 45-day validation window as already decided elsewhere.",
+        "evidence": "The closing note states 'the structure and numbers are the load-bearing part and those came from you,' and the clauses (4.1 '25% ... for the first 18 months', 5.1 '45-day validation period', 5.2 'at least $75') are presented as fixed inputs rather than proposed.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Invents no additional commission rate, tier, or payout threshold figure anywhere in the draft.",
+        "evidence": "Beyond the given 25%/18-month/$75/45-day figures, no other commission rate, tier, or payout threshold number appears in the document.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks the EU Platform-to-Business applicability question with [LEGAL REVIEW] instead of asserting that P2B does or does not reach an in-house merchant program.",
+        "evidence": "The document never mentions the EU Platform-to-Business Regulation or any [LEGAL REVIEW] marker.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places each [LEGAL REVIEW: <reason>] marker inline next to the clause it concerns, not pooled in a footer or closing list.",
+        "evidence": "No [LEGAL REVIEW] markers appear anywhere in the transcript; flagged items instead appear as prefatory bullet notes before the document.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks the governing-law/arbitration clause, the unilateral-amendment clause, and the trademark-bidding ban with [LEGAL REVIEW].",
+        "evidence": "Clause 14 (governing law), clause 13 (amendments), and clause 2.2 (trademark bidding) carry no [LEGAL REVIEW] tags or equivalent markers.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes a clause stating what happens to earned-but-unpaid commissions at termination.",
+        "evidence": "Clause 5.4: 'On termination of this Agreement, your final Approved balance is paid within 60 days regardless of the Payout Floor. Any balance still Pending at termination is forfeited unless it becomes Approved through the normal 45-day process and you request payout within 90 days of termination.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Includes automatic revocation of the brand-asset licence on any termination, with a fixed asset-destruction window.",
+        "evidence": "Clause 7.1 only describes the licence as 'revocable'; no clause ties automatic revocation to termination or specifies an asset-destruction window.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

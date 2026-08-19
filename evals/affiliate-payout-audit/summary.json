@@ -1,0 +1,431 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "affiliate-payout-audit",
+  "scenarios": 10,
+  "expectations_total": 117,
+  "expectations_subjective": 1,
+  "expectations_objective": 116,
+  "pass_rate_with_skill_pct": 67.5,
+  "pass_rate_without_skill_pct": 51.3,
+  "delta_pp": 16.2,
+  "uplift_multiplier": 1.32,
+  "trigger_accuracy_pct": 87.7,
+  "trigger_queries": 106,
+  "subjective_ac2": 0.2,
+  "subjective_pass_disagreements": [
+    {
+      "eval_id": 3,
+      "condition": "without_skill",
+      "expectation": "Ranks the remediation options by value recovered per unit of effort and relationship capital spent, not by the nominal dollar amount at stake",
+      "pass1": true,
+      "pass2": false
+    }
+  ],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.270 (Claude Code)",
+  "conditions": {
+    "mcp_servers": "disabled",
+    "project_claude_md": "not loaded (trials and grading)",
+    "user_claude_md": "loaded",
+    "dynamic_prompt_sections": "excluded"
+  },
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Names the differing attribution windows (7-day vs 30-day) and differing dedup identity as the reason the two counts are not additive populations"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Applies a comparability gate before computing any total, covering event definition, date basis, time window, timezone, currency, counting method, and dedup identity"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Recommends a shared idempotency key across the two trackers as the structural fix, flagged even though these duplicates were caught manually"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Produces a payout audit report containing Scope, Checks, Findings with severity and dollars at risk, Exceptions, Variance, Cleared, and Sign-off"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Treats the exactly-at-breakpoint line as a boundary-operator question and recomputes it under both >= and > at the $25,000 threshold"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Requires 100% review of every line sitting near a retroactive breakpoint"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Deletes full-population recompute from the coverage menu because no code can be executed over a PDF statement, rather than listing it as an available option"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Names risk-based stratified sampling as the leading coverage method in this situation and rejects random-only sampling as a rung"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Books the post-lock refund as a forward-period negative adjustment carried against future earnings rather than dropping the line"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Establishes whether the platform carries negative partner balances at all before recommending an offset"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Promotes fix-it-forward to the top when post-lock refunds are routine rather than exceptional, or when the same finding class appears in two consecutive runs"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Ranks the remediation options by value recovered per unit of effort and relationship capital spent, not by the nominal dollar amount at stake"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes that auto-approval is a common default, so an 'approved' status is not evidence that the window elapsed or that a human reviewed the line"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Verifies that churned subscriptions stopped generating commission lines the cycle they lapsed"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Verifies proration is applied in both directions, and checks mid-cycle seat removals against the program's stated policy rather than assuming a credit"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes that B2B SaaS platforms often read the billing system directly, which collapses the reconciliation check to a spot-check, and verifies that is actually true here before collapsing it"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Requires diffing this run's key set against the prior run's key set as a standing check rather than a one-off fix"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Flags late-submitted conversions re-dated by the platform to their submission date, and any line whose event date differs from its order date, as cutoff-risk lines"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Requires test-mode and sandbox transactions to be excluded explicitly and verified not to have leaked into the live export"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Holds every line still inside its validation window rather than releasing it with a note"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Tracks run-over-run KPIs including payout accuracy rate, exception value as a share of run value, reversal or clawback rate against the band, post-payout correction rate, and dispute rate"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that a run mixing lines converted at different strike dates fails the comparability gate"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that per-line cent-level drift is expected and legitimate because payouts cannot split cents"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the correct form per payee class: W-9 for US payees, W-8BEN for foreign individuals, W-8BEN-E for foreign entities"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Determines whether the program runs merchant-of-record or agent-of-record before judging whose ledger must carry the tax"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Treats US 1099 reporting thresholds as legislation-dependent and re-verifies them for the applicable tax year rather than stating a fixed figure as permanent"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names dedup as the highest errors-caught-per-hour gate, ahead of reconciliation and comparability, lifecycle window, rate and tier recompute, and currency, tax and thresholds"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Distinguishes the efficiency ordering from the value ordering, in which reconciliation and comparability lead"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States the numbered audit sequence is a dependency order, not a priority order"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Deletes full-population recompute from the coverage menu because scripts cannot be executed over the export"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names risk-based stratified sampling as the leading coverage method available here"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Defines the stratified sample as 100% of high-value lines, high-reversal partners and top earners, plus a random sample of the remainder sized against materiality"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Rejects random-only sampling as a rung because it costs the same hours as risk-based and finds fewer dollars"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Warns that a top-earner spot-check is blind to long-tail systematics and is acceptable only under a hard deadline"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Recommends a reusable recompute script as the compounding fix, noting full-population recompute drops to near-zero effort on every run once the script exists"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Matches records on stable identifiers only - order ID, transaction ID, customer ID, subscription ID - never on partner or customer display names"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Applies the zero/one/many rule: zero matches go to the exception queue, exactly one resolves, more than one stops for explicit human disambiguation rather than an auto-pick"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Continues to verify the arithmetic of the DealVault lines and holds them, treating fraud escalation as running in parallel to a remediation action rather than replacing one"
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Names the differing attribution windows (7-day vs 30-day) and differing dedup identity as the reason the two counts are not additive populations"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Applies a comparability gate before computing any total, covering event definition, date basis, time window, timezone, currency, counting method, and dedup identity"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Requires one canonical source be declared per conversion with the other reconciled against it, never a union of the two lists"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States that maker-checker is the gate never dropped, and names a concrete second reader despite the four-person team size"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Recommends a shared idempotency key across the two trackers as the structural fix, flagged even though these duplicates were caught manually"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Produces a payout audit report containing Scope, Checks, Findings with severity and dollars at risk, Exceptions, Variance, Cleared, and Sign-off"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Shows the variance working: gross difference, the findings that explain it, and a residual that is either zero or itself a written-down finding"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Requires the written structure to specify which method governs rather than choosing one by preference, and notes most programs use marginal to preserve margin"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Treats the exactly-at-breakpoint line as a boundary-operator question and recomputes it under both >= and > at the $25,000 threshold"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Raises the written structure's silence at the breakpoint as a finding against the structure's ambiguity, not as a math error"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Requires 100% review of every line sitting near a retroactive breakpoint"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Recomputes against the contract terms in force at the original transaction date rather than the refreshed rate card"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Deletes full-population recompute from the coverage menu because no code can be executed over a PDF statement, rather than listing it as an available option"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Names risk-based stratified sampling as the leading coverage method in this situation and rejects random-only sampling as a rung"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Books the post-lock refund as a forward-period negative adjustment carried against future earnings rather than dropping the line"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Establishes whether the platform carries negative partner balances at all before recommending an offset"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Deletes direct recovery outright, citing both the terms forbidding reclaim and the absence of a finance co-signer this cycle"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Promotes fix-it-forward to the top when post-lock refunds are routine rather than exceptional, or when the same finding class appears in two consecutive runs"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Classifies the duration-cap breach as a systematic, compounding overpay rather than an isolated line error"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Identifies the $180 Meridian Freight line as 20% of the pre-downgrade $900 base and corrects it to the settled, prorated downgraded amount"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes that auto-approval is a common default, so an 'approved' status is not evidence that the window elapsed or that a human reviewed the line"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Verifies that churned subscriptions stopped generating commission lines the cycle they lapsed"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Verifies proration is applied in both directions, and checks mid-cycle seat removals against the program's stated policy rather than assuming a credit"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes that B2B SaaS platforms often read the billing system directly, which collapses the reconciliation check to a spot-check, and verifies that is actually true here before collapsing it"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Delivers the payout audit report with per-finding severity, dollars at risk, affected lines, and a recommended action per finding"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends transaction date for reconciling to the order database, reserving validation date for what became payable this period"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Replaces the closed window with a half-open window of the form period_start <= t < period_end, running 1 March 00:00 to 1 April 00:00"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Explains that a closed window double-counts the boundary instant"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Requires diffing this run's key set against the prior run's key set as a standing check rather than a one-off fix"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Flags late-submitted conversions re-dated by the platform to their submission date, and any line whose event date differs from its order date, as cutoff-risk lines"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Requires test-mode and sandbox transactions to be excluded explicitly and verified not to have leaked into the live export"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States that high-return verticals such as apparel need 30 or more days of validation"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Compares the 19%, 22% and 24% reversal rates against planning bands of roughly 2-8% for CPA programs and states the program runs far above band"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Escalates any reversal coded affiliate fraud out of this audit to fraud review, verifying only the arithmetic of the reversal here"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Holds every line still inside its validation window rather than releasing it with a note"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Tracks run-over-run KPIs including payout accuracy rate, exception value as a share of run value, reversal or clawback rate against the band, post-payout correction rate, and dispute rate"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Names the three candidate strike dates: conversion date, approval date, and payout date"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that a run mixing lines converted at different strike dates fails the comparability gate"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Requires rounding to 2 decimals at the end of the calculation rather than at each step"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the correct form per payee class: W-9 for US payees, W-8BEN for foreign individuals, W-8BEN-E for foreign entities"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires the invoice to cite the reverse-charge basis and a VIES-verified VAT number"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Recognizes the network-generated publisher invoices as self-billing and verifies each self-billed invoice matches the audited commission total for the period"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Determines whether the program runs merchant-of-record or agent-of-record before judging whose ledger must carry the tax"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Treats US 1099 reporting thresholds as legislation-dependent and re-verifies them for the applicable tax year rather than stating a fixed figure as permanent"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names dedup as the highest errors-caught-per-hour gate, ahead of reconciliation and comparability, lifecycle window, rate and tier recompute, and currency, tax and thresholds"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Distinguishes the efficiency ordering from the value ordering, in which reconciliation and comparability lead"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States the numbered audit sequence is a dependency order, not a priority order"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Refuses to drop maker-checker despite the deadline, calling it the gate never dropped, and finds a second reader outside finance rather than skipping the sign-off"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Deletes full-population recompute from the coverage menu because scripts cannot be executed over the export"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names risk-based stratified sampling as the leading coverage method available here"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Defines the stratified sample as 100% of high-value lines, high-reversal partners and top earners, plus a random sample of the remainder sized against materiality"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Rejects random-only sampling as a rung because it costs the same hours as risk-based and finds fewer dollars"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Warns that a top-earner spot-check is blind to long-tail systematics and is acceptable only under a hard deadline"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Recommends a reusable recompute script as the compounding fix, noting full-population recompute drops to near-zero effort on every run once the script exists"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Classifies the 12 order-database-only records as untracked sales, anticipates an inbound partner dispute, and requires the credit policy be decided and documented explicitly"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Applies the zero/one/many rule: zero matches go to the exception queue, exactly one resolves, more than one stops for explicit human disambiguation rather than an auto-pick"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Continues to verify the arithmetic of the DealVault lines and holds them, treating fraud escalation as running in parallel to a remediation action rather than replacing one"
+      }
+    ]
+  }
+}

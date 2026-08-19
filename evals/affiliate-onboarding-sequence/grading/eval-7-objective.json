@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects replacing the full drip with a hub for this engagement pattern",
+        "evidence": "'My read: don't scrap it \u2014 the data doesn't support that diagnosis'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Points out that opens recover at touches 4 and 5, so touch volume itself is not the friction",
+        "evidence": "'Yours dips hard at one touch and recovers on the next two.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Diagnoses touch 3 as a copy-plane problem rather than a structural one",
+        "evidence": "'That's almost certainly your 9%... further evidence the sequence itself is fine.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the sender mismatch: a touch asking for a reply is sent from an automated program address instead of a named person",
+        "evidence": "'It's going out from program@, an automated/generic address... a reply-seeking email from a no-reply address answers itself.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the ordering that trimming the drip beats swapping in a hub on activation bought per unit of build",
+        "evidence": "'That ratio alone should decide it for a single mis-sent touch.' following the explicit cost comparison.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sizes the hub as roughly a quarter of build plus a standing job to keep current, against roughly an hour to trim",
+        "evidence": "'Replace the drip with a hub: a quarter of dev time, plus it becomes a standing maintenance job' vs 'Fix touch 3: ...~an hour, reversible in an hour.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that reverting a hub means rebuilding the drip that was deleted, so the swap is far less reversible",
+        "evidence": "'if it underperforms you're rebuilding the exact sequence you deleted.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the condition under which the hub would be right: opens decaying across the whole sequence, not one touch underperforming",
+        "evidence": "'Reach for the hub only when the per-touch engagement data shows opens decaying across the whole sequence \u2014 never because one touch underperforms'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "If a hub is adopted at all, keeps touch 1 and the behavior-trigger layer and collapses only the middle touches",
+        "evidence": "'the pattern here says collapse T2\u2013T4 only, keep T1 and the trigger layer.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps the one-action, one-CTA rule for the rewritten touch 3",
+        "evidence": "No rewritten copy or explicit one-action/one-CTA statement is given for touch 3; only high-level redirection options (a)/(b) are described.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not recommend a rebuild before reading what the existing per-touch data already says",
+        "evidence": "The entire analysis is built from the given per-touch numbers (61/54/9/40/40) before any recommendation, and explicitly proposes cheap checks 'before committing dev time either way.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects replacing the full drip with a hub for this engagement pattern",
+        "evidence": "'Don't scrap the drip \u2014 fix touch 3 first, then decide' and 'Don't kill the 5-touch sequence.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Points out that opens recover at touches 4 and 5, so touch volume itself is not the friction",
+        "evidence": "'Touches 4-5 recovering to 40% after a 9% touch proves people are still willing to open your mail \u2014 something about touch 3 itself ... is tanking it, not \"5 emails is too many.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Diagnoses touch 3 as a copy-plane problem rather than a structural one",
+        "evidence": "'Prime suspects, in order I'd bet on: sending from program@ ... and the framing itself.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the sender mismatch: a touch asking for a reply is sent from an automated program address instead of a named person",
+        "evidence": "'sending from program@ (reads as ops/compliance mail, not part of the onboarding relationship the first two emails built).'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the ordering that trimming the drip beats swapping in a hub on activation bought per unit of build",
+        "evidence": "'test the cheap fix before greenlighting the expensive one' and 'trading a diagnosable, cheap problem ... for a quarter of dev time.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sizes the hub as roughly a quarter of build plus a standing job to keep current, against roughly an hour to trim",
+        "evidence": "'quarter of dev time' is mentioned, but the cheap fix is sized as 'a day of copywriting,' not an hour, and no 'standing job to keep current' cost is attached to the hub.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that reverting a hub means rebuilding the drip that was deleted, so the swap is far less reversible",
+        "evidence": "No reversibility argument about rebuilding a deleted drip appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the condition under which the hub would be right: opens decaying across the whole sequence, not one touch underperforming",
+        "evidence": "'If fatigue/format were the problem, opens would decay monotonically: 61 \u2192 54 \u2192 lower \u2192 lower \u2192 lower. Instead you get 61 \u2192 54 \u2192 9 \u2192 ~40 \u2192 ~40. That's a cliff, not a slope.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "If a hub is adopted at all, keeps touch 1 and the behavior-trigger layer and collapses only the middle touches",
+        "evidence": "The hub is not adopted as a replacement in this recommendation, so no such partial-collapse design is discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps the one-action, one-CTA rule for the rewritten touch 3",
+        "evidence": "'make it \"here's your promo toolkit\" pointing at the hub' \u2014 a single clear CTA replacing the survey-style ask.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not recommend a rebuild before reading what the existing per-touch data already says",
+        "evidence": "The entire recommendation is built from the stated open-rate sequence (61\u219254\u21929\u219240\u219240) before any recommendation is made.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

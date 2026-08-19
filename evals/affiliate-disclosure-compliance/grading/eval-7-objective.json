@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Deletes the payment-hold rung because the program terms carry no withholding clause, stating that withholding without one is a contract dispute rather than a remediation",
+        "evidence": "\"'withholding without [a program-terms clause] is a contract dispute, not a remediation.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Attaches a [COUNSEL] marker before any recommendation involving withholding commission or terminating the partner",
+        "evidence": "The withholding COUNSEL marker appears mid-discussion, but the termination recommendation (\"Fine as a business call, but pair it with the takedown/re-publish above\") carries no attached [COUNSEL] marker at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that terminating the affiliate does not remediate, because the undisclosed asset stays live, and pairs termination with a takedown or corrected re-publish",
+        "evidence": "\"'the undisclosed asset live[s] on; the exposure outlives the relationship' \u2014 you'll have removed the partner and kept the FTC-facing problem\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cures the live violation by a rung the short-form video format allows, rather than a caption edit alone",
+        "evidence": "\"have Brandon (or Yieldmark, directly) re-publish a corrected version with an on-screen overlay ... plus a spoken line ... before any product endorsement\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the corrected short-form video disclosure to be on screen and spoken at the start, before the endorsement, not in the caption only",
+        "evidence": "\"Do not rely on caption edits, hashtags, or the bio as a substitute \u2014 all three are explicit fail patterns\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that personal finance is a regulated vertical, so the highest-value rung wins regardless of effort, and re-ranks on that basis",
+        "evidence": "\"Personal finance is a **regulated vertical**, which under this skill's own logic promotes the highest-value response regardless of effort\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to draft the program-terms withholding clause inside this review and routes that work to the program-terms sibling skill as out of scope",
+        "evidence": "The transcript acknowledges scope (\"drafting program-terms language is technically the sibling skill's job\") but still supplies a full draft clause rather than declining.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that termination and payment holds spend relationship capital and are hard to walk back, while an edit reverses freely",
+        "evidence": "No such reasoning about relationship capital or reversibility comparison appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the asset still earning impressions takes priority in the remediation order",
+        "evidence": "\"Given both are still actively earning views, do this first, not last.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Delivers the not-legal-advice statement and repeats it with the report, instructing the user to keep every [COUNSEL] marker until counsel resolves it",
+        "evidence": "The not-legal-advice statement appears only once at the top; there is no repeated statement or explicit instruction to \"keep every [COUNSEL] marker until counsel resolves it\" anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Deletes the payment-hold rung because the program terms carry no withholding clause, stating that withholding without one is a contract dispute rather than a remediation",
+        "evidence": "\"Applying a clause retroactively to someone who never agreed to it... is the part I'd push back on hard \u2014 that's the kind of thing that turns into a real legal problem (breach of the existing affiliate agreement...)\" and \"Don't touch the money yet.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Attaches a [COUNSEL] marker before any recommendation involving withholding commission or terminating the partner",
+        "evidence": "No '[COUNSEL]' marker appears anywhere in the transcript, including around the withholding and termination discussion.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that terminating the affiliate does not remediate, because the undisclosed asset stays live, and pairs termination with a takedown or corrected re-publish",
+        "evidence": "The transcript sequences disclosure-fix and termination as separate decisions ('Decide termination separately, after he responds to the disclosure request') but never explicitly states that termination alone fails to remediate because the asset stays live.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cures the live violation by a rung the short-form video format allows, rather than a caption edit alone",
+        "evidence": "\"the video needs an on-screen '#ad'/paid partnership disclosure (per FTC rules) or it needs to come down, within X days.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the corrected short-form video disclosure to be on screen and spoken at the start, before the endorsement, not in the caption only",
+        "evidence": "Only on-screen disclosure or takedown is required ('needs an on-screen \"#ad\"/paid partnership disclosure... or it needs to come down'); no spoken-at-start requirement is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that personal finance is a regulated vertical, so the highest-value rung wins regardless of effort, and re-ranks on that basis",
+        "evidence": "The transcript never mentions personal finance or a regulated-vertical rationale.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to draft the program-terms withholding clause inside this review and routes that work to the program-terms sibling skill as out of scope",
+        "evidence": "The transcript instead offers to draft it immediately: \"I'm glad to draft this with you right now, as a real go-forward policy\" and \"Want me to draft the disclosure-and-clawback clause now?\"",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that termination and payment holds spend relationship capital and are hard to walk back, while an edit reverses freely",
+        "evidence": "Only the payment freeze is called hard to undo ('the single most reversible-looking action that's actually hardest to undo cleanly'); no comparison to termination or to an edit being easily reversible is made.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the asset still earning impressions takes priority in the remediation order",
+        "evidence": "No discussion of impressions or prioritization by ongoing reach appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Delivers the not-legal-advice statement and repeats it with the report, instructing the user to keep every [COUNSEL] marker until counsel resolves it",
+        "evidence": "No 'not legal advice' statement or [COUNSEL] marker instruction appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

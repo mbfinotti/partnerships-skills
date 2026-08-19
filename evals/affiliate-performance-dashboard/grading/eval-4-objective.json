@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to produce the combined $5.5M partner-attributed ARR tile.",
+        "evidence": "\"I can't build the tile you described as stated... $2.1M + $3.4M = $5.5M is a banned sum.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Reports partner-sourced and partner-influenced ARR as two separate, capped numbers.",
+        "evidence": "Second row shows \"PARTNER-SOURCED ARR $2.1M\" and \"PARTNER-INFLUENCED ARR $3.4M\" as separate tiles with caption \"Never summed\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a deal qualifying as both sourced and influenced counts as sourced only.",
+        "evidence": "\"Any deal that qualifies as both sourced and influenced gets counted twice in your $5.5M \u2014 sourced takes precedence, influenced drops for that deal.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Describes influenced revenue as a directional advocacy metric rather than bookable channel revenue.",
+        "evidence": "\"Influenced ARR is a directional advocacy metric (a partner touched a deal originated elsewhere), not bookable revenue with the same evidentiary weight as sourced.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps influenced revenue in its own tile and outside any revenue total.",
+        "evidence": "Influenced ARR shown as a \"dashed border / 'directional' label\" tile separate from sourced, never combined.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names double-counted partner revenue as the consequence of summing the two numbers.",
+        "evidence": "\"Any deal that qualifies as both sourced and influenced gets counted twice in your $5.5M\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places net program contribution on the executive view.",
+        "evidence": "Top row of EXEC VIEW mockup: \"NET PROGRAM CONTRIBUTION [NEEDS FEE DATA]\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places top-partner concentration on the same executive view.",
+        "evidence": "Top row of EXEC VIEW mockup: \"TOP-5 PARTNER CONCENTRATION [NEEDS PARTNER-LEVEL BREAKDOWN]\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the influenced number costs roughly a quarter because a CRM influence model must exist and the precedence rule has to survive a political argument.",
+        "evidence": "No mention of a quarter-long cost or a CRM influence model build requirement anywhere in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ranks the influenced-revenue split low on efficiency because it changes how partner contribution is argued to an executive and nothing operational.",
+        "evidence": "The transcript never discusses an efficiency ranking for the influenced-revenue split; it only addresses whether/how to display it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives every executive tile a value plus a delta against a stated prior period rather than a bare absolute number.",
+        "evidence": "The EXEC VIEW mockup tiles show bare values/placeholders like \"$2.1M\" and \"[NEEDS FEE DATA]\" with no delta-vs-prior-period notation shown anywhere in the tile mockup.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the decision each executive tile informs.",
+        "evidence": "\"Net program contribution and cost of sale are floor metrics... both board-level 'is this profitable' questions\" and concentration is \"the other board-level risk question ('who drives this, and what if they leave')\".",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to produce the combined $5.5M partner-attributed ARR tile.",
+        "evidence": "The hero tile is built exactly as requested: 'PARTNER-ATTRIBUTED ARR $5.5M' with 'Sourced $2.1M \u00b7 Influenced $3.4M' beneath it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Reports partner-sourced and partner-influenced ARR as two separate, capped numbers.",
+        "evidence": "The two numbers are shown as a sub-breakdown under a combined $5.5M total, not as separate capped figures replacing the sum.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a deal qualifying as both sourced and influenced counts as sourced only.",
+        "evidence": "The text only conditions the sum's validity on the tags being 'mutually exclusive by definition,' without asserting a sourced-wins precedence rule.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Describes influenced revenue as a directional advocacy metric rather than bookable channel revenue.",
+        "evidence": "Influenced revenue ($3.4M) is added directly into the bookable ARR hero total rather than being described as directional/advocacy.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps influenced revenue in its own tile and outside any revenue total.",
+        "evidence": "Influenced revenue is summed into the $5.5M hero tile, not isolated outside any total.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names double-counted partner revenue as the consequence of summing the two numbers.",
+        "evidence": "'If your CRM's influence tag can apply to a deal that's also tagged sourced, $5.5M double-counts and a board member doing math in their head will catch it.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places net program contribution on the executive view.",
+        "evidence": "No net program contribution metric appears anywhere in the slide design.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places top-partner concentration on the same executive view.",
+        "evidence": "The supporting-row table includes 'Top-10 concentration | e.g. 54% of partner ARR' alongside the hero tile on the same slide.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the influenced number costs roughly a quarter because a CRM influence model must exist and the precedence rule has to survive a political argument.",
+        "evidence": "No cost/timeline estimate for the influenced number is given anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ranks the influenced-revenue split low on efficiency because it changes how partner contribution is argued to an executive and nothing operational.",
+        "evidence": "No efficiency ranking of the influenced-revenue split is discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives every executive tile a value plus a delta against a stated prior period rather than a bare absolute number.",
+        "evidence": "Tiles like 'Active partners | e.g. 61 of 250' and 'Top-10 concentration | e.g. 54%' carry no delta against a prior period.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the decision each executive tile informs.",
+        "evidence": "'Growth rate is what justifies continued investment in the program' and 'a key-relationship risk the board should see now, not discover later' tie tiles to specific decisions.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

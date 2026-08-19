@@ -1,0 +1,118 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Does not state a recommended commission rate before collecting economic inputs",
+        "evidence": "The assistant states only that '20-30% is the benchmark everyone quotes' as something to reject, and defers any actual number: 'With those four I'll compute the ceiling... and hand you the headline number' \u2014 no rate is given before inputs are collected.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks for gross margin",
+        "evidence": "Item 2: 'Gross margin % \u2014 even a ballpark (e.g. \"~75-80%\")'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks for monthly churn rate or average customer tenure",
+        "evidence": "Item 3: 'Monthly churn % \u2014 or annual retention if that's what you track.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks for customer LTV and current or target blended CAC",
+        "evidence": "Item 4: 'Current or target CAC, or at minimum LTV if you know it \u2014 even roughly.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks one question per message rather than presenting the whole questionnaire at once",
+        "evidence": "All four questions (cheapest paid plan price, gross margin, churn, CAC/LTV) are listed together as a numbered list in a single message, not asked one at a time.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Accepts estimates rather than exact figures, while insisting on some number before proposing a rate",
+        "evidence": "'I need four things, rough estimates are fine' and further: 'If you genuinely don't have churn or CAC numbers yet... I'll use conservative placeholder assumptions... and flag the rate as provisional' \u2014 still requires some number/assumption before computing a rate.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Asks whether this is a one-off fix or a rate card meant to survive several years of plan changes",
+        "evidence": "No mention anywhere in the transcript of durability of the rate over time or whether it's a one-off vs. multi-year rate card.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks what the affiliate platform can actually express and who administers the program week to week",
+        "evidence": "The transcript contains no question about platform capabilities or program administration.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the 20-30% figures the user has seen as calibration to apply after deriving, never as the answer itself",
+        "evidence": "'20-30% is the benchmark everyone quotes, and this skill explicitly forbids copying it. The rate has to come from your unit economics, or it's a guess' \u2014 explicitly rejects using it as the answer, framing it only as an initial benchmark to be superseded by derivation.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Does not state a recommended commission rate before collecting economic inputs",
+        "evidence": "The transcript opens with '30% recurring commission, capped at the first 12 months. That's the right number to put on the landing page today' before any economic inputs are requested.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks for gross margin",
+        "evidence": "Gross margin is only mentioned as a conditional check at the end ('30% of monthly recurring revenue only works if your gross margin comfortably clears that... If your gross margin is under ~70%, drop to 20\u201325%'), not asked as a question to the user before recommending a rate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks for monthly churn rate or average customer tenure",
+        "evidence": "No mention of churn rate or customer tenure anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks for customer LTV and current or target blended CAC",
+        "evidence": "CAC is mentioned only in passing ('plus your CAC elsewhere') as part of the sanity-check statement, not asked as a question; LTV is never mentioned at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks one question per message rather than presenting the whole questionnaire at once",
+        "evidence": "The transcript contains no questions to the user at all \u2014 it is a single message presenting a recommendation and reasoning, with one closing directive ('One thing to sanity-check before it goes live...') rather than any question.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Accepts estimates rather than exact figures, while insisting on some number before proposing a rate",
+        "evidence": "The transcript proposes the rate (30%/12 months) immediately and only afterward gives a rough margin threshold ('under ~70%') as a self-check \u2014 it never insists the user supply any number before the rate was proposed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks whether this is a one-off fix or a rate card meant to survive several years of plan changes",
+        "evidence": "No mention of rate card longevity, plan changes, or whether this is meant as a one-off versus multi-year structure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks what the affiliate platform can actually express and who administers the program week to week",
+        "evidence": "No mention of an affiliate platform's capabilities or program administration anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the 20-30% figures the user has seen as calibration to apply after deriving, never as the answer itself",
+        "evidence": "The transcript explicitly uses the 20-30% range as the basis for the answer itself: '20\u201330% is the real market range... 30% is the single most common exact figure... Landing on it isn't cautious guessing, it's matching what affiliates already expect.'",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

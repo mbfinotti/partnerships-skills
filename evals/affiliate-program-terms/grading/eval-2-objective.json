@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that any practice not explicitly prohibited is implicitly permitted, so a catch-all such as \"unethical or inappropriate\" prohibits nothing.",
+        "evidence": "\"under the standard drafting principle for these agreements, any tactic not explicitly named is implicitly permitted. That's exactly why you couldn't act on the popunders or the fabricated code short of termination\u2014neither was named\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces the catch-all with an enumerated ban list rather than adding qualifiers or severity language to the existing sentence.",
+        "evidence": "The transcript presents 'Below is a full replacement section: an enumerated ban list' and section 6.1 lists 12 numbered prohibited tactics replacing the catch-all sentence entirely.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Enumerates cookie stuffing and forced clicks, naming at least one mechanism such as 0x0 iframes, popunders, or redirects.",
+        "evidence": "\"Cookie stuffing and forced clicks. Setting or attempting to set a tracking cookie without a genuine, voluntary user click, including via 0x0 or hidden iframes, popunders, popups, forced redirects...\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Enumerates unauthorized discount codes, covering both codes not issued to that affiliate and expired or internal codes.",
+        "evidence": "\"Unauthorized discount codes. Publishing, advertising, or distributing any discount, promo, or coupon code that was not issued to that Affiliate by Company, including expired codes, internal/employee codes, or codes fabricated to resemble a genuine Company code.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Enumerates typosquatting, brand impersonation, self-referral and incentivized traffic, spam and unsolicited email, misleading claims and fake reviews, and adware or browser-extension injection.",
+        "evidence": "Items 3 (Typosquatting), 4 (Adware and browser-extension injection), 5 (Spam and unsolicited communications), 6 (Misleading claims and fake reviews), 7 (Brand impersonation), 8 (Self-referral and incentivized traffic) are all separately listed.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Drafts a graduated enforcement ladder in this order: written warning with cure period, voiding of commissions generated through the violating tactic, account suspension pending investigation, termination for cause, recovery of already-paid commissions with reserved damages rights.",
+        "evidence": "6.2 lists: \"1. Written warning with a cure period... 2. Voiding of commissions... 3. Account suspension pending investigation... 4. Termination for cause... 5. Recovery of already-paid commissions... and reservation of Company's right to pursue damages.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not include a permanent commission-rate reduction as a rung or as any sanction in the ladder.",
+        "evidence": "\"Company will not use a permanent reduction of Affiliate's commission rate as a response to a Section 6.1 violation; a rate cut neither stops the tactic nor removes the affiliate, and is not an available remedy under this ladder.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deems any prohibited-tactics violation a material breach.",
+        "evidence": "\"Any violation of this Section 6.1 is a material breach of this Agreement.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States which rungs may be skipped for severe violations such as fraud or cookie stuffing, reserving immediate termination contractually rather than leaving it to improvisation.",
+        "evidence": "\"For fraud, cookie stuffing, or forced-click tactics (Section 6.1(1)), Company may skip directly to termination for cause and recovery under items 4\u20135 without first issuing a warning or suspension.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Retains no bare catch-all as the sole prohibition; any residual sweeping language appears only alongside the enumerated list.",
+        "evidence": "The catch-all line is replaced entirely by the enumerated list in 6.1; no sweeping catch-all phrase remains as a standalone prohibition anywhere in the rewritten section.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Pairs the ladder with automatic brand-licence revocation and a pending-commissions clause so enforcement has a clean exit path.",
+        "evidence": "The transcript explicitly states these are NOT included: \"Two clauses this ladder depends on but that live elsewhere in the agreement, not this section: automatic revocation of the brand-asset licence on termination, and what happens to an offending affiliate's pending... commissions. Your one-line clause almost certainly doesn't have either... tell me if you want those drafted next\"",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that any practice not explicitly prohibited is implicitly permitted, so a catch-all such as \"unethical or inappropriate\" prohibits nothing.",
+        "evidence": "The draft never makes this argument; instead Section 1 keeps a catch-all ('shall not engage in any unethical, inappropriate, deceptive, or abusive marketing practice') and Section 7 reinforces it as a valid residual power.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Replaces the catch-all with an enumerated ban list rather than adding qualifiers or severity language to the existing sentence.",
+        "evidence": "The note states the draft 'Replaces the current single-sentence prohibition' and adds concrete enumerated lists in Sections 2(a)-(h) and 3(a)-(d) rather than merely inserting qualifiers into the old sentence.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Enumerates cookie stuffing and forced clicks, naming at least one mechanism such as 0x0 iframes, popunders, or redirects.",
+        "evidence": "Section 2(a)-(c): 'Pop-ups, pop-unders, hover ads...', 'Forced redirects, auto-refreshing pages...', 'Cookie stuffing, cookie dropping...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Enumerates unauthorized discount codes, covering both codes not issued to that affiliate and expired or internal codes.",
+        "evidence": "Section 3(b): 'Affiliate shall not create, generate, guess, reverse-engineer, reuse an expired or another affiliate's code, or otherwise publish any code purporting to be a Company offer that is not an Authorized Code.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Enumerates typosquatting, brand impersonation, self-referral and incentivized traffic, spam and unsolicited email, misleading claims and fake reviews, and adware or browser-extension injection.",
+        "evidence": "Self-referral and misleading claims/fake reviews are never mentioned anywhere in Section 2's list, even though impersonation (2(f)), incentivized traffic (2(g)), spam (2(h)), and adware (2(d)) are covered.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Drafts a graduated enforcement ladder in this order: written warning with cure period, voiding of commissions generated through the violating tactic, account suspension pending investigation, termination for cause, recovery of already-paid commissions with reserved damages rights.",
+        "evidence": "Section 6's order is (a) notice and cure, (b) commission clawback, (c) suspension, (d) immediate termination, (e) forfeiture \u2014 clawback of paid commissions appears second and voiding/forfeiture appears last, the reverse of the rubric's required order.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not include a permanent commission-rate reduction as a rung or as any sanction in the ladder.",
+        "evidence": "Section 6's remedies (a)-(e) list notice-and-cure, clawback, suspension, termination, and forfeiture \u2014 no permanent rate reduction appears.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deems any prohibited-tactics violation a material breach.",
+        "evidence": "The term 'material breach' does not appear anywhere in Section 2's transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States which rungs may be skipped for severe violations such as fraud or cookie stuffing, reserving immediate termination contractually rather than leaving it to improvisation.",
+        "evidence": "Section 6(d): 'Immediate termination ... without a cure period, for (i) any use of malware, adware, or forced installs; (ii) publication of a fabricated or unauthorized discount code; ... or (iv) a second violation ... within a rolling twelve (12) month period'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Retains no bare catch-all as the sole prohibition; any residual sweeping language appears only alongside the enumerated list.",
+        "evidence": "The general catch-all in Section 1 stands alongside detailed enumerated lists in Sections 2-4, so it is never the sole prohibition.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Pairs the ladder with automatic brand-licence revocation and a pending-commissions clause so enforcement has a clean exit path.",
+        "evidence": "Section 6's remedies never mention brand/logo licence revocation; the section is silent on any licence.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

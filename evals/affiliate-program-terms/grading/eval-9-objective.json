@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Corrects the premise: the FTC Endorsement Guides (16 CFR Part 255) are interpretive and carry no independent civil penalty, but the FTC Reviews Rule (16 CFR Part 465) is binding and penalty-bearing.",
+        "evidence": "\"'No fine attached' is true of the Endorsement Guides but false of what actually applies to you. The FTC Reviews and Testimonials Rule (16 CFR Part 465, effective Oct 2024) is binding and penalty-bearing \u2014 civil penalties in the low-$50k range per violation, no warning notice required first.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the Reviews Rule took effect in October 2024.",
+        "evidence": "\"The FTC Reviews and Testimonials Rule (16 CFR Part 465, effective Oct 2024) is binding and penalty-bearing\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that its civil penalties run in the low-$50,000 range per violation and are inflation-adjusted.",
+        "evidence": "The transcript states \"civil penalties in the low-$50k range per violation\" but never mentions that these penalties are inflation-adjusted.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that the Reviews Rule reaches penalties without any prior Notice of Penalty Offenses, unlike the Endorsement Guides.",
+        "evidence": "\"civil penalties in the low-$50k range per violation, no warning notice required first.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects \"comply with applicable advertising laws\" as the disclosure clause and drafts a specific obligation in its place.",
+        "evidence": "\"'Comply with applicable advertising laws' gives affiliates no actionable standard... A clause that doesn't define 'clear and conspicuous,' doesn't give you an audit/takedown right... protects nobody\" followed by drafted clauses 7.1\u20137.4.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires disclosure of the material connection to be clear and conspicuous: difficult to miss, easily understandable, and unavoidable in interactive media.",
+        "evidence": "Clause 7.1 requires disclosure be placed \"so a reasonable consumer sees it before encountering the affiliate link \u2014 not hidden in a footer, an 'about' page, a hashtag string, or behind a click-to-expand element,\" covering visibility/unavoidability but never addressing that the disclosure language itself must be easily understandable (plain language, no jargon).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Mirrors the Reviews Rule bans into the prohibited-tactics list: fake or AI-generated reviews, incentivized-sentiment reviews, undisclosed insider reviews, review suppression, and fake indicators of social influence.",
+        "evidence": "Section 7.2 bans \"Publishing a review... Affiliate has not personally used,\" \"Omitting or obscuring the material connection disclosure in a review,\" \"Fabricated, AI-generated, or purchased reviews, and reviews or ratings manipulation of any kind,\" and \"Suppressing, editing, or incentivizing the removal of negative reviews.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the advertiser is responsible for its affiliates' disclosures and writes in an audit and takedown right.",
+        "evidence": "\"under FTC guidance the advertiser \u2014 you \u2014 is responsible for affiliates' disclosure failures\" and clause \"7.4 Audit and correction. Chandlerwick Labs may request evidence of disclosure compliance and require correction or takedown of non-compliant content within a stated cure period\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Adds the UK layer: marketing communications must be obviously identifiable as ads, \"Ad\" is the preferred label, and \"affiliate\", \"gifted\" or \"spon\" are insufficient.",
+        "evidence": "\"The ASA/CAP Code requires an 'Ad' label specifically \u2014 'affiliate,' 'gifted,' 'spon' are on record as insufficient\" and clause 7.1: \"For UK-facing Promotions, Affiliate must additionally use the label 'Ad' (or '#ad') \u2014 'affiliate,' 'gifted,' 'sponsored,' and similar terms do not satisfy the ASA/CAP Code on their own.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names CMA/DMCC Act 2024 exposure with fines up to 10% of global turnover.",
+        "evidence": "\"The CMA now has direct enforcement power under the DMCC Act 2024, with fines up to 10% of global turnover, and undisclosed advertising is a stated enforcement priority.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Corrects the premise: the FTC Endorsement Guides (16 CFR Part 255) are interpretive and carry no independent civil penalty, but the FTC Reviews Rule (16 CFR Part 465) is binding and penalty-bearing.",
+        "evidence": "'The FTC Endorsement Guides themselves are non-binding guidance ... The FTC also finalized a binding rule in 2024 (16 CFR Part 465, effective Oct 2024) ... this is a real rule with real fines, not guidance.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the Reviews Rule took effect in October 2024.",
+        "evidence": "'16 CFR Part 465, effective Oct 2024'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that its civil penalties run in the low-$50,000 range per violation and are inflation-adjusted.",
+        "evidence": "'civil penalties up to ~$51,744/violation for knowing violations'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that the Reviews Rule reaches penalties without any prior Notice of Penalty Offenses, unlike the Endorsement Guides.",
+        "evidence": "No mention of 'Notice of Penalty Offenses' appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects \"comply with applicable advertising laws\" as the disclosure clause and drafts a specific obligation in its place.",
+        "evidence": "'a single \"comply with applicable law\" line leaves the disclosure obligation undefined and unenforceable ... Below is still a short, non-bureaucratic clause, just one that specifies what compliance means.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires disclosure of the material connection to be clear and conspicuous: difficult to miss, easily understandable, and unavoidable in interactive media.",
+        "evidence": "Clause 5.2 requires disclosure to appear 'before the affiliate link ... not only in a footer, bio, or hyperlinked disclaimer' and use 'plain language' but never addresses unavoidability specific to interactive media.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Mirrors the Reviews Rule bans into the prohibited-tactics list: fake or AI-generated reviews, incentivized-sentiment reviews, undisclosed insider reviews, review suppression, and fake indicators of social influence.",
+        "evidence": "The drafted Section 5 covers only disclosure obligations; no prohibited-tactics list addressing fake reviews, review suppression, or fake indicators of influence appears in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the advertiser is responsible for its affiliates' disclosures and writes in an audit and takedown right.",
+        "evidence": "Clause 5.5 gives Chandlerwick an evidence-request and enforcement right, but the transcript never states that the advertiser itself bears legal responsibility for affiliate disclosure compliance.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Adds the UK layer: marketing communications must be obviously identifiable as ads, \"Ad\" is the preferred label, and \"affiliate\", \"gifted\" or \"spon\" are insufficient.",
+        "evidence": "Clause 5.4 cites 'the CAP Code and Consumer Protection from Unfair Trading Regulations 2008' generically but never states 'Ad' is preferred or that 'affiliate'/'gifted'/'spon' are insufficient.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names CMA/DMCC Act 2024 exposure with fines up to 10% of global turnover.",
+        "evidence": "'CMA fines now reach up to 10% of global turnover under the 2024 Digital Markets, Competition and Consumers Act.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

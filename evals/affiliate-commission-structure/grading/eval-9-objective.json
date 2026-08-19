@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Identifies partner activation rather than rate level as the likely root cause, given 11 converting affiliates out of 412",
+        "evidence": "\"That's a 2.7% activation rate... they're inactive because they were never activated. A rate change layered on top of an activation problem will not move the flat-revenue line\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a correctly derived commission structure does not rescue a program nobody promotes",
+        "evidence": "\"Raising the headline rate makes the 11 producers marginally happier \u2014 it does nothing for the other 401... A rate change layered on top of an activation problem will not move the flat-revenue line; it will just make the flat revenue you do get more expensive.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Points the user toward recruitment, onboarding or activation work as the primary fix",
+        "evidence": "\"Fix activation (onboarding, content/co-marketing support, direct outreach) as a separate track \u2014 this is outside a commission-structure fix and shouldn't be sold internally as if a rate bump solves it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Computes the cost of the proposed 35% capped at 12 months at roughly $836 per customer",
+        "evidence": "\"**Proposed: 35% \u00d7 12mo** | $835.80\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Compares that figure against the roughly $3,980 revenue LTV and shows it exceeds the 5-15%-of-LTV band",
+        "evidence": "\"Revenue LTV = $199 \u00d7 20 months = $3,980\" and table row \"$835.80 | 21.0% \u2014 fails 15% ceiling\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends against raising the public headline to 35%",
+        "evidence": "\"it doesn't hit 35%, and it doesn't let you claim a number higher than competitors'... Going to 35% to \\\"leapfrog\\\" is a headline move with no economic floor under it \u2014 recommend against it regardless of what competitors publish.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks total commission per customer against the 30-40%-of-gross-margin ceiling as a second, separate condition",
+        "evidence": "\"26.6% (passes alone)\" in the table, and later \"= 18.2% of gross-profit LTV (inside 30-40% band)\" as a distinct computed check alongside the revenue-LTV check.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that both conditions must hold, not either one on its own",
+        "evidence": "\"The fact that it clears the gross-margin leg alone doesn't save it; the gate needs both legs to hold, and it doesn't.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that a small share of affiliates produces most program revenue, so the rate card should be designed for the head rather than the long tail",
+        "evidence": "\"Tiers : flat - only 11 affiliates have any conversion history; not enough data to place a breakpoint.\" and the milestone bonus is described as \"rewards the concentration you already have without moving the public headline for 401 affiliates who haven't earned a cent yet\" \u2014 acknowledging concentration but designing around it rather than explicitly stating the rate card should be designed for the head. However this is a close call; the concentration point is made but framed more as insufficient data than a design principle for the head.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends custom or private rates for a handful of top partners instead of raising the public headline for everyone",
+        "evidence": "\"Immediate exception: private milestone bonus for the current 11 active producers (5-10% of new-customer revenue on top of base, paid only on that outcome) - rewards the concentration you already have without moving the public headline for 401 affiliates\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names a milestone bonus tied to new-customer revenue as a top-partner instrument that cannot exceed the ceiling by surprise",
+        "evidence": "\"private milestone bonus for the current 11 active producers (5-10% of new-customer revenue on top of base, paid only on that outcome)\" \u2014 tied to new-customer revenue, though the transcript does not explicitly state it 'cannot exceed the ceiling by surprise.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends checking projected cost per incremental affiliate-acquired customer against the $740 blended CAC",
+        "evidence": "\"KPIs : cost per incremental affiliate customer vs $740 CAC; effective commission rate; share of the 412 who convert at least once...\" and \"Validation plan : 30-day holdout on your top 3 of the 11 active producers post-launch\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Identifies partner activation rather than rate level as the likely root cause, given 11 converting affiliates out of 412",
+        "evidence": "\"11 producers out of 412 approved affiliates (2.7%) is an activation/recruitment-quality failure, not a pricing failure \u2014 the 401 dead affiliates aren't sitting on the fence over 15 commission points, they never built anything to promote.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a correctly derived commission structure does not rescue a program nobody promotes",
+        "evidence": "\"This rate change does not address it and increases per-customer cost on the (small) segment of affiliates already converting, without a mechanism to recruit or activate new producers... Raising the rate pays your 11 working affiliates a windfall and does nothing for the other 401.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Points the user toward recruitment, onboarding or activation work as the primary fix",
+        "evidence": "\"Recommend pairing this change with an affiliate reactivation push (audit the 401 non-producers, prune inactive accounts, re-onboard the rest)\" and \"redirect budget to recruitment/enablement.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Computes the cost of the proposed 35% capped at 12 months at roughly $836 per customer",
+        "evidence": "\"35% (proposed) \u2192 **$835.80** (26.6%)\" and \"Commission at 35%, 12-month cap: $69.65/mo \u00d7 12 = $835.80 total\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Compares that figure against the roughly $3,980 revenue LTV and shows it exceeds the 5-15%-of-LTV band",
+        "evidence": "The transcript only computes LTV gross profit as $3,144 (199\u00d70.79\u00d720) and compares commission as 26.6% of that figure; it never computes the $3,980 revenue-only LTV (199\u00d720) nor states or checks against a 5-15%-of-LTV band.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends against raising the public headline to 35%",
+        "evidence": "\"match the market on headline (30%, not 35% \u2014 \\\"we beat competitors\\\" is not a claim you can defend once someone runs your own numbers against you...)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks total commission per customer against the 30-40%-of-gross-margin ceiling as a second, separate condition",
+        "evidence": "The transcript computes commission as a percentage of LTV gross profit (26.6%) and separately against CAC, but never frames or checks a distinct 30-40%-of-gross-margin ceiling as its own separate test.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that both conditions must hold, not either one on its own",
+        "evidence": "No such dual-condition framing appears anywhere in the transcript since the second (gross-margin ceiling) condition was never established.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that a small share of affiliates produces most program revenue, so the rate card should be designed for the head rather than the long tail",
+        "evidence": "\"put the other lever into a volume/tier bonus that only pays once an affiliate proves they can produce... so the 401 non-producers cost nothing extra and the 11 real producers get to 35% by earning it, not by default\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends custom or private rates for a handful of top partners instead of raising the public headline for everyone",
+        "evidence": "The proposal is a published, rule-based volume/tier bonus available to any affiliate hitting the threshold (\"+5 points after 3 net-new paying customers in a rolling quarter\"), not a custom/private negotiated rate offered selectively to a handful of named top partners.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names a milestone bonus tied to new-customer revenue as a top-partner instrument that cannot exceed the ceiling by surprise",
+        "evidence": "The milestone bonus is tied to customer count (\"+5 points after 3 net-new paying customers\"), not new-customer revenue, and no gross-margin ceiling was established for the bonus to be checked against.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends checking projected cost per incremental affiliate-acquired customer against the $740 blended CAC",
+        "evidence": "\"Against the $740 blended CAC, affiliate-sourced CAC at full 35%/12mo payout runs **above** the company-wide average CAC, before platform and program-ops overhead.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

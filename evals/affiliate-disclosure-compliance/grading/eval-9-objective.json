@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Corrects the DSA reading: Article 26 places the ad-identification duty on the platform, not on the creator",
+        "evidence": "\"DSA Article 26(1) obliges the *platform* (Meta) to identify ads in real time \u2014 it's not a duty on the creator at all.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the creator's own disclosure duty comes from national law transposing the UCPD and from platform terms, and that the DSA supplies the declaration functionality rather than the obligation",
+        "evidence": "\"Giulia's actual duty to disclose comes from **Italian national law** ... Article 26(2) just makes the platform give creators a *declare commercial content* button ... It supplies the toggle, not the obligation.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a used platform declaration never completes the check on its own, while an unused one is a red flag",
+        "evidence": "\"'an unused platform declaration is a red flag; a used one never completes the check on its own.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the follower-count argument, stating trader status under EU law is fact-specific - organisation, remuneration, scale - with no bright-line follower threshold, and flags it [COUNSEL]",
+        "evidence": "\"There is no follower-count threshold in EU law. None ... `[COUNSEL: Giulia's personal trader status stays genuinely open \u2014 don't assert either way without counsel]`\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fails the feed-post placement under Italy's Digital Chart, which requires the disclosure to be the first piece of information or within the first three hashtags, not the seventh",
+        "evidence": "\"disclosure must be the first piece of information **or within the first three hashtags** \u2014 position 7 fails this on its own\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fails the Reel because Italy requires the disclosure both in the description and as an on-screen overlay at the video's opening",
+        "evidence": "\"IAP requires disclosure **both** in the description **and** as an on-screen overlay at the video's opening \u2014 only one of the two is present\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the brand to be named alongside \"adv\", since the Italian accepted form is \"adv\" plus the brand",
+        "evidence": "\"IAP-accepted list | IAP Digital Chart accepted labels: ... 'adv/ad + brand' | Confirm the brand name appears with it somewhere in caption\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites UCPD Annex I point 11 for undisclosed paid editorial content, noting it is blacklisted as unfair per se with no case-by-case consumer-impact test",
+        "evidence": "\"Annex I point 11 (undisclosed advertorial content is blacklisted outright, no case-by-case test)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites UCPD Article 7(2) as the misleading-omission hook for failing to identify commercial intent",
+        "evidence": "\"Article 7(2) (hidden commercial intent as a misleading omission)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the Commission's UCPD guidance can attribute the breach to the influencer, the engaging brand, or both, and that the brand's editorial control is a liability factor rather than a precondition",
+        "evidence": "\"the 2021 UCPD Guidance attributes advertorial breaches to 'the influencer, the engaging brand, or both' \u2014 the brand's involvement isn't a fallback theory, it's a direct one\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Supplies corrected Italian-language disclosure text for the caption opener and for the Reel's opening overlay",
+        "evidence": "\"'Pubblicit\u00e0 \u2014 in collaborazione con Altavia Cosmetics...'\" and \"on-screen text overlay ('ADV \u2014 Sponsorizzato da Altavia Cosmetics')\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Corrects the DSA reading: Article 26 places the ad-identification duty on the platform, not on the creator",
+        "evidence": "\"Article 26 DSA obliges the online platform (Meta/Instagram) to let users identify sponsored content... It's a platform design duty, not a creator duty.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the creator's own disclosure duty comes from national law transposing the UCPD and from platform terms, and that the DSA supplies the declaration functionality rather than the obligation",
+        "evidence": "The transcript grounds the creator's duty in UCPD/Codice del Consumo, IAP Digital Chart, and AGCM practice, but never mentions platform terms of service as a source of the creator's own duty.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a used platform declaration never completes the check on its own, while an unused one is a red flag",
+        "evidence": "The transcript states the used banner 'is not treated as a substitute for compliant textual/visual disclosure' but never discusses an unused declaration as a red flag scenario.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects the follower-count argument, stating trader status under EU law is fact-specific - organisation, remuneration, scale - with no bright-line follower threshold, and flags it [COUNSEL]",
+        "evidence": "The substance is covered ('There's no threshold in EU or Italian consumer law that exempts small accounts') but no '[COUNSEL]' marker is used anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Fails the feed-post placement under Italy's Digital Chart, which requires the disclosure to be the first piece of information or within the first three hashtags, not the seventh",
+        "evidence": "The transcript flags '#adv as the 7th hashtag' as buried but never states the specific 'first piece of information or first three hashtags' rule.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Fails the Reel because Italy requires the disclosure both in the description and as an on-screen overlay at the video's opening",
+        "evidence": "The transcript requires 'a visible on-screen label (or verbal mention) during the content itself' but does not specify the disclosure must appear at the video's opening.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the brand to be named alongside \"adv\", since the Italian accepted form is \"adv\" plus the brand",
+        "evidence": "No requirement that the brand name accompany '#adv'/'#pubblicit\u00e0' is stated anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites UCPD Annex I point 11 for undisclosed paid editorial content, noting it is blacklisted as unfair per se with no case-by-case consumer-impact test",
+        "evidence": "\"UCPD... Art. 23 / Annex I item 11: presenting paid promotional content as if it were organic/editorial ('surreptitious advertising') is a blacklisted, per se unfair practice \u2014 no case-by-case balancing needed.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites UCPD Article 7(2) as the misleading-omission hook for failing to identify commercial intent",
+        "evidence": "Only UCPD Art. 23 / Annex I item 11 is cited; Article 7(2) is never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the Commission's UCPD guidance can attribute the breach to the influencer, the engaging brand, or both, and that the brand's editorial control is a liability factor rather than a precondition",
+        "evidence": "The transcript notes 'AGCM has repeatedly sanctioned both brands and influencers, treating them as jointly responsible' but never references Commission UCPD guidance or discusses editorial control as a liability factor.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Supplies corrected Italian-language disclosure text for the caption opener and for the Reel's opening overlay",
+        "evidence": "\"#pubblicit\u00e0 or #sponsorizzato is placed prominently (ideally caption-opening, not end-of-block) and Reels carry a visible/audible disclosure\" gives concrete Italian-language terms to use.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

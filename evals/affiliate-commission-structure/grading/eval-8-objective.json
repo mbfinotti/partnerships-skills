@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States explicitly that the $9,000 placement fee sits outside the commission ceiling derived from unit economics",
+        "evidence": "\"The fee is the only piece of this deal the ceiling doesn't cap\" and \"A flat fee is the one cost component a percentage-based ceiling doesn't bound\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains why: the fee is paid before any conversion, so the ceiling derivation does not bound it",
+        "evidence": "\"ToolBench's $9,000/quarter is a flat fee paid regardless of performance... it's owed even at zero conversions\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the user's reasoning that 8% being under the 14% ceiling makes the deal inherently affordable",
+        "evidence": "\"don't sign on the reasoning you gave. The 8%-vs-14% comparison is invalid.\" and \"'8% is under 14%' tells you nothing about whether the deal is cheap\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that hybrid is the only model that lands a publisher refusing pure performance",
+        "evidence": "\"hybrid is the only model that closes this partner at all\" in the rate card example",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the effort cost: a negotiation per partner plus off-platform invoicing and reconciliation every cycle",
+        "evidence": "The transcript mentions \"standing up off-platform invoicing/reconciliation is real operational lift\" but never frames this as a recurring cost of doing a separate negotiation per partner across the partner base; it only discusses invoicing lift for this one ToolBench deal, not a general effort-cost argument against scaling hybrid deals.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags that the five-week hard date does not accommodate a hybrid negotiation",
+        "evidence": "\"A hard launch date normally takes hybrid off the table entirely: closing a placement contract plus standing up off-platform invoicing/reconciliation is real operational lift, and five weeks is tight for that\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends launching on a straight percentage-of-revenue model and pursuing the publisher deal on a separate track",
+        "evidence": "\"If the signed contract and invoicing process can't be ready in time, launch the standard percentage-only partners for the trade show and finalize ToolBench a few weeks later\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps percentage of revenue as the default rate model for the rest of the partner base",
+        "evidence": "\"Rate model (standard) : % of first-year contract value, ceiling 14%\" with hybrid listed as \"Rate model (exception)\" only \"for named publishers who refuse performance-only deals\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the placement fee to be budgeted and reported separately from commission cost",
+        "evidence": "\"Payment: net-30, fee invoiced separately from commission accrual\" and \"Excluded from: standard rate-card ceiling math\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires a fixed contract term for the placement fee rather than an open-ended arrangement",
+        "evidence": "The recommendation is a \"Quarterly term, not annual\" that \"renews only on volume review,\" which is a recurring/renewable short-term structure rather than a fixed, bounded contract term \u2014 it's explicitly open-ended pending review, not a capped fixed term.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not present hybrid as the generally superior or most generous of the three rate models",
+        "evidence": "The transcript frames hybrid strictly as a risky exception: \"Don't fold this into your standard percentage rows... Why: ... hybrid is the only model that closes this partner at all\" \u2014 never claimed superior, only necessary for this one holdout.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Offers a milestone bonus tied to new-customer revenue as a lower-commitment instrument to test this publisher first",
+        "evidence": "No mention of a milestone bonus or new-customer-revenue-triggered bonus anywhere; the negotiation suggestions are quarterly term, fee credited against commission, and a referred-volume floor with true-up/exit clause \u2014 not a milestone bonus instrument.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States explicitly that the $9,000 placement fee sits outside the commission ceiling derived from unit economics",
+        "evidence": "\"Your 14% ceiling was set for a pure performance model... ToolBench's offer is structurally different \u2014 $9,000/quarter is owed regardless of results, plus 8% on top.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains why: the fee is paid before any conversion, so the ceiling derivation does not bound it",
+        "evidence": "\"you pay only when a deal closes, no fixed cost, no risk if a partner sends zero traffic\" contrasted with \"$9,000/quarter is owed regardless of results\" and \"ignores the $36,000/year you pay even at zero referrals\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the user's reasoning that 8% being under the 14% ceiling makes the deal inherently affordable",
+        "evidence": "\"No, don't sign on '8% < 14% so it's a bargain' \u2014 that comparison compares the wrong things.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that hybrid is the only model that lands a publisher refusing pure performance",
+        "evidence": "The transcript never discusses whether ToolBench refused a pure-performance arrangement or frames hybrid as the only way to land such a publisher; it only analyzes the cost math of the offer as given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the effort cost: a negotiation per partner plus off-platform invoicing and reconciliation every cycle",
+        "evidence": "No mention of per-partner negotiation overhead or off-platform invoicing/reconciliation effort anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags that the five-week hard date does not accommodate a hybrid negotiation",
+        "evidence": "The 5-week runway is mentioned only as context for a checklist ('Other things to nail down before signing, given your 5-week runway'), which assumes the negotiation can be completed in that window rather than flagging it as insufficient.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends launching on a straight percentage-of-revenue model and pursuing the publisher deal on a separate track",
+        "evidence": "The transcript instead walks through whether to accept/negotiate the ToolBench hybrid deal itself (breakeven math, credit vs. additive fee, term length) rather than recommending a pure-percentage launch with ToolBench deferred to a separate track.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps percentage of revenue as the default rate model for the rest of the partner base",
+        "evidence": "\"List ToolBench's commission at 8% in the affiliate rate card, same column as everyone else, so partner-facing comparisons stay honest.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the placement fee to be budgeted and reported separately from commission cost",
+        "evidence": "\"Track the $9,000/quarter separately as a placement/sponsorship line item in your marketing spend budget, not amortized into an 'effective %' and published anywhere\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires a fixed contract term for the placement fee rather than an open-ended arrangement",
+        "evidence": "\"Term length: don't lock a full year at $36K fixed before you have one quarter of real data. Push for a 1-quarter initial term tied to the trade show, renewal contingent on hitting a referral floor.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not present hybrid as the generally superior or most generous of the three rate models",
+        "evidence": "The transcript never frames hybrid as generally superior; it treats it as conditionally worthwhile only above a computed breakeven volume ('~$150K/quarter... verify that's plausible, don't assume it').",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Offers a milestone bonus tied to new-customer revenue as a lower-commitment instrument to test this publisher first",
+        "evidence": "No milestone bonus or new-customer-revenue-based test instrument is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

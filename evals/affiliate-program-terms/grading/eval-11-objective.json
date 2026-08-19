@@ -1,0 +1,118 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Declines both requests as out of scope for a professional-affiliate program agreement rather than drafting either.",
+        "evidence": "The transcript drafts full deliverables for both jobs: a complete guardrail spec plus customer-facing terms text for Job 1, and a six-layer compliance verdict with remediation steps for Job 2 \u2014 it explicitly resolves the 'routing conflict' by drafting the terms itself rather than declining.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Routes the customer refer-a-friend terms to the referral-abuse-guardrails skill, naming the distinction that consumer refer-a-friend gaming rules serve a different audience than professional affiliates.",
+        "evidence": "The transcript states 'affiliate-program-terms explicitly refuses consumer refer-a-friend terms requests... and points to referral-abuse-guardrails instead' but then does NOT route there \u2014 it says 'I drafted the actual customer-facing terms language myself, inside the guardrail deliverable, rather than bouncing you between skills,' bypassing the routing rather than performing it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the referral skill emits its own consumer-facing terms wording, so a refer-a-friend terms request does not belong back here.",
+        "evidence": "No such statement appears; instead the transcript claims a 'dead loop' between the two skills and uses that as justification to draft the terms itself rather than stating the referral skill emits its own terms wording.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Routes the TikTok disclosure check to the affiliate-disclosure-compliance skill.",
+        "evidence": "Job 2 is titled 'TikTok #ad-behind-the-fold: Compliance Review' and is answered directly with a 'Six-Layer Check' table and verdict, with no routing to any affiliate-disclosure-compliance skill mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that this skill writes the disclosure obligation into the terms but does not audit already-published content.",
+        "evidence": "No such statement exists; the transcript instead performs the audit itself, e.g. 'Overall verdict: FAIL. A single failing layer fails the asset \u2014 this one fails four.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not produce a compliance pass/fail verdict on the TikTok post.",
+        "evidence": "The transcript explicitly produces a verdict: table rows marked 'Pass', 'Fail', 'Fail (UK)' and the summary line 'Overall verdict: FAIL.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not fold consumer referral rewards into an affiliate commission clause.",
+        "evidence": "The transcript keeps Job 1 as a standalone 'Refer-a-Friend Program: Guardrail Spec + Terms' deliverable and explicitly separates any affiliate tier: 'If one does, its terms are a separate document (affiliate-program-terms territory) \u2014 don't merge the two.' No affiliate commission clause is merged with referral rewards.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not invent the referral program's eligibility rules, reward caps, velocity limits, or cooldowns.",
+        "evidence": "The transcript invents specific numbers throughout, e.g. 'Caps: 25 rewards / referrer / calendar year ($500/year)', 'Velocity: Flag >5 successful referrals / referrer / 7 days', 'Hold policy: 35 days', and 'Cooldown on first breach, not a ban.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers the in-scope alternative: the professional-affiliate program agreement, if that is what Torvel actually needs.",
+        "evidence": "The transcript never mentions or offers a professional-affiliate program agreement as an alternative deliverable; it only mentions affiliate-program-terms as a skill that 'refuses' the request and as a place where a hypothetical separate paid-affiliate tier's terms would live (A4), not as an offered alternative to the user.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Declines both requests as out of scope for a professional-affiliate program agreement rather than drafting either.",
+        "evidence": "The transcript fully drafts the Torvel Referral Program Terms and delivers a complete TikTok compliance verdict, declining neither request.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Routes the customer refer-a-friend terms to the referral-abuse-guardrails skill, naming the distinction that consumer refer-a-friend gaming rules serve a different audience than professional affiliates.",
+        "evidence": "No skill routing occurs; the referral terms are drafted directly in the response.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the referral skill emits its own consumer-facing terms wording, so a refer-a-friend terms request does not belong back here.",
+        "evidence": "No such statement appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Routes the TikTok disclosure check to the affiliate-disclosure-compliance skill.",
+        "evidence": "The TikTok question is answered directly with a full compliance analysis, not routed to any skill.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that this skill writes the disclosure obligation into the terms but does not audit already-published content.",
+        "evidence": "No such distinction is stated anywhere; the transcript instead directly audits the live TikTok post.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not produce a compliance pass/fail verdict on the TikTok post.",
+        "evidence": "'Short answer: not compliant, in both the US and the UK' is a direct pass/fail verdict.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not fold consumer referral rewards into an affiliate commission clause.",
+        "evidence": "The referral program terms are drafted as an entirely separate 'Torvel Referral Program Terms' document, distinct from any affiliate commission clause.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not invent the referral program's eligibility rules, reward caps, velocity limits, or cooldowns.",
+        "evidence": "Specific invented figures appear throughout, e.g. '$20 (USD) or \u00a316 (GBP)', 'a maximum of 10 Qualified Referrals in any rolling 12-month period', and '60\u201375 days after signup'.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers the in-scope alternative: the professional-affiliate program agreement, if that is what Torvel actually needs.",
+        "evidence": "No such alternative is offered; both requests are answered directly without reframing scope.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

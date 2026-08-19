@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Declines to set tier breakpoints for a program with no historical partner performance data",
+        "evidence": "The transcript explicitly sets breakpoints: 'Bronze 1\u20133 | Silver 4\u20138 | Gold 9+' net-new customers/quarter, presented as the headline answer rather than declined.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the reason: with no performance history there is nowhere to place a breakpoint",
+        "evidence": "'Tiers on zero data: with no affiliates and no live program, there is no performance distribution to place a breakpoint against.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends launching with a single flat rate",
+        "evidence": "The default flat rate is only mentioned as the rule being overridden: 'The default is to launch flat and add tiers once 1-2 quarters of real data exist... Overriding the default is fine' \u2014 the actual recommendation given is the three-tier Bronze/Silver/Gold ladder, not a flat rate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives a concrete condition or timeframe that triggers revisiting tiers later",
+        "evidence": "'Recalibrate against real distribution after 2 full quarters live, per the tier design default' and 'Put the 2-quarter tier recalibration date on a calendar now, before recruiting starts.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not present a bronze/silver/gold ladder with invented thresholds as the recommendation",
+        "evidence": "The transcript's headline answer is exactly this: '\ud83e\udd49 Bronze | 1\u20133 | 20%', '\ud83e\udd48 Silver | 4\u20138 | 25%', '\ud83e\udd47 Gold | 9+ | 30%', explicitly acknowledged as invented ('breakpoints are volume targets, not earned percentiles') yet still presented as the recommended structure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that once history exists, the first tier should be reachable by roughly 70-80% of active partners",
+        "evidence": "'recalibrate against real distribution after 2 full quarters live to the 70-80%-reach-tier-1 / 10-20%-reach-top-tier rule'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the top tier should be reserved for roughly the top 10-20% of partners",
+        "evidence": "Same line: '...70-80%-reach-tier-1 / 10-20%-reach-top-tier rule'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends marginal tiers over retroactive tiers when tiers are eventually introduced",
+        "evidence": "'Marginal tiers (each rate applies only to net-new customers *above* the threshold that quarter \u2014 not retroactive to the whole period...)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that retroactive tiers reprice a partner's whole period, making program cost unforecastable rather than merely higher",
+        "evidence": "The transcript only notes tiers are 'not retroactive to the whole period, which avoids the cliff-gaming a retroactive ladder invites' \u2014 it never states that retroactive repricing makes program cost unforecastable.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains the cliff incentive: a partner just short of a breakpoint is pushed to add low-quality sign-ups",
+        "evidence": "The transcript only names the phenomenon abstractly ('protects against cliff-gaming on an unvetted new partner base') without explaining that a partner just short of a threshold would be incentivized to add low-quality sign-ups to cross it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends new-customer revenue as the tier threshold metric ahead of gross revenue or referral count",
+        "evidence": "'threshold metric: net-new paying customers now (no revenue attribution live yet); migrate to net-new customer revenue once tracking supports it - do not let count-based thresholds become permanent'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Declines to set tier breakpoints for a program with no historical partner performance data",
+        "evidence": "The transcript instead presents a full three-tier ladder with defined breakpoints (0\u20134, 5\u201314, 15+) as the deliverable.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the reason: with no performance history there is nowhere to place a breakpoint",
+        "evidence": "No statement addressing lack of historical data as a reason to avoid breakpoints; instead breakpoints are justified by pitch-ability ('5 and 15 are reachable in a first 6-month push').",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends launching with a single flat rate",
+        "evidence": "The transcript recommends a three-tier ladder (Bronze/Silver/Gold at 20/25/30%), not a single flat rate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives a concrete condition or timeframe that triggers revisiting tiers later",
+        "evidence": "The 'Two things this ladder doesn't fix yet' section lists open issues to decide 'before the six-week launch' but does not give a condition/timeframe for revisiting the tier structure itself later.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not present a bronze/silver/gold ladder with invented thresholds as the recommendation",
+        "evidence": "The table explicitly presents '\ud83e\udd49 Bronze / \ud83e\udd48 Silver / \ud83e\udd47 Gold' tiers with breakpoints (5, 15) justified only by pitch feel ('5 and 15 are reachable in a first 6-month push'), i.e. invented thresholds, as the core recommendation.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that once history exists, the first tier should be reachable by roughly 70-80% of active partners",
+        "evidence": "No mention of any percentage of partners reaching the first tier; breakpoints are stated as raw counts (0\u20134, 5\u201314, 15+) with no partner-distribution rationale.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the top tier should be reserved for roughly the top 10-20% of partners",
+        "evidence": "No mention of top-tier partner percentage; the rationale given for Gold (15+) is recruiting-pitch continuity, not a top-10-20% distribution target.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends marginal tiers over retroactive tiers when tiers are eventually introduced",
+        "evidence": "The transcript does not discuss marginal vs. retroactive tier mechanics at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that retroactive tiers reprice a partner's whole period, making program cost unforecastable rather than merely higher",
+        "evidence": "No discussion of retroactive repricing or cost forecastability anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains the cliff incentive: a partner just short of a breakpoint is pushed to add low-quality sign-ups",
+        "evidence": "The transcript mentions churn protection (downgrade only after 2 consecutive months below breakpoint) but never discusses a cliff incentive pushing partners toward low-quality sign-ups to hit a breakpoint.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends new-customer revenue as the tier threshold metric ahead of gross revenue or referral count",
+        "evidence": "The chosen metric is 'cumulative active paying customers currently referred (net of churn)' \u2014 a customer-count metric, not new-customer revenue, and no comparison to gross revenue or referral count is made.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

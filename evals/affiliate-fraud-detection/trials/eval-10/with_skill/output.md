@@ -1,0 +1,21 @@
+## Sign-off decision: No — not as one blanket action
+
+Suspending all eleven this morning is the failure mode this rule set exists to prevent: *"Instant ban on first flag → evidence destroyed, no dossier survives for network/legal escalation."* None of the three groups you describe clears the bar for **Suspend & Escalate**. That band is reserved for confirmed technical evidence, stolen-card chargebacks, or reoffense after a warning — a rule *triggering* is not that. Every new rule defaults to **Hold & Investigate** (commissions throttled to zero, dossier opened, cross-functional review in 24–48h) unless something specific promotes it. Here's each group against that bar:
+
+### The 6 volume-anomaly flags (Black Friday preview week)
+This is a named structural false positive, not a judgment call: *"Launch or promo windows: coordinated legitimate spikes look like bot bursts — annotate campaign calendars into the anomaly rules."* A volume-anomaly rule that doesn't know Black Friday preview week exists will fire on your best affiliates for doing their job.
+**Action:** Pull these six off suspend entirely. Re-run the rule with the promo calendar annotated in. Anything still anomalous after that adjustment goes to Hold & Investigate — not straight to suspend — and only escalates further on corroborating technical evidence (cookie-drop reproduction, referrer mismatch, shared device/IP).
+
+### The 3 new partners (2-SD conversion outlier, first 10 days)
+The skill is explicit that this exact setup is unreliable: *"New partners with thin history: 2-SD outlier math is unstable on small samples — hold them to first-week watchpoints and longer payout terms, not outlier rules."* Baselines in this framework are derived from a minimum of 90 days of data; a 10-day-old partner has no valid baseline to be 2 SD away from. The math is producing a number, not a signal.
+**Action:** Don't suspend on this rule alone. Move these three to Watch with first-week watchpoints, and if you haven't already, put new-partner cohorts on net-60/90 terms and stricter application filters — that's the control the skill assigns to this exact risk, not the outlier rule.
+
+### The 2 biggest partners (78% of program sales)
+This one isn't a fraud signal at all in this framework: *"Concentration: a handful of partners driving most sales is the normal affiliate power law — audit it, never auto-enforce on it."* The signal table lists "~80%+ of sales from a handful of affiliates" with the mandated response **audit, not enforcement**. Nothing in what you've described — concentration alone — is evidence of anything; it's the base rate for affiliate programs.
+**Action:** Take these two off the suspend list. Audit them (spot-check a sample of their conversions/leads against CRM outcomes), but suspending your two biggest partners — 78% of sales — on a concentration metric alone is the highest-blast-radius, least-reversible action in the ladder, applied to the weakest evidence of the eleven. If you have an actual separate fraud signal on these two, name it and it gets evaluated on its own merits — concentration isn't it.
+
+### On the vendor's "99% bot-catch" claim
+Don't let that reassure you into the suspend decision. The framework's rule here: *"treat recent vendor detection-efficacy claims as unverified... behavioral heuristics (session duration, scroll depth) are being eroded by AI-generated synthetic traffic"* and never present a vendor heuristic as a program constant — it needs your own backtest (≥80% catch, ≤5% false positive on your historical confirmed incidents) before it informs any enforcement decision, let alone a suspend-eleven-partners morning.
+
+### Net effect
+Zero of the eleven clear the evidence bar for suspension this morning under this rule set. Recommended action for all eleven today: **Hold & Investigate** at most (money stops moving, nothing is destroyed, nothing is irreversible), triaged as above — not Suspend & Escalate. Open dossiers on any of the six or three that also carry independent technical evidence; everyone else goes to Watch/audit. Happy to draft the three dossier templates and the recalibrated rule text (promo-calendar-aware volume rule, first-week-watchpoint new-partner rule) if you want to move on that today instead.

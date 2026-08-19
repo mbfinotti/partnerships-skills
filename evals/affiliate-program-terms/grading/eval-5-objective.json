@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Presents the four standard positions in a stated ordering led by strict prohibition, rather than drafting the requested whitelist immediately.",
+        "evidence": "The transcript never lays out four standard positions in an ordering led by strict prohibition. It opens with a single warning about whitelists ('A keyword whitelist with nobody assigned to run it is not a policy, it's a permission slip') and then offers only two alternatives ('Two ways out... (1) name a real owner... or (2) take the trademark-only-ban-with-modifier-allowance position instead'), then proceeds directly to drafting the requested whitelist clause.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the ordering explicitly rather than implying it by list order, and places the keyword whitelist last on value per unit of effort despite it sitting at the top on value alone.",
+        "evidence": "Only two options are given ('Two ways out, in order of how much this actually saves you'), not four ranked positions, and the whitelist is not explicitly placed last on an effort/value ranking \u2014 the text instead drafts the whitelist in full immediately afterward.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the condition that would promote a whitelist: a named partner already driving brand-term volume plus someone owning the adjudication as a standing job.",
+        "evidence": "The text names only the ownership condition ('name a real owner \u2014 even \"marketing ops, reviewed monthly\" \u2014 before this ships') but never states 'a named partner already driving brand-term volume' as a precondition for the whitelist being the right call.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats \"nobody's assigned to run it yet\" as grounds to delete the whitelist and per-partner tiering rather than park them at the bottom of the list, on the reasoning that a position nobody enforces is indistinguishable from permission.",
+        "evidence": "Despite flagging the concern ('At that point the clause says \"case by case\" but the reality is \"whoever asks first, forever\"'), the transcript does not delete the whitelist \u2014 it explicitly proceeds to draft it: 'I've drafted what you asked for below, but I'd genuinely reconsider before you sign off on it.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Covers exact-match marks, misspellings, permutations, character substitutions, and trademark-plus-modifier and trademark-plus-coupon terms in whatever ban is drafted.",
+        "evidence": "\u00a76.1 bans (a) the marks 'in any match type (broad, phrase, or exact)'; (b) 'any misspelling, phonetic variant, character substitution, or permutation'; (c) combination 'with a modifier term (including but not limited to \"discount,\" \"coupon,\" \"promo,\" \"sale,\" \"review,\" \"code,\" or \"deal\")'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the brand to be set as a negative keyword.",
+        "evidence": "\"Affiliate shall add each Mark, and its known misspellings and permutations, as a negative keyword across all paid campaigns not expressly authorized under \u00a76.3.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Bans trademark use in ad copy and addresses direct-linking of paid-search traffic.",
+        "evidence": "\"Affiliate shall not use any Mark in ad copy, display URLs, or landing-page URLs for paid placements, and shall not direct-link paid-search traffic to Company's domain in a manner implying Company sponsorship of the ad itself.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the ban is contractual only: search engines will not enforce it and bidding on a mark as a keyword is generally lawful, while trademark use in ad copy is independently actionable.",
+        "evidence": "\"[LEGAL REVIEW: this prohibition is contractual only \u2014 search engines will not enforce a private bidding restriction, and bidding on a brand term as a keyword is generally lawful in most jurisdictions. Only Mark use in ad copy is independently actionable as trademark infringement. Treat this clause as a termination trigger, not an injunctive remedy.]\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks the trademark-bidding clause with [LEGAL REVIEW].",
+        "evidence": "The \u00a76.1 clause is immediately followed by a bracketed marker: \"[LEGAL REVIEW: this prohibition is contractual only...]\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places any cleared keyword list or tier definition in an incorporated policy document rather than the master terms, so a promotion or removal does not run the amendment cycle.",
+        "evidence": "\"Approved Terms are maintained in a schedule incorporated by reference (the 'Approved Brand-Term List'), not in the body of these Terms, so that additions, narrowings, or removals do not themselves require an amendment under \u00a717.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the grounds on which a partner would be refused, and notes that inconsistent enforcement destroys the position.",
+        "evidence": "\"Company will evaluate requests against: (i) the Affiliate's trailing 12-month tracked revenue share; (ii) whether the Affiliate's content... is substantive...; (iii) absence of any unresolved prohibited-tactics violation...; and (iv) Company's assessment of incremental versus cannibalized paid-search spend. Company will state the specific ground(s) for any refusal in writing.\" And on inconsistent enforcement: \"an unreviewed list is not distinguishable, in practice or in a P2B dispute, from an unwritten open-bidding policy.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Presents the four standard positions in a stated ordering led by strict prohibition, rather than drafting the requested whitelist immediately.",
+        "evidence": "The transcript opens directly with 'Here's the brand-bidding section ... It's built around a whitelist mechanism' with no discussion of alternative positions or an ordering.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the ordering explicitly rather than implying it by list order, and places the keyword whitelist last on value per unit of effort despite it sitting at the top on value alone.",
+        "evidence": "No such ordering or effort/value discussion appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the condition that would promote a whitelist: a named partner already driving brand-term volume plus someone owning the adjudication as a standing job.",
+        "evidence": "The note says 'since no one is dedicated to policing it day-to-day' as a constraint being worked around, not as an unmet condition that would otherwise justify the whitelist.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats \"nobody's assigned to run it yet\" as grounds to delete the whitelist and per-partner tiering rather than park them at the bottom of the list, on the reasoning that a position nobody enforces is indistinguishable from permission.",
+        "evidence": "The transcript does the opposite: it builds the whitelist mechanism and mitigates the lack of ownership with a '90 days after the grant date' auto-expiration rather than dropping the whitelist option.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Covers exact-match marks, misspellings, permutations, character substitutions, and trademark-plus-modifier and trademark-plus-coupon terms in whatever ban is drafted.",
+        "evidence": "Clause X.1: '\"Ember & Co,\" \"Ember Co,\" or any spelling variant, misspelling, phonetic equivalent, or close variation' and 'Combine the Ember & Co brand name with any other word (e.g. \"discount,\" \"coupon,\" \"promo code\" ...)'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the brand to be set as a negative keyword.",
+        "evidence": "No negative-keyword requirement appears anywhere in the clause.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Bans trademark use in ad copy and addresses direct-linking of paid-search traffic.",
+        "evidence": "Clause X.1 bans use of the trademark 'in ad copy headlines, descriptions, display URLs, or destination URL paths,' and X.3 considers 'Whether the affiliate's landing page adds genuine value ... rather than redirecting straight to Ember & Co's own site.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the ban is contractual only: search engines will not enforce it and bidding on a mark as a keyword is generally lawful, while trademark use in ad copy is independently actionable.",
+        "evidence": "No such statement about search-engine non-enforcement or the legality distinction between keyword bidding and ad-copy use appears anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks the trademark-bidding clause with [LEGAL REVIEW].",
+        "evidence": "No [LEGAL REVIEW] marker is used anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places any cleared keyword list or tier definition in an incorporated policy document rather than the master terms, so a promotion or removal does not run the amendment cycle.",
+        "evidence": "'Exhibit A \u2014 Brand Term Whitelist (living document, maintained separately from these Terms)'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the grounds on which a partner would be refused, and notes that inconsistent enforcement destroys the position.",
+        "evidence": "X.3 lists refusal factors, but the note instead says approval 'Does not create precedent' \u2014 the transcript never states that inconsistent enforcement destroys the position.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

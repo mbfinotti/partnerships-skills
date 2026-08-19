@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that a first-pass rate sustained below 80% signals an upstream defect and directs the fix at the brief and onboarding rather than at reviewing more assets",
+        "evidence": "\"first-pass rate sustained below 80% 'signals an upstream defect: fix the brief and the onboarding, not just the assets.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to recommend adding review headcount as the primary fix",
+        "evidence": "\"Why more reviewer capacity is the wrong lever here\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends an approved wording bank as the default route for getting the rules to partners, adapted into the program's own approved lines, one per format the campaign runs",
+        "evidence": "\"the approved wording bank highest value-per-effort (~1 hour to adapt)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Puts the wording bank's effort at roughly an hour to adapt, as an order of magnitude rather than a precise figure",
+        "evidence": "\"(~1 hour to adapt)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes the live-training rung for this self-serve roster that never meets the program team, rather than ranking it low, because a session nobody attends is not distribution",
+        "evidence": "\"'Delete the live-training rung for a self-serve roster that never meets the program team: a session nobody attends is not distribution.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires a corrected, ready-to-paste line to ship with every failing finding, feeding the wording bank",
+        "evidence": "The three failures are described (\"Ad tag dumped at the end of a hashtag wall\", \"#collab\", \"bio only\") but no corrected ready-to-paste line text is actually given for any of them.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names what the efficiency order starves - live training, the only rung that catches a partner's misunderstanding before it reaches an asset - and states the condition that would normally promote it",
+        "evidence": "Live training is deleted, but the transcript never states it is \"the only rung that catches a misunderstanding before it reaches an asset\" nor gives a condition that would promote it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the correct fix for each of the three recurring failures: disclosure moved into the first visible caption line, \"#ad\" or \"paid partnership with [brand]\" replacing \"#collab\", and in-post disclosure replacing bio-only",
+        "evidence": "The three failures are only labeled by type (\"placement/truncation failure\", \"a wording failure on the reject list\", \"presence/placement failure\") without spelling out the corrected replacement text.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats those three fixes as mandatory corrections of specific failures rather than rungs to be traded off against each other",
+        "evidence": "\"All three are pre-solved in this skill's own reference material with ready-to-paste fixes. A second reviewer doesn't change what these three patterns are\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names roster coverage as a program KPI: the share of active partners with at least one asset reviewed per period, measured against the chosen monitoring approach",
+        "evidence": "\"tied to the 'roster coverage' KPI, not to the 62% number\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes drafting of the campaign brief's disclosure requirements and of any program-terms clause to the sibling skills rather than producing them here",
+        "evidence": "Only the program-terms gap is routed (\"see `affiliate-program-terms` sibling skill\"); no equivalent routing is given for drafting the campaign brief's disclosure requirements.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that a first-pass rate sustained below 80% signals an upstream defect and directs the fix at the brief and onboarding rather than at reviewing more assets",
+        "evidence": "\"You're proposing a capacity fix for what your own data describes as a design defect\" and \"If the pass rate moves from 62% toward, say, 80%+, you've cut your own rework volume roughly in half before spending on headcount.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to recommend adding review headcount as the primary fix",
+        "evidence": "\"don't send the budget request as-is... only ask for a second reviewer if volume \u2014 not defect rate \u2014 turns out to be the real constraint.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends an approved wording bank as the default route for getting the rules to partners, adapted into the program's own approved lines, one per format the campaign runs",
+        "evidence": "No 'wording bank' concept is proposed; the transcript instead recommends a pre-submission checklist/automated form validation and a targeted email to the 30 repeat affiliates.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Puts the wording bank's effort at roughly an hour to adapt, as an order of magnitude rather than a precise figure",
+        "evidence": "No wording bank or associated effort estimate is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes the live-training rung for this self-serve roster that never meets the program team, rather than ranking it low, because a session nobody attends is not distribution",
+        "evidence": "Live training is never discussed or considered as an option anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires a corrected, ready-to-paste line to ship with every failing finding, feeding the wording bank",
+        "evidence": "No wording bank exists in this transcript, and no ready-to-paste correction line is tied to each of the three failure modes beyond naming '#ad'/'#sponsored' as an alternative to '#collab' inside a proposed automated-check rule.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names what the efficiency order starves - live training, the only rung that catches a partner's misunderstanding before it reaches an asset - and states the condition that would normally promote it",
+        "evidence": "Live training and any condition for promoting it are never discussed in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the correct fix for each of the three recurring failures: disclosure moved into the first visible caption line, \"#ad\" or \"paid partnership with [brand]\" replacing \"#collab\", and in-post disclosure replacing bio-only",
+        "evidence": "The transcript names the three failure modes and gestures at automated checks ('if the required tag isn't in the first N characters, if #collab is used instead of #ad/#sponsored') but never gives the specific 'first visible caption line' or 'paid partnership with [brand]' fixes.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats those three fixes as mandatory corrections of specific failures rather than rungs to be traded off against each other",
+        "evidence": "The three items are framed as candidate checklist rules within 'What I'd propose instead' rather than stated as mandatory, non-negotiable corrections.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names roster coverage as a program KPI: the share of active partners with at least one asset reviewed per period, measured against the chosen monitoring approach",
+        "evidence": "No roster-coverage KPI or similar metric is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Routes drafting of the campaign brief's disclosure requirements and of any program-terms clause to the sibling skills rather than producing them here",
+        "evidence": "No mention of routing brief or program-terms drafting to another skill; the transcript proposes writing the checklist/automated rule itself.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Does not recommend a new-customer gate as an action to take now, given the tracking limitation",
+        "evidence": "\"Your platform vendor confirmed that's not shipping this year. **Delete that control from the menu now, not \\\"pause it.\\\"** Don't let it silently become the plan by default; it isn't available.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names capping the cashback rate below the content/creator rate as the first control to apply",
+        "evidence": "\"efficiency: rate cap below content rates > shorter attribution window > exclusive codes\" and \"Step 1 \u2014 Size the rate cap (needed before you announce anything)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places the rate cap ahead of shortening the attribution window in the recommended order",
+        "evidence": "\"Step 1 \u2014 Size the rate cap...\" precedes \"Step 2 \u2014 Shorten their attribution window\"; also \"rate cap below content rates > shorter attribution window > exclusive codes\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a shorter attribution window for the cashback partners than for content partners",
+        "evidence": "\"cut these two partners' cookie window to 24 hours\u20137 days, versus whatever the rest of the program runs (30 days is the ecommerce default)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives a concrete short window for the cashback partners in the 24-hour-to-7-day range",
+        "evidence": "\"cut these two partners' cookie window to 24 hours\u20137 days\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that coupon, cashback and loyalty partners commonly run substantially non-incremental, on the order of two-thirds of attributed volume",
+        "evidence": "\"Industry incrementality data puts coupon/cashback partners at only ~29-34% incremental on average\" \u2014 implying roughly two-thirds to 70% non-incremental.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that content and creator partners run largely incremental, on the order of 80%",
+        "evidence": "The transcript gives no incrementality percentage for content/creator partners; it only cites cashback incrementality (~29-34%) and a general '81% non-incremental' DTC audit figure for overall affiliate revenue, not specifically content/creator partners.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Prescribes a 30-day holdout test on the top cashback partners",
+        "evidence": "\"Step 3 \u2014 Run the 30-day holdout test, in parallel... Pick a 30-day window. Pause (or heavily de-prioritize) these two partners for that period\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the holdout read rule: flat total conversion volume with falling affiliate-attributed volume means the partners were harvesting existing demand, so keep their rates capped",
+        "evidence": "\"If total volume holds flat while affiliate-attributed volume from these two drops: confirmed \u2014 they were capturing existing demand. Lock in the capped rate and shortened window as permanent\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the opposite holdout read rule: a drop in total volume means they were incremental, so restore their rates and document it",
+        "evidence": "\"If total volume drops materially: they were more incremental than suspected. Restore them, but keep the shortened window, and revisit the rate cap upward using this new data rather than reverting to flat 15% by default.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends exclusive per-partner codes as the control that produces evidence rather than only savings, while naming its ongoing reconciliation cost",
+        "evidence": "\"effort: exclusive codes (per-partner setup + standing reconciliation) > rate cap == shorter window\" and \"Run exclusive codes and the holdout test in parallel \u2014 they're what turns 'fairly sure' into a documented number you can defend to the partners themselves.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the new-customer gate becomes the first control to apply once the tracking flag ships",
+        "evidence": "\"a real-time new-customer flag is still the highest-value single fix once it exists, and it would let you move from a blanket category cap back to gating only actual repeat buyers\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Does not recommend a new-customer gate as an action to take now, given the tracking limitation",
+        "evidence": "Section 2 states: 'At order time, your backend already knows if the email/account is new or existing (first order vs. repeat). Compute this yourself, independent of the affiliate platform... Change commission structure to two tiers: e.g., 15% on new-customer orders, a much lower flat rate... on repeat-customer orders,' and the sequencing plan schedules this for 'Week 3-4' \u2014 i.e. recommended as an action to take now, not deferred pending vendor tracking.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names capping the cashback rate below the content/creator rate as the first control to apply",
+        "evidence": "The transcript never mentions a 'content/creator rate' or differentiates cashback rate from a content/creator partner rate anywhere; the rate change described ('lower everyone's base rate... e.g., 15% \u2192 8%') is program-wide, not cashback-vs-content differentiated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places the rate cap ahead of shortening the attribution window in the recommended order",
+        "evidence": "The Sequencing section lists 'Week 2-3: Implement cookie-window shortening and last-click/final-step attribution guard (step 3)' before 'Week 3-4: Roll out the new/repeat commission tiering as a program-wide policy change (step 2)' \u2014 the attribution window change is scheduled ahead of the rate/tiering change, the reverse order.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a shorter attribution window for the cashback partners than for content partners",
+        "evidence": "The cookie-window recommendation ('Shorten the attribution/cookie window (e.g., from 30 days to 3-7 days)') is presented as a general, program-wide config change with no comparison to or distinct treatment for 'content partners' at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives a concrete short window for the cashback partners in the 24-hour-to-7-day range",
+        "evidence": "\"Shorten the attribution/cookie window (e.g., from 30 days to 3-7 days).\" \u2014 3-7 days falls within the 24-hour-to-7-day range.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that coupon, cashback and loyalty partners commonly run substantially non-incremental, on the order of two-thirds of attributed volume",
+        "evidence": "The transcript only offers this as a to-be-estimated hypothetical for the user's own data ('Quantify: what % of the 38% would you estimate is \"would have bought anyway\"? Even a rough range (e.g., \"60-80% based on repeat-customer overlap\") is enough'), not as a stated general industry norm, and never mentions 'loyalty partners' at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that content and creator partners run largely incremental, on the order of 80%",
+        "evidence": "No mention of content or creator partners' incrementality rate anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Prescribes a 30-day holdout test on the top cashback partners",
+        "evidence": "No holdout test is described; the closest is the 'Monitor' step which tracks 'total affiliate revenue and cashback-site share monthly after the change' \u2014 an observational monitoring plan, not a designed holdout experiment.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the holdout read rule: flat total conversion volume with falling affiliate-attributed volume means the partners were harvesting existing demand, so keep their rates capped",
+        "evidence": "No such rule is stated; the Monitor step only says 'if their share of revenue drops roughly proportional to the new/repeat mix you estimated, the fix is working,' with no mention of total conversion volume staying flat as a diagnostic signal.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the opposite holdout read rule: a drop in total volume means they were incremental, so restore their rates and document it",
+        "evidence": "The Monitor step says 'if it collapses far more (they stop sending any traffic at all), that tells you they were more incremental than your data suggested \u2014 revisit the new-customer bonus rate upward if needed' \u2014 this refers to cashback-site traffic/share collapsing, not a drop in total (site-wide) conversion volume, and doesn't frame it as a holdout-test read rule or mention restoring rates/documenting.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends exclusive per-partner codes as the control that produces evidence rather than only savings, while naming its ongoing reconciliation cost",
+        "evidence": "No mention of exclusive per-partner discount/tracking codes, or any reconciliation-cost discussion, anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the new-customer gate becomes the first control to apply once the tracking flag ships",
+        "evidence": "The transcript does the opposite \u2014 it explicitly builds the new/repeat gate now via the merchant's own order data ('Since the platform can't tag this, do it in your own checkout/order system instead of relying on the affiliate network') and never frames it as contingent on a future vendor tracking flag; the 'What NOT to do' section instead says 'Don't wait on the vendor's roadmap.'",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

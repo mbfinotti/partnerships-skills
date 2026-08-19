@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Removes coupon/cashback/loyalty from the plan for this B2B SaaS program rather than ranking it last",
+        "evidence": "Coupon/cashback is ranked '2. Coupon/cashback networks' (not last) and kept as 'a low-priority, low-expectation side bet' and later 'coupon networks (minor side bet)... supplementary, not primary' rather than being removed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains the removal on value grounds: discounting erodes recurring revenue and the signups are largely non-incremental",
+        "evidence": "'Discount-seeking traffic erodes recurring revenue, and cashback signups on a $49/seat/month tool are largely non-incremental.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes coupon/cashback remains a legitimate category for B2C ecommerce programs",
+        "evidence": "'That category earns its \"high efficiency\" ranking in B2C, where a one-off purchase discount makes sense \u2014 not here.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes cold-pitching in Slack and Discord communities rather than ranking it, because anti-solicitation rules make the pitch itself the violation",
+        "evidence": "'The skill deletes \"communities/forums\" from the active outreach menu entirely, for both B2B and B2C \u2014 not demotes, deletes... in most of these spaces, anti-solicitation norms mean the cold pitch is the violation.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends keeping community presence as passive recruitment - participate and be findable - and treating any recruit from one as inbound",
+        "evidence": "'participate and be findable \u2014 answer questions, mention the program when genuinely relevant... treat anyone who bites as inbound.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines the purchased 5,000-contact list, stating purchased or scraped contact dumps of unknown provenance are not a workable basis, and says why to the user",
+        "evidence": "'\"Purchased consumer lists and scraped contact dumps of unknown provenance are not a workable basis; decline them and say why.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Warns that one large blast underperforms small batches, and recommends batches of 50 or fewer",
+        "evidence": "The transcript cites 'mass blast from one generic template' as a documented failure mode but never gives a specific batch-size recommendation like 50 or fewer.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names competitors' current affiliates and content/review/comparison sites as the default opening rungs for a B2B SaaS program",
+        "evidence": "'1. Competitors' current affiliates... 2. Content/review/comparison sites.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the sourcing efficiency ordering explicitly rather than leaving it implied by row order",
+        "evidence": "'`competitors' current affiliates > content/review sites > existing customers > newsletters > complementary vendors \u2248 agencies/integration partners > YouTube/podcast`'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names complementary non-competing vendors and consultants/agencies/integration partners as high-value categories that the efficiency ordering starves",
+        "evidence": "'the slower, higher-value rungs (complementary vendors, integration partners)' explicitly labels them higher-value despite being slower/lower in the efficiency order.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the condition that promotes those two categories anyway: an existing base of affiliates already producing clicks, or a compounding mandate rather than a dated launch",
+        "evidence": "'whether Q4 is a one-off push or a channel you're running long-term, since that changes how hard to lean into the slower, higher-value rungs (complementary vendors, integration partners) versus the fast ones above.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a competitor-affiliate search or link-intersect/backlink analysis as the discovery method to rebuild the list, and notes the ranking shifts with what the manager already owns (licensed backlink tool, existing roster, retained agency)",
+        "evidence": "'find who's already promoting your direct competitors (an hour of \"[competitor] + affiliate program\" search, or a day with a backlink tool)' gives the discovery method, but the transcript never notes that the ranking shifts based on tools/roster/agency the manager already owns.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Removes coupon/cashback/loyalty from the plan for this B2B SaaS program rather than ranking it last",
+        "evidence": "The section explicitly ranks it: '2. Coupon/cashback networks \u2014 deprioritize' within a 'Ranking your three moves (best \u2192 worst)' list, rather than removing it from the plan.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains the removal on value grounds: discounting erodes recurring revenue and the signups are largely non-incremental",
+        "evidence": "'Public coupon codes undercut your premium positioning and let existing customers self-discount on renewal.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes coupon/cashback remains a legitimate category for B2C ecommerce programs",
+        "evidence": "'Built for impulse ecommerce discount-hunting, not $49/seat recurring B2B software with a considered buying process.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes cold-pitching in Slack and Discord communities rather than ranking it, because anti-solicitation rules make the pitch itself the violation",
+        "evidence": "Slack/Discord is ranked first and kept: '1. Slack/Discord posting \u2014 keep, but fix the targeting... Fix: target communities of potential affiliates... Engage first, mention the program second.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends keeping community presence as passive recruitment - participate and be findable - and treating any recruit from one as inbound",
+        "evidence": "The recommendation is active engagement ('Engage first, mention the program second') rather than framed as passive/inbound recruitment.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines the purchased 5,000-contact list, stating purchased or scraped contact dumps of unknown provenance are not a workable basis, and says why to the user",
+        "evidence": "'Buying a 5,000-contact list and blasting it \u2014 avoid as designed' with GDPR, deliverability, and targeting-mismatch reasons given.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Warns that one large blast underperforms small batches, and recommends batches of 50 or fewer",
+        "evidence": "'If you want blogger outreach, do 50 hand-picked, personally-emailed bloggers who already write about ops/automation/SaaS comparisons \u2014 not 5,000 cold contacts.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names competitors' current affiliates and content/review/comparison sites as the default opening rungs for a B2B SaaS program",
+        "evidence": "The 'What's missing' section lists review-site presence (G2, Capterra) but never mentions recruiting competitors' current affiliates anywhere in this section.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the sourcing efficiency ordering explicitly rather than leaving it implied by row order",
+        "evidence": "No explicit efficiency ordering across sourcing categories (competitor affiliates, content sites, agencies, etc.) is stated; only the three original moves are ranked.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names complementary non-competing vendors and consultants/agencies/integration partners as high-value categories that the efficiency ordering starves",
+        "evidence": "'Consultants and agencies who implement workflow tools for their clients. One agency partner can bring dozens of seats and stays an affiliate for years. This beats any coupon site or cold list by a wide margin.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the condition that promotes those two categories anyway: an existing base of affiliates already producing clicks, or a compounding mandate rather than a dated launch",
+        "evidence": "No such condition is stated; the categories are simply listed under 'What's missing' without a triggering condition.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a competitor-affiliate search or link-intersect/backlink analysis as the discovery method to rebuild the list, and notes the ranking shifts with what the manager already owns (licensed backlink tool, existing roster, retained agency)",
+        "evidence": "No backlink/link-intersect discovery method is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

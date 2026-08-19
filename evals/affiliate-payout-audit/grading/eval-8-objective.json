@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Blocks release for the payee with no W-9 on file rather than paying now and collecting the form afterwards",
+        "evidence": "\"Hold: the 1 payee with no W-9 ($4,800, pay $3,648 net after backup withholding once decision is confirmed)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies backup withholding to a US payee who failed to provide a valid W-9, and flags a run paying such a payee gross as a finding",
+        "evidence": "\"A US payee without a valid W-9 must not be paid gross: IRS backup withholding (24%) applies regardless of amount.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the 2022-dated French publisher form as expired and therefore missing",
+        "evidence": "\"A W-8BEN-E is valid only through December 31 of the third calendar year after signing \u2014 this one expired 2025-12-31... the skill's rule treats identically to missing\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the correct form per payee class: W-9 for US payees, W-8BEN for foreign individuals, W-8BEN-E for foreign entities",
+        "evidence": "Only W-9 (F-1) and W-8BEN-E (F-2) are named; W-8BEN for foreign individuals is never mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scopes the hold to the affected payees rather than holding the entire run",
+        "evidence": "\"Release: the remaining payees not touched by F-1, F-2, F-4, or F-5, once someone other than the run's preparer has reviewed and signed off\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the pay-now-paperwork-later instruction on the grounds that releasing without valid forms is a filing problem, not only a money one",
+        "evidence": "\"It's not a discretionary materiality decision. Backup withholding on a missing W-9 is an IRS requirement independent of dollar size\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies cross-border EU B2B affiliate commission as a marketing service falling under the reverse charge, invoiced at 0% with the buyer self-accounting",
+        "evidence": "\"that each cites the reverse-charge basis (Art. 196, Directive 2006/112/EC) against a VIES-verified VAT number\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the invoice to cite the reverse-charge basis and a VIES-verified VAT number",
+        "evidence": "\"cites the reverse-charge basis (Art. 196, Directive 2006/112/EC) against a VIES-verified VAT number\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recognizes the network-generated publisher invoices as self-billing and verifies each self-billed invoice matches the audited commission total for the period",
+        "evidence": "\"Your network self-bills these publishers (generates the invoices on their behalf)... the audit still has to verify the self-billed invoices match the audited commission total per publisher for the period\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Determines whether the program runs merchant-of-record or agent-of-record before judging whose ledger must carry the tax",
+        "evidence": "No mention of merchant-of-record or agent-of-record status anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags the PayPal fees netted into the commission line: the audit verifies the gross commission, and downstream fees must be disclosed in the program terms rather than silently netted",
+        "evidence": "\"the audit verifies the gross commission, and any fee deducted downstream must be disclosed in the program terms, not silently netted in\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats US 1099 reporting thresholds as legislation-dependent and re-verifies them for the applicable tax year rather than stating a fixed figure as permanent",
+        "evidence": "No discussion of 1099 reporting thresholds appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Blocks release for the payee with no W-9 on file rather than paying now and collecting the form afterwards",
+        "evidence": "\"Don't release as-is. Hold two payees... What you must not do: pay the full $4,800 with no W-9 on file.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies backup withholding to a US payee who failed to provide a valid W-9, and flags a run paying such a payee gross as a finding",
+        "evidence": "\"No W-9 = no certified TIN = mandatory backup withholding at 24% under IRC \u00a73406, full stop.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the 2022-dated French publisher form as expired and therefore missing",
+        "evidence": "\"A form signed in 2022 expired 12/31/2025 \u2014 it is dead for a June 2026 run.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the correct form per payee class: W-9 for US payees, W-8BEN for foreign individuals, W-8BEN-E for foreign entities",
+        "evidence": "Only W-9 and W-8BEN-E are discussed; W-8BEN for foreign individuals is never mentioned or distinguished from W-8BEN-E.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scopes the hold to the affected payees rather than holding the entire run",
+        "evidence": "\"Release the ~94 clean payees on schedule. For the flagged two: ...\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the pay-now-paperwork-later instruction on the grounds that releasing without valid forms is a filing problem, not only a money one",
+        "evidence": "\"Your finance lead's 'pay now, paperwork later' plan is backwards \u2014 withholding on undocumented payees isn't a bureaucratic nicety you can defer, it's the payer's own tax liability.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies cross-border EU B2B affiliate commission as a marketing service falling under the reverse charge, invoiced at 0% with the buyer self-accounting",
+        "evidence": "\"plus reverse-charge language where the service is cross-border B2B\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the invoice to cite the reverse-charge basis and a VIES-verified VAT number",
+        "evidence": "The transcript requires the VAT number and self-billing/reverse-charge notation but never mentions VIES verification of the VAT number.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recognizes the network-generated publisher invoices as self-billing and verifies each self-billed invoice matches the audited commission total for the period",
+        "evidence": "Self-billing is recognized ('Self-billing is legal under EU VAT rules only with a written self-billing agreement') but no verification of invoice amounts against audited commission totals is performed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Determines whether the program runs merchant-of-record or agent-of-record before judging whose ledger must carry the tax",
+        "evidence": "Not addressed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags the PayPal fees netted into the commission line: the audit verifies the gross commission, and downstream fees must be disclosed in the program terms rather than silently netted",
+        "evidence": "\"Reportable income... is the gross commission earned, not the amount net of your payment-processor fee... Fix: show gross commission and the PayPal fee as two separate lines.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats US 1099 reporting thresholds as legislation-dependent and re-verifies them for the applicable tax year rather than stating a fixed figure as permanent",
+        "evidence": "\"there's no de minimis exception once a payee crosses the $600/year reporting threshold\" \u2014 stated as a fixed fact with no caveat to re-verify for the applicable tax year.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

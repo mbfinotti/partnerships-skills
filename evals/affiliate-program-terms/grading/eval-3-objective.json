@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Declines to draft blanket forfeiture of all earned commissions on any termination, and states the objection rather than silently softening the wording.",
+        "evidence": "The transcript drafts the exact clause: 'any and all commissions credited to the Affiliate's account as of the effective date of termination \u2014 whether in Pending, Approved, or any other status short of a completed payout \u2014 are automatically and permanently forfeited,' and later states 'Both clauses are otherwise drafted exactly to your spec: no distinction between pending and approved, no fraud carve-out, forfeiture is automatic.' It flags the issue but does not decline to draft it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the tension with US state escheatment law, under which unpaid commissions can become reportable to the state as unclaimed property.",
+        "evidence": "'It has unresolved tension with US state unclaimed-property/escheatment statutes \u2014 earned-but-unpaid commissions can become reportable to the state as unclaimed property after a 1\u20135 year dormancy period in many states...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the escheatment dormancy range as roughly one to five years.",
+        "evidence": "'...reportable to the state as unclaimed property after a 1\u20135 year dormancy period in many states...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Proposes a non-fraud branch that pays all validly earned commissions accrued to the termination date on the normal schedule, still subject to the validation window.",
+        "evidence": "'Upon termination for convenience or program discontinuation, Halvard Tools will pay all commissions that were validly Approved as of the termination date, on the normal payment schedule, less any amounts subject to an open Clawback under Section [X].'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Proposes a fraud or for-cause branch that forfeits commissions attributable to the violation, and states explicitly whether unrelated earned commissions are still paid.",
+        "evidence": "'Upon termination for cause \u2014 including fraud, breach of the Prohibited Tactics, or provision of false account information \u2014 Halvard Tools may forfeit commissions attributable to the conduct giving rise to termination; commissions unrelated to that conduct remain payable.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks the forfeiture-scope clause with [LEGAL REVIEW].",
+        "evidence": "'[LEGAL REVIEW: Blanket forfeiture of all earned commissions regardless of termination reason is a legally contested position. ...]' appears directly under Section 14.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Narrows reversal grounds to an enumerated set such as fraud, product returns, order cancellations, chargebacks and statutory consumer withdrawal, rather than open-ended \"at our discretion\" reversals.",
+        "evidence": "The transcript contains no discussion of commission reversal grounds or an enumerated list of fraud/returns/cancellations/chargebacks/statutory withdrawal; it only covers termination forfeiture (Section 14) and dormancy forfeiture (Section 15).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not draft the 180-day dormancy forfeiture as requested; any dormancy clause offered requires prior notice to the affiliate, a reactivation path, and counsel review.",
+        "evidence": "The clause is not left bare: 'To keep this enforceable in practice (not just on paper), the clause needs two components layered in even though you didn't ask for them... Prior notice: Halvard Tools will notify the Affiliate by email at least 30 days before dormancy forfeiture takes effect... Reactivation path: An Affiliate who generates a click before the forfeiture date automatically resets the 180-day clock,' plus a [LEGAL REVIEW] marker requiring counsel confirmation.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks the dormancy clause with [LEGAL REVIEW] and names the same escheatment collision.",
+        "evidence": "'[LEGAL REVIEW: Same escheatment tension as above applies to dormancy-triggered forfeiture \u2014 several states treat this fact pattern... as exactly the trigger for unclaimed-property reporting, not a private right to forfeit.]'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that unpaid balances below the minimum payout threshold roll forward rather than being forfeited.",
+        "evidence": "The transcript never mentions a minimum payout threshold or balances rolling forward; it only discusses forfeiture upon termination and dormancy.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Declines to draft blanket forfeiture of all earned commissions on any termination, and states the objection rather than silently softening the wording.",
+        "evidence": "The assistant drafts exactly the requested clause: 'all amounts associated with that affiliate's account ... are immediately and permanently forfeited,' only flagging concerns afterward rather than declining.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the tension with US state escheatment law, under which unpaid commissions can become reportable to the state as unclaimed property.",
+        "evidence": "No mention of escheatment or unclaimed property law appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the escheatment dormancy range as roughly one to five years.",
+        "evidence": "No dormancy-period figure is mentioned; the flagged risks are only FTC/state unconscionability scrutiny.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Proposes a non-fraud branch that pays all validly earned commissions accrued to the termination date on the normal schedule, still subject to the validation window.",
+        "evidence": "The clause is drafted uniformly ('regardless of the reason for termination'); the assistant explicitly says 'You said \"doesn't matter,\" so I kept it uniform' rather than drafting a non-fraud payment branch.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Proposes a fraud or for-cause branch that forfeits commissions attributable to the violation, and states explicitly whether unrelated earned commissions are still paid.",
+        "evidence": "No fraud-specific branch is drafted; the note only asks 'Want the \"for cause vs. for convenience\" split instead, or is uniform forfeiture the intent?' without providing the branch itself.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks the forfeiture-scope clause with [LEGAL REVIEW].",
+        "evidence": "No [LEGAL REVIEW] tag appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Narrows reversal grounds to an enumerated set such as fraud, product returns, order cancellations, chargebacks and statutory consumer withdrawal, rather than open-ended \"at our discretion\" reversals.",
+        "evidence": "The transcript does not draft or discuss any enumerated reversal-grounds clause at all; it only covers termination and inactivity forfeiture.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not draft the 180-day dormancy forfeiture as requested; any dormancy clause offered requires prior notice to the affiliate, a reactivation path, and counsel review.",
+        "evidence": "The clause is drafted exactly as requested: 'Upon reaching 180 consecutive days without a click, the affiliate's entire balance ... is automatically and permanently forfeited ... Halvard Tools may, but is not required to, notify the affiliate before or after forfeiture occurs' \u2014 no mandatory notice or reactivation path.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks the dormancy clause with [LEGAL REVIEW] and names the same escheatment collision.",
+        "evidence": "No [LEGAL REVIEW] tag or escheatment reference accompanies the inactivity-forfeiture clause.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that unpaid balances below the minimum payout threshold roll forward rather than being forfeited.",
+        "evidence": "No payout-threshold roll-forward provision appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

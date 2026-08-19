@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Runs an ally-versus-acquire-versus-build test before scoring anything",
+        "evidence": "\"Pre-filter: ally vs. acquire vs. build (Dyer, Kale & Singh, 2004)\" section precedes the gates and scorecard.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies Ostrander as a candidate where building rather than allying may be the right mode, citing the five engineer-month rebuild estimate",
+        "evidence": "\"The whole synergy on offer is one model you could rebuild in ~5 engineer-months.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes wrong-mode candidates at that pre-filter step rather than carrying them into the scorecard",
+        "evidence": "\"Verdict: build. Removed from the alliance list, not scored.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Refuses to average the Verrow Athletic brand-safety concern into a composite score as a percentage deduction",
+        "evidence": "\"On the finance lead's suggestion (15% deduction...) Rejecting this, explicitly.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that gates never average",
+        "evidence": "\"'a SOC 2 failure is not worth any number of scorecard points' \u2014 the same logic applies to an unresolved labor controversy\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats brand safety as a pass/fail gate for the consumer co-brand candidates",
+        "evidence": "Gate table column \"Brand safety (B2C)\" with \"FAIL \u2014 unresolved supply-chain labor controversy\" for Verrow Athletic.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the candidate list as hybrid, carrying both B2B and B2C currencies",
+        "evidence": "\"Strategic goal: hybrid \u2014 B2B pipeline into banks (risk-engine licensing) and B2C incremental revenue/distribution (consumer app)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Runs both evaluation logics on the hybrid candidates: pipeline math and brand-fit or contagion screening",
+        "evidence": "Separate \"B2B tech alliance criteria\" and \"B2C co-brand criteria\" tables, the latter including \"Brand fit / attitude congruence\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gates on the stricter of the two logics rather than blending or averaging them",
+        "evidence": "\"Verrow Athletic does not get scored. It gets a gate failure and a re-entry trigger (below), full stop.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Prevents Verrow Athletic's strong pipeline contribution from buying it past the unresolved brand-safety flag",
+        "evidence": "\"It lets Verrow's genuinely strong pipeline number (best of the five, by your account) buy back points that a pass/fail issue shouldn't be able to buy back at any price.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Draws the capacity line on summed effort estimates inside the nine manager-months",
+        "evidence": "\"Effort-sum: Bank Alliance B (4) + Consumer Co-Brand B (3) = 7 of 9 manager-months.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names security and compliance plus financial viability as the B2B side's signature gates alongside brand safety on the consumer side",
+        "evidence": "Gate table lists \"Financial viability | Security/compliance\" columns applied to the B2B candidate alongside \"Brand safety (B2C)\" for the consumer candidate.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Runs an ally-versus-acquire-versus-build test before scoring anything",
+        "evidence": "Section 3, 'Ostrander \u2014 partner, but use the build option as leverage,' explicitly weighs building vs. partnering: 'Five engineer-months to replicate their whole product is a strong BATNA.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies Ostrander as a candidate where building rather than allying may be the right mode, citing the five engineer-month rebuild estimate",
+        "evidence": "\"Five engineer-months to replicate their whole product is a strong BATNA.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes wrong-mode candidates at that pre-filter step rather than carrying them into the scorecard",
+        "evidence": "Ostrander is kept as an ally candidate and appears in the final capacity allocation table with 1.0 manager-month, not removed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Refuses to average the Verrow Athletic brand-safety concern into a composite score as a percentage deduction",
+        "evidence": "\"Reject the 15% deduction approach... Averaging Verrow Athletic's labor-risk exposure into its score as a flat 15% haircut is the wrong mechanism.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that gates never average",
+        "evidence": "\"Use a two-axis model instead: merit score (blind to the controversy) \u00d7 independent risk gate (legal/comms, not finance). Report both numbers side by side. Never collapse them into one.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats brand safety as a pass/fail gate for the consumer co-brand candidates",
+        "evidence": "\"Don't score around the issue \u2014 resolve or fence it: 1. Get legal/comms to classify status... 3. If active or worsening: pause the co-brand conversation entirely.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the candidate list as hybrid, carrying both B2B and B2C currencies",
+        "evidence": "\"These plug directly into the risk-engine licensing line, which is a different (and arguably more central) business than the consumer app.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Runs both evaluation logics on the hybrid candidates: pipeline math and brand-fit or contagion screening",
+        "evidence": "Bank alliances are only justified qualitatively via 'compliance/security review overhead is unavoidable' \u2014 no quantitative pipeline math is shown alongside the brand-safety gate logic.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gates on the stricter of the two logics rather than blending or averaging them",
+        "evidence": "\"Highest pipeline contribution doesn't matter if the deal has to be unwound publicly six months in \u2014 that costs more than the pipeline is worth.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Prevents Verrow Athletic's strong pipeline contribution from buying it past the unresolved brand-safety flag",
+        "evidence": "\"Highest pipeline contribution doesn't matter if the deal has to be unwound publicly six months in.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Draws the capacity line on summed effort estimates inside the nine manager-months",
+        "evidence": "Table sums to 2.5+2.5+1.5+1.5+1.0 = 9.0 manager-months under the header 'Capacity allocation \u2014 9 manager-months.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names security and compliance plus financial viability as the B2B side's signature gates alongside brand safety on the consumer side",
+        "evidence": "Only 'compliance/security review overhead' is mentioned as a rationale, not framed as a pass/fail gate, and financial viability is never mentioned for the bank alliances.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

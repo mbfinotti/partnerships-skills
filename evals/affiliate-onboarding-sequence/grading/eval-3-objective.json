@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the proposed removal-threat wording and does not produce a version of it",
+        "evidence": "'Not a termination threat... So the email below leads with a bonus and a deadline, not a removal warning.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason as motivation research finding threats counterproductive, rather than as a tone or brand preference",
+        "evidence": "'opportunity-framed incentives; motivation research finds threats counterproductive' (Hiam 1999...)",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Reframes the message as an opportunity with a finish line, for example an incentive that expires on a stated date",
+        "evidence": "'Do it before day 60 and we'll add $15 on top of your normal commission for your first sale.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends archiving or suppressing never-activated accounts rather than deleting them",
+        "evidence": "'Archive, don't delete: suppression keeps the active-rate metric honest and leaves the door open.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that suppression keeps the active-rate metric honest and leaves the door open",
+        "evidence": "Same quote: 'suppression keeps the active-rate metric honest and leaves the door open.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places the final-notice email far later than the proposed 60 days, at roughly six months of zero clicks and zero replies",
+        "evidence": "The table keeps final notice at day 55 and archive at day 60 per the user's plan; the 6-month figure is only mentioned as a flag ('One flag worth knowing, not a reason to change your mind') without being adopted.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Frames that final notice as housekeeping rather than punishment",
+        "evidence": "Day 55 copy: 'We keep the program tidy by archiving accounts with no activity... Place your link anytime before then to stay active.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Separates never-activated affiliates (never clicked) from dormant ones (were active, then stopped) and states they get different messages",
+        "evidence": "'confirm it's genuinely never-activated (zero clicks ever), not a dormant affiliate who was active and stopped \u2014 those get a different message, not this branch.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Limits re-engagement to roughly one or two touches before the final notice",
+        "evidence": "Table shows one re-engagement (day 45) then final notice (day 55) then archive (day 60).",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Puts a diagnostic checkpoint at the end of the activation window, before any re-engagement message is sent",
+        "evidence": "'Day 30 | Window closes | Internal check only: confirm it's genuinely never-activated...' precedes the day-45 re-engagement email.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Equips the re-engagement touch with one concrete incentive and one ready-to-use asset, not encouragement alone",
+        "evidence": "Day-45 email offers '$15 on top of your normal commission' plus 'pet owners convert well on [best-sellers / new-arrivals page: asset link]'.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the proposed removal-threat wording and does not produce a version of it",
+        "evidence": "The transcript produces the full threat email: 'Your affiliate account will be closed in 15 days \u2014 send your first click now ... Per our program policy, accounts with no activity within 60 days of approval are removed from the program.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason as motivation research finding threats counterproductive, rather than as a tone or brand preference",
+        "evidence": "No such reasoning is given; the email is written and delivered as requested.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Reframes the message as an opportunity with a finish line, for example an incentive that expires on a stated date",
+        "evidence": "The message is framed around deactivation risk, not an expiring incentive: 'if we don't see activity by [date...], your account will be deactivated.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends archiving or suppressing never-activated accounts rather than deleting them",
+        "evidence": "'Delete at day 60 with zero clicks ... revoke access programmatically.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that suppression keeps the active-rate metric honest and leaves the door open",
+        "evidence": "No mention of metric honesty; rationale given is enforcement consistency: 'inconsistent enforcement is what causes affiliates to ignore future deadlines.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places the final-notice email far later than the proposed 60 days, at roughly six months of zero clicks and zero replies",
+        "evidence": "'Total chases before removal: 3, sent at day 30 ... day 45 ... day 55 (final notice, 5 days left).' Final notice is at day 55, not ~6 months.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Frames that final notice as housekeeping rather than punishment",
+        "evidence": "The email frames it punitively: 'we're actively cleaning up inactive accounts, and yours is on that list' combined with a hard deadline threat.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Separates never-activated affiliates (never clicked) from dormant ones (were active, then stopped) and states they get different messages",
+        "evidence": "Only one distinction is drawn \u2014 'exclude accounts with clicks but zero conversions' \u2014 as a deletion exclusion, not as a separate messaging track.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Limits re-engagement to roughly one or two touches before the final notice",
+        "evidence": "'sent at day 30 (soft reminder), day 45 (this firm one), day 55 (final notice...)' \u2014 two touches (day 30, day 45) precede the final notice.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Puts a diagnostic checkpoint at the end of the activation window, before any re-engagement message is sent",
+        "evidence": "No diagnostic checkpoint is mentioned; the cadence goes straight from approval to scheduled chase emails.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Equips the re-engagement touch with one concrete incentive and one ready-to-use asset, not encouragement alone",
+        "evidence": "The email offers only conditional help ('reply ... we'll send you 3 product picks ... plus a ready-to-use caption'), with no concrete incentive (bonus/discount) attached.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

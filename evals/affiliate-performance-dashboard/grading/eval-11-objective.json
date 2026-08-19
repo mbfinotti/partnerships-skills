@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Gives ROAS as attributed revenue divided by media cost.",
+        "evidence": "\"There's no separate media-spend line in an affiliate program, so 'cost' here *is* cost of sale \u2014 state that substitution on the tile so nobody reads it as ad spend\" \u2014 ROAS is explicitly NOT defined as revenue/media cost.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives ROI with COGS added to the denominator, distinct from ROAS.",
+        "evidence": "\"ROI = (Attributed order revenue \u2212 Total cost) \u00f7 Total cost \u00d7 100, where Total cost = affiliate cost of sale (same as ROAS) + COGS of the goods in those orders\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly whether COGS sits in the denominator and warns against using ROAS and ROI interchangeably.",
+        "evidence": "\"Two ROI formulas exist in circulation and disagree... Reconciled definition to use here\" combined with COGS explicitly placed in ROI's Total cost but excluded from ROAS's cost-of-sale basis.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies AOV net of returns and excluding tax and shipping, and states that convention in the definition.",
+        "evidence": "AOV is defined as \"net of returns, inclusive of tax/shipping\" \u2014 explicitly including, not excluding, tax and shipping.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States AOV decides nothing unless it is sliced by partner type.",
+        "evidence": "\"Unsliced, this metric decides nothing; slice by partner type before anyone acts on it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines the conversion rate with unique clicks in the denominator and declares the click convention.",
+        "evidence": "\"Validated conversions... \u00f7 **unique** clicks in the same period \u00d7 100. Naming 'unique' is the whole definition\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that what counts as a click, whether raw, unique, deduplicated or bot-filtered, varies by source, which is why the convention must be stated.",
+        "evidence": "\"raw vs. unique vs. bot-filtered clicks alone can move this number 2-6x between two people looking at 'the same' export.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declares which EPC convention applies: per click, per 100 clicks, or per visitor.",
+        "evidence": "\"expressed in currency **per single click** (not per-100-clicks, not per-visitor \u2014 all three are used in the wild)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Warns that a blended network EPC predicts no individual affiliate's EPC and must not be used to set a partner target.",
+        "evidence": "No mention of blended/network-wide EPC or a warning against using it to set individual partner targets.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines the active-affiliate rate with a required meaningful action and a fixed window, naming both.",
+        "evidence": "\"Affiliates with \u22651 validated conversion in the trailing 30 days \u00f7 total enrolled affiliates as of the same date \u00d7 100.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines new-to-file as conversions from customers not previously in the customer file divided by total partner conversions.",
+        "evidence": "\"Affiliate-attributed validated conversions where the customer... has **no prior order anywhere in full order history** \u00f7 total affiliate-attributed validated conversions in the period \u00d7 100.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps every definition to one sentence naming numerator, denominator, window, timezone, and counting method.",
+        "evidence": "\"Timezone / currency: not specified in the brief \u2014 pick one... Every metric below is undefined until that's fixed\" \u2014 timezone is explicitly deferred, not named within each metric's definition.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Gives ROAS as attributed revenue divided by media cost.",
+        "evidence": "'ROAS... Net merchandise revenue from attributed orders in period \u00f7 Affiliate spend in period.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives ROI with COGS added to the denominator, distinct from ROAS.",
+        "evidence": "'ROI = (ROAS \u2212 1) \u00d7 100 \u2014 keep both metrics consistent by construction'; COGS is never added, and ROI is defined as mathematically derived from ROAS, not distinct.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States explicitly whether COGS sits in the denominator and warns against using ROAS and ROI interchangeably.",
+        "evidence": "COGS is never mentioned (only 'platform/tech fees or affiliate network fees'), and the text instead urges keeping ROAS and ROI 'consistent by construction,' not warning against conflating them.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Specifies AOV net of returns and excluding tax and shipping, and states that convention in the definition.",
+        "evidence": "'Use net orders (returns excluded)... Use net merchandise revenue (tax/shipping excluded) \u2014 otherwise AOV inflates with tax-rate mix and shipping-fee changes.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States AOV decides nothing unless it is sliced by partner type.",
+        "evidence": "No such requirement about slicing AOV by partner type is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines the conversion rate with unique clicks in the denominator and declares the click convention.",
+        "evidence": "'Denominator = clicks, not unique clickers \u2014 one person clicking twice within the window and ordering once still divides by 2 clicks, not 1.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that what counts as a click, whether raw, unique, deduplicated or bot-filtered, varies by source, which is why the convention must be stated.",
+        "evidence": "Only the chosen convention (raw clicks) is stated; no discussion of cross-source variation in click definitions.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declares which EPC convention applies: per click, per 100 clicks, or per visitor.",
+        "evidence": "'Standard industry convention: EPC is expressed as earnings per 100 clicks, in dollars.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Warns that a blended network EPC predicts no individual affiliate's EPC and must not be used to set a partner target.",
+        "evidence": "No such warning about blended EPC vs individual affiliate targets appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines the active-affiliate rate with a required meaningful action and a fixed window, naming both.",
+        "evidence": "'Active = generated at least one click OR at least one attributed order in the period... recommend: at least one click, since \"active\" should mean \"did something.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines new-to-file as conversions from customers not previously in the customer file divided by total partner conversions.",
+        "evidence": "'Number of attributed orders from first-time customers in period \u00f7 Total attributed orders in period \u00d7 100.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps every definition to one sentence naming numerator, denominator, window, timezone, and counting method.",
+        "evidence": "Each metric spans multiple bullet points (e.g. ROAS has four separate bullets), and timezone is deferred to a separate 'Open items' note rather than stated per metric.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

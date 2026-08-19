@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to treat a high last-click share or an above-average conversion rate as evidence of fraud on its own",
+        "evidence": "'A high last-click share is *never itself* evidence of fraud on its own.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that low incrementality is a repricing problem, never a fraud or enforcement problem",
+        "evidence": "'That's a repricing problem by default, not fraud.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends running an incrementality test before any repricing or termination decision",
+        "evidence": "'Step 3 \u2014 Run this in parallel: an incrementality test tells you whether it's a fraud problem or a pricing problem'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the practical pause test (pause commissions for that partner type in one market for 4-6 weeks) as the first test to run, on value-per-effort grounds",
+        "evidence": "'Start with the practical pause test (cheapest, run it first...): pause SaveSnap commissions for 4\u20136 weeks'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Ranks the incrementality methods explicitly and places the user-level holdout last on efficiency despite it giving the cleanest causal read",
+        "evidence": "Only the practical pause test is discussed; no ranking of multiple incrementality methods or mention of a user-level holdout appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that attribution proxies are correlational and must never justify repricing a partner on their own",
+        "evidence": "No explicit statement that attribution proxies are 'correlational' or that they must never justify repricing on their own; closest is the fraud-only framing, not repricing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Presents the evidence as genuinely contested in both directions: the agency framework claim that last-click overstates affiliate contribution by 30 to 40%, and the comScore/Google finding that 94% of transactions driven by coupon-affiliate paid-search ads were incremental",
+        "evidence": "'one agency framework claims last-click overstates extension/coupon contribution by 30\u201340%; a comScore/Google study found 94% of coupon-affiliate-driven transactions were incremental. Both are cited with an agenda.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the test-outcome rule: no revenue movement when paused means reprice to a lower tier and keep the partner; revenue dropping means the partner is incremental, so leave the rate alone and recalibrate the rule that flagged them",
+        "evidence": "'No revenue movement | ... | Reprice to a lower commission tier, keep them as a partner' / 'Revenue drops | ... | Leave the rate alone; recalibrate whatever flagged them'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Lists the evidence that would actually support enforcement: stand-down violations, attribution flipping seconds before purchase, referrer obfuscation, cookie-drop reproduction, or shared device/IP across accounts",
+        "evidence": "Step 2 table: cookie-drop reproduction, stand-down/attribution-flip audit, redirect-chain+referrer capture, chargeback correlation, session/CTIT timing; plus device fingerprint/IP cross-reference",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Checks whether the program terms actually permit this checkout-moment behavior before alleging any violation",
+        "evidence": "'Does your affiliate contract require extension partners to \"stand down\" when an earlier affiliate is already in the clickstream...?'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Warns that clawing back an already-paid commission without contractual clawback authority is itself a breach",
+        "evidence": "'If it doesn't, clawing back paid commissions is itself a breach of your own terms'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes the repricing decision to commission-structure work rather than handling it as enforcement",
+        "evidence": "'Route to a lower commission tier via your payout-audit/commission-structure process, not fraud enforcement'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to treat a high last-click share or an above-average conversion rate as evidence of fraud on its own",
+        "evidence": "'That pattern alone is **not proof of fraud** \u2014 it could be: Legitimate but low-value... A contract/terms problem... Actual fraud.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that low incrementality is a repricing problem, never a fraud or enforcement problem",
+        "evidence": "Step 3 states 'If conversion barely moves... clean evidence of non-incremental, last-click-poaching behavior, and the basis for both termination and a clawback ask' \u2014 treating low incrementality as grounds for enforcement, contradicting the rubric.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends running an incrementality test before any repricing or termination decision",
+        "evidence": "Sequencing step 4: 'Bring findings to legal/network before any termination or clawback notice goes out' after the incrementality holdout (Step 3) is run.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the practical pause test (pause commissions for that partner type in one market for 4-6 weeks) as the first test to run, on value-per-effort grounds",
+        "evidence": "The holdout described is 'suppress SaveSnap's tracking/cookie for 2\u20133 weeks' and is Step 3 (after forensics and technical checks), not framed as the first, cheapest test.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ranks the incrementality methods explicitly and places the user-level holdout last on efficiency despite it giving the cleanest causal read",
+        "evidence": "No explicit efficiency ranking of incrementality methods is given; sequencing is about evidence-building order, not efficiency.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that attribution proxies are correlational and must never justify repricing a partner on their own",
+        "evidence": "The closest statement is 'Forensics prove correlation; a holdout proves causation' but this is not framed as a rule against repricing on correlation alone.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Presents the evidence as genuinely contested in both directions: the agency framework claim that last-click overstates affiliate contribution by 30 to 40%, and the comScore/Google finding that 94% of transactions driven by coupon-affiliate paid-search ads were incremental",
+        "evidence": "No such citations appear anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the test-outcome rule: no revenue movement when paused means reprice to a lower tier and keep the partner; revenue dropping means the partner is incremental, so leave the rate alone and recalibrate the rule that flagged them",
+        "evidence": "Transcript instead says no movement is 'the basis for both termination and a clawback ask,' not reprice-to-lower-tier as the rubric specifies.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Lists the evidence that would actually support enforcement: stand-down violations, attribution flipping seconds before purchase, referrer obfuscation, cookie-drop reproduction, or shared device/IP across accounts",
+        "evidence": "Only cookie-fire timing and phantom-coupon checks are given; stand-down violations, referrer obfuscation, and shared device/IP are never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Checks whether the program terms actually permit this checkout-moment behavior before alleging any violation",
+        "evidence": "'Pull the actual affiliate agreement / network T&Cs... Check the specific clawback clause... Check the network's browser-extension/coupon-extension policy.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Warns that clawing back an already-paid commission without contractual clawback authority is itself a breach",
+        "evidence": "'Calling it \"fraud\" and clawing back 90 days without evidence exposes Kestrel to a breach-of-contract counterclaim from SaveSnap.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes the repricing decision to commission-structure work rather than handling it as enforcement",
+        "evidence": "Decision matrix: 'Not fraud \u2014 renegotiate to a lower \"assist\" commission tier or exclude last-24h-before-checkout attribution window. No clawback.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

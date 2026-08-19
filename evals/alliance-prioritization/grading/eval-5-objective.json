@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Runs creator fraud vetting as a pass/fail screen before any scoring, not as a scored criterion",
+        "evidence": "\"Creator fraud vetting (pass/fail)... Not run on any of them. This is a signature B2C gate and it runs before scoring, not after.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats Marisse Bell's unverified follower base as unscreened rather than pre-screened",
+        "evidence": "\"it's that 'unscreened' and 'clean' look identical on a spreadsheet, and only one of them survives a gate\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires an audience audit from a fraud-screening tool as the evidence behind that gate",
+        "evidence": "\"commission an independent audience/fraud audit (not agency-supplied) before she re-enters scoring\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names brand safety as a second pass/fail gate for this candidate list",
+        "evidence": "\"Brand safety (values conflict, active controversy) | All 11 | Not run \u2014 no names for 9 of them\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names brand fit or attitude congruence as the core fit construct on the B2C side",
+        "evidence": "The scorecard uses 'Resource/audience complementarity' as the top B2B-style criterion; no distinct 'brand fit / attitude congruence' construct is named anywhere in this section.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that attitude spillover between paired brands runs in both directions and not symmetrically",
+        "evidence": "\"reduced brand esteem on average for the higher-esteem partner \u2014 which argues Halvern has more to lose here than you do\" (asymmetric spillover).",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Warns that as the high-esteem brand Solane is the more exposed party in the Halvern co-brand, rather than the automatic beneficiary",
+        "evidence": "The transcript states the opposite fact pattern: Halvern, not Solane, is described as the more prestigious/exposed party (\"Halvern has more to lose here than you do\").",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Caps audience overlap as one input rather than letting the agency's reach ranking be the ranking spine",
+        "evidence": "\"Audience/overlap (capped) | 5% | Your agency's entire ranking lived here. It flags warm reach; it doesn't predict alliance success. Capped, not the spine.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the method spine, including staged gates, justified weights, sensitivity analysis, the capacity line, and the memo shape, is identical to the B2B version rather than inventing a separate B2C method",
+        "evidence": "No explicit statement comparing this method's structure to a B2B version appears anywhere in the section.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Demands incrementality-tested metrics rather than vanity reach figures",
+        "evidence": "\"reach-generated rankings are the weakest criteria set this method recognizes\" and \"fraud/incrementality audit\" required before scoring.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Scores effort per candidate and ranks on value against effort rather than on reach",
+        "evidence": "The ranking table shows effort and value composite as '\u2014'/'Not scoreable'/'Provisional only' for all candidates \u2014 no actual effort scoring or value\u00f7effort ranking is produced.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Issues a verdict per candidate drawn from go, conditional-go, recycle, hold, and kill",
+        "evidence": "Candidates are marked 'BLOCKED' and 'CONDITIONAL' gate statuses, not final verdicts drawn from the go/conditional-go/recycle/hold/kill vocabulary.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Draws a capacity line and leaves below-the-line candidates with explicit re-entry triggers",
+        "evidence": "No capacity line or above/below-the-line placement is drawn since no candidates were actually scored; only 'Next gates' items are listed.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Runs creator fraud vetting as a pass/fail screen before any scoring, not as a scored criterion",
+        "evidence": "\"Until that comes back clean, treat her as unranked, not #1.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats Marisse Bell's unverified follower base as unscreened rather than pre-screened",
+        "evidence": "\"2.1M followers + 48% overlap is a number worth independently verifying before it enters a ranking, not after you sign her.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires an audience audit from a fraud-screening tool as the evidence behind that gate",
+        "evidence": "\"Run her through a third-party audit (HypeAuditor or Modash) yourself.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names brand safety as a second pass/fail gate for this candidate list",
+        "evidence": "Brand-safety history is only listed as a data point to send ('Any prior brand-safety history...'), not framed as a pass/fail gate like the fraud check.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names brand fit or attitude congruence as the core fit construct on the B2C side",
+        "evidence": "The memo instead names 'purchase-intent overlap' / category-spend overlap as the key metric, not 'brand fit' or 'attitude congruence.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that attitude spillover between paired brands runs in both directions and not symmetrically",
+        "evidence": "The halo/junior-partner discussion implies two possible effects but never states the spillover is asymmetric between the two brands.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Warns that as the high-esteem brand Solane is the more exposed party in the Halvern co-brand, rather than the automatic beneficiary",
+        "evidence": "The memo frames Halvern, not Solane, as 'more prestigious,' and Solane as the one 'reaching up' \u2014 the opposite framing from Solane being the high-esteem exposed party.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Caps audience overlap as one input rather than letting the agency's reach ranking be the ranking spine",
+        "evidence": "\"Reach is their incentive (bigger name, bigger fee), not yours\" and the closing plan to rank on 'cost-per-qualified-reach and brand-fit' rather than reach alone.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the method spine, including staged gates, justified weights, sensitivity analysis, the capacity line, and the memo shape, is identical to the B2B version rather than inventing a separate B2C method",
+        "evidence": "No reference to a prior B2B methodology or equivalence claim appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Demands incrementality-tested metrics rather than vanity reach figures",
+        "evidence": "Requests engagement rate and category-spend overlap, but never uses an incrementality-testing concept.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scores effort per candidate and ranks on value against effort rather than on reach",
+        "evidence": "Effort/cost is only requested as one input for a future ranking ('Cost (fee or media spend)'); no value/effort ranking is actually performed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Issues a verdict per candidate drawn from go, conditional-go, recycle, hold, and kill",
+        "evidence": "No such verdict vocabulary or per-candidate verdicts are given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Draws a capacity line and leaves below-the-line candidates with explicit re-entry triggers",
+        "evidence": "Only asks about the '4 slots' and diversification preference; no capacity line or re-entry triggers are defined.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

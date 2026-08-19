@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses the pre-approved-account CTA while no account has actually been set up per prospect",
+        "evidence": "'I didn't write \"your affiliate account is already approved and waiting.\" It's false on both counts \u2014 nobody's set up in the platform.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States a pre-approved-account claim with no pre-approval behind it burns the prospect permanently",
+        "evidence": "'a pre-approved-account CTA with no pre-approval behind it \"burns the prospect permanently\".'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a CTA the manager cannot honor is deleted rather than demoted, and says explicitly which CTA was dropped and why",
+        "evidence": "The opening explicitly names the exact false line it refused to write and explains why, replacing it entirely rather than softening it in the plan.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects adding the calendar link as a second ask, holding the message to exactly one CTA",
+        "evidence": "'Note on the dual CTA: the skill's quality gate wants exactly one ask per email \u2014 two links can dilute reply rate... You asked for the Calendly as a backup, so I kept it' \u2014 the second CTA was kept, not rejected.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes a booked-call CTA is wrong for a cold first touch of this type, belonging to B2B tier 1 from touch 3 onward if used at all",
+        "evidence": "No statement in this transcript scopes booked-calls to B2B tier 1 or touch-3-onward; the Calendly link is instead kept in the B2C touch 1 itself.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends reply-for-info or the apply link as the honorable CTA for this cold first touch",
+        "evidence": "'Apply here: [APPLY LINK] \u2014 a couple minutes' is used as the primary CTA.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the two-week application review as a documented failure mode that sours the pitch",
+        "evidence": "'your ~2-week review time is a real conversion tax \u2014 it's the exact failure mode this skill calls out (\"slow application review souring the pitch\").'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Commits to a 24-48 hour application review turnaround before outreach launches",
+        "evidence": "'Worth fixing at the ops level (target 24\u201348h) rather than papering over it in the email.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States pre-approved accounts require real per-prospect setup work before sending, and scopes them to B2C tier 1 if used at all",
+        "evidence": "'Once accounts are actually being pre-set-up for a tier, the pre-approved-account CTA becomes legitimately available' mentions setup work but never scopes it specifically to B2C tier 1.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not keep the pre-approved-account line as an aspirational, hedged, or 'coming soon' claim",
+        "evidence": "The final email template and sequence contain no version of the pre-approved-account claim; it is discussed only in the closing meta-commentary, not in any sendable copy.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses the pre-approved-account CTA while no account has actually been set up per prospect",
+        "evidence": "'I'm not going to write that opening line. \"Your affiliate account is already approved and waiting\" is a factual claim \u2014 the account isn't approved.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States a pre-approved-account claim with no pre-approval behind it burns the prospect permanently",
+        "evidence": "The transcript cites FTC risk and 'a false statement to get a click' but never states the relationship is permanently burned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a CTA the manager cannot honor is deleted rather than demoted, and says explicitly which CTA was dropped and why",
+        "evidence": "'I'm not going to write that opening line' explicitly names and drops the pre-approved-account claim, replacing it with a status-honest opening.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects adding the calendar link as a second ask, holding the message to exactly one CTA",
+        "evidence": "The rewritten email keeps 'grab 15 minutes on my calendar: {{calendly_link}}' as an active CTA alongside the passive 'no action needed' framing, rather than rejecting it as a second ask.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes a booked-call CTA is wrong for a cold first touch of this type, belonging to B2B tier 1 from touch 3 onward if used at all",
+        "evidence": "No such note appears; the Calendly CTA is instead framed as 'a shortcut for engaged applicants... your backup ask, positioned to convert.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends reply-for-info or the apply link as the honorable CTA for this cold first touch",
+        "evidence": "The email's action option is the Calendly booking link, not a reply-for-info or apply-link CTA.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags the two-week application review as a documented failure mode that sours the pitch",
+        "evidence": "The 2-week timeline is framed positively as honesty/expectation-setting: 'Naming the real 2-week timeline sets expectations, which reduces \"did this get lost\" follow-up emails' \u2014 not flagged as a failure mode to fix.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Commits to a 24-48 hour application review turnaround before outreach launches",
+        "evidence": "The transcript accepts and builds copy around the existing '~2-week review time' rather than proposing a faster turnaround.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States pre-approved accounts require real per-prospect setup work before sending, and scopes them to B2C tier 1 if used at all",
+        "evidence": "No mention of per-prospect setup requirements or B2C-tier scoping for pre-approved accounts.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not keep the pre-approved-account line as an aspirational, hedged, or 'coming soon' claim",
+        "evidence": "The rewritten email entirely replaces the claim with 'applications like yours are moving through review right now' \u2014 no hedged version of the original claim remains.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

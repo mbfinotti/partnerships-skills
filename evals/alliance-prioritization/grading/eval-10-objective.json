@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Identifies the named re-ranking triggers that fired: the acquisition of Askerton, the funding event at Firthwell, and the slipped gate milestone at Sable Point",
+        "evidence": "\"Acquired by a direct competitor (March)\" for Askerton; \"Down round (May)\" for Firthwell; \"shipped nothing in 12 months\" / \"named PM unresponsive\" for Sable Point.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a reversed top three signals weak criteria rather than a changed world unless a named trigger fired",
+        "evidence": "No such general principle statement appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Confirms triggers did fire here and connects each one to the candidate it affects",
+        "evidence": "Gate table directly ties each event (acquisition, down round) to the corresponding candidate's gate result.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Records Pennard Tech in a regret log as a passed-over candidate that partnered with a competitor and visibly performed",
+        "evidence": "\"Pennard Tech (held last year) signed with your closest competitor in June and is reportedly performing well. This is the skill's own 'regret log' KPI landing directly on your desk\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the regret log as the honest test of where the cut line was drawn",
+        "evidence": "\"the only honest test of the cut line, and it's painful by design\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Re-runs the financial viability gate on Firthwell after the down round rather than only re-scoring it",
+        "evidence": "\"Firthwell | Financial viability | CONDITIONAL PASS | Down round (May) raises fold/fire-sale risk\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Re-runs the gate set on Askerton given the change of ownership by a competitor",
+        "evidence": "\"Askerton | Legal/antitrust exposure + Gomes-Casseres three-laws | FAIL | Acquired by a direct competitor (March)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires every held candidate to carry an explicit re-entry trigger and flags any hold that lacked one as a slow kill nobody admitted to",
+        "evidence": "\"Pennard Tech's original hold carried no dated re-entry trigger \u2014 the documented failure mode where 'a hold with no trigger is a slow kill nobody admitted to.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Measures the share of shortlisted alliances that hit their first-value milestone by the gate date",
+        "evidence": "No such metric or measurement appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Issues fresh verdicts drawn from go, conditional-go, recycle, hold, and kill for every candidate",
+        "evidence": "Table assigns \"GO\" to Corrowine, \"CONDITIONAL-GO\" to Firthwell, \"RECYCLE\" to Sable Point, and \"KILL\" to Askerton.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sets the next portfolio review date and the triggers that would force an earlier one",
+        "evidence": "\"Re-run at the earliest of: quarterly cadence, Firthwell's 30-day runway condition clearing or failing, Sable Point's 60-day recycle trigger, or another named competitor signing an alliance you passed on.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Judges the prioritization decision itself rather than the partners' ongoing operational performance",
+        "evidence": "The memo audits \"last year's Pennard Tech hold memo specifically for a missing trigger before assuming the scorecard itself was fine,\" focusing on the decision process rather than partner operations.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Identifies the named re-ranking triggers that fired: the acquisition of Askerton, the funding event at Firthwell, and the slipped gate milestone at Sable Point",
+        "evidence": "Table entries: 'Askerton | Acquired by a competitor of ours (March)', 'Firthwell | Down round (May)', 'Sable Point | Shipped nothing, PM went dark.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a reversed top three signals weak criteria rather than a changed world unless a named trigger fired",
+        "evidence": "No such general principle is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Confirms triggers did fire here and connects each one to the candidate it affects",
+        "evidence": "Each row of the status table links a specific event to its candidate and resulting signal (e.g., 'Conflict of interest' for Askerton's acquisition).",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Records Pennard Tech in a regret log as a passed-over candidate that partnered with a competitor and visibly performed",
+        "evidence": "'Held | Pennard Tech | Signed with our closest competitor (June), reportedly going well | \u26a0\ufe0f False negative \u2014 we passed, they won.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the regret log as the honest test of where the cut line was drawn",
+        "evidence": "\"That's not noise, it's a calibration failure: our hold threshold is filtering out partners good enough for rivals to win.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Re-runs the financial viability gate on Firthwell after the down round rather than only re-scoring it",
+        "evidence": "\"Gate this on a quick solvency/runway check before committing resources \u2014 promote only if diligence clears them.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Re-runs the gate set on Askerton given the change of ownership by a competitor",
+        "evidence": "\"This needs legal/security review this week, independent of where it would otherwise rank.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires every held candidate to carry an explicit re-entry trigger and flags any hold that lacked one as a slow kill nobody admitted to",
+        "evidence": "No such general requirement or 'slow kill' framing is stated for held candidates.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Measures the share of shortlisted alliances that hit their first-value milestone by the gate date",
+        "evidence": "No such metric is computed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Issues fresh verdicts drawn from go, conditional-go, recycle, hold, and kill for every candidate",
+        "evidence": "Statuses used are ad hoc labels ('urgent exit review,' 'fast-track evaluation,' 'stay killed') rather than the go/conditional-go/recycle/hold/kill vocabulary applied consistently.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Sets the next portfolio review date and the triggers that would force an earlier one",
+        "evidence": "No next review date or early-review triggers are given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Judges the prioritization decision itself rather than the partners' ongoing operational performance",
+        "evidence": "\"That's not noise, it's a calibration failure: our hold threshold is filtering out partners good enough for rivals to win\" \u2014 critiques the decision process, not just partner performance.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

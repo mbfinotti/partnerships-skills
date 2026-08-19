@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Deletes the hold/validation window rung from the deliverable rather than parking it as a future step, and says explicitly that the platform rules it out",
+        "evidence": "'That combination rules out the single highest-leverage control this skill would normally lead with (a hold window)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the remaining control order becomes rule set, then new/high-risk partner terms, then the clawback clause set",
+        "evidence": "'That leaves detection rules, new-partner terms, and clawback authority to do all the work.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that clawback authority, negative-balance carry-forward, and a chargeback reserve stop being optional once the hold window is unavailable",
+        "evidence": "'the clawback clause stops being optional. It's the only mechanism left that gets money back once it's out the door'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Skips 2-standard-deviation outlier math and per-event scoring at 14 partners, calling them false precision on a sample that small",
+        "evidence": "'statistical outlier detection (2 standard deviations, automated per-event scoring) is false precision \u2014 you have too few data points'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends inspecting the partner list by hand instead, and names roughly 20 partners as the point below which the statistical rungs are dropped",
+        "evidence": "The transcript says 'reading 14 rows by eye every month is faster' but never names a numeric threshold (e.g. ~20 partners) below which statistical rungs are dropped.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Collapses the 24-48 hour Hold & Investigate cross-functional review into Watch plus a single monthly batch review",
+        "evidence": "Instead the plan keeps a distinct Hold & Investigate band, redefined as 'Pause the affiliate's tracking link immediately... spend up to an hour confirming' \u2014 it is not collapsed into Watch+monthly.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the two-hours-per-week review ceiling as the reason for that collapse",
+        "evidence": "No collapse into Watch+monthly occurs (see above), so this dependent justification is also absent.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps list filtration (data-center ASN, declared bots, non-browser user agents) because it costs near-zero effort and requires no judgment call",
+        "evidence": "'R9 ... Any match | \u2014 (list filter) | ... None \u2014 this is list-based, not a judgment call'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Ranks the signal families by value per unit of effort and leads with list filtration, then downstream outcomes",
+        "evidence": "List filtration (R9) is placed in 'Phase 2' after downstream-outcome rules (R1-R7) in 'Phase 1' \u2014 the opposite ordering.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not propose device fingerprinting or a purchased fraud-scoring tool as an early move",
+        "evidence": "No purchased fraud-scoring tool or fingerprinting vendor is proposed; R2/R3 use existing order data only.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends longer payout terms (net-60 or net-90) and stricter application filters for new and high-risk partners as the substitute available on this platform",
+        "evidence": "Transcript specifies 'net-45 payout instead of instant', not net-60 or net-90.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Says which of the stated constraints moved which control in the ranking",
+        "evidence": "'With 14 affiliates, statistical outlier detection... is false precision' and 'With no hold window and 2 hours a week, two of the four usual controls are gone'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Deletes the hold/validation window rung from the deliverable rather than parking it as a future step, and says explicitly that the platform rules it out",
+        "evidence": "The deliverable instead relocates a hold-like mechanism to payout time: 'Add a gate one step later, at payout... The weekly scan below sets that flag on suspicious commissions before the batch runs' \u2014 it does not delete the concept but reimplements it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the remaining control order becomes rule set, then new/high-risk partner terms, then the clawback clause set",
+        "evidence": "No such explicit control ordering is stated; the deliverable moves from rule set to weekly review process to a one-line contract addition at the end.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that clawback authority, negative-balance carry-forward, and a chargeback reserve stop being optional once the hold window is unavailable",
+        "evidence": "Only a single clawback line is suggested ('reserving the right to withhold or claw back commissions under fraud review'); negative-balance carry-forward and a chargeback reserve are never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Skips 2-standard-deviation outlier math and per-event scoring at 14 partners, calling them false precision on a sample that small",
+        "evidence": "The deliverable does the opposite: it builds a detailed per-order weighted scoring system ('Score per order = sum of triggered weights') for the 14 affiliates.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends inspecting the partner list by hand instead, and names roughly 20 partners as the point below which the statistical rungs are dropped",
+        "evidence": "Not present; the approach is fully SQL/scoring-based rather than manual list inspection.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Collapses the 24-48 hour Hold & Investigate cross-functional review into Watch plus a single monthly batch review",
+        "evidence": "The review cadence given is weekly ('Your weekly 2 hours... Monday, 5 min'), not monthly.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the two-hours-per-week review ceiling as the reason for that collapse",
+        "evidence": "'At 14 affiliates you should see 0\u20132 flagged per week \u2014 that's the point, this is built to stay inside your 2-hour budget, not to flag everything.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps list filtration (data-center ASN, declared bots, non-browser user agents) because it costs near-zero effort and requires no judgment call",
+        "evidence": "No ASN/bot/user-agent list filtration is mentioned anywhere in the deliverable.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ranks the signal families by value per unit of effort and leads with list filtration, then downstream outcomes",
+        "evidence": "No such ranking exercise appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not propose device fingerprinting or a purchased fraud-scoring tool as an early move",
+        "evidence": "'Don't buy a fraud SaaS at this scale... this script is proportionate; a $500+/month tool wouldn't be' and no device fingerprinting is proposed (only IP reuse).",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends longer payout terms (net-60 or net-90) and stricter application filters for new and high-risk partners as the substitute available on this platform",
+        "evidence": "No mention of net-60/net-90 payout terms or application filters.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Says which of the stated constraints moved which control in the ranking",
+        "evidence": "No such ranking-to-constraint mapping is present.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

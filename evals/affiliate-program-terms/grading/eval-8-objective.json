@@ -1,0 +1,118 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Declines to give a single settled answer on the affiliate's role, and states that the allocation is genuinely disputed.",
+        "evidence": "'[LEGAL REVIEW] \u2014 this is one of the field's three genuinely contested areas; the recommendation above is the drafting team's position for counsel to ratify, not settled law.' and 'the processor/joint-controller/independent-controller dispute exists because most affiliate architectures do involve data flowing through a third party'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the advertiser is always a data controller.",
+        "evidence": "'9.1 Roles. Company is a data controller for personal data processed in connection with the Program, including all data collected through the Company Tracking Script on Company's own domains and applications.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Presents all three candidate positions for the network or affiliate: processor, joint controller, and independent controller.",
+        "evidence": "Table rows: 'Processor | SaaS tracking-vendor pattern...', 'Joint controller | One major affiliate network's public position...', 'Independent controller | Another major network's public position...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that different major market participants publicly take different positions, for example a tripartite joint-controller position at one network, an independent-controller position at another, and a processor position for SaaS tracking vendors.",
+        "evidence": "'Joint controller | One major affiliate network's public position' vs 'Independent controller | Another major network's public position' vs 'Processor | SaaS tracking-vendor pattern'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not rank the three positions by effort, cost, or payoff, and explains that they are competing readings of one legal fact rather than options with different returns.",
+        "evidence": "The table frames each position by 'Would apply to you if...' (fact pattern), e.g. 'You started routing personal data through affiliate-controlled pixels/tech' \u2014 not by cost/effort/payoff ranking.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the chosen position to be recorded explicitly in a DPA incorporated by the terms.",
+        "evidence": "The chosen 'independent controller / not a processor' position is recorded directly in clause 9.1 of the Terms itself, not in a DPA; the only DPA reference is prospective \u2014 clause 9.2: 'the parties will execute Company's then-current Data Processing Agreement before such processing begins' only if data flows later change \u2014 and 9.5 refers to DPAs 'with its own sub-processors,' not with affiliates for the current position.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks the data-protection role allocation with [LEGAL REVIEW].",
+        "evidence": "'[LEGAL REVIEW: GDPR role allocation for the affiliate is genuinely disputed across the industry \u2014 processor vs. joint controller vs. independent controller. The position below is the program's intended position, not a settled legal conclusion; confirm with counsel before this clause is finalized.]'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Obliges affiliates to honour cookie-consent requirements on their own properties before a tracking cookie is set.",
+        "evidence": "'9.3 ... Affiliate will comply with all applicable data protection and e-privacy law with respect to any personal data it processes on its own properties in connection with the Program, including obtaining any consent required before placing tracking technology or cookies on its own site.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags US state privacy law opt-out and service-provider contract requirements if California consumers come into scope.",
+        "evidence": "The transcript contains no mention of CCPA, California, or any US state privacy law anywhere in the answer or the drafted clause 9.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Declines to give a single settled answer on the affiliate's role, and states that the allocation is genuinely disputed.",
+        "evidence": "The transcript opens with 'Straight answer for your DPO' and concludes definitively: 'Affiliates are independent (separate) data controllers \u2014 not processors, not joint controllers,' with no statement that this is genuinely disputed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the advertiser is always a data controller.",
+        "evidence": "No general statement that the advertiser is always a controller appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Presents all three candidate positions for the network or affiliate: processor, joint controller, and independent controller.",
+        "evidence": "The text tests and rules out processor status ('A processor relationship (Art. 28 GDPR) requires...') and joint controllership ('the CJEU's Fashion ID test for joint controllership... You don't have that here') before settling on independent controller.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that different major market participants publicly take different positions, for example a tripartite joint-controller position at one network, an independent-controller position at another, and a processor position for SaaS tracking vendors.",
+        "evidence": "No mention of differing positions taken by specific networks or vendors appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not rank the three positions by effort, cost, or payoff, and explains that they are competing readings of one legal fact rather than options with different returns.",
+        "evidence": "The transcript eliminates two positions via legal tests without ever framing them explicitly as 'competing readings of one legal fact.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the chosen position to be recorded explicitly in a DPA incorporated by the terms.",
+        "evidence": "The controller language is embedded directly as a 'Data Protection clause' inserted into the affiliate terms themselves, not recorded in a separately incorporated DPA.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks the data-protection role allocation with [LEGAL REVIEW].",
+        "evidence": "No [LEGAL REVIEW] marker appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Obliges affiliates to honour cookie-consent requirements on their own properties before a tracking cookie is set.",
+        "evidence": "Clause 5: 'Affiliate is solely responsible for its own GDPR compliance regarding the personal data it processes ... including lawful basis, its own privacy notice, and any cookie/tracking consent required on its own properties.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags US state privacy law opt-out and service-provider contract requirements if California consumers come into scope.",
+        "evidence": "The US-affiliate discussion only covers GDPR Chapter V transfer mechanisms (SCCs, DPF) \u2014 CCPA/CPRA opt-out signals and service-provider contract terms are never mentioned in this transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

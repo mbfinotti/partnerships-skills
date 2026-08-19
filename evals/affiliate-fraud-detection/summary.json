@@ -1,0 +1,547 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "affiliate-fraud-detection",
+  "scenarios": 10,
+  "expectations_total": 126,
+  "expectations_subjective": 2,
+  "expectations_objective": 124,
+  "pass_rate_with_skill_pct": 75.4,
+  "pass_rate_without_skill_pct": 24.6,
+  "delta_pp": 50.8,
+  "uplift_multiplier": 3.07,
+  "trigger_accuracy_pct": 86.0,
+  "trigger_queries": 114,
+  "subjective_ac2": 1.0,
+  "subjective_pass_disagreements": [],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.270 (Claude Code)",
+  "conditions": {
+    "mcp_servers": "disabled",
+    "project_claude_md": "not loaded (trials and grading)",
+    "user_claude_md": "loaded",
+    "dynamic_prompt_sections": "excluded"
+  },
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Explains that throttling new commissions to zero pending review preserves evidence that an immediate ban destroys"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Ranks the incrementality methods explicitly and places the user-level holdout last on efficiency despite it giving the cleanest causal read"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States that attribution proxies are correlational and must never justify repricing a partner on their own"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Explains that B2B lead-gen fraud surfaces weeks later in downstream rates, unlike B2C attribution theft which shows up in click-timing and chargeback signals within hours to days"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Notes that AI-generated synthetic traffic erodes behavioral heuristics, so server-side postbacks and downstream outcomes should carry more weight than session behavior"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Requires an investigation dossier and lists its fields, including affiliate and platform ID, rules triggered with timestamps, baseline versus observed values, evidence artifacts, financial exposure, declared traffic source versus observed referrers, prior warnings, recommended action with reviewer name, and appeal status with deadline"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Runs the tier-3 enforcement ladder in order: suspend, reverse or void violation-period commissions, claw back paid amounts, terminate, network report, then legal referral"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Tags the 3% chargeback threshold as a vendor rule of thumb rather than an industry constant"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Flags that stolen-card chargebacks can land 60 to 180 days after the sale, so the hold window alone never recovers commission already paid"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends inspecting the partner list by hand instead, and names roughly 20 partners as the point below which the statistical rungs are dropped"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Collapses the 24-48 hour Hold & Investigate cross-functional review into Watch plus a single monthly batch review"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names the two-hours-per-week review ceiling as the reason for that collapse"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Ranks the signal families by value per unit of effort and leads with list filtration, then downstream outcomes"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends longer payout terms (net-60 or net-90) and stricter application filters for new and high-risk partners as the substitute available on this platform"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Gives the pass pair: at least 80% of known incidents fire at Hold & Investigate or above, and at most 5% of sampled flags are false positives"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Cites Snyder & Kanich's two-feature timing classifier at roughly 2-second thresholds (Journal of Cybersecurity, 2016): 93.3% accuracy, 1.5% false positive, 5.2% false negative"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Reports results to leadership in commission-loss dollars saved and recovered rather than in vague risk language"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Triggers a program-level escalation (revisit hold windows, partner vetting, tooling) when confirmed-fraud rate or reversed-commission share climbs materially quarter over quarter"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Recommends retiring rules that only ever produce false positives"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Ranks cross-account identity last of the four signal families on value per unit of effort while noting it sits at the top on evidence value"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Names the condition that promotes cross-account identity anyway: a case that has to survive network compliance or a wire-fraud referral, where a dossier without a shared-fingerprint or shared-payout finding rarely gets acted on"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Notes that no volume of timing signal substitutes for a shared-identity finding in such a dossier"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that a data-center or VPN flag on a single lead is weak while the same fingerprint recurring across many supposedly unrelated leads is strong"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Applies the under-2-second time-on-site-after-cookie-set threshold and tags it as an academic result rather than a vendor heuristic"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Warns against alleging a crime without both a clear contract violation and technical evidence, and says to enforce the contract instead"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Prices the contract change at roughly a quarter including legal drafting and partner re-assent, and notes it is barely reversible once shipped"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Identifies the pattern as stolen-card transaction fraud, whose tell is chargebacks landing 60 to 180 days later concentrated on one affiliate"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Notes the hold window change is roughly an hour of reversible platform configuration, so it ships immediately while the contract work runs in parallel"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Recommends weighting server-side signals and downstream outcomes such as revenue per visitor, lead quality, and retention, because synthetic traffic looks normal behaviorally while downstream outcomes stay at zero"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Warns that over-blocking on untuned vendor thresholds churns real partners and drops program revenue"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Names Suspend & Escalate as the band the efficiency ranking starves, and gives the conditions that promote it: confirmed-fraud rate or reversed-commission share climbing quarter over quarter, or a case that has to survive network compliance"
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Identifies the 14-day payout timing as the primary problem and recommends extending the commission validation/hold window to the 30-90 day range before any detection rule is written"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States that the hold/validation window is a higher-leverage control than the detection rule set itself"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Cites the finding that delaying affiliate payments by two to four months could eliminate more than 70% of fraud without decreasing profit, attributed to Edelman (Edelman & Brandi, Journal of Marketing Research, 2015)"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Rejects the '17% of affiliate traffic is fake / $3.4B' figure as single-vendor marketing with circular citation and refuses to use it as a baseline or planning assumption"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Notes that a 14-day window is far shorter than the 120-day standard Visa/Mastercard chargeback filing limit"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Recommends clawback authority, negative-balance carry-forward, and a chargeback reserve as the only controls that recover commission already paid out"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Flags that the contract work takes roughly a quarter (legal drafting plus partner re-assent) and cannot land before Thursday, while the hold window is a one-hour, reversible platform setting that can"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Says thresholds must be derived from at least 90 days of Vellum & Thread's own per-affiliate data rather than adopted from a published number"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Tags every numeric threshold it proposes with its provenance: vendor or agency rule of thumb, academic result, or derived from the program's own data"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Explains that throttling new commissions to zero pending review preserves evidence that an immediate ban destroys"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Names, for each rule, the legitimate behavior that could trip it and the check that separates it from fraud"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States that low incrementality is a repricing problem, never a fraud or enforcement problem"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Names the practical pause test (pause commissions for that partner type in one market for 4-6 weeks) as the first test to run, on value-per-effort grounds"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Ranks the incrementality methods explicitly and places the user-level holdout last on efficiency despite it giving the cleanest causal read"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States that attribution proxies are correlational and must never justify repricing a partner on their own"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Presents the evidence as genuinely contested in both directions: the agency framework claim that last-click overstates affiliate contribution by 30 to 40%, and the comScore/Google finding that 94% of transactions driven by coupon-affiliate paid-search ads were incremental"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Gives the test-outcome rule: no revenue movement when paused means reprice to a lower tier and keep the partner; revenue dropping means the partner is incremental, so leave the rate alone and recalibrate the rule that flagged them"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Lists the evidence that would actually support enforcement: stand-down violations, attribution flipping seconds before purchase, referrer obfuscation, cookie-drop reproduction, or shared device/IP across accounts"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Keeps any partner-facing communication neutral and avoids the word 'fraud' with the partner"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Builds the rule set around downstream outcome rates (lead-to-qualified, lead-to-demo-show, closed-won) rather than click-timing or session-duration signals"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States explicitly that B2C click-timing rules applied to a B2B lead-gen program produce false positives"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Explains that B2B lead-gen fraud surfaces weeks later in downstream rates, unlike B2C attribution theft which shows up in click-timing and chargeback signals within hours to days"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Includes a form-fill speed rule (under roughly 3 seconds, no pointer movement, identical field-skip patterns) tagged as a vendor rule of thumb"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Includes a conversion-velocity rule such as 3 or more leads in the same minute, or metronomic spacing around 30 seconds"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Includes disposable-email and role-account domain share among the partner's leads as a signal"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Names the legitimate trip risk for the velocity rule as a webinar or conference-scan batch upload, checked against the event calendar"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Names autofill power users as the legitimate trip risk for the form-fill-speed rule and pairs it with a second signal before acting"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Recommends manual review plus IP/email validation over automated per-event scoring at 44 partners, and names roughly 50 affiliates or $50K/month commission spend as the point where that order flips"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Derives the lead-to-qualified and lead-to-demo-show thresholds from SignalCrate's own 90-day per-partner baseline rather than quoting a published rate"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Places any duplicate-contact-data or device-fingerprint rule behind a legal review gate that names the lawful basis, the retention period, and who can access the matched records"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Notes that AI-generated synthetic traffic erodes behavioral heuristics, so server-side postbacks and downstream outcomes should carry more weight than session behavior"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Corrects the outbound message: never use the word 'fraud' with the flagged partner, and keep external wording neutral and factual, such as commissions under review pending a routine quality check with a date for the next update"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States the network will not police the program, because networks earn a share of commission volume and their compliance is reactive, acting only on evidence-backed complaints"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Requires an investigation dossier and lists its fields, including affiliate and platform ID, rules triggered with timestamps, baseline versus observed values, evidence artifacts, financial exposure, declared traffic source versus observed referrers, prior warnings, recommended action with reviewer name, and appeal status with deadline"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Runs the tier-3 enforcement ladder in order: suspend, reverse or void violation-period commissions, claw back paid amounts, terminate, network report, then legal referral"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Places a 7% chargeback rate above the starting threshold of 3% in a rolling 30 days and assigns Suspend & Escalate"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Tags the 3% chargeback threshold as a vendor rule of thumb rather than an industry constant"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Requires the case to be reviewed or signed off by someone other than the analyst who detected it"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Opens a published appeal window of roughly 14 days with evidence submitted in writing before termination is final"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Flags that stolen-card chargebacks can land 60 to 180 days after the sale, so the hold window alone never recovers commission already paid"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Warns that an unfounded fraud allegation carries its own liability and that suspension can breach the published program terms"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Deletes the hold/validation window rung from the deliverable rather than parking it as a future step, and says explicitly that the platform rules it out"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the remaining control order becomes rule set, then new/high-risk partner terms, then the clawback clause set"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that clawback authority, negative-balance carry-forward, and a chargeback reserve stop being optional once the hold window is unavailable"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Skips 2-standard-deviation outlier math and per-event scoring at 14 partners, calling them false precision on a sample that small"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends inspecting the partner list by hand instead, and names roughly 20 partners as the point below which the statistical rungs are dropped"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Collapses the 24-48 hour Hold & Investigate cross-functional review into Watch plus a single monthly batch review"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Keeps list filtration (data-center ASN, declared bots, non-browser user agents) because it costs near-zero effort and requires no judgment call"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Ranks the signal families by value per unit of effort and leads with list filtration, then downstream outcomes"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends longer payout terms (net-60 or net-90) and stricter application filters for new and high-risk partners as the substitute available on this platform"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Says which of the stated constraints moved which control in the ranking"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Gives the pass pair: at least 80% of known incidents fire at Hold & Investigate or above, and at most 5% of sampled flags are false positives"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Labels that pair as a calibration anchor rather than an industry constant"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Cites Snyder & Kanich's two-feature timing classifier at roughly 2-second thresholds (Journal of Cybersecurity, 2016): 93.3% accuracy, 1.5% false positive, 5.2% false negative"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Handles the absent incident history by saying so in the deliverable and scheduling the threshold as a first-quarterly-review gate on sampled flags, rather than inventing a backtest"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Describes the backtest design as historical confirmed incidents plus a random sample of both flagged and unflagged partners reviewed manually"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Lists the KPI set: flagged rate, confirmed-fraud rate, false-positive rate from sampled review, reversed-commission share, and recovered spend"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Reports results to leadership in commission-loss dollars saved and recovered rather than in vague risk language"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Says the false-positive rate must come from sampled manual review rather than from partner complaints alone"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States that if both halves of the threshold cannot be met, the deliverable names the missing data or history instead of shipping an untested rule set"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Triggers a program-level escalation (revisit hold windows, partner vetting, tooling) when confirmed-fraud rate or reversed-commission share climbs materially quarter over quarter"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Recommends retiring rules that only ever produce false positives"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Does not green-light shipping the cross-account identity rules in three weeks as scoped"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Classifies device fingerprinting, cross-account email/phone/address matching, and click-IP-to-billing-address comparison as processing of personal data"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Requires three things to be stated before the design goes to counsel: the lawful basis, the retention period, and who can see the matched records"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that fraud prevention is a commonly cited lawful basis but not an automatic one, and that 'we needed it to catch fraud' is not a basis at all"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Cites the UK regulator's published position that deploying fingerprinting requires fair choices and possibly consent even outside advertising"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Ranks cross-account identity last of the four signal families on value per unit of effort while noting it sits at the top on evidence value"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Prices its effort at roughly a quarter covering lawful basis, retention design, access control, and counsel sign-off, contradicting the three-week estimate"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Recommends building list filtration first and downstream outcomes second, before adding cross-account identity"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Names the condition that promotes cross-account identity anyway: a case that has to survive network compliance or a wire-fraud referral, where a dossier without a shared-fingerprint or shared-payout finding rarely gets acted on"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Notes that no volume of timing signal substitutes for a shared-identity finding in such a dossier"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States that a data-center or VPN flag on a single lead is weak while the same fingerprint recurring across many supposedly unrelated leads is strong"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Specifies the cookie-drop reproduction test: clean browser, visit the suspect property, record whether an affiliate cookie is set without any click"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires a timestamped redirect-chain capture along with the tracking URLs"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires server-log review for hidden iframe loads and referrer patterns"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Compares the traffic source DealBurrow declared at application against the referrers actually observed"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Checks for typosquatted or misspelled lookalike brand domains and unknown intermediate domains in the redirect chain"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Cites Chachra, Savage & Voelker (IMC 2015): 84% of stuffed cookies in their crawl arrived via typosquatted or intermediate domains and over 91% via redirects"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Applies the under-2-second time-on-site-after-cookie-set threshold and tags it as an academic result rather than a vendor heuristic"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Notes that cookie stuffing is prosecutable as US federal wire fraud and that the eBay cases are the only adjudicated dollar figures, including roughly $28M in commissions drawing five months of federal prison and a $25,000 fine, and a second defendant sentenced to fifteen months within about $5.2M paid"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Gives the standard Visa/Mastercard chargeback filing limit of 120 days from the transaction"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Gives the services-not-received, delayed-delivery and not-as-described limit: 120 days from the expected delivery date, capped at 540 days from the transaction"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Sizes the chargeback reserve at roughly 10-15% of commissions, released quarterly while the chargeback rate stays below threshold"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States that clawing back a paid commission without those clauses is itself a breach"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Prices the contract change at roughly a quarter including legal drafting and partner re-assent, and notes it is barely reversible once shipped"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Moves the hold window to the long end of the 30-90 day range because this is a subscription and high-chargeback vertical"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Identifies the pattern as stolen-card transaction fraud, whose tell is chargebacks landing 60 to 180 days later concentrated on one affiliate"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Notes the hold window change is roughly an hour of reversible platform configuration, so it ships immediately while the contract work runs in parallel"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States that coordinated legitimate spikes during launch or promo windows mechanically resemble bot bursts"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Replaces the outlier rule for the three new partners with first-week watchpoints and longer payout terms such as net-60 or net-90"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "States that a handful of partners driving most sales is the normal affiliate power law, not a fraud signal"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Notes that AI-generated synthetic traffic engineers realistic scroll depth, dwell time, and session lifecycle, defeating first-generation behavioral filters"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Recommends weighting server-side signals and downstream outcomes such as revenue per visitor, lead quality, and retention, because synthetic traffic looks normal behaviorally while downstream outcomes stay at zero"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Names Suspend & Escalate as the band the efficiency ranking starves, and gives the conditions that promote it: confirmed-fraud rate or reversed-commission share climbing quarter over quarter, or a case that has to survive network compliance"
+      }
+    ]
+  }
+}

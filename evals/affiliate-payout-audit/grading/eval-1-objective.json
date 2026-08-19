@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to treat 3,575 as a conversion count and states the two sources cannot be summed",
+        "evidence": "\"they use different attribution windows... Summing them into 3,575 double-counts an unknown but likely large share of orders. Action: retract the 3,575 figure already given to the exec team\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the differing attribution windows (7-day vs 30-day) and differing dedup identity as the reason the two counts are not additive populations",
+        "evidence": "F-1 only cites attribution windows (\"they use different attribution windows, so a conversion the tracker credits on day 20 simply never appears in the network's 7-day count\"); dedup identity difference is never linked as a reason for non-additivity, only listed separately as a FAIL under check 6.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies a comparability gate before computing any total, covering event definition, date basis, time window, timezone, currency, counting method, and dedup identity",
+        "evidence": "Checks cover date basis/timezone (check 1), event definition/window (check 3), and dedup (check 6), but currency and counting method are never mentioned anywhere in the report.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires one canonical source be declared per conversion with the other reconciled against it, never a union of the two lists",
+        "evidence": "\"pick one canonical source (normally whichever one is contractually payable \u2014 usually the network export \u2014 with the in-house tracker used only as a QA cross-check, never as a second payable count)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the roughly $2,900 gap as unexplained variance that must be explained line by line rather than attributed to tracking noise",
+        "evidence": "\"$31,406.18 proposed vs. $28,500 internal estimate is not tracking noise \u2014 it's 9.3% of the run... drive this to $0 unexplained (or to a documented, line-itemized set of findings)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects 'close enough' or 'within noise' as a basis for approving the run",
+        "evidence": "\"drive this to $0 unexplained... before release \u2014 not 'close enough.'\" and \"Unexplained delta | $2,906.18 | above any plausible materiality bar \u2014 FAIL, not PASS\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the absence of maker-checker separation: the person who calculated the run must not be the person releasing the funds",
+        "evidence": "\"F-3 | BLOCKER | no maker-checker: You calculate the run and release it yourself.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that maker-checker is the gate never dropped, and names a concrete second reader despite the four-person team size",
+        "evidence": "\"This is non-negotiable regardless of team size \u2014 small teams still need the roles to differ\" and \"hand the recomputed run to one of the other three people for sign-off\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a shared idempotency key across the two trackers as the structural fix, flagged even though these duplicates were caught manually",
+        "evidence": "No mention of an idempotency key or of duplicates being caught manually; the only recommendation is \"dedupe on order/transaction ID before any total is reported again.\"",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Produces a payout audit report containing Scope, Checks, Findings with severity and dollars at risk, Exceptions, Variance, Cleared, and Sign-off",
+        "evidence": "The report has Checks, Findings, Variance, Cleared, and Sign-off headings but no explicit 'Scope' or 'Exceptions' section headings anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Shows the variance working: gross difference, the findings that explain it, and a residual that is either zero or itself a written-down finding",
+        "evidence": "Variance table lists the figures and \"Unexplained delta | $2,906.18 | above any plausible materiality bar \u2014 FAIL\", tied to F-2 as a written-down finding.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to treat 3,575 as a conversion count and states the two sources cannot be summed",
+        "evidence": "\"1,904 (network, 7-day window) + 1,671 (in-house, 30-day window) = 3,575 treats these as separate conversions. They're not \u2014 they're two different systems measuring the same underlying purchases with different attribution windows.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the differing attribution windows (7-day vs 30-day) and differing dedup identity as the reason the two counts are not additive populations",
+        "evidence": "The transcript names only the differing attribution windows as the reason ('with different attribution windows'); it never frames differing dedup identity between the two systems as a reason the counts aren't additive \u2014 it only later mentions matching keys as the fix.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Applies a comparability gate before computing any total, covering event definition, date basis, time window, timezone, currency, counting method, and dedup identity",
+        "evidence": "No mention of event definition, date basis, timezone, currency, or counting method \u2014 only attribution window and matching keys are discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires one canonical source be declared per conversion with the other reconciled against it, never a union of the two lists",
+        "evidence": "The transcript explicitly recommends a union approach: \"The correct number is a deduplicated union, found by matching individual conversions... not by adding aggregate totals.\"",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the roughly $2,900 gap as unexplained variance that must be explained line by line rather than attributed to tracking noise",
+        "evidence": "\"The $2,900 gap is not noise... Reconcile it as a line-item difference (which conversions are in the calculated run but not the spreadsheet, and vice versa) before treating it as acceptable drift.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects 'close enough' or 'within noise' as a basis for approving the run",
+        "evidence": "\"'Normal tracking noise' is a label, not an explanation\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the absence of maker-checker separation: the person who calculated the run must not be the person releasing the funds",
+        "evidence": "\"Have one other person on the team review the reconciliation output before you release the payment. Four-person team is exactly why this matters: there's no one else in the loop today, and this is money leaving the company.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that maker-checker is the gate never dropped, and names a concrete second reader despite the four-person team size",
+        "evidence": "The text only says \"one other person on the team\" without naming a concrete reader or stating this gate is never dropped.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a shared idempotency key across the two trackers as the structural fix, flagged even though these duplicates were caught manually",
+        "evidence": "No mention of idempotency keys anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Produces a payout audit report containing Scope, Checks, Findings with severity and dollars at risk, Exceptions, Variance, Cleared, and Sign-off",
+        "evidence": "The transcript is a narrative memo with ad hoc headers (issue 1/2/3, a to-do list) \u2014 no Scope/Checks/Findings/Exceptions/Cleared/Sign-off structure is present.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Shows the variance working: gross difference, the findings that explain it, and a residual that is either zero or itself a written-down finding",
+        "evidence": "No gross-difference/residual computation is shown; the $2,900 gap is flagged as needing reconciliation but no worked variance table is produced.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

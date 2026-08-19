@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Ranks the remediation options by value recovered per unit of effort and relationship capital spent, not by the nominal dollar amount at stake",
+        "evidence": "The answer does work through an ordered remediation ladder (correct before release \u2192 offset \u2192 absorb \u2192 fix forward \u2192 direct recovery) and, to its credit, treats the $148.80 and the $3,110 lines identically rather than escalating effort for the bigger number \u2014 so it is not ranking by nominal dollars. It also nods once at effort economics ('Worth a two-minute check before you finalize') and once at the lazy-option framing ('not because \"eating it\" is the lazy option'). But the actual elimination logic is purely structural/contractual: options are 'closed, not just inconvenient' because the terms",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Ranks the remediation options by value recovered per unit of effort and relationship capital spent, not by the nominal dollar amount at stake",
+        "evidence": "The answer consistently reasons from recovery-cost rather than headline amount: for 88412 it asks whether a future payout exists to net against ('If there's no live balance to net against, don't chase it \u2014 $148.80 isn't worth a contract dispute'), implicitly ordering offset > clawback > write-off. For the much larger $3,110 it still says eat it, explicitly on effort/relationship grounds: 'nothing to net... no relationship left to leverage', 'buys you legal exposure and a bad story in affiliate circles, for a sum that's a rounding error next to that risk' \u2014 i.e. the bigger nominal sum is deprio",
+        "score": 4,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

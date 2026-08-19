@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Flags the 7-day validation window as shorter than the 30-day customer return window and requires it be sized to the reversal curve rather than to affiliate impatience",
+        "evidence": "\"Your validation window (7 days) is less than a quarter of your return window (30 days)... The window isn't sized to the reversal curve, it's sized to affiliate complaints.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that high-return verticals such as apparel need 30 or more days of validation",
+        "evidence": "\"Apparel returns run high by nature (skill benchmark: ~25%+)\" combined with the argument that the window should match the 30-day return curve rather than being shortened for affiliate complaints.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Compares the 19%, 22% and 24% reversal rates against planning bands of roughly 2-8% for CPA programs and states the program runs far above band",
+        "evidence": "\"CPA planning bands top out at 8% \u2014 you're already 2\u20133x that.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the above-band reversal rate as a trigger to lengthen the validation window or tighten qualification before payout, not merely a metric to report",
+        "evidence": "\"Fix the window/return mismatch (F-1) \u2014 this is the actual bug... Use the fix-it-forward move built for exactly this tension: keep a fast payout cadence, but hold a reserve/holdback\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags every reversal carrying no documented reason code as a finding, on the grounds that uncoded reversals are unauditable and fuel partner disputes",
+        "evidence": "\"Roughly half your reversals have no reason code... an uncoded reversal is unauditable and indistinguishable from an erroneous void.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names usable reversal reason codes such as invalid card, return or cancellation, duplicate order, customer fraud, affiliate fraud, non-qualified lead, and test transaction",
+        "evidence": "\"Per the standard reason-code list (invalid card, return/cancellation, duplicate order, customer fraud, affiliate fraud, non-qualified lead, test transaction)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Escalates any reversal coded affiliate fraud out of this audit to fraud review, verifying only the arithmetic of the reversal here",
+        "evidence": "\"including affiliate fraud, which is out of this audit's scope but worth flagging to fraud review if a pattern shows up once coded\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the 63 pending-to-paid lines as records that skipped the approved and locked states",
+        "evidence": "\"Pending \u2192 paid with no approved/locked state in between is a skipped state, not a fast validation.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that auto-approval means unreviewed lines approve themselves, so approved status is not evidence of review",
+        "evidence": "\"'I think our platform auto-approves' is the right instinct: find the config rule causing this... These 63 lines never got even the (already too-short) 7-day window \u2014 they got zero.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Holds every line still inside its validation window rather than releasing it with a note",
+        "evidence": "The closing instruction only says \"hold the 63 lines and the ~20 uncoded reversals; release the remainder\" with no separate hold for lines still within an open validation window.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Tracks run-over-run KPIs including payout accuracy rate, exception value as a share of run value, reversal or clawback rate against the band, post-payout correction rate, and dispute rate",
+        "evidence": "No KPI list of this kind appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Flags the 7-day validation window as shorter than the 30-day customer return window and requires it be sized to the reversal curve rather than to affiliate impatience",
+        "evidence": "\"Root cause: your validation window is shorter than your return window... Every payout batch is finalized before ~77% of the return window has even elapsed.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that high-return verticals such as apparel need 30 or more days of validation",
+        "evidence": "The transcript recommends 'extend validation toward 30 days' as one option but never states this as a general rule for high-return verticals like apparel.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Compares the 19%, 22% and 24% reversal rates against planning bands of roughly 2-8% for CPA programs and states the program runs far above band",
+        "evidence": "No numeric benchmark band is cited anywhere; the trend is discussed only relative to itself ('19% \u2192 22% \u2192 24%').",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the above-band reversal rate as a trigger to lengthen the validation window or tighten qualification before payout, not merely a metric to report",
+        "evidence": "\"Close the window gap. Either extend validation toward 30 days, or... split the payout: pay a partial share... at day 7, hold the rest in reserve\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags every reversal carrying no documented reason code as a finding, on the grounds that uncoded reversals are unauditable and fuel partner disputes",
+        "evidence": "\"~20 of 41 reversals with no note means you can't tell why money is coming back... Force a reason code on every reversal before it's netted against the run.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names usable reversal reason codes such as invalid card, return or cancellation, duplicate order, customer fraud, affiliate fraud, non-qualified lead, and test transaction",
+        "evidence": "\"fixed reason taxonomy (return / chargeback / fraud / duplicate / manual adjustment)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Escalates any reversal coded affiliate fraud out of this audit to fraud review, verifying only the arithmetic of the reversal here",
+        "evidence": "Fraud escalation language ('self-referral', 'stolen-card fraud') is applied to the 63 auto-approved lines, not to reversals specifically coded as affiliate fraud, and no arithmetic-only verification distinction is drawn.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags the 63 pending-to-paid lines as records that skipped the approved and locked states",
+        "evidence": "\"A broken gate that force-approves commission with zero manual/automated check\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that auto-approval means unreviewed lines approve themselves, so approved status is not evidence of review",
+        "evidence": "\"Don't pay them on the theory that they're probably fine \u2014 that's exactly the assumption that let them skip review once already.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Holds every line still inside its validation window rather than releasing it with a note",
+        "evidence": "Not addressed; no discussion of lines currently inside the validation window being held.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Tracks run-over-run KPIs including payout accuracy rate, exception value as a share of run value, reversal or clawback rate against the band, post-payout correction rate, and dispute rate",
+        "evidence": "Only 'Split the reversal-rate metric by cause' and a trend trigger are mentioned; no accuracy rate, exception-value share, correction rate, or dispute rate KPIs are named.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

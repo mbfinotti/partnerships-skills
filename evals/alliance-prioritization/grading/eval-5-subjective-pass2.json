@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Models at least one negative-spillover scenario per shortlisted candidate and what it would cost Solane",
+        "evidence": "No candidate is actually shortlisted (every row is 'Not ranked'), so the per-candidate requirement is never discharged. For the two named candidates there are only gestures at spillover, not modeled scenarios with costs: Halvern gets 'reduced brand esteem on average for the higher-esteem partner' (framed as Halvern's exposure, not Solane's), 'asymmetric-prestige/dilution watch', and an exclusivity clause that 'may lock you out of adjacent-category partnerships for the term, which is a real cost' \u2014 the cost is asserted, never sized or traced (no lost-partnership, revenue, or positioning consequ",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Models at least one negative-spillover scenario per shortlisted candidate and what it would cost Solane",
+        "evidence": "Only two of eleven candidates get any spillover reasoning, and the response explicitly refuses to produce a shortlist at all ('I can't produce a real ranking yet'), so there is no set of shortlisted candidates with per-candidate downside modeling. Where it does engage: Halvern gets a genuine spillover scenario ('junior-partner effect \u2014 you look like the brand reaching up... your 95\u20ac-basket positioning gets diluted rather than elevated'), which is the strongest item here. Marisse Bell gets only a generic, unmodeled gesture ('a fraud scandal costs more than the fee') with no scenario mechanics a",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

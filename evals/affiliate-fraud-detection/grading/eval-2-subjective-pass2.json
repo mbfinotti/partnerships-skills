@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Keeps any partner-facing communication neutral and avoids the word 'fraud' with the partner",
+        "evidence": "Step 1 states explicitly: \"**Do not** terminate, and never use the word \"fraud\" externally yet\" and prescribes the exact neutral partner-facing wording: \"Tell SaveSnap only that commissions are 'under routine quality review, update by [date].'\" It also motivates the neutrality with liability reasoning (\"risks litigating an unfounded fraud allegation against a legitimate partner\") and reinforces it in the dossier template (\"Appeal: neutral notice sent [date]; 14-day window open\") plus the CFO framing section (\"Don't pre-commit to 'fraud'\"). The internal use of 'fraud' is confined to investigati",
+        "score": 5,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Keeps any partner-facing communication neutral and avoids the word 'fraud' with the partner",
+        "evidence": "Partially satisfied. The answer repeatedly cautions against premature fraud framing toward the partner: \"Calling it 'fraud' and clawing back 90 days without evidence exposes Kestrel to a breach-of-contract counterclaim from SaveSnap and reputational risk\"; \"don't let the CFO send a fraud accusation before the evidence package exists\"; \"Get the holdout test and the technical check done before sending anything to SaveSnap in writing\"; and it offers a neutral exit route \u2014 \"even a 'legitimate but low-value' SaveSnap can be cut for margin reasons without calling it fraud.\" It also flags the FTC ang",
+        "score": 3,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

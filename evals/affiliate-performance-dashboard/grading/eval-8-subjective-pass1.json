@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Does not present the cost-of-sale drop as a genuine improvement or trend.",
+        "evidence": "The response opens by declaring \"two of the three numbers are artifacts of the window change, not genuine improvement\" and labels Q1 (15.1%) vs Q2 (11.4%) an \"invalid comparison, don't headline as 'improvement.'\" It explains the mechanism (blended 30-day/60-day methodology inside Q1; longer window mechanically catches more reversals pre-lock) and states plainly that \"some \u2014 possibly most \u2014 of the 15.1% \u2192 11.4% drop could simply be the window doing its job, not the program getting cheaper,\" and that real improvement cannot be separated from methodology artifact with the data as stated. It goes ",
+        "score": 5,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Does not present the cost-of-sale drop as a genuine improvement or trend.",
+        "evidence": "The response opens by calling the pattern 'close to a textbook case of a metric artifact, not a real efficiency gain' and never concedes the drop as genuine. It explains the right-censoring mechanism (30\u219260 day validation window change in March), labels Q1's 15.1% as 'mature/complete' and Q2's 11.4% as 'very likely a right-censored, incomplete number', and explicitly rejects the August claim: '9.2% isn't your best month; it's your least complete month. Expect it to climb.' It advises against headlining or setting a 10% target from 'a number that's partly a measurement artifact', and conditions",
+        "score": 5,
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

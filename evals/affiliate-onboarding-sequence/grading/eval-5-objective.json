@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that 19% sits at or above the roughly 18% median 30-day B2C activation figure, so the cohort is not failing",
+        "evidence": "'19% sits right around the actual median, not below it.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the 30% figure as a diagnostic trigger for investigation, not a pass or ship gate",
+        "evidence": "'It's explicitly a diagnostic trigger for investigating, not a ship/fail gate.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that holding the program to roughly 30% on day one demands top-quartile performance",
+        "evidence": "'Used as a gate, it demands top-quartile performance on day one \u2014 Track360's own reference point sits in TrackRev's ~31% top quartile'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Labels the benchmark numbers as vendor or practitioner figures rather than audited studies",
+        "evidence": "'None of this is audited data \u2014 it's vendor-published and practitioner-convergent'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the wider context that only roughly 5-20% of approved affiliates ever produce a tracked conversion",
+        "evidence": "'the practitioner-convergent range for affiliates who ever produce a single sale is 5-20% (Matt McWilliams...)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects re-recruiting as the response and directs any diagnosis at the sequence itself (provisioning, first touch, nudge)",
+        "evidence": "'Re-recruiting is the most expensive, least-informative move on the list \u2014 it destroys your ability to tell later whether the sequence itself was ever the issue.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends reporting by monthly approval cohort rather than the blended all-time rate",
+        "evidence": "'Report the August cohort's 30-day rate (19%), not the all-time rate.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that a blended all-time rate hides whether the sequence is improving",
+        "evidence": "'a blended all-time rate hides whether the sequence is improving.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a cohort is judged only once its activation window has closed",
+        "evidence": "'measure by monthly approval cohort, judged only when its window closes'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names time-to-first-conversion, tracked as a cohort median, as a KPI alongside activation rate",
+        "evidence": "No such KPI is listed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names never-activated share of the cohort at the cutoff as a KPI",
+        "evidence": "Not mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not present any benchmark figure as an industry standard the user can quote as established fact",
+        "evidence": "'these are vendor-reported, not audited numbers, and shouldn't be quoted to your CMO as an industry-certified standard.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that 19% sits at or above the roughly 18% median 30-day B2C activation figure, so the cohort is not failing",
+        "evidence": "The transcript only says '19% at 30 days for a B2C fashion program is in a normal-to-decent range' \u2014 no specific 18% median figure is cited.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the 30% figure as a diagnostic trigger for investigation, not a pass or ship gate",
+        "evidence": "'It is not evidence of a broken recruiting funnel, and it's not a reason to pause the program' explicitly rejects using it as a gate.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that holding the program to roughly 30% on day one demands top-quartile performance",
+        "evidence": "No such statement appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Labels the benchmark numbers as vendor or practitioner figures rather than audited studies",
+        "evidence": "'the \"30% industry standard\" citation is almost certainly not a real benchmark, it's marketing copy.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the wider context that only roughly 5-20% of approved affiliates ever produce a tracked conversion",
+        "evidence": "No such range is cited anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects re-recruiting as the response and directs any diagnosis at the sequence itself (provisioning, first touch, nudge)",
+        "evidence": "'Pausing the whole program to \"re-recruit better affiliates\" throws away signal you don't have yet. Fix the diagnosis before changing the strategy.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends reporting by monthly approval cohort rather than the blended all-time rate",
+        "evidence": "'Report 19% (the August cohort) as the primary KPI' and 'Use your own trailing cohorts as the baseline.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that a blended all-time rate hides whether the sequence is improving",
+        "evidence": "'This number will mechanically decay over time even if the current program is healthy, simply because you're accumulating never-active accounts faster than you're pruning them.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a cohort is judged only once its activation window has closed",
+        "evidence": "No statement about waiting for window closure before judging a cohort appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names time-to-first-conversion, tracked as a cohort median, as a KPI alongside activation rate",
+        "evidence": "Not mentioned; suggested KPIs are activation rate and later GMV per active affiliate, not time-to-first-conversion.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names never-activated share of the cohort at the cutoff as a KPI",
+        "evidence": "Pruning never-activated affiliates is proposed as an action, not listed as a tracked KPI alongside activation rate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not present any benchmark figure as an industry standard the user can quote as established fact",
+        "evidence": "The transcript actively undermines the 30% figure's credibility rather than endorsing any number as an established standard: 'don't let a program decision hinge on it.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to convert security posture into a weighted scorecard criterion",
+        "evidence": "\"No \u2014 I won't build that scorecard. Adding 'security posture' as a 15%-weighted criterion doesn't make the sheet reflect the risk; it launders a pass/fail failure into partial credit.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that must-pass gates live outside the tradeable score",
+        "evidence": "\"Security/compliance posture is a must-pass gate, not a scorecard input. Gates sit outside the tradeable composite for exactly this reason.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes Piedmont Analytics from the ranked list on the gate failure rather than re-ranking it lower",
+        "evidence": "\"Verdict: removed from the ranked shortlist. Not re-ranked lower, not parked at the bottom of the table \u2014 off it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly that a high composite score cannot buy a candidate past a gate",
+        "evidence": "\"No composite score offsets it, because the gate was never part of the composite.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the specific evidence behind the gate decision: the lapsed attestation, the late-disclosed incident, and the customer-record data-sharing requirement",
+        "evidence": "\"No current SOC 2 Type II. Last attestation lapsed 14 months ago... Disclosed 2024 customer data exposure incident, disclosed late... requires pushing Kelver customer records to Piedmont\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the failed gate as the security and compliance posture gate within a defined must-pass gate set",
+        "evidence": "\"Gate: Security/compliance posture \u2014 FAILED.\" listed alongside other named must-pass gates later in the memo.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Offers conditional-go as the only route back, tied to a named condition and a deadline, rather than to a scored position",
+        "evidence": "\"Route back: conditional-go only, tied to a named condition and deadline \u2014 not to a scored position.\" with three named remediation items and a review-cycle deadline.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Lists the other must-pass gates the remaining candidates must clear, including financial viability, legal or antitrust exposure, exit path, and the three-laws screen",
+        "evidence": "\"Financial viability... Legal/antitrust exposure... Exit path... Three-laws screen \u2014 value beyond standalone, ability to operationally act as one, a workable value split.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that scoring and socializing a candidate before its security or legal gate is what makes a gate tradeable in the first place",
+        "evidence": "\"Piedmont got scored and socialized (top of the sheet, in front of your VP) before its security gate ran. That's the sequencing the skill's staged-gate model exists to prevent.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Records the gate decision with its evidence inside the memo rather than parking it in a compliance annex",
+        "evidence": "The full 'Gate evaluation: Piedmont Analytics' section with evidence is inline in the memo body, not deferred to an annex.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not average or blend the security concern into any composite score",
+        "evidence": "\"Piedmont's 4.4 composite and 6 manager-months no longer occupy a shortlist slot\" \u2014 no blended score is computed for Piedmont anywhere.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Redraws the shortlist and the capacity line after the removal rather than promoting the next-highest value score by default",
+        "evidence": "\"That capacity doesn't default to whoever's composite score is next-highest \u2014 recompute the effort-sum cut line with Piedmont out, then re-rank the remaining gate-cleared candidates on value \u00f7 effort\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to convert security posture into a weighted scorecard criterion",
+        "evidence": "\"I'm not going to build this rework the way it's framed... adding 'security posture' at 15% weight isn't making the scorecard 'reflect' the security concern.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that must-pass gates live outside the tradeable score",
+        "evidence": "Proposes 'a separate, visible \"Security & Compliance Gate\" section (pass/fail, not blended into the weighted average)'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes Piedmont Analytics from the ranked list on the gate failure rather than re-ranking it lower",
+        "evidence": "'A status of \"Conditional \u2014 blocked pending remediation\" for Piedmont, rather than silently ranking it #2.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly that a high composite score cannot buy a candidate past a gate",
+        "evidence": "\"A 4.4-scorecard vendor with a live compliance lapse and a late-disclosed breach isn't 'second place with a caveat,' it's provisionally disqualified until remediated.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the specific evidence behind the gate decision: the lapsed attestation, the late-disclosed incident, and the customer-record data-sharing requirement",
+        "evidence": "'No SOC 2 Type II (lapsed 14 months, not just pending renewal), plus an undisclosed-late data exposure incident, for a partner you intend to push customer records to.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the failed gate as the security and compliance posture gate within a defined must-pass gate set",
+        "evidence": "Only this single gate is discussed; no broader defined must-pass gate set is referenced.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers conditional-go as the only route back, tied to a named condition and a deadline, rather than to a scored position",
+        "evidence": "'whatever remediation Piedmont can commit to (e.g., new attestation by date X, incident post-mortem, updated DPA terms)' paired with 'Conditional \u2014 blocked pending remediation.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Lists the other must-pass gates the remaining candidates must clear, including financial viability, legal or antitrust exposure, exit path, and the three-laws screen",
+        "evidence": "No other gates are mentioned at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that scoring and socializing a candidate before its security or legal gate is what makes a gate tradeable in the first place",
+        "evidence": "\"You said 'Piedmont would still come out second even scoring a 1 there' \u2014 that's the criterion for picking 15%, not a weight derived from how much security actually matters... you set that weight before checking whose score it protects, not after.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Records the gate decision with its evidence inside the memo rather than parking it in a compliance annex",
+        "evidence": "The SOC 2 lapse and incident details are stated directly in the visible response, not deferred to an annex.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not average or blend the security concern into any composite score",
+        "evidence": "'keeps the existing criteria and Piedmont's 4.4 as is, plus a separate, visible \"Security & Compliance Gate\" section... Never collapse them into one' (paraphrased structure: pass/fail, not blended).",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Redraws the shortlist and the capacity line after the removal rather than promoting the next-highest value score by default",
+        "evidence": "The response ends by offering to build the gated version; no redrawn shortlist or capacity line is produced.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

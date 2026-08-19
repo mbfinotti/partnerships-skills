@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Offers multiple-choice answer options where the question allows it",
+        "evidence": "All four questions are open-ended free-text asks ('Cheapest paid plan price... a number or range', 'Gross margin %', 'Monthly churn %', 'Current or target CAC'). No lettered/numbered option sets or selectable bands are offered, even though several (margin band, churn band, pricing model, recurring vs flat structure) easily allow tap-friendly choices. The only scaffolding is illustrative parentheticals ('e.g. ~75-80%', 'or annual retention if that's what you track') and a single implicit escape hatch ('if you genuinely don't have churn or CAC numbers yet... tell me that too'), which is a fallba",
+        "score": 1,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Offers multiple-choice answer options where the question allows it",
+        "evidence": "The answer commits to a single prescription ('30% recurring, capped at 12 months') and actively closes off alternatives rather than laying them out as selectable options: 'Skip tiers, loyalty bumps, or CPA-vs-revshare menus for launch.' The only trace of optionality is a conditional fallback buried in the last paragraph ('If your gross margin is under ~70%, drop to 20\u201325% instead'), which is a contingency note, not a presented choice set. The question \u2014 what commission rate/structure to put on the page \u2014 plainly admits discrete options (20/25/30%, lifetime vs capped, revshare vs CPA vs hybrid)",
+        "score": 1,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

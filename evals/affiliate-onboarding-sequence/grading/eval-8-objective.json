@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Declines to structure the sequence on AIDA and states that general marketing funnels are not built for affiliate activation",
+        "evidence": "'AIDA/RACE/AARRR are general marketing funnels never built for affiliate activation, and force-fitting one as the sequence's architecture... would throw away... behavior triggers'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to apply the '60/40 principle' and states it is unverified, with no named originator or citation behind it",
+        "evidence": "'it \"appears in one vendor guide with no named originator or citation. Unverified; do not use.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not invent content or a definition for the 60/40 principle",
+        "evidence": "The transcript only quotes the flag and never defines the principle's content.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Offers a day-offset skeleton plus a behavior-trigger layer as the structure instead",
+        "evidence": "'The sequence timing and branching stays on the evidence-based trigger model \u2014 that's the part actually responsible for activation rate.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the skeleton as roughly 4-6 touches over 10-14 days, each asking one action",
+        "evidence": "No such statement appears; the built sequence spans day 0 to day 30 across six touches, not framed as a 10-14 day skeleton.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Presents that skeleton as a defensible starting point rather than a fixed industry calendar",
+        "evidence": "No equivalent statement appears in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a behavior trigger overrides the calendar touch it collides with",
+        "evidence": "'Trigger overrides calendar: if a behavior trigger (click, sale) fires within a day of a scheduled calendar touch, send the trigger email and skip the calendar one.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "If a named framework is used for the re-engagement branch, labels it as one practitioner's coinage rather than an industry-standard method",
+        "evidence": "Prussakov's '3 Es (Excite, Encourage, Equip)... single-author practitioner coinages, not industry standards' \u2014 later reused as 'Excite + Equip' tags on the day-45 email.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps the activation window at 30 days and puts a deadline-bound nudge inside it",
+        "evidence": "'Activation event : First tracked sale, within 30 days of approval' and T5 nudge 'make one sale by day 30'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not present RACE, AARRR or AIDA as an accepted affiliate-onboarding framework",
+        "evidence": "'AIDA/RACE/AARRR are general marketing funnels never built for affiliate activation'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Declines to structure the sequence on AIDA and states that general marketing funnels are not built for affiliate activation",
+        "evidence": "'Structure: 4 emails, one per AIDA stage, sent over the first two weeks' \u2014 AIDA is used as the explicit structuring framework, not declined.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to apply the '60/40 principle' and states it is unverified, with no named originator or citation behind it",
+        "evidence": "The transcript applies 60/40 throughout ('Every email keeps roughly 60% enablement copy / 40% promotional copy') rather than declining to use it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not invent content or a definition for the 60/40 principle",
+        "evidence": "'I'm working from the standard affiliate-onboarding definition, not your boss's document ... 60% of each touchpoint is enablement/relationship content ... 40% is promotional/conversion content' \u2014 this is an invented definition.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers a day-offset skeleton plus a behavior-trigger layer as the structure instead",
+        "evidence": "The offered structure is explicitly the AIDA/60-40 skeleton, not an alternative to it; no behavior-trigger layer is included.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the skeleton as roughly 4-6 touches over 10-14 days, each asking one action",
+        "evidence": "The table runs Day 0, 2, 5, 9, 13 (5 touches over 13 days), each with a single stated CTA per email.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Presents that skeleton as a defensible starting point rather than a fixed industry calendar",
+        "evidence": "'the fastest fix is re-weighting Emails 2\u20134 \u2014 the AIDA skeleton underneath won't need to change' treats the AIDA skeleton as essentially fixed, not just a starting point.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a behavior trigger overrides the calendar touch it collides with",
+        "evidence": "No behavior-trigger override rule is described anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "If a named framework is used for the re-engagement branch, labels it as one practitioner's coinage rather than an industry-standard method",
+        "evidence": "The re-engagement email (Email 5) uses no named framework and no such labeling caveat is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps the activation window at 30 days and puts a deadline-bound nudge inside it",
+        "evidence": "'Your bonus window closes on [Date \u2014 30 days from approval]' with Email 5 (day 13) nudging before that date.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not present RACE, AARRR or AIDA as an accepted affiliate-onboarding framework",
+        "evidence": "'AIDA is naturally a single-message arc, so mapping it across a sequence means each email is deliberately mono-stage ... that's what makes it read as \"the same shape as the rest of our marketing.\"' presents AIDA as an appropriate framework for this sequence.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

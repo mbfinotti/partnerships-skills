@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to add the earnings projection to the email",
+        "evidence": "'I'm not adding it.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies hypothetical earnings math as a documented pitch failure ('calculations of unearned riches') that kills replies",
+        "evidence": "'\"Calculations of unearned riches\" (hypothetical earnings math) \u2014 stays out of the first touch.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the unverifiable earnings claim also creates income-representation regulatory exposure",
+        "evidence": "The transcript says the math 'reads as inflated and non-credible' but never mentions regulatory/legal exposure for income claims.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to quote 'top 10% drive 90%' as fact, flagging it as untraceable",
+        "evidence": "'\"Top 10% drive 90%\"... \u2014 Untraceable, vendor listicles with inconsistent, decorative attributions; never quote.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to quote '15-25 recruits per month' as fact, flagging it as untraceable",
+        "evidence": "Same flagged row includes '\"15-25 recruits/month\"'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to quote '42% faster activation' as fact, flagging it as untraceable",
+        "evidence": "Same flagged row includes '\"42% faster activation\"'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives a first-touch reply-rate expectation in roughly the 3-9% range",
+        "evidence": "'First-touch reply rate: 3-9%.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Attributes that range to general cold-outreach measurement rather than to affiliate-specific data",
+        "evidence": "Sourced to 'Backlinko/Pitchbox (8.5%, 12M emails) and Woodpecker (3.43% platform-wide, 20M+ emails)' \u2014 general cold-email studies, not affiliate-specific.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Attaches a reliability flag to every figure it does quote, distinguishing verified study measurement from practitioner self-report",
+        "evidence": "3-9% is called 'the skill's own synthesized range from two independently verified studies'; the 30-40% figure is flagged 'practitioner self-reported... flag this one as directional, not verified.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "If it cites the ~5% first-email or 30-40% full-sequence figures, marks them practitioner self-reported and notes the source carries a commercial incentive",
+        "evidence": "'30-40% (McWilliams, practitioner self-reported \u2014 flag this one as directional, not verified, since he sells a course on this).'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not present '~10% of recruits ever become active' as an established benchmark",
+        "evidence": "No mention of a '10% become active' figure appears anywhere in this transcript.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to add the earnings projection to the email",
+        "evidence": "'Sending a prospect \"$11.2M/month\" (80,000 \u00d7 $140) as an earnings claim would be false on its face' and no such figure is included in the drop-in line.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies hypothetical earnings math as a documented pitch failure ('calculations of unearned riches') that kills replies",
+        "evidence": "The transcript explains the math error and FTC risk but never frames it as a documented pitch-failure pattern or uses language like 'calculations of unearned riches.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the unverifiable earnings claim also creates income-representation regulatory exposure",
+        "evidence": "'unsubstantiated income claims to recruits are also the kind of thing that draws FTC scrutiny in affiliate/partner recruiting'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to quote 'top 10% drive 90%' as fact, flagging it as untraceable",
+        "evidence": "The stat is treated as a real, applicable-elsewhere metric ('measures revenue concentration... Argues for prioritizing recruit quality'), not challenged as unsourced/untraceable.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to quote '15-25 recruits per month' as fact, flagging it as untraceable",
+        "evidence": "Treated as real recruiting throughput ('measures recruiting throughput... It's downstream of reply rate'), not disputed as untraceable.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to quote '42% faster activation' as fact, flagging it as untraceable",
+        "evidence": "Treated as a real onboarding metric ('measures onboarding speed after someone's already signed'), not disputed as untraceable.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives a first-touch reply-rate expectation in roughly the 3-9% range",
+        "evidence": "'I'd actually commit to \u2014 25% reply rate, for a personalized, multi-touch (3-4 touch) sequence' \u2014 25% is outside the 3-9% range and is a sequence rate, not first-touch.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Attributes that range to general cold-outreach measurement rather than to affiliate-specific data",
+        "evidence": "N/A \u2014 the 25% figure given is explicitly presented as an affiliate/partner-recruiting-specific benchmark ('standard benchmark for partner/affiliate recruiting outreach specifically').",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Attaches a reliability flag to every figure it does quote, distinguishing verified study measurement from practitioner self-report",
+        "evidence": "The 25% figure is sourced only as 'an industry outreach benchmark' with no verified-vs-self-reported distinction, and the three original stats get no reliability tagging either.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "If it cites the ~5% first-email or 30-40% full-sequence figures, marks them practitioner self-reported and notes the source carries a commercial incentive",
+        "evidence": "The transcript never cites the ~5% first-email or 30-40% full-sequence figures at all, so the described violation (citing them without a reliability caveat) does not occur.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not present '~10% of recruits ever become active' as an established benchmark",
+        "evidence": "No such figure appears anywhere in the transcript.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

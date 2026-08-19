@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Asks the three re-ranking questions, covering the date the first version must land, one-off win versus compounding asset, and the effort ceiling, before proposing metrics.",
+        "evidence": "The transcript is a finished spec built on stated assumptions (\"Assumptions I made because they weren't given (flagged, not guessed silently)\"), not a live question-asking exchange.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks clarifying questions one per message rather than delivering the whole questionnaire in a single block.",
+        "evidence": "The transcript is a single finished deliverable with no interleaved question-asking; all unknowns are handled via [CONFIRM] tags and an Open Items list.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Pins the spec to the billing or orders spine because of the near date.",
+        "evidence": "\"Source of truth: affiliate platform export... \u2014 the ONLY system partner ID reaches today\"; the data foundation is \"hybrid, interim\" built around the platform export plus a one-time manual match, not pinned to the billing/orders spine.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes the modeled warehouse outright rather than listing it lower in the spec.",
+        "evidence": "The transcript only notes as a given fact \"no warehouse\" in the intro; it does not describe an active decision to delete a modeled warehouse option.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes the brand-bidding alert and the creative slice outright given the thin effort ceiling.",
+        "evidence": "\"Deleted, not parked as an ambition: product/plan, landing page, creative\"; \"Deleted: click-to-conversion anomaly, EPC drop..., brand-bidding/trademark flag\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes new-to-file share from the spec because the partner ID does not reach billing or CRM.",
+        "evidence": "New-to-file is included, not deleted: \"New-to-file / existing-customer share (one-time manual match, same pass as ARR)\" is listed as an active metric.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes churn-adjusted partner LTV, noting the program is not old enough for a 24-month horizon.",
+        "evidence": "\"Churn-adjusted partner LTV - deleted twice over: needs a standing job AND a ~24-month revenue horizon your 14-month-old program doesn't have yet.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Lists every deleted metric, dimension and alert under Open items.",
+        "evidence": "Deleted dimensions (\"product/plan, landing page, creative\") and deleted alerts (click-to-conversion anomaly, EPC drop, brand-bidding) appear under the Dimensions and Alerts sections respectively, not repeated under the Open Items heading.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States for each deleted item what would make it computable.",
+        "evidence": "\"Trial-to-paid rate by partner - deleted, needs partner ID in product analytics at trial start\"; \"Sourced vs. influenced revenue split - deleted, needs a CRM influence model; a quarter of work\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names stamping the partner ID at order or account creation as the prerequisite for new-to-file and for sourced-versus-influenced.",
+        "evidence": "Sourced-vs-influenced's stated prerequisite is \"needs a CRM influence model; a quarter of work\" \u2014 not tied to partner-ID stamping, unlike the rubric's expectation.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the customer-file join costs roughly a quarter of work.",
+        "evidence": "\"the near board date rules out building the standing customer-file join (normally a quarter of engineering work: stamp partner ID at signup, land it in CRM/billing)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names partner-sourced MRR/ARR as blocked by the missing partner ID in billing and records it under Open items rather than silently dropping it.",
+        "evidence": "Partner-sourced ARR is presented as an active, computed floor metric via the manual match (\"ARR from accounts matched to a partner via the one-time manual join\"), not recorded as blocked under Open items.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Asks the three re-ranking questions, covering the date the first version must land, one-off win versus compounding asset, and the effort ceiling, before proposing metrics.",
+        "evidence": "The response goes straight into the deck spec ('### Name the constraint up front...') with no clarifying questions asked.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Asks clarifying questions one per message rather than delivering the whole questionnaire in a single block.",
+        "evidence": "No clarifying questions are asked at all in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Pins the spec to the billing or orders spine because of the near date.",
+        "evidence": "No billing/orders spine decision tied to a near date is discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes the modeled warehouse outright rather than listing it lower in the spec.",
+        "evidence": "No 'modeled warehouse' concept appears anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes the brand-bidding alert and the creative slice outright given the thin effort ceiling.",
+        "evidence": "No brand-bidding alert or creative slice is mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes new-to-file share from the spec because the partner ID does not reach billing or CRM.",
+        "evidence": "New-to-file is never mentioned; instead a manual sample match is proposed to work around the missing join.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes churn-adjusted partner LTV, noting the program is not old enough for a 24-month horizon.",
+        "evidence": "No churn-adjusted LTV or 24-month horizon discussion appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Lists every deleted metric, dimension and alert under Open items.",
+        "evidence": "There is no 'Open items' section listing deletions; the closest is 'Section E \u2014 The Ask' about a future engineering fix.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States for each deleted item what would make it computable.",
+        "evidence": "No deletion list exists to attach computability conditions to.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names stamping the partner ID at order or account creation as the prerequisite for new-to-file and for sourced-versus-influenced.",
+        "evidence": "The identifier fix mentioned ('pass a partner/affiliate identifier as a hidden field or coupon-style code through signup') is tied to future retention/LTV automation, not explicitly to new-to-file or sourced-vs-influenced.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the customer-file join costs roughly a quarter of work.",
+        "evidence": "The manual join is explicitly costed at '~2\u20133 days,' and the engineering fix as 'a small, one-time engineering task,' not a quarter.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names partner-sourced MRR/ARR as blocked by the missing partner ID in billing and records it under Open items rather than silently dropping it.",
+        "evidence": "No 'partner-sourced MRR/ARR' metric or Open items section is named; a 'blended MRR of affiliate cohort' is instead computed via the manual match.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

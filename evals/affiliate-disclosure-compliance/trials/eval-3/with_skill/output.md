@@ -1,0 +1,57 @@
+This is a compliance review against published regulator rules, not legal advice. Counsel owns the legal call; this review finds what counsel and regulators would find. No web access was available this session, so the France penalty figure below is labeled "as of drafting, re-verify" rather than asserted as current.
+
+**Asset**: blog/review article | relationship: gifted product **+** affiliate commission (two separate material connections) | audience: France + Netherlands (poster based in Belgium) | B2C | live for 3 weeks, ranking in organic search | artefact: description only, no URL fetched — placement/visibility findings below are marked accordingly
+
+## Six-layer check
+
+| Requirement | Verdict | Evidence | Rule | Fix |
+|---|---|---|---|---|
+| Presence — affiliate link | PARTIAL | Footer line acknowledges affiliate links exist | Material-connection principle | Move up, see below |
+| Presence — free product | **FAIL** | Nothing on the page discloses the €95 unit was sent for free; footer only mentions affiliate links | Free product is a material connection independent of commission, same duty to disclose | Add a gift disclosure, not covered by the affiliate line at all |
+| Wording (France-specific) | **FAIL** | "Certains liens sont affiliés" names a link mechanic, not the commercial nature of the content — it is neither "publicité" nor "collaboration commerciale" | France: loi 2023-451 as amended requires the mention "publicité" or "collaboration commerciale" (or an equivalent adapted to the format), not a description of link type | Replace with wording carrying the statutory term, see rewrite below |
+| Wording (vagueness) | FAIL | "Certains" (some) doesn't tell the reader which links are commercial before clicking | FTC/CMA general principle: reader must be able to tell before acting | Disclose adjacent to the actual buy buttons |
+| Placement/prominence | **FAIL** | Single line at the very bottom of the page | Blog/review-article format rule: disclosure belongs near the top, before any affiliate link, "not footer-only" | Move to the top of the article |
+| Per-format requirement | **FAIL** | Same footer-only placement | Format-placement table, blog row: disclosure must be part of/close to the endorsement itself | Add a disclosure block above the fold |
+| Roundup/link-adjacency | FAIL | Buy buttons are scattered through the review; the footer is separated from every one of them | "The reader must see the disclosure and the affiliate link at the same time; a page-top disclosure separated from the links [still] fails" for roundup-style link placement | Add "paid link" tags next to each buy button in addition to the top disclosure |
+| Truncation/portability | Not assessable from artefact provided — verify on the rendered page: does the footer line survive a social share preview, a Google/AI-answer-engine snippet, or a screenshot of the review section? Given the page is "ranking" (SEO traffic), most entry points won't scroll to the footer. Treat as high-risk pending that check. | | FTC/CMA: platform tools and off-page excerpts are "no guarantee" | Fix is the same top-of-page move; re-check portability after |
+| **France overlay** | **FAIL** | No "publicité"/"collaboration commerciale" mention anywhere on the page | loi 2023-451, as amended by Ordonnance 2024-978 (6 Nov 2024) — work from this consolidated text, not the original June 2023 version your team is citing | Add the mandatory mention, see rewrite |
+| **EU UCPD overlay (binds France and Netherlands alike)** | `[COUNSEL: does this rise to Annex I point 11 — an "advertorial" — or only the general Article 7(2) misleading-omission hook? Fact-specific to how editorial the review reads once the disclosure is fixed.]` | An editorial-style review, paid for with a free product and carrying tracked commission links, with only a bottom-of-page footnote, is close to the Annex I, point 11 fact pattern: using editorial content to promote a product without making the payment/connection clear | UCPD 2005/29/EC Annex I pt.11 (per se unfair, no consumer-impact test) / Art. 7(2) | Same fix cures both: move a clear "publicité"/paid-partnership statement to the top |
+| **Netherlands overlay** | `[COUNSEL: Netherlands disclosure rules — not covered by this skill's references, don't assume the French or UCPD reading transfers cleanly]` | Most of her readers are Dutch | Flag only, no rule asserted | Get local counsel or NL-specific guidance before treating this market as covered by the France fix alone |
+| **Belgium overlay (poster's residence)** | `[COUNSEL: does Camille's own establishment in Belgium pull in Belgian consumer-protection law (UCPD transposition) on top of the France/NL audience-targeting rules? Not covered by this skill's references.]` | She lives in Brussels | Flag only | Same |
+| Trader status | `[COUNSEL: is Camille a "trader" under EU/French/Belgian law given scale, remuneration in kind, and repeat affiliate activity? No bright-line follower threshold exists — this affects who a regulator would pursue, not whether disclosure is owed.]` | | UCPD Commission Guidance 2021 | — |
+
+**Verdict: FAIL.** The footer line does not satisfy French law's wording requirement, doesn't cover the gifted product at all, and its placement fails the blog-format rule outright. This isn't a "close, just move it" situation — two of the three needed elements (statutory wording, gift disclosure) are entirely absent from the page, not just misplaced.
+
+## Where your reading of the law went wrong
+
+1. **You're working from a superseded text.** June 2023 (loi 2023-451) was amended by Ordonnance 2024-978 (6 November 2024) to align it with the UCPD after European Commission objections. The consolidated text is what applies now — re-check the current wording requirement against that, not the original statute.
+2. **"Certains liens sont affiliés" was never the compliance requirement, even under the original law.** The mandatory element is the mention "publicité" or "collaboration commerciale" (or an equivalent for the format) — a statement that the content itself is commercial, not a technical note about link type. A footer explaining affiliate mechanics has never discharged that duty on its own.
+3. **The footer line only ever addressed one of two material connections.** Even if it were perfectly worded and placed, it says nothing about the free €95 unit. Gift and commission are two separate triggers under the material-connection principle; both need disclosing.
+
+## Remediation
+
+This is live and still ranking — still earning organic impressions — which is exactly the case that promotes the fastest remediation rung over anything slower. This is a text-only fix (placement and wording on an article), so **edit in place now**; there's no format constraint here forcing a re-publish or takedown the way a video's baked-in audio would.
+
+**Do within 24 hours** (matches the program's own time-to-remediation target for live violations):
+
+1. Add a disclosure block at the top of the article, above the fold, before any buy button:
+
+   > **Publicité — collaboration commerciale.** Maison Lumo m'a envoyé ce diffuseur gratuitement. Certains liens de cet article sont des liens affiliés : je touche une commission si vous achetez via ces liens.
+
+   This single block covers both material connections (gift + commission) and carries the statutory French term, not just the technical link description.
+
+2. Add a short "lien affilié" tag directly next to each individual buy button in the body, in addition to the top block — the top disclosure alone doesn't satisfy the link-adjacency expectation when buttons are scattered through a review.
+3. Keep the existing footer line too if you want, but it's now redundant, not sufficient — don't rely on it.
+4. After the edit, re-check the rendered page for the truncation/portability item above: confirm the new top block is what search snippets, social shares, and any screenshot of the review section would actually show.
+
+No takedown or payment hold is warranted here: the fix is a content edit the format itself allows, and pulling a 3-week-old, already-ranking page down would cost you the SEO position for no compliance gain the edit doesn't already deliver.
+
+## Escalate before you close this out
+
+- `[COUNSEL]` Netherlands-specific disclosure rules — not covered by this skill, don't assume the France fix satisfies a Dutch regulator.
+- `[COUNSEL]` Belgium, as Camille's country of establishment — same gap.
+- `[COUNSEL]` Whether the un-fixed 3-week window is itself independently actionable (UCPD Annex I point 11 carries no consumer-impact test — the exposure isn't only forward-looking).
+- `[COUNSEL]` Whether Camille's scale/repeat affiliate activity makes her a "trader" in her own right, which affects who a regulator would pursue alongside Maison Lumo.
+- Not a regulated vertical (home fragrance), no children's audience, no known regulator contact — none of those escalations apply here.
+
+Keep every `[COUNSEL]` marker attached to this report until counsel resolves it — don't let the fix above get read as closing those items.

@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that a description-only disclosure fails for long-form video and that the disclosure must be inside the video itself at the start",
+        "evidence": "\"long-form video requires in-video disclosure at the start\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the description-edit-plus-pinned-comment plan as a cure, because a caption or description edit cannot reach a video missing its in-video disclosure",
+        "evidence": "\"a caption edit cannot fix a video whose spoken and on-screen disclosure is missing; only a re-publish reaches it.\" That's exactly this case.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not treat the pinned comment as satisfying any layer of the check",
+        "evidence": "\"A pinned comment doesn't survive embeds, screenshots, or a viewer who never opens the comments panel\" listed as FAIL on Truncation/portability.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Escalates the remediation rung above edit-in-place, recommending re-publishing a corrected version and removing the original",
+        "evidence": "\"re-publish a corrected cut and remove the original (keeps the reach, ~an hour of edit work)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that re-publishing a corrected version and taking the asset down remove the non-compliant version equally, and that re-publishing wins on efficiency because it keeps the campaign's earned reach",
+        "evidence": "The transcript offers both options (\"re-publish... or take it down\") but never states they remove the non-compliant version equally, only that re-publish 'keeps the reach.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects terminating the creator as remediation on its own, stating that removing the partner leaves the undisclosed assets live",
+        "evidence": "\"'Removing the partner leaves the undisclosed asset live; pair it with a takedown or the exposure outlives the relationship.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Pairs any termination with a takedown or corrected re-publish of each live asset",
+        "evidence": "\"The Priya decision is separate and doesn't block 1\u20133... it has no bearing on whether these four assets need to be cured.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Orders the four-asset plan by exposure: assets still earning impressions first, then the highest-reach asset, then the rest",
+        "evidence": "\"Asset 1 and the currently-trending older video (both earning impressions right now)... do this first, not last\" precedes \"the remaining two older, non-trending videos: ... just lower urgency\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names a time-to-remediation target of requesting the fix within 24 hours of the finding",
+        "evidence": "\"treat the request to Priya (or your own re-edit...) as due within 24 hours of this finding\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that re-recording or re-publishing long-form video is high value and high effort and normally loses to a caption edit, and is promoted here because the failing layer is per-format placement rather than wording",
+        "evidence": "The transcript calls edit-in-place \"cheapest, fastest, and normally the right default\" but never frames re-publish as \"high value and high effort\" or explains the trade-off in those terms.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-use spoken disclosure line and an on-screen overlay line for the corrected videos",
+        "evidence": "Only one generic line (\"AD \u2014 Northvale Audio paid me a flat fee to make this video\") is given for the description/pin stopgap; no distinct spoken-line and overlay-line pair is supplied for the corrected re-publish.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Frames the expectation to remediate known non-compliance as the FTC's stated position under 16 CFR 255.1(d) rather than a standalone statutory obligation, and attaches [COUNSEL] if the user intends to assert that obligation to the creator",
+        "evidence": "\"Northvale is the advertiser under 16 CFR 255.1(d) regardless of whether Priya is still under contract \u2014 that duty doesn't expire when the relationship does\" states this as a flat duty with no [COUNSEL] marker attached to the assertion itself.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that a description-only disclosure fails for long-form video and that the disclosure must be inside the video itself at the start",
+        "evidence": "\"Doesn't fix the video itself \u2014 no on-screen or verbal disclosure, and viewers who don't expand the description or read comments (most people) never see it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the description-edit-plus-pinned-comment plan as a cure, because a caption or description edit cannot reach a video missing its in-video disclosure",
+        "evidence": "\"Why your plan (as written) doesn't clear the bar: A pinned comment + a line added to the description text: 1. Doesn't fix the video itself...\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not treat the pinned comment as satisfying any layer of the check",
+        "evidence": "\"Pin a comment too, as a supplement, not the fix.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Escalates the remediation rung above edit-in-place, recommending re-publishing a corrected version and removing the original",
+        "evidence": "The recommended fix is an in-place overlay edit ('you can overlay text on an already-published video'), not a takedown-and-republish of the original.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that re-publishing a corrected version and taking the asset down remove the non-compliant version equally, and that re-publishing wins on efficiency because it keeps the campaign's earned reach",
+        "evidence": "No comparison between re-publishing and takedown, or discussion of earned reach, appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects terminating the creator as remediation on its own, stating that removing the partner leaves the undisclosed assets live",
+        "evidence": "\"Firing her doesn't un-disclose anything. The four videos stay up, un-fixed, one still trending \u2014 the exposure continues to run after you knew about it and chose not to fix it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Pairs any termination with a takedown or corrected re-publish of each live asset",
+        "evidence": "Termination is instead decoupled entirely: 'Decide termination separately... not as a pre-set outcome,' paired only with an overlay edit, not a takedown or corrected re-publish.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Orders the four-asset plan by exposure: assets still earning impressions first, then the highest-reach asset, then the rest",
+        "evidence": "The plan addresses 'all four videos' uniformly with no stated ordering by impressions or reach.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names a time-to-remediation target of requesting the fix within 24 hours of the finding",
+        "evidence": "No specific time-to-remediation target (24 hours or otherwise) is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that re-recording or re-publishing long-form video is high value and high effort and normally loses to a caption edit, and is promoted here because the failing layer is per-format placement rather than wording",
+        "evidence": "Re-recording/re-publishing is never discussed; the transcript only proposes an overlay edit on the existing published video.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-use spoken disclosure line and an on-screen overlay line for the corrected videos",
+        "evidence": "The fix only generically says to add on-screen text 'stating it was a paid partnership,' with no verbatim spoken or overlay line supplied.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Frames the expectation to remediate known non-compliance as the FTC's stated position under 16 CFR 255.1(d) rather than a standalone statutory obligation, and attaches [COUNSEL] if the user intends to assert that obligation to the creator",
+        "evidence": "16 CFR 255.1(d) is never cited, and no '[COUNSEL]' marker appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

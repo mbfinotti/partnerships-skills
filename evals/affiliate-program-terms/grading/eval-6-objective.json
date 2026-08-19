@@ -1,0 +1,118 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Establishes that in a network-hosted program the network's master publisher agreement is the governing baseline.",
+        "evidence": "Preamble: 'Affiliates join the Programme through the Network, not directly with Sundermark, and are bound by: 1. The Network's own master publisher/affiliate agreement and policies (\"Network Terms\")... Where these Program Terms are silent, the Network Terms govern.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to produce a full standalone master agreement from definitions through governing law as requested.",
+        "evidence": "The transcript delivers a complete 20-clause document running from 'Definitions' (Clause 1) through IP, Indemnity, Limitation of Liability, Term & Termination, Assignment, and 'Governing Law & Disputes' (Clause 19) and Tax status (Clause 20) \u2014 i.e. exactly the full definitions-to-governing-law master agreement structure, rather than declining to produce it.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scopes the deliverable to the program-specific layer sitting on top of the network's terms.",
+        "evidence": "Although the preamble asserts 'these Program Terms, which are Sundermark's programme-specific layer sitting on top of the Network Terms,' the actual delivered document includes full standard master-agreement content (Definitions, IP & Confidentiality, Indemnity, Limitation of Liability, Governing Law & Disputes, Assignment, Tax status) well beyond a thin program-specific layer, contradicting the claimed scoping.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names what belongs in that layer: commission terms, validation window, prohibited-tactics additions, and brand rules.",
+        "evidence": "The closest statement is in the Preamble: 'Where the two conflict on a matter within Sundermark's control (brand rules, prohibited tactics specific to Sundermark, commission eligibility, brand-asset licence), these Program Terms prevail' \u2014 this omits 'validation window' and is framed as a conflict-of-precedence rule, not an explicit enumeration of what belongs in the program-specific layer.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Raises the UK ASA/CAP labeling obligation for UK-facing affiliates and states that \"Ad\" is the preferred label.",
+        "evidence": "Clause 7.2: 'UK-facing content: the disclosure must comply with the CAP/BCAP Code as enforced by the ASA. Ambiguous labels (\"affiliate\", \"gifted\", \"spon\") are not sufficient on their own; \"Ad\" (or \"#ad\") must appear as or alongside the label.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that ambiguous labels such as \"affiliate\", \"gifted\" or \"spon\" are insufficient.",
+        "evidence": "Clause 7.2: 'Ambiguous labels (\"affiliate\", \"gifted\", \"spon\") are not sufficient on their own.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the UK's mirror Platform-to-Business regime and its notice requirements toward business users.",
+        "evidence": "Clause 13.3: 'EU/UK business-user Affiliates: where the Platform-to-Business Regulation (EU) 2019/1150 (and its UK-retained mirror) applies, termination for convenience requires at least 30 days' notice plus a statement of reasons.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags CMA/DMCC Act 2024 consumer-protection enforcement exposure, with fines up to 10% of global turnover, as relevant to undisclosed advertising.",
+        "evidence": "No mention of the CMA, the Digital Markets, Competition and Consumers Act 2024, or a 10% global turnover fine figure appears anywhere in the transcript; disclosure enforcement is discussed only via CAP/BCAP/ASA (Clause 7.2) and an internal audit right (Clause 7.4).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Invents no commission rate, tier, or payout threshold for the program.",
+        "evidence": "Clause 4.1: 'Commission rates, tiers, one-time vs. recurring structure, and the Validation Window are set out in the Commission Schedule maintained via the Network platform [per Commission Schedule \u2014 not designed by this document]. This clause references, and does not invent, that structure.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Establishes that in a network-hosted program the network's master publisher agreement is the governing baseline.",
+        "evidence": "Clause 1.3 states the opposite: 'In the event of any conflict between this Agreement and the Network Terms, this Agreement prevails as between Sundermark and the Publisher.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to produce a full standalone master agreement from definitions through governing law as requested.",
+        "evidence": "The transcript delivers a complete 28-clause agreement running from 'PARTIES' and '1. DEFINITIONS' through '28. GOVERNING LAW AND JURISDICTION,' with no refusal or scoping-down.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Scopes the deliverable to the program-specific layer sitting on top of the network's terms.",
+        "evidence": "The document is a full standalone agreement covering eligibility, IP, data protection, indemnity, liability, termination, etc., not a thin program-specific layer.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names what belongs in that layer: commission terms, validation window, prohibited-tactics additions, and brand rules.",
+        "evidence": "No such 'layer' framing exists; the document instead treats commission (cl.7), marketing restrictions (cl.8), and IP (cl.6) as ordinary sections of a full contract.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Raises the UK ASA/CAP labeling obligation for UK-facing affiliates and states that \"Ad\" is the preferred label.",
+        "evidence": "Clause 9.1(c) lists disclosure examples as '\"affiliate link\" / \"ad\" / \"commission earned\"' without stating that 'Ad' is specifically preferred.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that ambiguous labels such as \"affiliate\", \"gifted\" or \"spon\" are insufficient.",
+        "evidence": "No such statement appears; 'affiliate link' is in fact offered as an acceptable example disclosure in clause 9.1(c).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the UK's mirror Platform-to-Business regime and its notice requirements toward business users.",
+        "evidence": "The document never mentions the UK Online Intermediation Services for Business Users regulations or any P2B-style notice requirement.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags CMA/DMCC Act 2024 consumer-protection enforcement exposure, with fines up to 10% of global turnover, as relevant to undisclosed advertising.",
+        "evidence": "No mention of the CMA, the DMCC Act, or the 10%-of-turnover fine figure appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Invents no commission rate, tier, or payout threshold for the program.",
+        "evidence": "Commission Rate is left as the placeholder '[Commission Rate]' throughout (e.g. definitions, clause 7.1) rather than a specific invented figure.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

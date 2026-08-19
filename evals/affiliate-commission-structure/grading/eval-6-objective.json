@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Recommends lowering the $250 minimum threshold before shortening the validation window",
+        "evidence": "\"It skips the free lever. Lowering the minimum threshold carries zero risk... It should be pulled first, not left unaddressed.\" The 'New payout terms' table also lists Minimum threshold as the first row change, with validation last, and the verdict states: \"Sequence the three levers in efficiency order instead \u2014 threshold first (free), net terms second (real win, one field), validation last.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives a concrete replacement threshold in the $50-100 range",
+        "evidence": "Table: \"Minimum threshold | $250 | **$75** | Zero-risk lever, pulled first.\" $75 falls within the stated $50-100 industry band.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that lowering the threshold adds no risk because the money is owed to the partner either way",
+        "evidence": "\"Lowering the minimum threshold carries zero risk \u2014 the money is owed either way, it's purely a timing question of when you release it, not whether you might release it early.\" Repeated in the table: \"the money is owed regardless of when it's released, so cutting this carries no clawback exposure at all.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends shortening net terms toward net-30 ahead of touching validation",
+        "evidence": "Table: \"Payment terms | Net-45 | **Net-30** | Net-30 is what affiliates expect as the norm...\" and the sequencing statement lists \"net terms second (real win, one field), validation last.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places shortening the validation window last among the three levers",
+        "evidence": "\"validation last and floored at the return window, not below it\" and the efficiency-order table lists validation last on the efficiency axis: \"lower minimum threshold > shorten net terms > shorten validation.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Conditions any validation cut on first measuring the reversal or refund rate and finding it low",
+        "evidence": "\"The skill's own guidance: shorten validation last, and only once the reversal rate is measured and low. There's no evidence the current reversal/clawback rate has been measured here.\" And under 'Before you ship it': \"Measure current reversal/clawback rate before and after the change... if yours is already near or above that, that's the argument for staying closer to 45 days, not 30, until it's under control.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that a shortened validation window pays commissions before refunds and chargebacks land",
+        "evidence": "\"a shortened validation window pays commissions before refunds land\" and later \"more commissions will now be paid before the return window fully closes.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that a commission already paid comes back only through a manual clawback",
+        "evidence": "\"Once paid, a commission only comes back through a manual clawback (deducted from the affiliate's *next* payout, negative balance carried forward).\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that validation and net terms stack, and that the stack is what produces the wait affiliates feel",
+        "evidence": "\"today an affiliate waits roughly validation (60d) + net-45 \u2248 3.5-4 months for a first payment above threshold... Under the new terms: 30-35d validation + net-30 \u2248 2-2.2 months\" \u2014 presented under 'Net effect on cash-flow wait' as the combined figure affiliates experience.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Quantifies the current end-to-end wait as roughly three to four months",
+        "evidence": "\"today an affiliate waits roughly validation (60d) + net-45 \u2248 3.5-4 months for a first payment above threshold\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the minimum threshold is the lever the smallest and newest partners feel first",
+        "evidence": "The transcript ties the threshold lever to 'mid-size' affiliates throughout (e.g. \"most likely single reason a mid-size affiliate's balance never clears\", \"the $75 floor clearing far more of a mid-size affiliate's monthly volume\") \u2014 it never frames the threshold as the lever felt first by the smallest/newest partners.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ties the validation period length to the product's return or refund window rather than to an arbitrary figure",
+        "evidence": "\"For B2C, validation is supposed to tie to the return/refund window, not to an arbitrary target.\" and \"B2C validation should tie to the return/refund window, not to a target number.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Recommends lowering the $250 minimum threshold before shortening the validation window",
+        "evidence": "The table lists 'Minimum payout threshold' change ($250\u2192$100) alongside the validation hold change, and the analysis frames the threshold/net-terms stack as 'the actual problem' while treating the validation hold as something to fix last/carefully \u2014 but the transcript does not explicitly sequence 'lower threshold first, then shorten validation.' The table presents validation hold first, threshold third.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives a concrete replacement threshold in the $50-100 range",
+        "evidence": "Table: 'Minimum payout threshold | $250 | **$100**'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that lowering the threshold adds no risk because the money is owed to the partner either way",
+        "evidence": "The rationale given is '$250 disproportionately hurts mid-size affiliates... by making them wait multiple cycles to clear the floor' \u2014 no statement that this change carries zero risk because the money is already owed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends shortening net terms toward net-30 ahead of touching validation",
+        "evidence": "The transcript recommends Net-15, not net-30, and does not frame it as happening 'ahead of' touching validation \u2014 both changes appear together in the same table with validation listed first.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places shortening the validation window last among the three levers",
+        "evidence": "The table lists 'Validation hold' as the first row, followed by 'Payment terms', 'Minimum payout threshold', and 'Payout frequency' \u2014 validation is first, not last.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Conditions any validation cut on first measuring the reversal or refund rate and finding it low",
+        "evidence": "The condition given is tied to the return/refund window ('what's Beltram Goods' actual return/refund window'), not to measuring an actual reversal/refund rate and confirming it is low. The fast-track tier mentions 'return/chargeback rate below program average' but this is a segmentation criterion, not a precondition for cutting the base validation window.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that a shortened validation window pays commissions before refunds and chargebacks land",
+        "evidence": "\"If your return window is longer than 10 days... You pay commission on orders that later get returned or charged back.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that a commission already paid comes back only through a manual clawback",
+        "evidence": "\"You now have to claw back money you already sent affiliates, which is worse for cash flow and worse for relationships than the current delay ever was \u2014 collecting money back from an affiliate is far more friction than making them wait for it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that validation and net terms stack, and that the stack is what produces the wait affiliates feel",
+        "evidence": "\"The actual problem isn't the hold \u2014 it's the stack. Validation hold (60d) + net-45 payment + $250 minimum threshold can combine into 100+ days before an affiliate sees cash... That's the thing affiliates are reacting to, not the hold specifically.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Quantifies the current end-to-end wait as roughly three to four months",
+        "evidence": "\"can combine into 100+ days before an affiliate sees cash\" and \"total time from sale to cash drops from ~105 days (60 + 45)\" \u2014 100-105 days is roughly 3.5 months, within the three-to-four-month range.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the minimum threshold is the lever the smallest and newest partners feel first",
+        "evidence": "The transcript says the $250 threshold '$250 disproportionately hurts mid-size affiliates (the segment that just left)' \u2014 this attributes the harm to mid-size affiliates, not to the smallest/newest partners feeling it first.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ties the validation period length to the product's return or refund window rather than to an arbitrary figure",
+        "evidence": "\"The hold should be set at that window plus a small buffer (5\u201310 days for processing lag), never shorter than it\" and the table entry \"Return window + 10 days\" with the rule \"Must stay \u2265 return/chargeback window.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

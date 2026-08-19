@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Flags Halden Group's January-2025 accounts as past the 12-month duration cap, where month 13 onward earns zero",
+        "evidence": "\"Accounts referred/first billed Jan 2025, still billing monthly, cap is 12 months. This run's billing event is ~month 14 - two months past the cap\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Classifies the duration-cap breach as a systematic, compounding overpay rather than an isolated line error",
+        "evidence": "\"This is the 'systematic, compounding overpay' pattern the cap rule exists to prevent - it doesn't self-correct.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the $180 Meridian Freight line as 20% of the pre-downgrade $900 base and corrects it to the settled, prorated downgraded amount",
+        "evidence": "\"Line reads $180 = 20% x $900, the pre-downgrade plan price... recompute off the settled invoice... (adjust only if the settled Feb invoice was prorated across $900/$400 for the split month - pull the actual invoice, don't assume)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the commission base to be the settled billing amount rather than the plan list price",
+        "evidence": "\"Commission base must be the settled/discounted amount the customer actually paid, never list price\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Corrects the three promo accounts to the discounted invoice amount actually paid by the customer",
+        "evidence": "\"recompute each at 20% x (list price x 0.8) against the actual settled invoice; correct before release\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags every remaining recurring line for Sable Works as an overpay because the buyout lump sum ended the commission stream",
+        "evidence": "\"Any recurring line for a bought-out account is a straight overpay, full stop... ACTION: strip every Sable Works line from this run.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Holds the two trial conversions from 18 days ago because the 30-day validation window has not elapsed",
+        "evidence": "\"Trials converted 18 days ago, marked 'approved' against a 30-day validation window - 12 days early... revert both to pending; hold to the run in which day 30 has actually passed.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that auto-approval is a common default, so an 'approved' status is not evidence that the window elapsed or that a human reviewed the line",
+        "evidence": "F-3 only states \"This is a skipped state... the exact failure mode gate 8 exists to catch\" without discussing auto-approval as a common default undermining the meaning of 'approved' status.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Verifies that churned subscriptions stopped generating commission lines the cycle they lapsed",
+        "evidence": "No discussion of churned-subscription line cutoff verification appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Verifies proration is applied in both directions, and checks mid-cycle seat removals against the program's stated policy rather than assuming a credit",
+        "evidence": "No mention of seat removals or bidirectional proration checks in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that B2B SaaS platforms often read the billing system directly, which collapses the reconciliation check to a spot-check, and verifies that is actually true here before collapsing it",
+        "evidence": "The transcript instead states reconciliation gates 1-6 and 9 simply \"could not run\" due to lack of export, with no discussion of billing-system-direct-read collapsing reconciliation to a spot check.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Delivers the payout audit report with per-finding severity, dollars at risk, affected lines, and a recommended action per finding",
+        "evidence": "Each finding block includes severity, value, affected lines, and an \"ACTION:\" line, e.g. \"F-1 | blocker | value unknown, all Sable Works lines... ACTION: strip every Sable Works line\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Flags Halden Group's January-2025 accounts as past the 12-month duration cap, where month 13 onward earns zero",
+        "evidence": "\"20% capped at 12 months means the commission window for a January 2025 referral runs Jan\u2013Dec 2025... Those lines should be zeroed out, not partially reduced.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Classifies the duration-cap breach as a systematic, compounding overpay rather than an isolated line error",
+        "evidence": "Halden is only called \"a clean cap breach\" with conditional confirmation needed; the transcript's explicit 'systemic' language is reserved for the Meridian and Sable Works issues, not applied to the Halden cap breach.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the $180 Meridian Freight line as 20% of the pre-downgrade $900 base and corrects it to the settled, prorated downgraded amount",
+        "evidence": "\"Correct line should be $80\" \u2014 this is flat 20% of $400 with no proration for the mid-cycle Feb 10 downgrade date being applied.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the commission base to be the settled billing amount rather than the plan list price",
+        "evidence": "\"Revenue share should track actual revenue collected, not list price \u2014 otherwise you're paying commission on revenue you never received.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Corrects the three promo accounts to the discounted invoice amount actually paid by the customer",
+        "evidence": "\"Recalculate those three lines at 20% of the discounted (promo) price.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags every remaining recurring line for Sable Works as an overpay because the buyout lump sum ended the commission stream",
+        "evidence": "\"Any line for Sable Works in this March payout is double payment... Pull every Sable Works line entirely.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Holds the two trial conversions from 18 days ago because the 30-day validation window has not elapsed",
+        "evidence": "\"Day 18 is inside that window \u2014 these should still be pending, not approved... Revert status to pending and re-evaluate at day 30.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that auto-approval is a common default, so an 'approved' status is not evidence that the window elapsed or that a human reviewed the line",
+        "evidence": "The transcript flags the early approval as a policy violation but never discusses auto-approval defaults or that 'approved' status doesn't prove human review.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Verifies that churned subscriptions stopped generating commission lines the cycle they lapsed",
+        "evidence": "Not addressed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Verifies proration is applied in both directions, and checks mid-cycle seat removals against the program's stated policy rather than assuming a credit",
+        "evidence": "No mention of seat removals or proration-direction checks.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that B2B SaaS platforms often read the billing system directly, which collapses the reconciliation check to a spot-check, and verifies that is actually true here before collapsing it",
+        "evidence": "Not discussed; no mention of billing-system read patterns or spot-check collapsing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Delivers the payout audit report with per-finding severity, dollars at risk, affected lines, and a recommended action per finding",
+        "evidence": "Severity icons (\ud83d\udd34/\u26a0\ufe0f) are used, but dollars-at-risk are only quantified for Meridian ($100); Halden and Sable Works have no dollar figures or affected-line identifiers given.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

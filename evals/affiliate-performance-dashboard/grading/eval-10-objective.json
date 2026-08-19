@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States plainly that no canonical affiliate-dashboard framework exists.",
+        "evidence": "\"There is no named framework to give her \u2014 and citing one would burn credibility the first time someone checks.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that affiliate metric definitions are not standardized and that no standards body enforces them.",
+        "evidence": "\"no standards body (IAB, PMA \u2014 trade bodies only) has ever standardized affiliate metric definitions or published a canonical 'framework.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Declines to invent, name, or present a branded framework.",
+        "evidence": "\"Anything sold to you as one is a vendor or consultant's branding exercise. If she wants a name in the room, don't invent one\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the borrowed pieces instead: incrementality measurement, the attributed ROAS versus attributed ROI split, the sourced-versus-influenced separation rule, and a tiered metric hierarchy with good-metric criteria.",
+        "evidence": "\"three more borrowed... incrementality measurement (holdout/geo-lift), the attributed-ROAS-vs-ROI split, and a sourced-vs-influenced separation rule\", plus \"Croll & Yoskovitz's tiered metric hierarchy\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Attributes the tiered hierarchy and the good-metric criteria to Croll and Yoskovitz's Lean Analytics.",
+        "evidence": "\"Croll & Yoskovitz's tiered metric hierarchy (from *Lean Analytics*)... screened against their four good-metric criteria\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Lists the four good-metric criteria: comparative, a ratio or rate, understandable, and behavior-changing.",
+        "evidence": "\"comparative, a ratio or rate, understandable, and behavior-changing\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Demotes clicks and signups from headline KPIs to diagnostics.",
+        "evidence": "\"Demote, don't delete: clicks and signups move to the input/driver tier as diagnostics ('is traffic volume healthy')\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names clicks, impressions and signups as vanity metrics that inform no decision.",
+        "evidence": "The transcript names \"Total clicks\" and \"Affiliate signups\" as vanity metrics/counts, but \"impressions\" is never mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Replaces gross commissions earned with validated commission in the headline.",
+        "evidence": "\"Gross commissions gets replaced by **validated/approved commission**, with pending shown separately, never summed in.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires every metric on the dashboard to carry a named decision it informs, and to be dropped otherwise.",
+        "evidence": "No explicit rule stated requiring every metric to carry a named decision or be dropped; the table critiques current KPIs but doesn't state this as a general governing rule.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Organizes the metric set into a business or headline tier, an input or driver tier, and a health or guardrail tier.",
+        "evidence": "Only \"Headline tier\" and \"input/driver tier\" are explicitly named; no health/guardrail tier is labeled anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Labels any partner lifecycle chain such as recruit, activate, produce, grow as informal shorthand rather than a branded framework.",
+        "evidence": "No mention of a recruit/activate/produce/grow lifecycle chain anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States plainly that no canonical affiliate-dashboard framework exists.",
+        "evidence": "The response instead presents AARRR as the framework to use: 'It maps a funnel to five stages \u2014 perfect fit for affiliate reporting.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that affiliate metric definitions are not standardized and that no standards body enforces them.",
+        "evidence": "No such statement about non-standardization appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Declines to invent, name, or present a branded framework.",
+        "evidence": "'Framework: AARRR (\"Pirate Metrics\")... Named by Dave McClure (500 Startups, 2007). Widely recognized, so your VP can drop the name.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the borrowed pieces instead: incrementality measurement, the attributed ROAS versus attributed ROI split, the sourced-versus-influenced separation rule, and a tiered metric hierarchy with good-metric criteria.",
+        "evidence": "None of incrementality, ROAS/ROI split, sourced/influenced, or tiered hierarchy concepts appear.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Attributes the tiered hierarchy and the good-metric criteria to Croll and Yoskovitz's Lean Analytics.",
+        "evidence": "No such attribution or citation appears anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Lists the four good-metric criteria: comparative, a ratio or rate, understandable, and behavior-changing.",
+        "evidence": "No such criteria list is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Demotes clicks and signups from headline KPIs to diagnostics.",
+        "evidence": "Clicks and signups remain the headline 'Acquisition' and 'Activation' KPIs with targets (1M/month, 200/month).",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names clicks, impressions and signups as vanity metrics that inform no decision.",
+        "evidence": "The critique given is 'all three are raw volume \u2014 none of them measure efficiency or quality,' not a 'vanity metric, informs no decision' framing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Replaces gross commissions earned with validated commission in the headline.",
+        "evidence": "'Gross commissions earned' remains in the KPI table; 'Net commissions' is proposed only as an addition, not a headline replacement.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires every metric on the dashboard to carry a named decision it informs, and to be dropped otherwise.",
+        "evidence": "No such requirement is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Organizes the metric set into a business or headline tier, an input or driver tier, and a health or guardrail tier.",
+        "evidence": "Metrics are organized by AARRR funnel stage, not a tiered business/driver/guardrail structure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Labels any partner lifecycle chain such as recruit, activate, produce, grow as informal shorthand rather than a branded framework.",
+        "evidence": "AARRR is explicitly presented as a named, citable branded framework, the opposite of labeling it informal shorthand.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+## Sanity-check: cutting validation from 60 → 10 days
+
+Diagnosing the complaint correctly, but reaching for the wrong lever first, and pulling it too far.
+
+**The three payout-speed levers don't rank the same on every axis:**
+
+| Axis | Order |
+|---|---|
+| Efficiency (value per unit effort) | lower minimum threshold > shorten net terms > shorten validation |
+| Value (speed the affiliate actually feels) | shorten validation > shorten net terms > lower threshold |
+| Reversibility cost | shorten validation > shorten net terms > lower threshold |
+
+Validation ranks #1 on felt speed, but it also ranks #1 on reversibility cost — and for good reason: a shortened validation window pays commissions before refunds land. Once paid, a commission only comes back through a manual clawback (deducted from the affiliate's *next* payout, negative balance carried forward). If a mid-size affiliate's volume ever dips — which is exactly the population you're trying to retain — there may be no future payout to deduct against, and the clawback becomes uncollectable.
+
+Two problems with going straight to 10 days:
+
+1. **It skips the free lever.** Lowering the minimum threshold carries zero risk — the money is owed either way, it's purely a timing question of when you release it, not whether you might release it early. It should be pulled first, not left unaddressed. At $250, your threshold is well above the $50-100 industry band (Tolt: $50-100 recommended for most programs, $50 the SaaS default; HubSpot pays out at $10 minimum, Hunter.io at $100). A mid-size affiliate who never crosses $250 in a month never gets paid at all that cycle — this is a very plausible independent driver of the churn you saw, and your plan doesn't touch it.
+2. **It undercuts the thing validation exists to protect against.** For B2C, validation is supposed to tie to the return/refund window, not to an arbitrary target. Cookware is physical goods with a real return cycle — most DTC cookware brands run 30- to 45-day return windows (some run 100-day trial periods). ⚠️ I don't have Beltram's actual return window confirmed — if it's anywhere near the category norm, a 10-day hold releases commission on orders that can still come back for another 20-35+ days. That's the highest-reversibility-cost lever, moved to its most aggressive setting, on the one input you haven't given me. The skill's own guidance: shorten validation *last*, and only once the reversal rate is measured and low. There's no evidence the current reversal/clawback rate has been measured here.
+
+**Verdict: don't cut to 10 days as proposed.** Sequence the three levers in efficiency order instead — threshold first (free), net terms second (real win, one field), validation last and floored at the return window, not below it.
+
+## New payout terms
+
+| Term | Current | New | Reason |
+|---|---|---|---|
+| Minimum threshold | $250 | **$75** | Zero-risk lever, pulled first. $250 is roughly 2.5-5x the $50-100 industry band and is the most likely single reason a mid-size affiliate's balance never clears — the money is owed regardless of when it's released, so cutting this carries no clawback exposure at all. |
+| Payment terms | Net-45 | **Net-30** | Net-30 is what affiliates expect as the norm; net-45 was already looser than that with no offsetting benefit. One field change, no new reconciliation mechanics. |
+| Validation/locking | 60 days | **30-35 days** (⚠️ confirm and set to your actual return window + a few days' processing buffer, not below it) | B2C validation should tie to the return/refund window, not to a target number. 30-60 days is the typical band industry-wide; going to 10 would release commission on orders still inside a typical 30-45-day cookware return cycle, all recoverable only through manual clawback against a *future* payout the affiliate may not have. |
+| Clawback | (unspecified) | Refund, chargeback, or in-window cancellation voids the commission; if already paid, deduct from the next payout and carry negative balances forward. | Explicit mechanism needed precisely because you're compressing validation — more commissions will now be paid before the return window fully closes, so the clawback path has to actually work operationally, not just exist in the terms doc. |
+
+**Net effect on cash-flow wait:** today an affiliate waits roughly validation (60d) + net-45 ≈ 3.5-4 months for a first payment above threshold, and small/mid affiliates may never clear the $250 floor at all. Under the new terms: 30-35d validation + net-30 ≈ 2-2.2 months, with the $75 floor clearing far more of a mid-size affiliate's monthly volume. That's the largest speed win available without pushing paid-before-returns-settle exposure onto the business.
+
+## Before you ship it
+
+- **Confirm the actual return/refund window** for Beltram's cookware line and set validation to that plus a short buffer (a few days for processing) — don't guess it down to 10 out of the gate.
+- **Measure current reversal/clawback rate** before and after the change. Industry reference point is ~2.55% of gross commission value reversed (FirstPromoter, cross-program telemetry) — if yours is already near or above that, that's the argument for staying closer to 45 days, not 30, until it's under control.
+- **This is a generosity increase**, not a rate cut, so none of the network decrease-notice caps apply — you can move on your own timeline. Still worth: leading the announcement with what stays the same (headline commission rate unchanged), giving existing affiliates a heads-up rather than a silent change, and talking to the departed/at-risk mid-size affiliates directly before the broadcast, since they're the ones whose complaint this is meant to fix.
+- **Track after launch:** reversal/clawback rate (make sure it doesn't climb), share of affiliates newly clearing the $75 threshold each cycle, and average days-to-first-payment — that last number is the one your departed affiliates were actually complaining about.

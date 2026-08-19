@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the claim that an obviously commercial account is exempt, stating the BGH's 2021 rulings excused only unpaid self-promotion while paid third-party promotion must always be disclosed however obviously commercial the account looks",
+        "evidence": "\"Paid third-party promotion \u2192 must *always* be disclosed, 'however obviously commercial the account looks.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the 2022 UWG amendment codified that paid/unpaid distinction",
+        "evidence": "No mention of a 2022 UWG amendment appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the free 12-month licence as consideration and a material connection, not an exemption because no cash changed hands",
+        "evidence": "\"a free 12-month Pro licence worth \u20ac180 ... the material-connection trigger is the free product itself, not a contractual obligation to post\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites German law's failure-to-identify-commercial-purpose rule, UWG section 5a(4), as the German hook",
+        "evidence": "\"Under UWG \u00a75a(4), consideration from a third party is *presumed* once given\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that Germany presumes consideration from a third party and puts the burden on the poster to credibly show none was received or promised",
+        "evidence": "\"consideration from a third party is *presumed* once given; the poster carries the burden of showing none was received or promised\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the undisclosed German-market post as non-compliant by default rather than presuming compliance absent proof of payment",
+        "evidence": "\"Here it was affirmatively given, so there's nothing to rebut. That places this squarely in the 'paid third-party promotion' bucket\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the B2B exemption argument for Germany, noting the UWG expressly protects other market participants alongside consumers",
+        "evidence": "\"UWG \u00a75a(4) protects consumers *and* 'other market participants' by its own text ... In Germany there's no B2B exemption to reach for.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not assert that the FTC Endorsement Guides themselves settle B2B coverage; treats any Guides application to a business audience as by-analogy and attaches a [COUNSEL] marker",
+        "evidence": "The transcript never discusses FTC Endorsement Guides or their B2B application at all; it addresses only German UWG law, so no by-analogy/[COUNSEL] treatment of the FTC Guides appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the disclosure inside the video itself, on screen and spoken at the start, not only in the video description",
+        "evidence": "\"Add spoken line + on-screen overlay in the first ~30 seconds\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-use German-language disclosure line rather than an English-only \"#ad\", noting a label in a language the audience does not read fails",
+        "evidence": "A German line is supplied (\"Anzeige \u2013 Klarvault hat mir...\"), but the transcript never states that a label in a language the audience does not read fails.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Attaches each counsel-grade ambiguity inline with the finding that raised it using a [COUNSEL: ...] marker, rather than pooling them in a closing section",
+        "evidence": "\"a B2B carve-out is at least arguable `[COUNSEL: B2B applicability outside Germany, e.g. if a meaningful Austrian/Swiss audience share exists]`\" appears directly inline within Claim 2's discussion, not in a closing list.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects the claim that an obviously commercial account is exempt, stating the BGH's 2021 rulings excused only unpaid self-promotion while paid third-party promotion must always be disclosed however obviously commercial the account looks",
+        "evidence": "\"The court did not create a blanket exemption for 'commercial accounts.' ... a purely commercial/monetized channel making an unsolicited, unpaid, no-freebie review... can often skip the label... That is not your fact pattern.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the 2022 UWG amendment codified that paid/unpaid distinction",
+        "evidence": "\"The 2022 UWG reform codified this: \u00a7 5a Abs. 4 UWG now states the commercial purpose of an act benefiting another company is presumed whenever that company provided a Gegenleistung.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the free 12-month licence as consideration and a material connection, not an exemption because no cash changed hands",
+        "evidence": "\"you gave him a \u20ac180-value licence... That's a Gegenleistung in substance, contract or not.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites German law's failure-to-identify-commercial-purpose rule, UWG section 5a(4), as the German hook",
+        "evidence": "\"\u00a7 5a Abs. 4 UWG now states the commercial purpose of an act benefiting another company is presumed whenever that company provided a Gegenleistung.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that Germany presumes consideration from a third party and puts the burden on the poster to credibly show none was received or promised",
+        "evidence": "The transcript states a presumption exists ('is presumed whenever that company provided a Gegenleistung') but never frames it as shifting a burden onto the poster to disprove receipt.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the undisclosed German-market post as non-compliant by default rather than presuming compliance absent proof of payment",
+        "evidence": "\"Your fact pattern is the one the BGH and the 2022 reform specifically targeted: free product \u2192 content \u2192 no disclosure\" ... \"the direction of the answer is clear: label it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the B2B exemption argument for Germany, noting the UWG expressly protects other market participants alongside consumers",
+        "evidence": "\"\u00a7 5a UWG protects 'Verbraucher oder sonstige Marktteilnehmer' \u2014 consumers or other market participants. UWG's concealment-of-commercial-intent rules are not consumer-only.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not assert that the FTC Endorsement Guides themselves settle B2B coverage; treats any Guides application to a business audience as by-analogy and attaches a [COUNSEL] marker",
+        "evidence": "The transcript never discusses the FTC Endorsement Guides at all, and no [COUNSEL] marker appears anywhere in the text.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the disclosure inside the video itself, on screen and spoken at the start, not only in the video description",
+        "evidence": "The fix lists 'pinned comment, description line, and ideally an on-screen note' \u2014 on-screen is only 'ideally' suggested alongside description/pinned comment, not required, and no spoken-at-start requirement is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-use German-language disclosure line rather than an English-only \"#ad\", noting a label in a language the audience does not read fails",
+        "evidence": "The only suggested line, 'Klarvault provided a free 12-month Pro licence for this review,' is in English, and no language-mismatch issue is raised.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Attaches each counsel-grade ambiguity inline with the finding that raised it using a [COUNSEL: ...] marker, rather than pooling them in a closing section",
+        "evidence": "No '[COUNSEL: ...]' markers appear anywhere in the transcript; ambiguity is instead addressed in a closing line recommending 'a German Wettbewerbsrecht/Medienrecht lawyer'.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

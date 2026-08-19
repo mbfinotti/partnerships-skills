@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Models at least one negative-spillover scenario per shortlisted candidate and what it would cost Solane",
+        "evidence": "No candidate is actually shortlisted (all 11 are 'Not ranked'), so the per-shortlisted-candidate requirement is at best vacuous, and the risk treatment that does exist stops short of modeled scenarios with costs. For the two named candidates there are gestures at downside: Marisse Bell \u2014 unaudited agency numbers, ~1-in-4 fraud-risk stat, and 'a premium/exclusivity brand doesn't automatically benefit from the largest overlap... Ask for the audience composition' \u2014 which hints at mass-market dilution but never states a scenario or what Solane would lose. Halvern comes closer: 'a luxury house's st",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Models at least one negative-spillover scenario per shortlisted candidate and what it would cost Solane",
+        "evidence": "Only 2 of the 11 candidates get any spillover modeling. Halvern is the strongest case: the 'Junior-partner effect' is named explicitly ('Halvern's audience sees Solane as a discount extension, and *your* 95\u20ac-basket positioning gets diluted rather than elevated') \u2014 a real downside scenario with a stated cost to Solane's positioning. Marisse Bell gets a thinner one: a fraud/inflated-follower risk with a hand-waved cost ('a fraud scandal costs more than the fee'), which is an assertion rather than a modeled consequence. The remaining 9 candidates receive no spillover analysis at all \u2014 the answer ",
+        "score": 2,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

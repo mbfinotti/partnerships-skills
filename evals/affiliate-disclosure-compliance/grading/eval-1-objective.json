@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to rank, prioritize, or reduce the disclosure checks to a two-item subset, stating they are gates where every applicable one must pass rather than a ranked menu",
+        "evidence": "\"the six disclosure-layer checks aren't rankable by coverage-per-minute \u2014 they're independent legal gates, not a menu. A single fail on any layer fails the asset...\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Runs all six layers - presence, wording, placement and prominence, per-format requirements, truncation and portability, jurisdiction overlays - rather than a selected two",
+        "evidence": "Both asset tables list all six rows: Disclosure present, Wording unambiguous, Placement and prominence, Per-format requirement, Truncation/portability, and UK overlay (CMA/CAP).",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Opens with an explicit statement that this is a compliance review against published regulator rules and not legal advice, before reviewing any content",
+        "evidence": "\"This is a compliance review against published regulator rules, not legal advice. Counsel owns the legal call...\" appears before any asset review.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the platform's paid-partnership label alone is not sufficient, noting the FTC treats platform disclosure tools as no guarantee and the CMA accepts them only if clearly visible",
+        "evidence": "\"FTC: native label alone gives \\\"no guarantee\\\"\" and \"native label alone is accepted only \\\"if clearly visible,\\\"\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the platform label may not travel off-platform and can vanish in embeds, screenshots, or cross-posts",
+        "evidence": "\"a clip taken after minute 1 carries zero disclosure ... a platform label alone doesn't travel; single-mention content doesn't either\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fails \"thanks to Thermobrew for making this happen\" as wording, because gratitude states no commercial relationship",
+        "evidence": "\"'Thanks to Thermobrew for making this happen' is gratitude, not a disclosure of a commercial relationship\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the livestream disclosure to be repeated periodically at intervals and at segment changes, not stated once at the start, because mid-stream joiners never hear an opening-only disclosure",
+        "evidence": "\"livestream's own rule requires periodic repetition, not a one-time mention ... Verbal repeat every ~20\u201325 min and at any segment change\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the Story disclosure to be superimposed on the promotional frame itself and on screen long enough to read, rejecting caption-only or bio-only disclosure for Stories",
+        "evidence": "\"Stories require the disclosure *superimposed on the image itself*, on screen long enough to read \u2014 a caption field that isn't burned into the visible frame fails\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a pre-publication gate for the ephemeral and video content, identifying it as the FTC's own fallback where after-the-fact monitoring is impractical",
+        "evidence": "\"do a pre-publication gate specifically on the Stories (ephemeral content is the FTC's own stated reason to check before, not after, since it vanishes)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-paste livestream verbal repeat line and a ready-to-paste Story overlay line rather than only describing what is wrong",
+        "evidence": "A quoted livestream line is given (\"Quick heads-up \u2014 this stream is a paid partnership...\"), but the Story fix only says \"Confirm 'ad' renders as visible text overlaid on each Story frame\" \u2014 no new ready-to-paste overlay line is supplied for the Story.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the effort ceiling can re-rank the monitoring, guidance, and remediation choices around the review, but never the disclosure obligations themselves",
+        "evidence": "\"This is the one place ranking is legitimate \u2014 not the legal checks, but how the rules reach Dana and how future assets get monitored\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to rank, prioritize, or reduce the disclosure checks to a two-item subset, stating they are gates where every applicable one must pass rather than a ranked menu",
+        "evidence": "The transcript explicitly frames this as 'the two checks worth your 20 minutes' and later a 'Skip, given the time budget' section that drops several checks \u2014 the opposite of refusing to reduce to a subset.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Runs all six layers - presence, wording, placement and prominence, per-format requirements, truncation and portability, jurisdiction overlays - rather than a selected two",
+        "evidence": "Only two checks are run ('Check 1: Fix the stream disclosure', 'Check 2: Make ad visible on-screen'); the 'Skip' section explicitly omits placement/contrast, itemized compensation disclosure, and record-keeping layers.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Opens with an explicit statement that this is a compliance review against published regulator rules and not legal advice, before reviewing any content",
+        "evidence": "The transcript opens with 'Here are the two checks worth your 20 minutes, and why the rest can wait' \u2014 no not-legal-advice framing appears anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that the platform's paid-partnership label alone is not sufficient, noting the FTC treats platform disclosure tools as no guarantee and the CMA accepts them only if clearly visible",
+        "evidence": "The text only says 'Keep the platform paid-partnership label on \u2014 it stays as a second layer, not the only layer,' with no mention of FTC or CMA positions on platform tools specifically.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the platform label may not travel off-platform and can vanish in embeds, screenshots, or cross-posts",
+        "evidence": "No mention of off-platform portability, embeds, screenshots, or cross-posts anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Fails \"thanks to Thermobrew for making this happen\" as wording, because gratitude states no commercial relationship",
+        "evidence": "\"'Thanks to Thermobrew for making this happen' is a thank-you, not a disclosure. It never says the words 'ad,' 'sponsored,' or 'paid partnership,' so it doesn't clear the FTC's 'clear and unambiguous' bar\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires the livestream disclosure to be repeated periodically at intervals and at segment changes, not stated once at the start, because mid-stream joiners never hear an opening-only disclosure",
+        "evidence": "The fix only specifies time-based repetition ('Have her repeat it roughly every 20\u201325 minutes... not just at the top') with no mention of repeating at segment/content changes.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires the Story disclosure to be superimposed on the promotional frame itself and on screen long enough to read, rejecting caption-only or bio-only disclosure for Stories",
+        "evidence": "\"Ask Dana to add a visible on-screen sticker/text overlay reading 'AD' or 'Paid partnership' to each of the 6 Stories, in addition to the caption and the platform label\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a pre-publication gate for the ephemeral and video content, identifying it as the FTC's own fallback where after-the-fact monitoring is impractical",
+        "evidence": "No pre-publication gate or FTC fallback rationale is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-paste livestream verbal repeat line and a ready-to-paste Story overlay line rather than only describing what is wrong",
+        "evidence": "Gives the exact line 'Quick note \u2014 this stream is sponsored by Thermobrew, I'm paid to be here' and the overlay text 'AD' or 'Paid partnership'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that the effort ceiling can re-rank the monitoring, guidance, and remediation choices around the review, but never the disclosure obligations themselves",
+        "evidence": "The transcript does the opposite: it explicitly drops disclosure-related checks (e.g., itemized commission disclosure, placement/contrast audit) 'given the time budget'.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

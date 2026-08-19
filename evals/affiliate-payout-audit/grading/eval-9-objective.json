@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Names dedup as the highest errors-caught-per-hour gate, ahead of reconciliation and comparability, lifecycle window, rate and tier recompute, and currency, tax and thresholds",
+        "evidence": "No such ranking of gates by errors-caught-per-hour appears; dedup is listed simply as a 20-minute step in the \"Run in full\" table with no efficiency ranking claim.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Distinguishes the efficiency ordering from the value ordering, in which reconciliation and comparability lead",
+        "evidence": "No distinction between an efficiency ordering and a value ordering is made anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the numbered audit sequence is a dependency order, not a priority order",
+        "evidence": "The transcript reshapes the sequence based on time and risk (\"Three things reshaping the standard sequence\") but never characterizes the numbered sequence itself as a dependency order versus a priority order.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Refuses to drop maker-checker despite the deadline, calling it the gate never dropped, and finds a second reader outside finance rather than skipping the sign-off",
+        "evidence": "\"It does not delete the checker requirement itself... Get literally any other person \u2014 a manager, another ops lead, anyone not you \u2014 to read the finished report and totals for 15 minutes before you release\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Promotes rate and tier recompute to the front of the order because the commission structure changed mid-period",
+        "evidence": "\"The rate/tier recompute (gate 7) is not just 'in scope' \u2014 it's promoted to the top of the queue, because your mid-period structure change matches the skill's own trigger for promotion\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recomputes each line against the terms in force on its own transaction date, splitting the run at 1 May rather than applying one card across the whole period",
+        "evidence": "\"Every line dated 15 Apr\u201330 Apr owes flat 12%. Every line dated 1 May\u201315 May owes the tiered card, computed on that partner's post-1-May volume only\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes full-population recompute from the coverage menu because scripts cannot be executed over the export",
+        "evidence": "The transcript explicitly rejects this: \"'No code' does not mean 'no full-population recompute' \u2014 it means you build the recompute as fill-down formulas instead of a script... Use it.\"",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names risk-based stratified sampling as the leading coverage method available here",
+        "evidence": "The chosen coverage approach is full-population formula recompute plus a targeted 100% review of high-risk lines, not sampling; the word 'stratified' or 'sampling' as a leading method is never used.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines the stratified sample as 100% of high-value lines, high-reversal partners and top earners, plus a random sample of the remainder sized against materiality",
+        "evidence": "The transcript instead defines full-population formula coverage plus \"a targeted 100% review of a small high-risk slice, not a random sample\" \u2014 no random sample of a remainder is proposed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects random-only sampling as a rung because it costs the same hours as risk-based and finds fewer dollars",
+        "evidence": "The transcript only says the targeted review \"is not a random sample\" without any cost/dollars-found comparison argument.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Warns that a top-earner spot-check is blind to long-tail systematics and is acceptable only under a hard deadline",
+        "evidence": "No such warning about top-earner spot-checks and long-tail blindness appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a reusable recompute script as the compounding fix, noting full-population recompute drops to near-zero effort on every run once the script exists",
+        "evidence": "The transcript mentions a \"standing recompute script\" only as a deferred fix-it-forward note (\"defer past Thursday... don't build it now\") without stating that it makes future full-population recompute near-zero effort.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Names dedup as the highest errors-caught-per-hour gate, ahead of reconciliation and comparability, lifecycle window, rate and tier recompute, and currency, tax and thresholds",
+        "evidence": "Duplicate check is listed as step 5, after boundary definition, independent total, and boundary-correctness/tier checks \u2014 not positioned first or labeled as highest errors-per-hour.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Distinguishes the efficiency ordering from the value ordering, in which reconciliation and comparability lead",
+        "evidence": "No dual efficiency-vs-value ordering discussion appears; the transcript presents a single sequential numbered list.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the numbered audit sequence is a dependency order, not a priority order",
+        "evidence": "The list is presented with time allocations under 'Run these (non-negotiable)' without ever clarifying it is dependency order rather than priority order.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Refuses to drop maker-checker despite the deadline, calling it the gate never dropped, and finds a second reader outside finance rather than skipping the sign-off",
+        "evidence": "\"Paper trail, even though finance can't review... This isn't optional \u2014 it's what lets finance audit after the fact instead of before, which is the actual mitigation\" \u2014 this substitutes after-the-fact documentation for pre-release sign-off rather than finding an alternate second reader.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Promotes rate and tier recompute to the front of the order because the commission structure changed mid-period",
+        "evidence": "\"Core risk in one sentence: you switched commission logic mid-period... Almost all of your exposure sits at that boundary. Everything else is secondary.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recomputes each line against the terms in force on its own transaction date, splitting the run at 1 May rather than applying one card across the whole period",
+        "evidence": "\"Add a helper column: =IF(order_date<DATE(2026,5,1),0.12,XLOOKUP(volume_tier,tier_table))\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes full-population recompute from the coverage menu because scripts cannot be executed over the export",
+        "evidence": "The transcript instead performs full-population recompute via spreadsheet formulas across all rows ('Boundary-correctness check, every row (90 min)'), rather than deleting this option.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names risk-based stratified sampling as the leading coverage method available here",
+        "evidence": "No sampling terminology ('stratified', 'risk-based') is used; only a Pareto top-N pass is described.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Defines the stratified sample as 100% of high-value lines, high-reversal partners and top earners, plus a random sample of the remainder sized against materiality",
+        "evidence": "The Pareto pass covers only 'the top ~50 lines by $' with no random sample of the remainder mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects random-only sampling as a rung because it costs the same hours as risk-based and finds fewer dollars",
+        "evidence": "Not discussed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Warns that a top-earner spot-check is blind to long-tail systematics and is acceptable only under a hard deadline",
+        "evidence": "The transcript only says not to 'pretend you did full coverage' and to log what wasn't checked, without warning specifically about blindness to long-tail systematics.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends a reusable recompute script as the compounding fix, noting full-population recompute drops to near-zero effort on every run once the script exists",
+        "evidence": "No scripting recommendation appears; the plan is explicitly spreadsheet-only ('No scripts, spreadsheet only').",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

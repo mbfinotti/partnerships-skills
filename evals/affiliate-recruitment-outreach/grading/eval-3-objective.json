@@ -1,0 +1,178 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Replaces the subject line and states that 'Partnership Proposal from [Company]' style subjects are a documented delete-on-sight pattern",
+        "evidence": "'\"Partnership Proposal from Northvale Supply Co.\" | Clich\u00e9 subject Prussakov says to \"completely scrap\"' followed by a new subject line.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "New subject line is roughly 3-5 words and references the prospect's own work rather than the sender's company",
+        "evidence": "'Subject: Your Yosemite packing list' \u2014 4 words, referencing the prospect's own content.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces 'Hi there' with the prospect's name",
+        "evidence": "'Hi Maya,'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes the unverifiable familiarity claim ('big fan of your content') and substitutes one specific verifiable reference to the prospect's work, or an honest statement of how they were found",
+        "evidence": "'I read your \"Ultimate 3-Day Yosemite Packing List\" post \u2014 the shoulder-season layering breakdown was more specific than most gear content.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes the product feature dump (SKU count, app, returns, awards) as mispositioned data where the audience-fit reason belongs",
+        "evidence": "The rewritten email contains no SKU count, app, or awards mention; only cookie/commission economics and a single proof point (free returns) remain.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes the '$9,000+ a month / you'd do even better' projection and identifies it as hypothetical earnings math that must never appear",
+        "evidence": "'\"$9,000+ a month... you'd probably do even better\" | \"Unearned riches\" math \u2014 the single most-cited mistake, and legally risky as an earnings claim'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the earnings claim also creates regulatory exposure for income representations",
+        "evidence": "The diagnosis table calls it 'legally risky as an earnings claim.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces 'industry-leading commissions' with the exact stated terms: 12% per order, 30-day cookie, monthly payouts",
+        "evidence": "'We pay 12% per order \u2014 about $21+ on our $180 average order \u2014 30-day cookie, paid monthly.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cuts the three asks down to exactly one CTA",
+        "evidence": "'If you're interested, let me know \u2014 happy to share more.' plus the closing note 'Also drop: the Instagram-follow ask... and the booked-call CTA... Neither belongs in touch 1.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces 'The Northvale Team' with a named human sender",
+        "evidence": "'[Your name], Partnerships, Northvale Supply Co.' replaces the generic 'The Northvale Team' sign-off with a named-sender field plus title.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Adds a physical postal address and a working opt-out, citing CAN-SPAM",
+        "evidence": "'[Physical mailing address] \u00b7 [Unsubscribe link]' and 'this is also a CAN-SPAM violation exposed to up to $53,088 per email.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rewritten first touch is under 120 words",
+        "evidence": "'~95 words.' stated directly under the template.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Leads with one audience-fit sentence before the economics, rather than with the product or the company",
+        "evidence": "The 'Chosen angle' section calls for 'lead with one audience-fit sentence, then plain economics,' but the actual email opens with content-personalization ('I read your... post') straight into economics, with no distinct audience-fit sentence like other sections' templates include.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Delivers a follow-up sequence alongside the rewritten first touch rather than the first touch alone",
+        "evidence": "Full 5-touch sequence table and breakup touch are provided after the rewritten first touch.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Replaces the subject line and states that 'Partnership Proposal from [Company]' style subjects are a documented delete-on-sight pattern",
+        "evidence": "The diagnosis section never quotes or names the original subject line or labels a 'Partnership Proposal from [Company]' pattern; critique starts at 'No real personalization.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "New subject line is roughly 3-5 words and references the prospect's own work rather than the sender's company",
+        "evidence": "'Quick question about {{their_recent_post_topic}}'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces 'Hi there' with the prospect's name",
+        "evidence": "'Hi {{FirstName}},'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes the unverifiable familiarity claim ('big fan of your content') and substitutes one specific verifiable reference to the prospect's work, or an honest statement of how they were found",
+        "evidence": "'I watched your [specific video/post \u2014 e.g. \"spring hiking gear rundown\"] and noticed you review a lot of outdoor gear your audience actually buys.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes the product feature dump (SKU count, app, returns, awards) as mispositioned data where the audience-fit reason belongs",
+        "evidence": "'You talk about you, not them. SKUs, mobile app, \"award-winning service\" \u2014 none of that helps a creator decide if this is worth their time.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Removes the '$9,000+ a month / you'd do even better' projection and identifies it as hypothetical earnings math that must never appear",
+        "evidence": "'Drop the \"$9,000+/month\" line entirely ... An unverifiable round number is a spam/scam signal ... 12% won't get anyone to $9k/month without a huge audience \u2014 the math doesn't hold up.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the earnings claim also creates regulatory exposure for income representations",
+        "evidence": "No FTC or regulatory language appears in this section's discussion of the $9,000 line.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Replaces 'industry-leading commissions' with the exact stated terms: 12% per order, 30-day cookie, monthly payouts",
+        "evidence": "'12% commission per order, avg order value $180 \u2192 ~$21.60/sale' / '30-day cookie' / 'Paid monthly, no minimum threshold games'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cuts the three asks down to exactly one CTA",
+        "evidence": "'One CTA: reply. Not sign-up-link + call + Instagram follow.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces 'The Northvale Team' with a named human sender",
+        "evidence": "'[Name] [Role], Northvale' replaces the signature, and 'Signed by a person, not \"The Northvale Team.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Adds a physical postal address and a working opt-out, citing CAN-SPAM",
+        "evidence": "The rewritten body ends with '[Name] [Role], Northvale [direct email / calendly if they want to talk]' \u2014 no postal address or unsubscribe mechanism is included anywhere in the rewrite.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rewritten first touch is under 120 words",
+        "evidence": "Counting the full body including bracketed discount line and signature runs to roughly 120-130 words, not clearly under the limit.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Leads with one audience-fit sentence before the economics, rather than with the product or the company",
+        "evidence": "The email opens with the personalization/fit sentence about their content before moving to '12% commission per order...' numbers.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Delivers a follow-up sequence alongside the rewritten first touch rather than the first touch alone",
+        "evidence": "'Send a 2-touch follow-up (this alone likely moves the needle more than the copy rewrite)' with a full follow-up template provided.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

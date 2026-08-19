@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Puts moving the tracking link into the first lines of touch 1 first, as a near-zero-effort fix",
+        "evidence": "'Day 1 \u2014 Link placement (near-zero effort)... Ship same day \u2014 this is the single highest-leverage edit available to you.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Puts breaking up the welcome dump into one action per touch second",
+        "evidence": "'Day 2 \u2014 Kill the welcome dump (an hour). Cut touch 1 to under 300 words...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the fix ordering as activation bought per hour of fixing, explicitly, not as an implied row order",
+        "evidence": "'Ranked by activation bought per hour of fixing. Do them in this order'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Pulls the missing tax and payout collection out of that activation ordering entirely",
+        "evidence": "'Track A \u2014 compliance clock (starts now, runs in parallel, not ranked against the rest)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Justifies that separation because it buys avoided payout disputes and reduced legal exposure rather than activation",
+        "evidence": "'Payout/tax collection isn't an activation fix \u2014 it's exposure.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Tells the user to fix the tax and payout gap on the compliance clock, before further commissions are earned, whatever the activation work is doing",
+        "evidence": "'From the next cohort on, this form is a day-0 gate: no payout eligibility until it's filed.' plus 'payout on hold until this is on file'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that commissions already earned against uncollected tax forms become a negotiation with the affiliate rather than a build task",
+        "evidence": "The transcript frames it as accountant/withholding exposure ('Talk to an accountant this week about backup-withholding exposure') and explicit no-clawback, not as a negotiation with the affiliate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats archetype routing and the never-activated branch as roughly equal on ratio, each about a week of work",
+        "evidence": "'Day 5\u20139 \u2014 Archetype routing... (about a week)' and 'Day 12\u201319 \u2014 Never-activated branch (about a week...)'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Breaks that tie on timing: routing pays inside the window the user is already in, while the never-activated branch only pays on the next cohort",
+        "evidence": "'about a week, but it pays on the *next* cohort, so it can land last.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Uses the 19-day deadline to promote the near-zero fixes and demote or drop anything requiring a build",
+        "evidence": "Day-by-day ordering frontloads near-zero fixes (Day1-2) and pushes multi-day builds (routing, nudge, never-activated) later, within the 19-day window.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes the banner and design work from the list outright given the stated no-design-budget constraint, rather than ranking it last",
+        "evidence": "'Move the 14 banners... into a plain, free asset hub... no design work needed' and 'No design work required' for archetype routing.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not delay the cohort's launch until a complete asset kit exists",
+        "evidence": "The plan proceeds toward the 2026-10-01 cohort using existing assets in a plain hub rather than waiting for a built-out kit.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Puts moving the tracking link into the first lines of touch 1 first, as a near-zero-effort fix",
+        "evidence": "'Move the tracking link to the first line, above the fold ... zero design cost, one edit, and it's the single highest-leverage fix for cohort activation.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Puts breaking up the welcome dump into one action per touch second",
+        "evidence": "Step 3: 'Turn the stripped items into a short automated sequence ... Email 2 ... certification invite alone. Email 3 ... terms PDF + link to banner assets.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the fix ordering as activation bought per hour of fixing, explicitly, not as an implied row order",
+        "evidence": "'Rationale for this order: ... Everything else follows cost/impact: cheapest, highest-impact fix (link position) first.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Pulls the missing tax and payout collection out of that activation ordering entirely",
+        "evidence": "'Why first: unpaid tax reporting is a compounding legal/financial liability, not a conversion problem \u2014 it doesn't compete for the same time as the email fixes below.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Justifies that separation because it buys avoided payout disputes and reduced legal exposure rather than activation",
+        "evidence": "'unpaid tax reporting is a compounding legal/financial liability, not a conversion problem.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Tells the user to fix the tax and payout gap on the compliance clock, before further commissions are earned, whatever the activation work is doing",
+        "evidence": "'Hold payouts for anyone who doesn't respond within a set deadline (e.g. 10 days)' and 'start today, run in parallel with everything else.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that commissions already earned against uncollected tax forms become a negotiation with the affiliate rather than a build task",
+        "evidence": "The plan only addresses holding future payouts pending forms; it does not discuss already-earned, already-unpaid commissions as a negotiation matter.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats archetype routing and the never-activated branch as roughly equal on ratio, each about a week of work",
+        "evidence": "Segmentation (step 5) is allotted days 9-16 (~a week), but the non-click follow-up (step 4, days 5-9, ~4 days) is not framed as comparably-weighted or explicitly ratio-compared.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Breaks that tie on timing: routing pays inside the window the user is already in, while the never-activated branch only pays on the next cohort",
+        "evidence": "No such tie-break discussion exists, consistent with the absence of the equal-ratio framing above.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Uses the 19-day deadline to promote the near-zero fixes and demote or drop anything requiring a build",
+        "evidence": "Segmentation is explicitly placed last: 'Why last: highest effort (copy-only, but 3x the writing).'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes the banner and design work from the list outright given the stated no-design-budget constraint, rather than ranking it last",
+        "evidence": "Existing banners are reused, not deleted: 'terms PDF + link to banner assets (reuse the existing 14, no new design).'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not delay the cohort's launch until a complete asset kit exists",
+        "evidence": "The full plan fits within the stated 19-day window ending in 'QA + buffer \u2014 days 16-19,' with no proposal to delay launch for a complete kit.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

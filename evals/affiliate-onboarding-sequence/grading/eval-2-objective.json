@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to rewrite the welcome email as the first action and says so explicitly",
+        "evidence": "'\"rewrite touch 1\" is explicitly the last move, not the first \u2014 it destroys your baseline before you know whether the fix worked.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason that a rewrite is a change rather than a check, and that it destroys the baseline that would have shown whether it worked",
+        "evidence": "'it destroys your baseline before you know whether the fix worked' directly tied to the rewrite being the wrong first move.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Starts with an end-to-end trace of one conversion: click, recorded conversion, pending commission, reversal state",
+        "evidence": "Only 'click \u2192 recorded conversion \u2192 pending commission' and 'trace one real click through to a paid commission' are mentioned; no reversal state is mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ties that first step to the stated symptom of clicks visible in the dashboard while activation reports low, as a sign the reported number may be fiction",
+        "evidence": "'clicks visible in the affiliate dashboard, but activation reported at 4% \u2014 is the exact profile of check #1... your true activation could be materially higher than 4%'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the diagnosis ordering as information bought per unit of effort rather than cheapest check first",
+        "evidence": "No explicit list of checks ranked by information-per-effort appears; only a single trace step is proposed as 'cheap (an hour, once)'.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes opening the approval email as a newly approved affiliate to confirm a working link or code is present, described as near-zero effort",
+        "evidence": "Not mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes reading the per-touch open and click rates the platform already records, and notes this localizes where the sequence loses people without naming the cause",
+        "evidence": "Not mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes splitting activation by archetype and by tier as a separate check",
+        "evidence": "Archetype mix is only noted as an unstated assumption, not proposed as a diagnostic check.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes auditing whether a deadline-bound nudge inside the window and a designed never-activated branch exist",
+        "evidence": "Only a passing note that the never-activated branch is 'a separate, still-open piece of the sequence if it doesn't already exist' \u2014 no audit of the nudge's existence.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags cookie-only attribution as undercounting because of browser tracking prevention, and recommends server-side postback carrying a click ID and an order or transaction ID",
+        "evidence": "'Cookie-only tracking with no server-side postback is a known dark hop' is flagged, but no recommendation specifying a click ID and order/transaction ID is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places the rewrite of touch 1 or the asset kit last, only after the preceding checks have run",
+        "evidence": "'rewrite touch 1\" is explicitly the last move, not the first' and the rewrite is delivered while stating it should run 'alongside' the trace, 'not instead of it.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not conclude that recruitment or affiliate quality is the cause",
+        "evidence": "The entire diagnosis is attributed to tracking/dark-hop issues, never affiliate quality or recruitment.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to rewrite the welcome email as the first action and says so explicitly",
+        "evidence": "The transcript directly delivers rewritten Email 1, 2, 3 copy as the primary output rather than refusing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason that a rewrite is a change rather than a check, and that it destroys the baseline that would have shown whether it worked",
+        "evidence": "No such reasoning appears; instead: 'I've built that into the rewrite rather than just punching up the tone.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Starts with an end-to-end trace of one conversion: click, recorded conversion, pending commission, reversal state",
+        "evidence": "The response opens with a diagnostic paragraph about cookie windows in general, then goes straight into email copy \u2014 no single-conversion trace is performed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ties that first step to the stated symptom of clicks visible in the dashboard while activation reports low, as a sign the reported number may be fiction",
+        "evidence": "This framing does not appear; the diagnostic note discusses cookie lag broadly, not the possibility that the reported activation number is inaccurate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the diagnosis ordering as information bought per unit of effort rather than cheapest check first",
+        "evidence": "No diagnostic ordering is given at all \u2014 the deliverable is the rewritten sequence itself.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes opening the approval email as a newly approved affiliate to confirm a working link or code is present, described as near-zero effort",
+        "evidence": "Not mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes reading the per-touch open and click rates the platform already records, and notes this localizes where the sequence loses people without naming the cause",
+        "evidence": "The closing note only says 'worth pulling click-through data before assuming email is the bottleneck' regarding affiliate-level clicks, not per-touch email open/click analysis.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes splitting activation by archetype and by tier as a separate check",
+        "evidence": "No archetype or tier segmentation check is proposed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Includes auditing whether a deadline-bound nudge inside the window and a designed never-activated branch exist",
+        "evidence": "The transcript designs deadline framing into the new copy rather than auditing whether one already existed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags cookie-only attribution as undercounting because of browser tracking prevention, and recommends server-side postback carrying a click ID and an order or transaction ID",
+        "evidence": "Only generic 'if you can't add server-side postbacks, at minimum surface the return-window/cookie math inside the dashboard' is mentioned \u2014 no browser tracking prevention or click ID/order ID specifics.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places the rewrite of touch 1 or the asset kit last, only after the preceding checks have run",
+        "evidence": "The rewritten emails are the primary, upfront deliverable; the diagnostic caveat appears only as a closing note, not as a gating step run before the rewrite.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not conclude that recruitment or affiliate quality is the cause",
+        "evidence": "'if most approved affiliates never generate even one click, the fix is upstream of these emails (the ask is too vague, or the approval bar lets in people with no real audience)' explicitly raises affiliate quality/recruitment as a possible cause.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

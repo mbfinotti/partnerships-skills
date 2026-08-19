@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Replaces the static $10,000 floor with a rolling-baseline dynamic threshold.",
+        "evidence": "\"Fix: retire the single floor. Replace it with a small register of cause-specific alerts, each on a rolling baseline (not an absolute number)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives a concrete rolling-baseline rule, such as deviation beyond 2 standard deviations from a 30-day rolling mean.",
+        "evidence": "\"Reversal rate... > 2 SD above its trailing 30-day mean, 2 consecutive days.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Attaches four fields to every alert: threshold, owner, delivery channel, and expected response time.",
+        "evidence": "Table columns \"Trigger | Owner | Channel | Response\" filled for every row (e.g. reversal-rate row: \"Affiliate manager | Ops chat channel | Same day\").",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a threshold with no owner is decoration.",
+        "evidence": "The text only says the old alert has \"no owner, no channel discipline, no response SLA\" \u2014 it never states the general principle that a threshold with no owner is decoration.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ships the alerts in the order reversal-rate spike, single-partner share spike, click-to-conversion anomaly, EPC drop, brand-bidding flag, and states that ordering out loud.",
+        "evidence": "The actual shipped order is \"1 Reversal-rate spike, 2 Brand-bidding/trademark flag, 3 Single-partner (or top-5) share spike, 4 Click-to-conversion anomaly, 5 EPC drop\" \u2014 brand-bidding is promoted to #2, not last.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains reversal-rate spike leads because it fires on money already at risk and reads off a state the platform already maintains.",
+        "evidence": "No such rationale is given for why reversal-rate leads; the text only gives its trigger definition without explaining the ranking logic.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the brand-bidding or trademark flag as the alert the efficiency order starves.",
+        "evidence": "\"that last fact promotes the brand-bidding flag straight to #2, ahead of where it'd sit by build-cost alone\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Promotes the brand-bidding flag anyway because this program pays PPC partners.",
+        "evidence": "\"1,200 affiliates, some PPC spend \u2014 that last fact promotes the brand-bidding flag straight to #2\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Advises stopping when the team's attention runs out rather than filling the alert strip.",
+        "evidence": "\"Ship 1\u20133 immediately; 4 and 5 are worth adding but tie on cost and are the first to drop if the team's bandwidth for a new alert strip is thin.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that the click-to-conversion anomaly and the EPC drop are one rolling-baseline rule over two numerators, so building either makes the second a copy.",
+        "evidence": "No statement connects click-to-conversion and EPC as sharing one rolling-baseline rule / being a copy of each other; each is given a separate independent trigger.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that fraud rule definitions and enforcement belong to the fraud rule set while the dashboard only surfaces the signals.",
+        "evidence": "Brand-bidding flag response: \"48h \u2014 investigate, then hand to the fraud/compliance rule set if confirmed\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends keeping an alert log recording fired, acknowledged by, and resolved in.",
+        "evidence": "No mention anywhere in the transcript of an alert log or fields like fired/acknowledged/resolved.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Replaces the static $10,000 floor with a rolling-baseline dynamic threshold.",
+        "evidence": "'Alert 2 \u2014 Program-wide revenue, seasonally baselined (this replaces your $10k rule)... Compare today's revenue to the median of the same weekday over the trailing 6 weeks.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives a concrete rolling-baseline rule, such as deviation beyond 2 standard deviations from a 30-day rolling mean.",
+        "evidence": "'Warning... actual < 70% of baseline for 1 day, or < 80% for 2 consecutive days. Critical... actual < 50% of baseline on a single day.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Attaches four fields to every alert: threshold, owner, delivery channel, and expected response time.",
+        "evidence": "The alert-type table only has columns '# | What it catches | Who owns it | Channel' \u2014 no distinct 'expected response time' field is attached to every alert.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a threshold with no owner is decoration.",
+        "evidence": "No such statement appears; ownership is assigned but never framed this way.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ships the alerts in the order reversal-rate spike, single-partner share spike, click-to-conversion anomaly, EPC drop, brand-bidding flag, and states that ordering out loud.",
+        "evidence": "The actual order is tracking outage, program-wide revenue, single-affiliate drop, then PPC partner risk \u2014 no reversal-rate or EPC-drop alert exists at all.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains reversal-rate spike leads because it fires on money already at risk and reads off a state the platform already maintains.",
+        "evidence": "No reversal-rate alert is proposed anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the brand-bidding or trademark flag as the alert the efficiency order starves.",
+        "evidence": "Brand bidding is simply listed as one bullet under Alert 4 with no 'starved by efficiency order' framing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Promotes the brand-bidding flag anyway because this program pays PPC partners.",
+        "evidence": "No such promote-anyway reasoning is stated; brand bidding appears alongside three other PPC checks without special justification.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Advises stopping when the team's attention runs out rather than filling the alert strip.",
+        "evidence": "The closest statement is 'Stop emailing the whole team for everything,' which is about routing, not an attention-budget stopping rule.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that the click-to-conversion anomaly and the EPC drop are one rolling-baseline rule over two numerators, so building either makes the second a copy.",
+        "evidence": "EPC drop is not proposed as an alert, and no such equivalence is drawn.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that fraud rule definitions and enforcement belong to the fraud rule set while the dashboard only surfaces the signals.",
+        "evidence": "Fraud-adjacent checks (click fraud, brand bidding) are built directly into this alerting design with no deferral to a separate fraud rule set.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends keeping an alert log recording fired, acknowledged by, and resolved in.",
+        "evidence": "Only 'Weekly digest... full alert history + trend' and a resolved notification for Alert 2 are mentioned; no acknowledged-by field is specified.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Disagrees with keeping the commission out of the first message",
+        "evidence": "'She's not right that it should be withheld entirely from the first email.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that affiliates evaluate economics early, so the commission must be findable in the first message",
+        "evidence": "Cites Rewardful's 'affiliates filter by economics first' and concludes 'do make it findable in the first message.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Resolves the tension explicitly: do not lead with commission alone, but do state it plainly right after the fit reason",
+        "evidence": "'\"don't lead with commission alone; do make it findable in the first message.\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies that exactly one audience-fit sentence comes first, framed as why the program fits the prospect's own audience",
+        "evidence": "'For B2B SaaS first touches, lead with one audience-fit sentence, then economics stated plainly.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the commission facts must match the decided terms exactly - never rounded, never embellished",
+        "evidence": "No statement in the transcript addresses rounding or embellishment of the commission figures.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Carries all four stated terms into the draft: 30% recurring, 12 months, 90-day cookie, net-45",
+        "evidence": "'Net-45 payout terms can wait for the reply/apply stage \u2014 that's a term, not core economics, and omitting it isn't \"hiding money\"' explicitly excludes net-45 from the first-touch content.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "For this B2B SaaS program, names the recurring rate and duration plus the cookie/attribution window as the economics to state, and adds one proof the product converts",
+        "evidence": "'one line stating 30% recurring for 12 months + 90-day cookie + one conversion/credibility proof.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not invent a conversion rate, customer count, or review score as that proof point - asks the user for one or flags it as missing",
+        "evidence": "The transcript says only 'one conversion/credibility proof' generically, without inventing a figure, but also never asks the user for one or flags it as missing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States this skill communicates the already-decided commission and does not redesign or adjust it",
+        "evidence": "No such statement about the skill's scope (communicate vs. redesign commission) appears in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps the first touch under 120 words",
+        "evidence": "No actual draft email with a word count is produced in this transcript \u2014 only a conceptual outline of what the touch should contain.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Uses exactly one CTA, defaulting to reply-for-info on this cold first touch rather than a booked call or apply link",
+        "evidence": "'single CTA (reply-for-info is the skill's cold-first-touch default for B2B SaaS).'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Disagrees with keeping the commission out of the first message",
+        "evidence": "'Commission rate is the qualifying filter, not the closer. No number \u2192 no reply' and 'Hiding it throws away your strongest asset.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that affiliates evaluate economics early, so the commission must be findable in the first message",
+        "evidence": "'They get dozens of affiliate pitches a week and triage by economics, not vibes... Commission rate is the qualifying filter.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Resolves the tension explicitly: do not lead with commission alone, but do state it plainly right after the fit reason",
+        "evidence": "'1. One line establishing why Fernwick is relevant... 2. A short, concrete partnership offer: 30% recurring / 12 months, 90-day cookie, net-45. Stated plainly, not hyped.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies that exactly one audience-fit sentence comes first, framed as why the program fits the prospect's own audience",
+        "evidence": "'One line establishing why Fernwick is relevant to their audience (not a pitch, a credibility anchor).'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the commission facts must match the decided terms exactly - never rounded, never embellished",
+        "evidence": "No explicit instruction against rounding or embellishing appears; the transcript just repeats the exact numbers without stating a rule about fidelity.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Carries all four stated terms into the draft: 30% recurring, 12 months, 90-day cookie, net-45",
+        "evidence": "'30% recurring / 12 months, 90-day cookie, net-45' appears verbatim in the sequencing guidance.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "For this B2B SaaS program, names the recurring rate and duration plus the cookie/attribution window as the economics to state, and adds one proof the product converts",
+        "evidence": "The three-step outline (fit line, offer, ask) contains no discrete proof-of-conversion step; 'traction, customer logos' is mentioned only as vague framing material, not as an added proof element.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Does not invent a conversion rate, customer count, or review score as that proof point - asks the user for one or flags it as missing",
+        "evidence": "No specific fabricated statistic (e.g., a conversion rate or review score) is invented anywhere in the response.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States this skill communicates the already-decided commission and does not redesign or adjust it",
+        "evidence": "No statement is made that the assistant is refraining from redesigning the commission structure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps the first touch under 120 words",
+        "evidence": "No actual email draft is produced in this section \u2014 only a numbered outline and discussion \u2014 so word count cannot be verified as under 120.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Uses exactly one CTA, defaulting to reply-for-info on this cold first touch rather than a booked call or apply link",
+        "evidence": "'3. A specific, low-friction ask (a short call, or \"reply and I'll send the affiliate agreement\")' offers two alternative CTAs rather than exactly one.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "affiliate-commission-structure",
+  "scenarios": 11,
+  "expectations_total": 128,
+  "expectations_subjective": 1,
+  "expectations_objective": 127,
+  "pass_rate_with_skill_pct": 77.3,
+  "pass_rate_without_skill_pct": 25.0,
+  "delta_pp": 52.3,
+  "uplift_multiplier": 3.09,
+  "trigger_accuracy_pct": 91.4,
+  "trigger_queries": 116,
+  "subjective_ac2": 1.0,
+  "subjective_pass_disagreements": [],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.269 (Claude Code)",
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Quantifies the loss at 20%: about $36 paid against about $25.30 of post-return contribution, roughly $11 lost per order"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Flags that a flat percentage across a $12-to-$420 catalog lets one large order wipe out unit economics, and offers flat CPA or a percentage banded by product as the fix"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States that the loss would be invisible at launch and surface only after returns net out"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Names narrowing the program to high-margin SKUs as the fallback if partners will not work at the derived rate, and does not justify any rate by pointing at the skincare vertical's benchmark"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Notes that keeping the 25% headline protects recruiting pull, because partners weigh headline and duration together"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Notes the taper needs a second rate step the affiliate platform may not express, and names the plain 12-month cap or a renewal bonus as the fallback when it cannot"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Proposes a renewal bonus in the 5-10% range as the way to keep partners engaged past the cap rather than extending the rate"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Refuses to price a lifetime commission option for this program"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Does not present lifetime anywhere in the answer as the more generous alternative to compare against the capped option"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Explains the liability: on a sticky product, a long-tenured customer can earn an affiliate more than that customer's margin"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Notes that published lifetime terms are expensive to retract later because of network decrease rules and grandfathering obligations"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that content and creator partners run largely incremental, on the order of 80%"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Declines to set tier breakpoints for a program with no historical partner performance data"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends launching with a single flat rate"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Does not present a bronze/silver/gold ladder with invented thresholds as the recommendation"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Explains that retroactive tiers reprice a partner's whole period, making program cost unforecastable rather than merely higher"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Explains the cliff incentive: a partner just short of a breakpoint is pushed to add low-quality sign-ups"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes the minimum threshold is the lever the smallest and newest partners feel first"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Notes that adding a partner-type rate row carries less contractual exposure than cutting an existing published rate"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the effort cost: a negotiation per partner plus off-platform invoicing and reconciliation every cycle"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires a fixed contract term for the placement fee rather than an open-ended arrangement"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Offers a milestone bonus tied to new-customer revenue as a lower-commitment instrument to test this publisher first"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks one question per message rather than presenting the whole questionnaire at once"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Offers multiple-choice answer options where the question allows it"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks whether this is a one-off fix or a rate card meant to survive several years of plan changes"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks what the affiliate platform can actually express and who administers the program week to week"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Applies the second leg of the pass threshold as well, checking total commission against the derived margin ceiling"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States that both legs must hold for the structure to pass"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Places cutting the headline rate last among the fixes"
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Nets out the 7% return rate to reach a post-return contribution margin of about $25.30"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Applies the one-third-to-one-half-of-post-return-contribution-margin rule to set the payable band"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States a maximum payable per order of roughly $12.65, i.e. a ceiling around 7% of AOV"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Quantifies the loss at 20%: about $36 paid against about $25.30 of post-return contribution, roughly $11 lost per order"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Cross-checks the derived figure against the 20-30%-of-gross-margin sanity band"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Recommends a headline rate in the single digits (roughly 4-7%), or an equivalent flat CPA, rather than a double-digit rate"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "States that the loss would be invisible at launch and surface only after returns net out"
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Names narrowing the program to high-margin SKUs as the fallback if partners will not work at the derived rate, and does not justify any rate by pointing at the skincare vertical's benchmark"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Recommends fixing the recurring duration rule before touching the headline percentage"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States explicitly that the duration rule moves effective cost far more than the headline percentage does"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Computes the current lifetime cost at roughly $667 per customer (25% of $89 over about 30 months)"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Shows the 12-month cap at 25% costs less than the proposed 12% lifetime (about $320 per customer)"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Recommends against the 12% lifetime proposal"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Expresses total commission per customer as a share of the roughly $2,670 revenue LTV and checks it against the 5-15% band"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Checks total commission per customer against the 30-40%-of-gross-margin ceiling as a separate condition"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Notes that keeping the 25% headline protects recruiting pull, because partners weigh headline and duration together"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Offers a taper (25% for months 1-6, a lower rate for months 7-12) as the lower-cost alternative and states its cost"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Notes the taper needs a second rate step the affiliate platform may not express, and names the plain 12-month cap or a renewal bonus as the fallback when it cannot"
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Proposes a renewal bonus in the 5-10% range as the way to keep partners engaged past the cap rather than extending the rate"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Refuses to price a lifetime commission option for this program"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Names the three conditions lifetime requires: gross margin above roughly 80%, monthly churn below roughly 5%, and competing programs already paying lifetime"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Identifies the 61% gross margin as failing the margin condition"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Identifies the 7.5% monthly churn as failing the churn condition"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States that competitors paying lifetime is not on its own sufficient to qualify the option"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Does not present lifetime anywhere in the answer as the more generous alternative to compare against the capped option"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Recommends a 12-month cap as the default duration rule"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Offers a renewal bonus of roughly 5-10% of renewal value as the way to compete on perceived generosity without open-ended liability"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Explains the liability: on a sticky product, a long-tenured customer can earn an affiliate more than that customer's margin"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Notes that published lifetime terms are expensive to retract later because of network decrease rules and grandfathering obligations"
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Recommends paying recurring commission in arrears on confirmed billing events so churned customers stop costing automatically"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Does not recommend a new-customer gate as an action to take now, given the tracking limitation"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Names capping the cashback rate below the content/creator rate as the first control to apply"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Places the rate cap ahead of shortening the attribution window in the recommended order"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Recommends a shorter attribution window for the cashback partners than for content partners"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that coupon, cashback and loyalty partners commonly run substantially non-incremental, on the order of two-thirds of attributed volume"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that content and creator partners run largely incremental, on the order of 80%"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Prescribes a 30-day holdout test on the top cashback partners"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States the holdout read rule: flat total conversion volume with falling affiliate-attributed volume means the partners were harvesting existing demand, so keep their rates capped"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States the opposite holdout read rule: a drop in total volume means they were incremental, so restore their rates and document it"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Recommends exclusive per-partner codes as the control that produces evidence rather than only savings, while naming its ongoing reconciliation cost"
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Notes the new-customer gate becomes the first control to apply once the tracking flag ships"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Declines to set tier breakpoints for a program with no historical partner performance data"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the reason: with no performance history there is nowhere to place a breakpoint"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends launching with a single flat rate"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Gives a concrete condition or timeframe that triggers revisiting tiers later"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Does not present a bronze/silver/gold ladder with invented thresholds as the recommendation"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Explains that once history exists, the first tier should be reachable by roughly 70-80% of active partners"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the top tier should be reserved for roughly the top 10-20% of partners"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends marginal tiers over retroactive tiers when tiers are eventually introduced"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Explains that retroactive tiers reprice a partner's whole period, making program cost unforecastable rather than merely higher"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Explains the cliff incentive: a partner just short of a breakpoint is pushed to add low-quality sign-ups"
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Recommends new-customer revenue as the tier threshold metric ahead of gross revenue or referral count"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States that lowering the threshold adds no risk because the money is owed to the partner either way"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Recommends shortening net terms toward net-30 ahead of touching validation"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Places shortening the validation window last among the three levers"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Conditions any validation cut on first measuring the reversal or refund rate and finding it low"
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes the minimum threshold is the lever the smallest and newest partners feel first"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Flags that the affiliate network contractually caps the size, frequency and notice period of a commission decrease"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States the published rule shape: at most a 20% reduction per change, no more than once every 30 days, with at least 7 days' partner notice"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Identifies 14% to 7% as a 50% cut, too large to make in a single step under that rule"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Sequences the reduction into multiple steps spaced at least 30 days apart"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Recommends roughly 60 days' notice for the change, ahead of the network's minimum"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Rejects the next-Monday effective date and the single all-base email blast"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Recommends phasing the rollout top-partners-first, with direct conversations before any broadcast"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Recommends leading the announcement with what stays the same"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Requires deriving the 7% and 12% target rates from unit economics before announcing them, rather than migrating to chosen-by-feel numbers"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Notes that adding a partner-type rate row carries less contractual exposure than cutting an existing published rate"
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Names silent or abrupt rate changes as a known cause of partner churn"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Notes that hybrid is the only model that lands a publisher refusing pure performance"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Names the effort cost: a negotiation per partner plus off-platform invoicing and reconciliation every cycle"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Flags that the five-week hard date does not accommodate a hybrid negotiation"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Recommends launching on a straight percentage-of-revenue model and pursuing the publisher deal on a separate track"
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Offers a milestone bonus tied to new-customer revenue as a lower-commitment instrument to test this publisher first"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Compares that figure against the roughly $3,980 revenue LTV and shows it exceeds the 5-15%-of-LTV band"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Checks total commission per customer against the 30-40%-of-gross-margin ceiling as a second, separate condition"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States that both conditions must hold, not either one on its own"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Recommends custom or private rates for a handful of top partners instead of raising the public headline for everyone"
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Names a milestone bonus tied to new-customer revenue as a top-partner instrument that cannot exceed the ceiling by surprise"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Does not state a recommended commission rate before collecting economic inputs"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks for gross margin"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks for monthly churn rate or average customer tenure"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks for customer LTV and current or target blended CAC"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks one question per message rather than presenting the whole questionnaire at once"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Offers multiple-choice answer options where the question allows it"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Accepts estimates rather than exact figures, while insisting on some number before proposing a rate"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks whether this is a one-off fix or a rate card meant to survive several years of plan changes"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Asks what the affiliate platform can actually express and who administers the program week to week"
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Treats the 20-30% figures the user has seen as calibration to apply after deriving, never as the answer itself"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Recomputes cost per acquired customer with the denominator discounted by incrementality rather than using raw attributed orders"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Applies a low incrementality share to the coupon and cashback volume, on the order of one-third"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Applies a high incrementality share to the content and creator volume, on the order of 80%"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Produces an incrementality-adjusted cost per customer materially above the raw $29.66 figure, in the neighbourhood of $50"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Concludes the program fails the below-CAC leg of the pass threshold once incrementality is applied"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Applies the second leg of the pass threshold as well, checking total commission against the derived margin ceiling"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States that both legs must hold for the structure to pass"
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Places cutting the headline rate last among the fixes"
+      }
+    ]
+  },
+  "conditions": {
+    "mcp_servers": "enabled",
+    "project_claude_md": "loaded",
+    "user_claude_md": "loaded",
+    "note": "measured before MCP servers and the project CLAUDE.md were removed from the subprocesses; not comparable to skills recorded with those disabled"
+  }
+}

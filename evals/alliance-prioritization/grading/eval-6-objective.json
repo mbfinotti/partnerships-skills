@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to state a single settled alliance failure rate",
+        "evidence": "\"Alliance failure isn't a settled statistic\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Presents the published spread of roughly 20% to 80% depending on how failure is defined",
+        "evidence": "\"published estimates range from 20% to 80% depending on how 'failure' is defined\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites the credible re-analysis putting failure nearer 25-30%",
+        "evidence": "No such re-analysis or 25-30% figure appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the lower 18-20% figure for firms that have an alliance-management function",
+        "evidence": "No 18-20% figure appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Traces the widely repeated 60-70% phrasing to the 2007 Harvard Business Review piece by Hughes and Weiss",
+        "evidence": "No mention of Hughes and Weiss or a 2007 HBR piece anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that this source cites no study, sample, or definition behind the figure",
+        "evidence": "Not applicable/absent since the HBR source itself is never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Distinguishes the McKinsey survey as measuring underperformance and need for restructuring, not outright failure",
+        "evidence": "\"a McKinsey survey, measuring underperformance rather than failure, lands on the same number\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the McKinsey survey's small base of roughly 30 companies",
+        "evidence": "No sample size for the McKinsey survey is mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the 53% close-rate figure as a self-reported vendor survey of roughly 500 professionals",
+        "evidence": "The 53% figure is flagged as vendor-sourced (\"the partner-ops platform's 53%-close-rate figure\") but no sample size of ~500 professionals is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Contrasts it against the same vendor's own network data showing roughly an 11.7% win-rate lift",
+        "evidence": "No 11.7% figure or contrasting network-data statistic appears in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends quoting the smaller, harder 11.7% figure if either is used at all",
+        "evidence": "The transcript instead recommends keeping the 53% figure with a provenance flag as 'directional, not audited' \u2014 it never mentions an 11.7% alternative.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Attaches a provenance flag to every number kept in the memo, distinguishing peer-reviewed, analyst, vendor first-party, and vendor survey",
+        "evidence": "\"a 2025 partner-ops vendor report puts it at 70%... though as the report's own publisher this should be read as directional, not audited\" vs. \"Kale, Dyer & Singh (2002)... peer-reviewed\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Offers the Kale, Dyer and Singh finding of 63% versus 50% alliance success with a dedicated alliance function, across 1,572 alliances, as the defensible basis for the headcount ask",
+        "evidence": "\"a dedicated alliance function with a structured process gets 63% alliance success vs. 50% without one, across 1,572 alliances, peer-reviewed. That's a direct, causal-shaped case for staffing\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to state a single settled alliance failure rate",
+        "evidence": "The drafted paragraph itself asserts '70% of strategic alliances fail to meet their objectives \u2014 a figure consistent with McKinsey's finding,' presenting a specific settled figure rather than refusing one.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Presents the published spread of roughly 20% to 80% depending on how failure is defined",
+        "evidence": "No range is given anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites the credible re-analysis putting failure nearer 25-30%",
+        "evidence": "Not mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the lower 18-20% figure for firms that have an alliance-management function",
+        "evidence": "Not mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Traces the widely repeated 60-70% phrasing to the 2007 Harvard Business Review piece by Hughes and Weiss",
+        "evidence": "No such source attribution appears.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that this source cites no study, sample, or definition behind the figure",
+        "evidence": "Not addressed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Distinguishes the McKinsey survey as measuring underperformance and need for restructuring, not outright failure",
+        "evidence": "\"'70% of alliances fail' and McKinsey's '70% of alliances underperform' sound like corroboration but likely measure different things (failure vs. falling short of targets).\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes the McKinsey survey's small base of roughly 30 companies",
+        "evidence": "No sample size is given for the McKinsey figure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the 53% close-rate figure as a self-reported vendor survey of roughly 500 professionals",
+        "evidence": "No sample details are given for the 53% figure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Contrasts it against the same vendor's own network data showing roughly an 11.7% win-rate lift",
+        "evidence": "Not mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends quoting the smaller, harder 11.7% figure if either is used at all",
+        "evidence": "Not mentioned; the draft instead keeps and uses the 53% figure.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Attaches a provenance flag to every number kept in the memo, distinguishing peer-reviewed, analyst, vendor first-party, and vendor survey",
+        "evidence": "No such provenance taxonomy is applied; only generic bracketed placeholders like '[source, year]' are used.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Offers the Kale, Dyer and Singh finding of 63% versus 50% alliance success with a dedicated alliance function, across 1,572 alliances, as the defensible basis for the headcount ask",
+        "evidence": "This citation never appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

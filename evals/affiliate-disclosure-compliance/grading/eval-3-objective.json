@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States France requires the mention \"publicit\u00e9\" or \"collaboration commerciale\", or an equivalent adapted to the influence activity and the format, and that a French affiliate-link footer note does not satisfy it",
+        "evidence": "\"France: loi 2023-451 as amended requires the mention 'publicit\u00e9' or 'collaboration commerciale' (or an equivalent adapted to the format), not a description of link type\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Instructs working from the current consolidated French text as amended by ordonnance 2024-978 of 6 November 2024, not the original June 2023 version",
+        "evidence": "\"loi 2023-451, as amended by Ordonnance 2024-978 (6 Nov 2024) \u2014 work from this consolidated text, not the original June 2023 version your team is citing\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a Belgium-resident creator targeting a French audience is within scope of the French rules",
+        "evidence": "France overlay is FAILed and fixed based on the audience, while the Belgium item is framed as an addition \"on top of the France/NL audience-targeting rules,\" implying French rules already independently apply.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the Netherlands portion with a [COUNSEL] marker for local-market disclosure rules instead of assuming the French, UK, or US rules transfer there",
+        "evidence": "\"[COUNSEL: Netherlands disclosure rules \u2014 not covered by this skill's references, don't assume the French or UCPD reading transfers cleanly]\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fails the placement layer for a footer-only disclosure, requiring it at the top of the page and before any affiliate link",
+        "evidence": "\"Placement/prominence FAIL ... disclosure belongs near the top, before any affiliate link, 'not footer-only'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the free product as a material connection needing its own disclosure, separate from the affiliate-link commission",
+        "evidence": "\"Free product is a material connection independent of commission, same duty to disclose\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the asset as already live and produces a prioritized remediation plan, not only a pre-publication critique",
+        "evidence": "\"live for 3 weeks, ranking in organic search\" with a \"Do within 24 hours\" numbered remediation plan.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends editing the disclosure into the live page as the default remediation rung for this format",
+        "evidence": "\"this is a text-only fix ... so **edit in place now**\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "If it cites 16 CFR 255.1(d) remediation, frames it as the FTC's stated expectation rather than a standalone statutory duty, noting enforceable exposure runs through FTC Act Section 5",
+        "evidence": "16 CFR 255.1(d) is not cited anywhere in this transcript, so the conditional requirement is not triggered.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Labels any French penalty figure, such as the reported \u20ac300,000 maximum, as requiring re-verification rather than asserting it flatly",
+        "evidence": "\"the France penalty figure below is labeled 'as of drafting, re-verify' rather than asserted as current\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-paste French disclosure line using one of the mandated mentions",
+        "evidence": "\"**Publicit\u00e9 \u2014 collaboration commerciale.** Maison Lumo m'a envoy\u00e9 ce diffuseur gratuitement...\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks any check the pasted text cannot settle as \"not assessable from the artefact provided\" and lists what to verify on the rendered page",
+        "evidence": "\"Not assessable from artefact provided \u2014 verify on the rendered page: does the footer line survive a social share preview...\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States France requires the mention \"publicit\u00e9\" or \"collaboration commerciale\", or an equivalent adapted to the influence activity and the format, and that a French affiliate-link footer note does not satisfy it",
+        "evidence": "\"The law requires a clear, legible, identifiable 'Publicit\u00e9' / 'Collaboration commerciale' marker... Nothing on the page currently says this review is sponsored/gifted. This is the bigger gap and the footer line does nothing for it.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Instructs working from the current consolidated French text as amended by ordonnance 2024-978 of 6 November 2024, not the original June 2023 version",
+        "evidence": "The transcript only cites 'la loi du 9 juin 2023 visant \u00e0 encadrer l'influence commerciale' with no mention of ordonnance 2024-978 or a consolidated later text.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that a Belgium-resident creator targeting a French audience is within scope of the French rules",
+        "evidence": "\"Audience in France \u2192 French rules apply (targeting test, not her domicile).\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags the Netherlands portion with a [COUNSEL] marker for local-market disclosure rules instead of assuming the French, UK, or US rules transfer there",
+        "evidence": "The NL exposure is discussed ('Dutch ACM's influencer marketing guidance... is a second, independent exposure') but no '[COUNSEL]' marker is used anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Fails the placement layer for a footer-only disclosure, requiring it at the top of the page and before any affiliate link",
+        "evidence": "\"Ask Camille... to add, near the top of the article, a clear 'Collaboration commerciale \u2014 produit re\u00e7u gratuitement de Maison Lumo' (or equivalent), visible without scrolling.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the free product as a material connection needing its own disclosure, separate from the affiliate-link commission",
+        "evidence": "\"Camille received a \u20ac95 unit for free to review. That alone makes the entire review commercial content, independent of any links.\" listed as obligation 1, distinct from affiliate link obligation 2.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the asset as already live and produces a prioritized remediation plan, not only a pre-publication critique",
+        "evidence": "\"Get the post edited now, not the next campaign\" and \"Priority order: fix #1 and #2 on the live page this week \u2014 that closes most of the acute exposure.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends editing the disclosure into the live page as the default remediation rung for this format",
+        "evidence": "\"Get the post edited now, not the next campaign.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "If it cites 16 CFR 255.1(d) remediation, frames it as the FTC's stated expectation rather than a standalone statutory duty, noting enforceable exposure runs through FTC Act Section 5",
+        "evidence": "16 CFR 255.1(d) and FTC Act Section 5 are never cited in this transcript, so no such framing is present to verify.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Labels any French penalty figure, such as the reported \u20ac300,000 maximum, as requiring re-verification rather than asserting it flatly",
+        "evidence": "\"fines up to \u20ac300,000 for an individual, up to 10% of average annual turnover for a company... plus up to 2 years' imprisonment\" is stated flatly with no re-verification caveat.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-paste French disclosure line using one of the mandated mentions",
+        "evidence": "\"Collaboration commerciale \u2014 produit re\u00e7u gratuitement de Maison Lumo\" is given as the exact wording to add.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks any check the pasted text cannot settle as \"not assessable from the artefact provided\" and lists what to verify on the rendered page",
+        "evidence": "No such phrase or list of unverifiable-from-text items appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

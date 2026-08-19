@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that applications and approvals alone are vanity metrics",
+        "evidence": "'\"Applications and approvals alone are vanity metrics...\"'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that a recruit who never promotes cost the outreach and returned nothing",
+        "evidence": "'...a recruit who never promotes cost you the outreach and returned nothing.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the share of recruited affiliates that become sales-active as the program-side KPI that matters, using 'activity index' or an equivalent explicit definition",
+        "evidence": "'Activated (\u22651 click or sale in-quarter)' and 'check whether they generated at least one click or sale within 30/60 days of approval. Report that share.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the roughly 20% of affiliates producing at least one click per week benchmark for a mature program",
+        "evidence": "'The skill's practitioner benchmark for a mature program is ~20% of affiliates producing \u22651 click/week.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags that benchmark as practitioner self-reported rather than independently measured",
+        "evidence": "'self-reported, not independently measured, so cite it as context, not as a target you're graded against.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names reply rate and application rate broken out per tier and per angle as the outreach-side KPIs",
+        "evidence": "'Segment the 21.9% and the 85.7% by tier and by which pitch angle/touch got the reply' and 'Reply/application rate against the 3\u20139% cold-outreach benchmark.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the affiliate platform dashboard shows approvals and payouts but not the outreach pipeline",
+        "evidence": "'Your platform dashboard shows approvals and payouts because that's a program-health view, not an outreach-effectiveness view... the platform will never show you \"contacted\" or \"replied\".'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends tracking the outreach pipeline in a CRM or spreadsheet separate from the program dashboard",
+        "evidence": "'Keep the outreach pipeline in a CRM or spreadsheet, separate from the platform dashboard.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the pipeline stages contacted, replied, applied, activated",
+        "evidence": "CRM columns listed include 'date contacted... reply date, applied date, approved date, first click date' covering contacted/replied/applied/activated.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sets a weekly review cadence during an active campaign",
+        "evidence": "'Cadence: update weekly while a campaign is active.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that applications and approvals alone are vanity metrics",
+        "evidence": "'It's a vanity metric because: It ignores 500 of your 640 prospects (78%) who never applied at all...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that a recruit who never promotes cost the outreach and returned nothing",
+        "evidence": "'Cost per approved affiliate and cost per producing affiliate: 640 outreach touches cost time/tooling \u2014 divide that cost by 120 approvals, then again by however many actually produced. The second number is usually much more sobering.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the share of recruited affiliates that become sales-active as the program-side KPI that matters, using 'activity index' or an equivalent explicit definition",
+        "evidence": "'Activation rate: of the 120 approved, how many made at least one referral/sale within, say, 90 days of approval?'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the roughly 20% of affiliates producing at least one click per week benchmark for a mature program",
+        "evidence": "No such benchmark figure appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags that benchmark as practitioner self-reported rather than independently measured",
+        "evidence": "N/A \u2014 no benchmark of this kind is given to flag.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names reply rate and application rate broken out per tier and per angle as the outreach-side KPIs",
+        "evidence": "Only application rate is discussed ('The application rate (21.9%) is arguably the more interesting number to scrutinize') with no reply-rate metric and no per-tier/per-angle breakdown mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the affiliate platform dashboard shows approvals and payouts but not the outreach pipeline",
+        "evidence": "'Your affiliate platform dashboard only exposes approvals and payouts, which silently drops the entire top of the funnel (outreach \u2192 application).'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends tracking the outreach pipeline in a CRM or spreadsheet separate from the program dashboard",
+        "evidence": "'You need your own lightweight funnel table alongside the platform' with a proposed Postgres table, or 'a spreadsheet row is fine if a DB is overkill for now.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the pipeline stages contacted, replied, applied, activated",
+        "evidence": "The funnel table lists 'Contacted, Applied, Approved, Active/producing, Generated \u22651 sale' \u2014 'replied' is absent and 'approved' is substituted.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Sets a weekly review cadence during an active campaign",
+        "evidence": "The cadence proposed is 'Each quarter, report two things...' \u2014 quarterly, not weekly.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

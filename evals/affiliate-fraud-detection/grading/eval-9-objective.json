@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "States that a 60-day hold window cannot reach a dispute filed in month 11 or month 14, and that no realistic hold window can",
+        "evidence": "'Your 60-day hold didn't fail \u2014 it was never built to reach month 11\u201314... No realistic hold window covers this tail.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the standard Visa/Mastercard chargeback filing limit of 120 days from the transaction",
+        "evidence": "'standard fraud/unauthorized-charge claims file within 120 days of the transaction'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the services-not-received, delayed-delivery and not-as-described limit: 120 days from the expected delivery date, capped at 540 days from the transaction",
+        "evidence": "'services-not-received / not-as-described claims... run 120 days from the *expected delivery date*, capped at 540 days from the transaction'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Promotes the clawback clause set above every other control for this program and names the reason: subscription or delayed-delivery goods, plus a chargeback the program has already paid out on",
+        "evidence": "'New order for this program: clawback clause set \u2192 hold-window tuning \u2192 new/high-risk partner terms \u2192 detection rule set' because 'you sell subscriptions, and you have already paid out on a chargeback'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies all three contractual pieces: clawback authority, negative-balance carry-forward, and a chargeback reserve",
+        "evidence": "'Clawback authority + negative-balance carry-forward + chargeback reserve \u2014 draft this now.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines negative-balance carry-forward as deducting from future payouts until the balance is offset",
+        "evidence": "'a clawed-back amount deducts from the affiliate's *future* payouts until offset'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sizes the chargeback reserve at roughly 10-15% of commissions, released quarterly while the chargeback rate stays below threshold",
+        "evidence": "'hold back 10\u201315% of every affiliate's commission, released quarterly as long as their rolling chargeback rate stays under a threshold'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that clawing back a paid commission without those clauses is itself a breach",
+        "evidence": "'reversing already-paid commissions is itself a breach of the terms the affiliate accepted'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Prices the contract change at roughly a quarter including legal drafting and partner re-assent, and notes it is barely reversible once shipped",
+        "evidence": "No timeframe (e.g. 'a quarter') or reversibility note is given for the contract/clawback drafting work in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Moves the hold window to the long end of the 30-90 day range because this is a subscription and high-chargeback vertical",
+        "evidence": "'push it to 90 days [VENDOR: subscription/high-chargeback verticals sit at the long end]'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the pattern as stolen-card transaction fraud, whose tell is chargebacks landing 60 to 180 days later concentrated on one affiliate",
+        "evidence": "The transcript identifies 'stolen-card transaction fraud' generally but the concrete case discussed is month 11-14 disputes, not the 60-180 day range specified by the rubric.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the hold window change is roughly an hour of reversible platform configuration, so it ships immediately while the contract work runs in parallel",
+        "evidence": "No mention of the hold-window change taking 'roughly an hour' or shipping immediately while contract work runs in parallel appears in this transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "States that a 60-day hold window cannot reach a dispute filed in month 11 or month 14, and that no realistic hold window can",
+        "evidence": "'Extending it to 90 or 120 days won't fix this; the problem isn't hold length, it's that hold and clawback rights are the same mechanism.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the standard Visa/Mastercard chargeback filing limit of 120 days from the transaction",
+        "evidence": "Not mentioned anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the services-not-received, delayed-delivery and not-as-described limit: 120 days from the expected delivery date, capped at 540 days from the transaction",
+        "evidence": "Not mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Promotes the clawback clause set above every other control for this program and names the reason: subscription or delayed-delivery goods, plus a chargeback the program has already paid out on",
+        "evidence": "Structural fix #1, listed first: 'Decouple \"hold\" from \"clawback rights.\"... The hold controls cash-flow timing; clawback rights should never expire while a customer relationship exists,' tied to the annual-subscription context described earlier.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies all three contractual pieces: clawback authority, negative-balance carry-forward, and a chargeback reserve",
+        "evidence": "'any chargeback... is deductible from the affiliate's account \u2014 via reserve, negative balance, or offset against future commissions' plus 'Add a rolling reserve. Withhold a fixed % (5\u201310%)...'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Defines negative-balance carry-forward as deducting from future payouts until the balance is offset",
+        "evidence": "'...or offset against future commissions' describes deducting from future payouts to resolve the balance.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sizes the chargeback reserve at roughly 10-15% of commissions, released quarterly while the chargeback rate stays below threshold",
+        "evidence": "The transcript specifies '5\u201310%' released quarterly, not the 10-15% range the rubric requires.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that clawing back a paid commission without those clauses is itself a breach",
+        "evidence": "Not stated anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Prices the contract change at roughly a quarter including legal drafting and partner re-assent, and notes it is barely reversible once shipped",
+        "evidence": "The transcript instead treats it as quick: 'Do 4 (clawback clause + reserve) before your next commission run \u2014 it's a contract/process change, not engineering work.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Moves the hold window to the long end of the 30-90 day range because this is a subscription and high-chargeback vertical",
+        "evidence": "The transcript explicitly rejects extending the hold: 'Extending it to 90 or 120 days won't fix this.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the pattern as stolen-card transaction fraud, whose tell is chargebacks landing 60 to 180 days later concentrated on one affiliate",
+        "evidence": "The transcript identifies the pattern as 'self-referral / friendly fraud' or 'renewal-adjacent disputes,' not stolen-card fraud.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes the hold window change is roughly an hour of reversible platform configuration, so it ships immediately while the contract work runs in parallel",
+        "evidence": "Not mentioned; the transcript does not propose changing the hold window at all.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

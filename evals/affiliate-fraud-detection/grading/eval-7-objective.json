@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Does not green-light shipping the cross-account identity rules in three weeks as scoped",
+        "evidence": "'Verdict: Not as scoped. Conditional yes, different timeline.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Classifies device fingerprinting, cross-account email/phone/address matching, and click-IP-to-billing-address comparison as processing of personal data",
+        "evidence": "'Device fingerprinting, matching emails/phones/addresses across accounts, and comparing click IP to billing address are all personal-data processing'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires three things to be stated before the design goes to counsel: the lawful basis, the retention period, and who can see the matched records",
+        "evidence": "'someone has to state, in writing: The lawful basis... The retention period... Who can see the matched records. Then route it to counsel.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that fraud prevention is a commonly cited lawful basis but not an automatic one, and that 'we needed it to catch fraud' is not a basis at all",
+        "evidence": "'fraud prevention is a *commonly cited* basis, not an automatic one \u2014 \"we needed it to catch fraud\" is explicitly **not** a basis on its own'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Cites the UK regulator's published position that deploying fingerprinting requires fair choices and possibly consent even outside advertising",
+        "evidence": "'The UK regulator's published position is that fingerprinting can require consent even outside advertising.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Ranks cross-account identity last of the four signal families on value per unit of effort while noting it sits at the top on evidence value",
+        "evidence": "The transcript ranks it worst on efficiency ('Efficiency: worst of the four') but never states it sits at the top on evidence value.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Prices its effort at roughly a quarter covering lawful basis, retention design, access control, and counsel sign-off, contradicting the three-week estimate",
+        "evidence": "'Effort: a quarter \u2014 lawful basis, retention design, access control, counsel sign-off \u2014 not three weeks.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends building list filtration first and downstream outcomes second, before adding cross-account identity",
+        "evidence": "'The correct sequence is: list filtration \u2192 downstream outcomes \u2192 timing \u2192 cross-account identity last'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the condition that promotes cross-account identity anyway: a case that has to survive network compliance or a wire-fraud referral, where a dossier without a shared-fingerprint or shared-payout finding rarely gets acted on",
+        "evidence": "No such condition (network compliance survival or wire-fraud referral) is named anywhere in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that no volume of timing signal substitutes for a shared-identity finding in such a dossier",
+        "evidence": "This statement does not appear anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names a legitimate trip risk for shared-identity rules, such as an agency submitting on behalf of several clients, or shared corporate networks and VPNs",
+        "evidence": "'shared IP can be an agency submitting on behalf of clients, a shared office/household network, or corporate NAT \u2014 not just a ring.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a data-center or VPN flag on a single lead is weak while the same fingerprint recurring across many supposedly unrelated leads is strong",
+        "evidence": "No such single-vs-recurring comparison for data-center/VPN flags appears in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Does not green-light shipping the cross-account identity rules in three weeks as scoped",
+        "evidence": "'Week 1\u20133: build and ship the email/phone/billing cross-reference matcher as a scoring signal feeding a manual review queue' \u2014 this does green-light shipping the cross-account matching logic within three weeks.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Classifies device fingerprinting, cross-account email/phone/address matching, and click-IP-to-billing-address comparison as processing of personal data",
+        "evidence": "Only fingerprinting/IP are explicitly called personal data ('IP addresses and fingerprints are personal data'); email/phone cross-reference is instead called 'standard, effective' without personal-data framing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires three things to be stated before the design goes to counsel: the lawful basis, the retention period, and who can see the matched records",
+        "evidence": "Only a legal-basis/DPIA discussion is raised ('This needs a DPIA... before it goes live'); retention period and access-control ('who can see') are never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that fraud prevention is a commonly cited lawful basis but not an automatic one, and that 'we needed it to catch fraud' is not a basis at all",
+        "evidence": "The transcript says 'A narrow fraud-prevention exemption exists but is fact-specific and needs a documented justification' but never states the specific 'not a basis at all' framing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Cites the UK regulator's published position that deploying fingerprinting requires fair choices and possibly consent even outside advertising",
+        "evidence": "The transcript cites 'GDPR/ePrivacy (CNIL guidance since 2020)' \u2014 French, not UK regulator \u2014 and no such citation is given.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ranks cross-account identity last of the four signal families on value per unit of effort while noting it sits at the top on evidence value",
+        "evidence": "No such ranking exercise appears in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Prices its effort at roughly a quarter covering lawful basis, retention design, access control, and counsel sign-off, contradicting the three-week estimate",
+        "evidence": "No specific effort estimate (e.g., a quarter) is given for the fingerprinting/legal work.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends building list filtration first and downstream outcomes second, before adding cross-account identity",
+        "evidence": "Not discussed; the transcript directly recommends shipping cross-account matching first.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names the condition that promotes cross-account identity anyway: a case that has to survive network compliance or a wire-fraud referral, where a dossier without a shared-fingerprint or shared-payout finding rarely gets acted on",
+        "evidence": "Not mentioned in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that no volume of timing signal substitutes for a shared-identity finding in such a dossier",
+        "evidence": "Not mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names a legitimate trip risk for shared-identity rules, such as an agency submitting on behalf of several clients, or shared corporate networks and VPNs",
+        "evidence": "'Billing address vs. click IP \u2014 noisy. VPNs, mobile networks, shared family Wi-Fi... will produce false positives. Treat as a weak signal, never a standalone trigger.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a data-center or VPN flag on a single lead is weak while the same fingerprint recurring across many supposedly unrelated leads is strong",
+        "evidence": "Not stated in the transcript.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

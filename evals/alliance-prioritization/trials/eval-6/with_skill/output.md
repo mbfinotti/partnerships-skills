@@ -1,0 +1,14 @@
+A couple of things the skill this shortlist runs on won't let pass silently, then the paragraph.
+
+**Why I didn't draft it as specified**
+
+1. **The "70%" pairing is false corroboration, not confirmation.** The partner-ops platform's "70% fail" and McKinsey's "70% underperform" are measuring different things — outright failure vs. falling short of expectations — landing on the same digit by coincidence, not agreement. The skill this ranking follows is explicit: *"the famous 50-70% of alliances fail figure is unsettled... never quote it as settled fact."* Stacking two different metrics that happen to share a number reads as corroboration to a room that won't check definitions; it doesn't hold up as evidence.
+2. **Both headline stats are vendor-sourced**, from a partner-ops platform whose report profits when alliances look important enough to need a platform. Every quoted benchmark in this memo needs a provenance flag for exactly that reason — the 53% "close more" stat is fine as color, but it's the wrong evidence to carry the headcount ask.
+
+What the skill flags as the field's actual best-validated stat — and the right thing to lean on for a headcount ask — is Kale, Dyer & Singh (2002): a dedicated alliance function with a structured process gets 63% alliance success vs. 50% without one, across 1,572 alliances, peer-reviewed. That's a direct, causal-shaped case for staffing; "70% fail" is not.
+
+**The paragraph:**
+
+> Alliance failure isn't a settled statistic — published estimates range from 20% to 80% depending on how "failure" is defined, and even the most-cited figures (a 2025 partner-ops vendor report puts it at 70%; a McKinsey survey, measuring underperformance rather than failure, lands on the same number) don't actually agree with each other so much as coincide. What the research does show consistently is that structure closes the gap: alliances run through a dedicated function with a repeatable prioritization process succeed 63% of the time, against 50% for ad hoc partnering (Kale, Dyer & Singh, 2002, n=1,572). That 13-point swing — not a vendor's failure headline — is the case for the alliance-manager headcount this memo requests: process and ownership measurably move the odds, and the shortlist below is that process applied to our six candidates.
+
+If you still want the partner-ops platform's 53%-close-rate figure in there, it belongs later as supporting color with its provenance stated plainly, e.g.: *"Partner-sourced pipeline also converts better — one partner-ops platform's 2025 benchmark puts partner-involved deals at 53% more likely to close, though as the report's own publisher this should be read as directional, not audited."* Don't let it carry the headcount ask on its own — that's the same "vendor number as ranking spine" failure mode the skill calls out for account-overlap data, just moved into the exec summary.

@@ -1,0 +1,130 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Fails the roundup page because the reader must see the disclosure and the affiliate link at the same time, and a page-top disclosure separated from the links does not satisfy that",
+        "evidence": "\"FTC: reader must see the disclosure and the affiliate link **at the same time**; CMA: no scrolling required\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a \"paid link\" or equivalent commission line adjacent to each product link block, noting FTC staff treat an adjacent \"paid link\" as adequate",
+        "evidence": "The transcript recommends \"Add a short line adjacent to each of the 9 buy buttons\" but never states that FTC staff treat an adjacent 'paid link' label as adequate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States plainly that no format-specific FTC rule exists for newsletters or email rather than inventing or implying one",
+        "evidence": "\"**Direct answer to your question: no.** There is no FTC rule specific to email/newsletters.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the general clear-and-conspicuous standard to the newsletter: disclosure adjacent to the sponsored block, before the reader acts, visually separated from editorial content",
+        "evidence": "\"disclose adjacent to the sponsored block, **before** the reader acts on it, visually separated from editorial content\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fails \"in partnership\" as wording, because it names no commercial relationship a reader can decode, and requires a label such as \"Sponsored\" that names the paid placement",
+        "evidence": "\"'in partnership' reads like the rejected vague-'partner' pattern \u2014 it signals a relationship without saying *paid* or *ad*\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places the newsletter disclosure at the top of the sponsored block rather than underneath it",
+        "evidence": "\"disclosure sits **under** the sponsored block... Move the line to the top of the block\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the UK layer, including the CMA's rule that the audience should not have to scroll or select a link for more information",
+        "evidence": "\"CMA: no scrolling required\" applied to the roundup page's UK overlay row",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-paste inline affiliate-link label and a ready-to-paste sponsored-block opener naming the brand that paid",
+        "evidence": "\"Ad \u2014 we may earn a commission if you buy through this link.\" and \"Sponsored \u2014 [Brand] paid for this placement.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Marks whatever the pasted text cannot settle, such as the rendered page's visual prominence or contrast, as \"not assessable from the artefact provided\" and lists what to verify on the rendered asset",
+        "evidence": "\"\u26a0\ufe0f NOT ASSESSABLE | 'Grey banner' described, not rendered\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Delivers an explicit verdict of PASS, FAIL, or PASS WITH [COUNSEL] items per asset, with every failing row carrying a rewritten fix rather than only a critique",
+        "evidence": "\"Verdict: FAIL\" for both assets, each with fix rows filled in for every failing requirement.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Fails the roundup page because the reader must see the disclosure and the affiliate link at the same time, and a page-top disclosure separated from the links does not satisfy that",
+        "evidence": "\"A single grey disclosure banner above the intro, with the first affiliate buy button ~1,200 words later, fails the FTC's 'clear and conspicuous' standard in practice, for one specific reason: proximity to the claim, not just presence on the page.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends a \"paid link\" or equivalent commission line adjacent to each product link block, noting FTC staff treat an adjacent \"paid link\" as adequate",
+        "evidence": "The fix suggests an inline disclosure 'near each buy button or price block' but never uses the term 'paid link' or cites FTC staff treating that specific label as adequate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States plainly that no format-specific FTC rule exists for newsletters or email rather than inventing or implying one",
+        "evidence": "\"There's no email-specific carve-out or relaxation for material-connection disclosures \u2014 'clear and conspicuous' applies the same way in an email as on a web page.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the general clear-and-conspicuous standard to the newsletter: disclosure adjacent to the sponsored block, before the reader acts, visually separated from editorial content",
+        "evidence": "\"FTC guidance is explicit that disclosure must come before or immediately adjacent to, and at least as prominent as, the claim it modifies.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fails \"in partnership\" as wording, because it names no commercial relationship a reader can decode, and requires a label such as \"Sponsored\" that names the paid placement",
+        "evidence": "\"'in partnership' is on the FTC's list of ambiguous terms... Use unambiguous terms: 'Sponsored,' 'Advertisement,' or 'Paid partnership.'\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places the newsletter disclosure at the top of the sponsored block rather than underneath it",
+        "evidence": "\"Fix: move a clearly-worded label ('Sponsored' or 'Advertisement') to sit directly above/inside the block.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Applies the UK layer, including the CMA's rule that the audience should not have to scroll or select a link for more information",
+        "evidence": "The UK section cites 'CAP Code / ASA' favoring explicit labels, but never mentions the CMA specifically or the no-scroll/no-click-through rule.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Supplies a ready-to-paste inline affiliate-link label and a ready-to-paste sponsored-block opener naming the brand that paid",
+        "evidence": "A generic line is given for the roundup ('This post contains affiliate links \u2014 we may earn a commission') but no ready sponsored-block opener naming the paying brand is supplied for the newsletter.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Marks whatever the pasted text cannot settle, such as the rendered page's visual prominence or contrast, as \"not assessable from the artefact provided\" and lists what to verify on the rendered asset",
+        "evidence": "No such phrase or list of items to verify on the rendered page/email appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Delivers an explicit verdict of PASS, FAIL, or PASS WITH [COUNSEL] items per asset, with every failing row carrying a rewritten fix rather than only a critique",
+        "evidence": "Each asset gets an explicit \u274c verdict ('\u274c Not sufficient as currently placed', '\u274c Two separate problems, not one') each followed by a concrete 'Fix' with rewritten wording/placement.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

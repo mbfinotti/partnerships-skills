@@ -1,0 +1,166 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Segments the list by recipient jurisdiction before drafting any message, and states the regime attaches to where the prospect is, not where the program is",
+        "evidence": "The transcript has a 'Legal segments' table segmenting by country before drafting (satisfies first half), but never states the principle that 'the regime attaches to where the prospect is, not where the program is' anywhere in the text.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that German prospects require prior opt-in and must be handled like the Canadian prospects, not under a general EU legitimate-interest basis",
+        "evidence": "'German B2B tech media | 41 | UWG (prior opt-in required) | No, unless a documented consent basis exists per contact' is given identical treatment to Canada, and later grouped explicitly: 'Given 41+27 = 68 German/Canadian contacts to check individually'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names UWG (or German unfair-competition law) as the regime behind that opt-in requirement",
+        "evidence": "Table row: 'German B2B tech media | 41 | UWG (prior opt-in required)'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not treat all 54 UK prospects as cold-emailable under a single country-level rule",
+        "evidence": "UK Ltd (8) marked 'Yes' cold-emailable while UK solo ops (46) marked 'No, unless a documented consent basis exists per contact' \u2014 different rules for the same country.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Instructs checking each UK prospect's legal form, identifying limited companies, LLPs, Scottish partnerships and public bodies as corporate subscribers that may be cold-emailed",
+        "evidence": "Only 'verify \"Ltd\"/\"LLP\" in trading name or Companies House first' is mentioned; Scottish partnerships and public bodies are never named as corporate-subscriber categories.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies UK sole traders and non-Scottish unincorporated partnerships as individual subscribers needing a consent basis, referencing PECR (or the corporate/individual subscriber distinction) explicitly",
+        "evidence": "'UK solo newsletter/review ops | 46 | PECR (individual subscriber) | No, unless a documented consent basis exists per contact' explicitly invokes the PECR individual-subscriber distinction for this population.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States a personal or freemail address counts as an individual subscriber regardless of the employer behind it",
+        "evidence": "No mention of freemail/personal-address treatment anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that one-person newsletter and review operations will mostly land on the individual-subscriber side, so a country-level 'UK is fine' rule misclassifies most of this segment",
+        "evidence": "'A \"UK is fine\" or \"just email everyone\" approach would put you in violation on well over half the list,' paired with tagging the 46 solo ops as individual subscribers requiring consent.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives a cheap concrete check for UK legal form (Companies House lookup, or an explicit 'Ltd'/'Limited'/'LLP' in the trading name) and defaults to individual-subscriber treatment when the form is unknown",
+        "evidence": "The check is given ('verify \"Ltd\"/\"LLP\" in trading name or Companies House first') but no default-to-individual-subscriber-when-unknown rule is ever stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the 27 Canadian prospects need express or implied consent under CASL, gives an implied-consent example such as an existing business relationship or a conspicuously published role-relevant address, and requires the basis be documented per contact",
+        "evidence": "'a consent basis often exists (an existing relationship, or a conspicuously published \"partnerships@\"/media-kit contact relevant to their role)' plus 'Log every UK/German/Canadian consent-basis decision (found/not found, source)'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Routes prospects with no documented consent basis to passive recruitment (program page, directories) rather than prescribing a shorter or softer email sequence for them",
+        "evidence": "'Until checked, treat all 114 as passive-recruitment only: get the program page and directory listings live, be findable, accept inbound.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States US prospects are cold-emailable under CAN-SPAM without prior consent, and that there is no B2B exemption",
+        "evidence": "'US bloggers/comparison sites | 88 | CAN-SPAM | Yes \u2014 no consent needed, must carry identity/address/opt-out' states no consent needed but never mentions the absence of a B2B exemption.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Lists the CAN-SPAM must-carry items for the US segment: accurate from/reply-to and routing, non-deceptive subject, physical postal address, and a working opt-out",
+        "evidence": "Only 'must carry identity/address/opt-out' is stated; accurate from/reply-to routing and non-deceptive subject requirements are never listed.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Segments the list by recipient jurisdiction before drafting any message, and states the regime attaches to where the prospect is, not where the program is",
+        "evidence": "The transcript states 'Cold email is a consent regime, and it's set per-recipient-type, not per-country-blanket' but never contrasts recipient location against program location; segmentation by country is present but the specific claim about program-location vs recipient-location is absent.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States that German prospects require prior opt-in and must be handled like the Canadian prospects, not under a general EU legitimate-interest basis",
+        "evidence": "Germany is marked '\u274c Not cold-emailable' while Canada is marked '\u26a0\ufe0f Cold-emailable, conditionally \u2014 verify per contact' \u2014 the two are given explicitly different verdicts, not the same treatment.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names UWG (or German unfair-competition law) as the regime behind that opt-in requirement",
+        "evidence": "'UWG \u00a77 \u2014 Germany requires prior explicit consent for commercial email even B2B, with essentially no cold-outreach exception'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Does not treat all 54 UK prospects as cold-emailable under a single country-level rule",
+        "evidence": "UK is split into 'UK Ltd media companies (8) \u2705 Cold-emailable now' and 'UK solo newsletter/review operators (46) \u274c Not cold-emailable'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Instructs checking each UK prospect's legal form, identifying limited companies, LLPs, Scottish partnerships and public bodies as corporate subscribers that may be cold-emailed",
+        "evidence": "The transcript only references 'UK Ltd media companies' as a pre-given bucket; no instruction to check Companies House or classify LLPs, Scottish partnerships, or public bodies appears anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies UK sole traders and non-Scottish unincorporated partnerships as individual subscribers needing a consent basis, referencing PECR (or the corporate/individual subscriber distinction) explicitly",
+        "evidence": "'PECR treats sole traders / unincorporated one-person operations as individual subscribers \u2014 same rules as consumers, requires prior opt-in consent'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States a personal or freemail address counts as an individual subscriber regardless of the employer behind it",
+        "evidence": "No mention of freemail/personal address treatment anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that one-person newsletter and review operations will mostly land on the individual-subscriber side, so a country-level 'UK is fine' rule misclassifies most of this segment",
+        "evidence": "The transcript notes heterogeneity ('the US and Canada segments are [homogeneous], but UK and Germany aren't') but never states that a country-level UK rule would misclassify the majority of one-person operators.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives a cheap concrete check for UK legal form (Companies House lookup, or an explicit 'Ltd'/'Limited'/'LLP' in the trading name) and defaults to individual-subscriber treatment when the form is unknown",
+        "evidence": "No Companies House lookup or 'Ltd/Limited/LLP in name' check, and no default-to-individual rule for unknown cases, is mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the 27 Canadian prospects need express or implied consent under CASL, gives an implied-consent example such as an existing business relationship or a conspicuously published role-relevant address, and requires the basis be documented per contact",
+        "evidence": "'if the consultant has published their business email on their own site/LinkedIn ... implied consent exists' gives the example, but the instruction is only to 'screen each of the 27' \u2014 there is no requirement to document the consent basis per contact.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Routes prospects with no documented consent basis to passive recruitment (program page, directories) rather than prescribing a shorter or softer email sequence for them",
+        "evidence": "'Drop anyone who fails that filter into the Tier-2 motion below instead' \u2014 Tier 2 uses landing pages, marketplaces, and LinkedIn/Xing DMs, not a softer email cadence.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States US prospects are cold-emailable under CAN-SPAM without prior consent, and that there is no B2B exemption",
+        "evidence": "'CAN-SPAM \u2014 opt-out regime, no prior consent needed for B2B or consumer email' ... '\u2705 Cold-emailable now'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Lists the CAN-SPAM must-carry items for the US segment: accurate from/reply-to and routing, non-deceptive subject, physical postal address, and a working opt-out",
+        "evidence": "'real physical mailing address in the footer, one-click unsubscribe honored within 10 business days, accurate from-name/subject, no purchased/scraped-in-bulk lists'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

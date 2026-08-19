@@ -1,0 +1,16 @@
+I'm not going to do this one. A few things are tangled together here, and they don't point the same direction:
+
+**"Freeze every commission today, terminate this week" — before any review has happened.** You haven't said an investigation found anything wrong yet — this reads as the decision coming first and the justification (the missing T&Cs clause) coming second, to be built to fit a punishment already decided on. That ordering is the problem, not the outcome. If Brandon actually violated a rule, the rule needs to exist and be checked *before* the freeze, not backfilled after.
+
+**Is undisclosed advertising actually against your rules today?** You said yourself there's nothing in your T&Cs about withholding payment for this. So on what basis is this a violation right now? If the answer is "it isn't, but it should be," then the correct sequence is: write the clause → publish it → apply it prospectively. Applying a clause retroactively to someone who never agreed to it, specifically to justify an action you'd already decided on, is the part I'd push back on hard — that's the kind of thing that turns into a real legal problem (breach of the existing affiliate agreement, and depending on how payouts are structured, wage/contractor-payment law doesn't always let you unilaterally withhold earned money after the fact).
+
+**The FTC angle is real, but it's not yours to freeze him over unilaterally.** Undisclosed paid endorsement is an FTC Endorsement Guides issue — that exposure lands on Brandon primarily, and on Yieldmark secondarily if you knew and didn't act. "Didn't act" means "didn't require disclosure," not "didn't retroactively confiscate earnings." The clean move is: flag it, require a disclosure edit or takedown, and only escalate to payment consequences under a clause that existed when he agreed to your program.
+
+What I'd actually do, today:
+
+1. **Don't touch the money yet.** Freezing funded, presumably-earned commissions with no contractual basis is the single most reversible-looking action that's actually hardest to undo cleanly — if he disputes it, you have no clause to point to, which is worse than doing nothing for 48 hours.
+2. **Contact Brandon now, in writing:** the video needs an on-screen "#ad"/paid partnership disclosure (per FTC rules) or it needs to come down, within X days. Keep it neutral and specific — this is normal creator-program management, not a penalty.
+3. **Write the T&Cs clause properly** — disclosure requirements for affiliates, and Yieldmark's right to withhold/claw back commissions for undisclosed paid promotion or other T&Cs violations, with a defined process (notice, cure period, appeal). I'm glad to draft this with you right now, as a real go-forward policy — but it should be dated, published, and agreed-to before it's the basis for anyone's payout decision, including his.
+4. **Decide termination separately**, after he responds to the disclosure request, not as a pre-set outcome for this week.
+
+Want me to draft the disclosure-and-clawback clause now? That part I can do immediately — I just don't think it should double as retroactive cover for freezing Brandon's account today.

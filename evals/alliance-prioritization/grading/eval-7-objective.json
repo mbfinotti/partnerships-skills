@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Removes the weighted scorecard entirely rather than producing one under the four-hour ceiling",
+        "evidence": "\"Full weighted scorecard \u2192 deleted.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Ranks instead on the must-pass gates plus effort to first value",
+        "evidence": "\"Ranking instead on gates + effort-to-first-value \u2014 the skill's own prescribed fallback under a same-day ceiling.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States explicitly in the output that the scorecard was dropped and why",
+        "evidence": "\"Complementarity-led scoring needs desk research and closed-won samples you don't have hours for.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Runs the full gate set on all three candidates rather than staging desk checks ahead of expensive reviews",
+        "evidence": "\"With only 3 candidates, staging saves nothing, so run every deskable gate on all three.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains that staging saves nothing on a longlist of three",
+        "evidence": "\"With only 3 candidates, staging saves nothing\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Deletes reach-led criteria outright given no overlap dataset and no audience-audit budget",
+        "evidence": "\"Reach/overlap criteria \u2192 deleted. No RevOps pull, no licensed overlap data.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the deletion reasoning: stripped of the dataset, reach-led leaves only market size and brand",
+        "evidence": "\"Nothing to score there; don't let market-size-and-brand guesses fill the gap \u2014 that's exactly how logo halo wins a scorecard.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names each deleted option and its reason rather than demoting it to the bottom of a menu",
+        "evidence": "The 'Method log' section explicitly names each deletion (scorecard, reach/overlap, full gate staging) with its own reason as separate bullets.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Fixes a capacity line from the single alliance manager before recommending anything",
+        "evidence": "\"Capacity | 1 signed alliance this quarter | You stated one alliance manager, no analyst\" set as an assumption before scoring begins.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Issues a verdict per candidate drawn from go, conditional-go, recycle, hold, and kill",
+        "evidence": "Verdicts are left as unfilled placeholders: \"Winner (value\u00f7effort, passed desk gates): \u2014 Go, conditional...\" with checkboxes (\u2610) throughout, never resolved to actual named candidates.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags the candidate facts as user-supplied and unverified rather than presenting them as checked",
+        "evidence": "\"No web verification of any candidate's current funding, ownership, or platform-policy state was possible in this session\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Removes the weighted scorecard entirely rather than producing one under the four-hour ceiling",
+        "evidence": "A 5-criteria weighted scorecard table is produced and is central to the deliverable.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Ranks instead on the must-pass gates plus effort to first value",
+        "evidence": "Ranking is done via a weighted scorecard total, not a gate-plus-effort framework.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States explicitly in the output that the scorecard was dropped and why",
+        "evidence": "The scorecard is reduced from 15 to 5 criteria, not dropped: 'a 15-criteria RFP-style model is a trap... Below is a 5-criteria model.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Runs the full gate set on all three candidates rather than staging desk checks ahead of expensive reviews",
+        "evidence": "No gate set exists in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Explains that staging saves nothing on a longlist of three",
+        "evidence": "Not discussed.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Deletes reach-led criteria outright given no overlap dataset and no audience-audit budget",
+        "evidence": "Pipeline overlap is kept as the highest-weighted criterion (30%) despite having 'no verified number, only proxies,' rather than being deleted.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the deletion reasoning: stripped of the dataset, reach-led leaves only market size and brand",
+        "evidence": "Not present.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names each deleted option and its reason rather than demoting it to the bottom of a menu",
+        "evidence": "No criteria are deleted in this transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Fixes a capacity line from the single alliance manager before recommending anything",
+        "evidence": "The single-manager constraint is folded into a weighted criterion (25% for '1-FTE execution feasibility') rather than used as a prior capacity cutoff.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Issues a verdict per candidate drawn from go, conditional-go, recycle, hold, and kill",
+        "evidence": "The output is an unscored template ('\u2610 /5') plus a generic decision rule, not per-candidate verdicts in that vocabulary.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags the candidate facts as user-supplied and unverified rather than presenting them as checked",
+        "evidence": "\"I'm not filling in scores with invented numbers \u2014 I have no factual basis on these three companies\" and the board slide caveat: 'overlap figures are directional... not a verified RevOps account-match.'",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

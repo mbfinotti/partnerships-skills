@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Rejects one refresh rate for the whole dashboard and calls it a defect.",
+        "evidence": "\"'live-refreshing' for the whole screen is itself a defect the skill calls out explicitly \u2014 one refresh rate for every tier is wrong.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies four cadence bands: continuous or daily operational, weekly acquisition, monthly performance, and quarterly portfolio.",
+        "evidence": "\"Cadence: continuous/daily - click-conv, reversal%... weekly - new partners onboarded... monthly - net contribution, cost of sale... quarterly - top-10%/top-5 concentration...\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Assigns each band its own metrics and its own named review ritual stating who looks, in which meeting, deciding what.",
+        "evidence": "\"weekly - new partners onboarded, conversion-to-active, tail activation (recruiting/activation review)\"; \"monthly... (CMO + program owner business review)\"; \"quarterly... (commission-architecture review)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the four cadence bands carry no efficiency ranking and that all four get built.",
+        "evidence": "No statement in the transcript says the cadence bands carry no efficiency ranking; the spec simply lists all four without addressing ranking.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Splits the dashboard into an executive view and an operator view.",
+        "evidence": "\"one dashboard, two tabs (Executive / Operator)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the two views differ in which metrics they carry, not only in level of detail.",
+        "evidence": "\"Executive and operator views differ in *metrics*, not just density.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places fraud and compliance signals on the operator view rather than in a separate tool.",
+        "evidence": "\"the fraud signals live as an always-on alert strip on the Operator tab\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason that daily decision-makers need performance and compliance signals at once.",
+        "evidence": "\"Keep fraud and compliance signals on the same view as performance, never in a separate tool \u2014 daily decision-makers need both at once.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Uses the layout convention KPI tiles, then trend or composition charts, then leaderboard or detail table, then alert strip.",
+        "evidence": "Operator tab layout: KPI row, then \"Daily validated conversions... / Reversals by reason\", then \"Affiliate leaderboard\", then \"ALERT STRIP\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires every tile to carry a value plus a delta against a stated prior period.",
+        "evidence": "Leaderboard column \"delta vs prior period (sortable, full tail)\"; operator KPI tiles annotated \"(vs 30d)\" / \"(vs band)\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Puts net program contribution, cost of sale, new-to-file and top-partner share on the executive view.",
+        "evidence": "The EXEC tab layout box only shows \"NET CONTRIBUTION | COST OF SALE | ROAS/ROI | TOP-5 SHARE\" \u2014 new-to-file rate is not depicted on the Exec tab and its metric row lacks an \"exec tile\" designation (unlike the concentration row, which explicitly says \"exec tile\").",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Puts reversal rate, pending versus approved, single-partner share and conversion rate on the operator view.",
+        "evidence": "OPERATOR tab: \"CLICK-CONV % (vs 30d) | REVERSAL % (vs band) | PENDING vs APPROVED $ | 1-PARTNER SHARE\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Rejects one refresh rate for the whole dashboard and calls it a defect.",
+        "evidence": "'Refresh cadence \u2014 show it, don't fake it'... 'an unlabeled staleness gap is what triggers \"why don't the numbers match\" arguments,' with differentiated cadences per tile type.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Specifies four cadence bands: continuous or daily operational, weekly acquisition, monthly performance, and quarterly portfolio.",
+        "evidence": "Only near-real-time (2-5 min), 15-30 min, and a weekly fraud tool are specified \u2014 no monthly or quarterly bands appear.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Assigns each band its own metrics and its own named review ritual stating who looks, in which meeting, deciding what.",
+        "evidence": "No four cadence bands exist, and no named review meetings are described beyond 'managers only' for the fraud tool.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the four cadence bands carry no efficiency ranking and that all four get built.",
+        "evidence": "No such four-band structure or ranking statement exists.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Splits the dashboard into an executive view and an operator view.",
+        "evidence": "'One screen can serve both if the top layer is aggregate and every tile drills into affiliate-level detail on click \u2014 don't build four dashboards.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the two views differ in which metrics they carry, not only in level of detail.",
+        "evidence": "Explicitly the opposite design: 'Same tiles for everyone' with drill-down, not different metric sets per role.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Places fraud and compliance signals on the operator view rather than in a separate tool.",
+        "evidence": "'The separate weekly fraud tool is the right call too \u2014 fraud review needs a queue/workflow, not a tile,' explicitly keeping it separate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Gives the reason that daily decision-makers need performance and compliance signals at once.",
+        "evidence": "Fraud is deliberately kept off the daily dashboard and run weekly instead.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Uses the layout convention KPI tiles, then trend or composition charts, then leaderboard or detail table, then alert strip.",
+        "evidence": "Rows are 'Program pulse,' 'Revenue detail,' 'Operational queue' \u2014 no dedicated alert strip is included in the layout.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires every tile to carry a value plus a delta against a stated prior period.",
+        "evidence": "Tiles like 'EPC (30d)' and 'Conversion rate (30d)' carry no stated delta against a prior period, only some tiles (e.g. '7d trend arrow') do.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Puts net program contribution, cost of sale, new-to-file and top-partner share on the executive view.",
+        "evidence": "None of net program contribution, cost of sale, or new-to-file appear anywhere in the dashboard design.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Puts reversal rate, pending versus approved, single-partner share and conversion rate on the operator view.",
+        "evidence": "Pending vs approved and conversion rate appear (e.g. 'Orders pending validation', 'Conversion rate (30d)'), but no explicit 'reversal rate' metric or 'single-partner share' percentage tile is built.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

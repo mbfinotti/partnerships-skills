@@ -1,0 +1,142 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Treats 'already promotes a competitor' as a positive qualification signal, not a conflict or a reason to drop the prospect",
+        "evidence": "'Reaching out to sites that already run affiliate links for competitors is not \"poaching\" \u2014 it's the single highest-yield sourcing method in affiliate recruitment.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains the signal proves category fit and existing monetization intent at the same time",
+        "evidence": "'These 63 sites have already proven three things a clean list hasn't: audience fit for scheduling-tool buyers, a working monetization setup, and intent to run affiliate content.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places competitors' current affiliates at or near the top of the sourcing efficiency order for a B2B SaaS program",
+        "evidence": "'Prussakov calls it the #1 method: \"Identify the affiliates who make your direct competitors successful... then reach out\".'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States a manual brand-safety screen runs before any outreach, not after a prospect joins the program",
+        "evidence": "Header: 'Required screen before any outreach (do this to the whole 63 first)'.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names at least three screen failure patterns drawn from: trademark bidding on brand terms, coupon injection or adware/parasiteware, cookie stuffing or forced clicks, thin AI-generated or scraped content with no real audience",
+        "evidence": "'trademark bidding on \"Kettleback,\" coupon-injection/adware behavior, cookie-stuffing patterns, thin/scraped content.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Flags that a prospect may sit under an exclusivity clause, or that approaching a network-managed roster can breach that network's non-solicitation terms, and says to check before the first send",
+        "evidence": "'Contract exposure \u2014 for any site clearly run by a managed network program, check whether that network's terms carry a non-solicitation clause before the first send.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States never to ask a prospect to break an existing agreement",
+        "evidence": "'Never ask a prospect to break an existing agreement; drop rather than pitch if unclear.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Orders qualification with audience fit checked first, ahead of traffic/authority and ahead of monetization evidence",
+        "evidence": "The 'Required screen' list order is brand safety, then contract exposure, then audience fit last; the text instead says traffic/monetization are already proven so 'you don't need to re-verify authority, only audience fit and safety' \u2014 no explicit fit-before-traffic-before-monetization ordering is stated.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States a high-authority site with the wrong audience is a worse prospect than a smaller site with the right one",
+        "evidence": "No comparison of high-authority/wrong-audience versus smaller/right-audience sites appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends checking outbound links for affiliate-network redirect parameters as monetization evidence",
+        "evidence": "'Check what the affiliate tracking parameters actually resolve to \u2014 if any route through a coupon/cashback network...' and 'Real traffic and proven monetization are already evidenced by the live affiliate tracking parameters.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Produces no message that disparages the competitor or asks the prospect to drop them",
+        "evidence": "The first-touch template only says 'I noticed you cover [Competitor A] there \u2014 [one specific, real detail about their coverage]' with no disparagement or ask to drop them.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Treats 'already promotes a competitor' as a positive qualification signal, not a conflict or a reason to drop the prospect",
+        "evidence": "'Recruiting affiliates who already monetize your category is standard partner-marketing practice \u2014 no different from bidding on competitor keywords or reading their pricing page.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Explains the signal proves category fit and existing monetization intent at the same time",
+        "evidence": "'Recruiting affiliates who already monetize your category is standard partner-marketing practice' ties fit ('your category') and monetization ('already monetize') into one claim, reinforced later by '63 pre-qualified, proven-to-convert-in-category partners.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Places competitors' current affiliates at or near the top of the sourcing efficiency order for a B2B SaaS program",
+        "evidence": "The transcript never compares this list against other sourcing methods in an efficiency ranking; it only ranks the three original 'moves' the CMO/user already proposed, not sourcing categories generally.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States a manual brand-safety screen runs before any outreach, not after a prospect joins the program",
+        "evidence": "Step 1: 'Low-quality/PBN-looking sites \u2014 filter these out entirely (check DR, traffic, and whether the \"review\" content reads like templated spam)' precedes the outreach steps.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names at least three screen failure patterns drawn from: trademark bidding on brand terms, coupon injection or adware/parasiteware, cookie stuffing or forced clicks, thin AI-generated or scraped content with no real audience",
+        "evidence": "Only 'templated spam' content quality is named ('whether the \"review\" content reads like templated spam'); no mention of trademark bidding, coupon injection/adware, or cookie stuffing.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Flags that a prospect may sit under an exclusivity clause, or that approaching a network-managed roster can breach that network's non-solicitation terms, and says to check before the first send",
+        "evidence": "'Some affiliate networks have exclusivity clauses ... but check' appears as Step 3, after the outreach copy step, and network non-solicitation terms for approaching a managed roster are never mentioned.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States never to ask a prospect to break an existing agreement",
+        "evidence": "The closest statement is 'don't argue with a \"we have an exclusivity agreement\" reply,' which addresses reacting to a decline, not an explicit instruction never to ask them to break the agreement.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Orders qualification with audience fit checked first, ahead of traffic/authority and ahead of monetization evidence",
+        "evidence": "'Pull DR and estimated traffic per domain (Ahrefs) before prioritizing \u2014 rank the list by traffic \u00d7 topical relevance, not by count' combines traffic and fit rather than sequencing fit strictly first.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States a high-authority site with the wrong audience is a worse prospect than a smaller site with the right one",
+        "evidence": "No such comparison appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends checking outbound links for affiliate-network redirect parameters as monetization evidence",
+        "evidence": "No mention of checking outbound link redirect parameters as monetization evidence.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Produces no message that disparages the competitor or asks the prospect to drop them",
+        "evidence": "\"We're building our affiliate program for B2B scheduling tools and your [post/site] is exactly the audience we want in front of.\" contains no disparagement or drop-competitor ask.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

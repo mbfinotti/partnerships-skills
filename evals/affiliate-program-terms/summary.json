@@ -1,0 +1,519 @@
+{
+  "repo": "partnerships-skills",
+  "skill": "affiliate-program-terms",
+  "scenarios": 12,
+  "expectations_total": 122,
+  "expectations_subjective": 1,
+  "expectations_objective": 121,
+  "pass_rate_with_skill_pct": 73.0,
+  "pass_rate_without_skill_pct": 29.5,
+  "delta_pp": 43.5,
+  "uplift_multiplier": 2.47,
+  "trigger_accuracy_pct": 85.7,
+  "trigger_queries": 112,
+  "subjective_ac2": 1.0,
+  "subjective_pass_disagreements": [],
+  "concern_flag": false,
+  "concern_reason": null,
+  "models": {
+    "trial": "sonnet",
+    "objective_grader": "sonnet",
+    "subjective_grader": "opus",
+    "trigger": "sonnet"
+  },
+  "harness_version": "2.1.270 (Claude Code)",
+  "conditions": {
+    "mcp_servers": "disabled",
+    "project_claude_md": "not loaded (trials and grading)",
+    "user_claude_md": "loaded",
+    "dynamic_prompt_sections": "excluded"
+  },
+  "empty_trials": {
+    "with_skill": [],
+    "without_skill": []
+  },
+  "ungraded_expectations": 0,
+  "run_degraded": false,
+  "failed_expectations": {
+    "with_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "Asks by what date the terms must be live before asking about brand-bidding policy or coupon policy."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Invents no additional commission rate, tier, or payout threshold figure anywhere in the draft."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Marks the governing-law/arbitration clause, the unilateral-amendment clause, and the trademark-bidding ban with [LEGAL REVIEW]."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Pairs the ladder with automatic brand-licence revocation and a pending-commissions clause so enforcement has a clean exit path."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Declines to draft blanket forfeiture of all earned commissions on any termination, and states the objection rather than silently softening the wording."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Narrows reversal grounds to an enumerated set such as fraud, product returns, order cancellations, chargebacks and statutory consumer withdrawal, rather than open-ended \"at our discretion\" reversals."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States that unpaid balances below the minimum payout threshold roll forward rather than being forfeited."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Does not recommend stretching the clawback window to cover the full tail, and notes the common SaaS range of 30-90 days is chosen for affiliate trust rather than full coverage."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States, for any reserve drafted, the withheld share in a band around 10-15%, the release schedule, the chargeback-rate threshold, and whether the reserve survives termination and for how long."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Marks the chargeback reserve clause with [LEGAL REVIEW]."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Presents the four standard positions in a stated ordering led by strict prohibition, rather than drafting the requested whitelist immediately."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the ordering explicitly rather than implying it by list order, and places the keyword whitelist last on value per unit of effort despite it sitting at the top on value alone."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names the condition that would promote a whitelist: a named partner already driving brand-term volume plus someone owning the adjudication as a standing job."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Treats \"nobody's assigned to run it yet\" as grounds to delete the whitelist and per-partner tiering rather than park them at the bottom of the list, on the reasoning that a position nobody enforces is indistinguishable from permission."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Declines to produce a full standalone master agreement from definitions through governing law as requested."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Scopes the deliverable to the program-specific layer sitting on top of the network's terms."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Names what belongs in that layer: commission terms, validation window, prohibited-tactics additions, and brand rules."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Flags CMA/DMCC Act 2024 consumer-protection enforcement exposure, with fines up to 10% of global turnover, as relevant to undisclosed advertising."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Makes the disclosure and genuine-user-benefit conditions warranties the affiliate gives on each release."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires the chosen position to be recorded explicitly in a DPA incorporated by the terms."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Flags US state privacy law opt-out and service-provider contract requirements if California consumers come into scope."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States that its civil penalties run in the low-$50,000 range per violation and are inflation-adjusted."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Requires disclosure of the material connection to be clear and conspicuous: difficult to miss, easily understandable, and unavoidable in interactive media."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Treats already-published terms with a live affiliate base as pricing each tightening at one amendment cycle plus the affiliates who leave, making reversibility rather than drafting hours the binding constraint."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Declines both requests as out of scope for a professional-affiliate program agreement rather than drafting either."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Routes the customer refer-a-friend terms to the referral-abuse-guardrails skill, naming the distinction that consumer refer-a-friend gaming rules serve a different audience than professional affiliates."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States that the referral skill emits its own consumer-facing terms wording, so a refer-a-friend terms request does not belong back here."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Routes the TikTok disclosure check to the affiliate-disclosure-compliance skill."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States that this skill writes the disclosure obligation into the terms but does not audit already-published content."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Does not produce a compliance pass/fail verdict on the TikTok post."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Does not invent the referral program's eligibility rules, reward caps, velocity limits, or cooldowns."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Offers the in-scope alternative: the professional-affiliate program agreement, if that is what Torvel actually needs."
+      },
+      {
+        "eval_id": 12,
+        "expectation": "Adds ecommerce-only clauses: coupon and deal-site last-click policy, product-feed accuracy rules, and restriction of third-party marketplace listings."
+      }
+    ],
+    "without_skill": [
+      {
+        "eval_id": 1,
+        "expectation": "States before drafting any clause that the output will be a draft for review by qualified counsel and not legal advice."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Asks by what date the terms must be live before asking about brand-bidding policy or coupon policy."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Treats the 19-day launch date as removing the keyword-whitelist and per-partner-tiering brand-bidding positions from the options offered, rather than presenting all four as available."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Marks the EU Platform-to-Business applicability question with [LEGAL REVIEW] instead of asserting that P2B does or does not reach an in-house merchant program."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Places each [LEGAL REVIEW: <reason>] marker inline next to the clause it concerns, not pooled in a footer or closing list."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Marks the governing-law/arbitration clause, the unilateral-amendment clause, and the trademark-bidding ban with [LEGAL REVIEW]."
+      },
+      {
+        "eval_id": 1,
+        "expectation": "Includes automatic revocation of the brand-asset licence on any termination, with a fixed asset-destruction window."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "States that any practice not explicitly prohibited is implicitly permitted, so a catch-all such as \"unethical or inappropriate\" prohibits nothing."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Enumerates typosquatting, brand impersonation, self-referral and incentivized traffic, spam and unsolicited email, misleading claims and fake reviews, and adware or browser-extension injection."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Drafts a graduated enforcement ladder in this order: written warning with cure period, voiding of commissions generated through the violating tactic, account suspension pending investigation, termination for cause, recovery of already-paid commissions with reserved damages rights."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Deems any prohibited-tactics violation a material breach."
+      },
+      {
+        "eval_id": 2,
+        "expectation": "Pairs the ladder with automatic brand-licence revocation and a pending-commissions clause so enforcement has a clean exit path."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Declines to draft blanket forfeiture of all earned commissions on any termination, and states the objection rather than silently softening the wording."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Names the tension with US state escheatment law, under which unpaid commissions can become reportable to the state as unclaimed property."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States the escheatment dormancy range as roughly one to five years."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Proposes a non-fraud branch that pays all validly earned commissions accrued to the termination date on the normal schedule, still subject to the validation window."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Proposes a fraud or for-cause branch that forfeits commissions attributable to the violation, and states explicitly whether unrelated earned commissions are still paid."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Marks the forfeiture-scope clause with [LEGAL REVIEW]."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Narrows reversal grounds to an enumerated set such as fraud, product returns, order cancellations, chargebacks and statutory consumer withdrawal, rather than open-ended \"at our discretion\" reversals."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Does not draft the 180-day dormancy forfeiture as requested; any dormancy clause offered requires prior notice to the affiliate, a reactivation path, and counsel review."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "Marks the dormancy clause with [LEGAL REVIEW] and names the same escheatment collision."
+      },
+      {
+        "eval_id": 3,
+        "expectation": "States that unpaid balances below the minimum payout threshold roll forward rather than being forfeited."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States that services-not-received, delayed-delivery and not-as-described reason codes instead run 120 days from the expected delivery date."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States the outer cap of 540 days from the transaction for those reason codes."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Applies that to this annual subscription: a dispute raised around month 14 is still within the exposure window."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Does not recommend stretching the clawback window to cover the full tail, and notes the common SaaS range of 30-90 days is chosen for affiliate trust rather than full coverage."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Drafts clawback authority as a required clause because commissions are paid before the transaction is chargeback-safe, on the reasoning that a reversal right with no collection path enforces nothing."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Drafts negative-balance carry-forward and presents it as the leading control by value returned per unit of effort."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Presents the chargeback reserve as the higher-value, higher-effort control and names the conditions that promote it, such as affiliates paid before the tail closes who then churn out of the program, or a product with a known high chargeback rate."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "States, for any reserve drafted, the withheld share in a band around 10-15%, the release schedule, the chargeback-rate threshold, and whether the reserve survives termination and for how long."
+      },
+      {
+        "eval_id": 4,
+        "expectation": "Marks the chargeback reserve clause with [LEGAL REVIEW]."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Presents the four standard positions in a stated ordering led by strict prohibition, rather than drafting the requested whitelist immediately."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the ordering explicitly rather than implying it by list order, and places the keyword whitelist last on value per unit of effort despite it sitting at the top on value alone."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Names the condition that would promote a whitelist: a named partner already driving brand-term volume plus someone owning the adjudication as a standing job."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Treats \"nobody's assigned to run it yet\" as grounds to delete the whitelist and per-partner tiering rather than park them at the bottom of the list, on the reasoning that a position nobody enforces is indistinguishable from permission."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Requires the brand to be set as a negative keyword."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States that the ban is contractual only: search engines will not enforce it and bidding on a mark as a keyword is generally lawful, while trademark use in ad copy is independently actionable."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "Marks the trademark-bidding clause with [LEGAL REVIEW]."
+      },
+      {
+        "eval_id": 5,
+        "expectation": "States the grounds on which a partner would be refused, and notes that inconsistent enforcement destroys the position."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Establishes that in a network-hosted program the network's master publisher agreement is the governing baseline."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Declines to produce a full standalone master agreement from definitions through governing law as requested."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Scopes the deliverable to the program-specific layer sitting on top of the network's terms."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Names what belongs in that layer: commission terms, validation window, prohibited-tactics additions, and brand rules."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Raises the UK ASA/CAP labeling obligation for UK-facing affiliates and states that \"Ad\" is the preferred label."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "States that ambiguous labels such as \"affiliate\", \"gifted\" or \"spon\" are insufficient."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Notes the UK's mirror Platform-to-Business regime and its notice requirements toward business users."
+      },
+      {
+        "eval_id": 6,
+        "expectation": "Flags CMA/DMCC Act 2024 consumer-protection enforcement exposure, with fines up to 10% of global turnover, as relevant to undisclosed advertising."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States the ordering for browser extensions: an outright ban ahead of permission with a stand-down obligation, on value per unit of effort."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Treats the named material revenue share plus available clickstream evidence as the condition that promotes permission, and drafts the permitted-extension clause rather than the ban."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States the evidentiary basis: whose clickstream data settles a stand-down dispute."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Requires disclosure, a related user action, and a direct transparent user benefit before the extension may attach an affiliate link, code, or cookie, attributing the standard to the Performance Marketing Association's toolbar and software standard."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Makes the disclosure and genuine-user-benefit conditions warranties the affiliate gives on each release."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "Selects the restricted coupon position rather than a full ban or full permission, and states the ordering that puts restriction ahead of both."
+      },
+      {
+        "eval_id": 7,
+        "expectation": "States explicitly whether a last-click on a code-page visit earns commission."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Declines to give a single settled answer on the affiliate's role, and states that the allocation is genuinely disputed."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "States that the advertiser is always a data controller."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Notes that different major market participants publicly take different positions, for example a tripartite joint-controller position at one network, an independent-controller position at another, and a processor position for SaaS tracking vendors."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Does not rank the three positions by effort, cost, or payoff, and explains that they are competing readings of one legal fact rather than options with different returns."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Requires the chosen position to be recorded explicitly in a DPA incorporated by the terms."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Marks the data-protection role allocation with [LEGAL REVIEW]."
+      },
+      {
+        "eval_id": 8,
+        "expectation": "Flags US state privacy law opt-out and service-provider contract requirements if California consumers come into scope."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Notes that the Reviews Rule reaches penalties without any prior Notice of Penalty Offenses, unlike the Endorsement Guides."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Requires disclosure of the material connection to be clear and conspicuous: difficult to miss, easily understandable, and unavoidable in interactive media."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Mirrors the Reviews Rule bans into the prohibited-tactics list: fake or AI-generated reviews, incentivized-sentiment reviews, undisclosed insider reviews, review suppression, and fake indicators of social influence."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "States that the advertiser is responsible for its affiliates' disclosures and writes in an audit and takedown right."
+      },
+      {
+        "eval_id": 9,
+        "expectation": "Adds the UK layer: marketing communications must be obviously identifiable as ads, \"Ad\" is the preferred label, and \"affiliate\", \"gifted\" or \"spon\" are insufficient."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Pairs electronic notice with continued participation after the notice period as acceptance."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Marks the unilateral-amendment clause with [LEGAL REVIEW], including the unsettled question of whether P2B reaches an in-house merchant program."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Treats already-published terms with a live affiliate base as pricing each tightening at one amendment cycle plus the affiliates who leave, making reversibility rather than drafting hours the binding constraint."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Requires dated versions and a change record rather than a silent in-place edit of the published document."
+      },
+      {
+        "eval_id": 10,
+        "expectation": "Drafts the trademark-plus-coupon ban inside the brand-bidding clause and the fake-review ban inside the enumerated prohibited-tactics list."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Declines both requests as out of scope for a professional-affiliate program agreement rather than drafting either."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Routes the customer refer-a-friend terms to the referral-abuse-guardrails skill, naming the distinction that consumer refer-a-friend gaming rules serve a different audience than professional affiliates."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States that the referral skill emits its own consumer-facing terms wording, so a refer-a-friend terms request does not belong back here."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Routes the TikTok disclosure check to the affiliate-disclosure-compliance skill."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "States that this skill writes the disclosure obligation into the terms but does not audit already-published content."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Does not produce a compliance pass/fail verdict on the TikTok post."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Does not invent the referral program's eligibility rules, reward caps, velocity limits, or cooldowns."
+      },
+      {
+        "eval_id": 11,
+        "expectation": "Offers the in-scope alternative: the professional-affiliate program agreement, if that is what Torvel actually needs."
+      },
+      {
+        "eval_id": 12,
+        "expectation": "States explicitly which parts are drafted identically for both: definitions, eligibility, licence, tracking, prohibited tactics, disclosure, IP and confidentiality, data protection, reps and warranties, indemnity, liability, termination, amendment, assignment, governing law, and tax."
+      },
+      {
+        "eval_id": 12,
+        "expectation": "Defines earned revenue for the SaaS line across upgrade, downgrade, failed charge, refund, and churn."
+      },
+      {
+        "eval_id": 12,
+        "expectation": "Defines the ecommerce earned amount as order value net of returns, cancellations, taxes, and shipping."
+      },
+      {
+        "eval_id": 12,
+        "expectation": "Adds ecommerce-only clauses: coupon and deal-site last-click policy, product-feed accuracy rules, and restriction of third-party marketplace listings."
+      },
+      {
+        "eval_id": 12,
+        "expectation": "Splits self-referral treatment: customer self-referral barred on the SaaS side, and self, friends and family purchases excluded on the ecommerce side."
+      },
+      {
+        "eval_id": 12,
+        "expectation": "Cites the 20%/24-month and 8% figures as given and invents no additional rate or threshold."
+      },
+      {
+        "eval_id": 12,
+        "expectation": "Delivers the document in the canonical section order, keeping \"Effect of Termination on Pending Commissions\", \"Clawback & Reversal\", and \"Chargeback Reserve & Negative Balances\" as three distinct sections."
+      }
+    ]
+  }
+}

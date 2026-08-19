@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to plan any touch through automated connection or DM tooling",
+        "evidence": "'Touch 3 \u2014 no automated LinkedIn tool... I've written touch 3 as a manual DM template.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States platform terms prohibit scraping and automation, and that the breach is enforceable as a contract claim and account ban even where it is not computer fraud",
+        "evidence": "'scheduled bulk sends breach LinkedIn's terms of service regardless of daily count \u2014 the hiQ case settled that scraping/automation isn't federal computer fraud, but it is a ToS breach enforceable by account bans.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies the '25 a day safe limit' as community anecdote rather than platform policy",
+        "evidence": "'\"25/day is safe\" is circulated folklore with no source.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Replaces the automation with manual, personalized DMs at low volume",
+        "evidence": "'Send these yourself, a few at a time, only to prospects you've actually looked at that day \u2014 not a scheduled batch.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the 'check-in bump' for touch 4, stating no touch may be a 'just checking in' message",
+        "evidence": "'Quality-gate rule #7: \"no just checking in touch\" \u2014 every touch must earn its send with something new.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Assigns each touch a distinct rotating angle, following fit then proof then ease then close across the sequence",
+        "evidence": "Table: touch 2 'Gentle resurface,' touch 3 'New proof point,' touch 4 'New value... ease the CTA,' touch 5 'Loss-aversion close.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Makes touch 2 a short resurface on the same email thread, 1-2 sentences, restating no part of the pitch",
+        "evidence": "The touch 2 template itself restates commission facts: 'Still keen to have [their site/newsletter] in the [Company] program \u2014 [X]% recurring, [Y]-day cookie,' contradicting the stated design 'no restated pitch.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps every follow-up under 50 words",
+        "evidence": "Touch 2 (~30 words), touch 3 (~48 words), touch 4 (~33 words), and touch 5 (~35 words) all stay under 50 words based on the provided templates.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Keeps the DM touch under roughly 300 characters and includes no link in a first DM",
+        "evidence": "Table specifies '<300 chars, no link in first DM' and the touch 3 template contains no link.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Makes touch 5 an explicit breakup that says it is the last email and leaves the door open",
+        "evidence": "'haven't heard back, so this is my last note on this... reply anytime and I'll reopen it. Door's open whenever [their site] wants in.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Refuses the monthly continuation after touch 5, stating a sent breakup is honored and there is no touch 6",
+        "evidence": "'Don't touch again on a fixed monthly clock... A sent breakup email is honored. Re-engagement is a new, later campaign, not touch 6.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States sending stops immediately on reply, opt-out or hard bounce, and that continuing past an opt-out is a per-message violation rather than persistence",
+        "evidence": "'Stop immediately on any reply, opt-out, or bounce at any touch' is stated, but the transcript never frames continuing past an opt-out as a per-message legal violation.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Refuses to plan any touch through automated connection or DM tooling",
+        "evidence": "'with 90 prospects and a 25/day cap, queue ~22\u201323/day so the tool doesn't front-load everyone on day 6 and go quiet after. Load it Sunday night so Monday's batch fires on schedule' plans automated queuing of LinkedIn touches.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States platform terms prohibit scraping and automation, and that the breach is enforceable as a contract claim and account ban even where it is not computer fraud",
+        "evidence": "No mention of platform terms, contract enforcement, or account-ban risk anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies the '25 a day safe limit' as community anecdote rather than platform policy",
+        "evidence": "The 25/day figure is used as a hard operational constraint ('a 25/day cap') without any sourcing caveat.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Replaces the automation with manual, personalized DMs at low volume",
+        "evidence": "The plan explicitly retains a queued/automated send schedule rather than a manual low-volume approach.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects the 'check-in bump' for touch 4, stating no touch may be a 'just checking in' message",
+        "evidence": "Touch 4 is explicitly labeled 'Angle: pure bump' with the body 'bumping this up, {{FirstName}}' \u2014 the opposite of rejecting a check-in bump.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Assigns each touch a distinct rotating angle, following fit then proof then ease then close across the sequence",
+        "evidence": "Touch 4 is a generic 'pure bump' rather than an 'ease' angle, breaking the described fit\u2192proof\u2192ease\u2192close progression.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Makes touch 2 a short resurface on the same email thread, 1-2 sentences, restating no part of the pitch",
+        "evidence": "Touch 2's body includes a full new proof point and CTA ('[Similar Company] was dealing with [Pain Point] and used [Product] to [specific outcome]...'), well beyond a 1-2 sentence resurface.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps every follow-up under 50 words",
+        "evidence": "Touch 2's body ('Following up on my note from Monday... Worth a look, or should I close the loop?') runs to roughly 60+ words, exceeding the 50-word limit.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Keeps the DM touch under roughly 300 characters and includes no link in a first DM",
+        "evidence": "'Hi {{FirstName}} \u2014 sent you a note by email re: [Pain Point] at {{Company}}. Not selling here, just figured LinkedIn's a better place to trade notes than a cold inbox. Open to connecting?' is well under 300 characters and contains no link.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Makes touch 5 an explicit breakup that says it is the last email and leaves the door open",
+        "evidence": "'Subject: closing the loop ... Haven't heard back, so I'll assume [Pain Point] isn't a priority right now \u2014 totally fine... my inbox is always open.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Refuses the monthly continuation after touch 5, stating a sent breakup is honored and there is no touch 6",
+        "evidence": "'After this, drop them into the monthly nurture list \u2014 pull the send date from touch 5's actual send date per-prospect' explicitly continues contact after the breakup.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States sending stops immediately on reply, opt-out or hard bounce, and that continuing past an opt-out is a per-message violation rather than persistence",
+        "evidence": "Only reply-handling is addressed ('If they reply with anything other than \"not interested,\" move them to your normal booking flow') \u2014 opt-out and hard-bounce handling, and the violation framing, are never mentioned.",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

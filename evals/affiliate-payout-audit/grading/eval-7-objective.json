@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Treats the FX strike date as a per-platform verification item rather than assuming one",
+        "evidence": "\"No platform documentation states which date the FX conversion strikes on (conversion, approval, or payout date \u2014 three different amounts).\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the three candidate strike dates: conversion date, approval date, and payout date",
+        "evidence": "\"(conversion, approval, or payout date \u2014 three different amounts)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Proposes inferring the strike date empirically by recomputing one known line at each candidate date, or asking the platform directly",
+        "evidence": "\"(a) get the strike-date policy from the platform in writing, or infer it by recomputing 1\u20132 known lines against conversion/approval/payout date and see which matches the platform's output\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a run mixing lines converted at different strike dates fails the comparability gate",
+        "evidence": "The transcript discusses the undocumented strike-date policy as a currency-class error but never explicitly states that mixed strike dates within one run fail the comparability gate.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the consistent 1.8% spread against the reference rate as a finding, while noting it may be a disclosed platform margin to verify and document",
+        "evidence": "\"5/5 EUR lines you spot-checked came in ~1.8% off the ECB rate... check the partner terms for a disclosed FX margin. If undocumented/undisclosed, this is not a per-line error, it's a currency-class error\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Judges the $3.87 rounding drift at run level against the $250 materiality threshold rather than per line",
+        "evidence": "\"$3.87 | run-wide, every line off by a cent or two... $3.87 is far below your $250 materiality threshold.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that per-line cent-level drift is expected and legitimate because payouts cannot split cents",
+        "evidence": "The finding only calls it \"ordinary per-step rounding drift compounding across 318 lines \u2014 industry-normal\" without stating the reasoning that payouts cannot split cents.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires rounding to 2 decimals at the end of the calculation rather than at each step",
+        "evidence": "\"Confirm rounding happens once, at the end of each line's calculation, not at each intermediate step\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Verifies a single rounding policy applies to every line, treating mixed truncation and rounding as evidence of two calculation paths and a root-cause finding",
+        "evidence": "\"that one rounding policy applies to every line (not some truncated, some rounded)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the two sub-threshold payees missing from this month's file as a carry-forward failure to investigate, requiring their balances to reappear intact",
+        "evidence": "\"Two payees who sat below the $50 minimum in last month's export are absent entirely from this month's file... Restore the balance to this run or next before anything releases.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that sub-threshold balances roll forward to the next run and must never be dropped or applied as an exclusion",
+        "evidence": "\"Sub-threshold balances must roll forward and never vanish; a payee disappearing from the file is the named failure mode for exactly this.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Books the $3.87 as a below-materiality finding with its value rather than omitting it, because materiality decides whether a residual blocks release, never whether it is written down",
+        "evidence": "F-3 lists \"$3.87\" explicitly as a minor finding with \"Action: absorb and document\" rather than omitting it.",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Treats the FX strike date as a per-platform verification item rather than assuming one",
+        "evidence": "\"No documented rate-date convention (spot on initiation? settlement? T-1?) is a control gap on its own\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Names the three candidate strike dates: conversion date, approval date, and payout date",
+        "evidence": "The transcript instead names 'initiation', 'settlement', and 'T-1' as candidates \u2014 not the specific conversion/approval/payout date terminology required.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Proposes inferring the strike date empirically by recomputing one known line at each candidate date, or asking the platform directly",
+        "evidence": "\"Get the platform's FX methodology in writing (rate source, timestamp, any embedded spread) \u2014 this should be in the contract or vendor terms, not something you have to reverse-engineer.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that a run mixing lines converted at different strike dates fails the comparability gate",
+        "evidence": "No statement about mixed strike dates within one run failing comparability appears anywhere.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Treats the consistent 1.8% spread against the reference rate as a finding, while noting it may be a disclosed platform margin to verify and document",
+        "evidence": "\"A consistent ~1.8% deviation... is not rounding noise... most likely a built-in spread/margin the platform applies on conversion\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Judges the $3.87 rounding drift at run level against the $250 materiality threshold rather than per line",
+        "evidence": "\"$3.87 vs. $250 threshold: immaterial by two orders of magnitude.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that per-line cent-level drift is expected and legitimate because payouts cannot split cents",
+        "evidence": "\"aggregating to $3.87 is exactly the signature of per-line rounding... not an error.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires rounding to 2 decimals at the end of the calculation rather than at each step",
+        "evidence": "Not addressed; the transcript treats per-line rounding as expected rather than requiring end-of-calculation rounding.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Verifies a single rounding policy applies to every line, treating mixed truncation and rounding as evidence of two calculation paths and a root-cause finding",
+        "evidence": "\"check whether the per-line differences are all the same sign (\u2192 a rounding-rule mismatch, e.g. round-half-up vs. round-half-even \u2014 fixable and worth documenting) or mixed sign (\u2192 pure floating-point/rounding noise)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Treats the two sub-threshold payees missing from this month's file as a carry-forward failure to investigate, requiring their balances to reappear intact",
+        "evidence": "\"two payees who were below-minimum last month are absent from this month's file entirely... Trace those two specific payees by ID \u2014 pull last month's carryover balance and confirm where it landed this month\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States that sub-threshold balances roll forward to the next run and must never be dropped or applied as an exclusion",
+        "evidence": "\"If the mechanism is 'accumulate until $50, then pay,' those two balances should still be somewhere\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Books the $3.87 as a below-materiality finding with its value rather than omitting it, because materiality decides whether a residual blocks release, never whether it is written down",
+        "evidence": "Table row: \"Rounding variance | $3.87 | Immaterial | \ud83d\udfe2 No action, optionally document rounding rule\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  }
+}

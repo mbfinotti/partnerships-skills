@@ -1,0 +1,154 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Flags that the affiliate network contractually caps the size, frequency and notice period of a commission decrease",
+        "evidence": "\"A 14% \u2192 7% cut ... most networks cap a single decrease at ~20%, once every 30 days ... some networks will simply reject or reverse the change.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "States the published rule shape: at most a 20% reduction per change, no more than once every 30 days, with at least 7 days' partner notice",
+        "evidence": "\"(e.g., Awin's published rule: max 20% per change, once per 30 days, 7 days' notice minimum)\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Identifies 14% to 7% as a 50% cut, too large to make in a single step under that rule",
+        "evidence": "\"A 14% \u2192 7% cut for cashback/deal sites is a 50% reduction \u2014 most networks cap a single decrease at ~20%, once every 30 days\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Sequences the reduction into multiple steps spaced at least 30 days apart",
+        "evidence": "The rollout table shows four steps: Nov 30 2026 (11.5%), Jan 11 2027 (9.5%), Feb 22 2027 (8.0%), Apr 5 2027 (7.0%), each roughly 6 weeks apart, and the text states \"spaced 6 weeks apart\".",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends roughly 60 days' notice for the change, ahead of the network's minimum",
+        "evidence": "\"Mon 2026-11-30 | Content rate live at 12%. Cashback/deal Step 1 live at 11.5%. (63 days after the blast \u2014 clears the 60-day floor.)\" following the Sept 28 broadcast date.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Rejects the next-Monday effective date and the single all-base email blast",
+        "evidence": "\"'Effective next Monday' doesn't clear minimum notice... Two days' notice risks mass partner drop-off\" and \"Cutting everyone by email with no warning, including your best partners, is how you lose the top 10%... They need a heads-up before the blast, not in it.\" The plan replaces a single blast with staged personal outreach plus a later broadcast.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends grandfathering existing affiliates at the old rate, holding high performers for at least one cycle",
+        "evidence": "\"Grandfathered partners | Keep flat 14% through the end of the month following their segment's final new-rate date: content grandfathers through 2026-12-31, cashback/deal grandfathers through 2027-04-30.\"",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends phasing the rollout top-partners-first, with direct conversations before any broadcast",
+        "evidence": "\"Mon 2026-09-21 \u2013 Wed 2026-09-23 | Personal outreach to grandfathered top-tier partners \u2014 short 1:1 email (template below) plus an offer of a call, before anyone else hears about it. This is not a mass send.\" prior to the Sept 28 full blast.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends leading the announcement with what stays the same",
+        "evidence": "Email 2 opens with \"**What's staying the same:** your tracking links, cookie attribution, payout schedule, minimum payout threshold, and everything else about how the program runs. This change is limited to the commission rate itself.\" before the \"What's changing\" section.",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Requires deriving the 7% and 12% target rates from unit economics before announcing them, rather than migrating to chosen-by-feel numbers",
+        "evidence": "\"Economics: NOT YET VALIDATED - no margin, AOV, or contribution-margin data supplied. 7%/12% are user-set targets, not derived. Confirm before final broadcast that 12% (content) and each glide step still clear one-half of post-return contribution margin\" and the open item \"get gross margin, AOV, and return rate from finance before the November step lands... the whole structure needs re-deriving.\" However, this frames it as a check to complete before the Nov 30 step lands, not as a precondition for the Sept 28 announcement itself \u2014 the rates are announced on Sept 28 while economics validation r",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Notes that adding a partner-type rate row carries less contractual exposure than cutting an existing published rate",
+        "evidence": "The transcript discusses decrease caps/notice rules extensively but never contrasts the contractual exposure of introducing a new partner-type rate tier versus modifying an existing published rate line; no such statement appears anywhere in the document.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names silent or abrupt rate changes as a known cause of partner churn",
+        "evidence": "\"this is standard across major networks and is why silent or rushed rate cuts are the single most-cited cause of affiliate churn.\"",
+        "passed": true,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Flags that the affiliate network contractually caps the size, frequency and notice period of a commission decrease",
+        "evidence": "The transcript never mentions any affiliate-network contractual cap on decrease size, frequency, or notice period. The only 'flexibility' language is business-judgment: 'If there's any flexibility, a 5\u20137 day notice window is standard practice for commission changes.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "States the published rule shape: at most a 20% reduction per change, no more than once every 30 days, with at least 7 days' partner notice",
+        "evidence": "No such rule (20% max reduction, 30-day spacing, 7-day notice) appears anywhere in the transcript. The plan only mentions a generic '5\u20137 day notice window is standard practice.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Identifies 14% to 7% as a 50% cut, too large to make in a single step under that rule",
+        "evidence": "The transcript never characterizes the 14%\u21927% change as a '50% cut' nor ties it to any rule about maximum step size; it only notes it 'cuts the majority segment's rate by half.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Sequences the reduction into multiple steps spaced at least 30 days apart",
+        "evidence": "The rollout plan is a single-step change effective September 14 with no phased/staged rate reduction over multiple 30-day increments; contingency only mentions optional temporary grandfathering, not a staged rate path.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends roughly 60 days' notice for the change, ahead of the network's minimum",
+        "evidence": "The plan recommends 'a 5\u20137 day notice window is standard practice for commission changes' \u2014 nowhere close to 60 days.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Rejects the next-Monday effective date and the single all-base email blast",
+        "evidence": "The plan flags the short timeline as risky ('this is very short notice') but ultimately accommodates it: 'If Monday is fixed for business reasons, proceed with the plan below' and Phase 3 still calls for 'Send the single email blast to all 340 affiliates.'",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends grandfathering existing affiliates at the old rate, holding high performers for at least one cycle",
+        "evidence": "Phase 5 states: 'Decide in advance whether any grandfathering (e.g., honoring 14% for existing top affiliates for a 30/60-day transition) is on the table if churn is severe.'",
+        "passed": true,
+        "graded": true
+      },
+      {
+        "text": "Recommends phasing the rollout top-partners-first, with direct conversations before any broadcast",
+        "evidence": "The plan does not propose direct one-on-one conversations with top affiliates before the broadcast; it only recommends spot-checking classification for top 20 affiliates (Phase 1.3) and reactive escalation if top affiliates pause promotion (Phase 5), not a top-first phased rollout with pre-broadcast outreach.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Recommends leading the announcement with what stays the same",
+        "evidence": "The draft email structure leads with 'What's changing' and places 'What stays the same' near the end, after the rate cut, rationale, classification, and dispute sections \u2014 it is not recommended to lead with what stays the same.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Requires deriving the 7% and 12% target rates from unit economics before announcing them, rather than migrating to chosen-by-feel numbers",
+        "evidence": "Neither the email nor the rollout plan discusses deriving 7%/12% from unit economics or any quantitative justification; the rationale given is purely qualitative ('rebalancing payouts to better reward the traffic that grows our customer base').",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Notes that adding a partner-type rate row carries less contractual exposure than cutting an existing published rate",
+        "evidence": "No such comparison between adding a new rate tier versus cutting an existing published rate appears anywhere in the transcript.",
+        "passed": false,
+        "graded": true
+      },
+      {
+        "text": "Names silent or abrupt rate changes as a known cause of partner churn",
+        "evidence": "The transcript discusses churn risk from the short timeline and rate cut size, but does not specifically name 'silent or abrupt rate changes' as a known/general cause of partner churn \u2014 it only discusses this specific instance's risks (e.g., 'No time for affiliates to react... support ticket spike').",
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}

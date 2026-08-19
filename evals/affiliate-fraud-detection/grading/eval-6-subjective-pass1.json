@@ -1,0 +1,24 @@
+{
+  "with_skill": {
+    "expectations": [
+      {
+        "text": "Reports results to leadership in commission-loss dollars saved and recovered rather than in vague risk language",
+        "evidence": "The VP-reporting section does include one explicitly dollar-denominated line \u2014 'Reversed-commission share and recovered spend, in dollars' \u2014 and the closing paragraph frames the issue as 'protecting Northgate's money,' so the answer is not written in vague risk language. However, dollars are one bullet out of four and clearly subordinate: the reporting frame the answer actually builds and defends is rate-based (flagged rate, confirmed-fraud rate, false-positive rate, plus the 80%+/1.5% calibration anchors and the 93.3% accuracy figure). The 'recovered spend' bullet is stated without any guidan",
+        "score": 3,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  },
+  "without_skill": {
+    "expectations": [
+      {
+        "text": "Reports results to leadership in commission-loss dollars saved and recovered rather than in vague risk language",
+        "evidence": "The response frames the entire VP message around coverage counts, typology taxonomies, synthetic test suites, precision percentages, and 'rule fire rates' \u2014 not dollars. The only near-financial metric is 'flagged GMV' buried in one bullet on leading indicators, and it is never developed into commission-loss dollars saved or recovered, nor recommended as the headline framing for leadership. The suggested verbatim VP script ('coverage against N known fraud typologies, a synthetic test suite... a false-positive rate... precision on live flags') is entirely non-monetary and is exactly the kind of ",
+        "score": 1,
+        "passed": false,
+        "graded": true
+      }
+    ]
+  }
+}
