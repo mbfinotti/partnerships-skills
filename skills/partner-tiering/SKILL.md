@@ -141,7 +141,7 @@ Ship nothing until all four hold; iterate the design until they do:
 
 When the user arrives with a running structure instead of a blank page, find their symptom in the table - rows are keyed by symptom, not by priority.
 
-When several symptoms are present at once, fix in this order, which is efficiency and not severity:
+When several symptoms are present at once, fix in this order, ranked by efficiency, not severity:
 
 `criteria thresholds > benefit differentiation > cadence, grace and comms > benefit allocation to the middle > tier count`
 
