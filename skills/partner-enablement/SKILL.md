@@ -61,7 +61,7 @@ Those last three answers re-rank every option menu in this skill, so ask them be
    Certification-first carries the only real exposure of the three. A credential the vendor markets:
 
    - is a public capability claim partners resell on
-   - needs legal or brand sign-off
+   - is gated on legal or brand sign-off
    - is hard to withdraw once partners advertise the badge
 
    Move off the default only on a condition, not on program size. Certification-first earns its place when customers check credentials before buying, or an unvalidated partner can damage customers.
