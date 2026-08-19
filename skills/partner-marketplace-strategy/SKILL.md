@@ -61,7 +61,7 @@ Work in the profession's own collaborative formats, not generic brainstorming:
 
 1. Run the Interview. Confirm scope is one business area with a stated goal before evaluating anything.
 2. Apply the readiness gate. It is allowed to answer "not yet". Disqualifiers:
-   - Direct motion not yet repeatable: a marketplace amplifies a working motion, it does not create one.
+   - Direct motion not yet repeatable: a marketplace amplifies a working motion; it does not create one.
    - Margin that cannot absorb the take rate plus cost-to-serve. Resolve the deployment model first, because the take rate follows it: 3% for a SaaS listing but 20% for a server/AMI/container/ML image on AWS Marketplace, a gap that decides this gate on its own.
    - No named owner or executive sponsor.
    - Missing operational capacity with no budget to build it.
