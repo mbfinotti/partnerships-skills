@@ -63,7 +63,7 @@ Produce the artefacts in order, validating each with the user before moving to t
    - match the pay structure to the sub-discipline (three-part base/bonus/commission for affiliate roles; base-plus-variable tied to a named attribution model for channel/alliance roles)
    - decide and state which attribution model (sourced, influenced, attached, delivered) triggers any variable pay before publishing the posting
 6. Run the Quality gate below. Iterate until it passes.
-7. If your harness has persistent memory, store the scorecard, the loop design and the sourcing plan so a repeat hire in this sub-discipline reuses them instead of restarting.
+7. If your harness has persistent memory, store the scorecard, the loop design, and the sourcing plan so a repeat hire in this sub-discipline reuses them instead of restarting.
 
 ## Company type and sub-discipline calibration
 
