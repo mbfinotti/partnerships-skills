@@ -42,7 +42,7 @@ The sub-disciplines are not ranked against each other - which is efficient depen
 
 ## Entry paths
 
-**No fixed entry path exists in this field.** Sales, business development, account management and marketing all feed partnerships, and none is a prerequisite - the field's own version of "every verified path runs through adjacent relationship-owning work, not a credential."
+**No fixed entry path exists in this field.** Sales, business development, account management, and marketing all feed partnerships, and none is a prerequisite - the field's own version of "every verified path runs through adjacent relationship-owning work, not a credential."
 
 Two routes reach a first partnerships role, and they are not equally efficient:
 
