@@ -27,7 +27,7 @@ Ask before recommending anything. One question per message; offer multiple-choic
 - For B2B: is the likely referrer the buyer, or an employee whose company pays?
 - By what date must this show results? A hard quarter-end date promotes the fast rungs - a flat reward on a first-purchase trigger - and rules out ladders and retention-gated triggers, which need months to read.
 - One-off acquisition win, or a compounding asset? Compounding promotes in-kind and status rewards, a tier ladder, and a retention-gated trigger; a one-off win promotes a flat friend-side offer.
-- What is the effort ceiling: who builds and administers this, how many hours do they have, and can a published reward be withdrawn later? A low ceiling deletes swag, sweepstakes and staged payouts outright; a dedicated owner puts the ladder back on the table.
+- What is the effort ceiling: who builds and administers this, how many hours do they have, and can a published reward be withdrawn later? A low ceiling deletes swag, sweepstakes, and staged payouts outright; a dedicated owner puts the ladder back on the table.
 
 ## Workflow
 
