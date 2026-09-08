@@ -64,9 +64,14 @@ Update with `gemini extensions update partnerships-skills`.
 
 ## Skills
 
-This collection covers the full partnerships surface. Start here:
+This collection covers the full partnerships surface.
 
-- [`partnerships-kickoff`](./partnerships-kickoff): Routes a partnerships task to exactly one sibling skill and bootstraps the shared project context file so the next session starts warm.
+### Start here
+
+[`partnerships-kickoff`](./partnerships-kickoff): Routes a partnerships task to exactly one sibling skill and bootstraps the shared project context file so the next session starts warm.
+
+### Meta
+
 - [`partnerships-career`](./partnerships-career): Plans a partnerships career from the candidate side: which of the four sub-disciplines to target, breaking in, interview prep, offer evaluation.
 - [`partnerships-hiring`](./partnerships-hiring): Plans partnerships hiring from the employer side: job posting and scorecard, interview loop, sourcing, compensation stance.
 
