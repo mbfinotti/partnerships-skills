@@ -36,8 +36,8 @@ npx skills add mbfinotti/partnerships-skills
 **Claude Code**: install the plugin:
 
 ```bash
-/plugin marketplace add mbfinotti/mbfinotti
-/plugin install partnerships-skills@mbfinotti
+/plugin marketplace add mbfinotti/partnerships-skills
+/plugin install partnerships-skills@partnerships-skills
 ```
 
 **Codex (OpenAI)**: install via the Codex CLI:
