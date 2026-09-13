@@ -32,18 +32,19 @@ Five engineer-months to replicate their whole product is a strong BATNA. Use it 
 ## 4. Bank-side tech alliances — treat as the core business, not a side bet
 
 These plug directly into the risk-engine licensing line, which is a different (and arguably more central) business than the consumer app. They deserve the largest capacity share because:
+
 - Bank sales cycles and compliance/security reviews are long and manager-heavy by nature.
 - A stalled bank alliance doesn't fail quietly — it stalls your actual enterprise revenue line.
 
 ## 5. Capacity allocation — 9 manager-months
 
-| Candidate | Manager-months | Rationale |
-|---|---|---|
-| Bank alliance A | 2.5 | Compliance/security review overhead is unavoidable |
-| Bank alliance B | 2.5 | Same — don't shortchange the second to favor consumer deals |
-| Consumer co-brand (non-Verrow) | 1.5 | Clean deal, no risk gate blocking progress |
-| Verrow Athletic | 1.5 (conditional) | Spend on risk-gate resolution first; commercial negotiation only after gate clears |
-| Ostrander | 1.0 | Vendor negotiation, not relationship-building — should be the fastest close |
+| Candidate                      | Manager-months    | Rationale                                                                          |
+| ------------------------------ | ----------------- | ---------------------------------------------------------------------------------- |
+| Bank alliance A                | 2.5               | Compliance/security review overhead is unavoidable                                 |
+| Bank alliance B                | 2.5               | Same — don't shortchange the second to favor consumer deals                        |
+| Consumer co-brand (non-Verrow) | 1.5               | Clean deal, no risk gate blocking progress                                         |
+| Verrow Athletic                | 1.5 (conditional) | Spend on risk-gate resolution first; commercial negotiation only after gate clears |
+| Ostrander                      | 1.0               | Vendor negotiation, not relationship-building — should be the fastest close        |
 
 If Verrow's risk gate comes back "active/worsening," reallocate its 1.5 months to whichever bank alliance is closer to close — don't let it sit idle waiting on a deal that's paused.
 

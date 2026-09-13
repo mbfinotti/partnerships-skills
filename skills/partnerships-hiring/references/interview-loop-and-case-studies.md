@@ -31,11 +31,11 @@ A two-sided simulation: candidate plus an interviewer or panel member playing th
 
 Affiliate Manager, Influencer/Creator Partnerships Manager and Referral Program Manager loops are not documented with anything specific to their structure. Do not import the channel-manager case studies wholesale - the day-to-day differs enough that those scenarios test the wrong thing. Build each loop from the role's own outcome metrics instead:
 
-| Sub-discipline | Build the loop around |
-| --- | --- |
-| Affiliate Manager | Program performance the candidate has owned, commission-economics literacy, network/tooling fluency |
-| Influencer/Creator Partnerships Manager | Campaigns sourced and negotiated, platform-landscape fluency, FTC disclosure-compliance literacy |
-| Referral Program Manager | Incentive-design decisions and their measured effect, cross-team coordination with marketing - confirm the candidate is applying to the customer/growth track, not the employee-referral-recruiting track sharing this title |
+| Sub-discipline                          | Build the loop around                                                                                                                                                                                                        |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Affiliate Manager                       | Program performance the candidate has owned, commission-economics literacy, network/tooling fluency                                                                                                                          |
+| Influencer/Creator Partnerships Manager | Campaigns sourced and negotiated, platform-landscape fluency, FTC disclosure-compliance literacy                                                                                                                             |
+| Referral Program Manager                | Incentive-design decisions and their measured effect, cross-team coordination with marketing - confirm the candidate is applying to the customer/growth track, not the employee-referral-recruiting track sharing this title |
 
 ## Scoring mechanics
 

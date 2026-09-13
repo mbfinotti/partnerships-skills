@@ -4,12 +4,12 @@ Before the pitch, the rate itself. Running your own numbers through this:
 
 **Per-order contribution (what's actually available to pay an affiliate from):**
 
-| | |
-|---|---|
-| AOV | $180 |
-| Gross profit (24% margin) | $43.20 |
-| Variable cost (shipping/pick-pack/fees) | −$16.00 |
-| **Contribution before returns** | **$27.20** (15.1% of AOV) |
+|                                         |                           |
+| --------------------------------------- | ------------------------- |
+| AOV                                     | $180                      |
+| Gross profit (24% margin)               | $43.20                    |
+| Variable cost (shipping/pick-pack/fees) | −$16.00                   |
+| **Contribution before returns**         | **$27.20** (15.1% of AOV) |
 
 Now blend in the 7% return rate — returned orders keep the $16 variable cost (you still shipped it) but lose the gross profit:
 
@@ -18,7 +18,7 @@ Now blend in the 7% return rate — returned orders keep the $16 variable cost (
 
 That $24 is your entire ceiling — it has to cover the affiliate commission, your platform/network fees, and whatever's left as actual profit. A 20% commission is **$36 per order**. You'd be paying out $12 more than exists, on every single referred sale, before touching overhead. This isn't a thin-margin situation, it's a guaranteed-loss one.
 
-**Skincare's 20% isn't a benchmark you can copy.** Skincare/beauty typically runs 60–80%+ gross margin. Their contribution per order is 3–4x yours as a share of AOV, so 20% still leaves them fat. Matching their *percentage* while running a 24%-margin catalog isn't "matching their offer" — it's giving away roughly 1.5x your entire profit pool.
+**Skincare's 20% isn't a benchmark you can copy.** Skincare/beauty typically runs 60–80%+ gross margin. Their contribution per order is 3–4x yours as a share of AOV, so 20% still leaves them fat. Matching their _percentage_ while running a 24%-margin catalog isn't "matching their offer" — it's giving away roughly 1.5x your entire profit pool.
 
 **Your catalog spread makes a flat % worse, not just risky.** A $420 docking station is almost certainly lower-margin-% than a $12 cable (higher-ticket consumer electronics usually is). At 20%, that one order pays out $84 in commission — likely more than the entire gross profit on the item. A uniform percentage concentrates your losses exactly on your highest-value orders.
 
@@ -40,6 +40,6 @@ Affiliates don't actually optimize for the percentage — they optimize for **ea
 4. **Extend the cookie window.** Electronics accessory purchases get researched (comparison shopping, waiting for a sale). Offer 45–60 days instead of the industry-typical 30 — it's a real differentiator that costs you nothing at signup and affiliates notice it.
 5. **Fast, clear payout terms.** Net-15 or net-30, clearly stated, paid net of returns. Affiliates who've been burned by vague/late payout programs weight this heavily.
 6. **Launch incentive instead of a rate hike.** A flat $75–100 bonus for an affiliate's first 5–10 sales in their first 30 days gets attention without inflating your permanent baseline cost.
-7. **Give them the pitch line directly:** *"Our commission is 8%, but our average order is 3x a typical beauty cart — you'll clear more per sale than most 20% programs, and it scales to 12% as you grow with us."*
+7. **Give them the pitch line directly:** _"Our commission is 8%, but our average order is 3x a typical beauty cart — you'll clear more per sale than most 20% programs, and it scales to 12% as you grow with us."_
 
 That's a pitch built on a rate your margin can actually survive, instead of one that loses money on day one.

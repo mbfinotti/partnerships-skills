@@ -6,7 +6,7 @@ No — one master agreement with two program-specific schedules. Not two fully s
 
 **Why not one flat agreement either:** the commercial terms are genuinely incompatible in one clause set — recurring % with a 24-month cap and trailing-commission-on-termination logic (SaaS) vs. one-time % with a return/RMA clawback window (hardware). Cookie duration, clawback triggers, and "when is a commission earned" differ by design. Forcing both into one commission clause creates ambiguity exactly where money is at stake, and it also blocks you from sunsetting or changing terms on one line without touching the other.
 
-**The one case a single flat contract breaks down completely:** an affiliate who drives a bundled order (SaaS *and* a scanner in the same cart/funnel). You need an explicit rule for splitting commission by line item — this is the actual reason to write this deliberately rather than copy a template.
+**The one case a single flat contract breaks down completely:** an affiliate who drives a bundled order (SaaS _and_ a scanner in the same cart/funnel). You need an explicit rule for splitting commission by line item — this is the actual reason to write this deliberately rather than copy a template.
 
 Standard fix, used by most multi-line companies: **one Master Affiliate Agreement + Schedule A (SaaS) + Schedule B (DTC hardware)**. An affiliate signs the Master once; enrollment in either or both Schedules is tracked separately; either Schedule can be amended or terminated independently.
 
@@ -26,6 +26,7 @@ This Master Affiliate Agreement ("**Agreement**") is entered into between Kirnwo
 
 **4. Affiliate Obligations — applies to both Programs.**
 Affiliate must not:
+
 - send unsolicited email/SMS in violation of CAN-SPAM, TCPA, or equivalent law;
 - bid on Company's trademarks or confusingly similar terms in paid search;
 - use cookie-stuffing, forced clicks, incentivized traffic, or self-referrals;
@@ -43,6 +44,7 @@ Affiliate must not:
 **9. Indemnification.** Affiliate indemnifies Company against claims arising from Affiliate's marketing conduct, false claims, or breach of Section 4. Company indemnifies Affiliate against third-party IP claims arising solely from Affiliate's authorized use of Company-provided creative, per Schedule terms on product-specific liability (see Schedule B §7 for hardware product liability).
 
 **10. Term & Termination.**
+
 - Either party may terminate this Agreement, or Affiliate's enrollment in a single Schedule, for convenience with 30 days' written notice.
 - Company may terminate this Agreement or any Schedule immediately for cause (fraud, Section 4 violation, insolvency).
 - Terminating one Schedule does not terminate the Agreement or the other Schedule.
@@ -74,6 +76,7 @@ Affiliate must not:
 **7. Reactivation.** A churned customer who resubscribes more than 180 days after cancellation is treated as a new referral, restarting the 24-month cap; resubscription within 180 days continues the original count.
 
 **8. Effect of Termination (trailing commission).**
+
 - Termination **without cause** (e.g., Company discontinues the affiliate program): Affiliate continues to earn commission on already-referred, still-paying customers through the remainder of their 24-month cap.
 - Termination **for cause**: all future commission accrual stops immediately upon termination; Company still pays out commission already earned and payable for periods before termination.
 

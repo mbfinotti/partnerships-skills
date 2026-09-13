@@ -11,6 +11,7 @@ Hi {{first_name}},
 Thanks for applying to the [Program Name] affiliate program — good news, applications like yours are moving through review right now.
 
 Here's what to expect:
+
 - Review takes about 2 weeks
 - You'll get an email the moment you're approved, with your unique link and full commission details
 - No action needed on your end — just sit tight
@@ -23,6 +24,7 @@ Talk soon,
 ---
 
 Why this works as a substitute:
+
 - "Applications like yours are moving through review" creates the same momentum/urgency without a false "already approved" claim.
 - Naming the real 2-week timeline sets expectations, which reduces "did this get lost" follow-up emails to your team.
 - The Calendly is framed as a shortcut for engaged applicants, not a consolation prize — that's your backup ask, positioned to convert people who don't want to wait.

@@ -50,21 +50,22 @@ KPIs              : effective blended commission rate, new-customer share of cas
 
 ## Rollout Plan
 
-| Date | Action |
-|---|---|
-| **Now → Fri 2026-09-18** | Confirm actual network decrease-cap/notice rule. Classify all 340 affiliates: content/review/comparison vs. cashback/deal/coupon. Default ambiguous cases (loyalty, hybrid comparison-plus-code sites) to the **content rate** unless the site's primary mechanic is a discount code or cash-back rebate — under-classifying a real cashback site costs less than wrongly cutting a genuine content partner. Identify the grandfather list: top 15% of affiliates by trailing-90-day commissionable revenue. |
-| **Mon 2026-09-21 – Wed 2026-09-23** | **Personal outreach to grandfathered top-tier partners** — short 1:1 email (template below) plus an offer of a call, before anyone else hears about it. This is not a mass send. |
-| **Mon 2026-09-28** | **Single email blast to the full 340-affiliate base** (template below). Publishes the full staged schedule up front so every future step is already "on notice" the day it's announced. |
-| **Mon 2026-11-30** | Content rate live at 12%. Cashback/deal Step 1 live at 11.5%. (63 days after the blast — clears the 60-day floor.) |
-| **Mon 2027-01-11** | Cashback/deal Step 2: 11.5% → 9.5%. |
-| **Mon 2027-02-22** | Cashback/deal Step 3: 9.5% → 8.0%. |
-| **Mon 2027-04-05** | Cashback/deal Step 4 (final): 8.0% → 7.0%. |
-| **Grandfathered partners** | Keep flat 14% through the end of the month following their segment's final new-rate date: content grandfathers through 2026-12-31, cashback/deal grandfathers through 2027-04-30. |
-| **30 days after Step 1** | Run the holdout test on the top 3 cashback/deal partners (pause them, watch total order volume). |
+| Date                                | Action                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Now → Fri 2026-09-18**            | Confirm actual network decrease-cap/notice rule. Classify all 340 affiliates: content/review/comparison vs. cashback/deal/coupon. Default ambiguous cases (loyalty, hybrid comparison-plus-code sites) to the **content rate** unless the site's primary mechanic is a discount code or cash-back rebate — under-classifying a real cashback site costs less than wrongly cutting a genuine content partner. Identify the grandfather list: top 15% of affiliates by trailing-90-day commissionable revenue. |
+| **Mon 2026-09-21 – Wed 2026-09-23** | **Personal outreach to grandfathered top-tier partners** — short 1:1 email (template below) plus an offer of a call, before anyone else hears about it. This is not a mass send.                                                                                                                                                                                                                                                                                                                             |
+| **Mon 2026-09-28**                  | **Single email blast to the full 340-affiliate base** (template below). Publishes the full staged schedule up front so every future step is already "on notice" the day it's announced.                                                                                                                                                                                                                                                                                                                      |
+| **Mon 2026-11-30**                  | Content rate live at 12%. Cashback/deal Step 1 live at 11.5%. (63 days after the blast — clears the 60-day floor.)                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Mon 2027-01-11**                  | Cashback/deal Step 2: 11.5% → 9.5%.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Mon 2027-02-22**                  | Cashback/deal Step 3: 9.5% → 8.0%.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Mon 2027-04-05**                  | Cashback/deal Step 4 (final): 8.0% → 7.0%.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Grandfathered partners**          | Keep flat 14% through the end of the month following their segment's final new-rate date: content grandfathers through 2026-12-31, cashback/deal grandfathers through 2027-04-30.                                                                                                                                                                                                                                                                                                                            |
+| **30 days after Step 1**            | Run the holdout test on the top 3 cashback/deal partners (pause them, watch total order volume).                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 Each cashback/deal step is a ~15–18% reduction, spaced 6 weeks apart — under a 20%-max/30-day-min guardrail with margin to spare, and the entire glide is disclosed in the one broadcast rather than four separate surprise emails.
 
 ### Complementary levers worth layering in (not required, but cheaper than the rate cut alone)
+
 - **New-customer gate** on cashback/deal partners, if tracking can flag it — removes non-incremental repeat-buyer credit outright, ranks above a rate cap on both cost-removed and recruiting damage.
 - **Shorter attribution window** for cashback/deal (24h–7 days) vs. content's existing window.
 - **Exclusive codes per top cashback/deal partner** to measure real lift directly — turns the holdout test from a one-time check into an ongoing measurement.
@@ -106,12 +107,12 @@ Each cashback/deal step is a ~15–18% reduction, spaced 6 weeks apart — under
 >
 > - **Content, review, and comparison sites: 12%** of order value, effective **November 30, 2026**.
 > - **Cashback, deal, and coupon sites:** stepping down from 14% on a published schedule, not overnight:
->   | Effective date | Rate |
->   |---|---|
->   | Nov 30, 2026 | 11.5% |
->   | Jan 11, 2027 | 9.5% |
->   | Feb 22, 2027 | 8.0% |
->   | Apr 5, 2027 | 7.0% |
+>   | Effective date | Rate  |
+>   | -------------- | ----- |
+>   | Nov 30, 2026   | 11.5% |
+>   | Jan 11, 2027   | 9.5%  |
+>   | Feb 22, 2027   | 8.0%  |
+>   | Apr 5, 2027    | 7.0%  |
 >
 > Every step above is confirmed today — nothing further will change without separate advance notice.
 >
@@ -129,6 +130,7 @@ Each cashback/deal step is a ~15–18% reduction, spaced 6 weeks apart — under
 ---
 
 ## Still open — resolve before Nov 30 goes live
+
 - Confirm your network's actual decrease-size/notice rule and adjust the glide if it differs from the 20%/30-day reference used above.
 - Get margin/AOV/return-rate data to validate 12% and each glide step against contribution margin — currently unverified.
 - Confirm whether a new-customer tracking flag exists; if so, revisit whether the full 7% floor is even necessary once the gate is applied.

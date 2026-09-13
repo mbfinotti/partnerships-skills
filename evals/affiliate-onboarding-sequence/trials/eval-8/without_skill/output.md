@@ -10,13 +10,13 @@ Two flags before the deliverable, then the copy itself:
 
 **Structure:** 4 emails, one per AIDA stage, sent over the first two weeks post-approval, plus one optional last-call reminder. Every email keeps roughly 60% enablement copy / 40% promotional copy. Coupon and content affiliates share the spine; the two blocks that need to fork by segment are marked.
 
-| # | Day | AIDA stage | Goal | 60/40 balance |
-|---|-----|-----------|------|----------------|
-| 1 | 0 | **A**ttention | Make approval feel like a win, plant the 60-day cookie as the headline differentiator | 60% welcome/brand · 40% "why this program is worth your time" |
-| 2 | 2 | **I**nterest | Teach the mechanics: commission, tracking, payout timing tied to the 30-day return window | 60% how-it-works · 40% earning potential |
-| 3 | 5 | **D**esire | Prove it's worth doing now: bestsellers, angles, exclusive codes, first-30-days bonus | 60% proof/inspiration · 40% bonus/offer |
-| 4 | 9 | **A**ction | One CTA: publish your first placement before the bonus window closes | 60% 3-step checklist · 40% deadline push |
-| 5 (optional) | 13 | Action — last call | Recover anyone who hasn't activated | 40% recap · 60% urgency (only email that flips the ratio, deliberately) |
+| #            | Day | AIDA stage         | Goal                                                                                      | 60/40 balance                                                           |
+| ------------ | --- | ------------------ | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 1            | 0   | **A**ttention      | Make approval feel like a win, plant the 60-day cookie as the headline differentiator     | 60% welcome/brand · 40% "why this program is worth your time"           |
+| 2            | 2   | **I**nterest       | Teach the mechanics: commission, tracking, payout timing tied to the 30-day return window | 60% how-it-works · 40% earning potential                                |
+| 3            | 5   | **D**esire         | Prove it's worth doing now: bestsellers, angles, exclusive codes, first-30-days bonus     | 60% proof/inspiration · 40% bonus/offer                                 |
+| 4            | 9   | **A**ction         | One CTA: publish your first placement before the bonus window closes                      | 60% 3-step checklist · 40% deadline push                                |
+| 5 (optional) | 13  | Action — last call | Recover anyone who hasn't activated                                                       | 40% recap · 60% urgency (only email that flips the ratio, deliberately) |
 
 ---
 
@@ -132,4 +132,4 @@ Two flags before the deliverable, then the copy itself:
 
 ---
 
-**One structural note for your boss's review:** AIDA is naturally a single-message arc, so mapping it across a *sequence* means each email is deliberately mono-stage rather than mixing hooks — that's what makes it read as "the same shape as the rest of our marketing" instead of five separate mini-AIDAs. If his 60/40 guide turns out to define the ratio around something else (e.g. coupon-affiliate emails vs content-affiliate emails, rather than enablement vs promotion inside one email), the fastest fix is re-weighting Emails 2–4 — the AIDA skeleton and the two data hooks (60-day cookie, 30-day return-driven payout hold) stay as-is either way.
+**One structural note for your boss's review:** AIDA is naturally a single-message arc, so mapping it across a _sequence_ means each email is deliberately mono-stage rather than mixing hooks — that's what makes it read as "the same shape as the rest of our marketing" instead of five separate mini-AIDAs. If his 60/40 guide turns out to define the ratio around something else (e.g. coupon-affiliate emails vs content-affiliate emails, rather than enablement vs promotion inside one email), the fastest fix is re-weighting Emails 2–4 — the AIDA skeleton and the two data hooks (60-day cookie, 30-day return-driven payout hold) stay as-is either way.

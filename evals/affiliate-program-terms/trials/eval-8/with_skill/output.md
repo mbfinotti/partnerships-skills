@@ -6,17 +6,17 @@ I'm answering scoped to what you asked (the GDPR role question + the Data Protec
 
 ## The straight answer
 
-**Not processors — on your specific facts.** GDPR Art. 4(8) defines a processor as an entity that processes personal data *on behalf of* and *under the instructions of* a controller. Your affiliates never touch personal data in that sense: they publish a link containing an affiliate ID (not personal data), the visitor clicks through, and from that point your own first-party script — running on your domain, under your sole control — does 100% of the cookie-setting, attribution and conversion logic. Nothing personal-data-shaped flows from Kastellan to the affiliate, and nothing flows back except "affiliate X gets credit for a sale." There's no instruction relationship because there's no processing relationship to instruct.
+**Not processors — on your specific facts.** GDPR Art. 4(8) defines a processor as an entity that processes personal data _on behalf of_ and _under the instructions of_ a controller. Your affiliates never touch personal data in that sense: they publish a link containing an affiliate ID (not personal data), the visitor clicks through, and from that point your own first-party script — running on your domain, under your sole control — does 100% of the cookie-setting, attribution and conversion logic. Nothing personal-data-shaped flows from Kastellan to the affiliate, and nothing flows back except "affiliate X gets credit for a sale." There's no instruction relationship because there's no processing relationship to instruct.
 
 To the (minor) extent an affiliate's own site logs its own visitors clicking your banner, that's the affiliate acting as an **independent controller of its own website analytics** — its own purpose, its own means, nothing to do with you.
 
-**Why this isn't a dodge of the "genuinely disputed" GDPR question**, per the skill I'm required to follow here: the processor/joint-controller/independent-controller dispute exists because most affiliate architectures *do* involve data flowing through a third party — a network's tracking pixel, a co-branded landing page, shared lead files. Your first-party-only architecture removes the fact pattern the dispute is about. For reference, the three readings you'd need if that architecture ever changes:
+**Why this isn't a dodge of the "genuinely disputed" GDPR question**, per the skill I'm required to follow here: the processor/joint-controller/independent-controller dispute exists because most affiliate architectures _do_ involve data flowing through a third party — a network's tracking pixel, a co-branded landing page, shared lead files. Your first-party-only architecture removes the fact pattern the dispute is about. For reference, the three readings you'd need if that architecture ever changes:
 
-| Position | Who takes it | Would apply to you if... |
-|---|---|---|
-| Processor | SaaS tracking-vendor pattern | You started routing personal data through affiliate-controlled pixels/tech |
-| Joint controller | One major affiliate network's public position | You and an affiliate jointly decided a shared tracking/data pool (co-branded funnels) |
-| Independent controller | Another major network's public position | Affiliate collects any data on its own site for its own purposes (this residual case applies to you today) |
+| Position               | Who takes it                                  | Would apply to you if...                                                                                   |
+| ---------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Processor              | SaaS tracking-vendor pattern                  | You started routing personal data through affiliate-controlled pixels/tech                                 |
+| Joint controller       | One major affiliate network's public position | You and an affiliate jointly decided a shared tracking/data pool (co-branded funnels)                      |
+| Independent controller | Another major network's public position       | Affiliate collects any data on its own site for its own purposes (this residual case applies to you today) |
 
 `[LEGAL REVIEW]` — this is one of the field's three genuinely contested areas; the recommendation above is the drafting team's position for counsel to ratify, not settled law. Confirm before the terms go out, and re-open it immediately if the tracking architecture ever changes (e.g., you start sharing conversion/lead data with affiliates, or an affiliate network gets added later).
 

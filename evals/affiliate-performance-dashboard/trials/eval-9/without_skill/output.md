@@ -33,15 +33,17 @@ This buys you credibility. A board that later discovers the gap on its own will 
 This is the section that actually answers "is this program worth investing more in," and it's the one you build by hand in the next two weeks, not the one you wait on engineering for.
 
 **How to build it without a warehouse, in a spreadsheet, in ~2–3 days:**
+
 1. Export all affiliate-attributed conversions (customer email/company, partner, date, initial deal value).
 2. VLOOKUP/match by email domain or company name against your billing export (current plan, MRR, status) and CRM export (open opportunities, churn/downgrade flags, support escalations if tracked).
 3. This is a one-time manual join of ~180–300 rows — tedious but entirely doable solo in the time you have.
 
 **What to report from it:**
+
 - **90/180-day retention rate of affiliate-sourced customers** vs company-wide average for the same cohort window.
 - **Expansion rate** (upgraded/added seats) vs company average.
 - **Current blended MRR of affiliate cohort** as a rough LTV proxy vs company average.
-- Sample size and the caveat: *"directional, from a manual one-time match of N accounts, not a live pipeline."*
+- Sample size and the caveat: _"directional, from a manual one-time match of N accounts, not a live pipeline."_
 
 If the affiliate cohort retains/expands at or above company average, that's your strongest slide — it justifies budget. If it's below average, better the board hears it from you with a plan than discovers it later.
 

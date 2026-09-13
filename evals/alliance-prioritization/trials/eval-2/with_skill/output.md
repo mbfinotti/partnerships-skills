@@ -9,6 +9,7 @@ Security/compliance posture is a **must-pass gate**, not a scorecard input. Gate
 **Gate: Security/compliance posture — FAILED.**
 
 Evidence on file:
+
 - No current SOC 2 Type II. Last attestation lapsed 14 months ago.
 - Disclosed 2024 customer data exposure incident, disclosed late — a governance/transparency signal on top of the incident itself.
 - The alliance's actual data flow requires pushing Kelver customer records to Piedmont — this is the highest-scrutiny version of the gate ("candidate cannot meet the data-sharing bar the alliance needs"), not a marginal case.
@@ -18,6 +19,7 @@ Any one of these would warrant a hard look. Together — no valid attestation, a
 **Verdict: removed from the ranked shortlist.** Not re-ranked lower, not parked at the bottom of the table — off it. Piedmont's 4.4 composite and 6 manager-months no longer occupy a shortlist slot.
 
 **Route back: conditional-go only, tied to a named condition and deadline — not to a scored position.** Piedmont re-enters as a candidate (re-scored from scratch, gates run again) only once it produces, before consideration at the next portfolio review:
+
 1. A current, unqualified SOC 2 Type II report from an independent auditor, covering a trailing 12-month period.
 2. An independent post-incident review of the 2024 exposure showing remediation and a fixed breach-notification process (the late disclosure is itself part of what needs to be shown as fixed).
 3. Counsel sign-off that the proposed customer-record data-sharing terms meet Kelver's own data-protection obligations — flag this to legal alongside the security gate, since a late-disclosed breach plus a live data-sharing ask is also where legal/antitrust exposure gets checked.
@@ -26,11 +28,12 @@ No calendar date is being invented for Piedmont's own remediation — that's on 
 
 ## Why this can't be softened later either
 
-The reason this landed on your desk as an argument instead of a checkbox is that Piedmont got scored and socialized (top of the sheet, in front of your VP) before its security gate ran. That's the sequencing the skill's staged-gate model exists to prevent — desk-checkable gates (attestation status, breach history) run across the whole longlist *before* anything gets composited, precisely so a candidate never becomes politically expensive to remove. Compounding that now by scoring around the gate would repeat the same mistake one level up.
+The reason this landed on your desk as an argument instead of a checkbox is that Piedmont got scored and socialized (top of the sheet, in front of your VP) before its security gate ran. That's the sequencing the skill's staged-gate model exists to prevent — desk-checkable gates (attestation status, breach history) run across the whole longlist _before_ anything gets composited, precisely so a candidate never becomes politically expensive to remove. Compounding that now by scoring around the gate would repeat the same mistake one level up.
 
 ## Remaining candidates: gates still owed
 
 Piedmont's removal doesn't exempt the rest of the list from the same discipline. Before any of these hold a shortlist slot, confirm each has cleared, not just scored well on:
+
 - **Financial viability** — funding history, layoffs, filings.
 - **Legal/antitrust exposure** — counsel review of proposed terms, same lens just applied to Piedmont.
 - **Exit path** — a wind-down that doesn't strand Kelver customer data mid-alliance.

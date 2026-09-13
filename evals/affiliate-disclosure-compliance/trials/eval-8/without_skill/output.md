@@ -4,7 +4,7 @@ Here's the compliance read on both assets, plus the newsletter question.
 
 Yes, but it's not the rule you're expecting for the "in partnership" line — that part is governed by the same law as everything else you publish (the FTC Act §5 / Endorsement Guides, 16 CFR Part 255, plus the FTC's ".com Disclosures" guidance). There's no email-specific carve-out or relaxation for material-connection disclosures — "clear and conspicuous" applies the same way in an email as on a web page.
 
-The rule that *is* email-specific is the **CAN-SPAM Act**, enforced by the FTC, and it's a completely separate obligation from disclosure:
+The rule that _is_ email-specific is the **CAN-SPAM Act**, enforced by the FTC, and it's a completely separate obligation from disclosure:
 
 - **From/subject line must not be deceptive** — can't misrepresent sender identity or make the subject line misleading about content.
 - **Must identify the message as an ad** if it's a commercial email (not required to say "AD" in the subject, but the body must make clear it's an advertisement).
@@ -32,12 +32,12 @@ The FTC's .com Disclosures guidance and its enforcement pattern (see actions aga
 
 ❌ **Two separate problems, not one.**
 
-1. **Wording**: "in partnership" is on the FTC's list of ambiguous terms it has specifically flagged as likely *not* understood by average consumers as meaning "this is a paid ad." The 2023 Endorsement Guides FAQ update calls out "partner," "ambassador," and similar relationship language as insufficient on their own — readers can read "partnership" as an editorial collaboration, not a paid placement. Use unambiguous terms: **"Sponsored," "Advertisement,"** or **"Paid partnership."**
+1. **Wording**: "in partnership" is on the FTC's list of ambiguous terms it has specifically flagged as likely _not_ understood by average consumers as meaning "this is a paid ad." The 2023 Endorsement Guides FAQ update calls out "partner," "ambassador," and similar relationship language as insufficient on their own — readers can read "partnership" as an editorial collaboration, not a paid placement. Use unambiguous terms: **"Sponsored," "Advertisement,"** or **"Paid partnership."**
 
-2. **Placement**: putting the disclosure *underneath* the sponsored block means readers who only skim the block itself (very common in email — most readers don't scroll to a small italic line below an image/CTA) see the pitch before, or without ever seeing, the disclosure. FTC guidance is explicit that disclosure must come **before or immediately adjacent to, and at least as prominent as**, the claim it modifies — not trailing below it in smaller/italic type, which also reads as intentionally de-emphasized (a pattern the FTC has treated as an aggravating factor, not a neutral styling choice).
+2. **Placement**: putting the disclosure _underneath_ the sponsored block means readers who only skim the block itself (very common in email — most readers don't scroll to a small italic line below an image/CTA) see the pitch before, or without ever seeing, the disclosure. FTC guidance is explicit that disclosure must come **before or immediately adjacent to, and at least as prominent as**, the claim it modifies — not trailing below it in smaller/italic type, which also reads as intentionally de-emphasized (a pattern the FTC has treated as an aggravating factor, not a neutral styling choice).
 
 **Fix**: move a clearly-worded label ("Sponsored" or "Advertisement") to sit directly above/inside the block, at a font size and style comparable to surrounding text — not smaller, not italic-only.
 
 ## Bottom line
 
-Both assets currently rely on disclosure that's *technically present somewhere on the page/email* but not *proximate and unambiguous* at the point of the actual claim — which is the exact failure pattern the FTC has brought enforcement actions over. Neither is a "rewrite everything" fix: it's adding one clear line in the right spot on each.
+Both assets currently rely on disclosure that's _technically present somewhere on the page/email_ but not _proximate and unambiguous_ at the point of the actual claim — which is the exact failure pattern the FTC has brought enforcement actions over. Neither is a "rewrite everything" fix: it's adding one clear line in the right spot on each.

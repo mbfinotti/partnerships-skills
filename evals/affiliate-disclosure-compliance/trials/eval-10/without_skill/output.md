@@ -11,6 +11,7 @@ A second reviewer lets you get through more assets per week. If volume roughly d
 **Why this reads as a design problem, not a staffing problem**
 
 All three recurring mistakes are mechanical and checklist-detectable:
+
 - tag buried at the end of a hashtag wall — a placement rule
 - "#collab" instead of a real disclosure — a wording rule
 - disclosure in bio instead of in the post — a location rule
@@ -19,7 +20,7 @@ None of these require judgment. They're the kind of thing a form validator, a re
 
 **What I'd check before sending the ask**
 
-1. Is 143 the full population of published assets, or a sample because you're already capacity-constrained? If assets are going live *unreviewed* today because you can't keep up, that's a real, separate justification for headcount — but it's a coverage argument, not a "catch more mistakes" argument, and you should frame it that way with the actual unreviewed-volume number.
+1. Is 143 the full population of published assets, or a sample because you're already capacity-constrained? If assets are going live _unreviewed_ today because you can't keep up, that's a real, separate justification for headcount — but it's a coverage argument, not a "catch more mistakes" argument, and you should frame it that way with the actual unreviewed-volume number.
 2. If 143 is full coverage, the honest framing of your current ask is "I want to keep catching the same defect rate faster as volume grows" — which a CFO will reasonably counter with "why not fix the 38%?"
 
 **What I'd propose instead (or alongside)**

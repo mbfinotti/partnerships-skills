@@ -6,7 +6,7 @@ Here's the complete onboarding sequence for Lumaflor, built against the affiliat
 
 Coupon sites — your majority archetype — also don't need a call. Their entire job is "publish the code." A call adds nothing they'll act on differently.
 
-**What I built instead:** white-glove *feeling* for everyone via a fast, personal-sounding async sequence, with real 1:1 calls reserved for the minority where a 15-minute call plausibly pays for itself — bigger newsletter owners and creators with real reach. You set the size threshold (e.g., >10k followers or >5k subscribers); everyone under it gets the automated track plus a genuine reply-and-you'll-hear-back note from you or your VA, not a bot. If you want the "I get facetime with Sam" feeling to scale further without burning your calendar, run a weekly 20-minute open Zoom ("office hours") that any affiliate can drop into — one hour of your time reaches dozens of people instead of one.
+**What I built instead:** white-glove _feeling_ for everyone via a fast, personal-sounding async sequence, with real 1:1 calls reserved for the minority where a 15-minute call plausibly pays for itself — bigger newsletter owners and creators with real reach. You set the size threshold (e.g., >10k followers or >5k subscribers); everyone under it gets the automated track plus a genuine reply-and-you'll-hear-back note from you or your VA, not a bot. If you want the "I get facetime with Sam" feeling to scale further without burning your calendar, run a weekly 20-minute open Zoom ("office hours") that any affiliate can drop into — one hour of your time reaches dozens of people instead of one.
 
 ## 2. Fix provisioning before touching the emails
 
@@ -160,11 +160,13 @@ Subject: Your first sale just tracked 🎉
 ---
 
 ### Never-activated branch (day 30+)
+
 - Day 45: one re-engagement email — new promo angle + a fresh asset, from the automated address.
 - Month 6: final notice, framed as list hygiene ("we're archiving inactive accounts — reply if you'd like to stay") — never as a penalty.
 - Archive, don't delete. Re-entry (if they come back) starts at T2, not T1 — they don't need re-approving, they need a working asset.
 
 ### Before you launch — action list for you + your VA
+
 1. **You:** confirm real numbers for commission %, cookie window, payout threshold/hold, and the activation definition — replace every `[X]` above.
 2. **You + VA:** check your affiliate platform for auto-provisioning of links/codes at approval; turn it on. This is the highest-leverage fix in this whole plan.
 3. **VA:** load the sequence into your ESP/platform as automated sends (T1, T2, T4, first-click and first-sale triggers).
@@ -172,4 +174,5 @@ Subject: Your first sale just tracked 🎉
 5. **You:** send T3 personally (or have the VA send under your name) for the first few cohorts until you see the reply volume — that tells you if the office-hours format is enough or if you need more slots.
 
 ### KPI check
+
 Once your first 30-day cohort closes, compare against ~18% activation (the practitioner-median figure, not the ~31% top-quartile one some vendors quote) — treat it as a signal to investigate, not a hard pass/fail. If it's low, check provisioning speed and Touch 1's link placement before assuming the offer or copy is the problem.

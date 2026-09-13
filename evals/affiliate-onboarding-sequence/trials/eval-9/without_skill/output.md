@@ -9,7 +9,7 @@ All three problems come from the same design flaw: the automation is **step/time
 1. Create a persistent affiliate-state field (`has_converted: true/false`, set by the sale event, not by a human) — this is your single source of truth, not the email tool's internal step position.
 2. Add that field as a **suppression condition evaluated at send-time on every step**, not just at flow entry. Every ESP has this: Klaviyo "flow filters," ActiveCampaign "goals" with conditional exit, HubSpot "unenrollment triggers," Customer.io "exit conditions," Iterable "workflow exit criteria."
 3. On the sale event, don't just skip the day-21 email — **exit the whole welcome drip** and move the affiliate to a distinct "activated" track (congrats/next-tier/upsell content). Killing one email but leaving them queued for the rest is the same bug in miniature.
-4. Audit for the exact complaint you got: a sale that lands *after* an email is already queued/rendering needs the suppression check to run immediately before send, not only at nightly batch time.
+4. Audit for the exact complaint you got: a sale that lands _after_ an email is already queued/rendering needs the suppression check to run immediately before send, not only at nightly batch time.
 
 ## Fix 2 — Reactivating the 40 archived affiliates: don't restart at step 1
 

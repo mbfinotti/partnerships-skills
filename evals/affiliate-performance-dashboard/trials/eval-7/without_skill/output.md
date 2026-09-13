@@ -5,7 +5,7 @@ No internal data on Ravencourt Outdoors exists in this repo outside `skill-wip/`
 **First, classify the partner before picking a lever.** The right cap mechanism depends entirely on what type of affiliate this is:
 
 - Coupon/deal site → usually last-click-steals-credit on sales that would've happened anyway. Cap hard.
-- Cashback/loyalty/browser-extension → often intercepts *returning* customers at checkout. Cap hard, or move to new-customer-only commission.
+- Cashback/loyalty/browser-extension → often intercepts _returning_ customers at checkout. Cap hard, or move to new-customer-only commission.
 - Content/review/comparison publisher → often genuinely incremental (drives net-new demand). Cap gently, don't kill the relationship.
 - One of your three sub-networks → different problem entirely (see §3). Don't cap the network row — you'd be capping hundreds of unrelated publishers via one blunt instrument.
 
@@ -45,9 +45,9 @@ No internal data on Ravencourt Outdoors exists in this repo outside `skill-wip/`
 "So the numbers look less scary" is the wrong test, and if that's the only reason, don't do it — it's a cosmetic edit to a risk report. The right test is: **does the network row conflate two different kinds of risk that need different responses?** It does, so split — for analysis, not for the dashboard cop-out.
 
 - A single affiliate at 20% share and a sub-network at 20% share are not the same risk even though the row looks identical. One publisher can walk overnight and take 20% with them. A network's 20% is spread over hundreds of independent publishers — any one of them leaving barely moves the number. Averaging them into one concentration metric is an apples-to-oranges error, not just an optics problem.
-- Disaggregating will very likely *shrink* your apparent concentration, because network rows currently overstate single-point-of-failure risk. That's a legitimate, non-cosmetic reason to split.
-- But disaggregating can also *reveal* a risk you're currently blind to: if one publisher inside a sub-network drives most of that network's volume, your true #1 by traffic dependency might not be the affiliate you think it is today. You can't know until you look.
+- Disaggregating will very likely _shrink_ your apparent concentration, because network rows currently overstate single-point-of-failure risk. That's a legitimate, non-cosmetic reason to split.
+- But disaggregating can also _reveal_ a risk you're currently blind to: if one publisher inside a sub-network drives most of that network's volume, your true #1 by traffic dependency might not be the affiliate you think it is today. You can't know until you look.
 - **Action:** pull sub-ID/sub-publisher-level reporting from each network (Impact, CJ, Awin, Rakuten, ShareASale, Partnerize all support this — ask your account manager if it's not already surfaced). If a network can't or won't give you that breakdown, treat that opacity itself as a risk finding — you don't actually control or understand a third of your program.
 - **Keep two views, don't merge them:**
-  - *Commercial/contract view* — network as one row. This is who you negotiate rates and payment terms with.
-  - *Concentration/risk view* — always disaggregated to true publisher level. This is the one that should feed every tile in §2, including the cap decision in §1. Don't build your concentration tiles on the commercial view — it will consistently understate real dependency risk on any single blockbuster publisher hiding inside a network.
+  - _Commercial/contract view_ — network as one row. This is who you negotiate rates and payment terms with.
+  - _Concentration/risk view_ — always disaggregated to true publisher level. This is the one that should feed every tile in §2, including the cap decision in §1. Don't build your concentration tiles on the commercial view — it will consistently understate real dependency risk on any single blockbuster publisher hiding inside a network.

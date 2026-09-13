@@ -15,10 +15,11 @@ Consequence for your ~300 EU/UK affiliates: rolling this out Monday with zero no
 
 Two clauses, two different urgency arguments:
 
-- **Fake-review ban**: you likely *can* justify shortened/immediate notice for EU/UK under the "legal compliance" carve-out — the UK's Digital Markets, Competition and Consumers Act 2024 and the EU's Unfair Commercial Practices Directive (as amended by the Omnibus Directive) already make fake reviews illegal. You're not creating a new obligation, you're codifying one that already binds you and them.
+- **Fake-review ban**: you likely _can_ justify shortened/immediate notice for EU/UK under the "legal compliance" carve-out — the UK's Digital Markets, Competition and Consumers Act 2024 and the EU's Unfair Commercial Practices Directive (as amended by the Omnibus Directive) already make fake reviews illegal. You're not creating a new obligation, you're codifying one that already binds you and them.
 - **Brand-bidding ban**: this is a commercial/IP policy choice, not a pre-existing legal mandate. It doesn't qualify for the shortcut. Full 15-day notice applies to EU/UK affiliates.
 
 **Recommended sequencing**, rather than one Monday cutover:
+
 1. Send the amendment notice to **all 1,100 affiliates today**, effective in 15 days for the brand-bidding ban (satisfies P2B for everyone, not just EU/UK — simpler than segmenting).
 2. Make the fake-review clause effective **Monday for everyone** — defensible as codifying existing law.
 3. Deal with the two live offenders **now**, separately from the amendment: check whether your current terms already have a general trademark-misuse, unauthorized-advertising, or deceptive-marketing clause. Most affiliate agreements do. If so, suspend those two affiliates under that existing clause today — you don't need the new clause to stop current harm, and you avoid the appearance of applying a rule retroactively to conduct that predates it.
@@ -38,7 +39,7 @@ If you don't have an existing clause covering trademark misuse and need to stop 
 
 > **Prohibition on Trademark Bidding.** Affiliate shall not bid on, purchase, or use, directly or indirectly (including through a search engine, social media ad platform, or any other paid channel), any keyword, search term, ad copy, domain name, or campaign target that consists of, incorporates, or is confusingly similar to Company's trademarks, trade names, product names, or any misspelling or variant thereof, whether alone or in combination with other terms (including "coupon," "discount," "promo," "deal," or similar). This prohibition applies regardless of whether Affiliate's landing page ultimately links to Company's site. Company may, at its discretion, treat a violation of this clause as grounds for immediate suspension of Affiliate's account, forfeiture of commissions generated through the violating campaign, and termination of the Agreement, without prejudice to any other remedy available to Company.
 
-*Effective date: apply prospectively only, per the amendment clause above.*
+_Effective date: apply prospectively only, per the amendment clause above._
 
 ---
 

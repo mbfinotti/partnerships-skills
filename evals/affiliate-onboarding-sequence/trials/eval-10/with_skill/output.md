@@ -26,6 +26,7 @@ Add one short paragraph to touch 1 (or a same-day follow-up) stating: what "acti
 
 **Day 5–9 — Archetype routing (about a week).**
 One sequence for coupon sites, cashback sites, and Instagram creators is the fourth-biggest leak you named. Tag archetype at approval, then branch touch 2's action and asset:
+
 - Coupon sites → publish their unique code; asset = the code itself.
 - Cashback sites → confirm feed/catalog integration; asset = feed access + rate table.
 - Instagram creators → one post/story with the code; asset = short talking points + disclosure line (this one matters — FTC disclosure training has to reach creators before they publish, not after).
@@ -35,10 +36,10 @@ No design work required — this is copy branching in whatever tool sends the se
 **Day 9–12 — Activation nudge (days, not a week — you're the only sign-off).**
 Add one time-boxed touch inside the window: a flat bonus on the first sale before day 21, framed as a finish line to hit, never as a condition of staying in. You have full authority here, so this doesn't need the "a week for sign-off" the skill assumes for teams with finance/legal in the loop.
 
-**Day 12–19 — Never-activated branch (about a week, but it pays on the *next* cohort, so it can land last).**
+**Day 12–19 — Never-activated branch (about a week, but it pays on the _next_ cohort, so it can land last).**
 Build: diagnostic at day 30 (never-clicked vs. went-dormant get different messages) → one or two re-engagement touches → one final-notice email ("archived unless you reply," no threat language) → archive, don't delete.
 
-**Also, this week, separately: backfill the current backlog.** The archetype routing and nudge above only protect the *next* cohort. Your existing four months of never-clicked affiliates need a one-off version of the same re-engagement touch now — you don't have to wait for the automated branch to be finished to send it once by hand.
+**Also, this week, separately: backfill the current backlog.** The archetype routing and nudge above only protect the _next_ cohort. Your existing four months of never-clicked affiliates need a one-off version of the same re-engagement touch now — you don't have to wait for the automated branch to be finished to send it once by hand.
 
 Run every rewritten email through a humanizer pass before it ships — the one-action structure and the money numbers stay exactly as drafted; only tone changes.
 

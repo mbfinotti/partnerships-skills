@@ -29,26 +29,26 @@ Screened on, for the customer/growth track: program strategy and incentive desig
 
 ## Channel/Alliance Manager and the strategy-level roles
 
-| Role | Mandate | Decides |
-| --- | --- | --- |
-| Partner/Channel Manager (CAM/PAM) | Day-to-day portfolio: recruiting, onboarding, enablement, deal registration, satisfaction | Which deals to support, partner-level plans |
-| Alliance Lead | A handful of strategically consequential partnerships (GSIs, hyperscalers, tech alliances); co-sell, co-innovation, exec relationships | Joint GTM motions, joint solution investment |
-| Head of Partnerships / CPO / Channel Chief | Strategy, business planning, operating cadence, attribution reporting, headcount and budget | Program strategy, tiering, budget, partner types |
-| Partner Marketing | JVPs, co-marketing, through-channel marketing, MDF-funded activity | Campaign design, MDF allocation to marketing |
-| Partner Operations | Onboarding workflows, reporting, PRM admin, attribution, integrations | Tooling config, data/attribution rules |
-| Partner Enablement Manager | Partner onboarding design, role-based learning tracks, certification, content curation | Curriculum, certification design, refresh cadence |
+| Role                                       | Mandate                                                                                                                                | Decides                                           |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Partner/Channel Manager (CAM/PAM)          | Day-to-day portfolio: recruiting, onboarding, enablement, deal registration, satisfaction                                              | Which deals to support, partner-level plans       |
+| Alliance Lead                              | A handful of strategically consequential partnerships (GSIs, hyperscalers, tech alliances); co-sell, co-innovation, exec relationships | Joint GTM motions, joint solution investment      |
+| Head of Partnerships / CPO / Channel Chief | Strategy, business planning, operating cadence, attribution reporting, headcount and budget                                            | Program strategy, tiering, budget, partner types  |
+| Partner Marketing                          | JVPs, co-marketing, through-channel marketing, MDF-funded activity                                                                     | Campaign design, MDF allocation to marketing      |
+| Partner Operations                         | Onboarding workflows, reporting, PRM admin, attribution, integrations                                                                  | Tooling config, data/attribution rules            |
+| Partner Enablement Manager                 | Partner onboarding design, role-based learning tracks, certification, content curation                                                 | Curriculum, certification design, refresh cadence |
 
 Sharpest functional distinction: a channel manager is measured on pipeline volume and deal-registration counts across a broad population; an alliance manager on depth of executive engagement and co-sell revenue across a few large partners.
 
 ## Hard and soft skills, junior vs senior (applies across the business-partner side of the field)
 
-| Dimension | Junior/entry signal | Senior signal |
-| --- | --- | --- |
-| Relationship read | Understands the partner org chart - who signs, who blocks | Also maps motivations and stakes across the partner's org, not just its structure |
-| Reporting | Reports activity: partners recruited, deals registered, campaigns run | Reports impact: partner-sourced revenue, ACV contribution, retention, CAC or incrementality versus other channels |
-| Focus under competing priorities | Executes one motion at a time | Holds partner, customer and internal sales process in view simultaneously without losing the thread |
-| Deal orientation | Optimizes to close inside the current period | Treats the relationship, not the quarter, as the unit of measurement |
-| Judgment on de-prioritization | Rarely has said no to a partner | Can walk through a specific partner de-prioritized, why, and how that conversation went |
+| Dimension                        | Junior/entry signal                                                   | Senior signal                                                                                                     |
+| -------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Relationship read                | Understands the partner org chart - who signs, who blocks             | Also maps motivations and stakes across the partner's org, not just its structure                                 |
+| Reporting                        | Reports activity: partners recruited, deals registered, campaigns run | Reports impact: partner-sourced revenue, ACV contribution, retention, CAC or incrementality versus other channels |
+| Focus under competing priorities | Executes one motion at a time                                         | Holds partner, customer and internal sales process in view simultaneously without losing the thread               |
+| Deal orientation                 | Optimizes to close inside the current period                          | Treats the relationship, not the quarter, as the unit of measurement                                              |
+| Judgment on de-prioritization    | Rarely has said no to a partner                                       | Can walk through a specific partner de-prioritized, why, and how that conversation went                           |
 
 ## The ladder finding
 

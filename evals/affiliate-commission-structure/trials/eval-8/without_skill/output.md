@@ -11,7 +11,7 @@ The real comparison is total cost, not headline rate:
 
 Breakeven: $9,000 = (14% − 8%) × X → **X = $150,000 in referred first-year contract value per quarter** (≈$600K/year).
 
-- Below $150K/quarter referred → ToolBench's deal costs you *more* than your 14% ceiling would have. It's not a bargain, it's a worse deal wearing a lower headline number.
+- Below $150K/quarter referred → ToolBench's deal costs you _more_ than your 14% ceiling would have. It's not a bargain, it's a worse deal wearing a lower headline number.
 - Above $150K/quarter → it's genuinely cheaper than paying full performance rate. Good deal.
 
 **You cannot answer "should we sign" without a volume estimate.** Ask ToolBench for their historical referral/conversion data for comparably-priced B2B tools (they're the category leader — they should have this), and sanity-check $150K/quarter against your expected deal size × close rate from their traffic.

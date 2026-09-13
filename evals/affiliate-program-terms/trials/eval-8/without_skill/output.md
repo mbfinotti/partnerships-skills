@@ -4,11 +4,11 @@
 
 ### Why
 
-A processor relationship (Art. 28 GDPR) requires the third party to process personal data *on Kastellan's behalf, for Kastellan's purposes, under Kastellan's instructions*, with no purpose of its own. That's not what's happening here:
+A processor relationship (Art. 28 GDPR) requires the third party to process personal data _on Kastellan's behalf, for Kastellan's purposes, under Kastellan's instructions_, with no purpose of its own. That's not what's happening here:
 
 - Tracking runs on **Kastellan's own first-party script**, on kastellan's own domain. The affiliate places a plain referral link/banner on their own site — no script, pixel, or cookie of theirs touches the visitor before the click. All attribution (referral cookie, click, conversion event) is collected and processed by Kastellan, for Kastellan's own purpose, using Kastellan's own means.
-- The affiliate decides, independently, **how to promote you** (channel, audience, content, their own site/list/ads). That's processing of *their own* audience's data, for *their own* purpose. Kastellan has no say in it.
-- No party jointly decides purpose *and* means of a shared processing operation (the CJEU's *Fashion ID* test for joint controllership). Contrast this with an embedded third-party pixel/SDK on the affiliate's own site collecting data before any click — that *would* push toward joint controllership. You don't have that here.
+- The affiliate decides, independently, **how to promote you** (channel, audience, content, their own site/list/ads). That's processing of _their own_ audience's data, for _their own_ purpose. Kastellan has no say in it.
+- No party jointly decides purpose _and_ means of a shared processing operation (the CJEU's _Fashion ID_ test for joint controllership). Contrast this with an embedded third-party pixel/SDK on the affiliate's own site collecting data before any click — that _would_ push toward joint controllership. You don't have that here.
 
 So: two controllers, each responsible for their own leg, disclosing data to each other at defined points rather than one instructing the other.
 
@@ -19,7 +19,7 @@ If, for commission-dispute purposes, Kastellan ever hands an affiliate **identif
 1. A lawful basis + transparency for that disclosure (legitimate interest, disclosed in your privacy notice).
 2. For **US affiliates specifically**: this becomes a restricted international transfer (GDPR Ch. V). You need a transfer mechanism — Art. 46 SCCs, **Module 1 (controller-to-controller)** — because there's no EU adequacy decision covering an individual/small US affiliate unless they're self-certified under the EU-US Data Privacy Framework (rare for solo affiliates).
 
-**Recommendation:** don't create that problem — report conversions to affiliates as aggregated counts/amounts only ("3 conversions, €450 owed"), never the underlying lead's name or email. Then no lead personal data ever crosses the Kastellan → affiliate boundary, no SCCs needed, and the whole question becomes moot for NL/DE/FR/US alike. The only personal data flowing *from* the affiliate *to* Kastellan is the affiliate's own onboarding/payment data (name, bank/PayPal, tax ID) — that's a normal vendor/payee relationship, Kastellan is sole controller of it, no GDPR novelty there.
+**Recommendation:** don't create that problem — report conversions to affiliates as aggregated counts/amounts only ("3 conversions, €450 owed"), never the underlying lead's name or email. Then no lead personal data ever crosses the Kastellan → affiliate boundary, no SCCs needed, and the whole question becomes moot for NL/DE/FR/US alike. The only personal data flowing _from_ the affiliate _to_ Kastellan is the affiliate's own onboarding/payment data (name, bank/PayPal, tax ID) — that's a normal vendor/payee relationship, Kastellan is sole controller of it, no GDPR novelty there.
 
 One adjacent flag, not what was asked but the DPO will hit it next: the first-party attribution cookie is very likely **not "strictly necessary"** under the ePrivacy rules, so it needs cookie consent like any other marketing/analytics cookie — separate issue from controller/processor status, worth closing in the same pass.
 

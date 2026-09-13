@@ -1,25 +1,25 @@
 ## Before the build: two flags on the brief
 
-**⚠️ The "60/40 Principle" — not using it.** I checked the sourced framework list for affiliate onboarding: it "appears in one vendor guide with no named originator or citation. Unverified; do not use." No practitioner, platform, or study backs it — it's un-traceable marketing-guide filler, not a method. I'm not building any part of this sequence around it. If your boss wants a similar three/four-part mnemonic for structuring the copy, two *are* real and sourced: Prussakov's **3 Es** (Excite, Encourage, Equip) or **RITS** (Resources, Incentives, Tools, Support) — both single-author practitioner coinages, not industry standards, but at least attributable. Happy to swap one in if useful.
+**⚠️ The "60/40 Principle" — not using it.** I checked the sourced framework list for affiliate onboarding: it "appears in one vendor guide with no named originator or citation. Unverified; do not use." No practitioner, platform, or study backs it — it's un-traceable marketing-guide filler, not a method. I'm not building any part of this sequence around it. If your boss wants a similar three/four-part mnemonic for structuring the copy, two _are_ real and sourced: Prussakov's **3 Es** (Excite, Encourage, Equip) or **RITS** (Resources, Incentives, Tools, Support) — both single-author practitioner coinages, not industry standards, but at least attributable. Happy to swap one in if useful.
 
-**⚠️ AIDA — real framework, wrong layer if forced onto the whole sequence.** AIDA/RACE/AARRR are general marketing funnels never built for affiliate activation, and force-fitting one as the sequence's *architecture* (i.e., "Touch 1 = Attention, Touch 2 = Interest...") would throw away the one thing that actually drives activation in this channel: behavior triggers (first click, first sale, no-click-by-day-N) overriding a fixed calendar. A rigid 4-stage funnel can't react to "they clicked but didn't buy."
+**⚠️ AIDA — real framework, wrong layer if forced onto the whole sequence.** AIDA/RACE/AARRR are general marketing funnels never built for affiliate activation, and force-fitting one as the sequence's _architecture_ (i.e., "Touch 1 = Attention, Touch 2 = Interest...") would throw away the one thing that actually drives activation in this channel: behavior triggers (first click, first sale, no-click-by-day-N) overriding a fixed calendar. A rigid 4-stage funnel can't react to "they clicked but didn't buy."
 
-What I did instead, to still give you AIDA consistency with the rest of your marketing: **I used AIDA as the copy structure inside every individual email** (each touch opens with Attention, builds Interest specific to the affiliate's content/coupon channel, states Desire via the money mechanics or bonus, closes with one Action). The *sequence timing and branching* stays on the evidence-based trigger model — that's the part actually responsible for activation rate. I've labeled the AIDA beats inline in each draft below so it's auditable against your boss's brief.
+What I did instead, to still give you AIDA consistency with the rest of your marketing: **I used AIDA as the copy structure inside every individual email** (each touch opens with Attention, builds Interest specific to the affiliate's content/coupon channel, states Desire via the money mechanics or bonus, closes with one Action). The _sequence timing and branching_ stays on the evidence-based trigger model — that's the part actually responsible for activation rate. I've labeled the AIDA beats inline in each draft below so it's auditable against your boss's brief.
 
 ---
 
 ## Assumptions (confirm before send — I didn't have these)
 
-| Item | Assumed | Why |
-|---|---|---|
-| Activation event | First tracked sale, within 30 days of approval | Given |
-| Cookie window | 60 days | Given — **note this is separate from the 30-day activation window**: cookie window governs how long a click stays credited to the affiliate; activation window governs how long the onboarding sequence runs before branching to never-activated. Don't merge these two numbers in copy. |
-| Commission | 8% one-time, per sale | Typical for outdoor hardgoods (lower margin than DTC skincare/apparel) — **replace with your real rate** |
-| Payout threshold / hold | $50 / net-30 | Standard default; confirm your actual terms |
-| Archetypes in intake | Coupon-deal, content/review site only | Per your brief |
-| AM capacity | None mentioned → **self-serve tier for both archetypes** | If you do have manager hours, content sites are the archetype worth promoting to hybrid (add one personal check-in at the T3 slot) — coupon sites rarely repay the check-in |
-| Volume | Unstated | Doesn't change routing here since there's no AM tier in play |
-| Tracking | Assumed server-side/postback is live | **Verify this before launch** — if it isn't, activation numbers will understate reality and you'll misdiagnose a working sequence as broken |
+| Item                    | Assumed                                                  | Why                                                                                                                                                                                                                                                                                      |
+| ----------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Activation event        | First tracked sale, within 30 days of approval           | Given                                                                                                                                                                                                                                                                                    |
+| Cookie window           | 60 days                                                  | Given — **note this is separate from the 30-day activation window**: cookie window governs how long a click stays credited to the affiliate; activation window governs how long the onboarding sequence runs before branching to never-activated. Don't merge these two numbers in copy. |
+| Commission              | 8% one-time, per sale                                    | Typical for outdoor hardgoods (lower margin than DTC skincare/apparel) — **replace with your real rate**                                                                                                                                                                                 |
+| Payout threshold / hold | $50 / net-30                                             | Standard default; confirm your actual terms                                                                                                                                                                                                                                              |
+| Archetypes in intake    | Coupon-deal, content/review site only                    | Per your brief                                                                                                                                                                                                                                                                           |
+| AM capacity             | None mentioned → **self-serve tier for both archetypes** | If you do have manager hours, content sites are the archetype worth promoting to hybrid (add one personal check-in at the T3 slot) — coupon sites rarely repay the check-in                                                                                                              |
+| Volume                  | Unstated                                                 | Doesn't change routing here since there's no AM tier in play                                                                                                                                                                                                                             |
+| Tracking                | Assumed server-side/postback is live                     | **Verify this before launch** — if it isn't, activation numbers will understate reality and you'll misdiagnose a working sequence as broken                                                                                                                                              |
 
 ---
 
@@ -39,9 +39,9 @@ If any of these are manual today, fix them first — manual provisioning runs 1-
 
 ## Routing
 
-| Archetype | Tier | First action asked | Leading asset |
-|---|---|---|---|
-| Coupon-deal | Self-serve | Publish the exclusive code | Unique per-affiliate code, code-page template |
+| Archetype           | Tier       | First action asked                          | Leading asset                                             |
+| ------------------- | ---------- | ------------------------------------------- | --------------------------------------------------------- |
+| Coupon-deal         | Self-serve | Publish the exclusive code                  | Unique per-affiliate code, code-page template             |
 | Content/review site | Self-serve | Place link in an existing high-traffic post | Best-converting pages, product one-sheet, seasonal angles |
 
 Both routed self-serve by default — no AM was named. If that changes, content sites are the one worth a manual check-in (they take longer to activate and a nudge from a real person moves the needle more than it does for coupon sites, which convert on code visibility alone).
@@ -185,7 +185,7 @@ Each subject line and body is tagged with its AIDA beat inline, per your boss's 
 >
 > **[Action]** Your link: `{{tracking_link}}` {{code_if_applicable}} — one placement is all it takes.
 
-*(Framed as a finish line to hit, never a condition for staying in the program — no "or your account may be reviewed" language anywhere near this.)*
+_(Framed as a finish line to hit, never a condition for staying in the program — no "or your account may be reviewed" language anywhere near this.)_
 
 ---
 

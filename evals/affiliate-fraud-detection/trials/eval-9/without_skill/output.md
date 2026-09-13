@@ -1,12 +1,13 @@
 ## The core problem: the hold is solving the wrong failure mode
 
-A 60-day hold protects against disputes that surface *early* — stolen cards, immediate refund requests, remorse cancellations. Your losses came from disputes at **month 11 and month 14** — 9 to 12 months after commissions were already paid out. The hold expired long before the fraud signal appeared. Extending it to 90 or 120 days won't fix this; the problem isn't hold *length*, it's that hold and clawback rights are the same mechanism.
+A 60-day hold protects against disputes that surface _early_ — stolen cards, immediate refund requests, remorse cancellations. Your losses came from disputes at **month 11 and month 14** — 9 to 12 months after commissions were already paid out. The hold expired long before the fraud signal appeared. Extending it to 90 or 120 days won't fix this; the problem isn't hold _length_, it's that hold and clawback rights are the same mechanism.
 
 At $890/sale, $18K ≈ 20 disputed subscriptions concentrated in 2 of 120 affiliates — a targeted pattern, not background noise.
 
 ## What's likely happening
 
-Month 11/14 timing on an *annual* plan points to one of two patterns, both affiliate-side:
+Month 11/14 timing on an _annual_ plan points to one of two patterns, both affiliate-side:
+
 - **Self-referral / friendly fraud**: affiliate refers complicit "customers" (themselves, associates, or paid signups) who use the product for the full term, then dispute the charge as "unrecognized" once your hold window has closed — keeping both the year of service and the commission.
 - **Renewal-adjacent disputes**: customers signed up for reasons unrelated to the product (incentivized/misleading offer from the affiliate), get billed on renewal, and dispute rather than cancel.
 
@@ -20,7 +21,7 @@ Either way, the affiliate already has the money, and your hold released it befor
 
 ## Structural fixes
 
-1. **Decouple "hold" from "clawback rights."** Add a contract clause: *any* chargeback, at any point in the subscription term, is deductible from the affiliate's account — via reserve, negative balance, or offset against future commissions — regardless of when it occurs. The hold controls cash-flow timing; clawback rights should never expire while a customer relationship exists.
+1. **Decouple "hold" from "clawback rights."** Add a contract clause: _any_ chargeback, at any point in the subscription term, is deductible from the affiliate's account — via reserve, negative balance, or offset against future commissions — regardless of when it occurs. The hold controls cash-flow timing; clawback rights should never expire while a customer relationship exists.
 2. **Split commission payout, don't just delay it.** Pay a partial commission at day 60 (e.g. 50%), and the remainder at the point risk actually resolves — renewal, or month 12 for an annual plan. This aligns payment timing with when your real dispute exposure occurs, instead of an arbitrary 60-day guess.
 3. **Add a rolling reserve.** Withhold a fixed % (5–10%) of every affiliate's commissions into a reserve that only pays out quarterly, net of that period's clawbacks. This gives you a recovery pool even for chargebacks that land after normal payout.
 4. **Monitor per-affiliate chargeback rate, not just aggregate.** Set a threshold (e.g. >2% of an affiliate's referred customers charge back within the subscription term) that auto-flags for manual review and pauses payout — this would have caught these two affiliates well before $18K.

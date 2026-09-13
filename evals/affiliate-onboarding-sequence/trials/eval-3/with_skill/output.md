@@ -1,8 +1,8 @@
 # Two changes before the email — both required by the onboarding-sequence skill I'm following
 
-**1. Not a termination threat.** The skill flags exactly this framing as a named failure mode: *"Termination threats used to force activation"* → fix is *"opportunity-framed incentives; motivation research finds threats counterproductive"* (Hiam 1999, cited in the affiliate literature). The rule is explicit: *"Frame the activation nudge as an opportunity with a finish line ('earn X by ')* never as a condition for staying in the program." So the email below leads with a bonus and a deadline, not a removal warning.
+**1. Not a termination threat.** The skill flags exactly this framing as a named failure mode: _"Termination threats used to force activation"_ → fix is _"opportunity-framed incentives; motivation research finds threats counterproductive"_ (Hiam 1999, cited in the affiliate literature). The rule is explicit: _"Frame the activation nudge as an opportunity with a finish line ('earn X by ')_ never as a condition for staying in the program." So the email below leads with a bonus and a deadline, not a removal warning.
 
-**2. Not a delete.** The skill's branch always ends in *"Archive, don't delete: suppression keeps the active-rate metric honest and leaves the door open."* Archiving fixes your dashboard exactly like deleting would (they drop out of the active count), but it also lets a re-engaged affiliate come back in without re-approval. Deleting buys you nothing extra and closes a door for free.
+**2. Not a delete.** The skill's branch always ends in _"Archive, don't delete: suppression keeps the active-rate metric honest and leaves the door open."_ Archiving fixes your dashboard exactly like deleting would (they drop out of the active count), but it also lets a re-engaged affiliate come back in without re-approval. Deleting buys you nothing extra and closes a door for free.
 
 Everything else about your plan — the 60-day outer limit, the B2C pet-supplies context, the "stop letting dead weight sit in the account list" motivation — is your call to make, and the skill treats day offsets as a starting skeleton, not a rule.
 
@@ -34,12 +34,12 @@ Everything else about your plan — the 60-day outer limit, the B2C pet-supplies
 
 ## How many times to chase, and when to archive
 
-| Day | Step | What happens |
-|---|---|---|
-| 30 | Window closes | Internal check only: confirm it's genuinely never-activated (zero clicks ever), not a dormant affiliate who was active and stopped — those get a different message, not this branch. |
-| 45 | **Re-engagement #1** | The email above. Opportunity-framed, one incentive, one asset. |
-| 55 | **Final notice** | Housekeeping tone, not a threat: *"We keep the program tidy by archiving accounts with no activity — yours will move to archived status on day 60. Place your link anytime before then to stay active, or reply if you're still interested and just need more time."* |
-| 60 | **Archive, not delete** | Suppress from active outreach and drop from your active-affiliate count. Keep the record. If they click or ask to come back later, reactivate — they re-enter at the "grab your assets" step, not back at square one. |
+| Day | Step                    | What happens                                                                                                                                                                                                                                                          |
+| --- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 30  | Window closes           | Internal check only: confirm it's genuinely never-activated (zero clicks ever), not a dormant affiliate who was active and stopped — those get a different message, not this branch.                                                                                  |
+| 45  | **Re-engagement #1**    | The email above. Opportunity-framed, one incentive, one asset.                                                                                                                                                                                                        |
+| 55  | **Final notice**        | Housekeeping tone, not a threat: _"We keep the program tidy by archiving accounts with no activity — yours will move to archived status on day 60. Place your link anytime before then to stay active, or reply if you're still interested and just need more time."_ |
+| 60  | **Archive, not delete** | Suppress from active outreach and drop from your active-affiliate count. Keep the record. If they click or ask to come back later, reactivate — they re-enter at the "grab your assets" step, not back at square one.                                                 |
 
 That's **two chases** (day 45, day 55) after the 30-day window closes, then archive on day 60 — matching the 60-day outer limit you asked for.
 

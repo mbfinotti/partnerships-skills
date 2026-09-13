@@ -9,11 +9,11 @@
 
 ## Gates (run before any scoring — non-tradeable)
 
-| Candidate | Gate | Result | Evidence |
-|---|---|---|---|
-| Askerton | Legal/antitrust exposure + Gomes-Casseres three-laws | **FAIL** | Acquired by a direct competitor (March). Continuing exposes roadmap/data to that competitor's new parent; the alliance can no longer "operationally act as one" on either side's terms. |
-| Firthwell | Financial viability | **CONDITIONAL PASS** | Down round (May) raises fold/fire-sale risk but is not itself "credible risk of folding" — no layoffs or filings reported. Runway unconfirmed. Does not auto-kill; scored with elevated risk instead. |
-| Corrowine, Sable Point | All gates | PASS | No disqualifying evidence supplied. |
+| Candidate              | Gate                                                 | Result               | Evidence                                                                                                                                                                                              |
+| ---------------------- | ---------------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Askerton               | Legal/antitrust exposure + Gomes-Casseres three-laws | **FAIL**             | Acquired by a direct competitor (March). Continuing exposes roadmap/data to that competitor's new parent; the alliance can no longer "operationally act as one" on either side's terms.               |
+| Firthwell              | Financial viability                                  | **CONDITIONAL PASS** | Down round (May) raises fold/fire-sale risk but is not itself "credible risk of folding" — no layoffs or filings reported. Runway unconfirmed. Does not auto-kill; scored with elevated risk instead. |
+| Corrowine, Sable Point | All gates                                            | PASS                 | No disqualifying evidence supplied.                                                                                                                                                                   |
 
 Askerton is removed here. It does not enter the scorecard — a strong prior-year rationale cannot buy back a gate.
 
@@ -21,29 +21,29 @@ Askerton is removed here. It does not enter the scorecard — a strong prior-yea
 
 Criteria set: complementarity-led (compounding portfolio, re-run annually). 5 criteria — overlap/reach criteria deleted outright, no licensed overlap data exists.
 
-| Criterion | Weight | One-line justification |
-|---|---|---|
-| Resource complementarity | 25% | Peer-reviewed anchor construct; unchanged evidence, carried at prior level. |
-| Organizational compatibility | 20% | Same anchor construct; Askerton's changed (hence its gate fail), others didn't. |
-| Strategic-goal fit | 15% | Carried over; no new goal statement supplied this cycle. |
-| Joint-value-prop strength (proof of shipped value) | 20% | Raised above the usual default this cycle because it's exactly what separated the three candidates — Corrowine proved it, Sable Point didn't attempt it. |
-| Alliance readiness (counterparty capability/engagement) | 20% | Raised for the same reason — this is the field's single best-validated success driver (Kale, Dyer & Singh 2002: 63% vs 50% success with a dedicated function/process), and this cycle's spread is a readiness story, not a strategy story. |
+| Criterion                                               | Weight | One-line justification                                                                                                                                                                                                                     |
+| ------------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Resource complementarity                                | 25%    | Peer-reviewed anchor construct; unchanged evidence, carried at prior level.                                                                                                                                                                |
+| Organizational compatibility                            | 20%    | Same anchor construct; Askerton's changed (hence its gate fail), others didn't.                                                                                                                                                            |
+| Strategic-goal fit                                      | 15%    | Carried over; no new goal statement supplied this cycle.                                                                                                                                                                                   |
+| Joint-value-prop strength (proof of shipped value)      | 20%    | Raised above the usual default this cycle because it's exactly what separated the three candidates — Corrowine proved it, Sable Point didn't attempt it.                                                                                   |
+| Alliance readiness (counterparty capability/engagement) | 20%    | Raised for the same reason — this is the field's single best-validated success driver (Kale, Dyer & Singh 2002: 63% vs 50% success with a dedicated function/process), and this cycle's spread is a readiness story, not a strategy story. |
 
 **Scores (1–5, evidence cited; carryover scores flagged)**
 
-| Candidate | Complementarity | Compatibility | Goal fit | JVP proof | Readiness | Composite |
-|---|---|---|---|---|---|---|
-| Corrowine | 4 (carryover) | 4 (carryover) | 4 (carryover) | **5** — shipped integration, 11 sourced opportunities | **5** — delivered on time, actively sourcing | **4.4** |
-| Firthwell | 3 (carryover) | 3 (carryover) | 3 (carryover) | 2 (guess — no delivery status supplied) | 2 (guess — no engagement status supplied) | **2.6** |
-| Sable Point | 3 (carryover) | 3 (carryover) | 3 (carryover) | **1** — shipped nothing in 12 months | **1** — named PM unresponsive, counterparty function effectively absent | **2.2** |
+| Candidate   | Complementarity | Compatibility | Goal fit      | JVP proof                                             | Readiness                                                               | Composite |
+| ----------- | --------------- | ------------- | ------------- | ----------------------------------------------------- | ----------------------------------------------------------------------- | --------- |
+| Corrowine   | 4 (carryover)   | 4 (carryover) | 4 (carryover) | **5** — shipped integration, 11 sourced opportunities | **5** — delivered on time, actively sourcing                            | **4.4**   |
+| Firthwell   | 3 (carryover)   | 3 (carryover) | 3 (carryover) | 2 (guess — no delivery status supplied)               | 2 (guess — no engagement status supplied)                               | **2.6**   |
+| Sable Point | 3 (carryover)   | 3 (carryover) | 3 (carryover) | **1** — shipped nothing in 12 months                  | **1** — named PM unresponsive, counterparty function effectively absent | **2.2**   |
 
 **Effort (mgr-months/yr, placeholder) and value ÷ effort**
 
-| Candidate | Effort (assumed) | Value ÷ effort | Risk composite |
-|---|---|---|---|
-| Corrowine | 3 (steady-state, post-shipment) | **1.47** | Low (delivered, responsive) |
-| Firthwell | 4 (still pre-integration) | 0.65 | **Financial: elevated** (down round, runway unconfirmed). Relational/performance risk unscored — no delivery data. |
-| Sable Point | 4 (still pre-integration) | 0.55 | **High relational** (counterparty disengaged) + **high performance** (zero delivery) — per Das & Teng, high on both is a kill or a small staged pilot, never a flagship bet. |
+| Candidate   | Effort (assumed)                | Value ÷ effort | Risk composite                                                                                                                                                               |
+| ----------- | ------------------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Corrowine   | 3 (steady-state, post-shipment) | **1.47**       | Low (delivered, responsive)                                                                                                                                                  |
+| Firthwell   | 4 (still pre-integration)       | 0.65           | **Financial: elevated** (down round, runway unconfirmed). Relational/performance risk unscored — no delivery data.                                                           |
+| Sable Point | 4 (still pre-integration)       | 0.55           | **High relational** (counterparty disengaged) + **high performance** (zero delivery) — per Das & Teng, high on both is a kill or a small staged pilot, never a flagship bet. |
 
 ## Sensitivity (±20% each weight, one at a time)
 
@@ -57,18 +57,18 @@ Criteria set: complementarity-led (compounding portfolio, re-run annually). 5 cr
 
 ## Ranking and verdicts
 
-| Rank | Candidate | Verdict | Reasoning | First-value milestone / gate date |
-|---|---|---|---|---|
-| 1 | **Corrowine** | **GO** | Only candidate proving value ÷ effort and readiness this cycle. | Next-quarter opportunity conversion checkpoint — ~Dec 2026, owner: incumbent alliance manager. |
-| 2 | **Firthwell** | **CONDITIONAL-GO** | Down round doesn't meet the auto-kill bar, but funding this un-rechecked would trade a gate concern against a mediocre composite. | Condition: confirmed 12+ month runway or a closed bridge/next round, 30-day deadline (~Oct 2026), owner: alliance manager. |
-| 3 | **Sable Point** | **RECYCLE** | Zero shipped value in 12 months plus an unresponsive counterpart is a readiness failure, but not proof the relationship is unrecoverable. | Gap named: no responsive named owner, no dated delivery commitment. Re-entry trigger: new named PM engaged AND a dated delivery commitment within 60 days — else downgrade to kill at next review. |
-| — | **Askerton** | **KILL** (gate) | Now owned by a direct competitor; no score could override this. | No re-entry trigger while the acquirer remains a competitor. |
+| Rank | Candidate       | Verdict            | Reasoning                                                                                                                                 | First-value milestone / gate date                                                                                                                                                                  |
+| ---- | --------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | **Corrowine**   | **GO**             | Only candidate proving value ÷ effort and readiness this cycle.                                                                           | Next-quarter opportunity conversion checkpoint — ~Dec 2026, owner: incumbent alliance manager.                                                                                                     |
+| 2    | **Firthwell**   | **CONDITIONAL-GO** | Down round doesn't meet the auto-kill bar, but funding this un-rechecked would trade a gate concern against a mediocre composite.         | Condition: confirmed 12+ month runway or a closed bridge/next round, 30-day deadline (~Oct 2026), owner: alliance manager.                                                                         |
+| 3    | **Sable Point** | **RECYCLE**        | Zero shipped value in 12 months plus an unresponsive counterpart is a readiness failure, but not proof the relationship is unrecoverable. | Gap named: no responsive named owner, no dated delivery commitment. Re-entry trigger: new named PM engaged AND a dated delivery commitment within 60 days — else downgrade to kill at next review. |
+| —    | **Askerton**    | **KILL** (gate)    | Now owned by a direct competitor; no score could override this.                                                                           | No re-entry trigger while the acquirer remains a competitor.                                                                                                                                       |
 
 Shortlist fits the assumed capacity of 3 (2 funded slots used, 1 open — see Open Questions on where it should go).
 
 ## Below the line — the regret entry
 
-**Pennard Tech** (held last year) signed with your closest competitor in June and is reportedly performing well. This is the skill's own "regret log" KPI landing directly on your desk: *the only honest test of the cut line, and it's painful by design.* Two live possibilities, not mutually exclusive:
+**Pennard Tech** (held last year) signed with your closest competitor in June and is reportedly performing well. This is the skill's own "regret log" KPI landing directly on your desk: _the only honest test of the cut line, and it's painful by design._ Two live possibilities, not mutually exclusive:
 
 - Pennard Tech's original hold carried no dated re-entry trigger — the documented failure mode where **"a hold with no trigger is a slow kill nobody admitted to."**
 - Alliance-readiness/JVP were underweighted in last year's scorecard relative to what actually predicted outcomes this cycle (see the weight bump above).

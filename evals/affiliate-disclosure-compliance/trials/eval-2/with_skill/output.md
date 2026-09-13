@@ -9,30 +9,30 @@ This is a compliance review against published regulator rules, not legal advice.
 You're citing the right case for the wrong fact pattern. The BGH ruling (I ZR 90/20, 125/20, 126/20) draws exactly one line, and it cuts against you:
 
 - **Unpaid self-promotion** on a manifestly commercial account → no Werbung label needed.
-- **Paid third-party promotion** → must *always* be disclosed, "however obviously commercial the account looks."
+- **Paid third-party promotion** → must _always_ be disclosed, "however obviously commercial the account looks."
 
-Jonas isn't promoting his own thing. He's promoting Klarvault's product, and he received consideration from Klarvault to do it — a free 12-month Pro licence worth €180. Under UWG §5a(4), consideration from a third party is *presumed* once given; the poster carries the burden of showing none was received or promised. Here it was affirmatively given, so there's nothing to rebut. That places this squarely in the "paid third-party promotion" bucket the BGH says must be labelled regardless of how commercial his channel looks. "No contract" is irrelevant — a gift is not an exemption; the material-connection trigger is the free product itself, not a contractual obligation to post.
+Jonas isn't promoting his own thing. He's promoting Klarvault's product, and he received consideration from Klarvault to do it — a free 12-month Pro licence worth €180. Under UWG §5a(4), consideration from a third party is _presumed_ once given; the poster carries the burden of showing none was received or promised. Here it was affirmatively given, so there's nothing to rebut. That places this squarely in the "paid third-party promotion" bucket the BGH says must be labelled regardless of how commercial his channel looks. "No contract" is irrelevant — a gift is not an exemption; the material-connection trigger is the free product itself, not a contractual obligation to post.
 
 ### Claim 2 — "B2B audience, so consumer rules don't bite"
 
-Wrong specifically for Germany. UWG §5a(4) protects consumers *and* "other market participants" by its own text — unlike the UCPD/CMA instruments, which are consumer-only and where a B2B carve-out is at least arguable `[COUNSEL: B2B applicability outside Germany, e.g. if a meaningful Austrian/Swiss audience share exists]`. In Germany there's no B2B exemption to reach for. The commercial-purpose disclosure duty applies to this video regardless of who's in the audience.
+Wrong specifically for Germany. UWG §5a(4) protects consumers _and_ "other market participants" by its own text — unlike the UCPD/CMA instruments, which are consumer-only and where a B2B carve-out is at least arguable `[COUNSEL: B2B applicability outside Germany, e.g. if a meaningful Austrian/Swiss audience share exists]`. In Germany there's no B2B exemption to reach for. The commercial-purpose disclosure duty applies to this video regardless of who's in the audience.
 
 ### Six-layer check
 
-| Layer | Verdict | Evidence | Rule | Fix |
-|---|---|---|---|---|
-| Presence | FAIL | "put nothing about the licence anywhere" | UWG §5a(4) — gift is a material connection, not an exemption | Disclose the licence in the video |
-| Wording | FAIL | N/A — nothing exists to grade | — | See ready line below |
-| Placement (long-form video) | FAIL | No in-video mention reported | Format-placement rule: in-video disclosure at start, spoken + on-screen; description-only fails | Add spoken line + on-screen overlay in the first ~30 seconds |
-| Truncation/portability | Not assessable | No transcript/URL provided | — | Verify once fixed: overlay must survive clips/embeds |
-| Jurisdiction overlay (Germany) | FAIL | Free licence = presumed consideration, unrebutted | UWG §5a(4); BGH 9 Sept 2021 | Label as "Anzeige"/"Werbung" |
-| B2B applicability | FAIL as exemption | Audience claimed as B2B | UWG expressly covers "other market participants" | No B2B carve-out available in Germany |
+| Layer                          | Verdict           | Evidence                                          | Rule                                                                                            | Fix                                                          |
+| ------------------------------ | ----------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Presence                       | FAIL              | "put nothing about the licence anywhere"          | UWG §5a(4) — gift is a material connection, not an exemption                                    | Disclose the licence in the video                            |
+| Wording                        | FAIL              | N/A — nothing exists to grade                     | —                                                                                               | See ready line below                                         |
+| Placement (long-form video)    | FAIL              | No in-video mention reported                      | Format-placement rule: in-video disclosure at start, spoken + on-screen; description-only fails | Add spoken line + on-screen overlay in the first ~30 seconds |
+| Truncation/portability         | Not assessable    | No transcript/URL provided                        | —                                                                                               | Verify once fixed: overlay must survive clips/embeds         |
+| Jurisdiction overlay (Germany) | FAIL              | Free licence = presumed consideration, unrebutted | UWG §5a(4); BGH 9 Sept 2021                                                                     | Label as "Anzeige"/"Werbung"                                 |
+| B2B applicability              | FAIL as exemption | Audience claimed as B2B                           | UWG expressly covers "other market participants"                                                | No B2B carve-out available in Germany                        |
 
 **Overall: FAIL.** Not `[COUNSEL]`-gated — this one isn't genuinely unsettled on the German-law question you asked about.
 
 ### Ready-to-paste fix
 
-Spoken + on-screen, in the first 30 seconds: *"Anzeige – Klarvault hat mir für dieses Video eine kostenlose 12-Monats-Pro-Lizenz zur Verfügung gestellt."* Also drop the same line at the top of the video description, since description-only never substitutes for in-video disclosure but should still carry it for portability (clips, embeds, search snippets).
+Spoken + on-screen, in the first 30 seconds: _"Anzeige – Klarvault hat mir für dieses Video eine kostenlose 12-Monats-Pro-Lizenz zur Verfügung gestellt."_ Also drop the same line at the top of the video description, since description-only never substitutes for in-video disclosure but should still carry it for portability (clips, embeds, search snippets).
 
 ### Remediation (already live)
 

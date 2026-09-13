@@ -2,7 +2,7 @@
 
 ## What actually broke last time
 
-The scorecard didn't fail on math — it failed on sequencing. Weights were set (by you, alone) *after* you already had a point of view on the ranking, then presented as a finished number. The CRO couldn't tell whether "integration depth" outweighed "account overlap" because you believed it or because the room had agreed to it. Once someone can plausibly say "made up," 90 minutes of argument is the correct outcome, not a malfunction.
+The scorecard didn't fail on math — it failed on sequencing. Weights were set (by you, alone) _after_ you already had a point of view on the ranking, then presented as a finished number. The CRO couldn't tell whether "integration depth" outweighed "account overlap" because you believed it or because the room had agreed to it. Once someone can plausibly say "made up," 90 minutes of argument is the correct outcome, not a malfunction.
 
 Two things need fixing before candidate 8 (this quarter, then every quarter after):
 
@@ -15,9 +15,9 @@ Everything below separates those two steps and makes the weighting step itself d
 
 ## Step 0 — Pin the objective sentence (15 min, async, before anything else)
 
-Before criteria, before weights: get one sentence signed off — what is this hire supposed to do for the FY plan? "Alliance manager who expands ARR through existing accounts" and "alliance manager who opens new logos through partner co-sell" produce *legitimately different* weightings on integration depth vs. account overlap. Part of last quarter's fight may have been two people optimizing for different objectives without realizing it.
+Before criteria, before weights: get one sentence signed off — what is this hire supposed to do for the FY plan? "Alliance manager who expands ARR through existing accounts" and "alliance manager who opens new logos through partner co-sell" produce _legitimately different_ weightings on integration depth vs. account overlap. Part of last quarter's fight may have been two people optimizing for different objectives without realizing it.
 
-**Action:** send the CRO + committee one sentence: *"For these 4 hires, we are optimizing for: ___."* Get explicit agreement or edits before Step 1. Do not proceed without this.
+**Action:** send the CRO + committee one sentence: _"For these 4 hires, we are optimizing for: \___."_ Get explicit agreement or edits before Step 1. Do not proceed without this.
 
 ---
 
@@ -25,10 +25,10 @@ Before criteria, before weights: get one sentence signed off — what is this hi
 
 Vague criteria are what let "made up" stick. Every criterion needs a definition anyone could score the same way independently. Draft (adjust to your real list — you mentioned at least these two):
 
-| Criterion | Definition | Observable evidence |
-|---|---|---|
-| Integration depth | Technical/co-sell infrastructure already live between the two orgs | # of live API integrations, joint deal desk existing (Y/N), co-sell motion documented, months since last joint GTM activity |
-| Account overlap | Overlap between the alliance's customer base and our target segment | % of their top-200 accounts matching our ICP list, # of shared existing customers, overlap direction (expansion vs. cannibalization risk) |
+| Criterion         | Definition                                                          | Observable evidence                                                                                                                       |
+| ----------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Integration depth | Technical/co-sell infrastructure already live between the two orgs  | # of live API integrations, joint deal desk existing (Y/N), co-sell motion documented, months since last joint GTM activity               |
+| Account overlap   | Overlap between the alliance's customer base and our target segment | % of their top-200 accounts matching our ICP list, # of shared existing customers, overlap direction (expansion vs. cannibalization risk) |
 
 Do this for every criterion in the scorecard (likely 5-7 total). If a criterion can't be given an observable indicator, it's an opinion wearing a criterion's clothes — cut it or merge it.
 
@@ -65,6 +65,7 @@ Whoever fills this in should ideally not be you alone — split across 2 people 
 ## Step 5 — Sensitivity analysis (this is what actually stops the re-open)
 
 Before the meeting, run the ranking under:
+
 - The locked weights.
 - ±20% perturbation on each weight, one at a time.
 - Each individual committee member's own weights (not just the aggregate).
@@ -76,6 +77,7 @@ Report: **which candidates are in the top 4 under every one of these scenarios (
 ## Step 6 — The meeting itself (re-run, 6 weeks out)
 
 Agenda, in order, time-boxed:
+
 1. Reconfirm Step 0 objective sentence (2 min — usually a formality, occasionally not).
 2. Resolve the named weight disagreements from Step 3 (10-15 min, hard cap).
 3. Present locked weights + sensitivity summary — stable top-4, contested seat(s) if any (5 min).
@@ -92,4 +94,4 @@ Nothing about criteria or weights should be discussed after step 2 closes. If so
 - **Version the scorecard.** One doc: objective sentence, criteria + indicators, locked weights with the pairwise data behind them, consistency ratios, scoring rubric anchors. Every future portfolio review starts from this doc and only touches Step 4 (score new candidates) unless weighting was explicitly reopened.
 - **Keep the disagreement log.** Each cycle, log who disagreed on what and how it was resolved. After 2-3 cycles this becomes the strongest evidence that the process — not any one person's preference — is producing the ranking.
 
-The core shift: last quarter, the scorecard was *your* argument that the committee could accept or reject. This version is *the committee's* argument (specifically, provably including the CRO's own stated judgments) that you're just running the math on. That's what a CRO can't call "made up" a second time — they'd be objecting to their own pairwise answers.
+The core shift: last quarter, the scorecard was _your_ argument that the committee could accept or reject. This version is _the committee's_ argument (specifically, provably including the CRO's own stated judgments) that you're just running the math on. That's what a CRO can't call "made up" a second time — they'd be objecting to their own pairwise answers.

@@ -10,12 +10,12 @@ SaaS ceiling      = 5-15% of revenue LTV, never >30-40% of gross-profit LTV
 Blended CAC       = $740
 ```
 
-| Structure | Total paid/customer (12-mo cap) | % of revenue LTV | % of gross-profit LTV | vs $740 CAC |
-|---|---|---|---|---|
-| **Current: 20% × 12mo** | $477.60 | 12.0% | 15.2% | 64.5% |
-| **Proposed: 35% × 12mo** | $835.80 | **21.0% — fails 15% ceiling** | 26.6% (passes alone) | **113% — exceeds CAC before any incrementality discount** |
+| Structure                | Total paid/customer (12-mo cap) | % of revenue LTV              | % of gross-profit LTV | vs $740 CAC                                               |
+| ------------------------ | ------------------------------- | ----------------------------- | --------------------- | --------------------------------------------------------- |
+| **Current: 20% × 12mo**  | $477.60                         | 12.0%                         | 15.2%                 | 64.5%                                                     |
+| **Proposed: 35% × 12mo** | $835.80                         | **21.0% — fails 15% ceiling** | 26.6% (passes alone)  | **113% — exceeds CAC before any incrementality discount** |
 
-35% fails on two legs at once: it blows the LTV ceiling by 40%, and it costs more than the full blended CAC per customer *before* discounting for non-incremental affiliates (coupon/cashback-style partners capture credit on demand others already created — the real cost per *incremental* customer only goes up from $835.80, never down). The fact that it clears the gross-margin leg alone doesn't save it; the gate needs both legs to hold, and it doesn't. This is the exact "match the market" trap — a rate copied from a competitor's headline instead of derived from your own contribution economics, and the kind of move that reads fine on launch day and shows up as a loss only once it's been running a quarter.
+35% fails on two legs at once: it blows the LTV ceiling by 40%, and it costs more than the full blended CAC per customer _before_ discounting for non-incremental affiliates (coupon/cashback-style partners capture credit on demand others already created — the real cost per _incremental_ customer only goes up from $835.80, never down). The fact that it clears the gross-margin leg alone doesn't save it; the gate needs both legs to hold, and it doesn't. This is the exact "match the market" trap — a rate copied from a competitor's headline instead of derived from your own contribution economics, and the kind of move that reads fine on launch day and shows up as a loss only once it's been running a quarter.
 
 ## The real problem isn't the rate
 
@@ -75,7 +75,7 @@ KPIs              : cost per incremental affiliate customer vs $740 CAC; effecti
 1. **60 days' notice** before the new rate takes effect — do not change it silently.
 2. **Lead with what stays the same**: still a recurring revenue-share model, still a 12-month cap, still net-30/$50 threshold/clawback terms unchanged.
 3. **Phase communication top-producers-first**: reach out directly to the 11 affiliates who converted last quarter before the broadcast email — for every one of them, the new structure pays strictly more than today's flat 20% ($573.12 vs $477.60 over 12 months), so this is an easy conversation, not a defensive one.
-4. **No grandfathering needed on economics** — the new rate beats the old rate for every existing affiliate. Grandfather only if any partner has a *custom* rate above 30% already negotiated; none indicated in the brief.
+4. **No grandfathering needed on economics** — the new rate beats the old rate for every existing affiliate. Grandfather only if any partner has a _custom_ rate above 30% already negotiated; none indicated in the brief.
 5. **Broadcast to the full 412** after the top-producer calls, paired with the activation push — this is also the moment to re-engage the 401 who've never converted, since a rate announcement is a legitimate reason to re-open contact with a dormant partner base.
 
 ## Announcement (affiliate-facing)

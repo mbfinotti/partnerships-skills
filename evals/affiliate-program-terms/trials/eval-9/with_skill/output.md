@@ -1,10 +1,10 @@
 This deliverable is one section of a larger required document (Section 7, per the skill's Output Shape) — I'm drafting only what you asked for, not running the full agreement. Two things up front, per the skill I'm following (`affiliate-program-terms`):
 
-> *This will be a draft for review by qualified counsel, not legal advice. Program terms are legally binding.*
+> _This will be a draft for review by qualified counsel, not legal advice. Program terms are legally binding._
 
 And I'm not writing the line you proposed. Not a style call — three separate facts your framing gets wrong:
 
-- **"No fine attached" is true of the Endorsement Guides but false of what actually applies to you.** The FTC Reviews and Testimonials Rule (16 CFR Part 465, effective Oct 2024) is binding and penalty-bearing — civil penalties in the low-$50k range *per violation*, no warning notice required first. It specifically bans undisclosed insider reviews and incentivized-sentiment reviews. You have ~60 affiliates publishing written reviews — this rule was written for exactly that population. It isn't guidance you can wave off; it's a live exposure with a specific dollar number.
+- **"No fine attached" is true of the Endorsement Guides but false of what actually applies to you.** The FTC Reviews and Testimonials Rule (16 CFR Part 465, effective Oct 2024) is binding and penalty-bearing — civil penalties in the low-$50k range _per violation_, no warning notice required first. It specifically bans undisclosed insider reviews and incentivized-sentiment reviews. You have ~60 affiliates publishing written reviews — this rule was written for exactly that population. It isn't guidance you can wave off; it's a live exposure with a specific dollar number.
 - **UK is separate and also not "just guidance."** The ASA/CAP Code requires an "Ad" label specifically — "affiliate," "gifted," "spon" are on record as insufficient. The CMA now has direct enforcement power under the DMCC Act 2024, with fines up to 10% of global turnover, and undisclosed advertising is a stated enforcement priority.
 - **"Comply with applicable advertising laws" gives affiliates no actionable standard**, and under FTC guidance the advertiser — you — is responsible for affiliates' disclosure failures. A clause that doesn't define "clear and conspicuous," doesn't give you an audit/takedown right, and doesn't say what a reviewer must do differently, protects nobody and gives you no lever when an affiliate gets it wrong.
 

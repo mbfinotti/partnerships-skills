@@ -14,13 +14,13 @@ The validation hold exists to cover the window in which a sale can still unwind:
 
 ## New payout terms
 
-| Term | Old | New | Why |
-|---|---|---|---|
-| Validation hold | 60 days | **Return window + 10 days** (placeholder: 30 → 40 days if return window is 30d) | Must stay ≥ return/chargeback window. Only shrink if the real return window is shorter than 50 days — confirm before publishing. |
-| Payment terms | Net-45 | **Net-15** after validation clears | This is the actual lever for "money moves faster" — cuts total latency without reopening clawback risk. |
-| Minimum payout threshold | $250 | **$100** | $250 disproportionately hurts mid-size affiliates (the segment that just left) by making them wait multiple cycles to clear the floor. |
-| Payout frequency | Monthly | **Bi-weekly payout runs** | Once validation clears, don't batch into one monthly run — shortens the average wait further at no fraud-exposure cost. |
-| Fast-track tier (new) | — | Affiliates with 6+ months history and a return/chargeback rate below program average get hold cut to **return window + 3 days** | Rewards proven low-risk affiliates directly instead of loosening the policy for everyone, including new/unvetted accounts. |
+| Term                     | Old     | New                                                                                                                             | Why                                                                                                                                    |
+| ------------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Validation hold          | 60 days | **Return window + 10 days** (placeholder: 30 → 40 days if return window is 30d)                                                 | Must stay ≥ return/chargeback window. Only shrink if the real return window is shorter than 50 days — confirm before publishing.       |
+| Payment terms            | Net-45  | **Net-15** after validation clears                                                                                              | This is the actual lever for "money moves faster" — cuts total latency without reopening clawback risk.                                |
+| Minimum payout threshold | $250    | **$100**                                                                                                                        | $250 disproportionately hurts mid-size affiliates (the segment that just left) by making them wait multiple cycles to clear the floor. |
+| Payout frequency         | Monthly | **Bi-weekly payout runs**                                                                                                       | Once validation clears, don't batch into one monthly run — shortens the average wait further at no fraud-exposure cost.                |
+| Fast-track tier (new)    | —       | Affiliates with 6+ months history and a return/chargeback rate below program average get hold cut to **return window + 3 days** | Rewards proven low-risk affiliates directly instead of loosening the policy for everyone, including new/unvetted accounts.             |
 
 **Net effect vs. today:** total time from sale to cash drops from ~105 days (60 + 45) to roughly ~55 days (40 + 15) for standard affiliates, and further for the fast-track tier — without shortening the hold below the return/chargeback exposure window.
 

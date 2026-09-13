@@ -6,9 +6,9 @@ Run 7 of 12 gates in full, run 3 more in a cut-down form, skip 2 entirely. The r
 
 ## Three things reshaping the standard sequence
 
-- **Hard Thursday release, Tuesday afternoon start** → drop full-population *script* recompute (you don't have it anyway), keep everything cheap-and-high-value.
-- **Spreadsheets only, no scripts** → deletes nothing from gate 7 itself. A helper-column formula applied to all 1,930 rows *is* full-population coverage — it's just Excel/Sheets, not a script. Use it.
-- **Nobody in finance before Thursday** → deletes *direct recovery* as a remediation option this run (no legal/finance sign-off available), and forces a workaround on maker-checker (see below). It does **not** delete the checker requirement itself.
+- **Hard Thursday release, Tuesday afternoon start** → drop full-population _script_ recompute (you don't have it anyway), keep everything cheap-and-high-value.
+- **Spreadsheets only, no scripts** → deletes nothing from gate 7 itself. A helper-column formula applied to all 1,930 rows _is_ full-population coverage — it's just Excel/Sheets, not a script. Use it.
+- **Nobody in finance before Thursday** → deletes _direct recovery_ as a remediation option this run (no legal/finance sign-off available), and forces a workaround on maker-checker (see below). It does **not** delete the checker requirement itself.
 
 ## Before touching a single row (15 min, non-negotiable)
 
@@ -23,15 +23,15 @@ If you genuinely can't get answers to #1 and #2 in the next 15 minutes, that alo
 
 ## Run in full
 
-| Gate | What you actually do in a spreadsheet | Time |
-|---|---|---|
-| 1. Freeze scope | Write down run ID, period (half-open: `2026-04-15 <= t < 2026-05-15`), timezone, date basis, currency, materiality, both source files. | 10 min |
-| 2–3. Pull + comparability | Load network export + internal source-of-truth extract for the same window. Before summing anything, confirm both use the same event definition, date basis, timezone, currency, counting method. If the network export defaults to validation date, re-pull on transaction date — don't hand-adjust. | 20 min |
-| 4–5. Reconcile + exceptions | `SUMIFS`/`COUNTIFS` totals, network vs source of truth. Any gap → line-by-line, never "close enough." Build the exception queue with `COUNTIF`/`VLOOKUP` on order/transaction ID: in-network-not-in-billing = hold (over-credit risk); in-billing-not-in-network = expect a dispute, decide credit policy explicitly. | 45 min |
-| 6. Dedupe | `COUNTIF` on the transaction ID column, flag >1. Quarantine blanks/malformed IDs rather than letting them collapse silently. If you can get last run's key list, `MATCH` against it to catch period-straddle double-pay; if you can't export that, note it as an unchecked limitation, don't skip the in-run dedupe. | 20 min |
-| **7. Rate/tier recompute** | **See below — this is the core of the 6 hours.** | ~2.5 hrs |
-| 9. Tax forms | `VLOOKUP` every payee against your tax-form status list. Missing/expired W-9 or W-8BEN = payee-level blocker, hold that payee regardless of everything else. This is cheap and the compliance cost of skipping it is disproportionate. | 20 min |
-| 11–12. Report + sign-off | See templates below. | 45 min |
+| Gate                        | What you actually do in a spreadsheet                                                                                                                                                                                                                                                                                 | Time     |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 1. Freeze scope             | Write down run ID, period (half-open: `2026-04-15 <= t < 2026-05-15`), timezone, date basis, currency, materiality, both source files.                                                                                                                                                                                | 10 min   |
+| 2–3. Pull + comparability   | Load network export + internal source-of-truth extract for the same window. Before summing anything, confirm both use the same event definition, date basis, timezone, currency, counting method. If the network export defaults to validation date, re-pull on transaction date — don't hand-adjust.                 | 20 min   |
+| 4–5. Reconcile + exceptions | `SUMIFS`/`COUNTIFS` totals, network vs source of truth. Any gap → line-by-line, never "close enough." Build the exception queue with `COUNTIF`/`VLOOKUP` on order/transaction ID: in-network-not-in-billing = hold (over-credit risk); in-billing-not-in-network = expect a dispute, decide credit policy explicitly. | 45 min   |
+| 6. Dedupe                   | `COUNTIF` on the transaction ID column, flag >1. Quarantine blanks/malformed IDs rather than letting them collapse silently. If you can get last run's key list, `MATCH` against it to catch period-straddle double-pay; if you can't export that, note it as an unchecked limitation, don't skip the in-run dedupe.  | 20 min   |
+| **7. Rate/tier recompute**  | **See below — this is the core of the 6 hours.**                                                                                                                                                                                                                                                                      | ~2.5 hrs |
+| 9. Tax forms                | `VLOOKUP` every payee against your tax-form status list. Missing/expired W-9 or W-8BEN = payee-level blocker, hold that payee regardless of everything else. This is cheap and the compliance cost of skipping it is disproportionate.                                                                                | 20 min   |
+| 11–12. Report + sign-off    | See templates below.                                                                                                                                                                                                                                                                                                  | 45 min   |
 
 ## Run cut-down
 
@@ -49,7 +49,7 @@ If you genuinely can't get answers to #1 and #2 in the next 15 minutes, that alo
 
 ## Gate 7 in detail — the part that actually decides this run
 
-The trigger for promoting this gate is explicit: *the structure changed mid-period.* Every line dated 15 Apr–30 Apr owes flat 12%. Every line dated 1 May–15 May owes the tiered card, computed on **that partner's post-1-May volume only** — not their volume for the whole 15 Apr–15 May window. If the export or the payout tool computed tiers against the full-period volume, every partner who did any business before 1 May got their tier boundary pushed by pre-change revenue that was never supposed to count toward it. That's the failure mode to hunt for first.
+The trigger for promoting this gate is explicit: _the structure changed mid-period._ Every line dated 15 Apr–30 Apr owes flat 12%. Every line dated 1 May–15 May owes the tiered card, computed on **that partner's post-1-May volume only** — not their volume for the whole 15 Apr–15 May window. If the export or the payout tool computed tiers against the full-period volume, every partner who did any business before 1 May got their tier boundary pushed by pre-change revenue that was never supposed to count toward it. That's the failure mode to hunt for first.
 
 Build these helper columns and fill down across all 1,930 rows:
 

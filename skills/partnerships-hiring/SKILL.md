@@ -87,16 +87,16 @@ Score the artefacts against these checks before final delivery. Iterate until ev
 
 Not ranked, deliberately: every row is a defect with one mandatory fix.
 
-| Failure | Fix |
-| --- | --- |
-| "Wearing many hats" posting with no ownership boundary or stated path | State the numeric time-split across the role's components, or the ownership boundary, explicitly |
-| Buzzword hybrid title with no primary metric | Name the funding motion and the one metric the role is measured on |
-| Copying an enterprise alliance-manager scorecard for a startup generalist hire | Recalibrate against company type before reusing any prior scorecard |
-| Applying the channel-manager loop to an affiliate or influencer hire | Build the loop from that role's own outcome metrics instead |
-| Vague compensation, no range, no reason | Publish a range sourced to a named benchmark, or state explicitly why it's gated |
-| Undecided attribution model for variable pay | Decide sourced/influenced/attached/delivered before publishing the posting |
-| Sourcing externally first for a first dedicated hire | Check the sales/BD org for someone already doing the work informally |
-| Quoting one blended salary figure as market rate | Present a range with source and population, or check the field-specific database live |
+| Failure                                                                        | Fix                                                                                              |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| "Wearing many hats" posting with no ownership boundary or stated path          | State the numeric time-split across the role's components, or the ownership boundary, explicitly |
+| Buzzword hybrid title with no primary metric                                   | Name the funding motion and the one metric the role is measured on                               |
+| Copying an enterprise alliance-manager scorecard for a startup generalist hire | Recalibrate against company type before reusing any prior scorecard                              |
+| Applying the channel-manager loop to an affiliate or influencer hire           | Build the loop from that role's own outcome metrics instead                                      |
+| Vague compensation, no range, no reason                                        | Publish a range sourced to a named benchmark, or state explicitly why it's gated                 |
+| Undecided attribution model for variable pay                                   | Decide sourced/influenced/attached/delivered before publishing the posting                       |
+| Sourcing externally first for a first dedicated hire                           | Check the sales/BD org for someone already doing the work informally                             |
+| Quoting one blended salary figure as market rate                               | Present a range with source and population, or check the field-specific database live            |
 
 ## Reference
 

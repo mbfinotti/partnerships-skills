@@ -63,13 +63,13 @@ Fill-ins you still owe me: sender name/email, one real conversion proof point (r
 
 ### Sequence (5-touch default, ~4 weeks)
 
-| Touch | Day | Channel | Angle | Content |
-|---|---|---|---|---|
-| 1 | 0 | Email | Fit + economics | Template above |
-| 2 | 3–7 | Email, same thread | Resurface | "Did this reach you? Happy to answer anything." — 1-2 sentences, nothing restated |
-| 3 | 7–14 | LinkedIn DM | Proof | One conversion stat withheld from touch 1, <300 chars, no link |
-| 4 | 14–21 | Email | Ease | Pre-filled application + a ready-made comparison one-pager for their next roundup update |
-| 5 | 21–28 | Email | Breakup | "Planning to close your file — if the timing's off, say the word and I'll circle back next quarter." Then honor it. |
+| Touch | Day   | Channel            | Angle           | Content                                                                                                             |
+| ----- | ----- | ------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------- |
+| 1     | 0     | Email              | Fit + economics | Template above                                                                                                      |
+| 2     | 3–7   | Email, same thread | Resurface       | "Did this reach you? Happy to answer anything." — 1-2 sentences, nothing restated                                   |
+| 3     | 7–14  | LinkedIn DM        | Proof           | One conversion stat withheld from touch 1, <300 chars, no link                                                      |
+| 4     | 14–21 | Email              | Ease            | Pre-filled application + a ready-made comparison one-pager for their next roundup update                            |
+| 5     | 21–28 | Email              | Breakup         | "Planning to close your file — if the timing's off, say the word and I'll circle back next quarter." Then honor it. |
 
 Stop immediately on reply, opt-out, or bounce, on every touch.
 

@@ -24,18 +24,18 @@ Header
 
 **Metrics**
 
-| Metric | Definition (formula · window · counting method) | Tier | Source | Decision it drives | Target | Alert |
-|---|---|---|---|---|---|---|
-| **Net program contribution** | Attributed net billing revenue from partner-sourced accounts − (validated commission + network platform fee + agency fee, if any), monthly, validated-only | Business (floor) | Billing | Is the program profitable — the CFO's actual question | > $0, growing | 2 consecutive down months |
-| **Cost of sale** | (validated commission + network fee + agency fee + bonuses) / attributed net revenue, monthly | Business (floor) | Billing | Whether commission rate/cap is sustainable | Own baseline [DERIVE] | > baseline + 5pt |
-| **Top-5 / top-10% partner concentration** | Revenue from top-5 (and top-decile) active partners / total validated program revenue, quarterly | Business (floor) | Billing | Whether the program can survive losing its biggest partner | < 50% for top-5 [working threshold, VENDOR] | ≥ 50% |
-| **Partner-sourced MRR** | MRR from partner-sourced accounts, billing-interval normalized, monthly | Business (floor) | Billing+CRM | What "the program" is actually worth before any cost is subtracted | Growth trend | −10% MoM |
-| **Reversal / churn rate on referred accounts** | (referred accounts churned or downgraded within their 12-mo commission window) / total referred accounts on validation basis, monthly | Health | Billing | Whether a period's numbers are even comparable; whether to hold a partner's payout | Own band [DERIVE] | > baseline + significant jump |
-| **Active-partner rate** | Partners with ≥1 validated referred conversion in a fixed window / 410 enrolled, monthly | Health | Network+Billing | Recruit more partners vs. activate the ones signed | Own band [DERIVE] | < baseline |
-| **Trial-to-paid rate by partner** *(pending data — see Open Items)* | Referred trials converting to paid / referred trials started, per monthly cohort | Input | Product analytics | Which partners send qualified vs. junk traffic — no other metric catches this | Own baseline [DERIVE] | −2 SD vs 6-mo mean |
-| **New-to-file share** *(Phase 2 — CRM join)* | Referred accounts with no prior Thrivelane relationship / total referred accounts, monthly | Input | CRM join | Whether checkout-adjacent/low-effort partners get repriced | ≥ baseline [DERIVE] | below baseline |
-| **Churn-adjusted partner LTV : payout ratio** *(promote conditionally)* | 24-month referred revenue net of churn / cumulative payout to that partner over the same window, by partner type | Health | Billing | Whether the 20%/12-month cap itself is the right architecture | ≥ 4x, own band [SYNTH calibration 4.2–9.5x] | < 3x |
-| Click-to-conversion by stage, EPC | Diagnostic only — kept off the headline view, in the operator leaderboard | Input | Network | Is one partner's traffic worth its clicks | Own baseline | n/a (diagnostic) |
+| Metric                                                                  | Definition (formula · window · counting method)                                                                                                            | Tier             | Source            | Decision it drives                                                                 | Target                                      | Alert                         |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ----------------- | ---------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------- |
+| **Net program contribution**                                            | Attributed net billing revenue from partner-sourced accounts − (validated commission + network platform fee + agency fee, if any), monthly, validated-only | Business (floor) | Billing           | Is the program profitable — the CFO's actual question                              | > $0, growing                               | 2 consecutive down months     |
+| **Cost of sale**                                                        | (validated commission + network fee + agency fee + bonuses) / attributed net revenue, monthly                                                              | Business (floor) | Billing           | Whether commission rate/cap is sustainable                                         | Own baseline [DERIVE]                       | > baseline + 5pt              |
+| **Top-5 / top-10% partner concentration**                               | Revenue from top-5 (and top-decile) active partners / total validated program revenue, quarterly                                                           | Business (floor) | Billing           | Whether the program can survive losing its biggest partner                         | < 50% for top-5 [working threshold, VENDOR] | ≥ 50%                         |
+| **Partner-sourced MRR**                                                 | MRR from partner-sourced accounts, billing-interval normalized, monthly                                                                                    | Business (floor) | Billing+CRM       | What "the program" is actually worth before any cost is subtracted                 | Growth trend                                | −10% MoM                      |
+| **Reversal / churn rate on referred accounts**                          | (referred accounts churned or downgraded within their 12-mo commission window) / total referred accounts on validation basis, monthly                      | Health           | Billing           | Whether a period's numbers are even comparable; whether to hold a partner's payout | Own band [DERIVE]                           | > baseline + significant jump |
+| **Active-partner rate**                                                 | Partners with ≥1 validated referred conversion in a fixed window / 410 enrolled, monthly                                                                   | Health           | Network+Billing   | Recruit more partners vs. activate the ones signed                                 | Own band [DERIVE]                           | < baseline                    |
+| **Trial-to-paid rate by partner** _(pending data — see Open Items)_     | Referred trials converting to paid / referred trials started, per monthly cohort                                                                           | Input            | Product analytics | Which partners send qualified vs. junk traffic — no other metric catches this      | Own baseline [DERIVE]                       | −2 SD vs 6-mo mean            |
+| **New-to-file share** _(Phase 2 — CRM join)_                            | Referred accounts with no prior Thrivelane relationship / total referred accounts, monthly                                                                 | Input            | CRM join          | Whether checkout-adjacent/low-effort partners get repriced                         | ≥ baseline [DERIVE]                         | below baseline                |
+| **Churn-adjusted partner LTV : payout ratio** _(promote conditionally)_ | 24-month referred revenue net of churn / cumulative payout to that partner over the same window, by partner type                                           | Health           | Billing           | Whether the 20%/12-month cap itself is the right architecture                      | ≥ 4x, own band [SYNTH calibration 4.2–9.5x] | < 3x                          |
+| Click-to-conversion by stage, EPC                                       | Diagnostic only — kept off the headline view, in the operator leaderboard                                                                                  | Input            | Network           | Is one partner's traffic worth its clicks                                          | Own baseline                                | n/a (diagnostic)              |
 
 Never sum sourced and influenced revenue if you later add an influenced-revenue tile — report as two separate, capped numbers, sourced taking precedence. Never headline gross commission or the network's own "total commissions earned" number again.
 
@@ -66,26 +66,26 @@ OPERATOR VIEW (weekly — you)
 +---------------------------------------------------------------------+
 ```
 
-Every tile: value + delta vs. a *stated* prior period, never a bare number.
+Every tile: value + delta vs. a _stated_ prior period, never a bare number.
 
 **Dimensions** (build in this order as data allows): partner (free today) → product/plan (already in billing) → partner type (Open item — not confirmed captured) → geography (Open item, lower priority for B2B).
 
 **Cadence**
 
-| Cadence | Reviewed | Drives |
-|---|---|---|
-| Weekly | Active-partner rate, trial-to-paid cohort movement, reversal % | Activation effort, payout holds |
-| Monthly | Net contribution, cost of sale, partner-sourced MRR | The CFO conversation itself |
+| Cadence   | Reviewed                                                                             | Drives                                     |
+| --------- | ------------------------------------------------------------------------------------ | ------------------------------------------ |
+| Weekly    | Active-partner rate, trial-to-paid cohort movement, reversal %                       | Activation effort, payout holds            |
+| Monthly   | Net contribution, cost of sale, partner-sourced MRR                                  | The CFO conversation itself                |
 | Quarterly | Top-5/10% concentration, churn-adjusted LTV:payout, partner-type mix (once captured) | Whether the 20%/12-month structure changes |
 
 Realistic starting point: you currently produce this monthly by hand. Build the monthly and quarterly bands first; add the weekly band once the billing reconciliation is running on its own rather than manually.
 
 **Alerts** (ship in this order, stop when it's too much to keep reading)
 
-| Alert | Trigger | Owner | Channel | Response time |
-|---|---|---|---|---|
-| Reversal-rate spike | > 2 SD vs 30-day rolling mean | You | Email/Slack | 24h |
-| Single-partner concentration spike | Top partner +10pt share in 30 days | You | Email/Slack | 24h |
+| Alert                              | Trigger                            | Owner | Channel     | Response time |
+| ---------------------------------- | ---------------------------------- | ----- | ----------- | ------------- |
+| Reversal-rate spike                | > 2 SD vs 30-day rolling mean      | You   | Email/Slack | 24h           |
+| Single-partner concentration spike | Top partner +10pt share in 30 days | You   | Email/Slack | 24h           |
 
 Everything else in the skill's alert catalogue (click-to-conversion anomaly, EPC drop, brand-bidding flag) is deleted for now, not parked silently — see Open Items.
 

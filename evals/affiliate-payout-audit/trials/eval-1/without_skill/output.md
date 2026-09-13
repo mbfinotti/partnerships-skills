@@ -4,7 +4,7 @@ Three separate issues here, and the first one alone likely invalidates the $31,4
 
 ### 1. You're adding two overlapping measurements, not two independent counts
 
-1,904 (network, 7-day window) + 1,671 (in-house, 30-day window) = 3,575 treats these as separate conversions. They're not — they're two different systems measuring the *same* underlying purchases with different attribution windows. A 30-day tracker will naturally re-catch a large share of what the 7-day network export already caught, plus some conversions the network's shorter window missed entirely.
+1,904 (network, 7-day window) + 1,671 (in-house, 30-day window) = 3,575 treats these as separate conversions. They're not — they're two different systems measuring the _same_ underlying purchases with different attribution windows. A 30-day tracker will naturally re-catch a large share of what the 7-day network export already caught, plus some conversions the network's shorter window missed entirely.
 
 - Summing them double-counts every conversion both systems agree on.
 - The correct number is a **deduplicated union**, found by matching individual conversions (order ID, customer ID, or click ID) between the two exports — not by adding aggregate totals.

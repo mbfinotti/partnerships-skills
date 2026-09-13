@@ -5,6 +5,7 @@
 38% last-click share, near-zero upstream traffic, 6x conversion — this is the signature of **browser-extension last-click hijacking**, not automatically "fraud." Coupon/cashback extensions (Honey, Capital One Shopping, and this SaveSnap pattern) fire their tracking cookie at checkout, often on sessions the shopper already started through another channel (organic, paid, email, direct). That structurally produces high conversion (they only ever touch bottom-funnel sessions) and low upstream traffic (they never drove discovery).
 
 That pattern alone is **not proof of fraud** — it could be:
+
 - Legitimate but low-value: the extension really is disintermediating your other channels, without breaking any rule.
 - A contract/terms problem: not disclosed as required, or violates your program's cookie-stuffing clause.
 - Actual fraud: cookie forced without a genuine user action (invisible pixel fires, auto-injected coupon fields, cookie dropped on page load rather than on click).
@@ -44,11 +45,11 @@ Forensics prove correlation; a holdout proves causation, and it's the standard t
 
 ### Decision matrix
 
-| Evidence found | Defensible action |
-|---|---|
-| Cookie fires on page load without user action, or phantom coupons, or holdout shows no incrementality | Terminate for fraud/policy violation; clawback is defensible — cite the specific evidence, not just the last-click %. |
-| Cookie only fires on genuine click, holdout shows real incrementality, but overwrites other channels | Not fraud — renegotiate to a lower "assist" commission tier or exclude last-24h-before-checkout attribution window. No clawback. |
-| Mixed / inconclusive | Put SaveSnap on a shortened cookie window or non-last-click model for 30 days as a trial, re-measure, decide from there. |
+| Evidence found                                                                                        | Defensible action                                                                                                                |
+| ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Cookie fires on page load without user action, or phantom coupons, or holdout shows no incrementality | Terminate for fraud/policy violation; clawback is defensible — cite the specific evidence, not just the last-click %.            |
+| Cookie only fires on genuine click, holdout shows real incrementality, but overwrites other channels  | Not fraud — renegotiate to a lower "assist" commission tier or exclude last-24h-before-checkout attribution window. No clawback. |
+| Mixed / inconclusive                                                                                  | Put SaveSnap on a shortened cookie window or non-last-click model for 30 days as a trial, re-measure, decide from there.         |
 
 ### Sequencing
 

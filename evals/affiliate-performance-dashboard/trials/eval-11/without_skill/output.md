@@ -28,7 +28,7 @@ Context locked in below: B2C apparel, 30-day cookie window, last-click attributi
 
 - Same numerator/denominator basis as ROAS (net revenue, net orders, same period).
 - Expressed as a percentage. ROI = (ROAS − 1) × 100 — keep both metrics consistent by construction; don't let them drift from separately-tweaked queries.
-- Does not deduct platform/tech fees or affiliate network fees — this is *program* ROI, not fully-loaded program P&L. Note this distinction if finance asks for the latter.
+- Does not deduct platform/tech fees or affiliate network fees — this is _program_ ROI, not fully-loaded program P&L. Note this distinction if finance asks for the latter.
 
 ## 3. AOV (Average Order Value)
 
@@ -52,7 +52,7 @@ Context locked in below: B2C apparel, 30-day cookie window, last-click attributi
 
 - Standard industry convention: EPC is expressed as earnings per **100 clicks**, in dollars (e.g., "$4.50 EPC" means $4.50 earned per 100 clicks). State this convention explicitly on the dashboard to avoid a 100x misread.
 - Numerator = affiliate spend (commission owed to the affiliate), not merchant revenue — EPC answers "what does this affiliate earn per click," a different question from ROAS/AOV.
-- Use **gross attributed orders** for the spend calc unless your commission terms already deduct returns (most programs pay commission net of returns with a clawback window) — pick one and document it; recommend: EPC uses spend *after* return clawbacks, consistent with what actually gets paid.
+- Use **gross attributed orders** for the spend calc unless your commission terms already deduct returns (most programs pay commission net of returns with a clawback window) — pick one and document it; recommend: EPC uses spend _after_ return clawbacks, consistent with what actually gets paid.
 - Same cohort-approximation caveat as conversion rate: clicks and resulting orders may span periods.
 
 ## 6. Active Affiliate Rate

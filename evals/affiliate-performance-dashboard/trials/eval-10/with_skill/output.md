@@ -1,8 +1,8 @@
 ## Straight answer for your VP conversation
 
-**There is no named framework to give her — and citing one would burn credibility the first time someone checks.** The skill I used to build this response says so explicitly: no standards body (IAB, PMA — trade bodies only) has ever standardized affiliate metric definitions or published a canonical "framework." Anything sold to you as one is a vendor or consultant's branding exercise. If she wants a name in the room, don't invent one — cite the one piece of this that *is* real and named:
+**There is no named framework to give her — and citing one would burn credibility the first time someone checks.** The skill I used to build this response says so explicitly: no standards body (IAB, PMA — trade bodies only) has ever standardized affiliate metric definitions or published a canonical "framework." Anything sold to you as one is a vendor or consultant's branding exercise. If she wants a name in the room, don't invent one — cite the one piece of this that _is_ real and named:
 
-> **Croll & Yoskovitz's tiered metric hierarchy** (from *Lean Analytics*), applied to affiliate reporting — business/headline tier → input/driver tier → health/guardrail tier — with every metric screened against their four good-metric criteria: comparative, a ratio or rate, understandable, and behavior-changing.
+> **Croll & Yoskovitz's tiered metric hierarchy** (from _Lean Analytics_), applied to affiliate reporting — business/headline tier → input/driver tier → health/guardrail tier — with every metric screened against their four good-metric criteria: comparative, a ratio or rate, understandable, and behavior-changing.
 
 Layered under that name, three more borrowed (also real, also citable, not one unified "brand"): incrementality measurement (holdout/geo-lift), the attributed-ROAS-vs-ROI split, and a sourced-vs-influenced separation rule. Say it as "a tiered metric hierarchy, Lean Analytics-style, with incrementality and ROAS/ROI discipline built in" — that's honest and it's still a name she can repeat.
 
@@ -10,11 +10,11 @@ Layered under that name, three more borrowed (also real, also citable, not one u
 
 Total clicks, affiliate signups, and gross commissions are, almost verbatim, the anti-pattern this method calls out first:
 
-| Your current KPI | Why it fails |
-|---|---|
-| Total clicks (1M/mo target) | Vanity metric — informs no decision. Diagnostic at best, never a headline. |
-| Affiliate signups (200/mo target) | Same problem — a count, not a rate; tells you nothing changed in behavior. |
-| Gross commissions earned | The single most common practitioner error. Gross is always the bigger, flattering number — it hides reversals, clawbacks, and hasn't been validated. Reporting it instead of validated/approved commission makes the program look cheaper and more productive than it actually is. |
+| Your current KPI                  | Why it fails                                                                                                                                                                                                                                                                       |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Total clicks (1M/mo target)       | Vanity metric — informs no decision. Diagnostic at best, never a headline.                                                                                                                                                                                                         |
+| Affiliate signups (200/mo target) | Same problem — a count, not a rate; tells you nothing changed in behavior.                                                                                                                                                                                                         |
+| Gross commissions earned          | The single most common practitioner error. Gross is always the bigger, flattering number — it hides reversals, clawbacks, and hasn't been validated. Reporting it instead of validated/approved commission makes the program look cheaper and more productive than it actually is. |
 
 ## What to present instead
 

@@ -2,7 +2,7 @@
 
 **Both jobs are genuinely one-shot here** — the skills these tasks route to require an interactive interview (one question per message) before drafting. Since you asked for the complete deliverable in this response, I've made explicit, labeled assumptions instead of interviewing, and flagged every place a wrong assumption changes the output. Confirm the flagged items and I'll revise.
 
-**A routing conflict I found and resolved:** `affiliate-program-terms` explicitly refuses consumer refer-a-friend terms requests ("do not accept a consumer refer-a-friend terms request routed back here") and points to `referral-abuse-guardrails` instead. But `referral-abuse-guardrails` itself, in its own workflow, says to route clause drafting *back* to `affiliate-program-terms`. That's a dead loop. Since one side explicitly refuses the job, I drafted the actual customer-facing terms language myself, inside the guardrail deliverable, rather than bouncing you between skills.
+**A routing conflict I found and resolved:** `affiliate-program-terms` explicitly refuses consumer refer-a-friend terms requests ("do not accept a consumer refer-a-friend terms request routed back here") and points to `referral-abuse-guardrails` instead. But `referral-abuse-guardrails` itself, in its own workflow, says to route clause drafting _back_ to `affiliate-program-terms`. That's a dead loop. Since one side explicitly refuses the job, I drafted the actual customer-facing terms language myself, inside the guardrail deliverable, rather than bouncing you between skills.
 
 ---
 
@@ -12,12 +12,12 @@
 
 ## Assumptions (confirm these — they change the design)
 
-| # | Assumption | Why it matters if wrong |
-|---|---|---|
-| A1 | "Friend subscribes" = friend converts to a **paid** plan (not just starts a free trial or creates a workspace). | If "subscribes" can be satisfied by an email-only signup or free tier, the throwaway-email abuse you're seeing is structural, not a detection gap — the fix is moving the trigger, not just blocking bad emails. **This is almost certainly the actual root cause of what you're describing** — throwaway emails alone can't fake a paid conversion, so if fraud is happening on email alone, the qualifying event is likely lighter than "paid subscription" today. |
-| A2 | Refund/cancellation window on Torvel's plans is **30 days**. | Sets the reward hold length directly. |
-| A3 | "Existing customer" = an individual user account, not a company-wide entity; referrals are person-to-person, not company-to-company. | If referrals are actually company-to-company (a Torvel customer referring another business), add the B2B domain-overlap and pipeline-check controls below as mandatory, not optional. |
-| A4 | No professional/paid affiliate tier exists alongside this consumer program. | If one does, its terms are a separate document (`affiliate-program-terms` territory) — don't merge the two. |
+| #   | Assumption                                                                                                                           | Why it matters if wrong                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| A1  | "Friend subscribes" = friend converts to a **paid** plan (not just starts a free trial or creates a workspace).                      | If "subscribes" can be satisfied by an email-only signup or free tier, the throwaway-email abuse you're seeing is structural, not a detection gap — the fix is moving the trigger, not just blocking bad emails. **This is almost certainly the actual root cause of what you're describing** — throwaway emails alone can't fake a paid conversion, so if fraud is happening on email alone, the qualifying event is likely lighter than "paid subscription" today. |
+| A2  | Refund/cancellation window on Torvel's plans is **30 days**.                                                                         | Sets the reward hold length directly.                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| A3  | "Existing customer" = an individual user account, not a company-wide entity; referrals are person-to-person, not company-to-company. | If referrals are actually company-to-company (a Torvel customer referring another business), add the B2B domain-overlap and pipeline-check controls below as mandatory, not optional.                                                                                                                                                                                                                                                                                |
+| A4  | No professional/paid affiliate tier exists alongside this consumer program.                                                          | If one does, its terms are a separate document (`affiliate-program-terms` territory) — don't merge the two.                                                                                                                                                                                                                                                                                                                                                          |
 
 ## Root cause, stated plainly
 
@@ -101,7 +101,7 @@ Terms status     : Every rule above must be published BEFORE it's enforced again
 
 ## Customer-facing Terms — draft text
 
-*(Publish this as the "Refer-a-Friend Terms" page linked from the referral dashboard and at signup.)*
+_(Publish this as the "Refer-a-Friend Terms" page linked from the referral dashboard and at signup.)_
 
 **1. How it works.** Torvel customers ("Referrers") in good standing may share a personal referral link. When a new customer ("Referee") signs up using that link and remains on a paid Torvel plan through their second billing cycle, the Referrer receives a $20 account credit.
 
@@ -133,14 +133,14 @@ Terms status     : Every rule above must be published BEFORE it's enforced again
 
 ## Six-Layer Check
 
-| Layer | Verdict | Evidence | Rule |
-|---|---|---|---|
-| 1. Presence | Pass | A disclosure (#ad) exists in the caption. | — |
-| 2. Wording | Pass (assumed) | "#ad" is an accepted label — *confirm it's literally "#ad" and not "#sp"/"#collab"/"#ambassador", which fail regardless of placement.* | CMA accepted list; ISBA/IMTB code |
-| 3. Placement & prominence | **Fail** | Sits behind the "more" cut — not visible without a tap. | FTC 16 CFR 255.0(f) (visual: location); CMA: "should not have to scroll... for more information" |
-| 4. Per-format requirement | **Fail** | Short-form video requires disclosure **in the video itself** — on-screen and spoken, before the endorsement — not caption/description alone. Not assessable from the artefact whether any on-screen or spoken disclosure exists in the video — **confirm this**, since it changes the remediation rung. | FTC Disclosures 101; CMA (beginning of videos) |
-| 5. Truncation & portability | **Fail** | This is the named textbook failure: a disclosure that dies behind a "more" cut, and doesn't survive a screenshot, embed, or cross-post. | Common failure mode, both FTC and CMA |
-| 6. Jurisdiction overlays | **Fail (UK)** | CMA is explicit: "your audience should not have to scroll or select the link for more information." Direct hit. CAP Code 2.1 ("obviously identifiable") also fails — CAP Code covers UK marketing communications generally, not only consumer-facing ones, so the B2B audience doesn't soften this. | CMA; CAP Code 2.1 |
+| Layer                       | Verdict        | Evidence                                                                                                                                                                                                                                                                                                | Rule                                                                                             |
+| --------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| 1. Presence                 | Pass           | A disclosure (#ad) exists in the caption.                                                                                                                                                                                                                                                               | —                                                                                                |
+| 2. Wording                  | Pass (assumed) | "#ad" is an accepted label — _confirm it's literally "#ad" and not "#sp"/"#collab"/"#ambassador", which fail regardless of placement._                                                                                                                                                                  | CMA accepted list; ISBA/IMTB code                                                                |
+| 3. Placement & prominence   | **Fail**       | Sits behind the "more" cut — not visible without a tap.                                                                                                                                                                                                                                                 | FTC 16 CFR 255.0(f) (visual: location); CMA: "should not have to scroll... for more information" |
+| 4. Per-format requirement   | **Fail**       | Short-form video requires disclosure **in the video itself** — on-screen and spoken, before the endorsement — not caption/description alone. Not assessable from the artefact whether any on-screen or spoken disclosure exists in the video — **confirm this**, since it changes the remediation rung. | FTC Disclosures 101; CMA (beginning of videos)                                                   |
+| 5. Truncation & portability | **Fail**       | This is the named textbook failure: a disclosure that dies behind a "more" cut, and doesn't survive a screenshot, embed, or cross-post.                                                                                                                                                                 | Common failure mode, both FTC and CMA                                                            |
+| 6. Jurisdiction overlays    | **Fail (UK)**  | CMA is explicit: "your audience should not have to scroll or select the link for more information." Direct hit. CAP Code 2.1 ("obviously identifiable") also fails — CAP Code covers UK marketing communications generally, not only consumer-facing ones, so the B2B audience doesn't soften this.     | CMA; CAP Code 2.1                                                                                |
 
 **Overall verdict: FAIL.** A single failing layer fails the asset — this one fails four.
 
@@ -148,13 +148,13 @@ Terms status     : Every rule above must be published BEFORE it's enforced again
 
 ## Remediation (live asset, still earning impressions)
 
-Default cure for a caption problem is "edit in place." **That's not available here** — the rule this asset fails is a per-format placement rule that puts the disclosure *inside the video*, and TikTok doesn't allow editing a video's audio/visuals after publish (caption/cover only). A caption edit cannot cure a missing on-screen/spoken disclosure, so this escalates one rung:
+Default cure for a caption problem is "edit in place." **That's not available here** — the rule this asset fails is a per-format placement rule that puts the disclosure _inside the video_, and TikTok doesn't allow editing a video's audio/visuals after publish (caption/cover only). A caption edit cannot cure a missing on-screen/spoken disclosure, so this escalates one rung:
 
 1. **Right now (minutes):** Edit the live caption so "#ad" is the very first thing, before any text that triggers "more." This doesn't fully cure the format-placement failure but stops the truncation failure immediately while step 2 is prepared.
    - Rewrite: `Ad — [rest of caption]`
 2. **Re-publish a corrected version, then remove the original** (the format's own rule requires this): re-cut or re-record with:
    - On-screen text overlay in the first 1–3 seconds: `AD — paid partnership with Torvel`
-   - A spoken line at the very start: *"This video is sponsored by Torvel — they paid me to talk about their product."*
+   - A spoken line at the very start: _"This video is sponsored by Torvel — they paid me to talk about their product."_
    - Caption still opening with "Ad" per step 1.
    - Take this route over a bare takedown — it's equal on undisclosed-exposure removed but preserves the earned reach, per the ladder's own efficiency ranking.
 3. **Don't rely on TikTok's native paid-partnership label alone**, even if the creator also enables it — FTC and CMA both say platform tools are "no guarantee," and it can vanish on screenshots/embeds/cross-posts.

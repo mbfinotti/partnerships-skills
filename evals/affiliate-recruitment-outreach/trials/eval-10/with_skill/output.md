@@ -2,7 +2,7 @@ Here's the touch 2–5 sequence, following the skill's cadence, pitch-anatomy, a
 
 ## Three corrections before the copy
 
-**Touch 3 — no automated LinkedIn tool.** The skill is explicit: "Never recommend automated connection/DM tooling; community-circulated 'safe' volumes (~20-25 connection requests/day) are anecdote, not policy. Manual, personalized DMs at low volume." Two separate problems, not one: (1) scheduled bulk sends breach LinkedIn's terms of service regardless of daily count — the hiQ case settled that scraping/automation isn't federal computer fraud, but it *is* a ToS breach enforceable by account bans; (2) "25/day is safe" is circulated folklore with no source. I've written touch 3 as a manual DM template — send it yourself, a handful a day, timed to when you actually researched that prospect.
+**Touch 3 — no automated LinkedIn tool.** The skill is explicit: "Never recommend automated connection/DM tooling; community-circulated 'safe' volumes (~20-25 connection requests/day) are anecdote, not policy. Manual, personalized DMs at low volume." Two separate problems, not one: (1) scheduled bulk sends breach LinkedIn's terms of service regardless of daily count — the hiQ case settled that scraping/automation isn't federal computer fraud, but it _is_ a ToS breach enforceable by account bans; (2) "25/day is safe" is circulated folklore with no source. I've written touch 3 as a manual DM template — send it yourself, a handful a day, timed to when you actually researched that prospect.
 
 **Touch 4 — no bare check-in.** Quality-gate rule #7: "no 'just checking in' touch" — every touch must earn its send with something new. I've written it as a new-value touch (reference a specific piece of their content + ease the CTA) instead of a bump.
 
@@ -14,12 +14,12 @@ Fill in `[bracketed]` fields with exactly what touch 1 already stated — commis
 
 ## Sequence table
 
-| Touch | Timing | Channel | Angle | Notes |
-|---|---|---|---|---|
-| 2 | Day 3–7 | Email, same thread | Gentle resurface | 1–2 sentences, no restated pitch |
-| 3 | Day 7–14 | LinkedIn DM (manual) | New proof point withheld from touch 1 | <300 chars, no link in first DM |
-| 4 | Day 14–21 | Email | New value: reference their recent content + ease the CTA | Not a check-in |
-| 5 (breakup) | Day 21–28 | Email | Loss-aversion close | Last email — then honor it |
+| Touch       | Timing    | Channel              | Angle                                                    | Notes                            |
+| ----------- | --------- | -------------------- | -------------------------------------------------------- | -------------------------------- |
+| 2           | Day 3–7   | Email, same thread   | Gentle resurface                                         | 1–2 sentences, no restated pitch |
+| 3           | Day 7–14  | LinkedIn DM (manual) | New proof point withheld from touch 1                    | <300 chars, no link in first DM  |
+| 4           | Day 14–21 | Email                | New value: reference their recent content + ease the CTA | Not a check-in                   |
+| 5 (breakup) | Day 21–28 | Email                | Loss-aversion close                                      | Last email — then honor it       |
 
 ## Touch 2 — Email (Day 3–7)
 
@@ -50,6 +50,7 @@ Stop immediately on any reply, opt-out, or bounce at any touch.
 ## After touch 5 — re-engagement, not monthly pressure
 
 Don't touch again on a fixed monthly clock. Re-open the file only on a real trigger:
+
 - A quarterly re-run with revised copy (practitioner minimum: 2–3 weeks before any re-run, quarterly is the realistic cadence).
 - A genuinely new offer — commission change, new product line.
 - New content of theirs that changes the fit story.

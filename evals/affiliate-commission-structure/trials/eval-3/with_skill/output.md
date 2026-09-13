@@ -16,29 +16,29 @@ SaaS ceiling rule: total lifetime commission per customer must sit at **5-15% of
 
 Lifetime commission is only supposed to be on the table when gross margin is above ~80%, churn is under ~5%, and competitors already pay it. Cratefox clears one of three:
 
-| Condition | Threshold | Cratefox | Pass? |
-|---|---|---|---|
-| Gross margin | > ~80% | 61% | ✗ |
-| Monthly churn | < ~5% | 7.5% | ✗ |
-| Competitors pay lifetime | — | yes | ✓ |
+| Condition                | Threshold | Cratefox | Pass? |
+| ------------------------ | --------- | -------- | ----- |
+| Gross margin             | > ~80%    | 61%      | ✗     |
+| Monthly churn            | < ~5%     | 7.5%     | ✗     |
+| Competitors pay lifetime | —         | yes      | ✓     |
 
 Two of three fail. That's the honest headline: on this cost structure, lifetime is the wrong tool even though two competitors are using it to poach your affiliates. I priced it anyway below, since you asked for a side-by-side to decide — but the numbers explain why it fails.
 
 ### Side-by-side pricing
 
-Both headline rates below are set at the maximum each duration model can carry while staying inside the $258 ceiling — so this is each structure's *best competitive pitch*, not an arbitrary pick.
+Both headline rates below are set at the maximum each duration model can carry while staying inside the $258 ceiling — so this is each structure's _best competitive pitch_, not an arbitrary pick.
 
-| | **12-month cap** | **Lifetime (uncapped)** |
-|---|---|---|
-| Headline rate | 24% | 15% |
-| Monthly commission | $30.96 | $19.35 |
-| Expected paid months* | 8.1 | 13.3 |
-| Expected cost / customer | **$250.81** | **$258.00** |
-| % of revenue LTV | 14.6% | 15.0% (exactly at ceiling) |
-| % of gross profit | 23.9% | 24.6% |
-| Ceiling headroom | small buffer | **zero buffer** |
-| Hard max per customer | $371.52 (12 × $30.96) | **none — unbounded** |
-| Headline recruiters see | 24% | 15% |
+|                          | **12-month cap**      | **Lifetime (uncapped)**    |
+| ------------------------ | --------------------- | -------------------------- |
+| Headline rate            | 24%                   | 15%                        |
+| Monthly commission       | $30.96                | $19.35                     |
+| Expected paid months*    | 8.1                   | 13.3                       |
+| Expected cost / customer | **$250.81**           | **$258.00**                |
+| % of revenue LTV         | 14.6%                 | 15.0% (exactly at ceiling) |
+| % of gross profit        | 23.9%                 | 24.6%                      |
+| Ceiling headroom         | small buffer          | **zero buffer**            |
+| Hard max per customer    | $371.52 (12 × $30.96) | **none — unbounded**       |
+| Headline recruiters see  | 24%                   | 15%                        |
 
 *Expected paid months accounts for your actual churn curve (geometric survival at 92.5%/month), not raw average tenure — a 12-month cap doesn't collect on customers who churn before month 12, and stops collecting on the ones who outlive it.
 

@@ -2,12 +2,13 @@
 
 **1. Wrong legal basis — DSA Article 26 doesn't obligate Giulia**
 
-Article 26 DSA obliges the *online platform* (Meta/Instagram) to let users identify sponsored content, who paid, and targeting parameters. It's a platform design duty, not a creator duty. It's why Instagram *has* a "Paid partnership" toggle at all — but flipping that toggle discharges Meta's obligation, not Giulia's or Altavia's.
+Article 26 DSA obliges the _online platform_ (Meta/Instagram) to let users identify sponsored content, who paid, and targeting parameters. It's a platform design duty, not a creator duty. It's why Instagram _has_ a "Paid partnership" toggle at all — but flipping that toggle discharges Meta's obligation, not Giulia's or Altavia's.
 
 The creator's own duty to disclose comes from a different, older body of law:
+
 - **UCPD (Dir. 2005/29/EC)** as transposed into the **Codice del Consumo**, Art. 23 / Annex I item 11: presenting paid promotional content as if it were organic/editorial ("surreptitious advertising") is a blacklisted, per se unfair practice — no case-by-case balancing needed.
 - **IAP Digital Chart** (Italian self-regulatory advertising code): requires disclosure to be clear, immediate and prominent — e.g. `#Pubblicità`/`#Sponsorizzato`/`#ADV` placed where it will actually be seen, not proof against AGCM but the reference standard AGCM cites.
-- **AGCM enforcement practice** (moral suasion letters 2017 onward, subsequent decisions): AGCM has repeatedly sanctioned both brands *and* influencers, treating them as jointly responsible for adequate disclosure.
+- **AGCM enforcement practice** (moral suasion letters 2017 onward, subsequent decisions): AGCM has repeatedly sanctioned both brands _and_ influencers, treating them as jointly responsible for adequate disclosure.
 
 DSA and UCPD/Codice del Consumo apply **cumulatively**, not as alternatives. Satisfying one says nothing about the other.
 
@@ -15,7 +16,7 @@ DSA and UCPD/Codice del Consumo apply **cumulatively**, not as alternatives. Sat
 
 "Trader" under Codice del Consumo Art. 3 / UCPD turns on **purpose** (acting for a commercial purpose, in exchange for consideration), not audience size. A paid collaboration is, by definition, commercial purpose — Giulia is acting as a co-trader alongside Altavia the moment money changes hands, regardless of whether she has 1,000 or 1,000,000 followers. There's no threshold in EU or Italian consumer law that exempts small accounts from disclosure duties.
 
-(Separately, Italy did legislate a follower/view threshold in 2024–2025 — but that's AGCOM's *registration* regime for large influencers, a different obligation entirely. It has no bearing on whether the UCPD disclosure duty applies to a 12,400-follower paid post; that duty applies regardless of scale.)
+(Separately, Italy did legislate a follower/view threshold in 2024–2025 — but that's AGCOM's _registration_ regime for large influencers, a different obligation entirely. It has no bearing on whether the UCPD disclosure duty applies to a 12,400-follower paid post; that duty applies regardless of scale.)
 
 **3. Even setting the legal basis aside, the actual disclosures are the kind AGCM has flagged before**
 

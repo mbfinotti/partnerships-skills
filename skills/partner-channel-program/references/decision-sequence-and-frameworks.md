@@ -13,6 +13,7 @@ The convergent finding across analyst and practitioner sources: strategy and arc
    3. Tools to track activity.
    4. Vendor air cover and conflict resolution.
    5. Only then, asks: dedicated reps, qualification, registration discipline, a performance bar.
+
 3. **Partner types/motions before the Ideal Partner Profile.** The rigorous sequence (analyst-corroborated) is business objective → partner types → profile built _within_ a type. A further practitioner wrinkle: defer formal scored profiling until the recruiting pool is large enough to need repeatable scoring - for the first ~10 partners, a validated Partner Hypothesis stands in for a formal profile.
 4. **Tier purpose before tier structure, and criteria and benefit delta as a pair.** A tier exists when something measurable changes at the boundary. "Criteria with no benefits delta is a leaderboard nobody plays, and a benefits delta with no criteria is favoritism wearing a logo." Practical method: reverse-engineer the top tier from your existing best partners' actual behavior rather than inventing tiers abstractly.
 5. **Deal-registration and conflict policy before the first selling partner signs.** The policy "needs to exist before the conflict, not after it." Registration should trigger a concrete support bundle (engineering hours, proof-of-concept funding, executive sponsorship): the support, not the margin point, is what partners remember a year later.

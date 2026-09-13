@@ -14,7 +14,7 @@ Concretely, the crawler produces both kinds of wrong answer:
 
 So the crawler, as scoped, is close to a scan of the wrong surface for the wrong majority of your content. That's not a tuning problem — it's deletable as a standalone control here: this skill's own default is to delete the automated label scan precisely when disclosures are spoken or on-screen, which is your stated case.
 
-Where a scan *is* worth keeping: run it (cheaply, same tooling) against auto-generated YouTube transcripts and podcast show notes, searching for cue words ("sponsored," "paid," "ad," "partnership," brand name near "pays/paid") rather than the literal `#ad` string alone. That widens recall on the audio layer at near-zero marginal cost — but treat every hit as a lead for a human to verify placement and prominence, never as a pass/fail verdict on its own.
+Where a scan _is_ worth keeping: run it (cheaply, same tooling) against auto-generated YouTube transcripts and podcast show notes, searching for cue words ("sponsored," "paid," "ad," "partnership," brand name near "pays/paid") rather than the literal `#ad` string alone. That widens recall on the audio layer at near-zero marginal cost — but treat every hit as a lead for a human to verify placement and prominence, never as a pass/fail verdict on its own.
 
 ## Why the attestation isn't monitoring
 

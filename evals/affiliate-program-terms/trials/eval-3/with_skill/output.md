@@ -8,8 +8,9 @@ Upon termination of this Agreement by Halvard Tools for any reason, including bu
 
 `[LEGAL REVIEW: Blanket forfeiture of all earned commissions regardless of termination reason is a legally contested position. It has unresolved tension with US state unclaimed-property/escheatment statutes — earned-but-unpaid commissions can become reportable to the state as unclaimed property after a 1–5 year dormancy period in many states, and a forfeiture clause does not necessarily extinguish that reporting obligation. Counsel should confirm whether this clause is enforceable as drafted, or whether it needs a carve-out (e.g., forfeiture on fraud/breach only, with non-fraud terminations paid out to the termination date) before publication.]`
 
-*Narrower alternative counsel may prefer, per standard drafting guidance for this clause type:*
-> *"Upon termination for convenience or program discontinuation, Halvard Tools will pay all commissions that were validly Approved as of the termination date, on the normal payment schedule, less any amounts subject to an open Clawback under Section [X]. Upon termination for cause — including fraud, breach of the Prohibited Tactics, or provision of false account information — Halvard Tools may forfeit commissions attributable to the conduct giving rise to termination; commissions unrelated to that conduct remain payable."*
+_Narrower alternative counsel may prefer, per standard drafting guidance for this clause type:_
+
+> _"Upon termination for convenience or program discontinuation, Halvard Tools will pay all commissions that were validly Approved as of the termination date, on the normal payment schedule, less any amounts subject to an open Clawback under Section [X]. Upon termination for cause — including fraud, breach of the Prohibited Tactics, or provision of false account information — Halvard Tools may forfeit commissions attributable to the conduct giving rise to termination; commissions unrelated to that conduct remain payable."_
 
 ---
 

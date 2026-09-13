@@ -15,7 +15,7 @@ If an affiliate's account records no clicks for 180 consecutive days, the affili
 A couple of things worth flagging before you publish these, not to slow you down, just so you've made the call knowingly:
 
 - **"Terminate for any reason" + forfeiture together** is the part most likely to draw pushback or scrutiny (FTC endorsement-guide attention on affiliate programs has increased, and a few states scrutinize forfeiture-on-termination clauses as unconscionable if the termination itself is discretionary/for convenience). If you ever terminate someone right before a big payout was due, "any reason" is what protects you — but it's also the phrase a plaintiff's lawyer would circle first.
-- I didn't add a carve-out for termination due to *fraud/ToS violation* vs. termination *for convenience* — some programs split those (harsher forfeiture for cause, prorated payout for convenience-terminations) to reduce that exact risk. You said "doesn't matter," so I kept it uniform — just confirming that's intentional.
+- I didn't add a carve-out for termination due to _fraud/ToS violation_ vs. termination _for convenience_ — some programs split those (harsher forfeiture for cause, prorated payout for convenience-terminations) to reduce that exact risk. You said "doesn't matter," so I kept it uniform — just confirming that's intentional.
 - These read fine for a straightforward affiliate T&Cs page; I'm not a lawyer and this isn't legal advice — worth a quick pass by counsel before it goes live, given it's a forfeiture-of-money clause across ~400 people.
 
 Want the "for cause vs. for convenience" split instead, or is uniform forfeiture the intent?

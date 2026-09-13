@@ -2,7 +2,7 @@ This will be a draft for review by qualified counsel, not legal advice. Program 
 
 ## Answer to "that's fine, right?" — No, not for all 1,100
 
-Your existing "we can change these terms at any time without notice" clause does not actually deliver what its text promises for **~300 EU/UK affiliates**. Under the EU Platform-to-Business Regulation (2019/1150), which the UK mirrors post-Brexit, amendments toward EU/UK *business users* require **at least 15 days' notice on a durable medium, must be prospective (never retroactive), and must give the affiliate a right to terminate instead of accepting** — and a clause that doesn't provide this is **null and void toward that group**, regardless of what it says. Whether your specific in-house program falls in scope of P2B at all is itself an unsettled, counsel-level question (it turns on whether affiliates have a direct contractual relationship with your consumers) — but given the downside (an unenforceable ban against exactly the affiliates you're trying to stop, litigated after the fact), treat the ~300 conservatively rather than resolve the question first. `[LEGAL REVIEW: confirm whether this in-house affiliate program falls within P2B Art. 2(2) scope]`
+Your existing "we can change these terms at any time without notice" clause does not actually deliver what its text promises for **~300 EU/UK affiliates**. Under the EU Platform-to-Business Regulation (2019/1150), which the UK mirrors post-Brexit, amendments toward EU/UK _business users_ require **at least 15 days' notice on a durable medium, must be prospective (never retroactive), and must give the affiliate a right to terminate instead of accepting** — and a clause that doesn't provide this is **null and void toward that group**, regardless of what it says. Whether your specific in-house program falls in scope of P2B at all is itself an unsettled, counsel-level question (it turns on whether affiliates have a direct contractual relationship with your consumers) — but given the downside (an unenforceable ban against exactly the affiliates you're trying to stop, litigated after the fact), treat the ~300 conservatively rather than resolve the question first. `[LEGAL REVIEW: confirm whether this in-house affiliate program falls within P2B Art. 2(2) scope]`
 
 **So: two effective dates, not one.**
 
@@ -31,7 +31,7 @@ Version the document (e.g. "v[X], effective [date], supersedes v[X-1] dated [ori
 
 ## New clause: Trademark / Brand-Keyword Bidding — Strict Prohibition
 
-*(Insert into Prohibited Tactics & Enforcement)*
+_(Insert into Prohibited Tactics & Enforcement)_
 
 > **Brand-Keyword Bidding.** Affiliate is strictly prohibited from bidding on, purchasing, or triggering advertisements against [Company] trademarked terms — including [list marks] — or any misspellings, permutations, combinations, homoglyphs, or character substitutions thereof, as keywords in paid search or paid social advertising, under Broad, Phrase, or Exact match types, on any search engine or ad network. This prohibition applies whether the trademarked term is used alone or in combination with any other term, including combinations with "coupon," "code," "discount," "deal," "promo," "sale," or similar modifiers ("Trademark-Plus" terms). It further prohibits:
 > (a) use of [Company]'s trademarks in the ad copy, display URL, or destination URL of any paid advertisement;
@@ -44,7 +44,7 @@ Version the document (e.g. "v[X], effective [date], supersedes v[X-1] dated [ori
 
 ## New clause: Misleading Claims & Fake Reviews
 
-*(Insert into Prohibited Tactics & Enforcement)*
+_(Insert into Prohibited Tactics & Enforcement)_
 
 > **Misleading Claims and Fake Reviews.** Affiliate shall not:
 > (a) publish, commission, or incentivize any review, testimonial, rating, or endorsement of [Company]'s products or services that is fabricated, materially misleading, or not based on genuine use or experience;

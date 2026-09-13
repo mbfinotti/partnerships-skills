@@ -1,25 +1,25 @@
 # PAYOUT AUDIT — Thistlewood Home affiliate program
 
-**Run:** February payout · **Period:** *not yet declared* · **Timezone:** *not yet declared* · **Date basis:** *not yet declared*
+**Run:** February payout · **Period:** _not yet declared_ · **Timezone:** _not yet declared_ · **Date basis:** _not yet declared_
 **Proposed release:** Friday · **Proposed total:** $31,406.18 · **Sources cited:** network export (1,904 conv., 7‑day window) vs. in‑house tracker (1,671 conv., 30‑day window)
 
 This uses the affiliate-payout-audit methodology (account reconciliation / three-way match / segregation of duties). I'm giving you the checker's read, not a rubber stamp — and the numbers you described trip three blockers before any line-level math is even needed.
 
 ## Checks
 
-| # | Check | Result |
-|---|---|---|
-| 1 | Scope frozen | **FAIL** — no period start/end, timezone, or date basis given |
-| 2 | Exports pulled | Partial — two source *summaries* given, no line-level export |
-| 3 | Comparability gate | **FAIL** — 7-day vs. 30-day attribution window is a different event definition; the two counts are not addable |
-| 4 | Reconcile to source of truth | **FAIL** — no declared source of truth (network / in-house / order-billing system); four different numbers on the table with no reconciliation between them |
-| 5 | Exception queue | Cannot build without matched keys |
-| 6 | Dedupe | **FAIL** — two tracking systems, not collapsed to one canonical source |
-| 7 | Rate/tier recompute | Blocked — commission structure not provided |
-| 8 | Lifecycle/clawback | Blocked — validation window and lock event not stated |
-| 9 | Currency/tax/thresholds | Blocked — no data given |
-| 10 | Coverage method | N/A until real exports exist |
-| 12 | Maker-checker | **FAIL** — same person calculates and releases |
+| #   | Check                        | Result                                                                                                                                                      |
+| --- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Scope frozen                 | **FAIL** — no period start/end, timezone, or date basis given                                                                                               |
+| 2   | Exports pulled               | Partial — two source _summaries_ given, no line-level export                                                                                                |
+| 3   | Comparability gate           | **FAIL** — 7-day vs. 30-day attribution window is a different event definition; the two counts are not addable                                              |
+| 4   | Reconcile to source of truth | **FAIL** — no declared source of truth (network / in-house / order-billing system); four different numbers on the table with no reconciliation between them |
+| 5   | Exception queue              | Cannot build without matched keys                                                                                                                           |
+| 6   | Dedupe                       | **FAIL** — two tracking systems, not collapsed to one canonical source                                                                                      |
+| 7   | Rate/tier recompute          | Blocked — commission structure not provided                                                                                                                 |
+| 8   | Lifecycle/clawback           | Blocked — validation window and lock event not stated                                                                                                       |
+| 9   | Currency/tax/thresholds      | Blocked — no data given                                                                                                                                     |
+| 10  | Coverage method              | N/A until real exports exist                                                                                                                                |
+| 12  | Maker-checker                | **FAIL** — same person calculates and releases                                                                                                              |
 
 ## Findings
 
@@ -37,14 +37,14 @@ Nothing here confirms $31,406.18 traces to a real per-line calculation, and noth
 
 ## Variance
 
-| Figure | Value | Status |
-|---|---|---|
-| Network export | 1,904 conv. (7-day window) | one claimant |
-| In-house tracker | 1,671 conv. (30-day window) | second claimant, not additive |
-| Reported to exec | 3,575 conv. | **invalid — retract** |
-| Proposed payout | $31,406.18 | unverified against any per-line source |
-| Internal estimate | $28,500.00 | unverified methodology |
-| Unexplained delta | $2,906.18 | **above any plausible materiality bar — FAIL, not PASS** |
+| Figure            | Value                       | Status                                                   |
+| ----------------- | --------------------------- | -------------------------------------------------------- |
+| Network export    | 1,904 conv. (7-day window)  | one claimant                                             |
+| In-house tracker  | 1,671 conv. (30-day window) | second claimant, not additive                            |
+| Reported to exec  | 3,575 conv.                 | **invalid — retract**                                    |
+| Proposed payout   | $31,406.18                  | unverified against any per-line source                   |
+| Internal estimate | $28,500.00                  | unverified methodology                                   |
+| Unexplained delta | $2,906.18                   | **above any plausible materiality bar — FAIL, not PASS** |
 
 Recomputed total: **cannot be produced** until a real line-level export exists. Nothing below is safe to release on the current basis.
 

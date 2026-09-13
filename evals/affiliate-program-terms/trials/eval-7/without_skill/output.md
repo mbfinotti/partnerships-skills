@@ -1,12 +1,12 @@
 # Palo Verde Home — Affiliate Program: Prohibited Tactics Policy (Draft)
 
-*Draft policy language for insertion into the master Affiliate Program Agreement / Program Policies addendum. Two carve-outs below correspond to the Slipstream cashback-extension relationship and the coupon-site network. Flag for outside counsel before publishing: the clickstream-data clauses touch unsettled CIPA/wiretap case law and CCPA "sale/share" analysis — this is policy drafting, not a legal opinion.*
+_Draft policy language for insertion into the master Affiliate Program Agreement / Program Policies addendum. Two carve-outs below correspond to the Slipstream cashback-extension relationship and the coupon-site network. Flag for outside counsel before publishing: the clickstream-data clauses touch unsettled CIPA/wiretap case law and CCPA "sale/share" analysis — this is policy drafting, not a legal opinion._
 
 ---
 
 ## Section A — Cashback & Browser-Extension Partners
 
-*(Applies to Slipstream and any future cashback/deal-extension partner. Written to let the relationship continue, not to end it — the point is to bound what data comes in and how commission gets earned.)*
+_(Applies to Slipstream and any future cashback/deal-extension partner. Written to let the relationship continue, not to end it — the point is to bound what data comes in and how commission gets earned.)_
 
 **A.1 — Scope of tracking data accepted**
 Company will ingest and retain, from any cashback/extension partner, only the following event types, tied to a specific, user-initiated interaction with the extension on Company's domain or checkout flow: (a) extension activation timestamp, (b) referring click ID, (c) cart contents and order value at time of purchase, (d) SKU-level order data. Company will not ingest, and the partner may not transmit, browsing activity, search queries, or page views occurring on any domain other than Company's own properties, nor any browsing history not directly tied to a completed or attempted Company purchase. "Full clickstream" feeds must be filtered to this scope before they reach Company; unfiltered feeds are to be rejected by the tracking vendor at ingestion, not sorted after the fact.
@@ -33,7 +33,7 @@ A breach of A.1–A.6 that is not cured within 10 business days of written notic
 
 ## Section B — Coupon & Deal Site Network
 
-*(Applies to all ~30 coupon/deal-site affiliates.)*
+_(Applies to all ~30 coupon/deal-site affiliates.)_
 
 **B.1 — Authorized codes only**
 Affiliate may publish only codes Company has explicitly issued to that affiliate, or codes distributed through Company's official live-code feed (see B.2). Publishing a code sourced from another retailer's page, a forum, a scrape, guesswork, or a code issued to a different affiliate is prohibited, regardless of whether the code happens to work.
@@ -59,6 +59,7 @@ Affiliate may not bid on Company's brand or product trademarks in paid search to
 ---
 
 **Open items for counsel / ops before finalizing:**
+
 - A.5's CCPA "sale/share" characterization of the Slipstream data flow should get a specific look — receiving broad clickstream data from a partner can itself create obligations even if Palo Verde didn't collect it directly.
 - A.1's "on Company's domain only" restriction needs confirmation from Slipstream's engineering side that their extension can actually scope its reporting that narrowly — if not, this becomes a go/no-go point for keeping the partner at current terms.
 - B.2's feed requirement is the real fix for half the coupon sites — worth checking whether the tracking vendor can stand up this feed before the new terms go live, or whether there's a gap period to bridge.

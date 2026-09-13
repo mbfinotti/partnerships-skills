@@ -56,7 +56,7 @@ KPIs               : cost per incremental affiliate customer vs blended CAC, eff
 
 ## One caveat on your catalog spread
 
-Your catalog runs $12 to $420 - a 35x spread. A flat percentage scales cleanly *only if* margin % is roughly uniform across SKUs. If your $420 docking stations actually carry thinner margins than your $12 cables (common in electronics, where accessories often out-margin the anchor hardware), a flat 6% could overpay on the low end and underpay on the high end relative to what each item can actually support. You gave me one blended margin number (24%), not category-level margins - before scaling this past the 90-day pilot, pull margin by category and band the rate if it diverges meaningfully (e.g., a lower rate on thin-margin hero SKUs, standard rate on accessories).
+Your catalog runs $12 to $420 - a 35x spread. A flat percentage scales cleanly _only if_ margin % is roughly uniform across SKUs. If your $420 docking stations actually carry thinner margins than your $12 cables (common in electronics, where accessories often out-margin the anchor hardware), a flat 6% could overpay on the low end and underpay on the high end relative to what each item can actually support. You gave me one blended margin number (24%), not category-level margins - before scaling this past the 90-day pilot, pull margin by category and band the rate if it diverges meaningfully (e.g., a lower rate on thin-margin hero SKUs, standard rate on accessories).
 
 ## How to pitch it
 

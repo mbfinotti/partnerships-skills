@@ -1,6 +1,7 @@
 ## Arithmetic checks out — the framing doesn't
 
 **The numbers themselves are right:**
+
 - $86,000 / 2,900 orders = $29.66/order ✅
 - ($41 − $29.66) / $41 = 27.7% ≈ "28% cheaper" ✅
 
@@ -11,6 +12,7 @@ The division is correct. The comparison it's being used to justify is not sound 
 46% of your orders (≈1,334) come from two cashback partners and a coupon aggregator. That category has the weakest incrementality of any affiliate sub-channel, for a structural reason, not a quality-of-partner reason: a customer who has already decided to buy and is mid-checkout will frequently search "[brand] coupon code" or "[brand] cashback" before hitting purchase. They click through, the cookie overwrites whatever channel actually drove the decision (paid search, email, direct, organic), and the sale gets attributed — and paid a commission — as if the affiliate created the purchase. This is well-documented industry-wide (it's the reason Honey/PayPal Honey drew antitrust and creator-lawsuit scrutiny, and why most sophisticated affiliate programs run incrementality holdouts specifically on coupon/cashback).
 
 Consequence: your $29.66 blended CPO is a mix of two very different things —
+
 - Content/creator orders (54%, ~1,566): plausibly incremental, closer to genuine discovery/acquisition.
 - Cashback/coupon orders (46%, ~1,334): a meaningful share of these would have converted anyway through another channel that you already paid for once. You may be double-paying for the same order.
 
@@ -18,7 +20,7 @@ You cannot know the true CPO of "affiliate as a channel" without an incrementali
 
 ### 2. You're blending order-share with spend, and you haven't shown spend-share
 
-You know 46% of *orders* come from three partners. You have not stated what share of the *$86,000* went to them. Cashback/coupon commissions are typically flat-rate or low-percentage; content/creator deals often carry higher commissions, flat retainers, or bonuses. If cashback/coupon consumed less than 46% of spend, the *content/creator* CPO is actually higher than $29.66 (worse than it looks), and if it consumed more, content/creator CPO is lower (better than it looks) — the blended average tells you nothing about either segment on its own. Pull spend-by-partner-type before the board meeting; this is a five-minute query and changes the story either way.
+You know 46% of _orders_ come from three partners. You have not stated what share of the *$86,000* went to them. Cashback/coupon commissions are typically flat-rate or low-percentage; content/creator deals often carry higher commissions, flat retainers, or bonuses. If cashback/coupon consumed less than 46% of spend, the *content/creator* CPO is actually higher than $29.66 (worse than it looks), and if it consumed more, content/creator CPO is lower (better than it looks) — the blended average tells you nothing about either segment on its own. Pull spend-by-partner-type before the board meeting; this is a five-minute query and changes the story either way.
 
 ### 3. Comparing a blended affiliate CPO to a blended "other channels" CAC is apples-to-oranges twice over
 
@@ -27,7 +29,7 @@ You know 46% of *orders* come from three partners. You have not stated what shar
 
 ### 4. "Double the budget" assumes constant returns to scale that affiliate inventory won't support
 
-Cashback/coupon/aggregator placements are the easiest inventory to buy more of — but that's exactly the inventory with the incrementality problem in #1, so scaling there just buys more of the same margin leakage. Genuinely incremental growth would need more content sites and creators, which is a sourcing/negotiation/ramp-time problem, not a checkbook problem — you can't assume the next dollar buys orders at $29.66. Realistically, doubling the budget skews the mix *further* toward cashback/coupon (because that's the low-effort dollar to deploy fast), which would raise the true, incrementality-adjusted CPO, not hold it flat.
+Cashback/coupon/aggregator placements are the easiest inventory to buy more of — but that's exactly the inventory with the incrementality problem in #1, so scaling there just buys more of the same margin leakage. Genuinely incremental growth would need more content sites and creators, which is a sourcing/negotiation/ramp-time problem, not a checkbook problem — you can't assume the next dollar buys orders at $29.66. Realistically, doubling the budget skews the mix _further_ toward cashback/coupon (because that's the low-effort dollar to deploy fast), which would raise the true, incrementality-adjusted CPO, not hold it flat.
 
 ### What I'd do before presenting
 

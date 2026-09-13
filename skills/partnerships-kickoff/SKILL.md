@@ -102,11 +102,11 @@ These tables are deliberately unranked, and must stay that way. Scope is a match
 
 **Meta and personal practice:**
 
-| Skill                    | Route here when the task is…                                                                              |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| `partnerships-career`    | Candidate side - which partnerships sub-discipline to target, breaking in, interview prep, offer evaluation   |
-| `partnerships-hiring`    | Employer side - job posting and scorecard, interview loop, sourcing, compensation stance                      |
-| `partnerships-kickoff`   | This skill: project start, periodic check-in, "which skill do I need", re-routing                             |
+| Skill                  | Route here when the task is…                                                                                |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `partnerships-career`  | Candidate side - which partnerships sub-discipline to target, breaking in, interview prep, offer evaluation |
+| `partnerships-hiring`  | Employer side - job posting and scorecard, interview loop, sourcing, compensation stance                    |
+| `partnerships-kickoff` | This skill: project start, periodic check-in, "which skill do I need", re-routing                           |
 
 Nine clusters collide hard on keywords - four of them contested and unresolved in the collection itself. Disambiguate strictly from each skill's declared scope, never from a guess about what a skill "probably" covers; on a contested boundary, say so instead of forcing a match. Read `references/skill-routing.md` before routing any task that could plausibly match two skills.
 

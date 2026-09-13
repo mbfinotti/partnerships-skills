@@ -4,7 +4,7 @@ Zero observed traffic + last-click credit on customers who came in organically i
 
 > "Tell: commissions on customers with no meaningful referral touchpoint."
 
-Don't let DealBurrow's coupon-site-sounding name pull this into the "coupon partners are legitimate by default" bucket. That rule is for partners who *do* send traffic and just win last-click at checkout. DealBurrow apparently sends **no** traffic at all — that's a different, harder claim, and it needs technical evidence, not an incrementality test.
+Don't let DealBurrow's coupon-site-sounding name pull this into the "coupon partners are legitimate by default" bucket. That rule is for partners who _do_ send traffic and just win last-click at checkout. DealBurrow apparently sends **no** traffic at all — that's a different, harder claim, and it needs technical evidence, not an incrementality test.
 
 **The structural problem underneath it:** you track with a client-side pixel, and per the taxonomy, "a client-side pixel cannot distinguish a stuffed cookie from an organic one." That's exactly why this looks invisible from your data — your instrumentation is structurally blind to the one pattern you're describing. Fix the visibility gap before you trust any report this program produces going forward.
 
@@ -47,7 +47,7 @@ Fill the blanks as you run steps 2–5.
 
 ## The two things that decide how much of this you can actually recover — tell me these
 
-- **What's your commission validation/hold window today, and do you have clawback authority (negative-balance carry-forward, chargeback reserve) in your affiliate terms?** If commissions to DealBurrow have already *paid out* (not just accrued), whether you can get that money back depends entirely on this. No clawback clause means a confirmed fraud finding still can't recover money already sent — that gap gets fixed in the contract, not in a detection rule, and it's worth fixing before your next payout cycle regardless of how this specific case resolves.
+- **What's your commission validation/hold window today, and do you have clawback authority (negative-balance carry-forward, chargeback reserve) in your affiliate terms?** If commissions to DealBurrow have already _paid out_ (not just accrued), whether you can get that money back depends entirely on this. No clawback clause means a confirmed fraud finding still can't recover money already sent — that gap gets fixed in the contract, not in a detection rule, and it's worth fixing before your next payout cycle regardless of how this specific case resolves.
 - **Cookie window length and whether server-side postback capability exists at all** (even if unused) — determines whether you can move off the client-side pixel quickly or need a build cycle. Moving to server-side postbacks is the actual fix for "we can't tell if a cookie was stuffed" going forward; the pixel will keep producing exactly this ambiguity on every future case.
 
 ## Don't do, per the same evidence

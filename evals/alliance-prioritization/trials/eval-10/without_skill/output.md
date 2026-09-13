@@ -2,15 +2,15 @@
 
 ## Last year's cohort, status check
 
-| Tier | Company | 2025 status | Signal |
-|---|---|---|---|
-| Greenlit | Corrowine | Shipped integration, sourced 11 opportunities | ✅ Proven performer |
-| Greenlit | Sable Point | Shipped nothing, PM went dark | 🔴 Execution failure |
-| Greenlit | Askerton | Acquired by a competitor of ours (March) | 🔴 Conflict of interest |
-| Greenlit | Firthwell | Down round (May) | 🟠 Ambiguous — financial stress ≠ bad partner |
-| Held | Pennard Tech | Signed with our closest competitor (June), reportedly going well | ⚠️ False negative — we passed, they won |
-| Held | (2 others, unnamed) | No update given | ⏳ Unknown — need names/status |
-| Killed | (2, unnamed) | No update given | No new evidence to revisit |
+| Tier     | Company             | 2025 status                                                      | Signal                                        |
+| -------- | ------------------- | ---------------------------------------------------------------- | --------------------------------------------- |
+| Greenlit | Corrowine           | Shipped integration, sourced 11 opportunities                    | ✅ Proven performer                           |
+| Greenlit | Sable Point         | Shipped nothing, PM went dark                                    | 🔴 Execution failure                          |
+| Greenlit | Askerton            | Acquired by a competitor of ours (March)                         | 🔴 Conflict of interest                       |
+| Greenlit | Firthwell           | Down round (May)                                                 | 🟠 Ambiguous — financial stress ≠ bad partner |
+| Held     | Pennard Tech        | Signed with our closest competitor (June), reportedly going well | ⚠️ False negative — we passed, they won       |
+| Held     | (2 others, unnamed) | No update given                                                  | ⏳ Unknown — need names/status                |
+| Killed   | (2, unnamed)        | No update given                                                  | No new evidence to revisit                    |
 
 ## New Top 3
 

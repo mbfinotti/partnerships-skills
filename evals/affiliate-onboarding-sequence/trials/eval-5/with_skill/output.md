@@ -2,9 +2,9 @@
 
 No — don't pause the program on this number. Here's why, straight from the reliability-flagged benchmark data:
 
-**Her 30% figure is being used the wrong way.** That's Track360's "below 30% signals onboarding problems" line. It's explicitly a *diagnostic trigger for investigating*, not a ship/fail gate. Used as a gate, it demands top-quartile performance on day one — Track360's own reference point sits in TrackRev's ~31% *top quartile*, not its ~18% median. Calling 30% "industry standard" and pausing the program over it misreads a vendor blog's flag-for-review threshold as a pass/fail bar.
+**Her 30% figure is being used the wrong way.** That's Track360's "below 30% signals onboarding problems" line. It's explicitly a _diagnostic trigger for investigating_, not a ship/fail gate. Used as a gate, it demands top-quartile performance on day one — Track360's own reference point sits in TrackRev's ~31% _top quartile_, not its ~18% median. Calling 30% "industry standard" and pausing the program over it misreads a vendor blog's flag-for-review threshold as a pass/fail bar.
 
-**19% sits right around the actual median, not below it.** TrackRev's synthesis (no audited primary source, vendor data — treat directionally) puts 30-day activation at ~18% median, ~31% top quartile, ~6% bottom quartile. 19% lands at the median, not the bottom quartile where a real "our affiliates are bad" signal would show up. Separately, the practitioner-convergent range for affiliates who *ever* produce a single sale is 5-20% (Matt McWilliams: "95% of affiliates who sign up never make a single sale") — 19% at 30 days is a solid result against that backdrop, not a warning sign.
+**19% sits right around the actual median, not below it.** TrackRev's synthesis (no audited primary source, vendor data — treat directionally) puts 30-day activation at ~18% median, ~31% top quartile, ~6% bottom quartile. 19% lands at the median, not the bottom quartile where a real "our affiliates are bad" signal would show up. Separately, the practitioner-convergent range for affiliates who _ever_ produce a single sale is 5-20% (Matt McWilliams: "95% of affiliates who sign up never make a single sale") — 19% at 30 days is a solid result against that backdrop, not a warning sign.
 
 **None of this is audited data** — it's vendor-published and practitioner-convergent, useful for calibrating your own gate, not for quoting as fact to leadership.
 
@@ -25,6 +25,7 @@ Document that this gate is a vendor/practitioner figure, not an audited standard
 Report the **August cohort's 30-day rate (19%)**, not the all-time rate. The skill's own KPI framing is explicit on this: measure by monthly approval cohort, judged only when its window closes — a blended all-time rate hides whether the sequence is improving.
 
 Your 11% all-time number is lower almost by construction, and that's not new information — it mixes in:
+
 - Older cohorts approved before any onboarding fixes existed.
 - Affiliates approved before tracking or provisioning was solid (a dark tracking hop understates activation regardless of true affiliate behavior).
 - Long-dormant affiliates from early recruitment pushes who were never a fair test of the current sequence.

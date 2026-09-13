@@ -2,7 +2,7 @@ This is an affiliate attribution problem, not a performance problem. Last-click 
 
 ## The core question
 
-Did the coupon site *cause* the sale, or did it just intercept a sale that content already created? Last-click can't tell the difference. You need to test for incrementality, not just look at the leaderboard.
+Did the coupon site _cause_ the sale, or did it just intercept a sale that content already created? Last-click can't tell the difference. You need to test for incrementality, not just look at the leaderboard.
 
 ## 1. Run a coupon-site holdout / suppression test
 
@@ -11,7 +11,7 @@ The single most decisive thing you can do.
 - Pick a sample of traffic (or a set of geos/segments if you can't split traffic cleanly) and **block your top coupon/cashback affiliates' links from firing for ~2-4 weeks** — redirect them to a plain landing page or temporarily deactivate the offer for that subset.
 - Compare total site conversions and revenue in that window vs. a matched control period/segment, not just "coupon line went to zero."
 - If overall sales barely move, those affiliates were harvesting demand that would have converted anyway. If sales drop close to 1:1 with the lost coupon-attributed revenue, they were genuinely incremental.
-- This single test settles more than any amount of dashboard analysis. Coupon-industry studies (and most retailers who've run this) typically find 70-90% of coupon-site "sales" would have happened anyway — but you need *your* number, not the industry number.
+- This single test settles more than any amount of dashboard analysis. Coupon-industry studies (and most retailers who've run this) typically find 70-90% of coupon-site "sales" would have happened anyway — but you need _your_ number, not the industry number.
 
 ## 2. Path analysis: what happened before the last click
 
@@ -49,6 +49,6 @@ Pull multi-touch path data (most affiliate platforms — Impact, Awin, CJ — ex
 
 Build one table: **Channel | Last-click revenue | Incremental revenue (from holdout) | Assisted-conversion revenue | New-customer % | Effective CPA on incremental sales.**
 
-That last column reframes everything — a coupon site's *nominal* CPA might be 10%, but if only 20% of its credited sales are incremental, its *real* CPA on sales it actually caused is 50%. Content affiliates likely show the inverse pattern.
+That last column reframes everything — a coupon site's _nominal_ CPA might be 10%, but if only 20% of its credited sales are incremental, its _real_ CPA on sales it actually caused is 50%. Content affiliates likely show the inverse pattern.
 
 **Bottom line:** don't defend content's spot on the leaderboard — replace the leaderboard's metric. Last-click is measuring who touched the sale last, not who created it. The holdout test (#1) is the one piece of evidence that will actually settle the argument with leadership, because it's a real revenue number, not a modeled one — budget the 2-4 week test before making the cut.

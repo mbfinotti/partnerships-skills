@@ -7,6 +7,7 @@ Two things in what you've described work against you, and one is still reversibl
 Deleting the account destroys the evidence that any enforcement action — clawback, network report, chargeback dispute — has to stand on. Instant bans are the single most common way programs end up with a confirmed fraud case and no way to act on it: no dossier survives, and network compliance and card issuers act on evidence, not on your say-so.
 
 Before anything else, today:
+
 - **Suspend/throttle commissions to zero**, don't delete the account or the affiliate record.
 - **Export and lock down**, tied to this affiliate's ID: click logs, conversion/order records, redirect-chain and tracking-URL data, chargeback records with dates and order IDs, IP/geo on the flagged orders, and the affiliate's application/registration data (email, phone, billing/payout destination).
 - Check for **shared IP or payout destination between this affiliate's account and the buyer accounts** on the charged-back orders — that's the self-referral tell, and it's the single strongest thing to put in a network dossier.
@@ -14,6 +15,7 @@ Before anything else, today:
 ### 2. The email you sent is a liability, not a closed loop
 
 Telling a partner "we caught you committing fraud" before you've built the evidence file does two things against you:
+
 - It's now written proof of an accusation your dossier may not yet support — if this turns out to be a product-quality problem or a false positive, that email is exposure (breach of contract / defamation risk), not a clean paper trail.
 - It tips your hand. If there's a self-referral ring or stolen-card operation behind this, they now know to stop, move payout destinations, or dispute everything preemptively.
 
@@ -27,7 +29,8 @@ What actually gets action: send network compliance a dossier with the affiliate/
 
 ### 4. Check the number before you finalize the verdict
 
-7% chargebacks in a month clears the common suspend-tier threshold (>3% rolling 30 days), so escalating is defensible *if* it's this affiliate's own traffic, not a program-wide problem. Before the dossier goes out:
+7% chargebacks in a month clears the common suspend-tier threshold (>3% rolling 30 days), so escalating is defensible _if_ it's this affiliate's own traffic, not a program-wide problem. Before the dossier goes out:
+
 - Compare against your **other affiliates' chargeback rate for the same period** — a spike across the board points to a product/fulfillment issue, not this partner.
 - Check the **order-level detail behind the 7%**: same failure reason each time (stolen card, not-as-described, never-received)? Concentrated in a few geos or a short click-to-conversion window? That's what turns "elevated rate" into "fraud" rather than "this partner drives risky segments."
 
