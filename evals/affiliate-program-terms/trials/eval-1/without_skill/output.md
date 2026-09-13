@@ -1,10 +1,10 @@
 # Trellisway Affiliate Program — Terms & Conditions
 
-*(Click-through document for the affiliate signup page)*
+_(Click-through document for the affiliate signup page)_
 
 **A few notes before the legal text — confirm these before launch, since they weren't specified and I had to pick defaults:**
 
-- **Cookie/attribution window**: not given, so I set it to **60 days, last-click attribution**, separate from the 45-day validation period. If you want the cookie window to *be* 45 days too, say so and I'll collapse the two.
+- **Cookie/attribution window**: not given, so I set it to **60 days, last-click attribution**, separate from the 45-day validation period. If you want the cookie window to _be_ 45 days too, say so and I'll collapse the two.
 - **Payout method/currency**: defaulted to **PayPal or bank transfer (Wise), affiliate's choice, in USD or EUR**. Confirm your actual payment processor.
 - **Legal entity details**: `[Trellisway GmbH]`, `[registered address]`, `[commercial register / HRB number]`, `[managing director name]` are placeholders — insert your real entity data (this is a German GmbH obligation, not optional).
 - **Governing law**: set to Germany / Berlin courts, standard for a Berlin-registered company. Have counsel confirm this doesn't need adjusting for your US affiliate base (generally it doesn't — affiliates act as businesses, not consumers).
@@ -72,8 +72,8 @@ You're solely responsible for any taxes owed on your commissions. US-based affil
 
 7.2 You must clearly and conspicuously disclose your affiliate relationship wherever you promote Trellisway, in a way a reasonable person would notice before clicking your link. Depending on where your audience is, this includes:
 
- - **US affiliates**: compliance with the FTC's Endorsement Guides (16 CFR Part 255) — e.g., a clear "#ad" or "affiliate link" disclosure near the link, not buried in an about page or hashtag pile.
- - **German/EU affiliates**: compliance with §5a UWG labeling requirements (e.g., "Werbung" or "Anzeige") and, where applicable, the Medienstaatsvertrag for influencer content.
+- **US affiliates**: compliance with the FTC's Endorsement Guides (16 CFR Part 255) — e.g., a clear "#ad" or "affiliate link" disclosure near the link, not buried in an about page or hashtag pile.
+- **German/EU affiliates**: compliance with §5a UWG labeling requirements (e.g., "Werbung" or "Anzeige") and, where applicable, the Medienstaatsvertrag for influencer content.
 
 7.3 Prohibited: spam (unsolicited email/SMS/DMs), cookie-stuffing, incentivized clicks or "free gift for clicking" schemes, misleading claims about pricing or features, bidding on Trellisway's trademarks in paid search, and buying traffic from bot farms or click farms.
 

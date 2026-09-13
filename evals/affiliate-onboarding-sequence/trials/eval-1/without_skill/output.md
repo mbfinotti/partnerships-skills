@@ -26,6 +26,7 @@ This matters more than the email copy. Whatever affiliate platform you're on (Re
 Sent to **all** approved affiliates (Tier A and B both get this — the call is additive, not a replacement).
 
 ### Email 1 — Approval + assets (sent instantly, automated)
+
 **Subject:** You're in! Here's your link, code, and everything you need
 
 - Congrats, welcome to the Lumaflor affiliate program
@@ -36,6 +37,7 @@ Sent to **all** approved affiliates (Tier A and B both get this — the call is 
 - One clear next action: "Post your first link this week — here's what converts best" (link to Email 3's content, or a quick-start PDF)
 
 ### Email 2 — The personal touch (sent within 1 hour, Tier A only; Tier B gets the group-call version)
+
 **Subject:** Got 15 minutes this week? — [Founder name], Lumaflor
 
 - Short, human, not templated-sounding
@@ -44,10 +46,12 @@ Sent to **all** approved affiliates (Tier A and B both get this — the call is 
 - Explicitly say what the call covers: their audience/content style, what's worked for other affiliates like them, any custom code or bump in commission if warranted
 
 **Tier B version — Subject: Join our weekly affiliate office hours**
+
 - Standing weekly Zoom, drop-in, no prep needed
 - Same value (ask questions, get tips) at 1:many economics
 
 ### Email 3 — Getting started / how to actually sell this (Day 2)
+
 **Subject:** What's converting right now for other Lumaflor affiliates
 
 - 2–3 concrete content angles/hooks that are currently working (real ones — ask your top 5 affiliates what they're doing and use that)
@@ -56,6 +60,7 @@ Sent to **all** approved affiliates (Tier A and B both get this — the call is 
 - Reminder of the coupon code and link, in case Email 1 got buried
 
 ### Email 4 — Social proof + expectations (Day 4)
+
 **Subject:** How Lumaflor affiliates are getting paid
 
 - A real (anonymized if needed) example: "One of our coupon-site partners made $X last month doing Y"
@@ -63,6 +68,7 @@ Sent to **all** approved affiliates (Tier A and B both get this — the call is 
 - FTC/disclosure reminder, framed as protecting them, not just compliance
 
 ### Email 5 — First check-in (Day 7)
+
 **Subject:** How's it going so far?
 
 - Simple, low-pressure: "Posted yet? Need anything?"
@@ -70,6 +76,7 @@ Sent to **all** approved affiliates (Tier A and B both get this — the call is 
 - This is your cheapest signal for who's actually active vs. dead weight — route "need help" replies to the VA, route "nothing, all good" affiliates into your normal newsletter cadence
 
 ### Email 6 — 30-day pulse (Day 30)
+
 **Subject:** Your first month as a Lumaflor affiliate
 
 - Their actual performance stats (clicks/conversions if your platform surfaces them) — even "no activity yet" is useful to know

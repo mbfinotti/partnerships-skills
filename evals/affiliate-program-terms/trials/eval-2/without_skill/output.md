@@ -1,6 +1,6 @@
 # Marketing Conduct and Prohibited Practices
 
-*(Replaces the current single-sentence prohibition. Insert as its own numbered section; renumber the agreement accordingly.)*
+_(Replaces the current single-sentence prohibition. Insert as its own numbered section; renumber the agreement accordingly.)_
 
 ## 1. General Standard
 

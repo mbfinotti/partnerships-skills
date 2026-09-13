@@ -1,6 +1,6 @@
 This will be a draft for review by qualified counsel, not legal advice. Program terms are legally binding — do not publish these clauses to affiliates until counsel has cleared each `[LEGAL REVIEW]` marker.
 
-**Scope note:** this covers only the two prohibited-tactics decisions you raised (browser extensions, coupon sites) plus the shared enforcement ladder — not a full terms rewrite. I inferred the following from what you gave me rather than asking a multi-round interview, since you asked for the deliverable directly: US ecommerce, Slipstream already drives measurable tracked revenue with vendor-side clickstream evidence available (→ permit, don't ban), and the coupon problem is specifically *unauthorized* codes on legitimate sites (→ restrict, don't ban outright — you'd lose the other ~15 clean sites' discovery traffic for no reason). Placeholders in brackets need your actual numbers/cross-references filled in before this goes to counsel.
+**Scope note:** this covers only the two prohibited-tactics decisions you raised (browser extensions, coupon sites) plus the shared enforcement ladder — not a full terms rewrite. I inferred the following from what you gave me rather than asking a multi-round interview, since you asked for the deliverable directly: US ecommerce, Slipstream already drives measurable tracked revenue with vendor-side clickstream evidence available (→ permit, don't ban), and the coupon problem is specifically _unauthorized_ codes on legitimate sites (→ restrict, don't ban outright — you'd lose the other ~15 clean sites' discovery traffic for no reason). Placeholders in brackets need your actual numbers/cross-references filled in before this goes to counsel.
 
 ---
 
@@ -57,6 +57,7 @@ Coupon, deal, and voucher-code websites and content ("Coupon Sites") may partici
 ---
 
 **Still open, not settled here:**
+
 - Exact cure-period length, expired-code removal window, and cross-section numbers — yours to fill in, not a legal question.
 - Whether the ~15 non-offending coupon sites need a one-time compliance notice before 6.y's strict-liability wording bites the other ~15 — flagged above for counsel, since it's an enforcement-timing call against an existing affiliate cohort, not a new-signup clause.
 - If Palo Verde's program is network-hosted (not in-house), the network's master terms may already address one or both of these tactics — check for conflicts before publishing this as an addendum.

@@ -1,16 +1,17 @@
 ## Short answer
 
-No — pull Orrin out of the value-per-effort ranking and score it separately. Value/effort ratio is the *wrong lens for this specific candidate*, and the skill this ranking should follow (`alliance-prioritization`) names your exact situation as the textbook case where that ratio misleads:
+No — pull Orrin out of the value-per-effort ranking and score it separately. Value/effort ratio is the _wrong lens for this specific candidate_, and the skill this ranking should follow (`alliance-prioritization`) names your exact situation as the textbook case where that ratio misleads:
 
 > "A partnership whose value needs both sides to build something loses twice to a quick logo-swap integration — high effort in the denominator, plus a co-innovation discount on value it has not yet been allowed to prove... Promote it when the stated goal is product-gap fill or market entry rather than pipeline, and when the unshipped piece sits on the two parties' own dated roadmaps rather than a third party's."
 
-That is a precise description of Orrin: your CPO named product-gap fill (predictive maintenance / ML capability) as the goal, not pipeline; and the unshipped piece — Orrin's streaming endpoint, your event pipeline — sits on *both* companies' own dated roadmaps, not a third party's. That's the specific condition the method says to promote a candidate on, never rank it down by ratio.
+That is a precise description of Orrin: your CPO named product-gap fill (predictive maintenance / ML capability) as the goal, not pipeline; and the unshipped piece — Orrin's streaming endpoint, your event pipeline — sits on _both_ companies' own dated roadmaps, not a third party's. That's the specific condition the method says to promote a candidate on, never rank it down by ratio.
 
 ## Why the ratio buries it mechanically, not just unluckily
 
 Orrin gets penalized twice by construction:
+
 - **Denominator**: 9 of your 14 manager-months, next to 3–4 for each integration partner. Any ratio math makes it look like the worst deal almost regardless of its value score.
-- **Numerator discount**: its value is real but *unshipped* — you're scoring a capability that doesn't exist yet on either side. A composite scorer will (correctly) shave points for that, compounding the effort penalty.
+- **Numerator discount**: its value is real but _unshipped_ — you're scoring a capability that doesn't exist yet on either side. A composite scorer will (correctly) shave points for that, compounding the effort penalty.
 
 Neither of those facts says "don't do it." They say "don't let a ratio decide it." The fix in the method is procedural, not cosmetic: **reserve a capacity slice for the co-innovation candidate before scoring the rest, never add points to its composite to compensate.**
 
@@ -18,7 +19,7 @@ Neither of those facts says "don't do it." They say "don't let a ratio decide it
 
 You have 14 manager-months. Five integrations at 3–4 MM each sum to **17.5 MM at the midpoint — already over capacity before Orrin is even in the picture.** So "do all five, skip Orrin" was never a real option; you were always going to drop at least one integration partner regardless of what happens with Orrin.
 
-Reserve Orrin's 9 MM first: **14 − 9 = 5 MM left.** That funds roughly one integration partner (two only if both land at the low end of the 3–4 MM range). Rank the five integration partners against each other on value/effort for that remaining 5 MM — ratio ranking is exactly the right tool *there*, because they're comparable in kind (all fast, low-risk, third-party-independent integrations). It's the wrong tool for comparing an integration partner against a co-innovation bet.
+Reserve Orrin's 9 MM first: **14 − 9 = 5 MM left.** That funds roughly one integration partner (two only if both land at the low end of the 3–4 MM range). Rank the five integration partners against each other on value/effort for that remaining 5 MM — ratio ranking is exactly the right tool _there_, because they're comparable in kind (all fast, low-risk, third-party-independent integrations). It's the wrong tool for comparing an integration partner against a co-innovation bet.
 
 ## What has to happen before Orrin gets a "go," not just a slot
 

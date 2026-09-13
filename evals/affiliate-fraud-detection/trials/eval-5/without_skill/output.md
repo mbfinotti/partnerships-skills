@@ -21,17 +21,17 @@ This is the entire trick. Everything else below is what decides which rows get h
 
 ## Fraud signals (tuned for 14 affiliates / ~$9K MRR — no ML, no vendor tool needed at this scale)
 
-| Signal | What it catches | Weight |
-|---|---|---|
-| **Self-referral** | Customer email matches the affiliate's own account email | 40 |
-| **New-affiliate burst** | ≥5 orders in week 1 from an affiliate <30 days old | 30 |
-| **IP reuse across "unique" customers** | Same affiliate, same customer IP, ≥3 distinct emails in 30 days | 25 |
-| **Refund/chargeback rate spike** | Affiliate's 30-day refund rate >2x site average (min 5 orders) | 25 |
-| **Repeat-customer abuse** | Same email re-appears as a "new" commissioned order for the same affiliate within 90 days | 20 |
-| **Volume spike (established affiliate)** | This week's orders >3x their trailing 4-week average | 20 |
-| **Timing clustering** | ≥5 orders with near-identical spacing (stddev <5s) — scripted, not human | 15 |
-| **Disposable email domain** | Customer email at mailinator/guerrillamail/etc. | 15 |
-| **Value clustering** | ≥4 orders at the exact same amount from one affiliate | 10 |
+| Signal                                   | What it catches                                                                           | Weight |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------- | ------ |
+| **Self-referral**                        | Customer email matches the affiliate's own account email                                  | 40     |
+| **New-affiliate burst**                  | ≥5 orders in week 1 from an affiliate <30 days old                                        | 30     |
+| **IP reuse across "unique" customers**   | Same affiliate, same customer IP, ≥3 distinct emails in 30 days                           | 25     |
+| **Refund/chargeback rate spike**         | Affiliate's 30-day refund rate >2x site average (min 5 orders)                            | 25     |
+| **Repeat-customer abuse**                | Same email re-appears as a "new" commissioned order for the same affiliate within 90 days | 20     |
+| **Volume spike (established affiliate)** | This week's orders >3x their trailing 4-week average                                      | 20     |
+| **Timing clustering**                    | ≥5 orders with near-identical spacing (stddev <5s) — scripted, not human                  | 15     |
+| **Disposable email domain**              | Customer email at mailinator/guerrillamail/etc.                                           | 15     |
+| **Value clustering**                     | ≥4 orders at the exact same amount from one affiliate                                     | 10     |
 
 Score per order = sum of triggered weights. Score per affiliate = sum over the week. **Review threshold: 30.** At 14 affiliates you should see 0–2 flagged per week — that's the point, this is built to stay inside your 2-hour budget, not to flag everything.
 

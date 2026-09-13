@@ -4,7 +4,7 @@
 
 Month-11 and month-14 disputes on annual subscriptions, concentrated on two affiliates, is the **stolen-card transaction fraud** pattern: the fraudster builds a legitimate-looking signup through their own link, the card gets disputed months later, and the commission has long since paid out. This is not cookie stuffing or fake leads — those surface in days-to-weeks. It's the pattern no hold window reaches.
 
-Your 60-day hold didn't fail — it was never built to reach month 11–14. Two dispute-code clocks apply to a card dispute: standard fraud/unauthorized-charge claims file within 120 days of the transaction, but services-not-received / not-as-described claims (which is how "I didn't want this renewal" or "I never used this" disputes usually get coded) run 120 days from the *expected delivery date*, capped at 540 days from the transaction. On an annual subscription, "delivery" is ongoing — a month-14 dispute is still squarely inside that window. **No realistic hold window covers this tail.** [ACADEMIC/regulatory: Visa/Mastercard filing-limit rules]
+Your 60-day hold didn't fail — it was never built to reach month 11–14. Two dispute-code clocks apply to a card dispute: standard fraud/unauthorized-charge claims file within 120 days of the transaction, but services-not-received / not-as-described claims (which is how "I didn't want this renewal" or "I never used this" disputes usually get coded) run 120 days from the _expected delivery date_, capped at 540 days from the transaction. On an annual subscription, "delivery" is ongoing — a month-14 dispute is still squarely inside that window. **No realistic hold window covers this tail.** [ACADEMIC/regulatory: Visa/Mastercard filing-limit rules]
 
 ## Re-ranking the controls for this program specifically
 
@@ -18,14 +18,14 @@ Stolen-card chargebacks are one of the three named triggers (alongside confirmed
 
 Open a dossier per affiliate now, before contact:
 
-| Field | Action |
-|---|---|
-| Rule triggered | Chargeback concentration: 2 of ~120 affiliates account for $18K in one month |
-| Evidence to pull | Payment/CRM records for every disputed customer; registration IP/device/billing on the "customer" account cross-checked against the affiliate account (self-referral check); redirect-chain and referrer audit; declared vs. observed traffic source |
-| Financial exposure | Commissions paid on the disputed accounts (already gone); any commissions still in the 60-day hold on these two affiliates (throttle those to $0 immediately, today, regardless of what happens next) |
-| Recommendation | Suspend both; void anything still held; claw back paid amounts *if your contract currently authorizes it* — see gap below |
-| Reviewer | Program owner, not the analyst who found the concentration |
-| Appeals | Neutral wording only ("commissions under review pending a routine quality check"), 14-day published window, reviewed by someone other than the detecting analyst |
+| Field              | Action                                                                                                                                                                                                                                               |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rule triggered     | Chargeback concentration: 2 of ~120 affiliates account for $18K in one month                                                                                                                                                                         |
+| Evidence to pull   | Payment/CRM records for every disputed customer; registration IP/device/billing on the "customer" account cross-checked against the affiliate account (self-referral check); redirect-chain and referrer audit; declared vs. observed traffic source |
+| Financial exposure | Commissions paid on the disputed accounts (already gone); any commissions still in the 60-day hold on these two affiliates (throttle those to $0 immediately, today, regardless of what happens next)                                                |
+| Recommendation     | Suspend both; void anything still held; claw back paid amounts _if your contract currently authorizes it_ — see gap below                                                                                                                            |
+| Reviewer           | Program owner, not the analyst who found the concentration                                                                                                                                                                                           |
+| Appeals            | Neutral wording only ("commissions under review pending a routine quality check"), 14-day published window, reviewed by someone other than the detecting analyst                                                                                     |
 
 **Check this before you try to claw anything back:** does the affiliate agreement currently give you clawback authority and negative-balance carry-forward? If it doesn't, reversing already-paid commissions is itself a breach of the terms the affiliate accepted — you cannot claw back what the contract never authorized you to claw back. If that's the gap, the $18K is very likely a sunk loss, and the entire point of what follows is to make sure the *next* $18K isn't.
 
@@ -35,7 +35,7 @@ Cross-referencing IP/device/billing to check self-referral is personal-data proc
 
 1. **Clawback authority + negative-balance carry-forward + chargeback reserve** — draft this now. Concretely:
    - Clawback clause: commissions paid on transactions later charged back are recoverable.
-   - Negative-balance carry-forward: a clawed-back amount deducts from the affiliate's *future* payouts until offset, rather than requiring a separate collection action.
+   - Negative-balance carry-forward: a clawed-back amount deducts from the affiliate's _future_ payouts until offset, rather than requiring a separate collection action.
    - Chargeback reserve: hold back 10–15% of every affiliate's commission, released quarterly as long as their rolling chargeback rate stays under a threshold (e.g., 3%). [VENDOR rule of thumb — tune once you have your own 90-day chargeback-rate baseline per affiliate]
    - This changes terms affiliates already accepted, so it needs a notice period and, given the scale of the change, counsel review before you ship it to 120 partners.
 2. **Hold window**: at 60 days you're already mid-range for a non-subscription program; for an annual-subscription, chargeback-exposed vertical, push it to 90 days [VENDOR: subscription/high-chargeback verticals sit at the long end]. Say explicitly to your own team why: 90 days still doesn't reach month 11–14, it only buys a bit more runway against faster-surfacing fraud. Don't let anyone read the 90-day move as "the chargeback problem is solved."
@@ -45,13 +45,13 @@ Cross-referencing IP/device/billing to check self-referral is personal-data proc
 
 At ~120 affiliates and (based on $890/year × 120 partners at full volume) commission spend well under the ~$50K/month threshold where automated scoring starts to pay for itself, **manual review + IP/email validation beats building a scoring pipeline** here — put analyst hours into this, not tooling procurement.
 
-| # | Signal | Threshold | Band | Action | Legitimate trip risk |
-|---|---|---|---|---|---|
-| 1 | Chargeback rate per affiliate | >3% rolling 30 days [VENDOR] | Suspend & Escalate | Suspend; reverse held commissions; dossier to network | Product-quality issue hitting many affiliates evenly — check whether the rate is program-wide before pinning it on one partner |
-| 2 | Shared registration IP/device/billing between affiliate and "customer" accounts | Any match, confirmed | Suspend & Escalate | Self-referral — suspend, claw back if contract allows | None once confirmed — but the check itself needs the `[LEGAL REVIEW]` sign-off above |
-| 3 | Conversion-rate outlier | >2 SD above your 90-day program mean, sustained 2+ weeks [VENDOR→tune to your data] | Watch | Log; weekly triage | Genuinely strong content partner — check traffic mix before anything else |
-| 4 | New affiliate: no traffic, then a spike | Define your own spike threshold from actual data [DERIVE] | Watch | Manual review; keep on net-90 terms | Seasonal creator launch — check content publish dates |
-| 5 | Declared vs. observed traffic source mismatch | Any material mismatch [DERIVE] | Hold & Investigate | Throttle; referrer audit | None — this is a direct cross-check, not a behavioral proxy |
+| #   | Signal                                                                          | Threshold                                                                           | Band               | Action                                                | Legitimate trip risk                                                                                                           |
+| --- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Chargeback rate per affiliate                                                   | >3% rolling 30 days [VENDOR]                                                        | Suspend & Escalate | Suspend; reverse held commissions; dossier to network | Product-quality issue hitting many affiliates evenly — check whether the rate is program-wide before pinning it on one partner |
+| 2   | Shared registration IP/device/billing between affiliate and "customer" accounts | Any match, confirmed                                                                | Suspend & Escalate | Self-referral — suspend, claw back if contract allows | None once confirmed — but the check itself needs the `[LEGAL REVIEW]` sign-off above                                           |
+| 3   | Conversion-rate outlier                                                         | >2 SD above your 90-day program mean, sustained 2+ weeks [VENDOR→tune to your data] | Watch              | Log; weekly triage                                    | Genuinely strong content partner — check traffic mix before anything else                                                      |
+| 4   | New affiliate: no traffic, then a spike                                         | Define your own spike threshold from actual data [DERIVE]                           | Watch              | Manual review; keep on net-90 terms                   | Seasonal creator launch — check content publish dates                                                                          |
+| 5   | Declared vs. observed traffic source mismatch                                   | Any material mismatch [DERIVE]                                                      | Hold & Investigate | Throttle; referrer audit                              | None — this is a direct cross-check, not a behavioral proxy                                                                    |
 
 You don't have 90 days of baseline data yet, and you only have one confirmed incident to backtest against. Say that plainly rather than pretending these thresholds are validated: schedule the first quarterly review as the point where you check catch rate ≥80% and false-positive rate ≤5% against sampled flags, and tune from there.
 

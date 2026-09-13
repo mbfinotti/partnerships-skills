@@ -1,8 +1,8 @@
 ## Reframe before the build
 
-The plan you described — copy the marketing drip, build the portal, build the self-serve asset library — is the standard shape for a *high-volume, low-value* intake (hundreds of signups a month, most worth little individually). Your program is the opposite profile: **14 partners today, ~1-2 landing per quarter, each worth $200k+ in year-one value, and a partner manager sitting on open calendar time.**
+The plan you described — copy the marketing drip, build the portal, build the self-serve asset library — is the standard shape for a _high-volume, low-value_ intake (hundreds of signups a month, most worth little individually). Your program is the opposite profile: **14 partners today, ~1-2 landing per quarter, each worth $200k+ in year-one value, and a partner manager sitting on open calendar time.**
 
-That combination inverts the usual ranking. Normally self-serve automation wins because its build cost amortizes across volume. At your volume, a week spent building a drip/portal/asset library never pays back — you'd be routing a $200k relationship through the same templated emails as a $40 affiliate, while the person who could actually work the relationship sits idle. High-touch wins here on *both* activation rate *and* efficiency, not just activation rate.
+That combination inverts the usual ranking. Normally self-serve automation wins because its build cost amortizes across volume. At your volume, a week spent building a drip/portal/asset library never pays back — you'd be routing a $200k relationship through the same templated emails as a $40 affiliate, while the person who could actually work the relationship sits idle. High-touch wins here on _both_ activation rate _and_ efficiency, not just activation rate.
 
 **Recommendation: make the partner manager the engine, not the email sequence.** Every one of the 14 (and the ~6/year after) gets a personal onboarding track run by the AM. Build only the thin support layer underneath it — no bespoke portal, no marketing-grade asset library.
 
@@ -10,7 +10,7 @@ That combination inverts the usual ranking. Normally self-serve automation wins 
 
 I've drafted the plan below on these assumptions — flag any that are wrong:
 
-1. **Activation event**: I used *first qualified opportunity registered* (a named prospect + estimated value) as the tracked activation, with *first closed-won deal* tracked separately as the real revenue KPI. Enterprise clinical-trial procurement cycles run long, so gating "activation" on closed revenue would leave the sequence unable to report anything for most of a year.
+1. **Activation event**: I used _first qualified opportunity registered_ (a named prospect + estimated value) as the tracked activation, with _first closed-won deal_ tracked separately as the real revenue KPI. Enterprise clinical-trial procurement cycles run long, so gating "activation" on closed revenue would leave the sequence unable to report anything for most of a year.
 2. **Window**: 120 days (vs. the 90-day B2B default) — a guess to account for CRO/consultancy sales cycles. Tell me the real median if you have one.
 3. **Commission/referral model**: unspecified (referral fee, reseller margin, co-sell). This determines whether touch 1 needs tax/payout collection at all, or just a signed partner agreement. I've placeholder-flagged this — routing it to a commission-structure design is out of this skill's scope.
 4. **Partner relationship type**: I assumed a mix of pure referral (CRO recommends Reyvant) and implementation/co-sell (consultancy delivers it) — both route to high-touch, but the kickoff content differs slightly. Confirm the actual split across your 14.

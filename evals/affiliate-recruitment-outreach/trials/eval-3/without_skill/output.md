@@ -15,6 +15,7 @@
 ## Rewritten email (send this)
 
 **Subject line — test these, rotate, avoid the word "Partnership":**
+
 - `Quick question about {{their_recent_post_topic}}`
 - `{{FirstName}}, thought of you for something`
 - `Commission math for your audience (12%, $180 AOV)`
@@ -24,20 +25,20 @@
 ```
 Hi {{FirstName}},
 
-I watched your [specific video/post — e.g. "spring hiking gear rundown"] and noticed 
+I watched your [specific video/post — e.g. "spring hiking gear rundown"] and noticed
 you review a lot of outdoor gear your audience actually buys. That's rarer than it sounds.
 
-I run affiliate partnerships at Northvale (outdoor gear, DTC). Quick numbers so you can 
+I run affiliate partnerships at Northvale (outdoor gear, DTC). Quick numbers so you can
 decide if it's worth 5 minutes:
 
 - 12% commission per order, avg order value $180 → ~$21.60/sale
 - 30-day cookie
 - Paid monthly, no minimum threshold games
-- [If true — add: exclusive 15% discount code for your audience, which usually lifts 
+- [If true — add: exclusive 15% discount code for your audience, which usually lifts
   conversion vs. a generic link]
 
-I'd rather send you 2-3 products to actually try than ask you to promote something 
-you haven't touched. If that's useful, just reply and I'll ship something over — 
+I'd rather send you 2-3 products to actually try than ask you to promote something
+you haven't touched. If that's useful, just reply and I'll ship something over —
 no obligation either way.
 
 [Name]
@@ -46,6 +47,7 @@ no obligation either way.
 ```
 
 **Why this version works:**
+
 - One specific, checkable personalization detail (not "I love your content").
 - Real math instead of a vague superlative — lets them self-qualify in 10 seconds.
 - One CTA: reply. Not sign-up-link + call + Instagram follow.
@@ -61,7 +63,7 @@ Either replace it with something specific and true ("our top affiliate with a 40
 ```
 Subject: Re: [original subject]
 
-Hi {{FirstName}} — didn't want this to get buried. Still happy to send 
+Hi {{FirstName}} — didn't want this to get buried. Still happy to send
 over a couple products no strings attached if useful. Either way, no worries!
 
 [Name]

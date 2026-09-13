@@ -41,6 +41,7 @@ Widely cited failure-rate statistics ("70% of partnerships fail within two years
 A $4k-ACV SaaS vendor with flat direct sales launches a reseller program: four metal tiers, a 30% margin table copied from a competitor, a partner portal, and a recruitment target of 100 signings in year one.
 
 Every architecture decision here is a documented failure:
+
 - Partnerships deployed to fix a broken motion.
 - An ACV that cannot fund a reseller's own cost of sale.
 - Margin copied instead of derived from work the partner takes over.

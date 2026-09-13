@@ -47,6 +47,7 @@ Sign-off  : preparer and checker not yet confirmed as different people (intervie
 ```
 
 **What to do next, in order:**
+
 1. Re-pull the Northbeam export on **transaction date**, not validation date.
 2. Fix the scope to **one timezone** (recommend UTC) and convert both sources' timestamps into it before applying any cutoff; use a half-open window (`< April 1`, not `<= March 31 23:59:59`).
 3. Throw away the 22 hand-moved lines' placement — let them fall out naturally as matched / exception / duplicate once 1–2 are fixed.

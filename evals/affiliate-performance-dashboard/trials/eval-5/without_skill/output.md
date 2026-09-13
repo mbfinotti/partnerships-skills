@@ -4,14 +4,14 @@
 
 ### 1. Kill the single alert, split into 4 alert types
 
-| # | What it catches | Who owns it | Channel |
-|---|---|---|---|
-| 1 | Tracking/pixel outage | Engineering on-call | Page, 24/7 |
-| 2 | Program-wide revenue anomaly | Affiliate ops lead | Slack (warning) / Page (critical) |
-| 3 | Single-affiliate anomaly (top earners) | Affiliate manager for that account | Slack, business hours |
-| 4 | PPC-partner risk (spend, fraud, brand bidding) | Affiliate manager + finance | Slack/email, same-day |
+| #   | What it catches                                | Who owns it                        | Channel                           |
+| --- | ---------------------------------------------- | ---------------------------------- | --------------------------------- |
+| 1   | Tracking/pixel outage                          | Engineering on-call                | Page, 24/7                        |
+| 2   | Program-wide revenue anomaly                   | Affiliate ops lead                 | Slack (warning) / Page (critical) |
+| 3   | Single-affiliate anomaly (top earners)         | Affiliate manager for that account | Slack, business hours             |
+| 4   | PPC-partner risk (spend, fraud, brand bidding) | Affiliate manager + finance        | Slack/email, same-day             |
 
-Stop emailing the whole team for everything — that's *why* it gets filtered. Only #1 and a critical #2 justify waking someone up.
+Stop emailing the whole team for everything — that's _why_ it gets filtered. Only #1 and a critical #2 justify waking someone up.
 
 ### 2. Alert 1 — Tracking dead (replaces nothing, this doesn't exist today and is the highest-value addition)
 
@@ -30,7 +30,7 @@ Stop comparing to a fixed number. Compare **today's revenue to the median of the
 
 This naturally solves both halves of your current problem: in January, the baseline is January-level, so a normal soft month doesn't fire; in Q4, the baseline is Q4-level, so a real 40% drop on Black Friday finally does fire, even though $10k/day would still look "healthy" in absolute terms.
 
-If you want a number to sanity-check the model with instead of pure percentiles: pull your last 12 months of daily revenue, compute trailing-6-week-median vs. actual for every day, and confirm the 70%/50% cuts would have fired on your known bad days (a tracking outage, a site incident) and *not* fired in a normal January. Tune from there — the percentages matter more than getting them exactly right on day one.
+If you want a number to sanity-check the model with instead of pure percentiles: pull your last 12 months of daily revenue, compute trailing-6-week-median vs. actual for every day, and confirm the 70%/50% cuts would have fired on your known bad days (a tracking outage, a site incident) and _not_ fired in a normal January. Tune from there — the percentages matter more than getting them exactly right on day one.
 
 ### 4. Alert 3 — Single-affiliate drop (new, protects the concentration risk)
 
@@ -42,7 +42,7 @@ With 1,200 affiliates, revenue is almost certainly Pareto-concentrated — a han
 
 ### 5. Alert 4 — PPC partner risk (new, specific to "a handful of PPC partners")
 
-PPC affiliates carry different failure modes than content/loyalty affiliates: margin cannibalization, brand bidding, and click fraud — none of which a revenue-drop alert would ever catch (they often show as revenue going *up*).
+PPC affiliates carry different failure modes than content/loyalty affiliates: margin cannibalization, brand bidding, and click fraud — none of which a revenue-drop alert would ever catch (they often show as revenue going _up_).
 
 - **Margin cap:** commission cost ÷ order value for any PPC partner exceeds the contracted cap (e.g., set at whatever your negotiated max is) → alert finance same day.
 - **Click/conversion divergence:** a PPC partner's click volume up **>200% day-over-day** without a matching lift in conversions → likely bot traffic or click fraud → alert + auto-pause pending review.

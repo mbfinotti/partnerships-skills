@@ -2,7 +2,7 @@
 
 ## Short answer: don't sign on the reasoning you gave. The 8%-vs-14% comparison is invalid.
 
-Your 14% ceiling is a **percentage-of-contract-value bound**. ToolBench's $9,000/quarter is a **flat fee paid regardless of performance**, sitting on top of the 8%. A flat fee is the one cost component a percentage-based ceiling doesn't bound — it's owed even at zero conversions. So "8% is under 14%" tells you nothing about whether the deal is cheap; you have to blend the fixed fee into the referred volume to get the *effective* rate, and that effective rate can land anywhere from single digits to well past your ceiling depending on how much ToolBench actually refers.
+Your 14% ceiling is a **percentage-of-contract-value bound**. ToolBench's $9,000/quarter is a **flat fee paid regardless of performance**, sitting on top of the 8%. A flat fee is the one cost component a percentage-based ceiling doesn't bound — it's owed even at zero conversions. So "8% is under 14%" tells you nothing about whether the deal is cheap; you have to blend the fixed fee into the referred volume to get the _effective_ rate, and that effective rate can land anywhere from single digits to well past your ceiling depending on how much ToolBench actually refers.
 
 ## The real math
 
@@ -10,17 +10,17 @@ Effective rate = 8% + (annual fixed fee ÷ annual referred first-year contract v
 
 With the fixed fee fixed at $36,000/year ($9,000 × 4 quarters):
 
-| Referred first-year contract value (annual) | Effective rate |
-|---|---|
-| $150,000 | 32% |
-| $300,000 | 20% |
-| $600,000 | **14%** (= your ceiling, breakeven) |
-| $1,200,000 | 11% |
-| $3,600,000 | 9% |
+| Referred first-year contract value (annual) | Effective rate                      |
+| ------------------------------------------- | ----------------------------------- |
+| $150,000                                    | 32%                                 |
+| $300,000                                    | 20%                                 |
+| $600,000                                    | **14%** (= your ceiling, breakeven) |
+| $1,200,000                                  | 11%                                 |
+| $3,600,000                                  | 9%                                  |
 
 **Breakeven against your stated ceiling is $600,000/year in referred first-year contract value ($150,000/quarter).** Below that, ToolBench costs you more than your own derived maximum — the opposite of a bargain. Above it, the deal starts beating pure percentage.
 
-And the ceiling isn't even the right bar. Per the commission-structure workflow, 14% is the outer limit — you're supposed to set headline rates *below* it for exactly this reason. If your actual headline rate for comparable review/content partners is, say, 10% rather than 14%, the breakeven volume jumps to $1,800,000/year (36,000 ÷ 0.02). Every point your real headline sits below the ceiling raises the volume ToolBench must prove out before this is genuinely cheaper than what you're already paying everyone else.
+And the ceiling isn't even the right bar. Per the commission-structure workflow, 14% is the outer limit — you're supposed to set headline rates _below_ it for exactly this reason. If your actual headline rate for comparable review/content partners is, say, 10% rather than 14%, the breakeven volume jumps to $1,800,000/year (36,000 ÷ 0.02). Every point your real headline sits below the ceiling raises the volume ToolBench must prove out before this is genuinely cheaper than what you're already paying everyone else.
 
 **What I need from you to close this out:** your current (or planned) headline percentage for content/review partners, and ToolBench's own projection or track record of referred deal volume in your category (ask them for it — a site that "doesn't do performance-only" should still have historical numbers from other advertisers). Without those two, the honest answer is "conditional," not "yes."
 

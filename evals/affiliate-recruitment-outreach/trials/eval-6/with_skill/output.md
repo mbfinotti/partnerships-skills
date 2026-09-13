@@ -6,13 +6,13 @@ I'm not adding it. Multiplying "80,000 visits × $140 AOV" into a dollar figure 
 
 > "Calculations of unearned riches" (hypothetical earnings math) — stays out of the first touch.
 
-It's grouped with the other things that get first-touch emails deleted: long text, feature dumps, cliché "partnership proposal" framing. Doing the math *for* the prospect reads as inflated and non-credible — it assumes their traffic converts at your terms, which no cold email can promise.
+It's grouped with the other things that get first-touch emails deleted: long text, feature dumps, cliché "partnership proposal" framing. Doing the math _for_ the prospect reads as inflated and non-credible — it assumes their traffic converts at your terms, which no cold email can promise.
 
 What the skill does prescribe for a B2C/DTC economics line is stating the AOV plainly, without projecting it into an earnings figure. Compliant replacement line:
 
 > "Average order value is $140, so every conversion carries real weight."
 
-If you also want to work in EPC (earnings-per-click), that's allowed if you actually have that number from existing affiliates — it's a real, not hypothetical, figure. The 80,000-visits stat is your site's traffic, not theirs, so it doesn't belong in the pitch at all; it's not evidence of what *they'd* make.
+If you also want to work in EPC (earnings-per-click), that's allowed if you actually have that number from existing affiliates — it's a real, not hypothetical, figure. The 80,000-visits stat is your site's traffic, not theirs, so it doesn't belong in the pitch at all; it's not evidence of what _they'd_ make.
 
 ## 2. The reply rate to commit to
 

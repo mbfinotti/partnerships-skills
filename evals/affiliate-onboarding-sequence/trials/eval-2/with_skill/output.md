@@ -7,6 +7,7 @@ Per this skill's own failure-mode ranking, "rewrite touch 1" is explicitly the *
 Also, for context: 4% sits below even TrackRev's bottom-quartile 30-day activation (~6%), not just below the ~18% median — so "furious" isn't misplaced, but these are vendor-reported, not audited numbers, and shouldn't be quoted to your CMO as an industry-certified standard.
 
 **Assumptions I made** (fill in the bracketed values — I won't invent real commission/payout numbers):
+
 - Activation = first tracked sale within 30 days of approval (standard B2C default; confirm this matches your definition).
 - Sender = automated program address (no named AM mentioned; self-serve is the right tier at 90 approvals/month regardless).
 - Archetype mix unspecified, so copy below is written generically across content/coupon/social/email-list affiliates — if one archetype dominates your intake, the single action line in T2 should be swapped to match it.

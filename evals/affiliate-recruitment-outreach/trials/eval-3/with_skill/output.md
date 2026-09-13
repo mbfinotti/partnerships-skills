@@ -2,20 +2,21 @@
 
 Your email is close to a word-for-word match of this skill's documented "email that gets deleted" example — it hits **8 of 8 known failure modes**:
 
-| Line in your email | Failure |
-|---|---|
-| "Partnership Proposal from Northvale Supply Co." | Cliché subject Prussakov says to "completely scrap" |
-| "Hi there" | No personalization — reads as a mail-merge blast |
-| "Big fan of your content for a long time" | Fabricated familiarity — no content is actually cited |
-| "400+ SKUs, free returns, a mobile app and award-winning customer service" | Feature dump, not an audience-fit reason |
-| "$9,000+ a month... you'd probably do even better" | "Unearned riches" math — the single most-cited mistake, and legally risky as an earnings claim |
-| "We offer industry-leading commissions" | The one number affiliates actually filter on (12%, $180 AOV, 30-day cookie) is hidden |
-| "Sign up here, book a call with me here, and follow us on Instagram" | Three asks — should be one |
-| "The Northvale Team" | No named sender, no physical address, no opt-out — this is also a **CAN-SPAM violation exposed to up to $53,088 per email**, not just a style problem |
+| Line in your email                                                         | Failure                                                                                                                                               |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "Partnership Proposal from Northvale Supply Co."                           | Cliché subject Prussakov says to "completely scrap"                                                                                                   |
+| "Hi there"                                                                 | No personalization — reads as a mail-merge blast                                                                                                      |
+| "Big fan of your content for a long time"                                  | Fabricated familiarity — no content is actually cited                                                                                                 |
+| "400+ SKUs, free returns, a mobile app and award-winning customer service" | Feature dump, not an audience-fit reason                                                                                                              |
+| "$9,000+ a month... you'd probably do even better"                         | "Unearned riches" math — the single most-cited mistake, and legally risky as an earnings claim                                                        |
+| "We offer industry-leading commissions"                                    | The one number affiliates actually filter on (12%, $180 AOV, 30-day cookie) is hidden                                                                 |
+| "Sign up here, book a call with me here, and follow us on Instagram"       | Three asks — should be one                                                                                                                            |
+| "The Northvale Team"                                                       | No named sender, no physical address, no opt-out — this is also a **CAN-SPAM violation exposed to up to $53,088 per email**, not just a style problem |
 
 That's why 240 sends → 2 replies. The fix below follows this skill's structure.
 
 ⚠️ **Blockers before you send anything** — I don't have these, and the rewrite below uses placeholders until you fill them:
+
 - A real named sender (not "The Team") and their title.
 - A physical mailing address (CAN-SPAM requires this).
 - A working opt-out link.
@@ -27,7 +28,7 @@ That's why 240 sends → 2 replies. The fix below follows this skill's structure
 # RECRUITMENT OUTREACH PLAN — Northvale Supply Co., 2026-09-12
 
 **Prospect tiers**
-No prospect list was provided — only the email copy. Apply this before your next send: Tier 1 = real traffic + already monetizing (esp. already promoting a competitor — treat that as a *positive* signal, not a conflict) → deepest personalization, longest cadence. Tier 2 = fit confirmed, traffic/monetization unproven → standard cadence. Tier 3 = plausible fit, thin evidence → standard cadence, small batches, promote on any reply.
+No prospect list was provided — only the email copy. Apply this before your next send: Tier 1 = real traffic + already monetizing (esp. already promoting a competitor — treat that as a _positive_ signal, not a conflict) → deepest personalization, longest cadence. Tier 2 = fit confirmed, traffic/monetization unproven → standard cadence. Tier 3 = plausible fit, thin evidence → standard cadence, small batches, promote on any reply.
 
 **Legal segment**
 List is "all US" → CAN-SPAM applies to every send: accurate from/reply-to, non-deceptive subject, physical postal address, working opt-out honored within 10 business days. No prior consent required, but the missing sender/address/opt-out above must be fixed first.
@@ -54,13 +55,13 @@ B2C DTC default: lead with one audience-fit sentence, then plain economics (12% 
 
 **Sequence** (5 touches / ~4 weeks — the efficient default; only worth the 12-attempt cadence for named tier-1 prospects you have standing hours for)
 
-| Touch | Day | Channel | Angle | Message |
-|---|---|---|---|---|
-| 1 | 0 | Email | Fit + economics | First touch above |
-| 2 | 3-7 | Email, same thread | Resurface | "Did this reach you? Happy to answer anything." — 1-2 sentences, nothing restated |
-| 3 | 7-14 | Social DM (Instagram/whatever they use) | New proof | <300 chars, one point withheld from touch 1 (e.g. "our top affiliates run $X+/mo in commissions" *only if you can back that number*), no link |
-| 4 | 14-21 | Email | Ease | Offer to pre-fill their application, or send a ready-made product/asset for their next post |
-| 5 (breakup) | 21-28 | Email | Loss-aversion close | Below |
+| Touch       | Day   | Channel                                 | Angle               | Message                                                                                                                                       |
+| ----------- | ----- | --------------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1           | 0     | Email                                   | Fit + economics     | First touch above                                                                                                                             |
+| 2           | 3-7   | Email, same thread                      | Resurface           | "Did this reach you? Happy to answer anything." — 1-2 sentences, nothing restated                                                             |
+| 3           | 7-14  | Social DM (Instagram/whatever they use) | New proof           | <300 chars, one point withheld from touch 1 (e.g. "our top affiliates run $X+/mo in commissions" _only if you can back that number_), no link |
+| 4           | 14-21 | Email                                   | Ease                | Offer to pre-fill their application, or send a ready-made product/asset for their next post                                                   |
+| 5 (breakup) | 21-28 | Email                                   | Loss-aversion close | Below                                                                                                                                         |
 
 **Breakup touch**
 

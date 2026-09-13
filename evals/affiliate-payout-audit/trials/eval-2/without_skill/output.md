@@ -2,23 +2,23 @@
 
 **The math, both ways:**
 
-*If bands are graduated (marginal), like a tax bracket — each dollar taxed only at its own tier's rate:*
+_If bands are graduated (marginal), like a tax bracket — each dollar taxed only at its own tier's rate:_
 
-| Partner | Calculation | Correct payout |
-|---|---|---|
-| Brightpath ($26,000) | 10,000×20% + 15,000×25% + 1,000×30% = 2,000+3,750+300 | **$6,050** |
-| Onda ($25,000) | 10,000×20% + 15,000×25% = 2,000+3,750 | **$5,750** |
+| Partner              | Calculation                                           | Correct payout |
+| -------------------- | ----------------------------------------------------- | -------------- |
+| Brightpath ($26,000) | 10,000×20% + 15,000×25% + 1,000×30% = 2,000+3,750+300 | **$6,050**     |
+| Onda ($25,000)       | 10,000×20% + 15,000×25% = 2,000+3,750                 | **$5,750**     |
 
-*If bands are a "cliff" — the entire volume gets paid at the rate of whichever tier it lands in:*
+_If bands are a "cliff" — the entire volume gets paid at the rate of whichever tier it lands in:_
 
-| Partner | Calculation | Payout |
-|---|---|---|
+| Partner                                 | Calculation  | Payout     |
+| --------------------------------------- | ------------ | ---------- |
 | Brightpath ($26,000, in the >$25k tier) | 30% × 26,000 | **$7,800** |
-| Onda ($25,000, in the $10k–$25k tier) | 25% × 25,000 | **$6,250** |
+| Onda ($25,000, in the $10k–$25k tier)   | 25% × 25,000 | **$6,250** |
 
 ## What actually happened
 
-The platform paid **$7,800 to Brightpath and $6,250 to Onda** — which match the *cliff* method exactly, not the graduated one. So:
+The platform paid **$7,800 to Brightpath and $6,250 to Onda** — which match the _cliff_ method exactly, not the graduated one. So:
 
 - ✅ The two payouts are consistent with **each other** (same methodology applied both times).
 - ⚠️ Under the graduated reading — the standard interpretation for rate cards phrased "up to X / X–Y / above Y" — both were **overpaid**: Brightpath by **$1,750** ($7,800 vs $6,050), Onda by **$500** ($6,250 vs $5,750).
@@ -29,7 +29,7 @@ The cliff method creates a hard notch at each boundary: a partner referring $24,
 
 ## One thing I can't resolve for you
 
-The rate card was refreshed **two weeks ago**. The quarter you're re-auditing predates that refresh. Before finalizing any "correct" number, confirm whether the 20/25/30 bands you quoted are the version that was actually in force during the quarter being disputed, or the post-refresh version — comparing last quarter's payouts against the *current* card would be the wrong baseline even if you settle the graduated-vs-cliff question. I don't have access to the pre-refresh card or the underlying PDF/ledger, so this needs to be pulled and checked before you close the audit.
+The rate card was refreshed **two weeks ago**. The quarter you're re-auditing predates that refresh. Before finalizing any "correct" number, confirm whether the 20/25/30 bands you quoted are the version that was actually in force during the quarter being disputed, or the post-refresh version — comparing last quarter's payouts against the _current_ card would be the wrong baseline even if you settle the graduated-vs-cliff question. I don't have access to the pre-refresh card or the underlying PDF/ledger, so this needs to be pulled and checked before you close the audit.
 
 ## Recommended next step
 

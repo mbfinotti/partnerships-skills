@@ -16,22 +16,23 @@ One document with the Software commission terms scoped to the SaaS line and the 
 
 This was delivered as a single finished draft rather than through the normal one-question-at-a-time interview. That means several positions below are defaults, not your decisions. Confirm or override each before this goes to counsel:
 
-| Area | Default assumed | Why | Change it if... |
-|---|---|---|---|
-| Program stage | Still being designed, not yet live with affiliates | No launch date given | You already have signed-up affiliates — tightening any clause below then costs an amendment cycle, not a free edit |
-| Document lifecycle | Maintained, versioned, dated change record | Two product lines will keep evolving | — |
-| Hosting | In-house (not network-hosted) | Nothing indicates a network (Impact, PartnerStack, etc.) | If hosted on a network, this document becomes only the program-specific layer on top of the network's master terms |
-| Geography | Company and affiliates assumed US-based; drafted to also cover EU/UK-facing affiliates defensively | Not stated | Confirm actual affiliate/customer countries — this changes whether P2B and ASA/CAP sections are live obligations or dead weight |
-| Trademark-bidding policy | Strict prohibition | Cheapest, highest-ratio default; no named partner justifying a carve-out was mentioned | If a specific affiliate already drives brand-term volume you'd otherwise lose to arbitrage, tell me — that promotes a whitelist instead |
-| Coupon/deal sites | Restricted (issued codes only) | Balances discovery traffic against code-scraping arbitrage; reasonable default when affiliate mix is unknown | Ban outright if coupon traffic isn't material to you; permit fully if it is and margin isn't a concern |
-| Browser extensions | Banned outright | One-clause default; permitting requires an ongoing stand-down/evidence program | Only revisit if an extension partner already drives real tracked revenue |
-| Approval mode | Manual review | Safer default pre-launch | — |
-| Validation window / payout threshold / chargeback reserve | **Not invented** — bracketed placeholders below | These are commission-structure decisions, not terms-drafting decisions | Fill in with your finance/ops numbers before counsel review |
-| Known abuse concerns | None stated | — | — |
+| Area                                                      | Default assumed                                                                                    | Why                                                                                                          | Change it if...                                                                                                                         |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Program stage                                             | Still being designed, not yet live with affiliates                                                 | No launch date given                                                                                         | You already have signed-up affiliates — tightening any clause below then costs an amendment cycle, not a free edit                      |
+| Document lifecycle                                        | Maintained, versioned, dated change record                                                         | Two product lines will keep evolving                                                                         | —                                                                                                                                       |
+| Hosting                                                   | In-house (not network-hosted)                                                                      | Nothing indicates a network (Impact, PartnerStack, etc.)                                                     | If hosted on a network, this document becomes only the program-specific layer on top of the network's master terms                      |
+| Geography                                                 | Company and affiliates assumed US-based; drafted to also cover EU/UK-facing affiliates defensively | Not stated                                                                                                   | Confirm actual affiliate/customer countries — this changes whether P2B and ASA/CAP sections are live obligations or dead weight         |
+| Trademark-bidding policy                                  | Strict prohibition                                                                                 | Cheapest, highest-ratio default; no named partner justifying a carve-out was mentioned                       | If a specific affiliate already drives brand-term volume you'd otherwise lose to arbitrage, tell me — that promotes a whitelist instead |
+| Coupon/deal sites                                         | Restricted (issued codes only)                                                                     | Balances discovery traffic against code-scraping arbitrage; reasonable default when affiliate mix is unknown | Ban outright if coupon traffic isn't material to you; permit fully if it is and margin isn't a concern                                  |
+| Browser extensions                                        | Banned outright                                                                                    | One-clause default; permitting requires an ongoing stand-down/evidence program                               | Only revisit if an extension partner already drives real tracked revenue                                                                |
+| Approval mode                                             | Manual review                                                                                      | Safer default pre-launch                                                                                     | —                                                                                                                                       |
+| Validation window / payout threshold / chargeback reserve | **Not invented** — bracketed placeholders below                                                    | These are commission-structure decisions, not terms-drafting decisions                                       | Fill in with your finance/ops numbers before counsel review                                                                             |
+| Known abuse concerns                                      | None stated                                                                                        | —                                                                                                            | —                                                                                                                                       |
 
 ---
 
 # Kirnwood Affiliate Program Terms
+
 **DRAFT FOR LEGAL REVIEW — NOT LEGAL ADVICE**
 Version 0.1 — [DATE] — Change record: initial draft
 
@@ -43,7 +44,7 @@ Two products, one program: the **Software** (Kirnwood's B2B inventory SaaS, $240
 
 ## 2. Eligibility & Approval
 
-Participation requires written acceptance of these Terms by clicking "I Agree" at signup. Company may approve, reject, or revoke eligibility at any time and without obligation to state a reason for a rejected application [distinct from a *termination* of an already-approved affiliate — see Section 13, which does require reasons]. Approval is by manual review. Requirements: valid tax documentation (W-9/W-8BEN as applicable), one account per person/entity, no prohibited content categories (adult, hate, deceptive, competitor-disparaging), compliance with Section 6.
+Participation requires written acceptance of these Terms by clicking "I Agree" at signup. Company may approve, reject, or revoke eligibility at any time and without obligation to state a reason for a rejected application [distinct from a _termination_ of an already-approved affiliate — see Section 13, which does require reasons]. Approval is by manual review. Requirements: valid tax documentation (W-9/W-8BEN as applicable), one account per person/entity, no prohibited content categories (adult, hate, deceptive, competitor-disparaging), compliance with Section 6.
 
 Affiliates may promote either or both product lines; approval for one does not require separate approval for the other, but Company may restrict an affiliate to one line at its discretion.
 
@@ -56,6 +57,7 @@ Company grants Affiliate a limited, non-exclusive, revocable licence to use Comp
 Rates below are as decided by Kirnwood; this document does not invent them.
 
 **Software (SaaS) line:**
+
 - 20% of Net Collected Revenue on the referred subscription.
 - Recurring, capped at 24 months from the first paid month of the referred subscription. No commission accrues after month 24 regardless of subscription continuation.
 - Paid on Net Collected Revenue, not bookings — a subscription that churns or fails to collect generates no payable commission for that period.
@@ -63,6 +65,7 @@ Rates below are as decided by Kirnwood; this document does not invent them.
 - Failed charges/dunning: no commission accrues for a billing cycle in which payment is not collected.
 
 **Store (DTC) line:**
+
 - 8% of Net Collected Revenue (order value net of returns, cancellations, taxes, shipping) on the referred Store Order, one-time.
 - Payable only once the underlying return/cancellation window has closed (see Section 15).
 
@@ -74,7 +77,7 @@ Last-click attribution, Company's tracking data is authoritative absent demonstr
 
 ## 6. Prohibited Tactics & Enforcement
 
-Enumerated bans. Anything not listed here is not thereby permitted by omission from any *other* section of this document, but the parties acknowledge that under the enumerate-or-permit principle governing this genre, an omitted *tactic* is treated as allowed — so this list is exhaustive by design, not illustrative.
+Enumerated bans. Anything not listed here is not thereby permitted by omission from any _other_ section of this document, but the parties acknowledge that under the enumerate-or-permit principle governing this genre, an omitted _tactic_ is treated as allowed — so this list is exhaustive by design, not illustrative.
 
 - **Trademark/brand-keyword bidding — strict prohibition [assumed default, confirm]:** Affiliate shall not bid on Kirnwood trademarked terms (exact match, broad match, phrase match), including misspellings, permutations, and trademark-plus-modifier or trademark-plus-coupon terms, in any paid search campaign; must add Kirnwood's marks as negative keywords; must not use Kirnwood's marks in paid-search ad copy or direct-link paid-search traffic to Kirnwood domains. `[LEGAL REVIEW: contractual only — search engines will not independently enforce this; only trademark use in ad copy is independently actionable]`
 - **Typosquatting:** No registration of misspelled/confusable Kirnwood domains.

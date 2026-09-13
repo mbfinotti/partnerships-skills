@@ -2,7 +2,7 @@
 
 The shared single-screen dashboard works for a 4-person team. The separate weekly fraud tool is the right call too — fraud review needs a queue/workflow, not a tile. Two things to get right before building:
 
-- **"Live" and "45-day validation" fight each other.** A 45-day window means any number shown for the last ~6 weeks is provisional. If the screen doesn't visually separate *pending* from *approved*, the CMO will read pending pipeline as booked revenue on day one.
+- **"Live" and "45-day validation" fight each other.** A 45-day window means any number shown for the last ~6 weeks is provisional. If the screen doesn't visually separate _pending_ from _approved_, the CMO will read pending pipeline as booked revenue on day one.
 - **"Same tiles for everyone" is fine only if tiles are status-segmented and drillable.** The CMO wants trend/ROI, the managers want an actionable queue. One screen can serve both if the top layer is aggregate and every tile drills into affiliate-level detail on click — don't build four dashboards, but don't flatten the roles into one generic view either.
 
 Everything below assumes last-click attribution (state that assumption to your team explicitly — it determines who gets paid on multi-touch journeys).
@@ -12,6 +12,7 @@ Everything below assumes last-click attribution (state that assumption to your t
 **Default window:** Approved revenue defaults to a trailing 30-day view (matches the cookie window, matches how marketing already thinks in months). Never default to "last 45 days" as headline revenue — that number always looks artificially high because it includes stuff not yet validated.
 
 **Refresh cadence — show it, don't fake it:**
+
 - Clicks / sessions: near-real-time (every 2–5 min, whatever the network API actually supports)
 - Orders / revenue tiles: every 15–30 min (matches typical affiliate platform → order system sync)
 - Put a small "as of HH:MM" timestamp on every tile individually — clicks and revenue will legitimately be out of sync with each other, and an unlabeled staleness gap is what triggers "why don't the numbers match" arguments.
@@ -38,6 +39,7 @@ Split by partner type is the one non-negotiable tile for B2C ecommerce: coupon/c
 Not a dashboard — a working queue. Batch-run weekly, but auto-alert if the pending-decision queue spikes mid-week (a burst right before an affiliate's orders would hit day 45 and auto-approve is exactly the pattern to catch before money moves).
 
 **Checks to build in, ranked by how commonly they bite B2C ecommerce programs:**
+
 1. **Cookie stuffing / click-to-order velocity** — click and checkout separated by seconds, no site engagement in between.
 2. **Coupon code leakage / brand bidding** — affiliate's code showing up on coupon-aggregator sites they weren't given it for, or bidding on your branded search terms.
 3. **Last-click theft** — a coupon-extension affiliate's click lands seconds before checkout after a paid/organic session already existed. Classic attribution poaching, not necessarily "fraud" but should be a judgment queue.

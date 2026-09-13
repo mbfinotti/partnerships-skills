@@ -1,19 +1,19 @@
 # Affiliate Dashboard — Metric Definitions (B2C Apparel)
 
-No canonical metric-definition standard exists for affiliate dashboards — these are written to be internally consistent and reproducible for *your* program, not to match a vendor's glossary.
+No canonical metric-definition standard exists for affiliate dashboards — these are written to be internally consistent and reproducible for _your_ program, not to match a vendor's glossary.
 
 ## Comparability contract (governs every metric below)
 
 - **Source of truth:** orders database, reconciled to the affiliate platform for clicks/traffic.
 - **Attribution:** last click, 30-day cookie.
-- **Order state counted:** *validated* = not returned/cancelled as of the report run date. A period is only comparable once its return window has fully elapsed for every order in it — don't compare a fresh period against a mature one.
+- **Order state counted:** _validated_ = not returned/cancelled as of the report run date. A period is only comparable once its return window has fully elapsed for every order in it — don't compare a fresh period against a mature one.
 - **Revenue field:** gross order value as stored, **minus returned line items**, and it **includes tax and shipping** because your schema can't separate them out. Every revenue-based metric below inherits this — treat all of them as tax-and-shipping-inclusive, and never compare them to an external benchmark (or a competitor's dashboard) that reports ex-tax/ex-shipping, without saying so.
 - **Date basis:** order date for volume/revenue metrics; return-processing date for reversal-driven adjustments.
 - **Timezone / currency:** not specified in the brief — pick one (store checkout timezone, settlement currency) and put it in the dashboard header. Every metric below is undefined until that's fixed.
 
 ## The 7 metrics
 
-**ROAS** — Attributed order revenue for the period (last-click, 30-day cookie, validated orders, net of returns, inclusive of tax/shipping per the contract) ÷ affiliate cost of sale for the same order-date period (validated commission + network fees + agency fees + placement fees), shown as a ratio (e.g. "9.2:1"). There's no separate media-spend line in an affiliate program, so "cost" here *is* cost of sale — state that substitution on the tile so nobody reads it as ad spend.
+**ROAS** — Attributed order revenue for the period (last-click, 30-day cookie, validated orders, net of returns, inclusive of tax/shipping per the contract) ÷ affiliate cost of sale for the same order-date period (validated commission + network fees + agency fees + placement fees), shown as a ratio (e.g. "9.2:1"). There's no separate media-spend line in an affiliate program, so "cost" here _is_ cost of sale — state that substitution on the tile so nobody reads it as ad spend.
 
 **ROI** — Two ROI formulas exist in circulation and disagree (revenue ÷ (cost+COGS), vs (revenue−cost) ÷ cost × 100). Reconciled definition to use here: **ROI = (Attributed order revenue − Total cost) ÷ Total cost × 100**, where Total cost = affiliate cost of sale (same as ROAS) + COGS of the goods in those orders (landed unit cost, not a revenue-derived estimate). Same period, order-date, validated-only rules as ROAS. This needs a per-order/per-SKU COGS feed — if merchandise cost isn't joinable to orders today, ROI can't be computed as specified; say so in Open items rather than faking it with a margin assumption.
 
@@ -25,7 +25,7 @@ No canonical metric-definition standard exists for affiliate dashboards — thes
 
 **Active-affiliate rate** — Affiliates with ≥1 validated conversion in the trailing 30 days ÷ total enrolled affiliates as of the same date × 100. The 30-day window is chosen to match your cookie window, not because it's the "correct" one — 30/60/90 all appear in published definitions with no consensus. Lock this window in writing before anyone is managed against the number.
 
-**New-to-file rate** — Affiliate-attributed validated conversions where the customer (matched by email or customer ID) has **no prior order anywhere in full order history** ÷ total affiliate-attributed validated conversions in the period × 100. Two hard requirements: the affiliate/partner ID must already be stamped on the order at creation, and the match must check *all* history, not just the reporting period. Known failure mode: a returning customer on a new device/email reads as new-to-file — that's an identity-resolution limit, not a formula error, and it's why this metric only ever *screens* for incrementality, it never proves it (a coupon or cashback partner intercepting a shopper already headed to checkout scores as new-to-file too).
+**New-to-file rate** — Affiliate-attributed validated conversions where the customer (matched by email or customer ID) has **no prior order anywhere in full order history** ÷ total affiliate-attributed validated conversions in the period × 100. Two hard requirements: the affiliate/partner ID must already be stamped on the order at creation, and the match must check _all_ history, not just the reporting period. Known failure mode: a returning customer on a new device/email reads as new-to-file — that's an identity-resolution limit, not a formula error, and it's why this metric only ever _screens_ for incrementality, it never proves it (a coupon or cashback partner intercepting a shopper already headed to checkout scores as new-to-file too).
 
 ## Open items (things the brief didn't settle — don't let anyone assume these silently)
 

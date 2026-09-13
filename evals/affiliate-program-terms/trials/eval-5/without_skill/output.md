@@ -59,9 +59,9 @@ Bidding on a non-whitelisted or expired term is a material breach. Ember & Co ma
 
 ### Exhibit A — Brand Term Whitelist (living document, maintained separately from these Terms)
 
-| Keyword (exact string) | Affiliate | Approved date | Expires | Status |
-|---|---|---|---|---|
-| _(none active at Terms effective date — entries added only per [X].2)_ | | | | |
+| Keyword (exact string)                                                 | Affiliate | Approved date | Expires | Status |
+| ---------------------------------------------------------------------- | --------- | ------------- | ------- | ------ |
+| _(none active at Terms effective date — entries added only per [X].2)_ |           |               |         |        |
 
 ---
 

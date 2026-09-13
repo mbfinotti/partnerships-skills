@@ -1,4 +1,4 @@
-## Verdict: the $29.66 vs $41 comparison is comparing the wrong things. Once you correct for it, the affiliate channel is likely *more* expensive than your other channels, not 28% cheaper — reverse your ask before it goes to the board.
+## Verdict: the $29.66 vs $41 comparison is comparing the wrong things. Once you correct for it, the affiliate channel is likely _more_ expensive than your other channels, not 28% cheaper — reverse your ask before it goes to the board.
 
 ### 1. The arithmetic you did is correct, as far as it goes
 
@@ -11,21 +11,21 @@ The error isn't in this division. It's in what the numerator and denominator rep
 
 Two problems, both structural to affiliate attribution, not to your calculator:
 
-**(a) Order ≠ incremental customer.** CAC on your other channels measures cost per *acquired* customer. Your $29.66 measures cost per *attributed order* — including orders from shoppers who were already going to buy and just clicked a cashback/coupon link on the way to checkout to collect a rebate. That's last-click credit on demand you already created, not demand the affiliate created.
+**(a) Order ≠ incremental customer.** CAC on your other channels measures cost per _acquired_ customer. Your $29.66 measures cost per _attributed order_ — including orders from shoppers who were already going to buy and just clicked a cashback/coupon link on the way to checkout to collect a rebate. That's last-click credit on demand you already created, not demand the affiliate created.
 
 **(b) You told me the partner mix, and it's the worst-case mix for this exact problem.** 46% of your order volume sits with two cashback partners and a coupon aggregator — precisely the partner types that research consistently shows run **66-71% non-incremental** (cashback/coupon/loyalty capture last-click credit on demand others created; cashback sites also rebate 30-70% of their commission straight back to the shopper, which is why shoppers seek them out regardless of your affiliate spend). Content sites and creators, by contrast, run **78-82% incremental** — they actually create demand.
 
-A blended cost-per-order figure averages a channel that's mostly real (content/creators) with a channel that's mostly *not* (cashback/coupon), and the 46% concentration in the non-incremental bucket means the blend is doing a lot of hiding.
+A blended cost-per-order figure averages a channel that's mostly real (content/creators) with a channel that's mostly _not_ (cashback/coupon), and the 46% concentration in the non-incremental bucket means the blend is doing a lot of hiding.
 
 ### 3. Re-running the number with incrementality applied
 
 Correct formula: cost per incremental customer = total spend ÷ (orders × incrementality share), applied per partner-type bucket, not blended.
 
-| Bucket | Orders (46%/54% split of 2,900) | Incrementality range | Incremental orders (low–high) |
-|---|---|---|---|
-| Cashback ×2 + coupon aggregator | 1,334 | 29–34% | 387 – 454 |
-| Content + creators | 1,566 | 78–82% | 1,222 – 1,284 |
-| **Total** | 2,900 | — | **1,608 – 1,738** |
+| Bucket                          | Orders (46%/54% split of 2,900) | Incrementality range | Incremental orders (low–high) |
+| ------------------------------- | ------------------------------- | -------------------- | ----------------------------- |
+| Cashback ×2 + coupon aggregator | 1,334                           | 29–34%               | 387 – 454                     |
+| Content + creators              | 1,566                           | 78–82%               | 1,222 – 1,284                 |
+| **Total**                       | 2,900                           | —                    | **1,608 – 1,738**             |
 
 True cost per incremental order = $86,000 ÷ (1,608 to 1,738) = **$49.49 – $53.47**
 

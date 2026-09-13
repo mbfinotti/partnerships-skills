@@ -10,7 +10,7 @@ Your data is the second case, not the first.
 
 ## What's actually wrong with touch 3
 
-Touch 3 is the "connection" slot — a reply-seeking, personal check-in. It's going out from **program@**, an automated/generic address. The house rule for this exact touch type: *"the named AM for the connection touch and anything asking for a reply — a reply-seeking email from a no-reply address answers itself."* That's almost certainly your 9%: affiliates see an automated address asking them to justify their promotion plan, and it reads as either a compliance check or spam-adjacent, so they skip it. Then touch 4 shows up with an actual asset/nudge and engagement recovers on its own — further evidence the sequence itself is fine.
+Touch 3 is the "connection" slot — a reply-seeking, personal check-in. It's going out from **program@**, an automated/generic address. The house rule for this exact touch type: _"the named AM for the connection touch and anything asking for a reply — a reply-seeking email from a no-reply address answers itself."_ That's almost certainly your 9%: affiliates see an automated address asking them to justify their promotion plan, and it reads as either a compliance check or spam-adjacent, so they skip it. Then touch 4 shows up with an actual asset/nudge and engagement recovers on its own — further evidence the sequence itself is fine.
 
 ## Cost comparison
 
@@ -31,7 +31,7 @@ That ratio alone should decide it for a single mis-sent touch.
 
 1. **Keep touches 1, 2, 4, 5** — they're performing at or above the range this pattern usually sees.
 2. **Build the hub anyway** — it's a good idea, just not as a replacement. Point T2 and T4 at it as the persistent asset location instead of attaching files inline. This is literally the documented fix for the "welcome dump" failure mode, and it gives affiliates a self-serve fallback without removing the sends that are getting attention.
-3. **Fix touch 3 only**: swap program@ for a named AM if you have one, or convert it from "reply and justify your plan" into either (a) an automated low-effort nudge like T4's, or (b) a true behavior trigger — only fire it at affiliates who *haven't* clicked yet by day 7, instead of blind-sending it to everyone including people who already converted from touch 1.
+3. **Fix touch 3 only**: swap program@ for a named AM if you have one, or convert it from "reply and justify your plan" into either (a) an automated low-effort nudge like T4's, or (b) a true behavior trigger — only fire it at affiliates who _haven't_ clicked yet by day 7, instead of blind-sending it to everyone including people who already converted from touch 1.
 4. Before committing dev time either way, two checks worth doing first (near-zero to an hour each, cheaper than a quarter of build):
    - Trace whether touch 1/2's clicks are converting at all — confirms the activation numbers behind this are real before you optimize around them.
    - Split touch 3's 9% by archetype or by whether a named AM exists for that segment — you may find it's fine for one group and collapsing only for another, which changes the fix.

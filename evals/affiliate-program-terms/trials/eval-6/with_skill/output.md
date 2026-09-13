@@ -3,6 +3,7 @@ This will be a draft for review by qualified counsel, not legal advice. Program 
 Because this had to be delivered as one complete document rather than through the usual one-question-at-a-time interview, I made the assumptions below. Flag any that are wrong and I'll revise.
 
 **Assumptions made (please correct):**
+
 - B2C ecommerce, network-hosted program (network name shown as `[Network Name]` placeholder), no US operations.
 - Affiliates join and are managed via the network; a mix of UK and other-EU (incl. Irish) affiliates is possible — so EU/UK protective notice provisions are applied defensively.
 - Commission rate, recurring-vs-one-time structure, validation window and payout threshold are **not invented here** — shown as `[per Commission Schedule]` placeholders, set elsewhere and simply cited by this document.
@@ -117,11 +118,11 @@ By applying to join the Programme through the Network and by accepting these Pro
 
 6.4 **Enforcement ladder.** Sundermark will apply the following ladder in sequence, save that Sundermark may skip directly to steps (iii)/(iv) for severe violations (including cookie stuffing, fraud, or trademark impersonation), which are contractually reserved grounds for doing so:
 
-  (i) Written warning with a stated cure period;
-  (ii) Voiding of Commissions generated through the violating tactic;
-  (iii) Account suspension pending investigation;
-  (iv) Termination for cause, with immediate effect and no notice-period benefit;
-  (v) Recovery of already-paid Commissions attributable to the violation, without prejudice to any other damages or remedy available to Sundermark.
+(i) Written warning with a stated cure period;
+(ii) Voiding of Commissions generated through the violating tactic;
+(iii) Account suspension pending investigation;
+(iv) Termination for cause, with immediate effect and no notice-period benefit;
+(v) Recovery of already-paid Commissions attributable to the violation, without prejudice to any other damages or remedy available to Sundermark.
 
 ## 7. Disclosure Obligations
 
@@ -147,11 +148,11 @@ By applying to join the Programme through the Network and by accepting these Pro
 
 9.2 **Roles.** Sundermark is a data controller in respect of Customer personal data. The role of the Network and of Affiliates in the tracking/attribution data chain is genuinely disputed across the industry, and is not resolved by this document. Present, unranked, for counsel to decide and document in a Data Processing Agreement:
 
-  - **Option A — Joint controller:** Sundermark, the Network, and Affiliates are joint controllers of tracking data, as some major networks publicly take this position.
-  - **Option B — Independent controller:** the Network acts as an independent controller of its own tracking/attribution data, separate from Sundermark's controllership of Customer purchase data.
-  - **Option C — Processor:** the Network (and any tracking technology vendor) acts solely as a processor on Sundermark's instructions.
+- **Option A — Joint controller:** Sundermark, the Network, and Affiliates are joint controllers of tracking data, as some major networks publicly take this position.
+- **Option B — Independent controller:** the Network acts as an independent controller of its own tracking/attribution data, separate from Sundermark's controllership of Customer purchase data.
+- **Option C — Processor:** the Network (and any tracking technology vendor) acts solely as a processor on Sundermark's instructions.
 
-  `[LEGAL REVIEW: GDPR role allocation — pick a position deliberately and record it in a DPA; check what position the Network itself already takes, since that may constrain the available options.]`
+`[LEGAL REVIEW: GDPR role allocation — pick a position deliberately and record it in a DPA; check what position the Network itself already takes, since that may constrain the available options.]`
 
 9.3 Affiliates must honour applicable cookie-consent requirements (UK PECR / EU ePrivacy) on their own properties before any Sundermark tracking cookie is set via their traffic.
 
@@ -197,11 +198,11 @@ Each party represents and warrants that: it has full power and authority to ente
 
 15.1 A Commission may be reversed, in whole or part, at any time up to the transaction's chargeback-exposure window closing, on the following grounds only (no open-ended "at our discretion" reversal):
 
-  - Fraud (including any Clause 6 violation);
-  - Product return;
-  - Order cancellation;
-  - Payment chargeback or non-payment;
-  - Statutory consumer withdrawal — UK Customers under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013, and Irish/EU Customers under the equivalent Consumer Rights Directive implementation, both giving a **14-day** cooling-off right.
+- Fraud (including any Clause 6 violation);
+- Product return;
+- Order cancellation;
+- Payment chargeback or non-payment;
+- Statutory consumer withdrawal — UK Customers under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013, and Irish/EU Customers under the equivalent Consumer Rights Directive implementation, both giving a **14-day** cooling-off right.
 
 15.2 The Validation Window (Clause 4/Definitions) is set in the Commission Schedule and is shorter than full chargeback exposure (industry standard chargeback filing limits run up to 120 days from transaction, or up to 540 days for non-delivery/not-as-described disputes). The gap between the Validation Window and full chargeback exposure is addressed by Clause 16, not by extending the Validation Window itself.
 

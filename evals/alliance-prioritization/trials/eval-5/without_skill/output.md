@@ -16,7 +16,7 @@ Your agency put her top of the list on reach. Reach is their incentive (bigger n
 A co-brand with a house above your tier can go two ways:
 
 - **Halo effect** — their prestige rubs off on Solane.
-- **Junior-partner effect** — you look like the brand reaching up, Halvern's audience sees Solane as a discount extension, and *your* 95€-basket positioning gets diluted rather than elevated.
+- **Junior-partner effect** — you look like the brand reaching up, Halvern's audience sees Solane as a discount extension, and _your_ 95€-basket positioning gets diluted rather than elevated.
 
 Which one happens depends on deal structure, not brand names. Ask:
 
@@ -28,7 +28,7 @@ Don't rank this on prestige. Rank it on reciprocity.
 
 ## What "reach" is hiding for a premium brand
 
-At a 95€ basket, the metric that predicts ROI isn't audience size — it's **purchase-intent overlap**: does this audience already spend at your price point, in your category. A podcast with 40K premium-skincare-buying listeners can outperform a creator with 2M general-beauty followers. Ask your agency to re-cut the overlap numbers by *purchasing power / category spend*, not just demographic audience overlap.
+At a 95€ basket, the metric that predicts ROI isn't audience size — it's **purchase-intent overlap**: does this audience already spend at your price point, in your category. A podcast with 40K premium-skincare-buying listeners can outperform a creator with 2M general-beauty followers. Ask your agency to re-cut the overlap numbers by _purchasing power / category spend_, not just demographic audience overlap.
 
 ## What I need to build the real ranking
 

@@ -9,6 +9,7 @@ Here's where things stand: our activation window is 30 days, so you're already p
 This isn't a formality — we're actively cleaning up inactive accounts, and yours is on that list.
 
 What to do right now:
+
 1. Grab your affiliate link from your dashboard: [link]
 2. Post it somewhere — social, a story, a niche forum, a text to a friend who has a dog or cat. It doesn't need to be polished, it needs to exist.
 3. Come back and check your dashboard for the click.

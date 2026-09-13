@@ -6,13 +6,13 @@ Named by Dave McClure (500 Startups, 2007). Widely recognized, so your VP can dr
 
 ## KPI set mapped to the framework
 
-| AARRR Stage | KPI | Target |
-|---|---|---|
-| Acquisition | Total clicks | 1M/month |
-| Activation | Affiliate signups | 200/month |
-| Revenue | Gross commissions earned | — |
-| Retention | *(not currently tracked)* | — |
-| Referral | *(not currently tracked)* | — |
+| AARRR Stage | KPI                       | Target    |
+| ----------- | ------------------------- | --------- |
+| Acquisition | Total clicks              | 1M/month  |
+| Activation  | Affiliate signups         | 200/month |
+| Revenue     | Gross commissions earned  | —         |
+| Retention   | _(not currently tracked)_ | —         |
+| Referral    | _(not currently tracked)_ | —         |
 
 ## One thing to flag before you present it
 

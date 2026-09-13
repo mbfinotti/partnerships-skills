@@ -4,14 +4,14 @@
 
 I don't have answers to some Interview questions the skill requires before drafting. I've used defaults so you get a usable deliverable now; swap these before sending:
 
-| Gap | Default used | Fix before send |
-|---|---|---|
-| Audience-fit value prop | "you help data-driven teams choose analytics tools" | Give me the one sentence that's actually true |
-| Brand voice | Peer-casual, direct | Tell me if this doesn't match |
-| CTA | Reply-for-info (lowest friction, no setup cost) | Confirm you don't have pre-approved accounts or a booked-call flow ready |
-| Sender identity + postal address | Placeholder | Required by law (CAN-SPAM/UK GDPR/CASL) — fill in a real name and address |
-| Deadline / compounding vs one-off | Assumed compounding (this is a program launch, not a seasonal push) | Confirms the 5-touch default below vs. a heavier cadence for named tier-1s |
-| Per-prospect traffic/monetization data | None — I don't have URLs, only category counts | Tiering below is provisional by category; send me the actual sheet (or your backlink-tool numbers) to finalize |
+| Gap                                    | Default used                                                        | Fix before send                                                                                                |
+| -------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Audience-fit value prop                | "you help data-driven teams choose analytics tools"                 | Give me the one sentence that's actually true                                                                  |
+| Brand voice                            | Peer-casual, direct                                                 | Tell me if this doesn't match                                                                                  |
+| CTA                                    | Reply-for-info (lowest friction, no setup cost)                     | Confirm you don't have pre-approved accounts or a booked-call flow ready                                       |
+| Sender identity + postal address       | Placeholder                                                         | Required by law (CAN-SPAM/UK GDPR/CASL) — fill in a real name and address                                      |
+| Deadline / compounding vs one-off      | Assumed compounding (this is a program launch, not a seasonal push) | Confirms the 5-touch default below vs. a heavier cadence for named tier-1s                                     |
+| Per-prospect traffic/monetization data | None — I don't have URLs, only category counts                      | Tiering below is provisional by category; send me the actual sheet (or your backlink-tool numbers) to finalize |
 
 I also haven't run the brand-safety screen (trademark bidding, coupon-injection, thin content) — that needs the actual URLs, not just counts. **Do not launch before that screen runs.**
 
@@ -19,25 +19,25 @@ I also haven't run the brand-safety screen (trademark bidding, coupon-injection,
 
 ## Prospect tiers (210 total)
 
-| Segment | Count | Category | B2B fit | Provisional tier |
-|---|---|---|---|---|
-| US bloggers/comparison sites | 88 | Content/review | Very high | 20/60/20 split pending traffic data: ~18 T1, ~53 T2, ~17 T3 |
-| UK Ltd media companies | 8 | Content/review | Very high | All Tier 1 — small list, worth individual research |
-| UK solo newsletter/review ops | 46 | Newsletter/content | High | Tier 2 (subject to the legal gate below) |
-| German B2B tech media | 41 | Content/review (trade media) | Very high | Would be Tier 1 on fit alone — gated (see below) |
-| Canadian independent consultants | 27 | Consultants/integration partners | Very high, highest effort | Tier 2/3 — this category normally takes a quarter of relationship-building, not a cold blast, even where legal |
+| Segment                          | Count | Category                         | B2B fit                   | Provisional tier                                                                                               |
+| -------------------------------- | ----- | -------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| US bloggers/comparison sites     | 88    | Content/review                   | Very high                 | 20/60/20 split pending traffic data: ~18 T1, ~53 T2, ~17 T3                                                    |
+| UK Ltd media companies           | 8     | Content/review                   | Very high                 | All Tier 1 — small list, worth individual research                                                             |
+| UK solo newsletter/review ops    | 46    | Newsletter/content               | High                      | Tier 2 (subject to the legal gate below)                                                                       |
+| German B2B tech media            | 41    | Content/review (trade media)     | Very high                 | Would be Tier 1 on fit alone — gated (see below)                                                               |
+| Canadian independent consultants | 27    | Consultants/integration partners | Very high, highest effort | Tier 2/3 — this category normally takes a quarter of relationship-building, not a cold blast, even where legal |
 
 Tiering is provisional: I ranked by category fit only. Confirm actual tier with traffic/authority and monetization evidence per prospect once you share the sheet.
 
 ## Legal segments — this is the part that actually decides who gets emailed
 
-| Segment | Count | Regime | Cold email? |
-|---|---|---|---|
-| US bloggers/comparison sites | 88 | CAN-SPAM | **Yes** — no consent needed, must carry identity/address/opt-out |
-| UK Ltd media companies | 8 | PECR (corporate subscriber) | **Yes** — verify "Ltd"/"LLP" in trading name or Companies House first |
-| UK solo newsletter/review ops | 46 | PECR (individual subscriber) | **No**, unless a documented consent basis exists per contact |
-| German B2B tech media | 41 | UWG (prior opt-in required) | **No**, unless a documented consent basis exists per contact |
-| Canadian independent consultants | 27 | CASL | **No**, unless a documented consent basis exists per contact |
+| Segment                          | Count | Regime                       | Cold email?                                                           |
+| -------------------------------- | ----- | ---------------------------- | --------------------------------------------------------------------- |
+| US bloggers/comparison sites     | 88    | CAN-SPAM                     | **Yes** — no consent needed, must carry identity/address/opt-out      |
+| UK Ltd media companies           | 8     | PECR (corporate subscriber)  | **Yes** — verify "Ltd"/"LLP" in trading name or Companies House first |
+| UK solo newsletter/review ops    | 46    | PECR (individual subscriber) | **No**, unless a documented consent basis exists per contact          |
+| German B2B tech media            | 41    | UWG (prior opt-in required)  | **No**, unless a documented consent basis exists per contact          |
+| Canadian independent consultants | 27    | CASL                         | **No**, unless a documented consent basis exists per contact          |
 
 **Bottom line: 96 of 210 (US + UK Ltd) are cold-emailable outright. 114 (54%) are not** — the UK solo ops, all of Germany, and all of Canada. A "UK is fine" or "just email everyone" approach would put you in violation on well over half the list.
 
@@ -48,14 +48,15 @@ The 114 aren't dead — a consent basis often exists (an existing relationship, 
 **Recommendation: economics-first, findable in sentence two.** Content/review sites (your dominant segment by far — 137 of 210 once Germany clears its gate) filter by rate/cookie/payout before anything else. Leading with one audience-fit line, then the confirmed numbers plainly, beats a features pitch or a vague "industry-leading commission" tease.
 
 Alternatives considered:
-- *Competitor-coverage angle* ("I saw you cover [competitor]") — stronger per-prospect, but only usable where a specific competitor mention is verified per site; use as the opener *within* the economics angle wherever you have that fact, not as a separate angle.
-- *Proof-of-conversion angle* (lead with conversion rate/review credibility) — weaker here because no conversion proof point was given to me; drop unless you have one.
+
+- _Competitor-coverage angle_ ("I saw you cover [competitor]") — stronger per-prospect, but only usable where a specific competitor mention is verified per site; use as the opener _within_ the economics angle wherever you have that fact, not as a separate angle.
+- _Proof-of-conversion angle_ (lead with conversion rate/review credibility) — weaker here because no conversion proof point was given to me; drop unless you have one.
 
 Going with economics-first as the frame, with competitor-mention as the opener whenever verifiable.
 
 ## First touch — cold-eligible segments only (US, UK Ltd)
 
-**Subject:** your [topic] comparison *(fill: their actual article/roundup title)*
+**Subject:** your [topic] comparison _(fill: their actual article/roundup title)_
 
 > Hi [Name],
 >
@@ -72,13 +73,13 @@ Going with economics-first as the frame, with competitor-mention as the opener w
 
 ## Sequence (5-touch, ~4 weeks) — US + UK Ltd only
 
-| Touch | Day | Channel | Angle | Message |
-|---|---|---|---|---|
-| 1 | 0 | Email | Fit + economics | First touch above |
-| 2 | 3-7 | Email, same thread | Resurface | "Did this reach you? Happy to answer anything." |
-| 3 | 7-14 | LinkedIn DM | Proof | One conversion/credibility point withheld from touch 1, <300 chars, no link |
-| 4 | 14-21 | Email | Ease | Offer to pre-fill their application |
-| 5 (breakup) | 21-28 | Email | Loss-aversion close | "Planning to close your file — if the timing's off, say the word and I'll circle back next quarter." Then honor it. |
+| Touch       | Day   | Channel            | Angle               | Message                                                                                                             |
+| ----------- | ----- | ------------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| 1           | 0     | Email              | Fit + economics     | First touch above                                                                                                   |
+| 2           | 3-7   | Email, same thread | Resurface           | "Did this reach you? Happy to answer anything."                                                                     |
+| 3           | 7-14  | LinkedIn DM        | Proof               | One conversion/credibility point withheld from touch 1, <300 chars, no link                                         |
+| 4           | 14-21 | Email              | Ease                | Offer to pre-fill their application                                                                                 |
+| 5 (breakup) | 21-28 | Email              | Loss-aversion close | "Planning to close your file — if the timing's off, say the word and I'll circle back next quarter." Then honor it. |
 
 Stop immediately on reply, opt-out, or bounce.
 

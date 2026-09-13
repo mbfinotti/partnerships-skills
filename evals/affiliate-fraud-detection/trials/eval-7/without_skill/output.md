@@ -17,6 +17,7 @@
 ### Why three weeks is the wrong number
 
 Three weeks is plausible for a scoring script. It is not enough for:
+
 - False-positive review workflow and an appeal path for flagged affiliates.
 - Legal basis / DPIA sign-off on the fingerprinting piece.
 - Deciding what a "flag" actually does — auto-clawback, payout hold, or human review. Auto-clawback on a heuristic score is how you end up in a commercial dispute with an affiliate over wrongfully withheld earnings.

@@ -46,6 +46,7 @@ Those last three answers re-rank step 4's motion menu - carry them there instead
    - No named executive sponsor.
 
    Say so, name what must change and the lighter motion (if any) that still fits, and stop. Full gate: [references/readiness-and-failure-modes.md](references/readiness-and-failure-modes.md).
+
 3. Write the partner value proposition before any vendor ask - a one-sentence answer to "what is in this for the partner", plus the economic shape behind it. A program must give (a clear way to make money, training, deal protection, vendor air cover) before it may ask (dedicated reps, certifications, registration discipline). Capture it as a Partner Hypothesis - 1-2 pages naming the target partner type, why they would engage, and the expected economics - to be validated with 2-3 real prospective partners before anything is built on it.
 4. Choose partner motions before any partner-profile work, from this menu, ranked by value returned per unit of effort - not by ceiling, and not cheapest-first. Say the order out loud to the user, then pick the minimum viable set, not every motion. The axes disagree, so read all of them:
    - efficiency: `referral > technology > services-SI > reseller`
@@ -83,9 +84,11 @@ Those last three answers re-rank step 4's motion menu - carry them there instead
    Hand the tier count, criteria, and benefit design to `mbfinotti/partnerships-skills@partner-tiering`, which owns all three: decide only whether to tier and what the differentiation is for here. Two tiers is the right instinct for a small or new program, and four is usually vanity, but that skill sets the count against partner-base size. Do not fix a number here that it will re-derive, or signed partner agreements get re-papered.
 
    Do not rank tier counts by efficiency here either, since a second order on this page would contradict the one that skill derives from a base size you do not yet know.
+
 6. Set the program-wide economics envelope: partner margin must come out of a cost the partner takes off your hands ("if you're paying margin for work you would have done anyway, you're not buying anything"), and total program cost must fit inside gross margin. Neutralize direct-rep compensation on partner deals here, not later.
 
    Hand per-partner modeling to `mbfinotti/partnerships-skills@partner-economics`. See [references/economics-and-benchmarks.md](references/economics-and-benchmarks.md).
+
 7. Fix governance: a named owner and reporting line, and a deal-registration/channel-conflict policy written before the first selling partner signs, not after the first dispute. Practitioners argue for CEO-reporting at early stage, since ownership under the sales chief imposes quarterly horizons on a function that matures over 2-3 years. Hand rule detail to the co-selling and conflict skills (see Reference).
 8. Set the success horizon at design time: year 1 judged on leading indicators only (partners activated, first deals registered, time-to-first-deal), year 2 on partner-sourced pipeline, year 3 on material revenue share. The most common structural error in this field is judging a channel on direct-sales 30-90 day cycles; the horizon decision is part of the architecture, made now. Hand the measurement system itself to `mbfinotti/partnerships-skills@partner-performance`.
 9. Present the architecture section by section - for each, 2-3 candidate approaches with trade-offs and an explicit recommendation - and validate each section with the user before moving to the next. Where the profession's own collaboration formats fit, propose them in the order that file ranks them - evidence bought per hour of coordination, leading with partner-hypothesis validation: [references/collaboration-formats.md](references/collaboration-formats.md).
@@ -149,11 +152,13 @@ Full failure catalog with fixes and a worked negative example: [references/readi
 ## B2B and B2C
 
 Identical in both:
+
 - Deep-qualify a small first cohort before scaling recruitment.
 - Model the economics from the partner's side before setting any number.
 - A compelling economic offer, not marketing, is what recruits.
 
 Genuinely different:
+
 - Franchising's legal instruments and exclusive territories.
 - Day-one documentation depth: exhaustive in franchising, deliberately minimal in B2B SaaS.
 - Consumer programs' point-of-sale attribution versus B2B's multi-month pipeline attribution.

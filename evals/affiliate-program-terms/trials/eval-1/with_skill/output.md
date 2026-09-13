@@ -2,25 +2,26 @@ This will be a draft for review by qualified counsel, not legal advice. Program 
 
 **Assumptions used because a signup date is fixed 19 days out** (a full one-question-at-a-time interview isn't possible against that deadline, so these are drafting defaults, not settled decisions — confirm or override each one before launch, then re-run this skill for anything that changes):
 
-| Interview item | Default applied | Why |
-|---|---|---|
-| Program hosting | In-house / SaaS-hosted (no network mentioned) | Cheapest to ship in 19 days; revisit if you sign with a network |
-| Brand-keyword bidding | Strict prohibition | Fixed date deletes whitelist/tiering (can't be adjudicated partner-by-partner pre-launch); no named partner already driving brand-term volume, so strict wins the effort/value ratio |
-| Coupon/deal sites | Banned outright | No stated coupon-site channel; restricting costs a week of policing you don't have |
-| Browser extensions | Banned outright | No stated extension-driven revenue to justify the stand-down machinery |
-| Approval mode | Manual review | Standard default for a recurring-commission B2B program; re-rank against volume with the fraud-detection skill later |
-| Chargeback/reversal control | Negative-balance carry-forward, not a reserve | Near-zero effort; promote to a reserve only if churn-after-payout or chargeback rate turns out high |
-| Document lifecycle | Versioned (v1.0 + change log) | Costs nothing extra, and amendments are normal in this genre |
-| Drafting/review owner | Program manager drafts; external counsel signs off before launch | Not stated — assumed since no in-house counsel was mentioned |
-| Known abuse concerns | None flagged | Not stated |
-| UK exposure | Not triggered | Affiliates are US + Germany only; no ASA/CAP clause drafted |
+| Interview item              | Default applied                                                  | Why                                                                                                                                                                                  |
+| --------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Program hosting             | In-house / SaaS-hosted (no network mentioned)                    | Cheapest to ship in 19 days; revisit if you sign with a network                                                                                                                      |
+| Brand-keyword bidding       | Strict prohibition                                               | Fixed date deletes whitelist/tiering (can't be adjudicated partner-by-partner pre-launch); no named partner already driving brand-term volume, so strict wins the effort/value ratio |
+| Coupon/deal sites           | Banned outright                                                  | No stated coupon-site channel; restricting costs a week of policing you don't have                                                                                                   |
+| Browser extensions          | Banned outright                                                  | No stated extension-driven revenue to justify the stand-down machinery                                                                                                               |
+| Approval mode               | Manual review                                                    | Standard default for a recurring-commission B2B program; re-rank against volume with the fraud-detection skill later                                                                 |
+| Chargeback/reversal control | Negative-balance carry-forward, not a reserve                    | Near-zero effort; promote to a reserve only if churn-after-payout or chargeback rate turns out high                                                                                  |
+| Document lifecycle          | Versioned (v1.0 + change log)                                    | Costs nothing extra, and amendments are normal in this genre                                                                                                                         |
+| Drafting/review owner       | Program manager drafts; external counsel signs off before launch | Not stated — assumed since no in-house counsel was mentioned                                                                                                                         |
+| Known abuse concerns        | None flagged                                                     | Not stated                                                                                                                                                                           |
+| UK exposure                 | Not triggered                                                    | Affiliates are US + Germany only; no ASA/CAP clause drafted                                                                                                                          |
 
 ---
 
 # TRELLISWAY AFFILIATE PROGRAM TERMS
+
 **Version 1.0 — [DATE] — DRAFT FOR LEGAL REVIEW, NOT LEGAL ADVICE**
 
-*Change log: v1.0 initial publication.*
+_Change log: v1.0 initial publication._
 
 ## 1. Definitions
 
@@ -97,7 +98,7 @@ Any violation of this Section 6 is a material breach of this Agreement. Trellisw
 2. Affiliates publishing reviews must not publish fake, AI-fabricated, incentivized-sentiment, or undisclosed-insider reviews, consistent with the FTC Reviews Rule (16 CFR Part 465).
 3. Trellisway may audit Affiliate promotional content for disclosure compliance and may require takedown of non-compliant content as a condition of continued participation.
 
-*As of drafting — re-verify FTC penalty thresholds and effective dates before publication.*
+_As of drafting — re-verify FTC penalty thresholds and effective dates before publication._
 
 ## 8. IP & Confidentiality
 
@@ -112,7 +113,7 @@ Any violation of this Section 6 is a material breach of this Agreement. Trellisw
    - Position A: Affiliate acts as an independent controller of the audience data on its own properties (this is Trellisway's provisional working assumption for drafting, pending counsel review).
    - Position B: Affiliate and Trellisway are joint controllers of the referral/tracking event.
    - Position C: Any tracking vendor Trellisway uses acts as a processor on Trellisway's instructions.
-   Counsel must select and document the final position in a Data Processing Agreement before this clause is finalized.
+     Counsel must select and document the final position in a Data Processing Agreement before this clause is finalized.
 3. Affiliates must honor cookie-consent and other applicable EU/German data-protection requirements (GDPR, ePrivacy) on their own properties.
 4. Trellisway processes data globally as its Customer base is global; international transfer safeguards are addressed in Trellisway's separate Privacy Policy and DPA, incorporated here by reference.
 
@@ -135,7 +136,7 @@ Trellisway's total liability arising out of this Agreement is capped at the tota
 2. **For cause:** Trellisway may terminate immediately, without notice, for material breach, including any violation under Section 6.
 3. **Survival:** Sections 3 (licence revocation), 8 (confidentiality), 9 (data protection), 11 (indemnity), 14 (pending commissions), 15 (clawback), and 19 (governing law) survive termination.
 
-**`[LEGAL REVIEW: EU Platform-to-Business Regulation (EU) 2019/1150 in-scope question.`** Trellisway's Customers are logistics-industry businesses, not consumers, which points toward this Program falling outside P2B's scope (P2B applies to platforms facilitating transactions between business users and *consumers*). This is not certain — if any Customer segment turns out to include consumers, or if a regulator reads the affiliate relationship differently, P2B's 30-day-plus-reasons and 15-day amendment-notice rules would bind toward German/EU Affiliates. This draft over-complies (see 13.1 and Section 17) as a low-cost hedge; counsel should confirm whether that hedge is necessary or sufficient.]
+**`[LEGAL REVIEW: EU Platform-to-Business Regulation (EU) 2019/1150 in-scope question.`** Trellisway's Customers are logistics-industry businesses, not consumers, which points toward this Program falling outside P2B's scope (P2B applies to platforms facilitating transactions between business users and _consumers_). This is not certain — if any Customer segment turns out to include consumers, or if a regulator reads the affiliate relationship differently, P2B's 30-day-plus-reasons and 15-day amendment-notice rules would bind toward German/EU Affiliates. This draft over-complies (see 13.1 and Section 17) as a low-cost hedge; counsel should confirm whether that hedge is necessary or sufficient.]
 
 ## 14. Effect of Termination on Pending Commissions
 

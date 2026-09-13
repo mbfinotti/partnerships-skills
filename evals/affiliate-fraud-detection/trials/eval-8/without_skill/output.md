@@ -2,7 +2,7 @@
 
 This is almost certainly **attribution hijacking via a browser extension or ad-injection software**, not a real referral. It's an extremely common pattern with client-side pixel tracking, and it fits every symptom you listed:
 
-- **"We've never seen them send traffic"** — because they don't send traffic. The affiliate's tracking script fires *on your checkout page itself*, not on a landing page the customer visited on DealBurrow's site.
+- **"We've never seen them send traffic"** — because they don't send traffic. The affiliate's tracking script fires _on your checkout page itself_, not on a landing page the customer visited on DealBurrow's site.
 - **"Customers found us organically through search"** — the customer's browser has a coupon/cashback extension installed (Honey, Capital One Shopping, PayPal Honey, RetailMeNot Genie, Piggy, various "deal finder" toolbars — or a less reputable clone). When the customer lands on your checkout or product page, the extension silently injects an iframe or fires a request to the affiliate network that writes DealBurrow's affiliate cookie, overwriting whatever attribution (or lack of it) existed before.
 - **Client-side pixel tracking is exactly what's exploitable here** — if your model is "last cookie present at time of purchase gets the commission," anything that can write a cookie in that customer's browser can claim the sale. No click, no visit, no referral needed.
 
@@ -31,7 +31,7 @@ This is usually called **cookie stuffing** or **extension-based attribution frau
 The root cause is that a **client-side pixel with pure "last cookie wins" logic trusts any cookie present at conversion**, regardless of whether a real click preceded it. Fixes, roughly in order of effort:
 
 1. **Move to click-ID-based attribution instead of pure cookie presence.** Require a valid `click_id`/`sub_id` that your own system (or the network) issued at an actual outbound click, and validate it server-side at conversion — don't just check "is an affiliate cookie present."
-2. **Add attribution priority rules**: if the session's first-touch channel was organic/direct (visible in your own first-party analytics) and no affiliate click was logged *before* that first-party session started, override/ignore any affiliate cookie that shows up later in the same session. Many networks (Impact, Everflow) support "coupon/extension exclusion" or "channel priority" rules for exactly this — turn them on.
+2. **Add attribution priority rules**: if the session's first-touch channel was organic/direct (visible in your own first-party analytics) and no affiliate click was logged _before_ that first-party session started, override/ignore any affiliate cookie that shows up later in the same session. Many networks (Impact, Everflow) support "coupon/extension exclusion" or "channel priority" rules for exactly this — turn them on.
 3. **Ask your affiliate network if they offer extension/cookie-stuffing detection.** Impact.com, Everflow, and Trackier all have fraud modules that specifically flag "last-click override," "zero-duration sessions," and known extension signatures — worth turning on if you're not already using it.
 4. **Consider first-click or time-decay attribution instead of last-click** for at least a probationary period — it structurally weakens the value of late cookie injection.
 5. **Server-side conversion validation**: fire the conversion event from your backend (order confirmation), not purely client-side, and cross-check the referring click record before crediting — this closes the door on pixel-only manipulation.
@@ -39,6 +39,7 @@ The root cause is that a **client-side pixel with pure "last cookie wins" logic 
 ## Step 4: Decide DealBurrow's fate
 
 Once you have even 5–10 confirmed cases with no landing-page evidence and no real click, that's enough to:
+
 - Suspend them from the program immediately.
 - Claw back paid commissions within your window.
 - Terminate for terms violation (undisclosed traffic source / no bona fide referral) rather than needing to "prove" malicious intent — absence of a real click is enough on its own.

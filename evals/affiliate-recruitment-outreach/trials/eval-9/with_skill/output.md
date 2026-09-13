@@ -4,7 +4,7 @@ Here's the read on your three moves, ranked, using the affiliate-recruitment-out
 
 **1. Community posts (6 Slack/Discord groups) — keep, but reframe it**
 
-The skill deletes "communities/forums" from the *active* outreach menu entirely, for both B2B and B2C — not demotes, deletes. Reason: in most of these spaces, anti-solicitation norms mean the cold pitch *is* the violation, regardless of how well you word it. "Post the program in six communities" as a broadcast move risks exactly that — six near-identical promo drops read as spam and can get the account banned or the brand talked about badly among the professional affiliates you actually want.
+The skill deletes "communities/forums" from the _active_ outreach menu entirely, for both B2B and B2C — not demotes, deletes. Reason: in most of these spaces, anti-solicitation norms mean the cold pitch _is_ the violation, regardless of how well you word it. "Post the program in six communities" as a broadcast move risks exactly that — six near-identical promo drops read as spam and can get the account banned or the brand talked about badly among the professional affiliates you actually want.
 
 Fix, not cancel: check each community's self-promo rules first. Where allowed, participate and be findable — answer questions, mention the program when genuinely relevant, maybe one pinned/self-promo-day post — and treat anyone who bites as inbound. Don't run it as a 6-community blast on day one of Q4.
 
@@ -17,12 +17,13 @@ Signing up with three networks costs you almost nothing operationally, so I woul
 **3. Buying a 5,000-contact list and blasting it — don't do this one as described**
 
 Two independent parts of the skill kill this outright:
-- The compliance reference is explicit: *"Purchased consumer lists and scraped contact dumps of unknown provenance are not a workable basis; decline them and say why."*
+
+- The compliance reference is explicit: _"Purchased consumer lists and scraped contact dumps of unknown provenance are not a workable basis; decline them and say why."_
 - The failure-modes table lists "mass blast from one generic template" as the #1 documented way to burn a list — tiering and personalization is the whole point of the recruitment methodology this skill encodes.
 
-Beyond the skill's own rules, the legal exposure is real and this is where it bites hardest: a vendor list of 5,000 bloggers will contain US, EU, UK sole-trader, and near-certainly Canadian and German contacts. Canada (CASL) and Germany (UWG) require a documented consent basis for cold email — a purchased list has none — and CASL penalties run up to CA$10M per violation, GDPR up to 4% of global turnover, CAN-SPAM up to ~$53k *per email* if the required identity/opt-out elements are missing (a vendor blast tool usually doesn't carry them correctly per-recipient). You'd also torch your sending domain's reputation for every future legitimate outreach email you send.
+Beyond the skill's own rules, the legal exposure is real and this is where it bites hardest: a vendor list of 5,000 bloggers will contain US, EU, UK sole-trader, and near-certainly Canadian and German contacts. Canada (CASL) and Germany (UWG) require a documented consent basis for cold email — a purchased list has none — and CASL penalties run up to CA$10M per violation, GDPR up to 4% of global turnover, CAN-SPAM up to ~$53k _per email_ if the required identity/opt-out elements are missing (a vendor blast tool usually doesn't carry them correctly per-recipient). You'd also torch your sending domain's reputation for every future legitimate outreach email you send.
 
-If there's a real list-building need here, buy or license a *backlink/publisher-discovery* tool instead (see below) — that's compliant and yields a qualified list, not a contact dump.
+If there's a real list-building need here, buy or license a _backlink/publisher-discovery_ tool instead (see below) — that's compliant and yields a qualified list, not a contact dump.
 
 ## What's actually missing
 

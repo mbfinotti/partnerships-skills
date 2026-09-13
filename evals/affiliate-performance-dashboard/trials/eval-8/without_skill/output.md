@@ -2,19 +2,19 @@ Hold off before you send this — the pattern you're describing is close to a te
 
 ## The trap: you changed the ruler mid-measurement
 
-Cost of sale here is presumably *commissions validated ÷ sales*. "Validated" only happens once a commission clears its validation window. You stretched that window from 30 → 60 days starting in March. That means:
+Cost of sale here is presumably _commissions validated ÷ sales_. "Validated" only happens once a commission clears its validation window. You stretched that window from 30 → 60 days starting in March. That means:
 
 - **Any period whose sales haven't yet had a full window elapse is measured incomplete** — some of its commissions simply haven't had time to validate yet, so the numerator is under-counted and cost of sale looks artificially low.
 - Under the old 30-day window, a month was "fully mature" (all its commissions counted) within 30 days of month-end. Under the new 60-day window, it takes twice as long to mature.
 
 ## Why Q1 vs Q2 isn't apples-to-apples
 
-- **Q1 (Jan–Mar)** ran almost entirely under the old 30-day window. By the time you pulled the report, every Q1 sale had long since finished validating. 15.1% is a *mature*, complete number.
-- **Q2 (Apr–Jun)** ran entirely under the new 60-day window. If you pulled the Q2 number anytime close to quarter-end, June's sales (and part of May's) hadn't finished their 60-day clock yet. Their commissions are still trickling in. 11.4% is very likely a *right-censored, incomplete* number — some of the gap is real, but part of it is just "we haven't counted everything yet."
+- **Q1 (Jan–Mar)** ran almost entirely under the old 30-day window. By the time you pulled the report, every Q1 sale had long since finished validating. 15.1% is a _mature_, complete number.
+- **Q2 (Apr–Jun)** ran entirely under the new 60-day window. If you pulled the Q2 number anytime close to quarter-end, June's sales (and part of May's) hadn't finished their 60-day clock yet. Their commissions are still trickling in. 11.4% is very likely a _right-censored, incomplete_ number — some of the gap is real, but part of it is just "we haven't counted everything yet."
 
 ## Why August "best month ever" is the most suspect number of all
 
-August is the freshest month you have. With a 60-day window, sales from the second half of August don't finish validating until into **October**. Today is September 12 — a huge share of August's commissions literally cannot have validated yet. 9.2% isn't your best month; it's your *least complete* month. Expect it to climb as September/October validations land.
+August is the freshest month you have. With a 60-day window, sales from the second half of August don't finish validating until into **October**. Today is September 12 — a huge share of August's commissions literally cannot have validated yet. 9.2% isn't your best month; it's your _least complete_ month. Expect it to climb as September/October validations land.
 
 ## What to check before you headline anything
 

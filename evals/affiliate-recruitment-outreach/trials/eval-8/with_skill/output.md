@@ -8,13 +8,15 @@ Two placeholders you need to fill before this ships: your actual commission rate
 RECRUITMENT OUTREACH PLAN — [Skincare Brand] Affiliate Program, 2026-09-12
 ```
 
-**Prospect tiers** *(placeholder framework — pending your actual list)*
+**Prospect tiers** _(placeholder framework — pending your actual list)_
+
 - Tier 1: skincare/beauty content creators (YouTube, TikTok, review blogs) with engaged niche audience, evidence of promoting comparable products.
 - Tier 2: coupon/cashback/loyalty sites relevant to beauty/DTC.
 - Tier 3: beauty-adjacent newsletter operators, smaller blogs.
 - Qualify each on audience fit → traffic/authority → existing monetization, per the sourcing reference. "Already promotes a competitor" counts as a positive signal, not a disqualifier.
 
-**Legal segments** *(pending prospect geography)*
+**Legal segments** _(pending prospect geography)_
+
 - US prospects: cold email OK under CAN-SPAM — needs accurate from/reply-to, non-deceptive subject, physical postal address, working opt-out.
 - EU/UK/Canada: default to consent-required handling unless you confirm legal form per prospect (UK sole traders and German prospects get treated like Canada — no cold email without a documented consent basis).
 - Flag me the actual country mix and I'll finalize which prospects get the cold sequence vs. a passive route.
@@ -43,13 +45,13 @@ Note on the dual CTA: the skill's quality gate wants exactly one ask per email �
 
 **Sequence**
 
-| Touch | Day | Channel | Angle | Notes |
-|---|---|---|---|---|
-| 1 | 0 | Email | Fit + economics (above) | Full pitch, one ask |
-| 2 | 3–7 | Email, same thread | Gentle resurface | 1–2 sentences, no restated pitch |
-| 3 | 7–14 | Social DM / contact form | New proof point held back from touch 1 | Under ~300 chars, no link in first DM |
-| 4 | 14–21 | Email | Seasonal hook or easier CTA | Never "just checking in" |
-| 5 (breakup) | 21–28 | Email | Loss-aversion close | Last email, door stays open, then honored |
+| Touch       | Day   | Channel                  | Angle                                  | Notes                                     |
+| ----------- | ----- | ------------------------ | -------------------------------------- | ----------------------------------------- |
+| 1           | 0     | Email                    | Fit + economics (above)                | Full pitch, one ask                       |
+| 2           | 3–7   | Email, same thread       | Gentle resurface                       | 1–2 sentences, no restated pitch          |
+| 3           | 7–14  | Social DM / contact form | New proof point held back from touch 1 | Under ~300 chars, no link in first DM     |
+| 4           | 14–21 | Email                    | Seasonal hook or easier CTA            | Never "just checking in"                  |
+| 5 (breakup) | 21–28 | Email                    | Loss-aversion close                    | Last email, door stays open, then honored |
 
 **Breakup touch**
 
@@ -60,6 +62,7 @@ Note on the dual CTA: the skill's quality gate wants exactly one ask per email �
 > [Sender name]
 
 **Tracking plan**
+
 - Pipeline: contacted → replied → applied → activated (first sale/click), in [CRM/sheet].
 - Review weekly during the campaign.
 - KPIs: reply rate per tier/angle (cold-outreach norm ~3–9%, expect upside from personalization); activation rate (share of approved affiliates producing ≥1 click/week) is the metric that actually matters — applications alone are vanity.

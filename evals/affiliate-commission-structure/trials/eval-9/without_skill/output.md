@@ -1,4 +1,4 @@
-No existing Sablefin file — this is a fresh one-off request, not tied to the repo's affiliate-program tracking (that side is about *joining* other vendors' programs; here you're the vendor setting your *own* payout rate). Before the deliverable, the numbers need to be said out loud:
+No existing Sablefin file — this is a fresh one-off request, not tied to the repo's affiliate-program tracking (that side is about _joining_ other vendors' programs; here you're the vendor setting your _own_ payout rate). Before the deliverable, the numbers need to be said out loud:
 
 **The math doesn't support a flat 35%.**
 
@@ -8,7 +8,7 @@ No existing Sablefin file — this is a fresh one-off request, not tied to the r
   - 30% (competitor headline) → **$716.40** (22.8%)
   - 35% (proposed) → **$835.80** (26.6%) — **already above your $740 blended CAC**, before PartnerStack platform fees or program-management overhead are added on top.
 
-So a flat 35% would make affiliate-sourced customers more expensive to acquire than the company average across *every* channel combined — a channel meant to be cheap because it borrows someone else's audience and trust.
+So a flat 35% would make affiliate-sourced customers more expensive to acquire than the company average across _every_ channel combined — a channel meant to be cheap because it borrows someone else's audience and trust.
 
 **The rate isn't the problem you described, either.** 11 producers out of 412 approved affiliates (2.7%) is an activation/recruitment-quality failure, not a pricing failure — the 401 dead affiliates aren't sitting on the fence over 15 commission points, they never built anything to promote. Raising the rate pays your 11 working affiliates a windfall and does nothing for the other 401. Three flat quarters of affiliate revenue despite 20% already on the table is evidence for that, not against it.
 
@@ -27,6 +27,7 @@ Below is the deliverable as requested — written for a flat 35%/12-month change
 **Why now:** Affiliate-sourced revenue has been flat for three consecutive quarters. Public competitor programs advertise 30% recurring; a 35% headline positions Sablefin as the top-paying option in the category.
 
 **Unit economics at the new rate:**
+
 - Plan price: $199/mo, 79% gross margin → $157.21 gross profit/mo per customer.
 - Commission at 35%, 12-month cap: $69.65/mo × 12 = $835.80 total, undiscounted.
 - Against a $3,144 lifetime gross profit per customer (20-month average tenure), this commission consumes 26.6% of LTV.
@@ -51,6 +52,7 @@ Starting **[date]**, every new customer you refer to Sablefin earns you **35% re
 That's the highest published rate in our category.
 
 **What's changing:**
+
 - Commission rate: 20% → **35%** of the customer's subscription, every month, for their first 12 months.
 - Applies to all **new referrals** starting [date]. [Confirm/adjust: existing referred customers continue at their original rate for the remainder of their 12-month window / are upgraded to 35% going forward — pick one before sending.]
 - Everything else about the program — cookie duration, payout terms, dashboard — stays the same.
@@ -67,4 +69,4 @@ Questions about the change? Reply here or reach us at [affiliate program email].
 
 ---
 
-*Note left in-memo, not in the announcement: before this goes out, decide (and state explicitly in the announcement) whether the new rate applies retroactively to customers already inside their 12-month window — that ambiguity is the single most common source of affiliate complaints after a rate change.*
+_Note left in-memo, not in the announcement: before this goes out, decide (and state explicitly in the announcement) whether the new rate applies retroactively to customers already inside their 12-month window — that ambiguity is the single most common source of affiliate complaints after a rate change._

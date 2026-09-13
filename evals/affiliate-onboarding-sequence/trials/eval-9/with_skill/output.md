@@ -26,7 +26,7 @@ before sending any T-n calendar touch:
 
 **Rule: re-entry is T2, never T1.** They're already approved and already attested to terms — sending T1 again re-asks them to accept terms they already accepted and re-explains the program to people who joined it once. Drop them at **T2 (tools)**: one asset, one action, dated for the holiday push.
 
-Before you batch them in, split the 40 by *why* they're in the archive — the skill's branch draws this distinction for a reason:
+Before you batch them in, split the 40 by _why_ they're in the archive — the skill's branch draws this distinction for a reason:
 
 - **Never-activated** (archived after zero clicks ever) → T2 as designed: fresh asset, plain "here's your link, here's what to do with it."
 - **Dormant** (was active, went quiet — had a click or a sale historically) → they don't need onboarding, they need a win-back note. Consider skipping straight to a T3-style "here's the holiday assets, how are you promoting this year" instead of the generic tools email — sending a former-producer the same email as a never-clicked affiliate reads as your system not remembering them, which is the same complaint as issue #1.

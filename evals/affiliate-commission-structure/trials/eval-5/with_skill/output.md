@@ -18,13 +18,13 @@ So the ladder below is real and usable, but its breakpoints are **volume targets
 
 ## The three rates and breakpoints (headline answer)
 
-Marginal tiers (each rate applies only to net-new customers *above* the threshold that quarter — not retroactive to the whole period, which avoids the cliff-gaming a retroactive ladder invites on a brand-new, unvetted partner base):
+Marginal tiers (each rate applies only to net-new customers _above_ the threshold that quarter — not retroactive to the whole period, which avoids the cliff-gaming a retroactive ladder invites on a brand-new, unvetted partner base):
 
-| Tier | Net-new paying customers / quarter | Recurring rate | 12-month cap, per customer* |
-|---|---|---|---|
-| 🥉 Bronze | 1–3 | 20% | $597.60 |
-| 🥈 Silver | 4–8 | 25% | $747.00 |
-| 🥇 Gold | 9+ | 30% | $896.40 |
+| Tier      | Net-new paying customers / quarter | Recurring rate | 12-month cap, per customer* |
+| --------- | ---------------------------------- | -------------- | --------------------------- |
+| 🥉 Bronze | 1–3                                | 20%            | $597.60                     |
+| 🥈 Silver | 4–8                                | 25%            | $747.00                     |
+| 🥇 Gold   | 9+                                 | 30%            | $896.40                     |
 
 *computed on a placeholder $249/mo entry plan — replace with your real entry price and re-run: `rate × plan price × 12`.
 

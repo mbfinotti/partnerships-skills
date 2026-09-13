@@ -9,7 +9,7 @@ First, some context on that stat: the 17%/$3.4B figures come from cross-industry
    - Why: signature of cookie-stuffing (cookie dropped via hidden pixel/iframe, no real visit occurred).
 
 2. **Last-click override / coupon-code injection**
-   - Flag: sessions where a coupon-site or browser-extension affiliate's click lands in the *final seconds* before checkout, especially after an earlier click from a different (often content/organic) affiliate or no-affiliate session existed in the same 30-day window.
+   - Flag: sessions where a coupon-site or browser-extension affiliate's click lands in the _final seconds_ before checkout, especially after an earlier click from a different (often content/organic) affiliate or no-affiliate session existed in the same 30-day window.
    - Why: this is the #1 real-money leak in last-click programs — extensions (Honey-style) and coupon aggregators hijack the sale at checkout, stealing credit from whoever actually drove the customer.
    - Rule: `last_click_affiliate != first_meaningful_touch AND last_click_type IN ('coupon_site','extension') AND time_to_checkout < 60s` → hold for manual review, don't auto-pay.
 
@@ -22,7 +22,7 @@ First, some context on that stat: the 17%/$3.4B figures come from cross-industry
    - Flag: same customer email appearing as a "new customer" conversion for the same affiliate more than once in 90 days (classic buy-to-earn-commission loop).
 
 5. **Refund/chargeback reconciliation before payout**
-   - You approve+pay at day 14 — pull refund/chargeback status *at time of batch run*, not at order date. Any order refunded or charged back between order date and day 14 gets pulled from the batch, not clawed back later.
+   - You approve+pay at day 14 — pull refund/chargeback status _at time of batch run_, not at order date. Any order refunded or charged back between order date and day 14 gets pulled from the batch, not clawed back later.
    - Track a rolling refund-rate-per-affiliate metric; refund rate >2x network average is a fraud/quality signal even for orders that haven't been refunded yet.
 
 6. **Geo mismatch**
@@ -37,7 +37,8 @@ First, some context on that stat: the 17%/$3.4B figures come from cross-industry
 ### Structural fix (bigger than Thursday, but cheap and high-leverage)
 
 Your last-click model is the actual root cause of most of #2 and #5. Two options, ranked by effort:
-- **Cheap now**: exclude coupon-site/extension affiliate types from last-click override — give credit to the touch that occurred *before* the coupon click if one exists within the session/cookie window. Most affiliate platforms (Impact, Everflow, Tapfiliate, PartnerStack) support this as a rule-based override without a full attribution rebuild.
+
+- **Cheap now**: exclude coupon-site/extension affiliate types from last-click override — give credit to the touch that occurred _before_ the coupon click if one exists within the session/cookie window. Most affiliate platforms (Impact, Everflow, Tapfiliate, PartnerStack) support this as a rule-based override without a full attribution rebuild.
 - **Bigger**: move to a hybrid model (first-click for discovery-type affiliates, last-click for closers) once you have volume to justify it.
 
 ### Ongoing detection cadence (not just payout day)
@@ -49,6 +50,7 @@ Your last-click model is the actual root cause of most of #2 and #5. Two options
 ### For Thursday specifically
 
 Given you likely don't have all of this instrumented yet, minimum viable triage before you approve the batch:
+
 1. Pull refund/chargeback status fresh (rule 5) — non-negotiable, protects real cash.
 2. Run the time-to-conversion query (rule 1) — cheapest, highest signal-to-noise, catches the most damaging fraud type.
 3. Spot-check top 10 affiliates by commission $ in this batch for self-referral (rule 4) and CVR outliers (rule 3) — at $58K/month, your top decile of affiliates likely represents the majority of dollars at risk.

@@ -2,12 +2,12 @@
 
 **Cadence** (Touch 1 = Mon, already sent):
 
-| Touch | Day | Channel |
-|---|---|---|
-| 2 | Day 3 (Thu) | Email |
-| 3 | Days 6–9 (next Mon–Thu) | LinkedIn connect + DM |
-| 4 | Day 13 | Email |
-| 5 | Day 18 | Email → then monthly |
+| Touch | Day                     | Channel               |
+| ----- | ----------------------- | --------------------- |
+| 2     | Day 3 (Thu)             | Email                 |
+| 3     | Days 6–9 (next Mon–Thu) | LinkedIn connect + DM |
+| 4     | Day 13                  | Email                 |
+| 5     | Day 18                  | Email → then monthly  |
 
 Touch 3 spans 4 days, not 1: with 90 prospects and a 25/day cap, queue ~22–23/day so the tool doesn't front-load everyone on day 6 and go quiet after. Load it Sunday night so Monday's batch fires on schedule.
 
@@ -20,10 +20,12 @@ Fill in `[bracketed]` placeholders before sending — product name, the specific
 **Angle:** new value, not a re-send. Lead with proof, not the pitch.
 
 **Subject (pick one):**
+
 - `quick one, {{FirstName}}`
 - `re: [Pain Point] at {{Company}}`
 
 **Body:**
+
 ```
 {{FirstName}},
 
@@ -41,11 +43,13 @@ Worth a look, or should I close the loop?
 ## Touch 3 — LinkedIn (Days 6–9)
 
 **Step A — Connection request note** (300-char limit, LinkedIn will silently truncate past that):
+
 ```
 Hi {{FirstName}} — sent you a note by email re: [Pain Point] at {{Company}}. Not selling here, just figured LinkedIn's a better place to trade notes than a cold inbox. Open to connecting?
 ```
 
 **Step B — DM, sent 1–2 days after they accept** (don't fire it same-day as the accept — reads as scripted, and it is):
+
 ```
 Thanks for connecting, {{FirstName}}.
 
@@ -65,6 +69,7 @@ If they reply with anything other than "not interested," move them to your norma
 **Subject:** `bumping this up, {{FirstName}}`
 
 **Body:**
+
 ```
 {{FirstName}} — know things get buried. Still worth 15 min to see if [Product] fits {{Company}}?
 
@@ -80,6 +85,7 @@ If timing's off, just say so and I'll leave it alone.
 **Subject:** `closing the loop`
 
 **Body:**
+
 ```
 {{FirstName}},
 

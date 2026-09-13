@@ -1,6 +1,7 @@
 I can't build the tile you described as stated. Two things need to change first, both hard rules in the affiliate-performance-dashboard skill, not stylistic preferences:
 
 **1. $2.1M + $3.4M = $5.5M is a banned sum.** Sourced and influenced are reported as two separate, capped numbers, never added. Reasons that matter for a board room specifically:
+
 - Any deal that qualifies as both sourced and influenced gets counted twice in your $5.5M — sourced takes precedence, influenced drops for that deal.
 - Influenced ARR is a directional advocacy metric (a partner touched a deal originated elsewhere), not bookable revenue with the same evidentiary weight as sourced. Blending them into one number borrows credibility the influenced half hasn't earned.
 - This exact move — sourced+influenced summed — is the single most common failure mode in affiliate/partner reporting decks. A board member who has seen a partner deck before will ask "is that double-counted?" and there needs to be a clean answer.
@@ -36,19 +37,20 @@ Never summed — a deal counted as sourced is not also counted as influenced."
 
 **Metric rows:**
 
-| Metric | Definition | Tier | Target | Status |
-|---|---|---|---|---|
-| Partner-sourced ARR | Trailing-12mo ARR from deals the partner originated, normalized to annual, validated/closed-won only | Floor (Business) | growth trend | Ready: $2.1M |
-| Partner-influenced ARR | Trailing-12mo ARR from deals a partner touched but didn't originate, same validation basis | Menu (Business, capped display) | n/a — directional only | Ready: $3.4M, pending validation confirmation |
-| Net program contribution | Attributed net revenue − (commission + network/agency/placement fees) | Floor (Business) | > $0 and growing | **Blocked** — no fee/commission spend given |
-| Cost of sale | (Commission + all fees) / attributed net revenue | Floor (Business) | ≤ 25–30% typical for agency-heavy B2B [DERIVE from your history] | **Blocked** — same gap |
-| Top-5 / top-10% partner concentration | Top-5 (or top-decile) validated revenue ÷ total program revenue | Floor (Health/risk) | flag if top-5 > 50% of revenue | **Blocked** — no per-partner revenue breakdown given |
+| Metric                                | Definition                                                                                           | Tier                            | Target                                                           | Status                                               |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------- |
+| Partner-sourced ARR                   | Trailing-12mo ARR from deals the partner originated, normalized to annual, validated/closed-won only | Floor (Business)                | growth trend                                                     | Ready: $2.1M                                         |
+| Partner-influenced ARR                | Trailing-12mo ARR from deals a partner touched but didn't originate, same validation basis           | Menu (Business, capped display) | n/a — directional only                                           | Ready: $3.4M, pending validation confirmation        |
+| Net program contribution              | Attributed net revenue − (commission + network/agency/placement fees)                                | Floor (Business)                | > $0 and growing                                                 | **Blocked** — no fee/commission spend given          |
+| Cost of sale                          | (Commission + all fees) / attributed net revenue                                                     | Floor (Business)                | ≤ 25–30% typical for agency-heavy B2B [DERIVE from your history] | **Blocked** — same gap                               |
+| Top-5 / top-10% partner concentration | Top-5 (or top-decile) validated revenue ÷ total program revenue                                      | Floor (Health/risk)             | flag if top-5 > 50% of revenue                                   | **Blocked** — no per-partner revenue breakdown given |
 
 Concentration is not optional for your program shape specifically: ~250 partners that are mostly agencies and consultancies is a classic setup for a small number of large agency partners driving a disproportionate share. If that's true here, the board needs to see it next to the $2.1M/$3.4M, not after the fact — an agency exit can remove a double-digit percentage of sourced ARR in one quarter.
 
 **Why the other two tiles are blocked, not omitted:** Net program contribution and cost of sale are floor metrics — the spec can't pass its own threshold without them — but I have no commission spend or fee figures from you, and no per-partner revenue table to rank concentration. They're placeholders with the formula already resolved, not decoration; drop in the two numbers (total commission+fees paid this year, and a per-partner revenue list) and the tiles compute themselves.
 
 **Open items (surface these on the deck or resolve before Thursday):**
+
 1. Confirm $2.1M and $3.4M are validated/closed-won, not pipeline or gross bookings — gross reporting is the single most common way these decks overstate the program.
 2. Confirm the sourced/influenced split already applies sourced-precedence (no deal double-counted) — if your CRM computed these independently, they may already overlap.
 3. Commission + network/agency fees for the year — needed for net program contribution and cost of sale, both board-level "is this profitable" questions.

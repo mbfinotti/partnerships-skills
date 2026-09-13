@@ -30,10 +30,11 @@ Don't adopt an unsourced external number. Instead:
 
 Report **19% (the August cohort)** as the primary KPI. The two numbers measure fundamentally different things, and reporting the wrong one misleads in either direction:
 
-- **19% (30-day cohort)** is a *flow* metric — it tells you whether your current recruiting + onboarding process is working right now. This is the number that reflects program health going forward.
-- **11% (all-time across every affiliate ever approved)** is a *stock* metric polluted by legacy weight — every affiliate you've ever approved, including years-old accounts recruited before current onboarding existed, one-off seasonal sign-ups, and marketplace opt-ins that never engaged, and none of them ever leave the denominator. This number will mechanically decay over time even if the current program is healthy, simply because you're accumulating never-active accounts faster than you're pruning them.
+- **19% (30-day cohort)** is a _flow_ metric — it tells you whether your current recruiting + onboarding process is working right now. This is the number that reflects program health going forward.
+- **11% (all-time across every affiliate ever approved)** is a _stock_ metric polluted by legacy weight — every affiliate you've ever approved, including years-old accounts recruited before current onboarding existed, one-off seasonal sign-ups, and marketplace opt-ins that never engaged, and none of them ever leave the denominator. This number will mechanically decay over time even if the current program is healthy, simply because you're accumulating never-active accounts faster than you're pruning them.
 
 Present both to leadership, but label them differently:
+
 - 19% = "is the current program working" (the actionable number)
 - 11% = "we've never cleaned the affiliate roster" (a data-hygiene finding, not a performance verdict)
 

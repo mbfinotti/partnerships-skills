@@ -5,7 +5,8 @@ Here are the two checks worth your 20 minutes, and why the rest can wait.
 "Thanks to Thermobrew for making this happen" is a thank-you, not a disclosure. It never says the words "ad," "sponsored," or "paid partnership," so it doesn't clear the FTC's "clear and unambiguous" bar, and it's a one-shot at minute zero on a 90-minute stream where viewers join throughout — FTC's own livestreaming guidance calls that out by name as insufficient because latecomers never see it.
 
 **Fix, costs 5 minutes:**
-- Give Dana one line to say instead: *"Quick note — this stream is sponsored by Thermobrew, I'm paid to be here."*
+
+- Give Dana one line to say instead: _"Quick note — this stream is sponsored by Thermobrew, I'm paid to be here."_
 - Have her repeat it roughly every 20–25 minutes (so ~4 times over 90 minutes), not just at the top.
 - Keep the platform paid-partnership label on — it stays as a second layer, not the only layer.
 

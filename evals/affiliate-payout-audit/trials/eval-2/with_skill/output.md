@@ -29,11 +29,13 @@ Checks    : 1 Freeze scope        - PARTIAL (period is "last quarter", no exact 
 Rate card: 20% on referred volume up to $10,000; 25% from $10,000–$25,000; 30% above $25,000.
 
 **Brightpath Media — $26,000 referred:**
+
 - Marginal (each band graduated): 20%×10,000 + 25%×15,000 + 30%×1,000 = 2,000 + 3,750 + 300 = **$6,050**
 - Retroactive (whole volume re-rated at top band reached): 30%×26,000 = **$7,800**
 - **Paid: $7,800 → matches retroactive exactly.**
 
 **Onda Digital — $25,000 referred, sitting exactly on the boundary:**
+
 - Your wording — "25% from $10,000 to $25,000" and "30% **above** $25,000" — puts $25,000 itself in the 25% band, not the 30% one. So the applicable single-rate reading of $25,000 is 25%, not 30%.
 - Marginal: 20%×10,000 + 25%×15,000 = 2,000 + 3,750 = **$5,750**
 - Retroactive at 25% flat: 25%×25,000 = **$6,250**
@@ -43,15 +45,15 @@ Both payouts are internally consistent with each other and arithmetically correc
 
 ## The actual finding
 
-This isn't a bug — it's the exact ambiguity the skill flags by name: *"if the results differ and the written structure is silent, raise a finding — the structure is ambiguous, not the math."* Your rate card states three bands and three rates. It says nothing about whether crossing a threshold re-rates all prior volume or only the marginal slice. The platform picked retroactive. Most affiliate programs default to marginal specifically to avoid the cliff effect this creates (two dollars of extra volume at $25,000 would jump Onda from $6,250 to a hypothetical $7,500.30 under a mis-set boundary — you got lucky the boundary read correctly here).
+This isn't a bug — it's the exact ambiguity the skill flags by name: _"if the results differ and the written structure is silent, raise a finding — the structure is ambiguous, not the math."_ Your rate card states three bands and three rates. It says nothing about whether crossing a threshold re-rates all prior volume or only the marginal slice. The platform picked retroactive. Most affiliate programs default to marginal specifically to avoid the cliff effect this creates (two dollars of extra volume at $25,000 would jump Onda from $6,250 to a hypothetical $7,500.30 under a mis-set boundary — you got lucky the boundary read correctly here).
 
 **So: are these numbers "right"? I can't certify that — and neither can you — until the method is written down.** They're right for retroactive tiering. They're wrong for marginal tiering, by a specific amount:
 
-| Partner | Paid (retroactive) | Marginal | Variance if marginal is the intended method |
-|---|---|---|---|
-| Brightpath Media | $7,800 | $6,050 | **$1,750 overpaid** |
-| Onda Digital | $6,250 | $5,750 | **$500 overpaid** |
-| **Total** | **$14,050** | **$11,800** | **$2,250 at risk** |
+| Partner          | Paid (retroactive) | Marginal    | Variance if marginal is the intended method |
+| ---------------- | ------------------ | ----------- | ------------------------------------------- |
+| Brightpath Media | $7,800             | $6,050      | **$1,750 overpaid**                         |
+| Onda Digital     | $6,250             | $5,750      | **$500 overpaid**                           |
+| **Total**        | **$14,050**        | **$11,800** | **$2,250 at risk**                          |
 
 ## Second open item: the rate card refresh
 

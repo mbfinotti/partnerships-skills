@@ -12,9 +12,9 @@ We're writing to let you know about a change to how commissions are calculated i
 
 Since launch, every affiliate has earned a flat 14% commission on order value, regardless of site type. Starting Monday, we're moving to a two-tier structure based on how your site drives traffic:
 
-| Site type | New commission |
-|---|---|
-| Cashback, deal, and coupon sites | 7% of order value |
+| Site type                            | New commission     |
+| ------------------------------------ | ------------------ |
+| Cashback, deal, and coupon sites     | 7% of order value  |
 | Content, review, and editorial sites | 12% of order value |
 
 **Why we're making this change**

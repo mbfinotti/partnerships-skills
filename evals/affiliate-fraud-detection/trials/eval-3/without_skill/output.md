@@ -30,6 +30,7 @@ If the two partners are outliers, run these detection layers.
 ## 2. Duplicate / recycled-data rules (catches resold or scraped lead lists)
 
 - **R5 — Cross-partner duplicate PII.** Same phone, email, or name+address appearing under a different partner_id in the last 180 days. This is the single strongest signal for lead-list recycling.
+
 ```sql
 SELECT phone_hash, count(distinct partner_id) AS partners, count(*) AS occurrences
 FROM leads
@@ -38,6 +39,7 @@ GROUP BY phone_hash
 HAVING partners > 1
 ORDER BY occurrences DESC;
 ```
+
 - **R6 — Fuzzy near-duplicates within one partner.** Levenshtein distance ≤2 on name, or same last-4-digits phone with different area code, or sequential email handles (`john123`, `john124`). Sign of a bot generating variants of one seed identity.
 - **R7 — Address reuse.** Same street address with different names, above a threshold (e.g. >3 leads/address/90 days) not explainable by an apartment building or business address.
 
@@ -46,6 +48,7 @@ ORDER BY occurrences DESC;
 - **R8 — Bot-speed form fill.** `time_to_submit` (page load → submit) under ~3-5 seconds, consistently, for a multi-field form. Humans don't fill 8 fields in 3 seconds.
 - **R9 — Click-to-conversion latency anomaly.** Time between ad click and postback fire is unnaturally constant (e.g. always 12-15s) rather than the wide human distribution you see elsewhere — indicates a scripted funnel, not a real user journey.
 - **R10 — Off-daypart clustering.** Genuine consumer form-fills follow a human daypart curve (peaks daytime/evening, local timezone). Plot hour-of-day histogram per partner; a partner with a flat distribution or a 2-5am local-time spike is farm/bot traffic.
+
 ```sql
 SELECT partner_id, toHour(created_at, timezone) AS local_hour, count(*)
 FROM leads
@@ -53,6 +56,7 @@ GROUP BY partner_id, local_hour
 ORDER BY partner_id, local_hour;
 -- Compare shape (not just volume) against your top 5 trusted partners.
 ```
+
 - **R11 — IP/device concentration.** >N leads from the same IP, /24 subnet, or device fingerprint within a rolling 24h window. Set N relative to expected unique-visitor traffic for that partner's stated channel.
 - **R12 — Geo mismatch.** IP geolocation country/region vs phone area code vs claimed address disagree beyond a tolerance you'd expect from VPN/mobile carrier noise (e.g. >15% of a partner's leads show 3-way mismatch).
 

@@ -6,14 +6,14 @@ Yes — absorb both, but not silently. Document them as findings, book them as w
 
 The affiliate-payout-audit remediation ladder is: **correct before release → offset against future commission → absorb and document → fix it forward → direct recovery.** Two things here delete the top and bottom rungs outright:
 
-- **Your platform's terms** ("once paid, cannot be taken back under any circumstances") are the PartnerStack-style clause the skill treats as a hard stop: *"If the terms or the platform forbid reclaiming a paid commission, delete offset and direct recovery; absorb and fix-it-forward are the whole menu."* An offset is still "taking it back," just spread over future payouts — your terms don't carve out an exception for that.
+- **Your platform's terms** ("once paid, cannot be taken back under any circumstances") are the PartnerStack-style clause the skill treats as a hard stop: _"If the terms or the platform forbid reclaiming a paid commission, delete offset and direct recovery; absorb and fix-it-forward are the whole menu."_ An offset is still "taking it back," just spread over future payouts — your terms don't carve out an exception for that.
 - **No finance co-signer this cycle** independently deletes direct recovery on its own, terms aside.
 
 So for both lines, "correct before release" is moot (money's already moved) and offset/direct recovery are structurally unavailable. What's left — absorb and document, plus fix it forward — is the actual right answer, not a fallback.
 
 ## Order 88412 — $148.80 (12% of $1,240)
 
-This is the textbook **post-lock refund**: lock (Feb 10) → refund (Feb 19) → payment run (Feb 20) — the refund landed one day *before* the money actually went out, but the record was already locked so nothing re-checked it. "The platform won't let me touch the record" is expected behavior at that state, not a bug to route around — locked/paid means no on-platform reversal, not "no longer owed."
+This is the textbook **post-lock refund**: lock (Feb 10) → refund (Feb 19) → payment run (Feb 20) — the refund landed one day _before_ the money actually went out, but the record was already locked so nothing re-checked it. "The platform won't let me touch the record" is expected behavior at that state, not a bug to route around — locked/paid means no on-platform reversal, not "no longer owed."
 
 - **Finding**: material, lifecycle-gate failure (reversal not applied before payment release), reason code `return/cancellation`.
 - **Action**: absorb $148.80, documented against this affiliate.

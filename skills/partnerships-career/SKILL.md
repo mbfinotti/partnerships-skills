@@ -31,12 +31,12 @@ Ask one question at a time, multiple-choice where possible. Skip anything alread
 
 Partnerships is not one job. The four sub-disciplines run on different skills, different sourcing pools, and different comp structures:
 
-| Sub-discipline | Core of the job | Screened on |
-| --- | --- | --- |
-| Channel/Alliance Manager | Portfolio management, deal registration, co-sell, executive relationships at scale | Relationship read of the partner org, cross-functional juggling, negotiation |
-| Affiliate Manager | Program operations, network/tooling fluency, commission economics | Data literacy, performance-marketing track record |
-| Influencer/Creator Partnerships Manager | Sourcing, negotiation, campaign execution, compliance | Communication, platform/creator-landscape fluency, FTC disclosure literacy |
-| Referral Program Manager | Incentive design, tracking, cross-team coordination with marketing | Program strategy, data analysis - and disambiguate this title from employee-referral recruiting before applying anywhere |
+| Sub-discipline                          | Core of the job                                                                    | Screened on                                                                                                              |
+| --------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Channel/Alliance Manager                | Portfolio management, deal registration, co-sell, executive relationships at scale | Relationship read of the partner org, cross-functional juggling, negotiation                                             |
+| Affiliate Manager                       | Program operations, network/tooling fluency, commission economics                  | Data literacy, performance-marketing track record                                                                        |
+| Influencer/Creator Partnerships Manager | Sourcing, negotiation, campaign execution, compliance                              | Communication, platform/creator-landscape fluency, FTC disclosure literacy                                               |
+| Referral Program Manager                | Incentive design, tracking, cross-team coordination with marketing                 | Program strategy, data analysis - and disambiguate this title from employee-referral recruiting before applying anywhere |
 
 The sub-disciplines are not ranked against each other - which is efficient depends entirely on the seat you already occupy (Q2) and the world you picked (Q1), so an abstract ordering would be false precision. Full role detail, typical progression, and what separates junior from senior in each: [references/role-taxonomy-and-skills.md](./references/role-taxonomy-and-skills.md).
 

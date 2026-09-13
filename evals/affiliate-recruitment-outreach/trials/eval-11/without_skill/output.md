@@ -1,4 +1,5 @@
 **Subject line options:**
+
 1. Introducing the Hollowpine Affiliate Program — help legal teams ditch contract chaos
 2. New: Earn by referring mid-market legal teams to Hollowpine
 3. Partner with Hollowpine — get paid for referrals that convert
@@ -14,11 +15,13 @@ Contract management is one of those problems every mid-market legal team feels b
 That's why we're launching the **Hollowpine Affiliate Program**, and we'd love for you to be one of our founding partners.
 
 **Why Hollowpine is worth recommending:**
+
 - Purpose-built for mid-market legal teams — not a bloated enterprise suite, not a consumer e-signature tool stretched too thin
 - Cuts contract turnaround time and eliminates the version-control and approval-tracking headaches legal ops teams deal with daily
 - Fast to implement, easy to demo, and genuinely well-liked by the teams using it
 
 **What's in it for you:**
+
 - [Commission details to be finalized — e.g., recurring revenue share or a flat bounty per qualified referral]
 - A dedicated affiliate dashboard to track your referrals and payouts in real time
 - Co-marketing support: swipe copy, banners, and a unique referral link ready on day one
