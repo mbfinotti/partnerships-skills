@@ -23,8 +23,8 @@ The table below is a catalogue, not a build order. Four families compete for the
 - efficiency (best first): `list filtration > downstream outcomes > timing > cross-account identity`
 
 - **List filtration** (data-center ASN, declared bots, non-browser UA). Near-zero effort, no judgment call, no personal data. Worth little on its own, but at that cost the ratio is unbeatable, and it clears the crude volume the other three would otherwise be tuned against.
-- **Downstream outcomes** (lead-to-qualified, demo-show, chargeback rate, revenue per visitor). A week of CRM/ledger joins. The only family AI-generated synthetic traffic cannot fake, since it has to produce real customers to beat it.
-- **Timing** (CTIT, time on site, form-fill speed). A week of instrumentation. Strongest published accuracy of any family, but only against B2C stuffing, and behavioral heuristics are the ones synthetic traffic erodes fastest.
+- **Downstream outcomes** (lead-to-qualified, demo-show, chargeback rate, revenue per visitor). A day or two of CRM/ledger joins, most of it checking the matches. The only family AI-generated synthetic traffic cannot fake, since it has to produce real customers to beat it.
+- **Timing** (CTIT, time on site, form-fill speed). A day or two of instrumentation, most of it testing. Strongest published accuracy of any family, but only against B2C stuffing, and behavioral heuristics are the ones synthetic traffic erodes fastest.
 - **Cross-account identity** (device fingerprints, duplicate contact data, shared IP or payout destination). A quarter: lawful basis, retention design, access control, counsel sign-off - see the `[LEGAL REVIEW]` gate below.
 
 Build list filtration first, then downstream outcomes; skip nothing above them before adding anything below.

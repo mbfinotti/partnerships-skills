@@ -4,7 +4,7 @@ description: Define the operational guardrails that stop end customers from gami
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.1.9"
+  version: "1.1.10"
 ---
 
 # Referral Abuse Guardrails
@@ -66,12 +66,12 @@ The last three set the control ordering in Workflow step 4, so ask them before d
 
    - efficiency: `event > caps == hold > eligibility > verification > review`
    - value: `event > eligibility > hold > verification > caps > review`
-   - effort: `review > event > verification > eligibility > caps == hold`
+   - effort: `review > verification > event > eligibility > caps == hold`
    - compliance cost: `verification > eligibility > event == caps == hold > review`
 
    Caps and hold tie because each is a payout-side number published in terms, shipped in one config change, gating no legitimate user, and each bounds a loss the other cannot - caps bound volume, hold bounds reversal. Event, caps and hold tie on compliance cost because none touches identity data or needs sign-off. Review sits lowest on that axis because a human in the loop _reduces_ exposure: several regimes bar a fully automated denial.
 
-   Effort is composite here - friction charged to legitimate users, build time, reversibility. Event design ranks high on it because rewiring the trigger is a quarter of product and billing work, yet still leads on efficiency: that cost is one-time engineering, while verification charges every legitimate signup forever.
+   Effort is composite here - friction charged to legitimate users, build time, reversibility. Rewiring the event trigger is several weeks of product and billing work, yet verification still ranks above it: that cost is one-time engineering, while verification charges every legitimate signup forever. Event design leads on efficiency for the same reason.
 
    Default: caps, hold, and published eligibility in the first pass, always. Climb to event redesign whenever the current qualifying event is bare signup or an unpaid action - nothing below it holds while the event is free to fake.
 
@@ -79,7 +79,7 @@ The last three set the control ordering in Workflow step 4, so ask them before d
 
    Re-rank on the Interview answers and name in the spec which answer moved which control:
 
-   - A hard live-by date promotes caps, hold, and eligibility (config, one sprint) and schedules event redesign for the next cycle - never drops it.
+   - A hard live-by date promotes caps, hold, and eligibility (config, a few days) and schedules event redesign for the next cycle - never drops it.
    - A compounding mandate promotes event design and eligibility memory, which keep working at no ongoing cost.
    - A low effort ceiling deletes manual review and the upper verification rungs from the spec outright rather than parking them at the bottom; record which you deleted and why.
 

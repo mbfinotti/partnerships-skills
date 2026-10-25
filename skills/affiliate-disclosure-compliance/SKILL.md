@@ -4,7 +4,7 @@ description: Check a specific piece of affiliate or influencer content (caption,
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.1.8"
+  version: "1.1.9"
 ---
 
 # Affiliate Disclosure Compliance
@@ -100,7 +100,7 @@ Monitoring is not optional; which approach delivers it is. 16 CFR 255.1(d) and t
 Effort in magnitudes:
 
 - Self-attestation and spot-checks: near-zero per asset once running.
-- Automated label scan: about a week to set up and tune.
+- Automated label scan: a day or two to set up and tune, most of it testing against known violations.
 - Pre-publication gate and full-roster review: standing jobs.
 
 - Default to the risk-weighted spot-check: newest partners, highest earners, regulated claims, formats that failed before, with self-attestation underneath it as the paper trail.
@@ -121,7 +121,7 @@ Effort in magnitudes:
 
 - Corrected line in the review reply: near-zero.
 - Approved wording bank: about an hour to adapt.
-- Per-format one-pager: about a week of writing and portal work.
+- Per-format one-pager: a day or two of writing and portal work, most of it review.
 - Live training: a standing job.
 
 - Default to the wording bank: adapt [references/disclosure-wording.md](references/disclosure-wording.md) into the program's own approved lines, one per format the campaign runs.

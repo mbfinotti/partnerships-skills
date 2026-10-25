@@ -4,7 +4,7 @@ description: Draft the creative campaign brief a brand hands to an already-signe
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.1.6"
+  version: "1.1.7"
 ---
 
 # Influencer Campaign Brief

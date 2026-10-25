@@ -32,7 +32,7 @@ Delete rather than defer what the program rules out, and say in the spec that th
 
 A dimension left in the menu unbuilt gets read later as a metric that exists.
 
-**Revenue (lagging)** - sourced is near-zero effort where deal registration is enforced; influenced costs a quarter of attribution work plus finance sign-off
+**Revenue (lagging)** - sourced is near-zero effort where deal registration is enforced; influenced costs a few weeks of attribution work plus finance sign-off
 
 - **Partner-sourced revenue**: closed revenue from deals the partner originated, evidenced by an approved deal registration. Never blend with influenced.
 - **Partner-influenced revenue**: revenue the partner touched but did not originate. Cap influence credit so attributed revenue never exceeds actual revenue; track it as its own KPI. Forrester's attribution work (Kathy Contreras, 2025-09-09, analyst blog) argues sourced-only measurement undercounts non-transacting partners - treat the attribution model as an upstream input to this dimension.
@@ -43,16 +43,16 @@ A dimension left in the menu unbuilt gets read later as a metric that exists.
 - **Pipeline velocity**: time-in-stage of registered deals vs the program median. Slowing velocity precedes a revenue miss by one or two quarters.
 - **Time-to-first-deal**: signup to first registered (or closed - pick one and state it) deal. The per-partner activation signal in PartnerStack's taxonomy (vendor taxonomy).
 
-**Engagement (leading)** - an hour where portal logs and the MDF ledger export cleanly, a week where they do not
+**Engagement (leading)** - an hour where portal logs and the MDF ledger export cleanly, a day or two where they do not
 
 - **Portal/program engagement**: logins, content usage, campaign participation - from program systems only.
 - **MDF utilization**: claimed vs allocated funds, tied to documented campaigns. Unclaimed MDF is a disengagement signal, not savings.
 
-**Capability (leading)** - about a week, and most of it is joining LMS credentials to partner records
+**Capability (leading)** - a day or two, and most of it is joining LMS credentials to partner records
 
 - **Certified headcount**: individuals holding a _current_ certification - count credentials, not course enrollments.
 
-**Customer outcomes (lagging)** - a quarter, because renewal and CSAT records have to be joined back to the sourcing partner and defended to finance
+**Customer outcomes (lagging)** - a few weeks, because renewal and CSAT records have to be joined back to the sourcing partner and defended to finance
 
 - **Partner-driven retention/CSAT**: renewal rate or CSAT of customers the partner sourced or services - separates partners who sell well from partners whose customers stay.
 

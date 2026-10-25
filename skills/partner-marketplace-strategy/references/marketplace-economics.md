@@ -43,7 +43,7 @@ Aggregate committed spend across the three providers was estimated near $470B as
 
 Model the full stack, not the headline fee:
 
-- **B2B**: listing/metering engineering (commonly cited 4-8 weeks), legal harmonization (EULA, DPA, support SLA), tax and payout configuration, a private-offer deal desk, co-sell operations, optionally a cloud GTM tooling subscription, plus a fractional-to-dedicated owner.
+- **B2B**: listing/metering engineering (commonly cited 4-8 weeks; the build itself is nearer one to two weeks), legal harmonization (EULA, DPA, support SLA), tax and payout configuration, a private-offer deal desk, co-sell operations, optionally a cloud GTM tooling subscription, plus a fractional-to-dedicated owner.
 - **B2C**: referral fee + fulfilment + storage and aging surcharges + returns reserve + effectively-mandatory retail-media budget + pricing/MAP enforcement + (international) tax registration and compliance per market.
 
 A gross-to-net waterfall per marketplace - list price minus every named deduction down to contribution - is the honest comparison format. Comparing headline take rates alone systematically flatters the platforms with the heaviest hidden stack.

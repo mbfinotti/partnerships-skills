@@ -4,7 +4,7 @@ description: Draft the outreach copy and sequence plan used to recruit new affil
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.5"
+  version: "1.4.6"
 ---
 
 # Affiliate Recruitment Outreach

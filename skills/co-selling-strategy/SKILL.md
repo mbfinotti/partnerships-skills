@@ -4,7 +4,7 @@ description: Design the operating model for how direct sales and partner sellers
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.4"
+  version: "1.3.5"
 ---
 
 # Co-Selling Strategy
@@ -148,8 +148,8 @@ Promote it to first on one symptom: reps still routing around or sandbagging par
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------- |
 | Flood of speculative registrations on accounts the partner barely knows | Are proof-of-involvement criteria and rejection grounds published?                     | Registration - approval criteria        | An hour, partnerships alone                                   |
 | Reps spend selling time arguing credit splits                           | Attribution lock window and dispute SLA                                                | Attribution governance                  | An hour, partnerships alone                                   |
-| Direct AEs blindsided by partner registrations                          | Where the registration record lives - portal only, or the sales system?                | Rules of engagement - visibility        | A week of RevOps config                                       |
-| Two claimants on one account, no clean resolution                       | Timestamped system of record and tiebreaker rules                                      | Decision rights - escalation ladder     | A week, plus tooling that may not exist                       |
+| Direct AEs blindsided by partner registrations                          | Where the registration record lives - portal only, or the sales system?                | Rules of engagement - visibility        | A day or two of RevOps config                                 |
+| Two claimants on one account, no clean resolution                       | Timestamped system of record and tiebreaker rules                                      | Decision rights - escalation ladder     | A few days, plus tooling that may not exist                   |
 | Partner-influenced revenue reported but nobody trusts it                | Are claims accepted at close, with partnerships as sole owner of the number?           | Attribution - taxonomy and co-ownership | A quarter of process change across two teams                  |
 | Reps quietly avoid or sandbag partner deals                             | Does quota credit shrink when a partner attaches, or a marketplace fee hit commission? | Credit & comp - neutrality              | A quarter, finance + CRO sign-off, contractual once published |
 

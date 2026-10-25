@@ -78,7 +78,7 @@ B2B SaaS:
 
 Ties are real, not hedges. EPC and click-to-conversion answer the same question - is this partner's traffic worth its clicks - from the two sides of one fraction, so neither adds a decision the other missed. Reversal rate, click-to-conversion and EPC all read straight off an export the platform already produces: what they cost is agreeing the counting convention, not running the query, and that cost is identical for all three.
 
-Why new-to-file leads in B2C and falls to third in B2B: in B2C it is computable from the orders database alone once the partner ID is stamped on the order, because "first-ever customer" is already in the customer's own order history. In B2B the same number needs a CRM join and survives cross-device identity loss, which is a quarter of work rather than a week.
+Why new-to-file leads in B2C and falls to third in B2B: in B2C it is computable from the orders database alone once the partner ID is stamped on the order, because "first-ever customer" is already in the customer's own order history. In B2B the same number needs a CRM join and survives cross-device identity loss, which is a month or two of work rather than a day or two.
 
 **What the efficiency order starves: churn-adjusted partner LTV.** It is the only metric here that can settle a commission-architecture argument, and it loses every ratio round - a 24-month horizon means the program has to be old enough to have one, and the churn-adjusted revenue join is a standing job. Promote it anyway when a rate change or a recurring-commission cap is a live decision, or when finance disputes the program's payback. The same pattern in miniature applies to time-to-first-conversion: cheap-looking until you find the platform never retained link-activation timestamps.
 
@@ -100,7 +100,7 @@ Entries below run in the B2C efficiency order, then the B2B-only metrics in thei
 
 - Formula: `conversions from customers not previously in the customer file / total partner conversions`.
 - Decides: whether checkout-adjacent partner types get repriced or reviewed - the largest money decision most programs have open.
-- Costs: a week in B2C (stamp the partner ID at order creation, read first-ever-customer from order history); a quarter in B2B (CRM join, plus identity resolution).
+- Costs: a day or two in B2C (stamp the partner ID at order creation, read first-ever-customer from order history); a month or two in B2B (CRM join, plus identity resolution).
 - Limits: identity resolution and cross-device loss make the join imperfect - store the originating partner ID in billing/CRM metadata at order creation, not only in the tracking platform.
 - High new-to-file with a weak repeat rate signals discount-driven one-off buyers, not durable acquisition [VENDOR].
 - Doubles as the cheap incrementality proxy, with one hard limit worth stating on the tile: new-to-file proves the customer was not already yours, never that the partner caused the purchase. A coupon, cashback, or brand-search partner intercepting a buyer already heading to checkout scores as new-to-file. Treat it as the cheapest rung of the incrementality instruments, and climb to a holdout or geo-lift test only as far as the live decision needs.
@@ -140,7 +140,7 @@ Entries below run in the B2C efficiency order, then the B2B-only metrics in thei
 
 - Formula: median days from partner link activation to first validated conversion.
 - Decides: where activation effort lands, and when to stop spending it on a partner.
-- Costs: a week if link-activation timestamps are retained, a quarter if they must be reconstructed - check before promising the metric.
+- Costs: a day or two if link-activation timestamps are retained, weeks if they must be reconstructed - check before promising the metric.
 - Calibration only [SYNTH, directional]: ~14-day cross-program median; 1-4 days ecommerce vs 21-60 days B2B SaaS; a partner with no conversion in 60 days has ~3.7% lifetime probability of ever converting.
 
 ## EPC (earnings per click) - B2C only
@@ -156,7 +156,7 @@ Entries below run in the B2C efficiency order, then the B2B-only metrics in thei
 
 - Formula: `referred trials converting to paid / referred trials started`, per cohort.
 - Decides: which partners to keep paying - a partner with high trial volume and low trial-to-paid is shipping unqualified traffic, and no other metric on this list catches that.
-- Costs: a week to a quarter, depending on whether product analytics already carries the partner ID at trial start.
+- Costs: a day or two to a month, depending on whether product analytics already carries the partner ID at trial start.
 - Published product benchmarks diverge materially by methodology and are not partner-channel-specific [VENDOR, conflicting] - derive per-partner-type baselines from own cohorts [DERIVE].
 
 ## Partner-sourced vs partner-influenced revenue - B2B

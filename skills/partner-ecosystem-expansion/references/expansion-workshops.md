@@ -10,11 +10,11 @@ Every format follows the same facilitation discipline:
 - Sections validated one by one.
 - Explicit approval before finalizing.
 
-- cost (heaviest first): `business-design workshop > partner persona == account mapping > value blueprint > map re-read`
+- cost (heaviest first): `business-design workshop > partner persona > account mapping > value blueprint > map re-read`
 - value (biggest payoff first): `business-design workshop > value blueprint > account mapping > partner persona > map re-read`
 - efficiency (run first): `map re-read > value blueprint > account mapping > partner persona > business-design workshop`
 
-`partner persona == account mapping` on cost: both need a day in the room plus a week of evidence gathered outside it - partner-principal interviews, or account-overlap data - and neither can be run from what the ecosystem map already holds.
+`partner persona > account mapping` on cost: both need a day in the room plus evidence gathered outside it, and neither can be run from what the ecosystem map already holds. Pulling and analyzing account-overlap data takes a day or two; partner-principal interviews take a week of calendars.
 
 Run the top of the order first and stop when the candidate pool stops changing; the lower formats earn their cost only when the cheaper ones leave a real question open. The order is a default: it shifts with what data already exists (no ecosystem map drops the first format to last, no overlap data does the same to account mapping) and with who is in the room.
 
@@ -41,7 +41,7 @@ Input: the value proposition and the actors it needs; no data gathering required
 
 ## 3. Account-mapping session
 
-Input: account-overlap data with existing partners of any category - the mechanic popularized by the ecosystem-led-growth community and tools like Crossbeam (named here as sourced practice, not a requirement). Real evidence rather than room opinion, which is why it outranks the two formats below despite costing a week of data work when the overlap data is missing.
+Input: account-overlap data with existing partners of any category - the mechanic popularized by the ecosystem-led-growth community and tools like Crossbeam (named here as sourced practice, not a requirement). Real evidence rather than room opinion, which is why it outranks the two formats below despite costing a day or two of data work when the overlap data is missing.
 
 - Which existing partner category generates the most ecosystem-qualified leads per partner - evidence for deepening it before diversifying?
 - Do overlap patterns show a category you lack repeatedly present in your best accounts - for example, an implementation partner visible in every large win you did not source?

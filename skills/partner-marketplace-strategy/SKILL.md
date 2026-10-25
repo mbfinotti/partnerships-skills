@@ -4,7 +4,7 @@ description: Decide which third-party marketplaces to list on, how much to inves
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.0.3"
+  version: "1.0.4"
 ---
 
 # Partner Marketplace Strategy
@@ -95,7 +95,7 @@ Work in the profession's own collaborative formats, not generic brainstorming:
    - SaaS app store: `transactable paid app > free listing > deep platform bet`
    - Retail: `3P > 1P > hybrid`
 
-   The cloud rungs are cumulative: aim the business case at the private-offer rung and treat transactable as the toll to reach it, because a case that stops at transactable pays nearly the whole cost for the smaller half of the value. Delete every rung the user's effort ceiling rules out from the memo, and name which. Never park it at the bottom. See [references/marketplace-taxonomy.md](references/marketplace-taxonomy.md) for the per-axis orderings, the ties, and what each order starves.
+   The cloud rungs are cumulative: aim the business case at the private-offer rung and treat transactable as the toll to reach it, because a case that stops at transactable pays the engineering toll and leaves the larger half of the value on the table. Delete every rung the user's effort ceiling rules out from the memo, and name which. Never park it at the bottom. See [references/marketplace-taxonomy.md](references/marketplace-taxonomy.md) for the per-axis orderings, the ties, and what each order starves.
 
 9. Sequence: one platform first, prove the motion, then expand. Define the gate that unlocks each stage - e.g. first transactions closed (renewals are the documented low-risk proof path in B2B), comp policy in writing, contribution margin positive - and the evidence each gate requires.
 10. Set the investment envelope: platform fees, the real cost-to-serve, and a named owner's time.

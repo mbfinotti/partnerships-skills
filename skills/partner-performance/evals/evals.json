@@ -33,7 +33,7 @@
         "States that influence credit must be capped so attributed partner revenue never exceeds actual revenue",
         "Flags the proposed $14M combined figure as indefensible in front of finance",
         "Treats the attribution model as an upstream input feeding the influenced-revenue KPI rather than as the scorecard itself",
-        "Notes that influenced revenue costs materially more effort (roughly a quarter of attribution work plus finance sign-off) than sourced revenue, which is near-zero wherever deal registration is enforced",
+        "Notes that influenced revenue costs materially more effort (roughly a few weeks of attribution work plus finance sign-off) than sourced revenue, which is near-zero wherever deal registration is enforced",
         "Recommends influenced revenue specifically for the 12 ISVs, because without it they have nothing to score",
         "Gives each revenue KPI both a target and a red-flag floor",
         "States a measurement window on each revenue KPI and matches the revenue window to the sales cycle, such as a rolling 12 months for lumpy enterprise deals",

@@ -4,7 +4,7 @@ description: Write the channel conflict rules that govern contested deals betwee
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.9"
+  version: "1.3.10"
 ---
 
 # Partner Channel Conflict Rules
@@ -76,7 +76,7 @@ Say which fact moved which option when presenting the order. Strike the options 
 4. Set the structural boundaries. Pick the segmentation axis on conflict prevented per unit of ongoing effort, not on precision - precision is what makes named accounts look like the obvious first move:
    - efficiency: deal-size threshold > motion carve-out > geography > product line > named accounts
    - value: named accounts > deal-size threshold > geography > motion carve-out > product line
-   - effort: named accounts (a standing job - owner, refresh cadence, edge-case rules) > geography (a week to map, plus counsel where territories are exclusive) > motion carve-out == product line (an hour to write, then a recurring edge-case ruling on renewals or bundles) > deal-size threshold (an hour, then nothing)
+   - effort: named accounts (a standing job - owner, refresh cadence, edge-case rules) > geography (a day or two to map, plus counsel where territories are exclusive) > motion carve-out == product line (an hour to write, then a recurring edge-case ruling on renewals or bundles) > deal-size threshold (an hour, then nothing)
    - compliance cost: geography (EU territory exclusivity and active/passive-sales limits - counsel before publication) > every other axis (near-zero)
 
    Motion carve-out and product line tie on effort for a reason, not to duck the call: each is one sentence in the RoE, and neither carries an owner or a refresh cadence. Both buy the same recurring bill of edge-case rulings: a renewal on a carved-out motion, a bundle spanning two product lines.

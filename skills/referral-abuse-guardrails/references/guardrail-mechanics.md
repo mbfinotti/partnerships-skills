@@ -4,12 +4,12 @@ The control ladder, ordered by leverage per unit of friction. Vendor blogs prese
 
 - efficiency: `event > caps == hold > eligibility > verification > review`
 - value: `event > eligibility > hold > verification > caps > review`
-- effort: `review > event > verification > eligibility > caps == hold`
+- effort: `review > verification > event > eligibility > caps == hold`
 - compliance cost: `verification > eligibility > event == caps == hold > review`
 
 Caps and hold tie because each is a payout-side number published in terms, shipped in one config change, gating no legitimate user, and each bounds a loss the other cannot - caps bound volume, hold bounds reversal. Event, caps and hold tie on compliance cost because none touches identity data or needs sign-off. Review sits lowest on that axis because a human in the loop reduces exposure rather than adding it.
 
-Effort is composite: friction charged to legitimate users, build time, reversibility. Event design ranks high on it - rewiring the trigger is a quarter of product and billing work - yet still leads on efficiency, because that cost is one-time engineering while verification charges every legitimate signup forever. Caps and hold are near-zero on both build and friction; manual review is a standing job that never ends.
+Effort is composite: friction charged to legitimate users, build time, reversibility. Rewiring the event trigger is several weeks of product and billing work, yet verification ranks above it, because that cost is one-time engineering while verification charges every legitimate signup forever. Event design leads on efficiency for the same reason. Caps and hold are near-zero on both build and friction; manual review is a standing job that never ends.
 
 Default: caps, hold, and published eligibility first, always. Climb to event redesign the moment the qualifying event is bare signup or an unpaid action.
 

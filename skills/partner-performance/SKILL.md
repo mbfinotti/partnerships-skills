@@ -4,7 +4,7 @@ description: Measure and review the performance of individual partners in a B2B 
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.1.4"
+  version: "1.1.5"
 ---
 
 # Partner Performance
@@ -77,9 +77,9 @@ Rank by what each approach settles per hour of partner-ops build time. This is p
 - value: weighted composite > per-partner-type tracks > leading/lagging split
 - effort: per-partner-type tracks > leading/lagging split > weighted composite
 
-1. **Weighted composite** - 4-6 dimensions, one number per partner. Settles the triage decision: which partners get the PAM's hours this quarter. Costs about a week of partner-ops work to define and near-zero per review afterwards, and it runs on CRM/PRM data most programs already hold. Fully reversible until partners see it.
-2. **Leading/lagging split** - a results score beside an early-indicator score. Settles the timing decision: intervene now, or wait a quarter. Near-zero effort when the composite already carries pipeline, engagement or certification dimensions - tag each one and subtotal. A quarter of plumbing when portal, LMS or deal-registration data cannot be exported yet, and that case is what drops it below the composite.
-3. **Per-partner-type tracks** - one dimension set per partner type. Settles the coverage decision: whether a non-transacting partner earns its investment, a question a single composite answers with a blank. Costs a week per type to define, each with its own data sources and negotiated targets, then becomes a standing job as partner types multiply.
+1. **Weighted composite** - 4-6 dimensions, one number per partner. Settles the triage decision: which partners get the PAM's hours this quarter. Costs a few days of partner-ops work to define, most of it agreeing weights, and near-zero per review afterwards, and it runs on CRM/PRM data most programs already hold. Fully reversible until partners see it.
+2. **Leading/lagging split** - a results score beside an early-indicator score. Settles the timing decision: intervene now, or wait a quarter. Near-zero effort when the composite already carries pipeline, engagement or certification dimensions - tag each one and subtotal. A few weeks of plumbing when portal, LMS or deal-registration data cannot be exported yet, and that case is what drops it below the composite.
+3. **Per-partner-type tracks** - one dimension set per partner type. Settles the coverage decision: whether a non-transacting partner earns its investment, a question a single composite answers with a blank. Costs a few days per type to define, each with its own data sources and negotiated targets, then becomes a standing job as partner types multiply.
 
 Per-partner-type tracks are what this efficiency order starves: second on value, first on effort, last on the ratio. A program that only computes efficiency scores its transacting resellers well and leaves its ISVs, referral and advisory partners on a composite that reads as a blank. Promote rung 3 above rung 2 the moment the program holds a non-transacting partner type - pass threshold 3 requires a real score for it, and no amount of composite tuning produces one.
 

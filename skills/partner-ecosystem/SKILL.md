@@ -4,7 +4,7 @@ description: Map a company's partner and channel ecosystem as a strategy exercis
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.9"
+  version: "1.4.10"
 ---
 
 # Partner Ecosystem Mapping
@@ -171,14 +171,14 @@ Say which of their answers moved which option, so the reordering is auditable ra
 
 11. Validate the map against ecosystem-level health metrics, as a diagnostic reading only. Per-partner scorecards and review cadences belong to `mbfinotti/partnerships-skills@partner-performance`.
 
-    - effort: sourced-vs-influenced split (CRM field definitions plus a written de-duplication policy - a week where they don't exist, near-zero where they do) > activation ratio (near-zero wherever registration dates exist) == coverage read (already computed in step 6)
+    - effort: sourced-vs-influenced split (CRM field definitions plus a written de-duplication policy - a couple of days where they don't exist, near-zero where they do) > activation ratio (near-zero wherever registration dates exist) == coverage read (already computed in step 6)
     - value: sourced-vs-influenced split (whether the ecosystem earns money at all, and whether recruitment is outrunning enablement) > activation ratio (catches logo collecting) > coverage read (restates step 6)
     - efficiency: activation ratio > sourced-vs-influenced split > coverage read
 
     Activation ratio and coverage read tie on effort at a genuine zero: one is a single query against registration dates you already store, the other is a number step 6 has already computed. Neither costs anything beyond reading it. They separate on value, and the activation ratio wins.
 
     - **Read first:** the activation ratio. It is one query and it invalidates a whole class of map.
-    - **What this order starves:** the sourced-vs-influenced split. It is the only reading that says whether the ecosystem earns money at all, and the week of CRM field definitions and de-duplication policy behind it loses to two free numbers every time.
+    - **What this order starves:** the sourced-vs-influenced split. It is the only reading that says whether the ecosystem earns money at all, and the couple of days of CRM field definitions and de-duplication policy behind it loses to two free numbers every time.
     - **Promote it when** the map is asking for investment rather than reporting coverage, since no exec funds an ecosystem on an activation ratio. It leads outright wherever those CRM fields already exist, which turns the most expensive reading here into a free one.
     - **Delete it when** the CRM cannot carry those fields. Say plainly that the earning question stays unanswered: carrying it as a pending metric lets a later reader assume it was measured.
 
