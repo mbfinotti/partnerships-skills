@@ -4,7 +4,7 @@ description: Design the onboarding sequence that carries a newly approved affili
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.0.4"
+  version: "1.0.5"
 ---
 
 # Affiliate Onboarding Sequence
@@ -52,7 +52,7 @@ Questions 10-12 set the ordering of every menu in this skill; the answers are wh
    - recurring effort (manager hours per affiliate): `high-touch > hybrid > self-serve`
    - one-off build before the first send: `self-serve == hybrid > high-touch`
 
-   Self-serve leads because its marginal cost per affiliate is near-zero once built, not because it converts best - it converts worst. Build it as the floor for everyone, then buy activation upward for the segment that repays it. The build tie is real: hybrid _is_ the self-serve drip plus one calendar slot, so it costs the same week to stand up; high-touch needs almost no build and instead becomes a standing job.
+   Self-serve leads because its marginal cost per affiliate is near-zero once built, not because it converts best - it converts worst. Build it as the floor for everyone, then buy activation upward for the segment that repays it. The build tie is real: hybrid _is_ the self-serve drip plus one calendar slot, so it costs the same day or two to stand up; high-touch needs almost no build and instead becomes a standing job.
 
    High-touch is what this order starves. It tops the value line and tops the recurring-effort line at once, so the ratio buries it every round and a program that only computes efficiency ends up serving its largest partners the same automated drip as its long tail. Promote it explicitly - never wait for it to win - when a single partner's expected revenue exceeds the hours the calls consume, or when the roster is small enough that the drip's build never pays back.
 
@@ -127,7 +127,7 @@ Identical for both - stated so it is not left implicit:
 
 ## Failure modes
 
-Fix in this order when several of these are true at once - activation bought per hour of fixing: `link placement > welcome dump > approval-as-finish-line > threat framing > activation nudge > archetype routing == never-activated branch`. The tie is argued: routing and the branch each cost about a week to build, but routing pays inside the window you are already in while the branch only pays on the next cohort - equal ratio, different clock.
+Fix in this order when several of these are true at once - activation bought per hour of fixing: `link placement > welcome dump > approval-as-finish-line > threat framing > activation nudge > archetype routing == never-activated branch`. The tie is argued: routing and the branch each cost a day or two to build, but routing pays inside the window you are already in while the branch only pays on the next cohort - equal ratio, different clock. The nudge stays ahead of both: its week is the sign-off wait, not hours spent fixing.
 
 | Failure                                                                | Fix                                                                                                  | Fix effort                                       |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
@@ -136,9 +136,9 @@ Fix in this order when several of these are true at once - activation bought per
 | Approval treated as the finish line                                    | Set the concrete activation plan and expectations in touch 1                                         | an hour                                          |
 | Termination threats used to force activation                           | Replace with opportunity-framed incentives; motivation research finds threats counterproductive      | near-zero, when threats are present at all       |
 | No activation nudge, no time-boxed first-window incentive              | Deadline-bound bonus inside the first window, carried by a named touch                               | a week - the rate needs sign-off before it ships |
-| One-size-fits-all sequence across archetypes and tiers                 | Route by archetype and tier before drafting anything                                                 | a week - one leading asset per archetype present |
-| No branch for the never-activated                                      | Diagnostic at window end, re-engagement, final notice, archive - designed upfront                    | a week to design, then a standing job            |
-| Payout/tax collection deferred until after the first commission        | Gate payout eligibility at onboarding; unclaimed-setup commissions have documented expiry precedents | a week plus finance coordination                 |
+| One-size-fits-all sequence across archetypes and tiers                 | Route by archetype and tier before drafting anything                                                 | a day or two - one leading asset per archetype   |
+| No branch for the never-activated                                      | Diagnostic at window end, re-engagement, final notice, archive - designed upfront                    | a day or two to design, then a standing job      |
+| Payout/tax collection deferred until after the first commission        | Gate payout eligibility at onboarding; unclaimed-setup commissions have documented expiry precedents | a day or two plus finance coordination           |
 
 The payout/tax row sits outside that ordering deliberately. It buys avoided payout disputes and reduced legal exposure, not activation, so it cannot be ranked on the same ratio as the rows above it - fix it on the compliance clock, before the first commission is earned, whatever the activation work is doing.
 
@@ -158,7 +158,7 @@ Both ties are real, not hedges: the trace and the cohort split each cost about a
 | 3   | Read the per-touch open and click rates the platform already records                                             | near-zero     | Where the sequence loses people - localizes the fault, never names it                                                      | Opens collapse after touch 1                                                                |
 | 4   | Split activation by archetype and by tier                                                                        | an hour       | Whether one sequence is being sent to archetypes that need different first actions                                         | One archetype activates, the rest never                                                     |
 | 5   | Audit the plan for a deadline-bound nudge inside the window and a designed never-activated branch                | near-zero     | Why the cohort stalls at the deadline - explains a late-window stall only, nothing earlier                                 | Cohort stalls before the window closes; long tail piles up untouched                        |
-| 6   | Rewrite touch 1 or the asset kit                                                                                 | a week        | Nothing, until 1-5 have run - it is a change, not a check, and it destroys the baseline that would have told you it worked | (none - never the first move)                                                               |
+| 6   | Rewrite touch 1 or the asset kit                                                                                 | a day or two  | Nothing, until 1-5 have run - it is a change, not a check, and it destroys the baseline that would have told you it worked | (none - never the first move)                                                               |
 
 Re-rank against the program in front of you:
 

@@ -55,19 +55,19 @@ The trigger fires at the point where a referred signup becomes a real customer. 
 
 - **efficiency**: first purchase > qualified activation > closed-won/first invoice > retention threshold > staged payout
 - **value** (protection against paying for a non-customer, strongest first): retention threshold > closed-won/first invoice > qualified activation > staged payout > first purchase
-- **effort** (lightest first): first purchase > qualified activation == closed-won/first invoice > retention threshold > staged payout
+- **effort** (lightest first): first purchase > qualified activation > closed-won/first invoice > retention threshold > staged payout
 
-The tie is real: qualified activation and closed-won each wire one new definition onto an event the business already emits - an activation event, or a CRM stage plus finance confirmation - with no holding state and no partial payouts either way.
+Qualified activation sits lighter than closed-won: both wire one new definition onto an event the business already emits, with no holding state and no partial payouts, but closed-won also needs a CRM stage and finance confirmation agreed across two teams.
 
 **Bare signup is deleted from this menu, not ranked last.** It pays for tire-kickers, invites gaming, and no economics rescue it; a program firing on signup is a program to diagnose, not a design to choose.
 
 | Trigger                                                               | Effort to run                                                                | Typical use                 | Trade-off                                                            |
 | --------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------- | -------------------------------------------------------------------- |
 | First purchase / funded account                                       | Near-zero - the billing event already fires                                  | B2C, fintech                | Standard; still exposed to refunds                                   |
-| Qualified activation (installed + verified + first meaningful action) | A week - define and instrument the activation event                          | Freemium, PLG               | Filters tire-kickers at the cost of some legitimate payouts          |
+| Qualified activation (installed + verified + first meaningful action) | A day or two - define and instrument the activation event                    | Freemium, PLG               | Filters tire-kickers at the cost of some legitimate payouts          |
 | Closed-won / first paid invoice                                       | A week - a CRM stage plus finance confirmation, across two teams             | B2B sales-led               | The B2B norm; fire on verified invoiced revenue, not leads or trials |
-| Retention threshold (spend ≥ $X **and** active N days)                | A quarter - usage instrumentation, a holding state, a pending-reward display | Infrastructure, usage-based | Cleanest signal; delays gratification - show the pending reward      |
-| Staged payout (small at qualified lead, larger at conversion)         | A quarter to build, then a standing reconciliation job                       | B2B long sales cycles       | Keeps referrers engaged through a months-long cycle                  |
+| Retention threshold (spend ≥ $X **and** active N days)                | A few weeks - usage instrumentation, a holding state, a pending-reward display | Infrastructure, usage-based | Cleanest signal; delays gratification - show the pending reward      |
+| Staged payout (small at qualified lead, larger at conversion)         | A few weeks to build, then a standing reconciliation job                     | B2B long sales cycles       | Keeps referrers engaged through a months-long cycle                  |
 
 **Default rung**: first purchase / funded account. Move up to qualified activation when free signups are cheap to fake or the first purchase is trivially small.
 

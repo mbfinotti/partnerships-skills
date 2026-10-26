@@ -4,7 +4,7 @@ description: Model the unit economics of one partner relationship - partner P&L,
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.1"
+  version: "1.4.2"
 ---
 
 # Partner Economics
@@ -89,7 +89,7 @@ Run the exercise the way channel and alliance teams actually run it - collaborat
 
 | Approach                           | Settles                                                                                                     | Effort                                                                                                                                                                                               |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Vendor-side contribution - default | sign / don't sign, scale, prune, partner CAC against direct                                                 | About a week of one analyst on data you already hold - CRM attribution and finance. One finance reviewer, no partner disclosure. Fully reversible.                                                   |
+| Vendor-side contribution - default | sign / don't sign, scale, prune, partner CAC against direct                                                 | A day or two of one analyst on data you already hold - CRM attribution and finance. One finance reviewer, no partner disclosure. Fully reversible.                                                   |
 | Dual-sided Bech-style P&L          | everything above, plus the split itself: renegotiation terms and the Third-Law check                        | A quarter. Needs the partner to disclose cost and services economics you cannot see, and coordination across both finance teams. Asking is itself a commitment signal - hard to walk back.           |
 | Marketplace-mechanics-first        | only the routed-deal cost stack: listing fee, private-offer rate, commit-drawdown eligibility, win discount | An hour; the rates are published primary sources. Settles nothing alone - a required layer on top of one of the two above whenever deals route through a marketplace, never a substitute for either. |
 
@@ -98,7 +98,7 @@ Run the exercise the way channel and alliance teams actually run it - collaborat
   - Dual-sided P&L: a smaller version of the same exposure - asking a partner to open its cost base usually means a mutual NDA, puts another company's confidential numbers in your files, and signals a commitment you cannot un-signal.
   - Vendor-side model: touches nobody outside the company.
 - Default to the vendor-side contribution model. Move up to dual-sided when any of these hold: the decision is the split rather than the signature, the partner is reseller-class and must own its own P&L (Bech), or partner disclosure is already on the table.
-- The dual-sided P&L is what this efficiency order starves: it settles strictly more than the default and costs a quarter against a week, so the ratio demotes it in every engagement and renegotiations keep getting run on one side's numbers. Promote it whenever the question is how the value splits rather than whether to sign - the split cannot be argued honestly from the vendor's ledger alone.
+- The dual-sided P&L is what this efficiency order starves: it settles strictly more than the default and costs a quarter against a day or two, so the ratio demotes it in every engagement and renegotiations keep getting run on one side's numbers. Promote it whenever the question is how the value splits rather than whether to sign - the split cannot be argued honestly from the vendor's ledger alone.
 - Delete rather than demote what this user's answers rule out, and say in the memo that it was deleted and why:
   - A partner that will not open its books removes the dual-sided rung entirely.
   - No assigned finance reviewer removes it too.

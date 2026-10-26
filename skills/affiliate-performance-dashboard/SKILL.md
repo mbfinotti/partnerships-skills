@@ -4,7 +4,7 @@ description: Define the metric set and layout for an affiliate performance dashb
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.5"
+  version: "1.4.6"
 ---
 
 # Affiliate Performance Dashboard
@@ -73,8 +73,8 @@ Every ranking here is a default, not a law - it shifts with context and with who
 
    Three costs distinguish these foundations:
 
-   - The spine: a week of reconciling the platform export against orders or billing, then near-zero standing cost.
-   - The customer-file join: a quarter, because the partner ID has to be stamped at order or account creation before new-to-file and sourced-vs-influenced are computable at all.
+   - The spine: a day or two of reconciling the platform export against orders or billing, then near-zero standing cost.
+   - The customer-file join: a month or two, because the partner ID has to be stamped at order or account creation before new-to-file and sourced-vs-influenced are computable at all.
    - The modeled warehouse: a standing job.
 
    Default to the spine and climb only when a named decision needs it.

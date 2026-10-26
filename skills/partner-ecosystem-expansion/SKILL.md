@@ -4,7 +4,7 @@ description: Decide which partner categories to add next to a partner ecosystem 
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.2.1"
+  version: "1.2.2"
 ---
 
 # Partner Ecosystem Expansion
@@ -166,7 +166,7 @@ What genuinely changes:
 | Over-rotation on one category, cutting others (the Nike/Under Armour pattern)                | Treat category subtraction as high-risk as addition; size the conflict and dependency before shrinking a route                                                   |
 | Category sprawl, then forced pruning (the HubSpot agency-badge pattern)                      | Kill criteria plus the deferred list; watch the inverted-U signal                                                                                                |
 | Premature diversification - category two before category one is proven                       | MVE gate: repeatable joint wins first; the honest stage 1 may be "finish the current motion"                                                                     |
-| Cheapest category first, mistaken for the most efficient one                                 | Rank by value per unit of effort: referral is the cheapest rung and buys the least, while an ISV motion costs a quarter and makes three later categories cheaper |
+| Cheapest category first, mistaken for the most efficient one                                 | Rank by value per unit of effort: referral is the cheapest rung and buys the least, while an ISV motion costs a few weeks of build and makes three later categories cheaper |
 | A ruled-out category parked at the bottom of the ranking                                     | Delete it from the pool with its reason; it belongs in `Not now` with a re-entry trigger, not in a list the loudest sponsor can re-read upward                   |
 | Borrowed strategy grid presented as the method (Ansoff, three horizons, BCG, Iansiti-Levien) | Keep it as vocabulary if it helps the room; rebuild the decision on MVE + gates + capacity                                                                       |
 | Calendar-gated stages - "SI program launches in Q3" regardless of evidence                   | Gates trigger on evidence; dates are forecasts, not triggers                                                                                                     |

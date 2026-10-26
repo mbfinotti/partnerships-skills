@@ -26,9 +26,9 @@ Effort is stated as build time in orders of magnitude - an hour, a week, a quart
 
 Order investment by deals unblocked per build hour, not by which domain is easiest to write:
 
-1. **Sales** - value proposition, ideal customer profile, objection handling, competitive positioning. A week of adaptation; the only domain without which no deal happens at all.
-2. **Product** - features, use cases, architecture, integration capabilities. A week per partner type; unblocks a credible discovery conversation, and the other three assume it.
-3. **Technical** - implementation, configuration, troubleshooting, support workflows, hands-on labs. A quarter, and it comes off a real engineer's calendar rather than the enablement owner's.
+1. **Sales** - value proposition, ideal customer profile, objection handling, competitive positioning. Two or three days of adaptation, most of it review; the only domain without which no deal happens at all.
+2. **Product** - features, use cases, architecture, integration capabilities. Two or three days per partner type; unblocks a credible discovery conversation, and the other three assume it.
+3. **Technical** - implementation, configuration, troubleshooting, support workflows, hands-on labs. A few weeks, and the review and lab testing come off a real engineer's calendar rather than the enablement owner's.
 4. **Certification** - a validation layer over the other three, not a fourth body of content. A standing job once launched, plus the only compliance exposure in this file: a marketed credential is a public capability claim, needs legal or brand sign-off, and is hard to withdraw once partners advertise it. Whether to certify at all, and what each certification gates, is decided at workflow step 8.
 
 - value: sales > technical > product > certification
@@ -45,21 +45,21 @@ Distinct personas inside a partner organization need distinct tracks - one-size-
 
 | Role                                 | Track focus                                                                   | Build effort                                          | What it unblocks                                                                               |
 | ------------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Partner sales rep                    | Pitch, ICP, qualification, objection handling, battlecard, deal registration  | a week                                                | every registered deal; no row below matters until this exists                                  |
+| Partner sales rep                    | Pitch, ICP, qualification, objection handling, battlecard, deal registration  | two or three days                                     | every registered deal; no row below matters until this exists                                  |
 | Executive sponsor                    | Economics of the partnership, roadmap, tier progression - short, not a course | an hour: a slide and a call                           | the sponsor's decision to point their reps' selling time at you rather than a competing vendor |
-| Solutions architect / pre-sales      | Demo mastery, architecture, integration docs, sandbox/labs                    | a week, then a standing job to keep the sandbox alive | partners showing the product without you on the call                                           |
-| Delivery / implementation consultant | Implementation playbooks, configuration, support workflows                    | a quarter                                             | partner-delivered projects, and the second deal from the same partner                          |
-| Partner marketer                     | Co-brandable campaign kits, messaging guardrails, MDF mechanics               | a week per kit, recurring                             | partner-sourced pipeline instead of vendor-sourced                                             |
+| Solutions architect / pre-sales      | Demo mastery, architecture, integration docs, sandbox/labs                    | a few days, then a standing job: sandbox upkeep       | partners showing the product without you on the call                                           |
+| Delivery / implementation consultant | Implementation playbooks, configuration, support workflows                    | a few weeks                                           | partner-delivered projects, and the second deal from the same partner                          |
+| Partner marketer                     | Co-brandable campaign kits, messaging guardrails, MDF mechanics               | a few days per kit, recurring                         | partner-sourced pipeline instead of vendor-sourced                                             |
 
 - value: sales rep > pre-sales > delivery > partner marketer > executive sponsor
 - effort: delivery > pre-sales == partner marketer > sales rep > executive sponsor
 - efficiency: sales rep > executive sponsor > pre-sales > delivery > partner marketer
 
-Pre-sales and partner marketer tie on effort because both are a week that never ends - one maintains a sandbox, the other reprints kits every campaign; they do not tie on value, and pre-sales wins that axis outright. The executive sponsor track is the sharpest disagreement on the list: last on value, second on efficiency, and the one most often skipped, because an hour of slides looks too small to schedule.
+Pre-sales and partner marketer tie on effort because both are a few days of build that never end - one maintains a sandbox, the other reprints kits every campaign; they do not tie on value, and pre-sales wins that axis outright. The executive sponsor track is the sharpest disagreement on the list: last on value, second on efficiency, and the one most often skipped, because an hour of slides looks too small to schedule.
 
 The efficiency order starves the delivery track: third on value, first on effort, so a ratio demotes it every time and the partner who was sold to never gets implemented for. Promote it above pre-sales the moment partners deliver the work themselves, or the moment second deals from an existing partner matter more than first deals from new ones - a botched first implementation costs that partner's whole future pipeline, which no efficiency ranking prices in.
 
-A role that does not exist in the partner base gets deleted from this menu, not demoted - a referral-only base has no delivery consultant to train, and that track is a quarter spent on nobody. Every customer-facing role that does exist still gets a track (pass threshold 3); the ranking decides which one exists first, never which one is skipped.
+A role that does not exist in the partner base gets deleted from this menu, not demoted - a referral-only base has no delivery consultant to train, and that track is a few weeks spent on nobody. Every customer-facing role that does exist still gets a track (pass threshold 3); the ranking decides which one exists first, never which one is skipped.
 
 ## Depth varies by partner type
 
@@ -68,8 +68,8 @@ Standardize core messaging; vary depth by type and maturity with modular paths. 
 | Partner type        | Depth needed                                                      | Build effort   | What it unblocks                                                                                   |
 | ------------------- | ----------------------------------------------------------------- | -------------- | -------------------------------------------------------------------------------------------------- |
 | Referral            | ~30-minute product overview plus a clean handoff mechanic         | an hour        | referred opportunities across a wide, low-commitment base                                          |
-| Reseller            | Full sales track plus deal-registration discipline                | a week         | transacting partners; reuses the sales-rep track almost unchanged                                  |
-| MSP                 | Operations and support depth a transactional reseller never needs | a quarter      | recurring managed revenue - same product, different enablement, because the business models differ |
+| Reseller            | Full sales track plus deal-registration discipline                | a few days     | transacting partners; reuses the sales-rep track almost unchanged                                  |
+| MSP                 | Operations and support depth a transactional reseller never needs | a few weeks    | recurring managed revenue - same product, different enablement, because the business models differ |
 | SI / implementation | Multi-day technical training and labs                             | a standing job | large delivered projects, and partners building a practice on you                                  |
 
 - value per partner: SI > MSP > reseller > referral
@@ -86,24 +86,24 @@ Design backwards from the first deal: the curriculum's mandatory core is only wh
 
 | #   | Asset                                           | Build effort                                          | What it unblocks                                                                                            |
 | --- | ----------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| 1   | First sales play + battlecard                   | a week, adapted - never recycled from direct sales    | the partner opening a conversation at all; every row below assumes it                                       |
+| 1   | First sales play + battlecard                   | a few days, adapted, never recycled from direct sales | the partner opening a conversation at all; every row below assumes it                                       |
 | 2   | Deal-registration walkthrough                   | an hour: a screen recording of the portal flow        | the registered deal itself, the partner's margin on it, and the attribution behind every KPI in the program |
-| 3   | Pitch deck / one-pager, co-brandable            | a week                                                | the partner running the meeting in their own brand voice instead of rebuilding the deck themselves          |
-| 4   | Demo script + self-guided demo environment      | a quarter to stand up, a standing job to keep current | partners demoing without you on the call - the most commonly reported gap in channel programs               |
-| 5   | Pre-sales technical track                       | a quarter                                             | technically qualified opportunities, and architecture questions answered without escalation                 |
+| 3   | Pitch deck / one-pager, co-brandable            | a few days                                            | the partner running the meeting in their own brand voice instead of rebuilding the deck themselves          |
+| 4   | Demo script + self-guided demo environment      | a few weeks to build, a standing job to keep current  | partners demoing without you on the call - the most commonly reported gap in channel programs               |
+| 5   | Pre-sales technical track                       | a few weeks                                           | technically qualified opportunities, and architecture questions answered without escalation                 |
 | 6   | Implementation/delivery track and certification | a standing job                                        | delivered projects, and the credential that gates tier or co-sell economics                                 |
 
 - value: sales play > demo environment > deal-reg walkthrough > pitch deck > pre-sales technical > implementation/certification
 - effort: implementation/certification > demo environment > pre-sales technical > sales play == pitch deck > deal-reg walkthrough
 - efficiency: deal-reg walkthrough > sales play > pitch deck > demo environment > pre-sales technical > implementation/certification
 
-Sales play and pitch deck tie on effort because they are the same week of writing, by the same person, off the same source material - they do not tie on value, and the play ships first.
+Sales play and pitch deck tie on effort because they are the same few days of writing, by the same person, off the same source material - they do not tie on value, and the play ships first.
 
 The demo environment is what this order starves: second on value, second on effort, fourth on efficiency, and simultaneously the most commonly reported gap in channel programs - the ratio and the field's own complaint list disagree here, and the ratio is what usually wins. Promote it above the pitch deck as soon as deals stall at the demo stage or partners keep pulling a vendor rep onto calls, because at that point every deal in flight is paying its build cost weekly.
 
 The table is ordered by efficiency with one dependency override: the sales play leads because the rows beneath it have nothing to sell without it. The walkthrough is the highest ratio on the list - one hour of screen recording standing between a partner and the registration that pays them - so it ships in that same first week rather than fourth, where practitioner build orders habitually leave it. Rows 1-3 are the first-deal path; rows 4-6 are post-first-deal and get built while partners are already transacting.
 
-A minimum viable program targeting the middle-tier partner can launch in roughly 4-8 weeks (PRM-vendor rule of thumb). A hard deadline compresses to rows 1-3 and nothing else; an effort ceiling under a week per asset deletes rows 4-6 from this cycle rather than scheduling them, and the roadmap says so explicitly instead of listing them as planned.
+A minimum viable program targeting the middle-tier partner can launch in roughly 4-8 weeks (PRM-vendor rule of thumb); rows 1-3 alone are about a week of build. A hard deadline compresses to rows 1-3 and nothing else; an effort ceiling under a week per asset deletes rows 4-6 from this cycle rather than scheduling them, and the roadmap says so explicitly instead of listing them as planned.
 
 ## Two content audiences
 

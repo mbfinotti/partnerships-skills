@@ -131,11 +131,11 @@
     },
     {
       "id": 7,
-      "prompt": "Board meeting is Thursday morning. It is Tuesday afternoon and I have maybe four hours on this, no analyst, and I cannot pull RevOps for an overlap report. Three candidates: Aldwyn Networks, Fennimore Cloud, Brightsea AI. The board wants to know which one we sign this quarter. We have one alliance manager. Give me the scorecard.",
+      "prompt": "Board meeting is Thursday morning. It is Tuesday afternoon and I have maybe two hours on this, no analyst, and I cannot pull RevOps for an overlap report. Three candidates: Aldwyn Networks, Fennimore Cloud, Brightsea AI. The board wants to know which one we sign this quarter. We have one alliance manager. Give me the scorecard.",
       "expected_output": "The scorecard dropped under the effort ceiling and replaced by gates plus effort to first value, the full gate set run on all three rather than staged, reach-led criteria deleted outright with the reason stated, a capacity line still fixed, verdicts still issued, and candidate facts flagged unverified.",
       "files": [],
       "expectations": [
-        "Removes the weighted scorecard entirely rather than producing one under the four-hour ceiling",
+        "Removes the weighted scorecard entirely rather than producing one under the two-hour ceiling",
         "Ranks instead on the must-pass gates plus effort to first value",
         "States explicitly in the output that the scorecard was dropped and why",
         "Runs the full gate set on all three candidates rather than staging desk checks ahead of expensive reviews",

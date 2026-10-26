@@ -10,7 +10,7 @@
         "Delivers a dashboard specification document rather than instructions for building the dashboard inside a BI tool.",
         "Rejects the affiliate platform's own export as the source of truth on the grounds that those are the claimant's numbers.",
         "Keeps the affiliate platform as the source for clicks and traffic only, reconciled to the money spine.",
-        "Names the billing/orders spine as the default data foundation and gives its cost as roughly a week of reconciliation followed by near-zero standing cost.",
+        "Names the billing/orders spine as the default data foundation and gives its cost as roughly a day or two of reconciliation followed by near-zero standing cost.",
         "Includes all four floor metrics: net program contribution, cost of sale, top-N partner concentration, and partner-sourced MRR/ARR.",
         "Defines cost of sale with network fees, agency fees, and placement/tenancy fees inside the numerator, not commission alone.",
         "Headlines validated or approved commission and shows pending separately, rather than headlining gross commission.",
@@ -177,7 +177,7 @@
         "Lists every deleted metric, dimension and alert under Open items.",
         "States for each deleted item what would make it computable.",
         "Names stamping the partner ID at order or account creation as the prerequisite for new-to-file and for sourced-versus-influenced.",
-        "States the customer-file join costs roughly a quarter of work.",
+        "States the customer-file join costs roughly a month or two of work.",
         "Names partner-sourced MRR/ARR as blocked by the missing partner ID in billing and records it under Open items rather than silently dropping it."
       ]
     },

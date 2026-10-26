@@ -4,7 +4,7 @@ description: Audit an affiliate or partner commission payout run for accuracy be
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.1.10"
+  version: "1.1.11"
 ---
 
 # Affiliate Payout Audit
@@ -57,7 +57,7 @@ Run the checks in order; each gate assumes the previous one passed. The underlyi
 
 - efficiency: dedup (6) > reconcile and comparability (3-4) > lifecycle window (8) > rate/tier recompute (7) > currency, tax, thresholds (9)
 - value: reconcile and comparability (3-4) > dedup (6) > rate/tier recompute (7) > lifecycle window (8) > currency, tax, thresholds (9)
-- effort: rate/tier recompute (7) - an hour with code, a week by hand > reconcile (3-4) - an hour on clean exports, a week on messy ones > lifecycle window (8) == currency, tax, thresholds (9) - an hour each, date arithmetic and a checklist > dedup (6) - near-zero with code over the key set
+- effort: rate/tier recompute (7) - an hour with code, a week by hand > reconcile (3-4) - an hour on clean exports, a day or two on messy ones > lifecycle window (8) == currency, tax, thresholds (9) - an hour each, date arithmetic and a checklist > dedup (6) - near-zero with code over the key set
 - compliance cost: currency, tax, thresholds (9) - a payee paid without a valid tax form is a filing problem, not just a money one > maker-checker (12) - the sign-off is the evidence an external control test asks for > every other gate == none, because being wrong there costs money, not a filing
 
 Maker-checker (12) is never the gate you drop: it costs one scheduling and a second reader, and its absence is what let every error in the negative example ship.
@@ -124,7 +124,7 @@ Finding the error is the cheap half. Rank the response by value recovered per un
 
 - efficiency: correct before release > offset > absorb and document > fix it forward > direct recovery
 - value recovered: correct before release == offset > direct recovery > absorb and document == fix it forward
-- effort: direct recovery - a week to a quarter of demand, finance and legal coordination > fix it forward - a week to build, then a standing job > offset - an hour, near-zero where the platform carries negative balances > correct before release == absorb - near-zero, a single edit each
+- effort: direct recovery - a week to a quarter of demand, finance and legal coordination > fix it forward - a day or two to build, then a standing job > offset - an hour, near-zero where the platform carries negative balances > correct before release == absorb - near-zero, a single edit each
 - relationship capital: direct recovery > fix it forward > offset > correct before release == absorb - nothing spent, the partner is never asked for anything
 - compliance cost: direct recovery - contract interpretation and legal sign-off, irreversible once sent > offset - must be authorized by the published terms, and several platforms state flatly that a paid commission can never be reclaimed > fix it forward - a terms amendment with notice to partners > correct before release == absorb - none
 

@@ -4,7 +4,7 @@ description: Design the overall structure of a B2B partner or channel program fr
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.0.6"
+  version: "1.0.7"
 ---
 
 # Partner Channel Program
@@ -57,7 +57,7 @@ Those last three answers re-rank step 4's motion menu - carry them there instead
 
    Each motion, with its trade-off:
    - **Referral** - near-zero standing effort: a commission rule, a link or a form, one tracking field. Buys warm introductions into accounts you already know how to sell. Low ceiling, adds no delivery capacity. Default first rung unless a constraint below deletes it.
-   - **Technology** - a quarter of engineering, then a standing maintenance obligation, and no margin paid out. Buys durable surface: an integration keeps producing joint accounts and retention after the launch push stops. Slowest of the light motions to first revenue, so it needs the compounding mandate from the Interview to justify itself.
+   - **Technology** - a few weeks of engineering, then a standing maintenance obligation, and no margin paid out. Buys durable surface: an integration keeps producing joint accounts and retention after the launch push stops. Slowest of the light motions to first revenue, so it needs the compounding mandate from the Interview to justify itself.
    - **Services-SI** - enablement content, a delivery-quality bar, and standing partner-manager time. Buys delivery capacity you did not hire and unblocks deals that stall on implementation. Pays only where implementation is a real buying obstacle; where it is not, this is coordination bought for nothing.
    - **Reseller** - a standing job: agreements, a margin table, order flow, deal registration, conflict policy, direct-rep comp neutrality, legal sign-off on resale terms. Buys coverage - segments and geographies you cannot reach directly - at the highest ceiling and the longest lead time. Hardest to reverse: unwinding it means re-papering signed agreements.
 

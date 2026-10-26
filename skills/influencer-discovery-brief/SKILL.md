@@ -4,7 +4,7 @@ description: Define creator sourcing criteria and produce the discovery brief us
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 # Influencer Discovery Brief
@@ -56,11 +56,11 @@ Re-rank against what you already know about this manager before recommending any
 5. Build the raw candidate pool through sourcing passes. Six passes exist; treat them as a budget, not a checklist. Run them in this order and stop once the pool is deep enough to survive the knockouts.
 
    - **Existing roster and CRM** - an hour, no tool access. The only pass returning performance history with _your_ brand: who already posted, what it did, who the manager would sign again. It returns no net-new names, and step 9's overlap check needs it regardless.
-   - **Customer and community mentions** - a day pulling support and community threads, review text, and a "which creators do you follow" question into a survey already going out. Names arrive with fit evidence attached, because your buyers demonstrably watch them, and this is the only pass reaching podcasts, newsletters, and closed communities no platform indexes.
+   - **Customer and community mentions** - half a day pulling support and community threads, review text, and a "which creators do you follow" question into a survey already going out. Names arrive with fit evidence attached, because your buyers demonstrably watch them, and this is the only pass reaching podcasts, newsletters, and closed communities no platform indexes.
    - **Discovery-platform exports** - near-zero with a licence in hand: one filtered query returns breadth plus the audience-demographic export step 8 scores against. Without one, a quarter and a procurement conversation. Covers only what the vendor indexed - thin in narrow B2B niches and on non-social formats.
    - **Competitor collaborations** - an hour browsing competitors' tagged and disclosed posts. Pre-qualified: they take sponsorships, they are in category, and their sponsored-versus-organic engagement is visible before you make contact. Every competitor works the same list, and the exclusivity knockout removes part of it.
    - **Niche keyword and hashtag search** - an hour that keeps being an hour, no tool access. It mostly re-derives by hand what the export returns, at a low qualified-per-hour rate; it earns its place only where no platform covers the niche.
-   - **Social listening** - a week to design queries and a standing job to maintain. It surfaces creators already talking about the category unprompted, the strongest unique-name yield of any pass, but it is a monitoring system whose discovery output is a by-product.
+   - **Social listening** - a day or two to design queries and a standing job to maintain. It surfaces creators already talking about the category unprompted, the strongest unique-name yield of any pass, but it is a monitoring system whose discovery output is a by-product.
 
    - effort: social listening > discovery-platform exports without a licence > customer and community mentions > competitor collaborations == hashtag search (tied: both an hour of manual browsing, no tool access, no one else's permission) > roster and CRM == discovery-platform exports with a licence (tied: both an hour spent querying data you already hold)
    - compliance cost: customer and community mentions (a privacy review before repurposing support, community, or survey data into a list you build a campaign from) > hashtag search run by scraper (a platform-ToS breach that gets the account banned - near-zero read by hand) > discovery-platform exports (the vendor licence governs what you may re-export and retain) > roster and CRM (past contracts can carry exclusivity or re-approach clauses) == competitor collaborations == social listening (no exposure)
@@ -69,7 +69,7 @@ Re-rank against what you already know about this manager before recommending any
 
    **Always run:**
 
-   - The roster pull and the customer-mention pass together - they cost a day and return the two kinds of name nothing else does.
+   - The roster pull and the customer-mention pass together - they cost half a day and return the two kinds of name nothing else does.
 
    **Add next, in this order:**
 

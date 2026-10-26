@@ -4,7 +4,7 @@ description: Build the detection rule set an affiliate program manager uses to f
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 # Affiliate Fraud Detection
@@ -32,7 +32,7 @@ Four controls compete for the hours before the next payout cycle. Rank them befo
 | Control                                                        | What it buys                                                                                                                     | What it costs                                                                                                                                                                                     |
 | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Hold/validation window, 30-90 days                             | Most fraudulent commissions never leave the account - the >70%-of-fraud result above, at no cost to profit                       | An hour: one platform setting, reversible the day it changes. Alters terms a partner already accepted, so it carries a notice obligation                                                          |
-| Detection rule set (this skill's deliverable)                  | Names which partner to act on and produces evidence an enforcement action can stand on                                           | A week to derive baselines and write rules, then a standing triage job. Near-zero compliance cost until a rule reads cross-account identity data, which inherits the `[LEGAL REVIEW]` gate        |
+| Detection rule set (this skill's deliverable)                  | Names which partner to act on and produces evidence an enforcement action can stand on                                           | A day or two to derive baselines and write rules, most of it backtesting, then a standing triage job. Near-zero compliance cost until a rule reads cross-account identity data, which inherits the `[LEGAL REVIEW]` gate |
 | New/high-risk partner terms (net-60/90, stricter filters)      | Narrows exposure to the cohort that produces most first-incident fraud                                                           | An hour, and tied with the hold window on both effort and exposure for a real reason: same settings page, same person, same reversibility, same notice obligation - only the edited field differs |
 | Clawback + negative-balance carry-forward + chargeback reserve | The only control that recovers money already paid, and the sole cover for the 120-540 day chargeback tail no hold window reaches | A quarter: legal drafting and partner re-assent, barely reversible once shipped. Clawing back a paid commission without these clauses is itself a breach                                          |
 

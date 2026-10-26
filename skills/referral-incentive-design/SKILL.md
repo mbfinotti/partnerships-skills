@@ -4,7 +4,7 @@ description: Design the reward structure of a customer refer-a-friend program - 
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.0.9"
+  version: "1.0.10"
 ---
 
 # Referral Incentive Design
@@ -92,7 +92,7 @@ When the user arrives with a running program instead of a blank page ("we give $
 | Few customers ever share                    | Timing and friction of the ask - placement moves participation more than reward size does | An hour - move the prompt, change the copy                                       | None - fix the ask before touching the reward                                      |
 | Shares happen, friends do not convert       | Friend-side offer strength - the friend has the harder job                                | An hour - reweight a budget you are already spending                             | Sidedness/split                                                                    |
 | Participation dropped after adding a reward | Token amount below the motivation floor turned a favor into a badly paid job              | An hour of config, against a permanent budget increase                           | Size                                                                               |
-| Power referrers milk the ladder             | Missing top-tier cap or signup-fired trigger                                              | A week - and capping a published ladder is the hardest change here to make stick | Tiers/trigger                                                                      |
+| Power referrers milk the ladder             | Missing top-tier cap or signup-fired trigger                                              | A day or two - and capping a published ladder is the hardest change here to make stick | Tiers/trigger                                                                      |
 | B2B referrers decline rewards               | Corporate gift policy collision                                                           | A quarter - finance, procurement and legal all touch it                          | Type: switch to the two-track pattern (company credit + optional individual token) |
 | Healthy referral volume, rising CAC         | Incrementality - rewards paying for organic word-of-mouth                                 | A quarter - design the holdout, wait out a full cycle to read it                 | Economics: run the holdout, then narrow the reward to low-organic-reach segments   |
 

@@ -4,7 +4,7 @@ description: Design or redesign the tier structure inside an existing B2B partne
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.2.7"
+  version: "1.2.8"
 ---
 
 # Partner Tiering
@@ -41,7 +41,7 @@ Ask before designing anything, one question per message. Offer multiple-choice o
 3. Build the baseline: partners, revenue contribution, and cost-to-serve per current tier. Expect a power law - 10-20% of partners driving 70-80% of channel revenue is the commonly cited pattern (PRM-vendor rule of thumb, not an empirical dataset).
 4. Decide the tier count (default 3; collapse to 2 below roughly 50 partners) - see [references/distribution-and-cadence.md](references/distribution-and-cadence.md). Then pick the mechanic here, where the choice is actually made:
    - **Volume** - revenue thresholds only. Near-zero to run: the CRM already holds the number. Buys the weakest ranking, because revenue is a lagging indicator and every non-transacting partner scores zero on it.
-   - **Engagement** - revenue plus certifications, competencies, or retention. About a quarter to stand up, near-zero per cycle afterwards. Buys criteria a partner cannot dispute at appeal, and a rung non-resellers can climb.
+   - **Engagement** - revenue plus certifications, competencies, or retention. A few weeks to stand up, near-zero per cycle afterwards. Buys criteria a partner cannot dispute at appeal, and a rung non-resellers can climb.
    - **Points pathway** - a published formula scoring several motions at different weights. A standing job: the formula, the per-category minimums, and a recalculation you owe partners every cycle. Buys the finest ranking, and it is the only mechanic that orders a base no single metric ranks correctly.
    - efficiency (best ratio first): `engagement > volume > points pathway`
    - value (ranking power bought): `points pathway > engagement > volume`

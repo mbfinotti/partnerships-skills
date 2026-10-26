@@ -38,7 +38,7 @@ Ranked by activation bought per manager hour, best ratio first - not by activati
 
 | Rung          | What it is                                                         | Manager hours per affiliate                     | Activation bought                             | Reach for it when                                                           |
 | ------------- | ------------------------------------------------------------------ | ----------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------- |
-| 1. Self-serve | Portal plus automated drip                                         | near-zero once built; the build is about a week | Lowest per affiliate, but applied to everyone | Always - it is the floor the other rungs sit on, not an alternative to them |
+| 1. Self-serve | Portal plus automated drip                                         | near-zero once built; the build is a day or two | Lowest per affiliate, but applied to everyone | Always - it is the floor the other rungs sit on, not an alternative to them |
 | 2. Hybrid     | The same drip plus one personal check-in in week 1-2 (the T3 slot) | minutes per affiliate, recurring                | Middle                                        | A named AM exists and some archetypes' expected volume repays the check-in  |
 | 3. High-touch | AM-run personal welcome and kickoff call                           | an hour or more per affiliate, forever          | Highest per affiliate                         | A partner's expected revenue on its own exceeds the hours the calls consume |
 
@@ -47,7 +47,7 @@ Ranked by activation bought per manager hour, best ratio first - not by activati
 - recurring effort: `high-touch > hybrid > self-serve`
 - one-off build: `self-serve == hybrid > high-touch`
 
-Hybrid ties self-serve on build because hybrid _is_ the self-serve drip with a calendar slot attached - the same week of work stands both up. High-touch inverts the shape entirely: almost nothing to build, and a standing job thereafter.
+Hybrid ties self-serve on build because hybrid _is_ the self-serve drip with a calendar slot attached - the same day or two of work stands both up. High-touch inverts the shape entirely: almost nothing to build, and a standing job thereafter.
 
 High-touch is also what this order starves: highest activation bought per affiliate, highest recurring hours per affiliate, and therefore last on every ratio. Promote it deliberately on either condition - one partner whose expected revenue on its own exceeds the hours the calls consume, or a roster small enough that the drip's build never pays back - rather than waiting for a round it cannot win.
 
@@ -88,7 +88,7 @@ Setting the activation plan and expectations upfront - instead of signing and le
 
 One documented pattern (monday.com, via PartnerStack) replaced a 7-step email drip + 5-step PDF with a single onboarding landing page, a recorded dashboard walkthrough, weekly kickoff calls, certification courses, and a sandbox - automating account setup specifically to reduce dropout.
 
-Against the drip it replaces: `activation bought per week of build: trim the drip > swap T2-T4 for a hub`. Trimming costs an hour and is reversible in an hour; the hub costs a quarter to build and a standing job to keep current, and reverting it means rebuilding the drip you deleted.
+Against the drip it replaces: `activation bought per week of build: trim the drip > swap T2-T4 for a hub`. Trimming costs an hour and is reversible in an hour; the hub costs a few weeks to build and a standing job to keep current, and reverting it means rebuilding the drip you deleted.
 
 Reach for the hub only when the per-touch engagement data shows opens decaying across the whole sequence - touch volume itself being the friction - never because one touch underperforms, which is a copy problem the hub does not solve. When you do swap, keep T1 and the trigger layer and collapse only T2-T4.
 

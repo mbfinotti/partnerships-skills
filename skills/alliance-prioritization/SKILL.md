@@ -4,7 +4,7 @@ description: Rank named candidate strategic alliances and technology partnership
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.0.2"
+  version: "1.0.3"
 ---
 
 # Alliance Prioritization
@@ -36,7 +36,7 @@ Those last three re-order the method choices in Brainstorming the ranking, so as
 
 - A near-term date promotes the speed-to-first-value criteria set and staged gates.
 - A compounding mandate promotes the complementarity-led set and segmented weights that survive re-use.
-- An effort ceiling under about a day removes the scorecard entirely - rank on gates plus effort-to-first-value and say that is what you did.
+- An effort ceiling under about half a day removes the scorecard entirely - rank on gates plus effort-to-first-value and say that is what you did.
 - The goal answer carries the same weight: a product-gap or market-entry goal reserves capacity for a deep co-innovation candidate that value-per-effort would otherwise starve.
 
 ## Workflow
@@ -91,7 +91,7 @@ The same discipline the scorecard applies to candidates applies to the method: r
 
 **Gate strictness** - default: staged.
 
-- **Staged**: desk-checkable gates on the whole longlist (viability signals, public security posture, the three-laws screen), the expensive ones - counsel review of terms, TPRM questionnaire, audience audit - only on survivors. Costs hours across the longlist and a week on the few that reach the expensive tier.
+- **Staged**: desk-checkable gates on the whole longlist (viability signals, public security posture, the three-laws screen), the expensive ones - counsel review of terms, TPRM questionnaire, audience audit - only on survivors. Costs an hour or two across the longlist and a week on the few that reach the expensive tier.
 - **Full gate set on every longlist candidate**: costs a week or more, most of it spent on candidates a five-minute check would have removed. Reaches the same shortlist, later. Justified only on a candidate list small enough that staging saves nothing.
 - **Gates on finalists only**: costs near-zero up front and is worth less than nothing - scoring and socializing a candidate before its legal or security gate is exactly what makes a gate tradeable, and a candidate the room has already crowned is politically near-impossible to remove.
 - analyst effort: `full set > staged > finalists-only`

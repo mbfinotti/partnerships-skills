@@ -4,7 +4,7 @@ description: Design the pre-launch measurement plan for one influencer or creato
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.4"
+  version: "1.4.5"
 ---
 
 # Influencer Measurement Framework
@@ -68,7 +68,7 @@ Ask before designing anything. One question per message; multiple-choice where p
    e. Platform pixel/shopping last: engineering plus consent work, for a lossy signal the platform grades itself.
 
    ```
-   effort:          pixel > affiliate network > survey > vanity URLs > promo codes == UTM links
+   effort:          affiliate network > pixel > survey > vanity URLs > promo codes == UTM links
    coverage:        survey > affiliate network > promo codes == UTM links > pixel > vanity URLs
    compliance cost: pixel > survey > affiliate network > promo codes == UTM links == vanity URLs
    efficiency:      promo codes == UTM links > survey > affiliate network > vanity URLs > pixel

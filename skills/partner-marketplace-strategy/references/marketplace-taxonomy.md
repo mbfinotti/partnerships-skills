@@ -17,7 +17,7 @@ No single ordering spans all five. The Interview's B2B/B2C answer picks the list
 - effort: `SaaS app store == hyperscaler cloud > integration directory`
 - compliance cost: `SaaS app store > hyperscaler cloud > integration directory`
 
-The effort tie is real, not a dodge: each rung costs about a quarter of coordinated work before a first dollar can transact, and neither compresses by adding an owner.
+The effort tie is real, not a dodge: each rung costs a month or two of coordinated work before a first dollar can transact, and neither compresses by adding an owner. The engineering inside each is a week or two; tax, payout and the platform's review set the rest.
 
 - Hyperscaler cloud: metering, entitlement, tax and payout setup.
 - SaaS app store: billing integration and a platform review cycle.
@@ -49,20 +49,20 @@ The one ladder where value and effort genuinely climb together, and the rungs ar
 
 - efficiency: `private offer > transactable > list-only > channel offer`
 - value: `private offer > channel offer > transactable > list-only`
-- effort: `channel offer > private offer == transactable > list-only`
+- effort: `channel offer > private offer > transactable > list-only`
 - compliance cost: `channel offer > private offer > transactable > list-only`
 
-Private offer and transactable tie on effort because each costs roughly a quarter before returning anything, in departments that cannot substitute for each other.
+Private offer costs more than transactable because the two rungs sit in departments that cannot substitute for each other, and only one of them is fast.
 
-- Engineering builds metering, entitlement and payout.
-- The deal desk rebuilds around negotiated terms and a written comp-neutrality policy.
+- Engineering builds metering, entitlement and payout: a month or two including legal and tax setup, of which the build itself is a week or two.
+- The deal desk rebuilds around negotiated terms and a written comp-neutrality policy: a quarter of political capital, which does not shrink.
 
-Aim the business case at the private-offer rung and treat transactable as the toll: a case that stops at transactable has paid nearly the whole cost for the smaller half of the value.
+Aim the business case at the private-offer rung and treat transactable as the toll: a case that stops at transactable has paid the engineering toll and left the larger half of the value on the table.
 
 Default rung: transactable, funded as a private-offer program. The condition that moves you up is first transactions closed, renewals first.
 
 1. **List-only ("contact me")** - near-zero effort, near-zero revenue. Buys exactly one thing: proof that target buyers search there. Gate to climb: that evidence exists.
-2. **Transactable public offer** - the listing can be bought. Requires metering/entitlement engineering (commonly cited at 4-8 weeks), legal document harmonization, tax and payout setup. Gate: those capabilities funded and owned.
+2. **Transactable public offer** - the listing can be bought. Requires metering/entitlement engineering (commonly cited at 4-8 weeks; the build itself is nearer one to two weeks, most of it testing against the platform), legal document harmonization, tax and payout setup. Gate: those capabilities funded and owned.
 3. **Private offer** - negotiated price and custom terms. It is the enterprise workhorse and where most cloud-marketplace revenue actually flows. Requires a deal desk rebuilt around private offers and comp neutrality in writing - political capital, not engineering. Gate: first transactions proven (renewals are the documented low-risk path) and field alignment started.
 4. **Channel / multiparty private offer** - routes a reseller or SI into the transaction (CPPO on one major cloud; multiparty offers on others) for a small fee uplift, on top of a three-party contract and a standing co-sell operation. Gate: a real channel motion exists to route.
 
@@ -79,7 +79,7 @@ Delete every rung the user's effort ceiling rules out from the memo, and name wh
 2. **Transactable / paid app** - platform billing, revenue share applies, and the platform's review becomes a dependency on every release.
 3. **Deep platform bet** - build on the platform's preferred architecture, pursue featuring and co-marketing.
 
-The order starves the deep bet: a quarter or more of engineering aimed at an architecture only one operator accepts, and the least reversible commitment in this file. Promote it when that platform owns the ICP's daily workflow _and_ the operator's fee schedule pays for the migration.
+The order starves the deep bet: a month or more of engineering aimed at an architecture only one operator accepts, and the least reversible commitment in this file. Promote it when that platform owns the ICP's daily workflow _and_ the operator's fee schedule pays for the migration.
 
 Operators price architectures differently to steer exactly this choice: on AWS Marketplace a SaaS listing takes 3% where a server image takes 20%. That gap is the decision this rung actually turns on.
 

@@ -28,7 +28,7 @@ Value and effort run in exactly the same order, which is the whole decision: the
 
 Deleted, not demoted: running any test at all on a program too small for its arm to reach significance. Below that scale the answer is noise dressed as evidence; stay on the new-to-file screen and the partner-type mix, and say so in Open items.
 
-Re-rank against what is already there: an experimentation platform already running product holdouts collapses the holdout test's effort to a week, and a program already split across matched markets makes geo-lift the cheapest real test rather than the second-costliest.
+Re-rank against what is already there: an experimentation platform already running product holdouts collapses the holdout test's effort to a few days, and a program already split across matched markets makes geo-lift the cheapest real test rather than the second-costliest.
 
 Lift-test data suggests that when cannibalization occurs, revenue usually redistributes to top-of-funnel content partners rather than to other channels [VENDOR] - cutting a low-incrementality partner rarely destroys the demand.
 

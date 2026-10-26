@@ -25,8 +25,8 @@ Three anchors, ranked by efficiency - confidence in the number per unit of analy
 | Anchor                          | Published range                                             | Effort to compute                             | Notes                                                                       |
 | ------------------------------- | ----------------------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------- |
 | % of CAC                        | 40-60% of blended/paid CAC                                  | Near-zero - finance already reports it        | Guarantees referral CAC beats the paid channel it displaces                 |
-| % of LTV (combined, both sides) | 10-30% of first-year LTV consumer; 10-15% B2B               | An hour, or a week when churn data is thin    | The most common practitioner band                                           |
-| Payback discipline              | Reward paid back by referred gross profit within ~12 months | A week - requires a cohort gross-profit curve | Compute against first 3/6/12 months of gross profit depending on churn risk |
+| % of LTV (combined, both sides) | 10-30% of first-year LTV consumer; 10-15% B2B               | An hour, or a day when churn data is thin     | The most common practitioner band                                           |
+| Payback discipline              | Reward paid back by referred gross profit within ~12 months | A day or two - requires a cohort gross-profit curve | Compute against first 3/6/12 months of gross profit depending on churn risk |
 
 **Default rung**: % of CAC. Move up to payback discipline when churn is front-loaded or the LTV figure is a guess dressed as a number - that is exactly the case the least-effort anchor cannot catch.
 
@@ -59,7 +59,7 @@ At exactly $100 they are equal. Grounded in reference-dependence (people evaluat
 
 Roughly half of referral rewards in academic data go to customers who would have joined anyway (Kumar, Petersen & Leone's type-one vs type-two referral distinction, _Journal of Marketing_ 2010). The canonical freemium success story confirms the pattern: about a third of its signups already came from word-of-mouth _before_ its referral program launched - the program captured existing word-of-mouth rather than creating it.
 
-Two diagnostics to build into the spec - **efficiency: holdout > on/off check**. Pausing the program costs no engineering but buys a read that seasonality and word-of-mouth spillover both confound; the holdout costs a week to design and actually answers the question. Fall back to the on/off check only when the base cannot be segmented cleanly.
+Two diagnostics to build into the spec - **efficiency: holdout > on/off check**. Pausing the program costs no engineering but buys a read that seasonality and word-of-mouth spillover both confound; the holdout costs a day or two to design and actually answers the question. Fall back to the on/off check only when the base cannot be segmented cleanly.
 
 1. **Holdout test**: withhold the program from a slice of customers or a geography. If total acquisition stays flat while CAC rises, rewards are cannibalizing organic referrals. Design the holdout strictly - referral is the channel most prone to word-of-mouth leaking into the control group.
 2. **The crude on/off check**: pause the program briefly; if new-customer volume barely moves, most rewarded referrals were type-two.
@@ -81,8 +81,8 @@ The ladder outranks stepwise on efficiency despite costing more to build, becaus
 | Shape            | Effort to run                                                                                                                           | Mechanism                                                               | Fits                                      |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------- |
 | Flat             | Near-zero - one reward, one rule to explain                                                                                             | Same reward per referral for everyone                                   | Default; low volume; B2B                  |
-| Threshold ladder | A quarter to build (milestone accounting, progress display, cap enforcement), plus a standing fulfillment job if the rungs are physical | Escalating rewards at cumulative milestones (3 → 5 → 10 → 25...)        | Newsletters, communities, high-volume B2C |
-| Stepwise         | A week - one instrumented event per step, plus partial-payout accounting                                                                | Different rewards for different actions (share, signup, first purchase) | Multi-step funnels with long conversion   |
+| Threshold ladder | A few weeks to build (milestone accounting, progress display, cap enforcement), plus a standing fulfillment job if the rungs are physical | Escalating rewards at cumulative milestones (3 → 5 → 10 → 25...)        | Newsletters, communities, high-volume B2C |
+| Stepwise         | A day or two - one instrumented event per step, plus partial-payout accounting                                                          | Different rewards for different actions (share, signup, first purchase) | Multi-step funnels with long conversion   |
 
 **Default rung**: flat. The ladder loses every round on ratio and is still the right answer for a high-volume, low-value-per-referral program - the condition that promotes it is the three-part fit test above, never the ratio. Re-rank against what the user already owns: a rewards platform that ships milestone tracking and progress bars out of the box erases most of the ladder's effort, and with it the gap to flat.
 

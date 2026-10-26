@@ -4,7 +4,7 @@ description: Sequence the training, content, and certification a B2B partner pro
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.0.8"
+  version: "1.0.9"
 ---
 
 # Partner Enablement
@@ -51,7 +51,7 @@ Those last three answers re-rank every option menu in this skill, so ask them be
    | Approach                                 | Build effort                                           | Time to first partner deal     | What it buys                                                                            |
    | ---------------------------------------- | ------------------------------------------------------ | ------------------------------ | --------------------------------------------------------------------------------------- |
    | Minimum-viable first-deal path (default) | a week                                                 | weeks                          | partners transacting while most of the curriculum is still unwritten                    |
-   | Certification-first launch               | a quarter, plus sign-off on what the credential claims | a quarter or more              | a defensible capability gate and a tier criterion, before any deal proves one is needed |
+   | Certification-first launch               | weeks, plus sign-off on what the credential claims     | a quarter or more              | a defensible capability gate and a tier criterion, before any deal proves one is needed |
    | Comprehensive up-front curriculum        | a standing job                                         | a quarter or more, often never | full coverage of every role and type, at the price of the firehose failure mode         |
    - efficiency: minimum-viable first-deal > certification-first > comprehensive up-front
    - value: comprehensive up-front > certification-first > minimum-viable first-deal
@@ -73,7 +73,7 @@ Those last three answers re-rank every option menu in this skill, so ask them be
    A rung parked at the bottom returns as scope nobody budgeted. Re-rank against what you already know: an existing demo environment, partners who are already technical, or direct-sales collateral that adapts cleanly all cut the top two rows' effort and can move a rung up.
 
 5. Design backwards from the first deal: define the minimum viable knowledge, access, and actions a partner needs to register one qualified opportunity - and size it in partner hours. Everything beyond that path is explicitly post-first-deal training, not a prerequisite. A comprehensive up-front curriculum is the firehose failure mode.
-6. Split tracks by partner ROLE (sales rep, solutions architect, delivery consultant, partner marketer, executive sponsor) and by partner TYPE (a referral partner needs a short overview; an implementation partner needs multi-day technical depth). Build them in the ranked order that reference gives - every customer-facing role that exists in the base still gets a track, the ranking only decides which exists first. A role the partner base does not contain is deleted from the audience map and named there as deleted, never scheduled late; a referral-only base has no delivery consultant, and a track left pending for one reappears as a quarter of work nobody planned. See [references/curriculum-architecture.md](references/curriculum-architecture.md).
+6. Split tracks by partner ROLE (sales rep, solutions architect, delivery consultant, partner marketer, executive sponsor) and by partner TYPE (a referral partner needs a short overview; an implementation partner needs multi-day technical depth). Build them in the ranked order that reference gives - every customer-facing role that exists in the base still gets a track, the ranking only decides which exists first. A role the partner base does not contain is deleted from the audience map and named there as deleted, never scheduled late; a referral-only base has no delivery consultant, and a track left pending for one reappears as a few weeks of work nobody planned. See [references/curriculum-architecture.md](references/curriculum-architecture.md).
 7. Decide what is enabled before signature vs after: the partner value case and economics come before; product, sales, and technical training come after. Training a partner who has no economic reason to invest is the documented "no value proposition for the partner" pitfall.
 8. Decide whether to certify at all, and what each certification gates. Certification can BE a tier criterion - if so, state it and hand the criteria design to `mbfinotti/partnerships-skills@partner-tiering`. See [references/certification-design.md](references/certification-design.md).
 9. Set the refresh cadence per asset class, with a named owner per asset - stale content misleads partners more quietly than no content.
